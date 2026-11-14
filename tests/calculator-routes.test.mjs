@@ -5,6 +5,25 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/fha-home-loan-calculator/', '/mortgages/fha-home-loan-calculator/']) {
+  test(`${path} renders the FHA mortgage and insurance estimate`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Your FHA Home Loan Estimate/);
+    assert.match(html, /\$1,994\.55/);
+    assert.match(html, /\$5,066\.25/);
+    assert.match(html, /What Are the FHA Loan Limits in 2026\?/);
+    assert.match(html, /href="https:\/\/microfinancepost.com\/calculators\/fha-home-loan-calculator\/"/);
+    assert.doesNotMatch(html, /This calculator is being built/);
+  });
+}
+test('FHA calculator is discoverable and rejects the wrong category', async () => {
+  const sitemap = await (await fetch(new URL('/sitemap.xml', baseUrl))).text();
+  assert.ok(sitemap.includes('/calculators/fha-home-loan-calculator/'));
+  assert.equal((await fetch(new URL('/savings/fha-home-loan-calculator/', baseUrl))).status, 404);
+});
+
 for (const path of ['/calculators/commercial-mortgage-calculator/', '/business/commercial-mortgage-calculator/']) {
   test(`${path} renders the commercial payment and balloon calculator`, async () => {
     const response = await fetch(new URL(path, baseUrl));
