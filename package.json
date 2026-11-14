@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test:routes": "node --experimental-strip-types --test tests/calculator-routes.test.mjs",
     "test": "node --experimental-strip-types --test lib/financial-calculations.test.ts lib/batch-two-calculations.test.ts lib/batch-four-calculations.test.ts lib/remaining-calculations.test.ts"
   },
   "dependencies": {

@@ -12,9 +12,18 @@ import { FinancialCalculatorPage } from '@/components/calculators/FinancialCalcu
 import { remainingPages } from '@/lib/remaining-pages';
 import type { RemainingSlug } from '@/lib/remaining-calculations';
 import { RemainingCalculatorPage } from '@/components/calculators/RemainingCalculatorPage';
+import { batchTwoPages, type BatchTwoSlug } from '@/lib/batch-two-pages';
+import { BatchTwoCalculatorPage } from '@/components/calculators/BatchTwoCalculatorPage';
+import { batchFourPages, type BatchFourSlug } from '@/lib/batch-four-pages';
+import { BatchFourCalculatorPage } from '@/components/calculators/BatchFourCalculatorPage';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  const categoryPage = batchFourPages[slug as BatchFourSlug] ?? batchTwoPages[slug as BatchTwoSlug];
+  if (categoryPage) {
+    const canonical = `https://microfinancepost.com/${categoryPage.category}/${slug}/`;
+    return { title: categoryPage.title, description: categoryPage.description, alternates: { canonical }, openGraph: { title: categoryPage.title, description: categoryPage.description, url: canonical, type: 'website' } };
+  }
   if (slug in remainingPages) {
     const page = remainingPages[slug as RemainingSlug];
     const canonical = `https://microfinancepost.com/calculators/${slug}/`;
@@ -33,6 +42,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CalculatorDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug in batchFourPages) return <BatchFourCalculatorPage slug={slug as BatchFourSlug} />;
+  if (slug in batchTwoPages) return <BatchTwoCalculatorPage slug={slug as BatchTwoSlug} />;
   if (slug in remainingPages) return <RemainingCalculatorPage slug={slug as RemainingSlug} />;
   if (slug in financialPages) return <FinancialCalculatorPage slug={slug as FinancialPageSlug} />;
   const calc = getCalculator(slug);
