@@ -1462,3 +1462,6 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 @media (max-width: 540px) {
   .finance-article, .guide-block, .narrow-content { font-size: 1.125rem; }
 }
+
+/* Keep calculator return links clear of the sticky site header. */
+.finance-calculator-grid[id], .finance-page > [id] { scroll-margin-top: 7rem; }
