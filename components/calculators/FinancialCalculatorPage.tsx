@@ -2,8 +2,9 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { DtiCalculator, EmergencyFundCalculator, CdInterestCalculator } from './FinancialCalculator';
 import { financialPages, type FinancialPageSlug } from '@/lib/financial-pages';
-import { CdSupportingArticle, DtiSupportingArticle } from './FinancialSupportingContent';
+import { DtiSupportingArticle } from './FinancialSupportingContent';
 import { EmergencyFundSupportingContent } from './EmergencyFundSupportingContent';
+import { CdInterestSupportingContent } from './CdInterestSupportingContent';
 
 const sources: Record<FinancialPageSlug, { label: string; href: string }[]> = {
   'debt-to-income-ratio-calculator': [{ label: 'Consumer Financial Protection Bureau: What is a debt-to-income ratio?', href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/' }],
@@ -49,12 +50,12 @@ export function FinancialCalculatorPage({ slug }: { slug: FinancialPageSlug }) {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />
     <header className="finance-page-heading"><div className="container-site"><nav className="crumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><ChevronRight size={15} /><Link href={`/${page.category}/`}>{page.category === 'debt' ? 'Debt' : 'Savings'}</Link><ChevronRight size={15} /><span>{page.name}</span></nav><h1>{page.name}</h1><p>{page.intro}</p><p className="finance-byline">By David · <Link href="/about/">Calculation methodology</Link></p></div></header>
     <main className="finance-page container-site">
-      <Calculator />
+      {slug === 'cd-interest-calculator' ? <div id="cd-interest-calculator"><Calculator /></div> : <Calculator />}
       <article className="finance-article">
         {slug === 'debt-to-income-ratio-calculator' && <DtiSupportingArticle />}
         {slug === 'emergency-fund-calculator' && <EmergencyFundSupportingContent />}
-        {slug === 'cd-interest-calculator' && <CdSupportingArticle />}
-        {slug !== 'emergency-fund-calculator' && <><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
+        {slug === 'cd-interest-calculator' && <CdInterestSupportingContent />}
+        {slug === 'debt-to-income-ratio-calculator' && <><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
         <section className="finance-sources"><h2>Sources and methodology</h2><p>We use the formulas shown above and the information from these authoritative sources. Calculator results are estimates for education and planning, not financial advice, an offer, or a loan decision. Learn more about our <Link href="/about/">editorial approach</Link>.</p><ul>{sources[slug].map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul></section></>}
       </article>
       <nav className="finance-related" aria-label="Related calculators"><h2>Related calculators</h2>{related.map(([name, href]) => <Link key={href} href={href}>{name}<span aria-hidden="true">→</span></Link>)}</nav>
