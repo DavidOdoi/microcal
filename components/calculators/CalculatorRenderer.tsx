@@ -187,7 +187,7 @@ function MortgageCalculator() {
         <Field label="Insurance / month" value={insurance} onChange={setInsurance} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Monthly payment</small>
           <strong>{formatMoney(result.monthlyPayment)}</strong>
@@ -227,7 +227,7 @@ function RetirementCalculator() {
         <Field label="Employer match (%)" value={matchPercent} onChange={setMatchPercent} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Projected value</small>
           <strong>{formatMoney(result.balance)}</strong>
@@ -261,7 +261,7 @@ function PaycheckCalculator() {
         <Field label="Other deductions" value={deductions} onChange={setDeductions} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Net pay</small>
           <strong>{formatMoney(result.net)}</strong>
@@ -297,7 +297,7 @@ function CreditCardCalculator() {
         <Field label="Monthly payment" value={monthlyPayment} onChange={setMonthlyPayment} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Payoff time</small>
           <strong>{result.months} months</strong>
@@ -335,7 +335,7 @@ function CompoundInterestCalculator() {
         <Field label="Monthly contribution" value={monthlyContribution} onChange={setMonthlyContribution} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Future value</small>
           <strong>{formatMoney(result.finalValue)}</strong>
@@ -369,7 +369,7 @@ function SavingsCalculator() {
         <Field label="Monthly deposit" value={monthlyContribution} onChange={setMonthlyContribution} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Estimated balance</small>
           <strong>{formatMoney(result.finalValue)}</strong>
@@ -400,7 +400,7 @@ function BudgetCalculator() {
         <Field label="Savings goals" value={savings} onChange={setSavings} />
       </div>
 
-      <div className="result-list">
+      <div className="result-list" aria-live="polite"><h2>Your results</h2>
         <div>
           <small>Remaining</small>
           <strong>{formatMoney(result.remaining)}</strong>

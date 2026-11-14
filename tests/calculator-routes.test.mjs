@@ -41,3 +41,27 @@ test('every published calculator also works through the navigation URL', async (
     assert.doesNotMatch(html, /This calculator is being built/, path);
   }
 });
+
+test('HELOC uses the supplied article and the new payment summary', async () => {
+  const response = await fetch(new URL('/calculators/heloc-payment-calculator/', baseUrl));
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /Calculate Payment/);
+  assert.match(html, /Your HELOC Payments/);
+  for (const amount of ['$266.67', '$382.26', '$44,806.95', '$84,806.95']) {
+    assert.ok(html.includes(amount), `default estimate ${amount}`);
+  }
+  const article = html.match(/<article class="finance-article">([\s\S]*?)<\/article>/)?.[1];
+  assert.ok(article, 'supporting article');
+  assert.match(article, /What Is a HELOC Payment\?/);
+  assert.match(article, /How Does a HELOC Payment Calculator Work\?/);
+  assert.match(article, /HELOC Payment Calculation Example/);
+  assert.match(article, /How much is the monthly payment on a \$50,000 HELOC\?/);
+  assert.match(article, /Final Thoughts/);
+  assert.equal((article.match(/<table>/g) || []).length, 2);
+  assert.match(article, /href="\/calculators\/refinance-calculator\/"/);
+  assert.match(article, /href="\/calculators\/budget-calculator\/"/);
+  assert.match(article, /href="\/loans\/loan-interest-calculator\/"/);
+  assert.doesNotMatch(article, /Sources and methodology/);
+  assert.doesNotMatch(article, /Do HELOC payments increase after the draw period\?/);
+});

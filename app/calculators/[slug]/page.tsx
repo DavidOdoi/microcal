@@ -69,7 +69,7 @@ export default async function CalculatorDetailPage({ params }: { params: Promise
         {calc.description}
       </PageHero>
 
-      <CalculatorTemplate inputs={<CalculatorRenderer slug={slug} />} results={<ResultPanel slug={slug} />} />
+      <CalculatorTemplate inputs={<CalculatorRenderer slug={slug} />} />
 
       <section className="container-site section-block">
         <h2 className="section-title">More {category.name.toLowerCase()} tools</h2>
@@ -80,15 +80,5 @@ export default async function CalculatorDetailPage({ params }: { params: Promise
         </div>
       </section>
     </>
-  );
-}
-
-function ResultPanel({ slug }: { slug: string }) {
-  return (
-    <div className="result-card">
-      <p className="results-label">Your results</p>
-      <h3>{slug.replace(/-/g, ' ')}</h3>
-      <p>Use the calculator inputs to update the live estimate instantly.</p>
-    </div>
   );
 }

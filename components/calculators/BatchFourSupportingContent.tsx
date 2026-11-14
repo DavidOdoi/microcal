@@ -61,35 +61,6 @@ export function SavingsRunwayArticle() {
   </>;
 }
 
-export function HelocArticle() {
-  return <>
-    <section className="finance-article-section">
-      <h2>How to Calculate HELOC Payments</h2>
-      <p>A home equity line of credit (HELOC) is revolving credit secured by a home. A plan can let a borrower draw, repay, and borrow again during a set draw period, subject to the agreement and available credit. The payment method can vary by lender. This calculator shows a simplified monthly estimate for an interest-only or user-entered principal-and-interest draw payment, followed by a fixed-rate amortization scenario.</p>
-      <p>For an interest-only draw payment with a constant balance, monthly interest is the balance multiplied by the annual nominal rate and divided by 12. On a $40,000 balance at 8%, the estimate is $40,000 × 0.08 ÷ 12, or about $266.67 per month before fees. This payment covers modeled interest but does not reduce principal, so the balance can remain near $40,000 until repayment begins.</p>
-      <p>At the end of the draw period, the repayment calculation takes the balance then outstanding and spreads principal and interest over the repayment term. If $40,000 is amortized over 15 years at the same 8% annual rate, the estimated payment is about $382.26 per month before fees. The increase from the $266.67 interest-only payment is about $115.59. Actual agreements may use a different minimum payment formula, variable rates, daily accrual, or a balloon payment, so this example is not a lender quote.</p>
-      <div className="finance-formula">Interest-only monthly estimate = balance × annual rate ÷ 12<br/>Repayment payment = balance × monthly rate ÷ [1 − (1 + monthly rate)<sup>−months</sup>]</div>
-      <p>The draw phase in this tool can include an additional amount borrowed now, a selected monthly principal-and-interest payment, and extra principal each month. The model calculates monthly interest, applies the entered payment, and updates the remaining balance. Any entered extra draw is treated as borrowed at the start of the projection. No future optional borrowing is added automatically.</p>
-    </section>
-    <section className="finance-article-section">
-      <h2>HELOC Draw Period vs Repayment Period</h2>
-      <p>During the draw period, a borrower may have access to available credit and may be allowed to make interest-only payments or payments that include principal. At the end of this phase, the ability to draw generally stops and the outstanding balance moves into repayment under the contract. The payment can rise because the borrower must repay principal over a limited period as well as cover interest.</p>
-      <p>The <a href="https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-line-of-credit-heloc-en-107/" target="_blank" rel="noreferrer">Consumer Financial Protection Bureau explains that the draw period ends before the repayment period begins</a>, that payments are often significantly higher after the transition, and that some plans can require the full balance at once. Read the account agreement to find the length of both phases, the payment formula, minimum payment, conversion options, fees, rate caps, and any balloon provision.</p>
-      <p>This calculator adds a monthly and annual fee as a cash cost on top of the modeled principal-and-interest payment. Fees do not reduce the balance in this estimate. The total repayment figure adds the starting borrowed balance, simulated interest, and the fees across modeled months. It does not add fees to principal or calculate a lender’s official APR.</p>
-      <p>Consider what happens if you have not repaid much principal by the end of the draw period. With an interest-only payment, the principal may remain unchanged unless you make additional principal payments or the agreement requires another structure. A shorter repayment period can mean a much higher payment. A balloon payment could require a large lump sum, refinancing, or sale of assets; refinancing may not be available on acceptable terms when needed.</p>
-      <p>For context on a mortgage payment that includes principal, interest, taxes, and insurance, see our <Link href="/calculators/mortgage-calculator/">mortgage calculator</Link>. A HELOC is different from a closed-end home loan because it is a line that can generally be drawn multiple times during the access period. The payment estimate here covers only the scenarios entered, not every feature of a home equity plan.</p>
-    </section>
-    <section className="finance-article-section">
-      <h2>How Variable Interest Rates Affect HELOC Payments</h2>
-      <p>Many HELOCs have a variable rate tied to an index plus a lender margin. The payment can change even if the balance stays the same. Review how often the rate can adjust, whether there is an introductory rate, and any periodic or lifetime limits. A current rate alone cannot tell you what every future payment will be.</p>
-      <p>The optional repayment-rate field lets you test one alternative annual rate for the entire repayment phase. It is a static what-if case, not a prediction of future benchmark rates or a lender’s rate cap calculation. Compare the result at the current rate with one or more higher scenarios, especially if a payment increase would strain your budget. The current draw-period rate is held constant during the draw illustration.</p>
-      <p>Interest can be calculated from daily balances rather than a simple monthly average. The actual charge may depend on the number of days in the billing cycle, when an advance or payment posts, and whether the rate changes inside the cycle. This calculator uses monthly periods and does not reproduce those details, late charges, minimum draws, line freezes, or contract-specific payment options.</p>
-      <p>A HELOC is secured by the home. Falling behind can have serious consequences, including the possibility of foreclosure. Before borrowing, test whether you could still make payments if rates rise, income falls, or the repayment period begins sooner than expected. Keep a plan for other housing costs and avoid relying on refinancing as the only way to repay the balance.</p>
-      <p>Use your current statement and agreement to replace estimates with the line’s actual balance, rate, and fees. Contact the servicer for a written payment schedule or payoff quote before making a major financial decision. This page provides general educational estimates and is not personalized financial, legal, tax, or mortgage advice.</p>
-    </section>
-  </>;
-}
-
 export function StudentLoanArticle() {
   return <>
     <section className="finance-article-section">

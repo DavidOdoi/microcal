@@ -7,19 +7,19 @@ export function CalculatorTemplate({
   guide,
 }: {
   inputs: ReactNode;
-  results: ReactNode;
+  results?: ReactNode;
   guide?: ReactNode;
 }) {
   return (
     <div className="container-site calculator-shell">
-      <div className="calculator-grid">
+      {results ? <div className="calculator-grid">
         <section className="panel panel-input" aria-label="Calculator inputs">
           {inputs}
         </section>
         <section className="panel panel-results" aria-label="Results">
           {results}
         </section>
-      </div>
+      </div> : inputs}
 
       <p className="privacy-note">
         <ShieldCheck size={16} /> Calculations run in your browser. We never store what you enter.
