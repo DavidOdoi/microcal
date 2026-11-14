@@ -5,6 +5,24 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/commercial-mortgage-calculator/', '/business/commercial-mortgage-calculator/']) {
+  test(`${path} renders the commercial payment and balloon calculator`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Your Commercial Mortgage Estimate/);
+    assert.match(html, /\$3,876\.49/);
+    assert.match(html, /What Is a Balloon Payment on a Commercial Mortgage\?/);
+    assert.match(html, /href="https:\/\/microfinancepost.com\/calculators\/commercial-mortgage-calculator\/"/);
+    assert.doesNotMatch(html, /This calculator is being built/);
+  });
+}
+test('commercial mortgage is discoverable and rejects the wrong category', async () => {
+  const sitemap = await (await fetch(new URL('/sitemap.xml', baseUrl))).text();
+  assert.ok(sitemap.includes('/calculators/commercial-mortgage-calculator/'));
+  assert.equal((await fetch(new URL('/savings/commercial-mortgage-calculator/', baseUrl))).status, 404);
+});
+
 for (const path of ['/calculators/home-equity-loan-calculator/', '/home-equity/home-equity-loan-calculator/']) {
   test(`${path} renders the fixed-rate equity loan and supplied article`, async () => {
     const response = await fetch(new URL(path, baseUrl));

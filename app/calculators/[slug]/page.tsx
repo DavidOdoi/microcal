@@ -1,5 +1,4 @@
-import { HomeEquityLoanCalculatorPage, homeEquityLoanMetadata } from '@/components/calculators/HomeEquityLoanCalculatorPage';
-import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from '@/components/calculators/RentVsBuyCalculatorPage';
+import { getCustomCalculatorPage } from '@/components/calculators/custom-calculator-pages';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
@@ -22,8 +21,8 @@ import { BatchFourCalculatorPage } from '@/components/calculators/BatchFourCalcu
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  if (slug === 'home-equity-loan-calculator') return homeEquityLoanMetadata;
-  if (slug === 'rent-vs-buy-calculator') return rentVsBuyMetadata;
+  const customPage = getCustomCalculatorPage(slug);
+  if (customPage) return customPage.metadata;
   const categoryPage = batchFourPages[slug as BatchFourSlug] ?? batchTwoPages[slug as BatchTwoSlug];
   if (categoryPage) {
     const canonical = `https://microfinancepost.com/${categoryPage.category}/${slug}/`;
@@ -47,8 +46,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CalculatorDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  if (slug === 'home-equity-loan-calculator') return <HomeEquityLoanCalculatorPage />;
-  if (slug === 'rent-vs-buy-calculator') return <RentVsBuyCalculatorPage />;
+  const customPage = getCustomCalculatorPage(slug);
+  if (customPage) { const Page = customPage.Component; return <Page />; }
   if (slug in batchFourPages) return <BatchFourCalculatorPage slug={slug as BatchFourSlug} />;
   if (slug in batchTwoPages) return <BatchTwoCalculatorPage slug={slug as BatchTwoSlug} />;
   if (slug in remainingPages) return <RemainingCalculatorPage slug={slug as RemainingSlug} />;

@@ -146,7 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
-  'home-equity-loan-calculator', 'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
+  'commercial-mortgage-calculator', 'home-equity-loan-calculator', 'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
   'compound-interest-calculator', 'savings-calculator', 'budget-calculator',
   'debt-to-income-ratio-calculator', 'emergency-fund-calculator', 'cd-interest-calculator',
   'high-yield-savings-account-calculator', 'auto-loan-payoff-calculator', 'loan-interest-calculator',
@@ -166,6 +166,7 @@ export const calculators: Calculator[] = [
   makeCalculator('loans', 'student-loan-calculator', 'Student Loan Calculator', 'Plan repayment for federal and private student loans.'),
   makeCalculator('loans', 'loan-comparison-calculator', 'Loan Comparison Calculator', 'Compare two loan offers side by side.'),
   makeCalculator('loans', 'loan-interest-calculator', 'Loan Interest Calculator', 'Estimate total interest and repayment for simple-interest and amortizing loans.'),
+  makeCalculator('business', 'commercial-mortgage-calculator', 'Commercial Mortgage Calculator', 'Compare commercial loan payments, balloon balances, loan-to-value and DSCR.'),
   makeCalculator('business', 'business-loan-payment-calculator', 'Business Loan Payment Calculator', 'Estimate business loan payments, interest, fees, and cash proceeds.'),
   makeCalculator('student-loans', 'student-loan-interest-calculator', 'Student Loan Interest Calculator', 'Estimate daily and accrued student loan interest over selected dates.'),
   makeCalculator('mortgages', 'rent-vs-buy-calculator', 'Rent vs. Buy Calculator', 'Compare renting and buying a home by monthly costs and projected financial position.'),

@@ -1,5 +1,4 @@
-import { HomeEquityLoanCalculatorPage, homeEquityLoanMetadata } from '@/components/calculators/HomeEquityLoanCalculatorPage';
-import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from '@/components/calculators/RentVsBuyCalculatorPage';
+import { getCustomCalculatorPage } from '@/components/calculators/custom-calculator-pages';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCalculator } from '@/lib/site-data';
@@ -14,13 +13,10 @@ type RouteParams = { category: string; slug: string };
 
 export async function generateMetadata({ params }: { params: Promise<RouteParams> }): Promise<Metadata> {
   const { category, slug } = await params;
-  if (slug === 'home-equity-loan-calculator') {
-    if (category !== 'home-equity') notFound();
-    return homeEquityLoanMetadata;
-  }
-  if (slug === 'rent-vs-buy-calculator') {
-    if (category !== 'mortgages') notFound();
-    return rentVsBuyMetadata;
+  const customPage = getCustomCalculatorPage(slug);
+  if (customPage) {
+    if (category !== customPage.category) notFound();
+    return customPage.metadata;
   }
   if (slug in batchFourPages) {
     const page = batchFourPages[slug as BatchFourSlug];
@@ -50,13 +46,11 @@ export async function generateMetadata({ params }: { params: Promise<RouteParams
 
 export default async function CategoryCalculatorPage({ params }: { params: Promise<RouteParams> }) {
   const { category, slug } = await params;
-  if (slug === 'home-equity-loan-calculator') {
-    if (category !== 'home-equity') notFound();
-    return <HomeEquityLoanCalculatorPage />;
-  }
-  if (slug === 'rent-vs-buy-calculator') {
-    if (category !== 'mortgages') notFound();
-    return <RentVsBuyCalculatorPage />;
+  const customPage = getCustomCalculatorPage(slug);
+  if (customPage) {
+    if (category !== customPage.category) notFound();
+    const Page = customPage.Component;
+    return <Page />;
   }
   if (slug in batchFourPages) {
     if (batchFourPages[slug as BatchFourSlug].category !== category) notFound();
