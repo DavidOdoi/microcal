@@ -4,12 +4,14 @@ import { batchFourPages, type BatchFourSlug } from '@/lib/batch-four-pages';
 import { BusinessLoanCalculator, SavingsRunwayCalculator, StudentLoanInterestCalculator } from './BatchFourCalculator';
 import { HelocCalculator } from './HelocCalculator';
 import { HelocSupportingContent } from './HelocSupportingContent';
-import { SavingsRunwayArticle, StudentLoanArticle } from './BatchFourSupportingContent';
+import { SavingsRunwayArticle } from './BatchFourSupportingContent';
 
 import { BusinessLoanSupportingContent } from './BusinessLoanSupportingContent';
 
+import { StudentLoanInterestSupportingContent } from './StudentLoanInterestSupportingContent';
+
 const calculators = { business: BusinessLoanCalculator, runway: SavingsRunwayCalculator, heloc: HelocCalculator, student: StudentLoanInterestCalculator };
-const articles = { business: BusinessLoanSupportingContent, runway: SavingsRunwayArticle, heloc: HelocSupportingContent, student: StudentLoanArticle };
+const articles = { business: BusinessLoanSupportingContent, runway: SavingsRunwayArticle, heloc: HelocSupportingContent, student: StudentLoanInterestSupportingContent };
 const sources: Record<BatchFourSlug, { label: string; href: string }[]> = {
   'business-loan-payment-calculator': [{ label: 'CFPB: How a loan interest rate differs from APR', href: 'https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-loan-interest-rate-and-the-apr-en-733/' }],
   'how-long-will-my-savings-last-calculator': [],
@@ -41,6 +43,6 @@ export function BatchFourCalculatorPage({ slug }: { slug: BatchFourSlug }) {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: structuredData }}/>
     <header className="finance-page-heading"><div className="container-site"><nav className="crumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><ChevronRight size={15}/><Link href={`/${page.category}/`}>{page.category.replaceAll('-', ' ')}</Link><ChevronRight size={15}/><span>{page.name}</span></nav><h1>{page.name}</h1><p>{page.intro}</p><p className="finance-byline">By David · <Link href="/about/">Calculation methodology</Link></p></div></header>
-    <main className="finance-page container-site"><div id={slug}><Calculator/></div><article className="finance-article">{(slug === 'heloc-payment-calculator' || slug === 'business-loan-payment-calculator') ? <Article/> : <><Article/><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section><section className="finance-sources"><h2>Sources and methodology</h2><p>These calculator results are estimates for education and planning, not lender quotes, guarantees, or personalized financial advice. Review your loan documents and current servicer information for terms that apply to you.</p>{sources[slug].length > 0 && <ul>{sources[slug].map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul>}<p>See the site’s <Link href="/about/">calculation methodology</Link> for general assumptions.</p></section></>}</article>{slug !== 'heloc-payment-calculator' && <nav className="finance-related" aria-label="Related calculators"><h2>Related calculators</h2>{related.map(([name, href]) => <Link key={href} href={href}>{name}<span aria-hidden="true">→</span></Link>)}</nav>}</main>
+    <main className="finance-page container-site"><div id={slug}><Calculator/></div><article className="finance-article">{(slug === 'heloc-payment-calculator' || slug === 'business-loan-payment-calculator' || slug === 'student-loan-interest-calculator') ? <Article/> : <><Article/><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section><section className="finance-sources"><h2>Sources and methodology</h2><p>These calculator results are estimates for education and planning, not lender quotes, guarantees, or personalized financial advice. Review your loan documents and current servicer information for terms that apply to you.</p>{sources[slug].length > 0 && <ul>{sources[slug].map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul>}<p>See the site’s <Link href="/about/">calculation methodology</Link> for general assumptions.</p></section></>}</article>{slug !== 'heloc-payment-calculator' && <nav className="finance-related" aria-label="Related calculators"><h2>Related calculators</h2>{related.map(([name, href]) => <Link key={href} href={href}>{name}<span aria-hidden="true">→</span></Link>)}</nav>}</main>
   </>;
 }
