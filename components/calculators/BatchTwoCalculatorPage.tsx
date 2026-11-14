@@ -2,12 +2,13 @@ import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { batchTwoPages, type BatchTwoSlug } from '@/lib/batch-two-pages';
 import { HighYieldSavingsCalculator, AutoLoanPayoffCalculator, LoanInterestCalculator } from './BatchTwoCalculator';
-import { AutoLoanPayoffArticle, LoanInterestArticle } from './BatchTwoSupportingContent';
+import { LoanInterestArticle } from './BatchTwoSupportingContent';
 
+import { AutoLoanPayoffSupportingContent } from './AutoLoanPayoffSupportingContent';
 import { HighYieldSavingsSupportingContent } from './HighYieldSavingsSupportingContent';
 
 const calculators = { hysa: HighYieldSavingsCalculator, auto: AutoLoanPayoffCalculator, loan: LoanInterestCalculator };
-const articles = { hysa: HighYieldSavingsSupportingContent, auto: AutoLoanPayoffArticle, loan: LoanInterestArticle };
+const articles = { hysa: HighYieldSavingsSupportingContent, auto: AutoLoanPayoffSupportingContent, loan: LoanInterestArticle };
 const sources: Record<BatchTwoSlug, { label: string; href: string }[]> = {
   'high-yield-savings-account-calculator': [{ label: 'CFPB Regulation DD, Appendix A: Annual Percentage Yield Calculation', href: 'https://www.consumerfinance.gov/rules-policy/regulations/1030/a/' }],
   'auto-loan-payoff-calculator': [
@@ -44,6 +45,6 @@ export function BatchTwoCalculatorPage({ slug }: { slug: BatchTwoSlug }) {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schema }} />
     <header className="finance-page-heading"><div className="container-site"><nav className="crumbs" aria-label="Breadcrumb"><Link href="/">Home</Link><ChevronRight size={15}/><Link href={`/${page.category}/`}>{page.category}</Link><ChevronRight size={15}/><span>{page.name}</span></nav><h1>{page.name}</h1><p>{page.intro}</p><p className="finance-byline">By David · <Link href="/about/">Calculation methodology</Link></p></div></header>
-    <main className="finance-page container-site">{slug === 'high-yield-savings-account-calculator' ? <div id={slug}><Calculator/></div> : <Calculator/>}<article className="finance-article"><Article/>{slug !== 'high-yield-savings-account-calculator' && <><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section><section className="finance-sources"><h2>Sources and methodology</h2><p>This page explains the assumptions used by the calculator and links to official consumer guidance. Results are estimates for education and planning, not lender quotes, guarantees, or personalized financial advice. For calculations, see the <Link href="/about/">site methodology</Link>.</p><ul>{sources[slug].map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul></section></>}</article><nav className="finance-related" aria-label="Related calculators"><h2>Related calculators</h2>{related.map(([name, href])=><Link key={href} href={href}>{name}<span aria-hidden="true">→</span></Link>)}</nav></main>
+    <main className="finance-page container-site">{slug !== 'loan-interest-calculator' ? <div id={slug}><Calculator/></div> : <Calculator/>}<article className="finance-article"><Article/>{slug === 'loan-interest-calculator' && <><section className="finance-article-section"><h2>Frequently Asked Questions</h2><div className="finance-faqs">{page.faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section><section className="finance-sources"><h2>Sources and methodology</h2><p>This page explains the assumptions used by the calculator and links to official consumer guidance. Results are estimates for education and planning, not lender quotes, guarantees, or personalized financial advice. For calculations, see the <Link href="/about/">site methodology</Link>.</p><ul>{sources[slug].map((source) => <li key={source.href}><a href={source.href} target="_blank" rel="noreferrer">{source.label}</a></li>)}</ul></section></>}</article><nav className="finance-related" aria-label="Related calculators"><h2>Related calculators</h2>{related.map(([name, href])=><Link key={href} href={href}>{name}<span aria-hidden="true">→</span></Link>)}</nav></main>
   </>;
 }
