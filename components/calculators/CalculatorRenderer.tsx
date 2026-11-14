@@ -1,6 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { MortgageCalculator } from './MortgageCalculator';
 import { AlertCircle, ArrowRight, TrendingUp } from 'lucide-react';
 
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
@@ -16,29 +17,6 @@ function formatMoney(value: number) {
 
 function formatPercent(value: number) {
   return `${value.toFixed(2)}%`;
-}
-
-function calculateMortgage(principal: number, annualRate: number, years: number, taxRate: number, insurance: number) {
-  const monthlyRate = annualRate / 100 / 12;
-  const totalMonths = years * 12;
-  const payment =
-    monthlyRate > 0
-      ? (principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -totalMonths))
-      : principal / totalMonths;
-
-  const taxMonthly = (principal * (taxRate / 100)) / 12;
-  const monthlyPayment = payment + taxMonthly + insurance;
-
-  return {
-    principal,
-    annualRate,
-    years,
-    monthlyPayment,
-    totalPaid: monthlyPayment * totalMonths,
-    interestPaid: monthlyPayment * totalMonths - principal,
-    taxMonthly,
-    insurance,
-  };
 }
 
 function calculate401k(currentBalance: number, monthlyContribution: number, annualRate: number, years: number, employerMatchPercent: number) {
@@ -161,46 +139,6 @@ function ComingSoonCalculator({ slug }: { slug: string }) {
       <p>
         The <strong>{slug.replace(/-/g, ' ')}</strong> tool is in progress. The rest of the site is ready to use while we finish this one.
       </p>
-    </div>
-  );
-}
-
-function MortgageCalculator() {
-  const [principal, setPrincipal] = useState('350000');
-  const [annualRate, setAnnualRate] = useState('6.5');
-  const [years, setYears] = useState('30');
-  const [taxRate, setTaxRate] = useState('1.2');
-  const [insurance, setInsurance] = useState('180');
-
-  const result = useMemo(
-    () => calculateMortgage(toNumber(principal), toNumber(annualRate), toNumber(years), toNumber(taxRate), toNumber(insurance)),
-    [principal, annualRate, years, taxRate, insurance],
-  );
-
-  return (
-    <div className="calculator-panel">
-      <div className="form-grid">
-        <Field label="Home price" value={principal} onChange={setPrincipal} />
-        <Field label="Interest rate (%)" value={annualRate} onChange={setAnnualRate} />
-        <Field label="Loan term (years)" value={years} onChange={setYears} min={1} />
-        <Field label="Property tax rate (%)" value={taxRate} onChange={setTaxRate} />
-        <Field label="Insurance / month" value={insurance} onChange={setInsurance} />
-      </div>
-
-      <div className="result-list" aria-live="polite"><h2>Your results</h2>
-        <div>
-          <small>Monthly payment</small>
-          <strong>{formatMoney(result.monthlyPayment)}</strong>
-        </div>
-        <div>
-          <small>Total paid</small>
-          <strong>{formatMoney(result.totalPaid)}</strong>
-        </div>
-        <div>
-          <small>Interest</small>
-          <strong>{formatMoney(result.interestPaid)}</strong>
-        </div>
-      </div>
     </div>
   );
 }

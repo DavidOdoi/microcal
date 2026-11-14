@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import { MortgageSupportingContent } from '@/components/calculators/MortgageSupportingContent';
 import { CalculatorRenderer } from '@/components/calculators/CalculatorRenderer';
 import { CalculatorCard } from '@/components/site/CalculatorCard';
 import { CalculatorTemplate } from '@/components/site/CalculatorTemplate';
@@ -70,6 +71,7 @@ export default async function CalculatorDetailPage({ params }: { params: Promise
       </PageHero>
 
       <CalculatorTemplate inputs={<CalculatorRenderer slug={slug} />} />
+      {slug === 'mortgage-calculator' && <div className="container-site"><article className="finance-article"><MortgageSupportingContent /></article></div>}
 
       <section className="container-site section-block">
         <h2 className="section-title">More {category.name.toLowerCase()} tools</h2>
