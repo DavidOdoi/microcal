@@ -1,14 +1,14 @@
 :root {
   --calculator-green: #15803d;
   --calculator-green-soft: #edf9e8;
-  --calculator-text: #101c2b;
+  --calculator-text: #000000;
   --calculator-border: #e1e6e9;
   --calculator-radius: 16px;
-  --background: #f5f8ef;
-  --foreground: #1f2a37;
+  --background: #ffffff;
+  --foreground: #000000;
   --card: #ffffff;
   --muted: #eff3ea;
-  --muted-foreground: #536074;
+  --muted-foreground: #000000;
   --ink: #071b2f;
   --ink-foreground: #f5f7fa;
   --ink-muted: rgba(245, 247, 250, 0.75);
@@ -34,7 +34,9 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
 }
 
 a {
@@ -1088,11 +1090,11 @@ img {
 
 /* Match the original Pocket Pathway reference screens. */
 :root {
-  --background: #f6f7f0;
-  --foreground: #19221a;
+  --background: #ffffff;
+  --foreground: #000000;
   --card: #fff;
   --muted: #edf1e8;
-  --muted-foreground: #637064;
+  --muted-foreground: #000000;
   --ink: #101b12;
   --ink-foreground: #f7f9f2;
   --ink-muted: rgba(247,249,242,.76);
@@ -1423,4 +1425,40 @@ body { background: var(--background); }
   .heloc-calculator > .finance-input-panel > .finance-fields, .calculator-radio-options { grid-template-columns: 1fr; }
   .calculator-payment-summary { flex-wrap: wrap; }
   .calculator-period { margin-left: 2rem; }
+}
+
+/* High-contrast body typography shared by all page content. */
+body > main { background: #fff; color: #000; }
+.hero-shell, .hero-grid, .hero-panel, .page-hero, .muted-block, .contact-faq,
+.side-highlight, .contact-browse { background: #fff; color: #000; }
+body > main :is(p, li, h1, h2, h3, h4, dt, dd, label, legend, small, summary, caption, th, td),
+.page-hero .crumbs, .page-hero .crumbs a,
+.finance-page-heading .crumbs, .finance-page-heading .crumbs a,
+.finance-article a, .finance-sources a, .finance-byline a,
+.finance-result-metric span, .finance-result-metric strong,
+.finance-kicker, .calculator-payment-summary > div > span,
+.calculator-payment-summary strong, .calculator-payment-summary.secondary strong,
+.calculator-period, .calculator-input-unit, .calculator-panel > .result-list > div:first-of-type strong {
+  color: #000 !important;
+}
+.hero-panel :is(span, strong, em), .hero-trust, .popular-tags .chip { color: #000; }
+body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
+.finance-article, .guide-block, .narrow-content {
+  color: #000;
+  font-size: 1.1875rem;
+  line-height: 1.8;
+}
+.finance-article :is(p, li), .guide-block :is(p, li), .narrow-content :is(p, li) {
+  font-size: inherit;
+  line-height: inherit;
+}
+.finance-article-section h2, .finance-sources h2 { font-size: 1.875rem; line-height: 1.25; }
+.finance-article-section h3 { font-size: 1.35rem; line-height: 1.4; }
+.finance-article a, .guide-block a, .narrow-content a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.finance-table-wrap :is(th, td) { color: #000; font-size: 1rem; line-height: 1.6; }
+.finance-calculator-grid, .calculator-panel { line-height: 1.4; }
+.finance-calculator-grid :is(.finance-note, .calculator-status) { font-size: .9375rem; line-height: 1.6; }
+.finance-page-heading .finance-byline { font-size: .9375rem; }
+@media (max-width: 540px) {
+  .finance-article, .guide-block, .narrow-content { font-size: 1.125rem; }
 }
