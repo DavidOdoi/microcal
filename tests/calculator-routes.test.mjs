@@ -65,3 +65,20 @@ test('HELOC uses the supplied article and the new payment summary', async () => 
   assert.doesNotMatch(article, /Sources and methodology/);
   assert.doesNotMatch(article, /Do HELOC payments increase after the draw period\?/);
 });
+
+test('personal loan sample renders its uploaded guide and fee-aware example', async () => {
+  const response = await fetch(new URL('/calculators/personal-loan-calculator/', baseUrl));
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /Your Personal Loan Payments/);
+  for (const amount of ['$395.01', '$14,250.00', '$750.00']) assert.ok(html.includes(amount), amount);
+  const article = html.match(/<article class="finance-article">([\s\S]*?)<\/article>/)?.[1];
+  assert.ok(article, 'personal loan article');
+  for (const heading of ['Understanding the Personal Loan Calculator', 'Worked Example', 'Further Considerations', 'Common Mistakes to Avoid', 'Authoritative Sources']) {
+    assert.ok(article.includes(heading), heading);
+  }
+  assert.match(article, /annual interest rate; term; origination fee; optional extra monthly principal/);
+  assert.match(article, /href="\/calculators\/loan-comparison-calculator\/"/);
+  assert.doesNotMatch(article, /Put the numbers into context/);
+  assert.doesNotMatch(article, /Primary keyword|Suggested URL/);
+});
