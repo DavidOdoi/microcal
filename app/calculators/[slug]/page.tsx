@@ -1,3 +1,4 @@
+import { HomeEquityLoanCalculatorPage, homeEquityLoanMetadata } from '@/components/calculators/HomeEquityLoanCalculatorPage';
 import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from '@/components/calculators/RentVsBuyCalculatorPage';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -21,6 +22,7 @@ import { BatchFourCalculatorPage } from '@/components/calculators/BatchFourCalcu
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === 'home-equity-loan-calculator') return homeEquityLoanMetadata;
   if (slug === 'rent-vs-buy-calculator') return rentVsBuyMetadata;
   const categoryPage = batchFourPages[slug as BatchFourSlug] ?? batchTwoPages[slug as BatchTwoSlug];
   if (categoryPage) {
@@ -45,6 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CalculatorDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === 'home-equity-loan-calculator') return <HomeEquityLoanCalculatorPage />;
   if (slug === 'rent-vs-buy-calculator') return <RentVsBuyCalculatorPage />;
   if (slug in batchFourPages) return <BatchFourCalculatorPage slug={slug as BatchFourSlug} />;
   if (slug in batchTwoPages) return <BatchTwoCalculatorPage slug={slug as BatchTwoSlug} />;

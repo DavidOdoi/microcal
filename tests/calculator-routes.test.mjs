@@ -5,6 +5,25 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/home-equity-loan-calculator/', '/home-equity/home-equity-loan-calculator/']) {
+  test(`${path} renders the fixed-rate equity loan and supplied article`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Your Home Equity Loan Estimate/);
+    assert.match(html, /\$286\.70/);
+    assert.match(html, /\$70,000\.00/);
+    assert.match(html, /Home Equity Loan vs\. HELOC/);
+    assert.match(html, /href="https:\/\/microfinancepost.com\/calculators\/home-equity-loan-calculator\/"/);
+    assert.doesNotMatch(html, /This calculator is being built/);
+  });
+}
+test('home equity loan is in the sitemap and rejects an unrelated category', async () => {
+  const sitemap = await (await fetch(new URL('/sitemap.xml', baseUrl))).text();
+  assert.ok(sitemap.includes('/calculators/home-equity-loan-calculator/'));
+  assert.equal((await fetch(new URL('/savings/home-equity-loan-calculator/', baseUrl))).status, 404);
+});
+
 for (const path of ['/calculators/rent-vs-buy-calculator/', '/mortgages/rent-vs-buy-calculator/']) {
   test(`${path} renders the working home comparison and supplied article`, async () => {
     const response = await fetch(new URL(path, baseUrl));

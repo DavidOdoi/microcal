@@ -146,7 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
-  'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
+  'home-equity-loan-calculator', 'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
   'compound-interest-calculator', 'savings-calculator', 'budget-calculator',
   'debt-to-income-ratio-calculator', 'emergency-fund-calculator', 'cd-interest-calculator',
   'high-yield-savings-account-calculator', 'auto-loan-payoff-calculator', 'loan-interest-calculator',
@@ -172,6 +172,7 @@ export const calculators: Calculator[] = [
   makeCalculator('mortgages', 'mortgage-calculator', 'Mortgage Calculator', 'Estimate your monthly mortgage payment with taxes and insurance.'),
   makeCalculator('mortgages', 'home-affordability-calculator', 'Home Affordability Calculator', 'Find out how much house you can afford.'),
   makeCalculator('mortgages', 'refinance-calculator', 'Refinance Calculator', 'See if refinancing saves you money and when you break even.'),
+  makeCalculator('home-equity', 'home-equity-loan-calculator', 'Home Equity Loan Calculator', 'Estimate fixed-rate payments, loan costs and borrowing capacity against your home equity.'),
   makeCalculator('home-equity', 'heloc-payment-calculator', 'HELOC Payment Calculator', 'Compare HELOC draw-period and repayment-period payment estimates.'),
   makeCalculator('auto-loans', 'auto-loan-calculator', 'Auto Loan Calculator', 'Estimate monthly car payments and total cost.'),
   makeCalculator('auto-loans', 'lease-vs-buy-calculator', 'Lease vs. Buy Calculator', 'Compare the true cost of leasing and buying.'),
