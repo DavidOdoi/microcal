@@ -5,6 +5,25 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/rent-vs-buy-calculator/', '/mortgages/rent-vs-buy-calculator/']) {
+  test(`${path} renders the working home comparison and supplied article`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Compare Costs/);
+    assert.match(html, /Your Rent vs\. Buy Comparison/);
+    assert.match(html, /\$2,113\.92/);
+    assert.match(html, /Is It Better to Rent or Buy a Home\?/);
+    assert.match(html, /href="https:\/\/microfinancepost.com\/calculators\/rent-vs-buy-calculator\/"/);
+    assert.doesNotMatch(html, /This calculator is being built/);
+  });
+}
+test('rent versus buy is discoverable and rejects the wrong category', async () => {
+  const sitemap = await (await fetch(new URL('/sitemap.xml', baseUrl))).text();
+  assert.ok(sitemap.includes('/calculators/rent-vs-buy-calculator/'));
+  assert.equal((await fetch(new URL('/savings/rent-vs-buy-calculator/', baseUrl))).status, 404);
+});
+
 // A successful status and page title alone also pass for the old placeholder.
 // Check that both public URL forms actually render the calculator and results.
 for (const [slug, page] of Object.entries({ ...batchTwoPages, ...batchFourPages })) {

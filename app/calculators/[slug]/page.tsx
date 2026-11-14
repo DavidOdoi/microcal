@@ -1,3 +1,4 @@
+import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from '@/components/calculators/RentVsBuyCalculatorPage';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
@@ -20,6 +21,7 @@ import { BatchFourCalculatorPage } from '@/components/calculators/BatchFourCalcu
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
+  if (slug === 'rent-vs-buy-calculator') return rentVsBuyMetadata;
   const categoryPage = batchFourPages[slug as BatchFourSlug] ?? batchTwoPages[slug as BatchTwoSlug];
   if (categoryPage) {
     const canonical = `https://microfinancepost.com/${categoryPage.category}/${slug}/`;
@@ -43,6 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function CalculatorDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  if (slug === 'rent-vs-buy-calculator') return <RentVsBuyCalculatorPage />;
   if (slug in batchFourPages) return <BatchFourCalculatorPage slug={slug as BatchFourSlug} />;
   if (slug in batchTwoPages) return <BatchTwoCalculatorPage slug={slug as BatchTwoSlug} />;
   if (slug in remainingPages) return <RemainingCalculatorPage slug={slug as RemainingSlug} />;

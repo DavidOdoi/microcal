@@ -1,3 +1,4 @@
+import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from '@/components/calculators/RentVsBuyCalculatorPage';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCalculator } from '@/lib/site-data';
@@ -12,6 +13,10 @@ type RouteParams = { category: string; slug: string };
 
 export async function generateMetadata({ params }: { params: Promise<RouteParams> }): Promise<Metadata> {
   const { category, slug } = await params;
+  if (slug === 'rent-vs-buy-calculator') {
+    if (category !== 'mortgages') notFound();
+    return rentVsBuyMetadata;
+  }
   if (slug in batchFourPages) {
     const page = batchFourPages[slug as BatchFourSlug];
     if (page.category !== category) return { title: 'Calculator not found — MicroFinancePost', robots: { index: false } };
@@ -40,6 +45,10 @@ export async function generateMetadata({ params }: { params: Promise<RouteParams
 
 export default async function CategoryCalculatorPage({ params }: { params: Promise<RouteParams> }) {
   const { category, slug } = await params;
+  if (slug === 'rent-vs-buy-calculator') {
+    if (category !== 'mortgages') notFound();
+    return <RentVsBuyCalculatorPage />;
+  }
   if (slug in batchFourPages) {
     if (batchFourPages[slug as BatchFourSlug].category !== category) notFound();
     return <BatchFourCalculatorPage slug={slug as BatchFourSlug} />;

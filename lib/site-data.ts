@@ -146,7 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
-  'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
+  'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
   'compound-interest-calculator', 'savings-calculator', 'budget-calculator',
   'debt-to-income-ratio-calculator', 'emergency-fund-calculator', 'cd-interest-calculator',
   'high-yield-savings-account-calculator', 'auto-loan-payoff-calculator', 'loan-interest-calculator',
@@ -168,6 +168,7 @@ export const calculators: Calculator[] = [
   makeCalculator('loans', 'loan-interest-calculator', 'Loan Interest Calculator', 'Estimate total interest and repayment for simple-interest and amortizing loans.'),
   makeCalculator('business', 'business-loan-payment-calculator', 'Business Loan Payment Calculator', 'Estimate business loan payments, interest, fees, and cash proceeds.'),
   makeCalculator('student-loans', 'student-loan-interest-calculator', 'Student Loan Interest Calculator', 'Estimate daily and accrued student loan interest over selected dates.'),
+  makeCalculator('mortgages', 'rent-vs-buy-calculator', 'Rent vs. Buy Calculator', 'Compare renting and buying a home by monthly costs and projected financial position.'),
   makeCalculator('mortgages', 'mortgage-calculator', 'Mortgage Calculator', 'Estimate your monthly mortgage payment with taxes and insurance.'),
   makeCalculator('mortgages', 'home-affordability-calculator', 'Home Affordability Calculator', 'Find out how much house you can afford.'),
   makeCalculator('mortgages', 'refinance-calculator', 'Refinance Calculator', 'See if refinancing saves you money and when you break even.'),
