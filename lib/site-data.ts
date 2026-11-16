@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'roi-calculator',
   'us-inflation-calculator',
   'farm-loan-calculator',
   'idaho-paycheck-calculator',
@@ -172,6 +173,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('investments', 'roi-calculator', 'ROI Calculator', 'Calculate simple investment gains or losses, ROI, and optional compounded annualized returns.'),
   makeCalculator('savings', 'us-inflation-calculator', 'US Inflation Calculator', 'Compare historical US dollar values and purchasing power using annual CPI-U data.'),
   makeCalculator('business', 'farm-loan-calculator', 'Farm Loan Calculator', 'Estimate monthly, quarterly, or annual farm financing payments, interest, and cash flow.'),
   makeCalculator('taxes', 'idaho-paycheck-calculator', 'Idaho Paycheck Calculator', 'Estimate take-home pay with entered tax withholding, calculated FICA, and employee benefits.'),

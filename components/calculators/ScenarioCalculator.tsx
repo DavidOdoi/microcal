@@ -5,7 +5,7 @@ import { Calculator, RotateCcw } from 'lucide-react';
 import { CalculatorLayout, CalculatorNumberField, PaymentSummary } from './CalculatorDesign';
 
 export type ScenarioValues = Record<string, string>;
-export type ScenarioField = { key: string; label: string; value: string; unit?: string; prefix?: string; min?: number; max?: number; step?: string; help?: string; advanced?: boolean; options?: [string, string][] };
+export type ScenarioField = { key: string; label: string; value: string; type?: 'number' | 'date'; optional?: boolean; unit?: string; prefix?: string; min?: number; max?: number; step?: string; help?: string; advanced?: boolean; options?: [string, string][] };
 export type ScenarioResult = { summary: { label: string; amount: string; period: string }; metrics: [string, string][]; notes?: string[]; schedule?: { caption: string; headers: string[]; rows: string[][] } };
 export const scenarioMoney = (value: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
 
@@ -25,6 +25,11 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
     event.preventDefault();
     const invalid = fields.flatMap((field) => {
       const raw = values[field.key];
+      if (field.optional && raw.trim() === '') return [];
+      if (field.type === 'date') {
+        const parsed = new Date(`${raw}T00:00:00Z`);
+        return /^\d{4}-\d{2}-\d{2}$/.test(raw) && Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === raw ? [] : [`${field.label}: enter a valid calendar date.`];
+      }
       if (field.options) return field.options.some(([value]) => value === raw) ? [] : [`Choose a valid ${field.label.toLowerCase()}.`];
       const number = Number(raw);
       return raw.trim() === '' || !Number.isFinite(number) || number < (field.min ?? 0) || number > (field.max ?? 1e9) || (field.step === '1' && !Number.isInteger(number))
@@ -36,7 +41,9 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
   }
   function renderField(field: ScenarioField) {
     const change = (value: string) => setValues((previous) => ({ ...previous, [field.key]: value }));
-    return <div key={field.key}>{field.options
+    return <div key={field.key}>{field.type === 'date'
+      ? <label className="finance-field"><span>{field.label}</span><input type="date" value={values[field.key]} onChange={(event) => change(event.target.value)} /></label>
+      : field.options
       ? <label className="finance-field"><span>{field.label}</span><select value={values[field.key]} onChange={(event) => change(event.target.value)}>{field.options.map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label>
       : <CalculatorNumberField label={field.label} value={values[field.key]} onChange={change} unit={field.unit} prefix={field.prefix} min={field.min} max={field.max ?? 1e9} step={field.step} />}
       {field.help && <p className="finance-note">{field.help}</p>}</div>;

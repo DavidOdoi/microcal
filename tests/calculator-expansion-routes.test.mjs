@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const cases = [
+  { slug: 'roi-calculator', category: 'investments', name: 'ROI Calculator', heading: 'ROI Calculator: Calculate Return on Investment', result: 'Your ROI Results', sample: '25.00%', articleHeading: 'What Is an ROI Calculator?' },
   { slug: 'us-inflation-calculator', category: 'savings', name: 'US Inflation Calculator', heading: 'US Inflation Calculator: Compare the Value of Money Over Time', result: 'Your Inflation Comparison', sample: '$18,695.88', articleHeading: 'What Is a US Inflation Calculator?' },
 ];
 for (const entry of cases) {
