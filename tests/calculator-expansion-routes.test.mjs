@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const cases = [
+  { slug: '1099-tax-calculator', category: 'taxes', name: '1099 Tax Calculator', heading: '1099 Tax Calculator: Estimate Taxes on Freelance Income', result: 'Your 1099 Tax Estimate', sample: '$7,064.78', articleHeading: 'What Is a 1099 Tax Calculator?' },
   { slug: 'roi-calculator', category: 'investments', name: 'ROI Calculator', heading: 'ROI Calculator: Calculate Return on Investment', result: 'Your ROI Results', sample: '25.00%', articleHeading: 'What Is an ROI Calculator?' },
   { slug: 'us-inflation-calculator', category: 'savings', name: 'US Inflation Calculator', heading: 'US Inflation Calculator: Compare the Value of Money Over Time', result: 'Your Inflation Comparison', sample: '$18,695.88', articleHeading: 'What Is a US Inflation Calculator?' },
 ];
