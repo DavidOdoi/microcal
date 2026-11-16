@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'new-york-paycheck-calculator',
   '401k-early-withdrawal-calculator',
   'social-security-benefits-calculator',
   'dscr-loan-calculator',
@@ -167,6 +168,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('taxes', 'new-york-paycheck-calculator', 'New York Paycheck Calculator', 'Estimate net pay using entered tax withholding, FICA, Paid Family Leave, and benefits.'),
   makeCalculator('retirement', '401k-early-withdrawal-calculator', '401(k) Early Withdrawal Calculator', 'Estimate withdrawal taxes, conditional penalties, withholding, and net proceeds.'),
   makeCalculator('retirement', 'social-security-benefits-calculator', 'Social Security Benefits Calculator', 'Compare estimated Social Security benefits by claiming age and full retirement age.'),
   makeCalculator('business', 'dscr-loan-calculator', 'DSCR Loan Calculator', 'Calculate property debt coverage, net operating income, and supportable debt service.'),
