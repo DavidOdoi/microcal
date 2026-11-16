@@ -56,7 +56,7 @@ export function RoiSupportingContent() {
     <p>{"Profit margin compares profit with revenue."}</p>
     <p>{"For example, an item purchased for $80 and sold for $100 has a 25% gross return relative to its purchase cost, but a 20% gross margin relative to its selling price."}</p>
     <p>{"These percentages answer different questions."}</p>
-    <p>{"Use our Gross Margin Calculator when you want to understand how much revenue remains after the cost of goods sold."}</p>
+    <p>{"Use our "}<Link href="/calculators/gross-margin-calculator/">{"Gross Margin Calculator"}</Link>{" when you want to understand how much revenue remains after the cost of goods sold."}</p>
     <h2>{"Limitations of ROI"}</h2>
     <p>{"ROI is useful, but it does not measure everything."}</p>
     <p>{"A simple ROI calculation does not automatically account for "}<Link href="/calculators/us-inflation-calculator/">{"inflation"}</Link>{", "}<a href="https://www.irs.gov/taxtopics/tc409">{"taxes,"}</a>{" timing of cash flows, risk, or opportunity cost."}</p>

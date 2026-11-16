@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'gross-margin-calculator',
   '1099-tax-calculator',
   'roi-calculator',
   'us-inflation-calculator',
@@ -174,6 +175,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('business', 'gross-margin-calculator', 'Gross Margin Calculator', 'Compare gross profit, gross margin, markup, and target selling prices.'),
   makeCalculator('taxes', '1099-tax-calculator', '1099 Tax Calculator', 'Estimate US self-employment tax and progressive federal income tax on freelance profit.'),
   makeCalculator('investments', 'roi-calculator', 'ROI Calculator', 'Calculate simple investment gains or losses, ROI, and optional compounded annualized returns.'),
   makeCalculator('savings', 'us-inflation-calculator', 'US Inflation Calculator', 'Compare historical US dollar values and purchasing power using annual CPI-U data.'),
