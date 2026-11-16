@@ -1,3 +1,4 @@
+import { UsInflationCalculatorPage, usInflationMetadata } from './UsInflationCalculatorPage';
 import { FarmLoanCalculatorPage, farmLoanMetadata } from './FarmLoanCalculatorPage';
 import { IdahoPaycheckCalculatorPage, idahoPaycheckMetadata } from './IdahoPaycheckCalculatorPage';
 import { SalaryToHourlyCalculatorPage, salaryToHourlyMetadata } from './SalaryToHourlyCalculatorPage';
@@ -16,6 +17,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  'us-inflation-calculator': { category: 'savings', metadata: usInflationMetadata, Component: UsInflationCalculatorPage },
   'farm-loan-calculator': { category: 'business', metadata: farmLoanMetadata, Component: FarmLoanCalculatorPage },
   'idaho-paycheck-calculator': { category: 'taxes', metadata: idahoPaycheckMetadata, Component: IdahoPaycheckCalculatorPage },
   'salary-to-hourly-calculator': { category: 'taxes', metadata: salaryToHourlyMetadata, Component: SalaryToHourlyCalculatorPage },
