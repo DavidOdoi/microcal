@@ -1,3 +1,4 @@
+import { MortgageExtraCalculatorPage, mortgageExtraMetadata } from './MortgageExtraCalculatorPage';
 import { GrossMarginCalculatorPage, grossMarginMetadata } from './GrossMarginCalculatorPage';
 import { SelfEmploymentCalculatorPage, selfEmploymentMetadata } from './SelfEmploymentCalculatorPage';
 import { RoiCalculatorPage, roiMetadata } from './RoiCalculatorPage';
@@ -20,6 +21,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  'mortgage-extra-payment-calculator': { category: 'mortgages', metadata: mortgageExtraMetadata, Component: MortgageExtraCalculatorPage },
   'gross-margin-calculator': { category: 'business', metadata: grossMarginMetadata, Component: GrossMarginCalculatorPage },
   '1099-tax-calculator': { category: 'taxes', metadata: selfEmploymentMetadata, Component: SelfEmploymentCalculatorPage },
   'roi-calculator': { category: 'investments', metadata: roiMetadata, Component: RoiCalculatorPage },

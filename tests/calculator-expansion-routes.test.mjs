@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const cases = [
+  { slug: 'mortgage-extra-payment-calculator', category: 'mortgages', name: 'Mortgage Extra Payment Calculator', heading: 'Mortgage Extra Payment Calculator: Estimate Interest Savings and Early Payoff', result: 'Your Mortgage Extra Payment Results', sample: '108 months', articleHeading: 'What Is a Mortgage Extra Payment Calculator?' },
   { slug: 'gross-margin-calculator', category: 'business', name: 'Gross Margin Calculator', heading: 'Gross Margin Calculator: Calculate Gross Profit and Profit Margin', result: 'Your Gross Margin Results', sample: '40.00%', articleHeading: 'What Is a Gross Margin Calculator?' },
   { slug: '1099-tax-calculator', category: 'taxes', name: '1099 Tax Calculator', heading: '1099 Tax Calculator: Estimate Taxes on Freelance Income', result: 'Your 1099 Tax Estimate', sample: '$7,064.78', articleHeading: 'What Is a 1099 Tax Calculator?' },
   { slug: 'roi-calculator', category: 'investments', name: 'ROI Calculator', heading: 'ROI Calculator: Calculate Return on Investment', result: 'Your ROI Results', sample: '25.00%', articleHeading: 'What Is an ROI Calculator?' },

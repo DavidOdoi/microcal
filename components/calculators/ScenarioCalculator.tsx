@@ -6,7 +6,7 @@ import { CalculatorLayout, CalculatorNumberField, PaymentSummary } from './Calcu
 
 export type ScenarioValues = Record<string, string>;
 export type ScenarioField = { key: string; label: string; value: string; type?: 'number' | 'date'; optional?: boolean; unit?: string; prefix?: string; min?: number; max?: number; step?: string; help?: string; advanced?: boolean; options?: [string, string][] };
-export type ScenarioResult = { summary: { label: string; amount: string; period: string }; metrics: [string, string][]; notes?: string[]; schedule?: { caption: string; headers: string[]; rows: string[][] } };
+export type ScenarioResult = { summary: { label: string; amount: string; period: string }; secondarySummary?: { label: string; amount: string; period: string }; metrics: [string, string][]; notes?: string[]; schedule?: { caption: string; headers: string[]; rows: string[][] } };
 export const scenarioMoney = (value: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
 
 /** Shared explicit-submit form for planning calculators; math stays in lib. */
@@ -59,6 +59,7 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
     </form>
     <section className="finance-results-panel" aria-label={title} aria-live="polite"><h2>{title}</h2>
       <PaymentSummary {...result.summary} />
+      {result.secondarySummary && <PaymentSummary {...result.secondarySummary} />}
       <dl className="finance-breakdown">{result.metrics.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
       {changed && <p className="calculator-status">Inputs changed. Select {action} to update your results.</p>}
       {result.notes?.map((note) => <p className="finance-note" key={note}>{note}</p>)}
