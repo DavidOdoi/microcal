@@ -1160,7 +1160,7 @@ body { background: var(--background); }
 .trust-dots i:nth-child(2) { background: #101b12; }
 .trust-dots i:nth-child(3) { background: #d8f67a; }
 .stat-band { background: #101b12; color: white; }
-@media (max-width: 1023px) { .hero-grid { min-height: auto; padding: 4rem 2rem; } }
+@media (max-width: 1023px) { .hero-grid { min-height: auto; grid-template-columns: 1fr; padding: 4rem 2rem; } }
 @media (max-width: 640px) { .container-site { width: min(100% - 2rem, 1460px); } .hero-shell { padding: 0 .5rem; } .hero-grid { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.25rem; } .hero-copy h1 { font-size: clamp(3rem, 13vw, 4.5rem); } .hero-panel { max-width: 100%; min-height: auto; margin: 0; padding: 2rem; } .brand-name { font-size: 1rem; } }
 @media (max-width: 760px) { .contact-layout { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 2.5rem; padding-bottom: 2.5rem; } }
 
@@ -1427,11 +1427,11 @@ body { background: var(--background); }
   .calculator-period { margin-left: 2rem; }
 }
 
-/* High-contrast body typography shared by all page content. */
+/* Keep content readable without overriding the homepage's themed hero. */
 body > main { background: #fff; color: #000; }
-.hero-shell, .hero-grid, .hero-panel, .page-hero, .muted-block, .contact-faq,
+.page-hero, .muted-block, .contact-faq,
 .side-highlight, .contact-browse { background: #fff; color: #000; }
-body > main :is(p, li, h1, h2, h3, h4, dt, dd, label, legend, small, summary, caption, th, td),
+body > main :is(p, li, h1, h2, h3, h4, dt, dd, label, legend, small, summary, caption, th, td):not(.hero-shell *),
 .page-hero .crumbs, .page-hero .crumbs a,
 .finance-page-heading .crumbs, .finance-page-heading .crumbs a,
 .finance-article a, .finance-sources a, .finance-byline a,
@@ -1441,7 +1441,7 @@ body > main :is(p, li, h1, h2, h3, h4, dt, dd, label, legend, small, summary, ca
 .calculator-period, .calculator-input-unit, .calculator-panel > .result-list > div:first-of-type strong {
   color: #000 !important;
 }
-.hero-panel :is(span, strong, em), .hero-trust, .popular-tags .chip { color: #000; }
+.stat-band .stat-item span { color: var(--ink-muted); }
 body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 .finance-article, .guide-block, .narrow-content {
   color: #000;

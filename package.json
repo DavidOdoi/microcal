@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:routes": "node --experimental-strip-types --test tests/calculator-routes.test.mjs tests/supplied-calculator-routes.test.mjs",
+    "test:routes": "node --experimental-strip-types --test tests/calculator-routes.test.mjs tests/supplied-calculator-routes.test.mjs tests/site-discovery.test.mjs",
     "test": "node --experimental-strip-types --test lib/financial-calculations.test.ts lib/batch-two-calculations.test.ts lib/batch-four-calculations.test.ts lib/remaining-calculations.test.ts lib/mortgage-calculations.test.ts lib/rent-vs-buy-calculations.test.ts lib/home-equity-loan-calculations.test.ts lib/commercial-mortgage-calculations.test.ts lib/fha-loan-calculations.test.ts lib/dental-loan-calculations.test.ts lib/loan-calculations.test.ts lib/dscr-calculations.test.ts lib/social-security-calculations.test.ts lib/withdrawal-calculations.test.ts lib/federal-income-tax-calculations.test.ts lib/payroll-calculations.test.ts lib/state-paycheck-calculations.test.ts lib/salary-hourly-calculations.test.ts lib/idaho-paycheck-calculations.test.ts lib/farm-loan-calculations.test.ts"
   },
   "dependencies": {

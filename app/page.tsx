@@ -57,8 +57,8 @@ export default function HomePage() {
       <section className="stat-band">
         <div className="container-site stat-grid">
           {[
-            ['9', 'Money topics covered'],
-            [`${calculators.length}+`, 'Calculators planned'],
+            [String(categories.length), 'Money topics covered'],
+            [String(calculators.filter((calculator) => calculator.status === 'live').length), 'Calculators ready to use'],
             ['100%', 'Free, always'],
             ['0', 'Data stored'],
           ].map(([value, label]) => (
@@ -99,7 +99,7 @@ export default function HomePage() {
           <div className="section-heading split-header">
             <div>
               <span>Most requested</span>
-              <h2>Calculators on the way</h2>
+              <h2>Popular calculators</h2>
             </div>
             <Link href="/calculators" className="text-link">
               Browse the full directory <ArrowRight size={16} />

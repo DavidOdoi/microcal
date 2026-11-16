@@ -6,6 +6,14 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'MicroFinancePost',
   description: 'Free calculators for mortgages, debt, budgeting, taxes, retirement and savings.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico?v=money-1', type: 'image/x-icon', sizes: '16x16 32x32 48x48 64x64 128x128 256x256' },
+      { url: '/favicon.png?v=money-1', type: 'image/png', sizes: '512x512' },
+    ],
+    shortcut: '/favicon.ico?v=money-1',
+    apple: [{ url: '/apple-touch-icon.png?v=money-1', type: 'image/png', sizes: '180x180' }],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
