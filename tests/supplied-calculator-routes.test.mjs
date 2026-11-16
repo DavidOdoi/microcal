@@ -14,6 +14,7 @@ test('federal income tax aliases preserve the established URL and intro', async 
   assert.doesNotMatch(html, /Put the numbers into context|What tax year does this calculator use\?/);
 });
 const cases = [
+  { slug: 'salary-to-hourly-calculator', category: 'taxes', name: 'Salary to Hourly Calculator', result: 'Your Salary Conversion', sample: '$31.25', heading: 'What Is a Salary to Hourly Calculator?' },
   { slug: 'new-york-paycheck-calculator', category: 'taxes', name: 'New York Paycheck Calculator', result: 'Your New York Paycheck Estimate', sample: '$3,945.90', heading: 'What Is a New York Paycheck Calculator?' },
   { slug: 'income-tax-calculator', category: 'taxes', name: 'Federal Income Tax Calculator', result: 'Your Federal Income Tax Estimate', sample: '$7,670.00', heading: 'What Is a Federal Income Tax Calculator?' },
   { slug: '401k-early-withdrawal-calculator', category: 'retirement', name: '401(k) Early Withdrawal Calculator', result: 'Your Withdrawal Estimate', sample: '$12,600.00', heading: 'What Is a 401(k) Early Withdrawal Calculator?' },
