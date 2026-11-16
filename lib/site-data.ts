@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  '401k-early-withdrawal-calculator',
   'social-security-benefits-calculator',
   'dscr-loan-calculator',
   'loan-calculator',
@@ -166,6 +167,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('retirement', '401k-early-withdrawal-calculator', '401(k) Early Withdrawal Calculator', 'Estimate withdrawal taxes, conditional penalties, withholding, and net proceeds.'),
   makeCalculator('retirement', 'social-security-benefits-calculator', 'Social Security Benefits Calculator', 'Compare estimated Social Security benefits by claiming age and full retirement age.'),
   makeCalculator('business', 'dscr-loan-calculator', 'DSCR Loan Calculator', 'Calculate property debt coverage, net operating income, and supportable debt service.'),
   makeCalculator('loans', 'loan-calculator', 'Loan Calculator', 'Calculate loan payments, interest, fees, and total repayment with an amortization schedule.'),
@@ -222,6 +224,6 @@ export function searchSite(q: string) {
 
   return {
     categories: categories.filter((category) => matches(category.name, category.description, ...category.topics)),
-    calculators: calculators.filter((calculator) => matches(calculator.name, calculator.description, getCategory(calculator.category)?.name ?? '')),
+    calculators: calculators.filter((calculator) => matches(calculator.name, calculator.slug.replaceAll('-', ' '), calculator.description, getCategory(calculator.category)?.name ?? '')),
   };
 }

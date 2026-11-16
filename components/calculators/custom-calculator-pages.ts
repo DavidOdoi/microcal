@@ -1,3 +1,4 @@
+import { EarlyWithdrawalCalculatorPage, earlyWithdrawalMetadata } from './EarlyWithdrawalCalculatorPage';
 import { SocialSecurityBenefitsCalculatorPage, socialSecurityBenefitsMetadata } from './SocialSecurityBenefitsCalculatorPage';
 import { DscrLoanCalculatorPage, dscrLoanMetadata } from './DscrLoanCalculatorPage';
 import { LoanCalculatorPage, loanMetadata } from './LoanCalculatorPage';
@@ -10,6 +11,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  '401k-early-withdrawal-calculator': { category: 'retirement', metadata: earlyWithdrawalMetadata, Component: EarlyWithdrawalCalculatorPage },
   'social-security-benefits-calculator': { category: 'retirement', metadata: socialSecurityBenefitsMetadata, Component: SocialSecurityBenefitsCalculatorPage },
   'dscr-loan-calculator': { category: 'business', metadata: dscrLoanMetadata, Component: DscrLoanCalculatorPage },
   'loan-calculator': { category: 'loans', metadata: loanMetadata, Component: LoanCalculatorPage },

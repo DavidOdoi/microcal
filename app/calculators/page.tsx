@@ -10,7 +10,7 @@ export default function CalculatorsDirectoryPage() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('all');
   const list = useMemo(() => calculators.filter((calc) =>
-    (category === 'all' || calc.category === category) && calc.name.toLowerCase().includes(query.toLowerCase().trim())
+    (category === 'all' || calc.category === category) && [calc.name, calc.slug.replaceAll('-', ' ')].some((text) => text.toLowerCase().includes(query.toLowerCase().trim()))
   ), [category, query]);
 
   return (
