@@ -14,6 +14,7 @@ test('federal income tax aliases preserve the established URL and intro', async 
   assert.doesNotMatch(html, /Put the numbers into context|What tax year does this calculator use\?/);
 });
 const cases = [
+  { slug: 'farm-loan-calculator', category: 'business', name: 'Farm Loan Calculator', result: 'Your Farm Loan Estimate', sample: '$1,013.82', heading: 'What Is a Farm Loan Calculator?' },
   { slug: 'idaho-paycheck-calculator', category: 'taxes', name: 'Idaho Paycheck Calculator', result: 'Your Idaho Paycheck Estimate', sample: '$1,841.15', heading: 'What Is an Idaho Paycheck Calculator?' },
   { slug: 'salary-to-hourly-calculator', category: 'taxes', name: 'Salary to Hourly Calculator', result: 'Your Salary Conversion', sample: '$31.25', heading: 'What Is a Salary to Hourly Calculator?' },
   { slug: 'new-york-paycheck-calculator', category: 'taxes', name: 'New York Paycheck Calculator', result: 'Your New York Paycheck Estimate', sample: '$3,945.90', heading: 'What Is a New York Paycheck Calculator?' },
@@ -35,7 +36,9 @@ for (const entry of cases) {
       assert.match(html, /name="description" content="[^"]+"/);
       const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1];
       assert.ok(article); assert.ok(article.includes(entry.heading));
-      assert.equal((article.match(/<h3\b/g) || []).length, 3);
+      const faqs = article.match(/<h2>Frequently Asked Questions<\/h2>([\s\S]*?)(?:<h2>|$)/)?.[1];
+      assert.ok(faqs);
+      assert.equal((faqs.match(/<h3\b/g) || []).length, 3);
       assert.doesNotMatch(article, /SEO settings|development instructions|UX recommendation|Progress:|Next calculator:/);
       const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
       assert.deepEqual(schema['@graph'].map((item) => item['@type']), ['WebApplication', 'BreadcrumbList']);
