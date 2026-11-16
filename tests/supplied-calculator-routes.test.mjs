@@ -2,7 +2,19 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
+test('federal income tax aliases preserve the established URL and intro', async () => {
+  for (const path of ['/calculators/federal-income-tax-calculator/', '/taxes/federal-income-tax-calculator/']) {
+    const response = await fetch(new URL(path, baseUrl), { redirect: 'manual' });
+    assert.equal(response.status, 308);
+    assert.equal(response.headers.get('location'), '/calculators/income-tax-calculator/');
+  }
+  const html = await (await fetch(new URL('/calculators/income-tax-calculator/', baseUrl))).text();
+  assert.ok(html.includes('Estimate federal regular income tax for tax year 2026 using your filing status, gross income, and standard or entered itemized deduction.'));
+  assert.ok(html.includes('$3,820'));
+  assert.doesNotMatch(html, /Put the numbers into context|What tax year does this calculator use\?/);
+});
 const cases = [
+  { slug: 'income-tax-calculator', category: 'taxes', name: 'Federal Income Tax Calculator', result: 'Your Federal Income Tax Estimate', sample: '$7,670.00', heading: 'What Is a Federal Income Tax Calculator?' },
   { slug: '401k-early-withdrawal-calculator', category: 'retirement', name: '401(k) Early Withdrawal Calculator', result: 'Your Withdrawal Estimate', sample: '$12,600.00', heading: 'What Is a 401(k) Early Withdrawal Calculator?' },
   { slug: 'social-security-benefits-calculator', category: 'retirement', name: 'Social Security Benefits Calculator', result: 'Your Social Security Estimate', sample: '$2,000.00', heading: 'What Is a Social Security Benefits Calculator?' },
   { slug: 'dscr-loan-calculator', category: 'business', name: 'DSCR Loan Calculator', result: 'Your DSCR Results', sample: '1.20', heading: 'What Is a DSCR Loan Calculator?' },

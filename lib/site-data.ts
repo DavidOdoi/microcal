@@ -199,7 +199,7 @@ export const calculators: Calculator[] = [
   makeCalculator('retirement', '401k-calculator', '401(k) Calculator', 'Project your 401(k) balance at retirement.'),
   makeCalculator('retirement', 'retirement-calculator', 'Retirement Calculator', 'Find out if you are on track to retire.'),
   makeCalculator('retirement', 'roth-ira-calculator', 'Roth IRA Calculator', 'Estimate tax-free growth in a Roth IRA.'),
-  makeCalculator('taxes', 'income-tax-calculator', 'Income Tax Calculator', 'Estimate your federal income tax.'),
+  makeCalculator('taxes', 'income-tax-calculator', 'Federal Income Tax Calculator', 'Estimate federal income tax, deductions, credits, and refunds using 2025 or 2026 rules.'),
   makeCalculator('taxes', 'paycheck-calculator', 'Paycheck Calculator', 'See your take-home pay after taxes.'),
   makeCalculator('taxes', 'capital-gains-tax-calculator', 'Capital Gains Tax Calculator', 'Estimate tax owed on investment gains.'),
   makeCalculator('debt', 'credit-card-payoff-calculator', 'Credit Card Payoff Calculator', 'See how long it takes to pay off a card.'),
