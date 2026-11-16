@@ -40,7 +40,7 @@ function parse(state: 'ny' | 'idaho', v: ScenarioValues): StatePaycheckInput {
 }
 export function StatePaycheckCalculator({ state }: { state: 'ny' | 'idaho' }) {
   const ny = state === 'ny';
-  return <ScenarioCalculator id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={fieldsFor(state)} validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
+  return <ScenarioCalculator key={state} id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={fieldsFor(state)} validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
     const r = calculateStatePaycheck(parse(state, v));
     return { summary: { label: 'Estimated take-home pay', amount: money(r.net), period: 'Per paycheck' },
       metrics: [['Gross pay per paycheck', money(r.gross)], [v.federalMode === 'entered' ? 'Federal withholding (entered + extra)' : 'Federal annual-tax planning estimate + extra', money(r.federal)], [`${ny ? 'NYS' : 'Idaho'} withholding (entered + extra)`, money(r.state)], ...(ny ? [['Local withholding (entered)', money(r.local)]] as [string, string][] : []), ['Social Security', money(r.socialSecurity)], ['Medicare', money(r.medicare)], ['Additional Medicare withholding', money(r.additionalMedicare)], ...(ny ? [['NY Paid Family Leave', money(r.pfl)]] as [string, string][] : []), ['Benefit and retirement deductions', money(r.benefitDeductions)], ['Other after-tax deductions', money(+v.other)], ['Income-tax wages per paycheck', money(r.incomeTaxWages)], ['FICA wages per paycheck', money(r.ficaWages)]] as [string, string][],

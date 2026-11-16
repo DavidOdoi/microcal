@@ -1,3 +1,4 @@
+import { IdahoPaycheckCalculatorPage, idahoPaycheckMetadata } from './IdahoPaycheckCalculatorPage';
 import { SalaryToHourlyCalculatorPage, salaryToHourlyMetadata } from './SalaryToHourlyCalculatorPage';
 import { NewYorkPaycheckCalculatorPage, newYorkPaycheckMetadata } from './NewYorkPaycheckCalculatorPage';
 import { FederalIncomeTaxCalculatorPage, FederalIncomeTaxAliasPage, federalIncomeTaxMetadata } from './FederalIncomeTaxCalculatorPage';
@@ -14,6 +15,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  'idaho-paycheck-calculator': { category: 'taxes', metadata: idahoPaycheckMetadata, Component: IdahoPaycheckCalculatorPage },
   'salary-to-hourly-calculator': { category: 'taxes', metadata: salaryToHourlyMetadata, Component: SalaryToHourlyCalculatorPage },
   'new-york-paycheck-calculator': { category: 'taxes', metadata: newYorkPaycheckMetadata, Component: NewYorkPaycheckCalculatorPage },
   'income-tax-calculator': { category: 'taxes', metadata: federalIncomeTaxMetadata, Component: FederalIncomeTaxCalculatorPage },

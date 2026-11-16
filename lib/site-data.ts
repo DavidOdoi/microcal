@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'idaho-paycheck-calculator',
   'salary-to-hourly-calculator',
   'new-york-paycheck-calculator',
   '401k-early-withdrawal-calculator',
@@ -169,6 +170,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('taxes', 'idaho-paycheck-calculator', 'Idaho Paycheck Calculator', 'Estimate take-home pay with entered tax withholding, calculated FICA, and employee benefits.'),
   makeCalculator('taxes', 'salary-to-hourly-calculator', 'Salary to Hourly Calculator', 'Convert US annual salary to hourly pay and compare schedules and pay periods.'),
   makeCalculator('taxes', 'new-york-paycheck-calculator', 'New York Paycheck Calculator', 'Estimate net pay using entered tax withholding, FICA, Paid Family Leave, and benefits.'),
   makeCalculator('retirement', '401k-early-withdrawal-calculator', '401(k) Early Withdrawal Calculator', 'Estimate withdrawal taxes, conditional penalties, withholding, and net proceeds.'),
