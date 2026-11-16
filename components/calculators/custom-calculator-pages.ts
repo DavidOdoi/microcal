@@ -1,3 +1,4 @@
+import { LoanCalculatorPage, loanMetadata } from './LoanCalculatorPage';
 import { DentalLoanCalculatorPage, dentalLoanMetadata } from './DentalLoanCalculatorPage';
 import { FhaHomeLoanCalculatorPage, fhaHomeLoanMetadata } from './FhaHomeLoanCalculatorPage';
 import { CommercialMortgageCalculatorPage, commercialMortgageMetadata } from './CommercialMortgageCalculatorPage';
@@ -7,6 +8,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  'loan-calculator': { category: 'loans', metadata: loanMetadata, Component: LoanCalculatorPage },
   'dental-loan-calculator': { category: 'loans', metadata: dentalLoanMetadata, Component: DentalLoanCalculatorPage },
   'fha-home-loan-calculator': { category: 'mortgages', metadata: fhaHomeLoanMetadata, Component: FhaHomeLoanCalculatorPage },
   'commercial-mortgage-calculator': { category: 'business', metadata: commercialMortgageMetadata, Component: CommercialMortgageCalculatorPage },

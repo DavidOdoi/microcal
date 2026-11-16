@@ -5,6 +5,42 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/loan-calculator/', '/loans/loan-calculator/']) {
+  test(`${path} renders the general loan calculator, supplied article, and SEO`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Your Loan Payments/);
+    assert.match(html, /\$518\.96/);
+    assert.match(html, /\$6,137\.53/);
+    assert.match(html, /<title>Loan Calculator – Estimate Monthly Payments &amp; Interest<\/title>/);
+    assert.match(html, /name="description" content="Calculate monthly loan payments, total interest, and repayment costs\. Compare loan amounts, interest rates, and terms with our free calculator\."/);
+    assert.match(html, /rel="canonical" href="https:\/\/microfinancepost.com\/calculators\/loan-calculator\/"/);
+    assert.equal((html.match(/<h1\b/g) || []).length, 1);
+    const article = html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/)?.[1];
+    assert.ok(article);
+    assert.equal((article.match(/<h3\b/g) || []).length, 3);
+    assert.match(article, /What Is a Loan Calculator\?/);
+    assert.match(article, /How to Reduce Your Loan Repayment Costs/);
+    assert.match(article, /\$3,619\.76/);
+    assert.match(article, /\$8,787\.06/);
+    assert.doesNotMatch(article, /SEO settings|development instructions|29 of 29|content plan/);
+    const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+    assert.deepEqual(schema['@graph'].map((item) => item['@type']), ['WebApplication', 'BreadcrumbList']);
+    for (const link of new Set([...article.matchAll(/href="(\/[^"#]*)"/g)].map((match) => match[1]))) {
+      assert.equal((await fetch(new URL(link, baseUrl))).status, 200, link);
+    }
+  });
+}
+test('general loan calculator is discoverable in category, directory, search, and sitemap', async () => {
+  for (const path of ['/loans/', '/calculators/', '/search/?q=loan', '/sitemap.xml']) {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    assert.match(await response.text(), /\/loan-calculator\//, path);
+  }
+  assert.equal((await fetch(new URL('/savings/loan-calculator/', baseUrl))).status, 404);
+});
+
 for (const path of ['/calculators/dental-loan-calculator/', '/loans/dental-loan-calculator/']) {
   test(`${path} renders dental payments and supporting content`, async () => {
     const response = await fetch(new URL(path, baseUrl));
