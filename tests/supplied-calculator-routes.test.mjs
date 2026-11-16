@@ -3,6 +3,7 @@ import test from 'node:test';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const cases = [
+  { slug: 'social-security-benefits-calculator', category: 'retirement', name: 'Social Security Benefits Calculator', result: 'Your Social Security Estimate', sample: '$2,000.00', heading: 'What Is a Social Security Benefits Calculator?' },
   { slug: 'dscr-loan-calculator', category: 'business', name: 'DSCR Loan Calculator', result: 'Your DSCR Results', sample: '1.20', heading: 'What Is a DSCR Loan Calculator?' },
 ];
 for (const entry of cases) {

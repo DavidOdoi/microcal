@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'social-security-benefits-calculator',
   'dscr-loan-calculator',
   'loan-calculator',
   'dental-loan-calculator',
@@ -165,6 +166,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('retirement', 'social-security-benefits-calculator', 'Social Security Benefits Calculator', 'Compare estimated Social Security benefits by claiming age and full retirement age.'),
   makeCalculator('business', 'dscr-loan-calculator', 'DSCR Loan Calculator', 'Calculate property debt coverage, net operating income, and supportable debt service.'),
   makeCalculator('loans', 'loan-calculator', 'Loan Calculator', 'Calculate loan payments, interest, fees, and total repayment with an amortization schedule.'),
   makeCalculator('loans', 'dental-loan-calculator', 'Dental Loan Calculator', 'Estimate dental financing payments after insurance, down payment, fees, and extra payments.'),
