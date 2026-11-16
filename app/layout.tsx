@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'MicroFinancePost',
   description: 'Free calculators for mortgages, debt, budgeting, taxes, retirement and savings.',
+  verification: { google: 'f3Vd7topcQTp-5X6zpLxNf8RNBpGoPfeDUwA7nLEeuk' },
   icons: {
     icon: [
       { url: '/favicon.ico?v=money-1', type: 'image/x-icon', sizes: '16x16 32x32 48x48 64x64 128x128 256x256' },

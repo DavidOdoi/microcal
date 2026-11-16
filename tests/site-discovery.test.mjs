@@ -45,6 +45,7 @@ test('homepage exposes the new icon formats and working calculator labels', asyn
   assert.match(html, /href="\/favicon\.ico\?v=money-1"/);
   assert.match(html, /href="\/favicon\.png\?v=money-1"/);
   assert.match(html, /rel="apple-touch-icon"/);
+  assert.ok(html.includes('<meta name="google-site-verification" content="f3Vd7topcQTp-5X6zpLxNf8RNBpGoPfeDUwA7nLEeuk"'));
   for (const path of ['/favicon.ico', '/favicon.png', '/apple-touch-icon.png']) {
     const response = await fetch(new URL(path, baseUrl));
     assert.equal(response.status, 200, path);
