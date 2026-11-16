@@ -5,6 +5,27 @@ import { batchFourPages } from '../lib/batch-four-pages.ts';
 
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 
+for (const path of ['/calculators/dental-loan-calculator/', '/loans/dental-loan-calculator/']) {
+  test(`${path} renders dental payments and supporting content`, async () => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /Your Dental Loan Payments/);
+    assert.match(html, /\$145\.20/);
+    assert.match(html, /Dental loan amortization schedule/);
+    assert.match(html, /Is 0% financing the same as deferred interest\?/);
+    assert.match(html, /href="https:\/\/microfinancepost.com\/calculators\/dental-loan-calculator\/"/);
+    assert.doesNotMatch(html, /This calculator is being built/);
+  });
+}
+test('dental calculator is discoverable and rejects the wrong category', async () => {
+  const sitemap = await (await fetch(new URL('/sitemap.xml', baseUrl))).text();
+  assert.ok(sitemap.includes('/calculators/dental-loan-calculator/'));
+  const loans = await (await fetch(new URL('/loans/', baseUrl))).text();
+  assert.match(loans, /Dental Loan Calculator/);
+  assert.equal((await fetch(new URL('/savings/dental-loan-calculator/', baseUrl))).status, 404);
+});
+
 for (const path of ['/calculators/fha-home-loan-calculator/', '/mortgages/fha-home-loan-calculator/']) {
   test(`${path} renders the FHA mortgage and insurance estimate`, async () => {
     const response = await fetch(new URL(path, baseUrl));
