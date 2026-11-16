@@ -12,7 +12,7 @@ const channels = [
 ];
 
 const faqs = [
-  ['Do you sell the information I send?', 'No. Calculators run in your browser and we never store what you enter. Messages are used only to reply to you.'],
+  ['Do you sell the information I send?', 'We do not currently sell personal information. Calculator entries stay in your browser. If you email us, we use your message to respond and handle relevant follow-up; this does not subscribe you to marketing.'],
   ['Can you give me personal financial advice?', 'Our tools explain the math behind common financial decisions. For advice about your situation, talk to a licensed financial, tax or legal professional.'],
   ['Can I suggest a new calculator?', 'Yes. Tell us what you want to work out and why. Your feedback helps shape our tools.'],
 ];
@@ -36,7 +36,7 @@ export default function ContactPage() {
       <div className="container-site contact-layout">
         <section className="contact-panel">
           <h2>Send a message</h2>
-          <p>Fields marked with an asterisk are required. We keep replies short and useful.</p>
+          <p>This form is a preview and does not send messages. For a reply, email <a href="mailto:hello@microfinancepost.com">hello@microfinancepost.com</a>. Fields marked with an asterisk are required for the preview. See our <Link href="/privacy-policy/">Privacy Policy</Link> for how we handle information.</p>
           {sent ? (
             <div className="contact-success" role="status">
               <CheckCircle2 size={24} />
@@ -48,7 +48,7 @@ export default function ContactPage() {
               <label>Email *<input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" /></label>
               <label>What is this about?<select defaultValue="General question"><option>General question</option><option>Report a calculation</option><option>Press or partnership</option><option>Suggest a calculator</option></select></label>
               <label>Message *<textarea required rows={5} placeholder="Tell us what you need…" /></label>
-              <button className="primary-button" type="submit">Send message <ArrowRight size={16} /></button>
+              <button className="primary-button" type="submit">Preview message <ArrowRight size={16} /></button>
             </form>
           )}
         </section>

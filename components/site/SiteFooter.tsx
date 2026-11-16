@@ -23,6 +23,8 @@ export function SiteFooter() {
             <Link href="/calculators">Calculators</Link>
             <Link href="/about">About & Methodology</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/privacy-policy/">Privacy Policy</Link>
+            <Link href="/terms-of-service/">Terms of Service</Link>
           </div>
         </div>
         <div className="container-site footer-disclaimer">
