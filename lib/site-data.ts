@@ -146,6 +146,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  'dscr-loan-calculator',
   'loan-calculator',
   'dental-loan-calculator',
   'fha-home-loan-calculator', 'commercial-mortgage-calculator', 'home-equity-loan-calculator', 'rent-vs-buy-calculator', 'mortgage-calculator', '401k-calculator', 'paycheck-calculator', 'credit-card-payoff-calculator',
@@ -164,6 +165,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  makeCalculator('business', 'dscr-loan-calculator', 'DSCR Loan Calculator', 'Calculate property debt coverage, net operating income, and supportable debt service.'),
   makeCalculator('loans', 'loan-calculator', 'Loan Calculator', 'Calculate loan payments, interest, fees, and total repayment with an amortization schedule.'),
   makeCalculator('loans', 'dental-loan-calculator', 'Dental Loan Calculator', 'Estimate dental financing payments after insurance, down payment, fees, and extra payments.'),
   makeCalculator('loans', 'personal-loan-calculator', 'Personal Loan Calculator', 'Monthly payment and total interest for a personal loan.'),
