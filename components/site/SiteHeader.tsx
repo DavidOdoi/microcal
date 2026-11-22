@@ -3,180 +3,195 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { ArrowRight, ChevronDown, Menu, Search, X } from 'lucide-react';
-import { calculators, calculatorsIn, categories } from '@/lib/site-data';
+import { ChevronDown, Menu, Search, X } from 'lucide-react';
 import { Logo } from './Logo';
 
-export function SiteHeader() {
+type MenuLink = { title: string; href: string };
+type MenuGroup = { title: string; links: MenuLink[] };
+export type MenuCategory = {
+  slug: string;
+  name: string;
+  groups: MenuGroup[];
+  planned: string[];
+};
+
+export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
   const pathname = usePathname();
   const router = useRouter();
-  const navRef = useRef<HTMLDivElement | null>(null);
-  const [open, setOpen] = useState(false);
-  const [mega, setMega] = useState(false);
-  const [q, setQ] = useState('');
+  const headerRef = useRef<HTMLElement>(null);
+  const mobileToggle = useRef<HTMLButtonElement>(null);
+  const hoverTimer = useRef<number>(undefined);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [expanded, setExpanded] = useState<string | null>(null);
+  const [query, setQuery] = useState('');
+  const [, currentCategory, currentSlug] = pathname.split('/');
 
-  const onCalculators = pathname?.startsWith('/calculators') ?? false;
-  const currentCategory = pathname?.split('/')[1];
-  const categoryLinks = categories.map(({ slug, name }) => (
-    <Link
-      key={slug}
-      href={`/${slug}/`}
-      className={`nav-link ${currentCategory === slug ? 'nav-link-active' : ''}`}
-      aria-current={pathname === `/${slug}/` || pathname === `/${slug}` ? 'page' : undefined}
-      onClick={() => {
-        setOpen(false);
-        setMega(false);
-      }}
-    >
-      {name}
-    </Link>
-  ));
+  function closeMenu() {
+    window.clearTimeout(hoverTimer.current);
+    setMobileOpen(false);
+    setExpanded(null);
+  }
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setMega(false);
+      if (event.key !== 'Escape') return;
+      window.clearTimeout(hoverTimer.current);
+      if (expanded) {
+        if (headerRef.current?.contains(document.activeElement)) {
+          document.getElementById(`category-toggle-${expanded}`)?.focus();
+        }
+        setExpanded(null);
+      } else if (mobileOpen) {
+        setMobileOpen(false);
+        mobileToggle.current?.focus();
       }
     };
-
-    const handleClick = (event: MouseEvent) => {
-      if (navRef.current && !navRef.current.contains(event.target as Node)) {
-        setMega(false);
-      }
+    const handleOutside = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) closeMenu();
     };
 
     document.addEventListener('keydown', handleKeyDown);
-    document.addEventListener('mousedown', handleClick);
-
+    document.addEventListener('pointerdown', handleOutside);
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
-      document.removeEventListener('mousedown', handleClick);
+      document.removeEventListener('pointerdown', handleOutside);
     };
-  }, []);
+  }, [expanded, mobileOpen]);
 
-  const submitSearch = (event: React.FormEvent) => {
+  function submitSearch(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const query = q.trim();
-    setOpen(false);
-    setMega(false);
-    router.push(query ? `/search?q=${encodeURIComponent(query)}` : '/search');
-  };
+    const trimmed = query.trim();
+    closeMenu();
+    router.push(trimmed ? `/search?q=${encodeURIComponent(trimmed)}` : '/search');
+  }
+
+  function searchForm(className: string) {
+    return (
+      <form className={className} onSubmit={submitSearch} role="search">
+        <Search size={16} aria-hidden="true" />
+        <input
+          type="search"
+          aria-label="Search calculators"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search tools"
+        />
+      </form>
+    );
+  }
 
   return (
-    <header className="site-header">
+    <header
+      ref={headerRef}
+      className="site-header"
+      onPointerLeave={(event) => {
+        if (event.pointerType === 'mouse'
+          && !event.currentTarget.querySelector('.category-nav-item[data-expanded="true"]')?.contains(document.activeElement)) {
+          setExpanded(null);
+        }
+      }}
+    >
       <div className="container-site header-inner">
-        <Link href="/" aria-label="MicroFinancePost home">
+        <Link href="/" aria-label="MicroFinancePost home" onClick={closeMenu}>
           <Logo inverted />
         </Link>
 
-        <nav ref={navRef} className="desktop-nav" aria-label="Main navigation">
-          <Link href="/" className={`nav-link ${pathname === '/' ? 'nav-link-active' : ''}`}>
-            Home
-          </Link>
-
-          <button
-            type="button"
-            className={`nav-link nav-dropdown ${mega || onCalculators ? 'nav-link-active' : ''}`}
-            onMouseEnter={() => setMega(true)}
-            onClick={() => setMega((value) => !value)}
-            aria-expanded={mega}
-          >
-            Calculators
-            <ChevronDown size={16} className={mega ? 'chevron-open' : ''} />
-          </button>
-
-          <Link href="/about" className={`nav-link ${pathname === '/about' ? 'nav-link-active' : ''}`}>
-            About
-          </Link>
-
-          <Link href="/contact" className={`nav-link ${pathname === '/contact' ? 'nav-link-active' : ''}`}>
-            Contact
-          </Link>
-
-          {mega ? (
-            <div className="mega-menu">
-              <div className="container-site mega-menu-inner">
-                <div className="mega-grid">
-                  {categories.map((category) => {
-                    const items = calculatorsIn(category.slug);
-                    return (
-                      <div key={category.slug}>
-                        <Link href={`/${category.slug}`} className="mega-title" onClick={() => setMega(false)}>
-                          <category.icon size={16} />
-                          <span>{category.name}</span>
-                          <small>{items.length}</small>
-                        </Link>
-                        <ul className="mega-list">
-                          {items.map((calculator) => (
-                            <li key={calculator.slug}>
-                              <Link href={`/calculators/${calculator.slug}`} onClick={() => setMega(false)}>
-                                {calculator.name}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    );
-                  })}
-                </div>
-                <div className="mega-footer">
-                  <p>Free forever · No sign-up · Nothing you enter is stored.</p>
-                  <Link href="/calculators" className="primary-button" onClick={() => setMega(false)}>
-                    View all {calculators.length} calculators <ArrowRight size={16} />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ) : null}
-        </nav>
-
-        <form className="header-search" onSubmit={submitSearch}>
-          <Search size={16} />
-          <input
-            aria-label="Search calculators"
-            value={q}
-            onChange={(event) => setQ(event.target.value)}
-            placeholder="Search tools & topics"
-          />
-        </form>
-
         <button
+          ref={mobileToggle}
           type="button"
           className="mobile-menu-button"
           aria-label="Toggle menu"
-          aria-expanded={open}
-          onClick={() => setOpen((value) => !value)}
+          aria-expanded={mobileOpen}
+          aria-controls="main-navigation"
+          onClick={() => {
+            setMobileOpen(!mobileOpen);
+            setExpanded(null);
+          }}
         >
-          {open ? <X size={18} /> : <Menu size={18} />}
+          {mobileOpen ? <X size={18} /> : <Menu size={18} />}
         </button>
+
+        <nav id="main-navigation" className="main-nav" aria-label="Main navigation" data-open={mobileOpen}>
+          {searchForm('mobile-search')}
+          <ul className="main-nav-list">
+            {categories.map(({ slug, name, groups, planned }) => {
+              const isExpanded = expanded === slug;
+              const isCurrent = currentCategory === slug;
+              return (
+                <li
+                  key={slug}
+                  className="category-nav-item"
+                  data-expanded={isExpanded}
+                  onBlur={(event) => {
+                    if (!event.currentTarget.contains(event.relatedTarget)) {
+                      setExpanded((value) => value === slug ? null : value);
+                    }
+                  }}
+                >
+                  <div className={`category-nav-control ${isCurrent || isExpanded ? 'nav-link-active' : ''}`}>
+                    <Link
+                      href={`/${slug}/`}
+                      aria-current={isCurrent && !currentSlug ? 'page' : undefined}
+                      onClick={closeMenu}
+                      onPointerEnter={(event) => {
+                        if (event.pointerType !== 'mouse' || !window.matchMedia('(min-width: 1024px)').matches) return;
+                        // Give the pointer time to cross another row on its way to the panel.
+                        hoverTimer.current = window.setTimeout(() => setExpanded(slug), expanded ? 180 : 0);
+                      }}
+                      onPointerLeave={() => window.clearTimeout(hoverTimer.current)}
+                    >
+                      {name}
+                    </Link>
+                    <button
+                      type="button"
+                      id={`category-toggle-${slug}`}
+                      aria-label={`Explore ${name}`}
+                      aria-controls={`category-panel-${slug}`}
+                      aria-expanded={isExpanded}
+                      onClick={() => setExpanded(isExpanded ? null : slug)}
+                    >
+                      <ChevronDown size={14} aria-hidden="true" />
+                    </button>
+                  </div>
+                  <div id={`category-panel-${slug}`} className="category-panel" hidden={!isExpanded}>
+                    {isExpanded && (
+                      <div className="category-panel-grid">
+                        {groups.map(({ title, links }) => (
+                          <div key={title}>
+                            <h2>{title}</h2>
+                            <ul className="category-panel-list">
+                              {links.map(({ href, title: label }) => (
+                                <li key={href}><Link href={href} onClick={closeMenu}>{label}</Link></li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                        {planned.length > 0 && (
+                          <div>
+                            <h2>Planned articles</h2>
+                            <ul className="category-panel-list planned-articles">
+                              {planned.map((title) => <li key={title}>{title}</li>)}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+            <li>
+              <div className={`category-nav-control ${currentCategory === 'about' ? 'nav-link-active' : ''}`}>
+                <Link href="/about/" aria-current={currentCategory === 'about' ? 'page' : undefined} onClick={closeMenu}>
+                  About
+                </Link>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        {searchForm('header-search')}
       </div>
-
-      <nav className="desktop-category-nav" aria-label="Categories">
-        <div className="container-site category-nav-links">{categoryLinks}</div>
-      </nav>
-
-      {open ? (
-        <div className="mobile-menu">
-          <div className="container-site mobile-menu-inner">
-            <form onSubmit={submitSearch} className="mobile-search">
-              <Search size={16} />
-              <input value={q} onChange={(event) => setQ(event.target.value)} placeholder="Search tools & topics" />
-            </form>
-
-            <div className="mobile-links">
-              <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-              <Link href="/about" onClick={() => setOpen(false)}>About</Link>
-              <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
-              <Link href="/calculators" onClick={() => setOpen(false)}>All calculators</Link>
-            </div>
-
-            <nav className="mobile-category-nav" aria-label="Categories">
-              <p>Categories</p>
-              <div className="category-nav-links">{categoryLinks}</div>
-            </nav>
-          </div>
-        </div>
-      ) : null}
     </header>
   );
 }

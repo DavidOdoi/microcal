@@ -8,12 +8,12 @@ test('category navigation points directly to every category landing page', async
   const home = await fetch(new URL('/', baseUrl));
   assert.equal(home.status, 200);
   const html = await home.text();
-  const nav = html.match(/<nav class="desktop-category-nav" aria-label="Categories">([\s\S]*?)<\/nav>/)?.[1];
+  const nav = html.match(/<nav id="main-navigation" class="main-nav" aria-label="Main navigation"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
   assert.ok(nav, 'category navigation is rendered in the header');
   const links = [...nav.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
   const expected = [
     '/loans/', '/business/', '/student-loans/', '/home-equity/', '/mortgages/', '/auto-loans/',
-    '/savings/', '/investments/', '/retirement/', '/taxes/', '/debt/', '/budgeting/',
+    '/savings/', '/investments/', '/retirement/', '/taxes/', '/debt/', '/budgeting/', '/about/',
   ];
   assert.deepEqual([...links].sort(), [...expected].sort());
 
@@ -21,7 +21,7 @@ test('category navigation points directly to every category landing page', async
     const response = await fetch(new URL(path, baseUrl), { redirect: 'manual' });
     assert.equal(response.status, 200, path);
     const page = await response.text();
-    const categoryNav = page.match(/<nav class="desktop-category-nav" aria-label="Categories">([\s\S]*?)<\/nav>/)?.[1];
+    const categoryNav = page.match(/<nav id="main-navigation" class="main-nav" aria-label="Main navigation"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
     const currentLink = categoryNav?.match(/<a\b[^>]*aria-current="page"[^>]*>/)?.[0];
     assert.ok(currentLink?.includes(`href="${path}"`), `${path} is marked as the current page`);
   }
