@@ -94,6 +94,7 @@ img {
 }
 
 .main-nav-list,
+.category-panel-links,
 .category-panel-list {
   list-style: none;
   margin: 0;
@@ -153,16 +154,51 @@ img {
   color: var(--foreground);
 }
 
-.category-panel-grid {
+.category-panel-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-bottom: 0.9rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.category-panel-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+  background: var(--muted);
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.category-panel-links a:is(:hover, [aria-current="page"]) {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+.category-panel-grid,
+.category-panel-sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
   gap: 1rem 2rem;
 }
 
-.category-panel h2 {
+.category-panel-sections .category-panel-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.category-panel :is(h2, h3) {
   margin: 0 0 0.5rem;
   color: var(--primary);
   font-size: 1rem;
+}
+
+.category-panel .category-panel-title {
+  font-size: 1.125rem;
 }
 
 .category-panel-list {
@@ -1436,13 +1472,13 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 .legal-contents ul { list-style: disc; padding-left: 1.25rem; }
 .legal-contents li + li { margin-top: .5rem; }
 
-@media (min-width: 1024px) {
-  html { scroll-padding-top: 1.5rem; }
-
+@media (min-width: 70em) {
   .site-header .header-inner {
-    gap: 1rem;
+    gap: clamp(0.65rem, 1.1vw, 1rem);
     padding-block: 0.5rem;
   }
+
+  .site-header .brand-name { font-size: clamp(1.125rem, 1.5vw, 1.25rem); }
 
   .main-nav,
   .main-nav[data-open="true"] {
@@ -1460,7 +1496,6 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 
   .main-nav-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 0.15rem;
   }
@@ -1468,18 +1503,18 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
   .category-nav-control {
     border-radius: 999px;
     background: transparent;
-    color: var(--ink-muted);
-    font-size: 0.8125rem;
+    color: var(--ink-foreground);
+    font-size: clamp(0.875rem, 1.05vw, 0.9375rem);
     white-space: nowrap;
   }
 
   .category-nav-control a,
   .category-nav-control button {
-    min-height: 35px;
+    min-height: 40px;
   }
 
   .category-nav-control a {
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.4rem;
   }
 
   .category-nav-item .category-nav-control a {
@@ -1512,7 +1547,9 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 
   .header-search {
     display: flex;
-    flex: 0 0 clamp(8rem, 12vw, 12rem);
+    flex: 0 0 clamp(7rem, 10vw, 12rem);
     font-size: 0.9rem;
   }
+
+  .header-search input::placeholder { color: var(--ink-muted); }
 }

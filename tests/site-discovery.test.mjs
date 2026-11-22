@@ -17,6 +17,15 @@ test('category navigation points directly to every category landing page', async
   ];
   assert.deepEqual([...links].sort(), [...expected].sort());
 
+  const topLevelLinks = [...nav.matchAll(/<div class="category-nav-control [^"]*"><a\b[^>]*href="([^"]+)"/g)]
+    .map((match) => match[1]);
+  assert.deepEqual(topLevelLinks, [
+    '/loans/', '/business/', '/mortgages/', '/savings/', '/investments/', '/taxes/', '/budgeting/', '/about/',
+  ]);
+  const loansPanel = nav.match(/<div id="category-panel-loans"[^>]*>([\s\S]*?)<\/div>/)?.[1];
+  assert.match(loansPanel ?? '', /href="\/student-loans\/"/);
+  assert.match(loansPanel ?? '', /href="\/auto-loans\/"/);
+
   for (const path of links) {
     const response = await fetch(new URL(path, baseUrl), { redirect: 'manual' });
     assert.equal(response.status, 200, path);

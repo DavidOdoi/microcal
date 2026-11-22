@@ -12,6 +12,14 @@ const articleGroups = [
   { kind: 'vs', title: 'Comparisons' },
 ] as const;
 
+const categoryParents: Partial<Record<string, string>> = {
+  'student-loans': 'loans',
+  'auto-loans': 'loans',
+  'home-equity': 'mortgages',
+  retirement: 'investments',
+  debt: 'budgeting',
+};
+
 const menuCategories: MenuCategory[] = categories.map(({ slug, name }) => {
   const articles = categoryArticles.filter((article) => article.category === slug);
   const groups = [
@@ -34,6 +42,11 @@ const menuCategories: MenuCategory[] = categories.map(({ slug, name }) => {
     planned: (plannedCategoryArticles[slug] ?? []).map((article) => article.title),
   };
 });
+
+const menuSections = menuCategories.filter(({ slug }) => !categoryParents[slug]).map((category) => ({
+  ...category,
+  subcategories: menuCategories.filter(({ slug }) => categoryParents[slug] === category.slug),
+}));
 
 export const metadata: Metadata = {
   title: 'MicroFinancePost',
@@ -58,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <SiteHeader categories={menuCategories} />
+        <SiteHeader sections={menuSections} />
         <main>{children}</main>
         <SiteFooter />
       </body>

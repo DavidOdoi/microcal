@@ -14,20 +14,19 @@ export type MenuCategory = {
   groups: MenuGroup[];
   planned: string[];
 };
+type MenuSection = MenuCategory & { subcategories: MenuCategory[] };
 
-export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
+export function SiteHeader({ sections }: { sections: MenuSection[] }) {
   const pathname = usePathname();
   const router = useRouter();
   const headerRef = useRef<HTMLElement>(null);
   const mobileToggle = useRef<HTMLButtonElement>(null);
-  const hoverTimer = useRef<number>(undefined);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [query, setQuery] = useState('');
   const [, currentCategory, currentSlug] = pathname.split('/');
 
   function closeMenu() {
-    window.clearTimeout(hoverTimer.current);
     setMobileOpen(false);
     setExpanded(null);
   }
@@ -35,7 +34,6 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key !== 'Escape') return;
-      window.clearTimeout(hoverTimer.current);
       if (expanded) {
         if (headerRef.current?.contains(document.activeElement)) {
           document.getElementById(`category-toggle-${expanded}`)?.focus();
@@ -74,7 +72,7 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
           aria-label="Search calculators"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search tools"
+          placeholder="Search"
         />
       </form>
     );
@@ -114,9 +112,12 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
         <nav id="main-navigation" className="main-nav" aria-label="Main navigation" data-open={mobileOpen}>
           {searchForm('mobile-search')}
           <ul className="main-nav-list">
-            {categories.map(({ slug, name, groups, planned }) => {
+            {sections.map((section) => {
+              const { slug, name, subcategories } = section;
               const isExpanded = expanded === slug;
               const isCurrent = currentCategory === slug;
+              const isActive = isCurrent || subcategories.some((category) => category.slug === currentCategory);
+              const isGrouped = subcategories.length > 0;
               return (
                 <li
                   key={slug}
@@ -128,17 +129,16 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
                     }
                   }}
                 >
-                  <div className={`category-nav-control ${isCurrent || isExpanded ? 'nav-link-active' : ''}`}>
+                  <div className={`category-nav-control ${isActive || isExpanded ? 'nav-link-active' : ''}`}>
                     <Link
                       href={`/${slug}/`}
                       aria-current={isCurrent && !currentSlug ? 'page' : undefined}
                       onClick={closeMenu}
                       onPointerEnter={(event) => {
-                        if (event.pointerType !== 'mouse' || !window.matchMedia('(min-width: 1024px)').matches) return;
-                        // Give the pointer time to cross another row on its way to the panel.
-                        hoverTimer.current = window.setTimeout(() => setExpanded(slug), expanded ? 180 : 0);
+                        if (event.pointerType === 'mouse' && window.matchMedia('(min-width: 70em)').matches) {
+                          setExpanded(slug);
+                        }
                       }}
-                      onPointerLeave={() => window.clearTimeout(hoverTimer.current)}
                     >
                       {name}
                     </Link>
@@ -154,26 +154,29 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
                     </button>
                   </div>
                   <div id={`category-panel-${slug}`} className="category-panel" hidden={!isExpanded}>
+                    {isGrouped && (
+                      <ul className="category-panel-links" aria-label={`${name} categories`}>
+                        {subcategories.map((category) => (
+                          <li key={category.slug}>
+                            <Link
+                              href={`/${category.slug}/`}
+                              aria-current={currentCategory === category.slug && !currentSlug ? 'page' : undefined}
+                              onClick={closeMenu}
+                            >
+                              {category.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                     {isExpanded && (
-                      <div className="category-panel-grid">
-                        {groups.map(({ title, links }) => (
-                          <div key={title}>
-                            <h2>{title}</h2>
-                            <ul className="category-panel-list">
-                              {links.map(({ href, title: label }) => (
-                                <li key={href}><Link href={href} onClick={closeMenu}>{label}</Link></li>
-                              ))}
-                            </ul>
+                      <div className={isGrouped ? 'category-panel-sections' : undefined}>
+                        {[section, ...subcategories].map((category) => (
+                          <div key={category.slug}>
+                            {isGrouped && <h2 className="category-panel-title">{category.name}</h2>}
+                            <CategoryMenuContent category={category} grouped={isGrouped} onNavigate={closeMenu} />
                           </div>
                         ))}
-                        {planned.length > 0 && (
-                          <div>
-                            <h2>Planned articles</h2>
-                            <ul className="category-panel-list planned-articles">
-                              {planned.map((title) => <li key={title}>{title}</li>)}
-                            </ul>
-                          </div>
-                        )}
                       </div>
                     )}
                   </div>
@@ -193,5 +196,35 @@ export function SiteHeader({ categories }: { categories: MenuCategory[] }) {
         {searchForm('header-search')}
       </div>
     </header>
+  );
+}
+
+function CategoryMenuContent({ category, grouped, onNavigate }: {
+  category: MenuCategory;
+  grouped: boolean;
+  onNavigate: () => void;
+}) {
+  const Heading = grouped ? 'h3' : 'h2';
+  return (
+    <div className="category-panel-grid">
+      {category.groups.map(({ title, links }) => (
+        <div key={title}>
+          <Heading>{title}</Heading>
+          <ul className="category-panel-list">
+            {links.map(({ href, title: label }) => (
+              <li key={href}><Link href={href} onClick={onNavigate}>{label}</Link></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      {category.planned.length > 0 && (
+        <div>
+          <Heading>Planned articles</Heading>
+          <ul className="category-panel-list planned-articles">
+            {category.planned.map((title) => <li key={title}>{title}</li>)}
+          </ul>
+        </div>
+      )}
+    </div>
   );
 }
