@@ -3,6 +3,7 @@ import { ChevronRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import { CalculatorCard } from '@/components/site/CalculatorCard';
 import { PageHero } from '@/components/site/PageHero';
+import { articleLabels, categoryArticlePath, categoryArticles } from '@/lib/category-articles';
 import { calculatorsIn, categories, getCategory } from '@/lib/site-data';
 import type { Metadata } from 'next';
 
@@ -23,6 +24,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   }
 
   const items = calculatorsIn(category);
+  const articles = categoryArticles.filter((article) => article.category === category);
 
   return (
     <>
@@ -44,6 +46,21 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
               <CalculatorCard key={calc.slug} calc={calc} />
             ))}
           </div>
+
+          {articles.length > 0 && (
+            <section>
+              <h2 className="section-title extra-space">{found.name} articles</h2>
+              <div className="card-grid">
+                {articles.map((article) => (
+                  <Link key={article.slug} href={categoryArticlePath(article)} className="card-interactive">
+                    <span className="text-xs text-muted-foreground">{articleLabels[article.kind]}</span>
+                    <h3 className="mt-4 text-xl font-semibold text-foreground">{article.title}</h3>
+                    <p className="mt-2 text-sm leading-6 text-muted-foreground">{article.description}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <h2 className="section-title extra-space">Key topics</h2>
           <div className="topics-grid">

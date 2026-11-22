@@ -4,6 +4,29 @@ import test from 'node:test';
 const baseUrl = process.env.TEST_BASE_URL || 'http://127.0.0.1:3000';
 const origin = 'https://microfinancepost.com';
 
+test('category navigation points directly to every category landing page', async () => {
+  const home = await fetch(new URL('/', baseUrl));
+  assert.equal(home.status, 200);
+  const html = await home.text();
+  const nav = html.match(/<nav class="desktop-category-nav" aria-label="Categories">([\s\S]*?)<\/nav>/)?.[1];
+  assert.ok(nav, 'category navigation is rendered in the header');
+  const links = [...nav.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
+  const expected = [
+    '/loans/', '/business/', '/student-loans/', '/home-equity/', '/mortgages/', '/auto-loans/',
+    '/savings/', '/investments/', '/retirement/', '/taxes/', '/debt/', '/budgeting/',
+  ];
+  assert.deepEqual([...links].sort(), [...expected].sort());
+
+  for (const path of links) {
+    const response = await fetch(new URL(path, baseUrl), { redirect: 'manual' });
+    assert.equal(response.status, 200, path);
+    const page = await response.text();
+    const categoryNav = page.match(/<nav class="desktop-category-nav" aria-label="Categories">([\s\S]*?)<\/nav>/)?.[1];
+    const currentLink = categoryNav?.match(/<a\b[^>]*aria-current="page"[^>]*>/)?.[0];
+    assert.ok(currentLink?.includes(`href="${path}"`), `${path} is marked as the current page`);
+  }
+});
+
 test('robots advertises the canonical sitemap and permits crawling', async () => {
   const response = await fetch(new URL('/robots.txt', baseUrl));
   assert.equal(response.status, 200);

@@ -105,6 +105,16 @@ img {
   color: var(--ink-foreground);
 }
 
+.desktop-category-nav {
+  display: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category-nav-links {
+  display: grid;
+  gap: 0.5rem;
+}
+
 .nav-dropdown {
   border: none;
   background: transparent;
@@ -260,6 +270,8 @@ img {
 .mobile-menu {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   background: var(--card);
+  max-height: calc(100dvh - 78px);
+  overflow-y: auto;
 }
 
 .mobile-menu-inner {
@@ -290,6 +302,28 @@ img {
   background: var(--muted);
   color: var(--foreground);
   font-weight: 600;
+}
+
+.mobile-category-nav p {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+}
+
+.mobile-category-nav .category-nav-links {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mobile-category-nav .nav-link {
+  background: var(--muted);
+  color: var(--foreground);
+  border-radius: 0.8rem;
+  min-height: 44px;
+  padding: 0.5rem 0.8rem;
+}
+
+.mobile-category-nav .nav-link:is(:hover, .nav-link-active) {
+  background: var(--accent);
+  color: var(--accent-foreground);
 }
 
 .hero-shell {
@@ -1116,7 +1150,7 @@ body { background: var(--background); }
 .desktop-nav { margin-left: .25rem; gap: .2rem; padding: .3rem; background: rgba(255,255,255,.07); }
 .nav-link { padding: .65rem 1.1rem; color: rgba(247,249,242,.8); }
 .nav-link:hover, .nav-link-active { background: #d8f67a; color: #101b12; }
-.mega-menu { position: fixed; top: 78px; left: 0; right: 0; max-height: calc(100vh - 78px); overflow-y: auto; background: #fff; border-radius: 0; }
+.mega-menu { position: fixed; top: 100%; left: 0; right: 0; max-height: calc(100dvh - 123px); overflow-y: auto; background: #fff; border-radius: 0; }
 .mega-menu-inner { padding: 2rem 0 1rem; }
 .mega-grid { row-gap: 2rem; }
 .mega-title { color: #172319; }
@@ -1474,3 +1508,25 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 .legal-contents { margin: 2rem 0; padding: 1.25rem; border: 1px solid #dce5df; border-radius: 12px; }
 .legal-contents ul { list-style: disc; padding-left: 1.25rem; }
 .legal-contents li + li { margin-top: .5rem; }
+
+@media (min-width: 1024px) {
+  html { scroll-padding-top: 45px; }
+
+  .mobile-menu { display: none; }
+  .desktop-category-nav { display: block; }
+
+  .desktop-category-nav .category-nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    min-height: 44px;
+    overflow-x: auto;
+  }
+
+  .desktop-category-nav .nav-link {
+    padding: 0.4rem clamp(0.35rem, 0.7vw, 1rem);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+}

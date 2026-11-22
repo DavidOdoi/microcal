@@ -16,6 +16,21 @@ export function SiteHeader() {
   const [q, setQ] = useState('');
 
   const onCalculators = pathname?.startsWith('/calculators') ?? false;
+  const currentCategory = pathname?.split('/')[1];
+  const categoryLinks = categories.map(({ slug, name }) => (
+    <Link
+      key={slug}
+      href={`/${slug}/`}
+      className={`nav-link ${currentCategory === slug ? 'nav-link-active' : ''}`}
+      aria-current={pathname === `/${slug}/` || pathname === `/${slug}` ? 'page' : undefined}
+      onClick={() => {
+        setOpen(false);
+        setMega(false);
+      }}
+    >
+      {name}
+    </Link>
+  ));
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -125,10 +140,20 @@ export function SiteHeader() {
           />
         </form>
 
-        <button type="button" className="mobile-menu-button" aria-label="Toggle menu" onClick={() => setOpen((value) => !value)}>
+        <button
+          type="button"
+          className="mobile-menu-button"
+          aria-label="Toggle menu"
+          aria-expanded={open}
+          onClick={() => setOpen((value) => !value)}
+        >
           {open ? <X size={18} /> : <Menu size={18} />}
         </button>
       </div>
+
+      <nav className="desktop-category-nav" aria-label="Categories">
+        <div className="container-site category-nav-links">{categoryLinks}</div>
+      </nav>
 
       {open ? (
         <div className="mobile-menu">
@@ -144,6 +169,11 @@ export function SiteHeader() {
               <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
               <Link href="/calculators" onClick={() => setOpen(false)}>All calculators</Link>
             </div>
+
+            <nav className="mobile-category-nav" aria-label="Categories">
+              <p>Categories</p>
+              <div className="category-nav-links">{categoryLinks}</div>
+            </nav>
           </div>
         </div>
       ) : null}
