@@ -80,7 +80,7 @@ export default async function CategoryContentPage({ params }: { params: Promise<
 
   return (
     <>
-      <PageHero eyebrow={articleLabels[article.kind]} title={article.title} crumbs={
+      <PageHero className="content-hero" eyebrow={articleLabels[article.kind]} title={article.title} crumbs={
         <nav className="crumbs" aria-label="Breadcrumb">
           <Link href="/">Home</Link>
           <ChevronRight size={16} />

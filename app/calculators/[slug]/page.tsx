@@ -63,7 +63,7 @@ export default async function CalculatorDetailPage({ params }: { params: Promise
 
   return (
     <>
-      <PageHero eyebrow={category.name} title={calc.name} crumbs={
+      <PageHero className="content-hero" eyebrow={category.name} title={calc.name} crumbs={
         <nav className="crumbs" aria-label="Breadcrumb">
           <Link href="/">Home</Link>
           <ChevronRight size={16} />

@@ -5,14 +5,16 @@ export function PageHero({
   title,
   children,
   crumbs,
+  className,
 }: {
   eyebrow: string;
   title: string;
   children: ReactNode;
   crumbs?: ReactNode;
+  className?: string;
 }) {
   return (
-    <section className="page-hero">
+    <section className={className ? `page-hero ${className}` : 'page-hero'}>
       <div className="container-site py-12 md:py-16">
         {crumbs}
         <div className="inline-flex rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
