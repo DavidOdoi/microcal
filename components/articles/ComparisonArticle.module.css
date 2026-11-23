@@ -108,7 +108,7 @@
 .table thead { background: #e6efe2; }
 .table tbody tr:nth-child(even) { background: #f8faf6; }
 .table tbody tr:last-child > * { border-bottom: 0; }
-.table td:nth-child(3) { font-weight: 700; font-variant-numeric: tabular-nums; }
+.emphasizedValue { font-weight: 700; font-variant-numeric: tabular-nums; }
 .article .tableNote { line-height: 1.55; }
 .cellLabel { display: none; }
 
@@ -123,7 +123,7 @@
   white-space: nowrap;
 }
 
-.bank h2 {
+.review h2 {
   padding-block: .85rem 1rem;
   border-top: 3px solid #286840;
   border-bottom: 1px solid #dbe3d8;
@@ -141,7 +141,7 @@
 .tradeoffs h3 { margin-top: 0; }
 .tradeoffs ul { margin-top: .45rem; }
 
-.article .bankLink {
+.article .productLink {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
@@ -153,7 +153,7 @@
   font-weight: 700;
   text-decoration: none;
 }
-.article .bankLink:hover { background: #173f28; }
+.article .productLink:hover { background: #173f28; }
 
 .verdict {
   padding-top: 1.4rem;

@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import styles from './CheckingAccountComparison.module.css';
+import { ComparisonTable } from './ComparisonTable';
+import styles from './ComparisonArticle.module.css';
 
 const bankDisclosures = {
   sofi: 'https://www.sofi.com/banking/',
@@ -43,34 +44,18 @@ export function CheckingAccountComparison() {
 
       <section className={styles.comparison} aria-labelledby="compare">
         <h2 id="compare">Best Checking Accounts in 2026: Quick Comparison</h2>
-        <div className={styles.tableFrame} role="region" aria-labelledby="compare" tabIndex={0}>
-          <table className={styles.table} role="table">
-            <caption className={styles.srOnly}>Monthly fees, checking APYs, and best uses by account</caption>
-            <thead role="rowgroup">
-              <tr role="row">
-                <th scope="col" role="columnheader">Bank</th>
-                {comparisonColumns.map((column) => <th key={column} scope="col" role="columnheader">{column}</th>)}
-              </tr>
-            </thead>
-            <tbody role="rowgroup">
-              {comparisonRows.map(({ id, name, values }) => (
-                <tr key={id} role="row">
-                  <th scope="row" role="rowheader"><a href={`#${id}`}>{name}</a></th>
-                  {comparisonColumns.map((column, index) => (
-                    <td key={column} role="cell">
-                      <span className={styles.cellLabel} aria-hidden="true">{column}</span>
-                      <span>{values[index]}</span>
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ComparisonTable
+          headingId="compare"
+          caption="Monthly fees, checking APYs, and best uses by account"
+          rowHeader="Bank"
+          columns={comparisonColumns}
+          rows={comparisonRows}
+          emphasizedColumn="Checking APY"
+        />
         <p className={styles.tableNote}><em>APYs are variable. The rates shown reflect available bank disclosures reviewed in November 2026. Monthly fees may be waived under qualifying conditions. Check each bank&#x27;s current terms before applying.</em></p>
       </section>
 
-      <section className={styles.bank} aria-labelledby="sofi">
+      <section className={styles.review} aria-labelledby="sofi">
         <h2 id="sofi">1. SoFi Checking and Savings — Best for Online Banking and Interest</h2>
         <p>SoFi Checking and Savings combines two accounts in one banking experience, making it attractive for people who want to handle everyday transactions and savings together.</p>
         <p>Unlike checking accounts that pay no interest, SoFi offers an APY on checking balances. It also provides access to a large ATM network without charging monthly maintenance fees.</p>
@@ -111,10 +96,10 @@ export function CheckingAccountComparison() {
         <p>SoFi is a strong option if you receive your income electronically, pay most bills online, and prefer managing your money through an app.</p>
         <p>It can also be attractive if you want to keep your checking balance relatively low while transferring excess money into a higher-yield savings account.</p>
         <p><strong>Our verdict:</strong> SoFi is one of the best checking account options for digitally comfortable customers who want to avoid monthly fees while earning interest.</p>
-        <p><a className={styles.bankLink} href={bankDisclosures.sofi}>Visit SoFi Checking and Savings</a></p>
+        <p><a className={styles.productLink} href={bankDisclosures.sofi}>Visit SoFi Checking and Savings</a></p>
       </section>
 
-      <section className={styles.bank} aria-labelledby="capital-one">
+      <section className={styles.review} aria-labelledby="capital-one">
         <h2 id="capital-one">2. Capital One 360 Checking — Best Overall for Everyday Banking</h2>
         <p>Capital One 360 Checking offers a useful balance between online convenience and access to physical banking services.</p>
         <p>The account has no monthly maintenance fee, no minimum balance requirement, and access to more than 70,000 fee-free ATMs.</p>
@@ -155,10 +140,10 @@ export function CheckingAccountComparison() {
         <p>Capital One is particularly suitable for someone who wants a simple checking account for receiving wages, paying rent, buying groceries, and making occasional cash withdrawals.</p>
         <p>For example, if your account balance frequently drops below $500 after paying bills, you won&#x27;t have to maintain a large minimum balance just to avoid a monthly maintenance charge.</p>
         <p><strong>Our verdict:</strong> Capital One 360 Checking is our best overall choice for convenient everyday banking with minimal recurring costs.</p>
-        <p><a className={styles.bankLink} href={bankDisclosures.capitalOne}>Visit Capital One 360 Checking</a></p>
+        <p><a className={styles.productLink} href={bankDisclosures.capitalOne}>Visit Capital One 360 Checking</a></p>
       </section>
 
-      <section className={styles.bank} aria-labelledby="ally">
+      <section className={styles.review} aria-labelledby="ally">
         <h2 id="ally">3. Ally Bank Spending Account — Best for ATM Fee Reimbursements</h2>
         <p>Ally Bank is another strong contender among the best banks for checking accounts, particularly for people who rarely visit physical branches.</p>
         <p>Its <a href={bankDisclosures.ally}>Spending Account</a> has no monthly maintenance fee, no minimum opening deposit, and an interest rate that depends on your account balance.</p>
@@ -200,10 +185,10 @@ export function CheckingAccountComparison() {
         <p>Ally is a good fit for people who primarily use direct deposit, debit cards, and electronic bill payments.</p>
         <p>It&#x27;s also worth considering if you want an online checking account but occasionally need to withdraw money from ATMs outside the bank&#x27;s free network.</p>
         <p><strong>Our verdict:</strong> Ally offers a practical combination of no monthly fees, interest, and ATM flexibility.</p>
-        <p><a className={styles.bankLink} href="https://www.ally.com/bank/">Visit Ally Bank</a></p>
+        <p><a className={styles.productLink} href="https://www.ally.com/bank/">Visit Ally Bank</a></p>
       </section>
 
-      <section className={styles.bank} aria-labelledby="chase">
+      <section className={styles.review} aria-labelledby="chase">
         <h2 id="chase">4. Chase Total Checking — Best for Nationwide Branch Access</h2>
         <p>Not everyone wants an online-only checking account.</p>
         <p>If you frequently deposit cash, visit bank branches, or prefer speaking with someone in person, Chase Total Checking deserves consideration.</p>
@@ -252,10 +237,10 @@ export function CheckingAccountComparison() {
         <p>However, the monthly fee matters. Paying $15 every month adds up to $180 annually.</p>
         <p>If you don&#x27;t qualify for a fee waiver and rarely visit branches, a free online checking account may provide better value.</p>
         <p><strong>Our verdict:</strong> Chase Total Checking is a strong choice for customers who need reliable branch access and can consistently avoid the monthly fee.</p>
-        <p><a className={styles.bankLink} href={bankDisclosures.chase}>Visit Chase Total Checking</a></p>
+        <p><a className={styles.productLink} href={bankDisclosures.chase}>Visit Chase Total Checking</a></p>
       </section>
 
-      <section className={styles.bank} aria-labelledby="wells-fargo">
+      <section className={styles.review} aria-labelledby="wells-fargo">
         <h2 id="wells-fargo">5. Wells Fargo Everyday Checking — Best for Flexible In-Person Banking</h2>
         <p>Wells Fargo Everyday Checking is another traditional banking option for customers who want access to branches, ATMs, debit cards, and everyday payment services.</p>
         <p>Like Chase, it charges a monthly service fee unless you meet certain requirements.</p>
@@ -303,7 +288,7 @@ export function CheckingAccountComparison() {
         <p>Wells Fargo may be a reasonable option for students, young adults, or customers who regularly need in-person banking services.</p>
         <p>If you&#x27;re between 17 and 24, the age-based fee waiver can make the account more affordable than it would be for someone who doesn&#x27;t meet any waiver requirements.</p>
         <p><strong>Our verdict:</strong> Wells Fargo Everyday Checking is worth comparing if branch access and flexible fee-waiver options matter more than earning interest.</p>
-        <p><a className={styles.bankLink} href={bankDisclosures.wellsFargo}>Visit Wells Fargo Everyday Checking</a></p>
+        <p><a className={styles.productLink} href={bankDisclosures.wellsFargo}>Visit Wells Fargo Everyday Checking</a></p>
       </section>
 
       <section aria-labelledby="how-to-choose">

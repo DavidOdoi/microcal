@@ -24,7 +24,6 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
     { title: 'Best robo-advisors', keywords: ['best robo advisor'] },
   ],
   business: [
-    { title: 'Best invoicing software for small businesses', keywords: ['best invoicing software for small business'] },
     { title: 'Best banks for business accounts', keywords: ['best business account bank'] },
   ],
   loans: [

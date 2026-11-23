@@ -68,6 +68,29 @@ test('checking-account comparison has one published URL linked from Savings', as
   assert.ok(!xml.includes(`<loc>${origin}/savings${path}</loc>`));
 });
 
+test('invoicing software guide is discoverable from Business and has both comparisons', async () => {
+  const path = '/best-invoicing-software-for-small-businesses/';
+  const category = await fetch(new URL('/business/', baseUrl));
+  assert.ok((await category.text()).includes(`href="${path}"`));
+
+  const alias = await fetch(new URL(`/business${path}`, baseUrl), { redirect: 'manual' });
+  assert.equal(alias.status, 308);
+  assert.equal(alias.headers.get('location'), path);
+
+  const page = await fetch(new URL(path, baseUrl));
+  assert.equal(page.status, 200);
+  const html = await page.text();
+  assert.match(html, /<h1[^>]*>7 Best Invoicing Software for Small Businesses in 2026<\/h1>/);
+  assert.match(html, /<caption[^>]*>Starting prices and best uses for seven invoicing tools<\/caption>/);
+  assert.match(html, /<caption[^>]*>Features of free and paid invoicing software<\/caption>/);
+  assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
+
+  const sitemap = await fetch(new URL('/sitemap.xml', baseUrl));
+  const xml = await sitemap.text();
+  assert.ok(xml.includes(`<loc>${origin}${path}</loc>`));
+  assert.ok(!xml.includes(`<loc>${origin}/business${path}</loc>`));
+});
+
 test('every sitemap entry is indexable, self-canonical, and reachable from the homepage', async () => {
   const response = await fetch(new URL('/sitemap.xml', baseUrl));
   assert.equal(response.status, 200);

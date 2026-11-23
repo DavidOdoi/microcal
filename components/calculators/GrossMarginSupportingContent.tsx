@@ -86,5 +86,6 @@ export function GrossMarginSupportingContent() {
     <p>{"Gross margin is a practical measure for understanding product profitability and pricing."}</p>
     <p>{"Use the "}<strong>{"Gross Margin Calculator above"}</strong>{" to compare sales, direct costs, and pricing decisions."}</p>
     <p>{"For a complete picture of business performance, review gross margin alongside operating expenses, net profit, "}<Link href="/calculators/dscr-loan-calculator/">{"cash flow"}</Link>{", and return on investment."}</p>
+    <p>{"If you need a way to track what you bill, "}<Link href="/best-invoicing-software-for-small-businesses/">{"compare invoicing software for small businesses"}</Link>{"."}</p>
   </>;
 }

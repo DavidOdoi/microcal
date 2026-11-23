@@ -1,5 +1,6 @@
 import type { ComponentType } from 'react';
 import { CheckingAccountComparison } from '@/components/articles/CheckingAccountComparison';
+import { InvoicingSoftwareComparison } from '@/components/articles/InvoicingSoftwareComparison';
 
 export const articleLabels = {
   guide: 'Guide',
@@ -27,8 +28,18 @@ export const checkingAccountsArticle: CategoryArticle = {
   Body: CheckingAccountComparison,
 };
 
+export const invoicingSoftwareArticle: CategoryArticle = {
+  category: 'business',
+  slug: 'best-invoicing-software-for-small-businesses',
+  permalink: '/best-invoicing-software-for-small-businesses/',
+  kind: 'best',
+  title: '7 Best Invoicing Software for Small Businesses in 2026',
+  description: 'Compare seven invoicing tools for small businesses, including Zoho Invoice, Wave, and QuickBooks. See starting prices, payment fees, and best uses.',
+  Body: InvoicingSoftwareComparison,
+};
+
 // Register complete articles with an existing category slug and a slug distinct from calculator slugs.
-export const categoryArticles: CategoryArticle[] = [checkingAccountsArticle];
+export const categoryArticles: CategoryArticle[] = [checkingAccountsArticle, invoicingSoftwareArticle];
 
 export function categoryArticlePath({ category, slug, permalink }: CategoryArticle) {
   return permalink ?? `/${category}/${slug}/`;

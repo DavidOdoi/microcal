@@ -1,0 +1,61 @@
+import { ArrowDown, ChevronRight } from 'lucide-react';
+import Link from 'next/link';
+import type { ReactNode } from 'react';
+import styles from './ComparisonArticle.module.css';
+
+const site = 'https://microfinancepost.com';
+
+export function ComparisonArticlePage({ title, description, path, category, children }: {
+  title: string;
+  description: string;
+  path: string;
+  category: { name: string; slug: string };
+  children: ReactNode;
+}) {
+  const canonical = `${site}${path}`;
+  const categoryPath = `/${category.slug}/`;
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: title,
+        description,
+        mainEntityOfPage: canonical,
+        publisher: { '@type': 'Organization', name: 'MicroFinancePost', url: `${site}/` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${site}/` },
+          { '@type': 'ListItem', position: 2, name: category.name, item: `${site}${categoryPath}` },
+          { '@type': 'ListItem', position: 3, name: title, item: canonical },
+        ],
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, '\\u003c') }} />
+      <article aria-labelledby="comparison-title">
+        <header className={styles.hero}>
+          <div className={styles.heroInner}>
+            <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+              <Link href="/">Home</Link>
+              <ChevronRight size={14} aria-hidden="true" />
+              <Link href={categoryPath}>{category.name}</Link>
+            </nav>
+            <h1 id="comparison-title">{title}</h1>
+            <nav className={styles.jumps} aria-label="On this page">
+              <a href="#compare">Compare <ArrowDown size={15} aria-hidden="true" /></a>
+              <a href="#how-to-choose">How to choose</a>
+              <a href="#faq">FAQs</a>
+            </nav>
+          </div>
+        </header>
+        <div className={styles.article}>{children}</div>
+      </article>
+    </>
+  );
+}
