@@ -1,4 +1,5 @@
 import type { ComponentType } from 'react';
+import { CheckingAccountComparison } from '@/components/articles/CheckingAccountComparison';
 
 export const articleLabels = {
   guide: 'Guide',
@@ -12,12 +13,23 @@ interface CategoryArticle {
   kind: keyof typeof articleLabels;
   title: string;
   description: string;
+  permalink?: `/${string}/`;
   Body: ComponentType;
 }
 
-// Register complete articles with an existing category slug and a slug distinct from calculator slugs.
-export const categoryArticles: CategoryArticle[] = [];
+export const checkingAccountsArticle: CategoryArticle = {
+  category: 'savings',
+  slug: 'best-banks-for-checking-accounts',
+  permalink: '/best-banks-for-checking-accounts/',
+  kind: 'best',
+  title: '5 Best Banks for Checking Accounts in 2026',
+  description: 'Compare SoFi, Capital One, Ally, Chase, and Wells Fargo by monthly fees, checking interest, and ATM or branch access.',
+  Body: CheckingAccountComparison,
+};
 
-export function categoryArticlePath({ category, slug }: CategoryArticle) {
-  return `/${category}/${slug}/`;
+// Register complete articles with an existing category slug and a slug distinct from calculator slugs.
+export const categoryArticles: CategoryArticle[] = [checkingAccountsArticle];
+
+export function categoryArticlePath({ category, slug, permalink }: CategoryArticle) {
+  return permalink ?? `/${category}/${slug}/`;
 }

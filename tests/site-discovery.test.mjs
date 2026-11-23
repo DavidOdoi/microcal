@@ -45,6 +45,27 @@ test('robots advertises the canonical sitemap and permits crawling', async () =>
   assert.doesNotMatch(robots, /^Disallow: \/\s*$/m);
 });
 
+test('checking-account comparison has one published URL linked from Savings', async () => {
+  const path = '/best-banks-for-checking-accounts/';
+  const category = await fetch(new URL('/savings/', baseUrl));
+  assert.match(await category.text(), /href="\/best-banks-for-checking-accounts\/"/);
+
+  const alias = await fetch(new URL(`/savings${path}`, baseUrl), { redirect: 'manual' });
+  assert.equal(alias.status, 308);
+  assert.equal(alias.headers.get('location'), path);
+
+  const page = await fetch(new URL(path, baseUrl));
+  assert.equal(page.status, 200);
+  const html = await page.text();
+  assert.match(html, /<h1[^>]*>5 Best Banks for Checking Accounts in 2026<\/h1>/);
+  assert.match(html, /<caption[^>]*>Monthly fees, checking interest, and access by account<\/caption>/);
+
+  const sitemap = await fetch(new URL('/sitemap.xml', baseUrl));
+  const xml = await sitemap.text();
+  assert.ok(xml.includes(`<loc>${origin}${path}</loc>`));
+  assert.ok(!xml.includes(`<loc>${origin}/savings${path}</loc>`));
+});
+
 test('every sitemap entry is indexable, self-canonical, and reachable from the homepage', async () => {
   const response = await fetch(new URL('/sitemap.xml', baseUrl));
   assert.equal(response.status, 200);

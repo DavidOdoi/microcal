@@ -2,7 +2,6 @@ type PlannedArticle = { title: string; keywords: string[] };
 
 export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> = {
   savings: [
-    { title: 'Best banks for checking accounts', keywords: ['best bank to open a checking account'] },
     { title: 'Best online bank accounts', keywords: ['best online bank account'] },
     { title: 'Best money market account rates', keywords: ['best interest money market accounts'] },
     { title: 'Best checking account bonuses', keywords: ['best bonus for opening checking account'] },

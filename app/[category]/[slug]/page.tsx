@@ -1,5 +1,5 @@
 import { getCustomCalculatorPage } from '@/components/calculators/custom-calculator-pages';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import type { Metadata } from 'next';
@@ -76,6 +76,7 @@ export default async function CategoryContentPage({ params }: { params: Promise<
   const article = categoryArticles.find((item) => item.category === category && item.slug === slug);
   const found = getCategory(category);
   if (!article || !found) notFound();
+  if (article.permalink) permanentRedirect(article.permalink);
   const { Body } = article;
 
   return (
