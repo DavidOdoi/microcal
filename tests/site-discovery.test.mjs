@@ -59,8 +59,8 @@ test('checking-account comparison has one published URL linked from Savings', as
   const html = await page.text();
   assert.match(html, /<h1[^>]*>5 Best Banks for Checking Accounts in 2026<\/h1>/);
   assert.match(html, /<caption[^>]*>Monthly fees, checking APYs, and best uses by account<\/caption>/);
-  assert.match(html, /<th scope="col">Checking APY<\/th>/);
-  assert.match(html, /<td>0\.10%–0\.25%<\/td>/);
+  assert.match(html, /<th scope="col"[^>]*>Checking APY<\/th>/);
+  assert.match(html, /<td[^>]*><span[^>]*aria-hidden="true">Checking APY<\/span><span[^>]*>0\.10%–0\.25%<\/span><\/td>/);
 
   const sitemap = await fetch(new URL('/sitemap.xml', baseUrl));
   const xml = await sitemap.text();

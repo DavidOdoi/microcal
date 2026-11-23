@@ -9,6 +9,15 @@ const bankDisclosures = {
   wellsFargo: 'https://www.wellsfargo.com/checking/everyday/',
 };
 
+const comparisonColumns = ['Monthly fee', 'Checking APY', 'Best for'];
+const comparisonRows = [
+  { id: 'sofi', name: 'SoFi Checking and Savings', values: ['$0', '0.50%', 'Online banking and interest'] },
+  { id: 'capital-one', name: 'Capital One 360 Checking', values: ['$0', '0.10%', 'Everyday banking and ATMs'] },
+  { id: 'ally', name: 'Ally Bank Spending', values: ['$0', '0.10%–0.25%', 'ATM reimbursements'] },
+  { id: 'chase', name: 'Chase Total Checking', values: ['$15, waivable', 'None', 'Nationwide branches'] },
+  { id: 'wells-fargo', name: 'Wells Fargo Everyday Checking', values: ['$15, waivable', 'None', 'In-person banking'] },
+];
+
 export function CheckingAccountComparison() {
   return (
     <>
@@ -35,15 +44,26 @@ export function CheckingAccountComparison() {
       <section className={styles.comparison} aria-labelledby="compare">
         <h2 id="compare">Best Checking Accounts in 2026: Quick Comparison</h2>
         <div className={styles.tableFrame} role="region" aria-labelledby="compare" tabIndex={0}>
-          <table className={styles.table}>
+          <table className={styles.table} role="table">
             <caption className={styles.srOnly}>Monthly fees, checking APYs, and best uses by account</caption>
-            <thead><tr><th scope="col">Bank</th><th scope="col">Monthly fee</th><th scope="col">Checking APY</th><th scope="col">Best for</th></tr></thead>
-            <tbody>
-              <tr><th scope="row"><a href="#sofi">SoFi Checking and Savings</a></th><td>$0</td><td>0.50%</td><td>Online banking and interest</td></tr>
-              <tr><th scope="row"><a href="#capital-one">Capital One 360 Checking</a></th><td>$0</td><td>0.10%</td><td>Everyday banking and ATMs</td></tr>
-              <tr><th scope="row"><a href="#ally">Ally Bank Spending</a></th><td>$0</td><td>0.10%–0.25%</td><td>ATM reimbursements</td></tr>
-              <tr><th scope="row"><a href="#chase">Chase Total Checking</a></th><td>$15, waivable</td><td>None</td><td>Nationwide branches</td></tr>
-              <tr><th scope="row"><a href="#wells-fargo">Wells Fargo Everyday Checking</a></th><td>$15, waivable</td><td>None</td><td>In-person banking</td></tr>
+            <thead role="rowgroup">
+              <tr role="row">
+                <th scope="col" role="columnheader">Bank</th>
+                {comparisonColumns.map((column) => <th key={column} scope="col" role="columnheader">{column}</th>)}
+              </tr>
+            </thead>
+            <tbody role="rowgroup">
+              {comparisonRows.map(({ id, name, values }) => (
+                <tr key={id} role="row">
+                  <th scope="row" role="rowheader"><a href={`#${id}`}>{name}</a></th>
+                  {comparisonColumns.map((column, index) => (
+                    <td key={column} role="cell">
+                      <span className={styles.cellLabel} aria-hidden="true">{column}</span>
+                      <span>{values[index]}</span>
+                    </td>
+                  ))}
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
