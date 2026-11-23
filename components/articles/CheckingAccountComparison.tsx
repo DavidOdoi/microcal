@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './CheckingAccountComparison.module.css';
 
 export function CheckingAccountComparison() {
@@ -317,6 +318,13 @@ export function CheckingAccountComparison() {
       <section aria-labelledby="how-to-open">
         <h2 id="how-to-open">How to Open a Checking Account in the USA</h2>
         <p>Opening a checking account typically involves a few straightforward steps.</p>
+        <Image
+          className={styles.sectionImage}
+          src="/images/checking-accounts/opening-a-checking-account.webp"
+          width={1200}
+          height={800}
+          alt="A person fills out an online form on a phone beside a face-down card"
+        />
         <p><strong>Step 1: Choose a bank.</strong> Compare fees, minimum deposits, interest rates, ATM availability, and customer support.</p>
         <p><strong>Step 2: Gather identification.</strong> Banks generally require your legal name, date of birth, address, and acceptable identification information.</p>
         <p><strong>Step 3: Complete the application.</strong> Apply online or visit a branch, depending on the bank.</p>
