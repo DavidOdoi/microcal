@@ -23,7 +23,7 @@ export const checkingAccountsArticle: CategoryArticle = {
   permalink: '/best-banks-for-checking-accounts/',
   kind: 'best',
   title: '5 Best Banks for Checking Accounts in 2026',
-  description: 'Compare SoFi, Capital One, Ally, Chase, and Wells Fargo by monthly fees, checking interest, and ATM or branch access.',
+  description: 'Discover the best banks for checking accounts in 2026. Compare SoFi, Capital One, Ally, Chase, and Wells Fargo for fees, APYs, and ATM access.',
   Body: CheckingAccountComparison,
 };
 
