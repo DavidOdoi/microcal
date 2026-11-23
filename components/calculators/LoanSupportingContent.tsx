@@ -80,7 +80,7 @@ export function LoanSupportingContent() {
     <p><strong>{"Make extra principal payments."}</strong>{" These may reduce future interest on qualifying loans."}</p>
     <p><strong>{"Improve your credit profile."}</strong>{" Better creditworthiness may help you qualify for more competitive financing."}</p>
     <p><strong>{"Avoid missed payments."}</strong>{" Late payments can result in fees and possible credit damage."}</p>
-    <p>{"Before "}<Link href="/calculators/debt-to-income-ratio-calculator/">{"taking out a new loan"}</Link>{", make sure its repayments fit your existing budget."}</p>
+    <p>{"Before "}<Link href="/debt/debt-to-income-ratio-calculator/">{"taking out a new loan"}</Link>{", make sure its repayments fit your existing budget."}</p>
     <h2>{"Frequently Asked Questions"}</h2>
     <h3>{"How much is a $10,000 loan per month?"}</h3>
     <p>{"At a hypothetical fixed 10% annual interest rate over three years, a fully amortizing $10,000 loan would cost approximately $322.67 per month, excluding additional fees."}</p>

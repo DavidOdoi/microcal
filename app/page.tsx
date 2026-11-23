@@ -1,13 +1,21 @@
-'use client';
-
-import { useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { ArrowRight, BadgeCheck, Lock, Search, Sparkles } from 'lucide-react';
+import { ArrowRight, BadgeCheck, Lock, Sparkles } from 'lucide-react';
 import { calculators, categories } from '@/lib/site-data';
 import { CalculatorCard } from '@/components/site/CalculatorCard';
+import { HomeSearch } from './HomeSearch';
 
-const popular = ['Mortgage', '401(k)', 'Paycheck', 'Credit card payoff', 'Compound interest'];
+export const metadata = {
+  title: 'Free Personal Finance Calculators — MicroFinancePost',
+  alternates: { canonical: '/' },
+};
+
+const popular = [
+  ['Mortgage', '/calculators/mortgage-calculator/'],
+  ['401(k)', '/calculators/401k-calculator/'],
+  ['Paycheck', '/calculators/paycheck-calculator/'],
+  ['Credit card payoff', '/calculators/credit-card-payoff-calculator/'],
+  ['Compound interest', '/calculators/compound-interest-calculator/'],
+];
 
 export default function HomePage() {
   return (
@@ -21,8 +29,8 @@ export default function HomePage() {
             </p>
             <HomeSearch />
             <div className="popular-tags">
-              {popular.map((tag) => (
-                <Link key={tag} href={`/search?q=${encodeURIComponent(tag)}`} className="chip">
+              {popular.map(([tag, href]) => (
+                <Link key={tag} href={href} className="chip">
                   {tag}
                 </Link>
               ))}
@@ -141,29 +149,5 @@ export default function HomePage() {
         </div>
       </section>
     </>
-  );
-}
-
-function HomeSearch() {
-  const router = useRouter();
-  const [query, setQuery] = useState('');
-
-  return (
-    <form
-      className="search-launch"
-      onSubmit={(event) => {
-        event.preventDefault();
-        router.push(query.trim() ? `/search?q=${encodeURIComponent(query.trim())}` : '/search');
-      }}
-    >
-      <Search size={18} />
-      <input
-        aria-label="Search calculators"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="What do you want to calculate?"
-      />
-      <button type="submit">Search</button>
-    </form>
   );
 }

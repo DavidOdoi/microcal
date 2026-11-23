@@ -6,7 +6,7 @@ export function MortgageExtraSupportingContent() {
     <p>{"A "}<strong>{"Mortgage Extra Payment Calculator"}</strong>{" estimates how additional principal payments could reduce mortgage interest and shorten the time needed to pay off a home loan."}</p>
     <p>{"Most conventional mortgages require "}<Link href="/calculators/mortgage-calculator/">{"regular monthly payments"}</Link>{" covering "}<a href="https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-interest-and-principal-en-197/">{"principal and interest"}</a>{"."}</p>
     <p>{"During the early years of a typical fixed-rate mortgage, a relatively large portion of each payment goes toward interest."}</p>
-    <p>{"Making "}<a href="https://yourhome.fanniemae.com/own/mortgage-payments">{"extra principal payments"}</a>{" can reduce the "}<Link href="/home-equity/home-equity-loan-calculator/">{"outstanding balance"}</Link>{" faster."}</p>
+    <p>{"Making "}<a href="https://yourhome.fanniemae.com/own/mortgage-payments">{"extra principal payments"}</a>{" can reduce the "}<Link href="/calculators/home-equity-loan-calculator/">{"outstanding balance"}</Link>{" faster."}</p>
     <p>{"When the balance falls, less interest accumulates in subsequent periods."}</p>
     <p>{"Our calculator helps homeowners compare their existing repayment schedule against a scenario with additional payments."}</p>
     <p>{"It is particularly useful when evaluating whether to make extra payments or direct spare cash toward other "}<Link href="/calculators/home-affordability-calculator/">{"financial goals"}</Link>{"."}</p>

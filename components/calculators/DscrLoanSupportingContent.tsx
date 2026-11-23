@@ -84,7 +84,7 @@ export function DscrLoanSupportingContent() {
     <h2>{"Final Thoughts"}</h2>
     <p>{"A DSCR calculation helps you determine whether a rental property generates enough operating income to support its financing."}</p>
     <p>{"However, a favorable ratio doesn't guarantee profitability or loan approval."}</p>
-    <p>{"Use the "}<strong>{"DSCR Loan Calculator above"}</strong>{" to estimate your debt coverage, compare "}<Link href="/business/commercial-mortgage-calculator/">{"financing options"}</Link>{", and evaluate the effect of rental income and expenses."}</p>
+    <p>{"Use the "}<strong>{"DSCR Loan Calculator above"}</strong>{" to estimate your debt coverage, compare "}<Link href="/calculators/commercial-mortgage-calculator/">{"financing options"}</Link>{", and evaluate the effect of rental income and expenses."}</p>
     <p>{"A strong investment decision should consider cash flow, vacancies, financing costs, property condition, and long-term financial risks."}</p>
   </>;
 }

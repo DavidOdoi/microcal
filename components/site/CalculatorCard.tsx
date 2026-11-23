@@ -1,15 +1,12 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { getCategory, type Calculator } from '@/lib/site-data';
-import { batchFourPages } from '@/lib/batch-four-pages';
+import { calculatorPath } from '@/lib/calculator-path';
 
 export function CalculatorCard({ calc }: { calc: Calculator }) {
   const category = getCategory(calc.category);
-  const categoryRouteSlugs = ['debt-to-income-ratio-calculator', 'emergency-fund-calculator', 'cd-interest-calculator', 'high-yield-savings-account-calculator', 'auto-loan-payoff-calculator', 'loan-interest-calculator'];
-  const href = categoryRouteSlugs.includes(calc.slug) || calc.slug in batchFourPages ? `/${calc.category}/${calc.slug}/` : `/calculators/${calc.slug}`;
-
   return (
-    <Link href={href} className="card-interactive block p-5">
+    <Link href={calculatorPath(calc)} className="card-interactive block p-5">
       <div className="flex items-center justify-between gap-3">
         <span className="rounded-full bg-accent px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-accent-foreground">
           {category?.name ?? 'Calculator'}

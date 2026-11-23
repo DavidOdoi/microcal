@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const found = getCategory(category);
   if (!found) return { title: 'Topic not found — MicroFinancePost', robots: { index: false } };
   const title = `${found.name} Calculators & Guides — MicroFinancePost`;
-  return { title, description: found.description, openGraph: { title, description: found.description } };
+  return { title, description: found.description, alternates: { canonical: `/${found.slug}/` }, openGraph: { title, description: found.description } };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {

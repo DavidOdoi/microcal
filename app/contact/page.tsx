@@ -1,13 +1,10 @@
-'use client';
-
-import { useEffect, useState, type FormEvent } from 'react';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle2, Mail, MessageSquare, PencilRuler, Scale } from 'lucide-react';
+import { Mail, MessageSquare, PencilRuler, Scale } from 'lucide-react';
 import { PageHero } from '@/components/site/PageHero';
 
 const channels = [
-  { icon: Mail, title: 'General questions', email: 'hello@microfinancepost.com', note: 'We reply within 1–2 business days.' },
-  { icon: PencilRuler, title: 'Report a calculation', email: 'corrections@microfinancepost.com', note: 'Tell us the tool and the numbers you expected.' },
+  { icon: Mail, title: 'General questions', email: 'hello@microfinancepost.com', note: 'Ask about our calculators or suggest a new tool.' },
+  { icon: PencilRuler, title: 'Report an error', email: 'corrections@microfinancepost.com', note: 'Tell us which calculator or article needs a correction.' },
   { icon: Scale, title: 'Press & partnerships', email: 'press@microfinancepost.com', note: 'Editorial and business enquiries.' },
 ];
 
@@ -17,17 +14,13 @@ const faqs = [
   ['Can I suggest a new calculator?', 'Yes. Tell us what you want to work out and why. Your feedback helps shape our tools.'],
 ];
 
+export const metadata = {
+  title: 'Contact MicroFinancePost — Questions & Corrections',
+  description: 'Contact MicroFinancePost to ask a question, report a calculator or article error, or suggest a new personal finance tool.',
+  alternates: { canonical: '/contact/' },
+};
+
 export default function ContactPage() {
-  useEffect(() => { document.title = 'Contact — MicroFinancePost'; }, []);
-  const [sent, setSent] = useState(false);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-
-  function submit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setSent(true);
-  }
-
   return (
     <>
       <PageHero eyebrow="Contact" title="Talk to a real person.">
@@ -35,22 +28,10 @@ export default function ContactPage() {
       </PageHero>
       <div className="container-site contact-layout">
         <section className="contact-panel">
-          <h2>Send a message</h2>
-          <p>This form is a preview and does not send messages. For a reply, email <a href="mailto:hello@microfinancepost.com">hello@microfinancepost.com</a>. Fields marked with an asterisk are required for the preview. See our <Link href="/privacy-policy/">Privacy Policy</Link> for how we handle information.</p>
-          {sent ? (
-            <div className="contact-success" role="status">
-              <CheckCircle2 size={24} />
-              <div><strong>Thanks, {name || 'there'} — message noted.</strong><p>This preview does not send email yet, so nothing has left your browser. Once mail is connected, we would reply to {email} within 1–2 business days.</p></div>
-            </div>
-          ) : (
-            <form className="contact-form" onSubmit={submit}>
-              <label>Your name *<input required value={name} onChange={(event) => setName(event.target.value)} placeholder="Jordan Smith" /></label>
-              <label>Email *<input required type="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" /></label>
-              <label>What is this about?<select defaultValue="General question"><option>General question</option><option>Report a calculation</option><option>Press or partnership</option><option>Suggest a calculator</option></select></label>
-              <label>Message *<textarea required rows={5} placeholder="Tell us what you need…" /></label>
-              <button className="primary-button" type="submit">Preview message <ArrowRight size={16} /></button>
-            </form>
-          )}
+          <h2>Email us</h2>
+          <p>For a calculator or article correction, include the page URL, the inputs or text you checked, and the result you expected. Leave out personal financial details.</p>
+          <a href="mailto:corrections@microfinancepost.com" className="primary-button"><Mail size={16} aria-hidden="true" /> Report an error</a>
+          <p>For general questions, email <a href="mailto:hello@microfinancepost.com">hello@microfinancepost.com</a>. See our <Link href="/privacy-policy/">Privacy Policy</Link> for how we handle messages.</p>
         </section>
         <aside className="contact-side">
           {channels.map(({ icon: Icon, title, email: address, note }) => (

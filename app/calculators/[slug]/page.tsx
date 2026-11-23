@@ -6,6 +6,7 @@ import { MortgageSupportingContent } from '@/components/calculators/MortgageSupp
 import { CalculatorRenderer } from '@/components/calculators/CalculatorRenderer';
 import { CalculatorCard } from '@/components/site/CalculatorCard';
 import { CalculatorTemplate } from '@/components/site/CalculatorTemplate';
+import { calculatorPath } from '@/lib/calculator-path';
 import { PageHero } from '@/components/site/PageHero';
 import { calculatorsIn, getCalculator, getCategory } from '@/lib/site-data';
 import type { Metadata } from 'next';
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const calc = getCalculator(slug);
   if (!calc) return { title: 'Calculator not found — MicroFinancePost', robots: { index: false } };
   const title = `${calc.name} — MicroFinancePost`;
-  return { title, description: calc.description, openGraph: { title, description: calc.description } };
+  return { title, description: calc.description, alternates: { canonical: calculatorPath(calc) }, openGraph: { title, description: calc.description } };
 }
 
 export default async function CalculatorDetailPage({ params }: { params: Promise<{ slug: string }> }) {

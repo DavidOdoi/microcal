@@ -37,7 +37,7 @@ export function FarmLoanSupportingContent() {
     <h2>{"What Types of Farm Loans Are Available?"}</h2>
     <p>{"Agricultural financing comes in several forms."}</p>
     <h3>{"Farm ownership loans"}</h3>
-    <p>{"These can help finance "}<Link href="/business/commercial-mortgage-calculator/">{"farmland purchases"}</Link>{", buildings, and certain property improvements."}</p>
+    <p>{"These can help finance "}<Link href="/calculators/commercial-mortgage-calculator/">{"farmland purchases"}</Link>{", buildings, and certain property improvements."}</p>
     <p>{"The USDA's "}<a href="https://www.fsa.usda.gov/resources/loans/farm-ownership-loans">{"Farm Ownership Loan program"}</a>{" supports eligible agricultural property investments."}</p>
     <h3>{"Farm operating loans"}</h3>
     <p>{"Operating loans can finance recurring farm expenses, including seeds, feed, fertilizer, livestock, fuel, and equipment."}</p>

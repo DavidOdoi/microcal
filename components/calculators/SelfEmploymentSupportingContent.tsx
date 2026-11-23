@@ -14,7 +14,7 @@ export function SelfEmploymentSupportingContent() {
     <p>{"Enter the following information:"}</p>
     <ol><li><strong>{"Annual business revenue:"}</strong>{" Total payments received from freelance work or self-employment."}</li><li><strong>{"Business expenses:"}</strong>{" Eligible costs associated with operating your business."}</li><li><strong>{"Other income:"}</strong>{" Additional taxable income, including "}<Link href="/calculators/salary-to-hourly-calculator/">{"employment wages"}</Link>{" if applicable."}</li><li><strong>{"Filing status:"}</strong>{" Single, married filing jointly, head of household, or another supported status."}</li><li><strong>{"Tax year:"}</strong>{" Select the year for which you want an estimate."}</li><li><strong>{"Other adjustments:"}</strong>{" Enter supported deductions, credits, or withholding information."}</li></ol>
     <p>{"The calculator estimates business profit, self-employment taxes, and federal income tax."}</p>
-    <p>{"Where supported, it can also estimate quarterly payments."}</p>
+    <p>The calculator can divide the modeled remaining balance into four equal amounts for budgeting. Use the <a href="https://www.irs.gov/forms-pubs/about-form-1040-es">IRS Form 1040-ES instructions</a> to determine required estimated payments and due dates.</p>
     <h2>{"How Is 1099 Income Taxed?"}</h2>
     <p>{"Receiving a "}<a href="https://www.irs.gov/forms-pubs/about-form-1099-nec">{"Form 1099"}</a>{" does not automatically determine the amount of tax you owe."}</p>
     <p>{"For a sole proprietor, taxes generally depend on net business profit rather than total customer payments."}</p>

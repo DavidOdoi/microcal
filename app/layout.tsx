@@ -2,6 +2,7 @@ import './globals.css';
 import { SiteFooter } from '@/components/site/SiteFooter';
 import { SiteHeader, type MenuCategory } from '@/components/site/SiteHeader';
 import { categoryArticlePath, categoryArticles } from '@/lib/category-articles';
+import { calculatorPath } from '@/lib/calculator-path';
 import { plannedCategoryArticles } from '@/lib/planned-category-articles';
 import { calculatorsIn, categories } from '@/lib/site-data';
 import type { Metadata } from 'next';
@@ -27,7 +28,7 @@ const menuCategories: MenuCategory[] = categories.map(({ slug, name }) => {
       title: 'Calculators',
       links: calculatorsIn(slug)
         .filter((calculator) => calculator.status === 'live')
-        .map((calculator) => ({ title: calculator.name, href: `/calculators/${calculator.slug}/` })),
+        .map((calculator) => ({ title: calculator.name, href: calculatorPath(calculator) })),
     },
     ...articleGroups.map(({ kind, title }) => ({
       title,
@@ -49,6 +50,7 @@ const menuSections = menuCategories.filter(({ slug }) => !categoryParents[slug])
 }));
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://microfinancepost.com'),
   title: 'MicroFinancePost',
   description: 'Free calculators for mortgages, debt, budgeting, taxes, retirement and savings.',
   verification: { google: 'f3Vd7topcQTp-5X6zpLxNf8RNBpGoPfeDUwA7nLEeuk' },

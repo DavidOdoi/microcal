@@ -23,7 +23,7 @@ export function FhaHomeLoanSupportingContent() {
         <li><strong>Property taxes:</strong> Include estimated annual property taxes.</li>
         <li><strong>Homeowners insurance:</strong> Enter your estimated insurance premium.</li>
       </ol>
-      <p>For a complete FHA estimate, the calculator should also account for upfront and annual mortgage insurance premiums.</p>
+      <p>Open the FHA insurance, fees &amp; county limit section to adjust the upfront and annual mortgage insurance rates and choose whether to finance the upfront premium or pay it at closing. Use the terms shown on your Loan Estimate.</p>
       <p>Your results can help you compare monthly costs and different <Link href="/calculators/home-affordability-calculator/">down payment scenarios</Link>.</p>
     </section>
     <section className="finance-article-section">

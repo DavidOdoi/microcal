@@ -45,7 +45,7 @@ test('robots advertises the canonical sitemap and permits crawling', async () =>
   assert.doesNotMatch(robots, /^Disallow: \/\s*$/m);
 });
 
-test('every sitemap entry is unique, directly reachable, indexable, and canonical when specified', async () => {
+test('every sitemap entry is indexable, self-canonical, and reachable from the homepage', async () => {
   const response = await fetch(new URL('/sitemap.xml', baseUrl));
   assert.equal(response.status, 200);
   assert.match(response.headers.get('content-type'), /xml/);
@@ -53,6 +53,8 @@ test('every sitemap entry is unique, directly reachable, indexable, and canonica
   const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   assert.ok(urls.length > 20);
   assert.equal(new Set(urls).size, urls.length);
+  const titles = new Set();
+  const internalLinks = new Map();
   for (const location of urls) {
     const url = new URL(location);
     assert.equal(url.origin, origin);
@@ -65,8 +67,25 @@ test('every sitemap entry is unique, directly reachable, indexable, and canonica
     assert.doesNotMatch(html, /<meta name="robots" content="[^"]*noindex/i, location);
     assert.doesNotMatch(html, /This calculator is being built|<h1>Page not found<\/h1>/, location);
     const canonical = html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
-    if (canonical) assert.equal(canonical, location, location);
+    assert.equal(canonical, location, location);
+    const title = html.match(/<title>([^<]+)<\/title>/i)?.[1];
+    assert.ok(title && !titles.has(title), `${location} has a distinct page title`);
+    titles.add(title);
+    assert.match(html, /<meta name="description" content="[^"]+"/, location);
+    const markup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
+    internalLinks.set(location, [...markup.matchAll(/<a\b[^>]*\bhref="([^"]+)"/gi)]
+      .map((match) => new URL(match[1], location))
+      .filter((target) => target.origin === origin && !target.search)
+      .map((target) => new URL(target.pathname, origin).href));
   }
+
+  const reachable = new Set([`${origin}/`]);
+  for (const page of reachable) {
+    for (const target of internalLinks.get(page) ?? []) {
+      if (internalLinks.has(target)) reachable.add(target);
+    }
+  }
+  assert.deepEqual(urls.filter((page) => !reachable.has(page)), [], 'every sitemap page has a path from the homepage');
 });
 
 test('homepage exposes the new icon formats and working calculator labels', async () => {

@@ -1,4 +1,5 @@
 import { PageHero } from '@/components/site/PageHero';
+import Link from 'next/link';
 
 const principles = [
   ['Our mission', 'We build free tools that help people understand loans, savings, investing, taxes and more, without jargon or sales pressure.'],
@@ -9,6 +10,7 @@ const principles = [
 export const metadata = {
   title: 'About & Methodology — MicroFinancePost',
   description: 'How MicroFinancePost builds free, transparent and unbiased personal finance tools.',
+  alternates: { canonical: '/about/' },
 };
 
 export default function AboutPage() {
@@ -24,6 +26,10 @@ export default function AboutPage() {
             <p>{description}</p>
           </section>
         ))}
+        <section>
+          <h2>Report a correction</h2>
+          <p>If you find an error in an estimate or article, <Link href="/contact/">contact us</Link> with the page and the details you checked. Our <Link href="/terms-of-service/">terms of service</Link> explain how to use calculator estimates.</p>
+        </section>
       </div>
     </>
   );

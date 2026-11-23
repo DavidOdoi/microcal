@@ -48,7 +48,7 @@ export function NewYorkPaycheckSupportingContent() {
     <p>{"New York also has specific withholding rules for Yonkers residents and certain nonresidents."}</p>
     <p>{"These taxes don't apply uniformly to everyone working in New York State."}</p>
     <p>{"The "}<a href="https://www.tax.ny.gov/pubs_and_bulls/publications/withholding/wt_pubs_and_bulls_by_number.htm">{"New York Tax Department publishes separate NYC and Yonkers withholding tables"}</a>{"."}</p>
-    <p>{"Our calculator should distinguish your place of residence from your work location."}</p>
+    <p>Select your residence and work location separately. Enter any applicable NYC or Yonkers withholding from your paystub or official payroll tables. The calculator uses the amount you enter.</p>
     <h2>{"Social Security and Medicare Taxes in 2026"}</h2>
     <p>{"Most covered employees pay federal payroll taxes under FICA."}</p>
     <p>{"For 2026, the standard employee rates are:"}</p>

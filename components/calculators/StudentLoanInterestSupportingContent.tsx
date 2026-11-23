@@ -17,16 +17,15 @@ export function StudentLoanInterestSupportingContent() {
       <ol>
         <li><strong>Loan balance:</strong> Enter your outstanding principal.</li>
         <li><strong>Annual interest rate:</strong> Enter the rate charged by your lender.</li>
-        <li><strong>Calculation period:</strong> Choose how many days, months, or years you want to estimate.</li>
-        <li><strong>Repayment term:</strong> Enter your repayment period if the calculator supports monthly payment estimates.</li>
-        <li><strong>Additional payments:</strong> Include extra contributions if available.</li>
+        <li><strong>Accrual dates:</strong> Select the start and end dates, then enter interest that was already unpaid at the start.</li>
+        <li><strong>Payment and subsidy assumptions:</strong> Optionally enter one payment and its date. If applicable, select subsidized treatment for the period or enter one capitalization event and its date.</li>
       </ol>
-      <p>The calculator can estimate accrued interest, monthly payments, and total repayment costs, depending on the features provided.</p>
+      <p>The calculator estimates the interest accrued between those dates, how a payment is split between interest and principal, and the remaining balance. Use the <Link href="/calculators/student-loan-calculator/">Student Loan Calculator</Link> to estimate monthly repayment costs over a full loan term.</p>
       <p>Use your actual loan rate rather than assuming all student loans have the same interest rate.</p>
     </section>
     <section className="finance-article-section">
       <h2>How Is Student Loan Interest Calculated?</h2>
-      <p>Federal student loans generally use simple daily interest.</p>
+      <p>Federal student loans generally use simple daily interest. This calculator uses 365.25 days per year for its estimate. Check your servicer’s day-count method for an exact payoff.</p>
       <p>This means interest accrues on the outstanding principal each day, rather than automatically compounding every day.</p>
       <p>The basic formula is:</p>
       <p><strong>Daily interest = Principal × Annual interest rate ÷ 365.25</strong></p>

@@ -10,12 +10,17 @@ export function EarlyWithdrawalSupportingContent() {
     <p>{"Our calculator helps you estimate these costs before making a withdrawal decision."}</p>
     <h2>{"How to Use Our 401(k) Early Withdrawal Calculator"}</h2>
     <p>{"Enter the following details:"}</p>
-    <ol><li><strong>{"Withdrawal amount:"}</strong>{" How much you plan to withdraw."}</li><li><strong>{"Current age:"}</strong>{" Determines whether the general early withdrawal rule applies."}</li><li><strong>{"Estimated federal income tax rate:"}</strong>{" Enter an appropriate tax assumption."}</li><li><strong>{"State income tax rate:"}</strong>{" Include applicable state taxes."}</li><li><strong>{"Penalty exception:"}</strong>{" Indicate whether you qualify for an IRS exception."}</li></ol>
+    <ol>
+      <li><strong>Withdrawal amount and age.</strong> Enter the gross amount you plan to withdraw and your current age.</li>
+      <li><strong>Federal tax details.</strong> Select the tax year and filing status, then enter your other federal taxable income after deductions.</li>
+      <li><strong>Account treatment.</strong> Select a traditional 401(k), qualified Roth distribution, or nonqualified Roth distribution. For a nonqualified Roth distribution, enter the taxable earnings portion under advanced settings.</li>
+      <li><strong>State tax and exceptions.</strong> Enter your estimated state tax rate and select an additional-tax exception if you have confirmed that you qualify.</li>
+    </ol>
     <p>{"The calculator estimates your potential income taxes, additional early withdrawal tax, and remaining amount."}</p>
     <p>{"Remember that an estimate cannot determine your actual tax liability without considering your complete financial situation."}</p>
     <h2>{"401(k) Early Withdrawal Calculator Formula"}</h2>
-    <p>{"For a simplified traditional 401(k) withdrawal, use:"}</p>
-    <p><strong>{"Federal Income Tax = Taxable Withdrawal × Estimated Federal Tax Rate"}</strong></p>
+    <p>The calculator adds the taxable part of your withdrawal to your other federal taxable income, then compares the estimated ordinary income tax in both cases.</p>
+    <p><strong>Federal tax on the withdrawal = Estimated tax with the withdrawal − Estimated tax without the withdrawal</strong></p>
     <p><strong>{"State Income Tax = Taxable Withdrawal × Estimated State Tax Rate"}</strong></p>
     <p><strong>{"Early Withdrawal Tax = Taxable Withdrawal × 10%"}</strong></p>
     <p>{"The additional 10% applies only when the distribution is subject to the early withdrawal tax."}</p>
@@ -23,11 +28,10 @@ export function EarlyWithdrawalSupportingContent() {
     <p className="finance-formula">{"N = W − F − S − P"}</p>
     <p>{"Where:"}</p>
     <ul><li><strong>{"N"}</strong>{" = Estimated amount remaining after taxes"}</li><li><strong>{"W"}</strong>{" = Gross withdrawal"}</li><li><strong>{"F"}</strong>{" = Estimated federal income tax"}</li><li><strong>{"S"}</strong>{" = Estimated state income tax"}</li><li><strong>{"P"}</strong>{" = Additional early withdrawal tax"}</li></ul>
-    <p>{"This simplified calculation assumes the entire withdrawal is taxable."}</p>
-    <p>{"For greater accuracy, federal income tax should be calculated using the applicable progressive tax brackets and your other taxable income, rather than applying one rate to every dollar."}</p>
+    <p>The taxable portion depends on the account treatment you select. The federal estimate uses the applicable progressive brackets, which can apply different rates to different parts of the withdrawal.</p>
     <h2>{"401(k) Early Withdrawal Calculation Example"}</h2>
     <p>{"Suppose you're 40 years old and considering withdrawing $20,000 from your traditional 401(k)."}</p>
-    <p>{"For illustration, assume your withdrawal is fully taxable, no exception applies, and your additional income is effectively taxed at 22% federally and 5% by your state."}</p>
+    <p>Assume you file as single for 2026, have $60,000 in other federal taxable income, and take a fully taxable withdrawal. With a 5% state tax assumption and no exception, the entire $20,000 falls in the 22% federal bracket.</p>
     <div className="finance-table-wrap"><table><thead><tr><th scope="col">{"Withdrawal details"}</th><th scope="col">{"Amount"}</th></tr></thead><tbody><tr><td>{"Gross withdrawal"}</td><td>{"$20,000"}</td></tr><tr><td>{"Federal income tax (22%)"}</td><td>{"$4,400"}</td></tr><tr><td>{"State income tax (5%)"}</td><td>{"$1,000"}</td></tr><tr><td>{"Additional early withdrawal tax (10%)"}</td><td>{"$2,000"}</td></tr><tr><td><strong>{"Estimated amount remaining"}</strong></td><td><strong>{"$12,600"}</strong></td></tr></tbody></table></div>
     <p>{"Under these assumptions, taxes consume $7,400 of your $20,000 withdrawal."}</p>
     <p>{"You retain approximately 63% of the original amount."}</p>
@@ -61,7 +65,7 @@ export function EarlyWithdrawalSupportingContent() {
     <p>{"However, this is not a universal withholding rule for every 401(k) withdrawal. Hardship distributions have different treatment."}</p>
     <p>{"The "}<a href="https://www.irs.gov/taxtopics/tc413">{"IRS explains retirement distribution withholding"}</a>{"."}</p>
     <p>{"Your actual tax liability is determined when you file your income tax return."}</p>
-    <p>{"The calculator should therefore distinguish estimated taxes owed from money withheld at distribution."}</p>
+    <p>The calculator shows estimated taxes and withholding separately so you can compare the immediate deposit with the amount remaining after taxes.</p>
     <h2>{"How Much Retirement Growth Could You Lose?"}</h2>
     <p>{"An early withdrawal can also reduce your future retirement savings."}</p>
     <p>{"Suppose you withdraw $20,000 that would otherwise remain invested for 20 years."}</p>
@@ -73,7 +77,7 @@ export function EarlyWithdrawalSupportingContent() {
     <p>{"Removing retirement funds early means losing the opportunity for that money to "}<Link href="/calculators/compound-interest-calculator/">{"compound."}</Link></p>
     <h2>{"Alternatives to Early 401(k) Withdrawals"}</h2>
     <p>{"Before withdrawing retirement savings, explore other options."}</p>
-    <p>{"Depending on your circumstances, you might consider reducing nonessential expenses, using available "}<Link href="/calculators/emergency-fund-calculator/">{"emergency savings"}</Link>{", or negotiating payment arrangements with creditors."}</p>
+    <p>{"Depending on your circumstances, you might consider reducing nonessential expenses, using available "}<Link href="/savings/emergency-fund-calculator/">{"emergency savings"}</Link>{", or negotiating payment arrangements with creditors."}</p>
     <p>{"Some 401(k) plans also permit participant loans."}</p>
     <p>{"However, plan loans have repayment requirements and can create tax consequences if they aren't repaid properly."}</p>
     <p>{"Review your plan documents and consider speaking with a qualified financial or tax professional before withdrawing retirement funds."}</p>

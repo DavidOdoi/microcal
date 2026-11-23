@@ -1054,11 +1054,6 @@ img {
 .contact-panel, .contact-channel { padding: 1.75rem; background: var(--card); border: 1px solid var(--border); border-radius: 1.3rem; box-shadow: var(--shadow-card); }
 .contact-panel h2, .contact-faq h2 { margin: 0; font-size: 1.8rem; color: var(--ink); }
 .contact-panel > p, .contact-channel p, .contact-browse p { color: var(--muted-foreground); line-height: 1.6; }
-.contact-form { display: grid; gap: 1rem; margin-top: 1.5rem; }
-.contact-form label { display: grid; gap: .45rem; font-size: .8rem; font-weight: 700; color: var(--muted-foreground); }
-.contact-form input, .contact-form select, .contact-form textarea { width: 100%; padding: .8rem .9rem; border: 1px solid var(--border); border-radius: .8rem; background: var(--background); color: var(--foreground); font: inherit; }
-.contact-form textarea { resize: vertical; }
-.contact-form .primary-button { justify-self: start; border: 0; cursor: pointer; }
 .contact-side { display: grid; align-content: start; gap: 1rem; }
 .contact-channel > svg { color: var(--primary); }
 .contact-channel h3, .contact-browse h3 { margin: .7rem 0 .25rem; color: var(--ink); }
@@ -1070,8 +1065,6 @@ img {
 .contact-faq article { margin-top: 1rem; padding: 1.25rem; border: 1px solid var(--border); border-radius: 1rem; background: var(--card); }
 .contact-faq article h3 { margin: 0; }
 .contact-faq article p { margin-bottom: 0; color: var(--muted-foreground); line-height: 1.65; }
-.contact-success { display: flex; gap: 1rem; margin-top: 1.5rem; padding: 1.25rem; border-radius: 1rem; background: var(--accent); color: var(--accent-foreground); }
-.contact-success p { margin-bottom: 0; line-height: 1.6; }
 .directory-page { padding-top: 3rem; padding-bottom: 4rem; }
 .directory-filters { display: grid; gap: 1rem; margin-bottom: 2rem; }
 .directory-filters .directory-search { width: 100%; max-width: 24rem; }

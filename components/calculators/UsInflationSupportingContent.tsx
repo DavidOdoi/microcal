@@ -21,7 +21,7 @@ export function UsInflationSupportingContent() {
     <ul><li><strong>{"Original Amount:"}</strong>{" The dollar amount being compared."}</li><li><strong>{"Starting CPI:"}</strong>{" The Consumer Price Index for the original period."}</li><li><strong>{"Ending CPI:"}</strong>{" The CPI for the comparison period."}</li></ul>
     <p>{"To calculate cumulative inflation:"}</p>
     <p><strong>{"Inflation Rate (%) = ((Ending CPI ÷ Starting CPI) − 1) × 100"}</strong></p>
-    <p>{"The calculator should use the US CPI-U, all items, US city average, not seasonally adjusted, unless another index is explicitly selected."}</p>
+    <p>The calculator uses published annual averages from the <a href="https://data.bls.gov/timeseries/CUUR0000SA0">BLS CPI-U series for all items</a>, U.S. city average, not seasonally adjusted. The available years are 1913 through 2025.</p>
     <p>{"The "}<a href="https://www.bls.gov/data/inflation_calculator.htm">{"BLS inflation calculator"}</a>{" uses this general approach."}</p>
     <h2>{"US Inflation Calculation Example"}</h2>
     <p>{"Suppose the CPI increased from 120 to 180 between two periods."}</p>
