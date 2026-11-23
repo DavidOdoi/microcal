@@ -19,6 +19,17 @@ const comparisonRows = [
   { id: 'wells-fargo', name: 'Wells Fargo Everyday Checking', values: ['$15, waivable', 'None', 'In-person banking'] },
 ];
 
+export const checkingAccountContents = [
+  { id: 'quick-answer', label: 'Quick answer' },
+  { id: 'compare', label: 'Compare checking accounts' },
+  ...comparisonRows.map(({ id, name }) => ({ id, label: name })),
+  { id: 'how-to-choose', label: 'How to choose an account' },
+  { id: 'deposit-insurance', label: 'Are online accounts safe?' },
+  { id: 'how-to-open', label: 'How to open an account' },
+  { id: 'faq', label: 'FAQs' },
+  { id: 'final-verdict', label: 'Final verdict' },
+];
+
 export function CheckingAccountComparison() {
   return (
     <>

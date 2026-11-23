@@ -91,6 +91,22 @@ test('invoicing software guide is discoverable from Business and has both compar
   assert.ok(!xml.includes(`<loc>${origin}/business${path}</loc>`));
 });
 
+test('the comparison guides list every section in their table of contents', async () => {
+  for (const [path, hasQuickAnswer] of [
+    ['/best-banks-for-checking-accounts/', true],
+    ['/best-invoicing-software-for-small-businesses/', false],
+  ]) {
+    const html = await (await fetch(new URL(path, baseUrl))).text();
+    const nav = html.match(/<nav[^>]*aria-labelledby="contents-title"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
+    assert.ok(nav, path);
+    const links = [...nav.matchAll(/href="#([^"]+)"/g)].map(match => match[1]);
+    const headings = [...html.matchAll(/<h2\b[^>]*id="([^"]+)"/g)]
+      .map(match => match[1]).filter(id => id !== 'contents-title');
+    assert.deepEqual(links, headings, path);
+    assert.equal(links.includes('quick-answer'), hasQuickAnswer, path);
+  }
+});
+
 test('every sitemap entry is indexable, self-canonical, and reachable from the homepage', async () => {
   const response = await fetch(new URL('/sitemap.xml', baseUrl));
   assert.equal(response.status, 200);

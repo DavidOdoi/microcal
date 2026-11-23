@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { ComparisonArticlePage } from '@/components/articles/ComparisonArticlePage';
+import { invoicingSoftwareContents } from '@/components/articles/InvoicingSoftwareComparison';
 import { categoryArticlePath, invoicingSoftwareArticle } from '@/lib/category-articles';
 
 const article = invoicingSoftwareArticle;
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function BestInvoicingSoftwarePage() {
   const { Body, title, description, category } = article;
   return (
-    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Business', slug: category }}>
+    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Business', slug: category }} contents={invoicingSoftwareContents}>
       <Body />
     </ComparisonArticlePage>
   );

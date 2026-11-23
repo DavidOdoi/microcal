@@ -34,6 +34,15 @@ const planRows = [
   { name: 'Customer support', values: ['Varies', 'May offer additional support'] },
 ];
 
+export const invoicingSoftwareContents = [
+  { id: 'compare', label: 'Compare invoicing software' },
+  ...softwareRows.map(({ id, name }) => ({ id, label: name })),
+  { id: 'how-to-choose', label: 'How to choose software' },
+  { id: 'free-vs-paid', label: 'Free vs. paid software' },
+  { id: 'faq', label: 'FAQs' },
+  { id: 'final-verdict', label: 'Final verdict' },
+];
+
 function InvoicingReviewHeading({ id, children }: { id: keyof typeof providers; children: ReactNode }) {
   return (
     <h2 id={id} className={styles.reviewHeading}>
@@ -58,22 +67,6 @@ export function InvoicingSoftwareComparison() {
         <p>The best invoicing software for small businesses makes these tasks easier. Many platforms let you create professional invoices, accept online payments, send automatic reminders, and monitor outstanding balances from one dashboard.</p>
         <p>We&#x27;ve compared seven invoicing tools available to US small businesses in 2026, focusing on pricing, ease of use, invoice automation, payment options, and additional business management features.</p>
       </div>
-
-      <section className={styles.summary} aria-labelledby="quick-answer">
-        <h2 id="quick-answer">Quick Answer: What Is the Best Invoicing Software for Small Businesses?</h2>
-        <p><strong>Zoho Invoice is our top choice for small businesses that want powerful invoicing features without a monthly subscription.</strong> It offers customizable invoices, recurring billing, payment reminders, and a customer portal for free, subject to usage limits.</p>
-        <p>However, other platforms may be better depending on your business.</p>
-        <ul>
-          <li><strong>Zoho Invoice:</strong> Best free invoicing software overall.</li>
-          <li><strong>Wave:</strong> Best for free invoicing with basic bookkeeping.</li>
-          <li><strong>FreshBooks:</strong> Best for freelancers and service-based businesses.</li>
-          <li><strong>QuickBooks Online:</strong> Best for invoicing and full accounting.</li>
-          <li><strong>Square Invoices:</strong> Best for businesses accepting online and in-person payments.</li>
-          <li><strong>Stripe Invoicing:</strong> Best for online businesses and payment collection.</li>
-          <li><strong>Harvest:</strong> Best for time tracking and project-based invoicing.</li>
-        </ul>
-        <p>If you only need to create and send invoices, start with Zoho Invoice or Wave. If you need detailed accounting reports, QuickBooks Online may be worth the additional cost.</p>
-      </section>
 
       <section className={styles.comparison} aria-labelledby="compare">
         <h2 id="compare">Best Invoicing Software for Small Businesses: Quick Comparison</h2>

@@ -1,15 +1,16 @@
-import { ArrowDown, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import styles from './ComparisonArticle.module.css';
 
 const site = 'https://microfinancepost.com';
 
-export function ComparisonArticlePage({ title, description, path, category, children }: {
+export function ComparisonArticlePage({ title, description, path, category, contents, children }: {
   title: string;
   description: string;
   path: string;
   category: { name: string; slug: string };
+  contents: readonly { id: string; label: string }[];
   children: ReactNode;
 }) {
   const canonical = `${site}${path}`;
@@ -47,14 +48,19 @@ export function ComparisonArticlePage({ title, description, path, category, chil
               <Link href={categoryPath}>{category.name}</Link>
             </nav>
             <h1 id="comparison-title">{title}</h1>
-            <nav className={styles.jumps} aria-label="On this page">
-              <a href="#compare">Compare <ArrowDown size={15} aria-hidden="true" /></a>
-              <a href="#how-to-choose">How to choose</a>
-              <a href="#faq">FAQs</a>
-            </nav>
           </div>
         </header>
-        <div className={styles.article}>{children}</div>
+        <div className={styles.article}>
+          <nav className={styles.contents} aria-labelledby="contents-title">
+            <h2 id="contents-title">Table of contents</h2>
+            <ul className={styles.contentsList}>
+              {contents.map(({ id, label }) => (
+                <li key={id}><a href={`#${id}`}>{label}</a></li>
+              ))}
+            </ul>
+          </nav>
+          {children}
+        </div>
       </article>
     </>
   );

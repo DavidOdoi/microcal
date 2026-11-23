@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { checkingAccountContents } from '@/components/articles/CheckingAccountComparison';
 import { ComparisonArticlePage } from '@/components/articles/ComparisonArticlePage';
 import { categoryArticlePath, checkingAccountsArticle } from '@/lib/category-articles';
 
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function BestCheckingAccountsPage() {
   const { Body, title, description, category } = article;
   return (
-    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Savings', slug: category }}>
+    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Savings', slug: category }} contents={checkingAccountContents}>
       <Body />
     </ComparisonArticlePage>
   );
