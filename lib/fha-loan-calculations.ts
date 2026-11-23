@@ -8,7 +8,9 @@ export function calculateFhaLoan(input: FhaLoanInput) {
   const upfrontMip = baseLoan * mortgageAmount(input.upfrontMipRate, 10) / 100;
   const financedLoan = baseLoan + (input.financeUpfrontMip ? upfrontMip : 0);
   const loan = calculateMortgage({ homePrice: financedLoan, downPayment: 0, annualRate: input.annualRate, years: input.years, annualTax: 0, annualInsurance: 0, monthlyPmi: 0, monthlyHoa: 0 });
-  const shortDuration = input.mipDuration === '11-years' || (input.mipDuration === 'auto' && baseLtv !== null && baseLtv <= 90);
+  // Allow for floating-point rounding when the original base LTV is exactly 90%.
+  const atMost90PercentLtv = baseLtv !== null && baseLtv <= 90 + 90 * Number.EPSILON;
+  const shortDuration = input.mipDuration === '11-years' || (input.mipDuration === 'auto' && atMost90PercentLtv);
   const mipMonths = baseLoan > 0 ? Math.min(loan.months, shortDuration ? 132 : loan.months) : 0;
   const annualMipRate = mortgageAmount(input.annualMipRate, 10) / 100;
   const monthlyTax = mortgageAmount(input.annualTax) / 12, monthlyInsurance = mortgageAmount(input.annualInsurance) / 12, monthlyHoa = mortgageAmount(input.monthlyHoa);

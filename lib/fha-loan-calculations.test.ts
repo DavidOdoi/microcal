@@ -23,6 +23,11 @@ test('FHA insurance duration uses original base LTV rather than financed balance
   assert.equal(result.schedule[132].mip, 0);
   assert.equal(calculateFhaLoan({ ...example, downPayment: 30000, mipDuration: 'term' }).mipMonths, 360);
 });
+test('FHA insurance duration includes exactly 90% LTV for prices with cents', () => {
+  const homePrice = 100002.10;
+  assert.equal(calculateFhaLoan({ ...example, homePrice, downPayment: 10000.21 }).mipMonths, 132);
+  assert.equal(calculateFhaLoan({ ...example, homePrice, downPayment: 10000.20 }).mipMonths, 360);
+});
 test('cash upfront MIP and entered fees are kept out of financed principal', () => {
   const financed = calculateFhaLoan(example);
   const cash = calculateFhaLoan({ ...example, financeUpfrontMip: false, closingCosts: 2000 });

@@ -11,7 +11,7 @@ export function IdahoPaycheckSupportingContent() {
     <p>{"Our calculator helps you understand these deductions and plan your budget."}</p>
     <h2>{"How to Use Our Idaho Paycheck Calculator"}</h2>
     <p>{"Enter the following information:"}</p>
-    <ol><li><strong>{"Gross salary:"}</strong>{" Your earnings before taxes."}</li><li><strong>{"Pay frequency:"}</strong>{" Weekly, biweekly, semimonthly, or monthly."}</li><li><strong>{"Filing status:"}</strong>{" Your federal and Idaho filing information."}</li><li><strong>{"Pre-tax deductions:"}</strong>{" Eligible retirement contributions and insurance premiums."}</li><li><strong>{"Additional withholding:"}</strong>{" Extra amounts requested through your tax forms."}</li></ol>
+    <ol><li><strong>{"Gross salary:"}</strong>{" Your earnings before taxes."}</li><li><strong>{"Pay frequency:"}</strong>{" Weekly, biweekly, semimonthly, or monthly."}</li><li><strong>{"Income-tax withholding:"}</strong>{" Enter your federal and Idaho withholding per paycheck. To estimate federal income tax for planning, choose the annual planning method in the advanced options and select your federal filing status."}</li><li><strong>{"Pre-tax deductions:"}</strong>{" Eligible retirement contributions and insurance premiums."}</li><li><strong>{"Additional withholding:"}</strong>{" Extra amounts requested through your tax forms."}</li></ol>
     <p>{"The calculator estimates your federal and state withholding, Social Security and Medicare contributions, and take-home pay."}</p>
     <p>{"You can compare different salaries or pay schedules to understand how your paycheck might change."}</p>
     <h2>{"Idaho Paycheck Calculator Formula"}</h2>
