@@ -129,10 +129,11 @@
   border-bottom: 1px solid #dbe3d8;
 }
 
-.reviewHeading {
+.article .reviewHeading {
   display: flex;
   align-items: center;
   gap: .85rem;
+  font-size: clamp(1.375rem, 2.5vw, 1.875rem);
 }
 
 .platformMark {
