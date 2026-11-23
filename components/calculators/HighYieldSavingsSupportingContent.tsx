@@ -107,6 +107,7 @@ export function HighYieldSavingsSupportingContent() {
       <p>Some banks advertise attractive introductory yields that may change later.</p>
       <p>Also, check whether the highest APY applies to your entire balance or only to certain balance tiers.</p>
       <p>The <a href="https://www.consumerfinance.gov/rules-policy/regulations/1030/4/">CFPB's savings account disclosure requirements</a> explain the information banks must provide about rates, fees, and account conditions.</p>
+      <p>For money you use to pay bills and make everyday purchases, <Link href="/best-banks-for-checking-accounts/">compare checking accounts by fees, interest, and ATM access</Link>.</p>
     </section>
     <section className="finance-article-section">
       <h2>Frequently Asked Questions</h2>

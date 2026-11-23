@@ -1,30 +1,17 @@
 import { ArrowDown, ChevronRight } from 'lucide-react';
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/components/articles/CheckingAccountComparison.module.css';
 import { categoryArticlePath, checkingAccountsArticle } from '@/lib/category-articles';
 
 const article = checkingAccountsArticle;
 const canonical = `https://microfinancepost.com${categoryArticlePath(article)}`;
-const cover = {
-  url: '/images/checking-accounts/checking-account-comparison.webp',
-  width: 1200,
-  height: 800,
-  alt: 'An unbranded debit card beside a calculator and notebook',
-};
 
 export const metadata: Metadata = {
   title: '5 Best Banks for Checking Accounts in 2026 (Fees & APYs Compared)',
   description: article.description,
   alternates: { canonical },
-  openGraph: {
-    title: article.title,
-    description: article.description,
-    url: canonical,
-    type: 'article',
-    images: [cover],
-  },
+  openGraph: { title: article.title, description: article.description, url: canonical, type: 'article' },
 };
 
 export default function BestCheckingAccountsPage() {
@@ -37,7 +24,6 @@ export default function BestCheckingAccountsPage() {
         headline: article.title,
         description: article.description,
         mainEntityOfPage: canonical,
-        image: new URL(cover.url, canonical).href,
         publisher: { '@type': 'Organization', name: 'MicroFinancePost', url: 'https://microfinancepost.com/' },
       },
       {
@@ -62,17 +48,12 @@ export default function BestCheckingAccountsPage() {
               <ChevronRight size={14} aria-hidden="true" />
               <Link href="/savings/">Savings</Link>
             </nav>
-            <div className={styles.heroGrid}>
-              <div>
-                <h1 id="checking-title">{article.title}</h1>
-                <nav className={styles.jumps} aria-label="On this page">
-                  <a href="#compare">Compare <ArrowDown size={15} aria-hidden="true" /></a>
-                  <a href="#how-to-choose">How to choose</a>
-                  <a href="#faq">FAQs</a>
-                </nav>
-              </div>
-              <Image className={styles.coverImage} src={cover.url} width={cover.width} height={cover.height} alt={cover.alt} priority />
-            </div>
+            <h1 id="checking-title">{article.title}</h1>
+            <nav className={styles.jumps} aria-label="On this page">
+              <a href="#compare">Compare <ArrowDown size={15} aria-hidden="true" /></a>
+              <a href="#how-to-choose">How to choose</a>
+              <a href="#faq">FAQs</a>
+            </nav>
           </div>
         </header>
         <div className={styles.article}>

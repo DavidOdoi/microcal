@@ -9,34 +9,7 @@
   margin-inline: auto;
 }
 
-.heroInner {
-  width: min(100% - 2rem, 69rem);
-  padding-block: clamp(1.5rem, 5vw, 3.75rem);
-}
-
-.heroGrid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: clamp(1.25rem, 4vw, 3.25rem);
-  align-items: center;
-}
-
-.coverImage,
-.sectionImage {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: .8rem;
-}
-
-.sectionImage { margin: 1.1rem 0 1.35rem; }
-
-@media (min-width: 50rem) {
-  .heroGrid { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
-  .coverImage { aspect-ratio: 3 / 2; }
-}
+.heroInner { padding-block: clamp(1.5rem, 5vw, 3.75rem); }
 
 .breadcrumbs {
   display: flex;

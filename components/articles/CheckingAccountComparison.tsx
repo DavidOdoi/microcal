@@ -1,5 +1,13 @@
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from './CheckingAccountComparison.module.css';
+
+const bankDisclosures = {
+  sofi: 'https://www.sofi.com/banking/',
+  capitalOne: 'https://www.capitalone.com/bank/checking-accounts/online-checking-account/',
+  ally: 'https://www.ally.com/bank/interest-checking-account/',
+  chase: 'https://www.chase.com/personal/checking/total-checking',
+  wellsFargo: 'https://www.wellsfargo.com/checking/everyday/',
+};
 
 export function CheckingAccountComparison() {
   return (
@@ -49,7 +57,7 @@ export function CheckingAccountComparison() {
         <h3>Key features</h3>
         <ul>
           <li>No monthly account maintenance fees.</li>
-          <li>0.50% APY on checking balances.</li>
+          <li><a href={bankDisclosures.sofi}>0.50% APY on checking balances</a>.</li>
           <li>No minimum balance requirement to avoid monthly fees.</li>
           <li>Access to more than 55,000 Allpoint ATMs.</li>
           <li>No overdraft fees.</li>
@@ -83,7 +91,7 @@ export function CheckingAccountComparison() {
         <p>SoFi is a strong option if you receive your income electronically, pay most bills online, and prefer managing your money through an app.</p>
         <p>It can also be attractive if you want to keep your checking balance relatively low while transferring excess money into a higher-yield savings account.</p>
         <p><strong>Our verdict:</strong> SoFi is one of the best checking account options for digitally comfortable customers who want to avoid monthly fees while earning interest.</p>
-        <p><a className={styles.bankLink} href="https://www.sofi.com/banking/">Visit SoFi Checking and Savings</a></p>
+        <p><a className={styles.bankLink} href={bankDisclosures.sofi}>Visit SoFi Checking and Savings</a></p>
       </section>
 
       <section className={styles.bank} aria-labelledby="capital-one">
@@ -95,7 +103,7 @@ export function CheckingAccountComparison() {
         <ul>
           <li>$0 monthly maintenance fee.</li>
           <li>No minimum balance requirement.</li>
-          <li>0.10% APY on checking balances.</li>
+          <li><a href={bankDisclosures.capitalOne}>0.10% APY on checking balances</a>.</li>
           <li>More than 70,000 fee-free ATMs.</li>
           <li>No overdraft fees.</li>
           <li>Early direct deposit for eligible customers.</li>
@@ -127,13 +135,13 @@ export function CheckingAccountComparison() {
         <p>Capital One is particularly suitable for someone who wants a simple checking account for receiving wages, paying rent, buying groceries, and making occasional cash withdrawals.</p>
         <p>For example, if your account balance frequently drops below $500 after paying bills, you won&#x27;t have to maintain a large minimum balance just to avoid a monthly maintenance charge.</p>
         <p><strong>Our verdict:</strong> Capital One 360 Checking is our best overall choice for convenient everyday banking with minimal recurring costs.</p>
-        <p><a className={styles.bankLink} href="https://www.capitalone.com/bank/checking-accounts/online-checking-account/">Visit Capital One 360 Checking</a></p>
+        <p><a className={styles.bankLink} href={bankDisclosures.capitalOne}>Visit Capital One 360 Checking</a></p>
       </section>
 
       <section className={styles.bank} aria-labelledby="ally">
         <h2 id="ally">3. Ally Bank Spending Account — Best for ATM Fee Reimbursements</h2>
         <p>Ally Bank is another strong contender among the best banks for checking accounts, particularly for people who rarely visit physical branches.</p>
-        <p>Its Spending Account has no monthly maintenance fee, no minimum opening deposit, and an interest rate that depends on your account balance.</p>
+        <p>Its <a href={bankDisclosures.ally}>Spending Account</a> has no monthly maintenance fee, no minimum opening deposit, and an interest rate that depends on your account balance.</p>
         <h3>Key features</h3>
         <ul>
           <li>$0 monthly maintenance fee.</li>
@@ -191,7 +199,7 @@ export function CheckingAccountComparison() {
           <li>Access to Chase Overdraft Assist.</li>
         </ul>
         <h3>How to waive Chase&#x27;s monthly fee</h3>
-        <p>You can generally avoid the $15 monthly service fee by meeting at least one qualifying condition during the statement period, including:</p>
+        <p>You can generally avoid the $15 monthly service fee by meeting at least one <a href={bankDisclosures.chase}>qualifying condition</a> during the statement period, including:</p>
         <ul>
           <li>Receiving $500 or more in qualifying electronic deposits.</li>
           <li>Maintaining at least $1,500 at the beginning of each day.</li>
@@ -224,7 +232,7 @@ export function CheckingAccountComparison() {
         <p>However, the monthly fee matters. Paying $15 every month adds up to $180 annually.</p>
         <p>If you don&#x27;t qualify for a fee waiver and rarely visit branches, a free online checking account may provide better value.</p>
         <p><strong>Our verdict:</strong> Chase Total Checking is a strong choice for customers who need reliable branch access and can consistently avoid the monthly fee.</p>
-        <p><a className={styles.bankLink} href="https://www.chase.com/personal/checking/total-checking">Visit Chase Total Checking</a></p>
+        <p><a className={styles.bankLink} href={bankDisclosures.chase}>Visit Chase Total Checking</a></p>
       </section>
 
       <section className={styles.bank} aria-labelledby="wells-fargo">
@@ -243,7 +251,7 @@ export function CheckingAccountComparison() {
           <li>Account alerts and fraud monitoring.</li>
         </ul>
         <h3>How to avoid Wells Fargo&#x27;s monthly fee</h3>
-        <p>You can avoid the $15 monthly service fee by meeting at least one qualifying condition, such as:</p>
+        <p>You can avoid the $15 monthly service fee by meeting at least one <a href={bankDisclosures.wellsFargo}>qualifying condition</a>, such as:</p>
         <ul>
           <li>Receiving $500 or more in qualifying electronic deposits.</li>
           <li>Maintaining a $1,500 minimum daily balance.</li>
@@ -275,7 +283,7 @@ export function CheckingAccountComparison() {
         <p>Wells Fargo may be a reasonable option for students, young adults, or customers who regularly need in-person banking services.</p>
         <p>If you&#x27;re between 17 and 24, the age-based fee waiver can make the account more affordable than it would be for someone who doesn&#x27;t meet any waiver requirements.</p>
         <p><strong>Our verdict:</strong> Wells Fargo Everyday Checking is worth comparing if branch access and flexible fee-waiver options matter more than earning interest.</p>
-        <p><a className={styles.bankLink} href="https://www.wellsfargo.com/checking/everyday/">Visit Wells Fargo Everyday Checking</a></p>
+        <p><a className={styles.bankLink} href={bankDisclosures.wellsFargo}>Visit Wells Fargo Everyday Checking</a></p>
       </section>
 
       <section aria-labelledby="how-to-choose">
@@ -284,7 +292,7 @@ export function CheckingAccountComparison() {
         <p>Before opening an account, compare these important factors.</p>
         <h3>1. Monthly fees</h3>
         <p>A $15 monthly maintenance fee costs $180 annually if you never qualify for a waiver.</p>
-        <p>If you&#x27;re trying to reduce unnecessary expenses, start by comparing banks that offer free checking.</p>
+        <p>If you&#x27;re trying to <Link href="/calculators/budget-calculator/">reduce unnecessary expenses</Link>, start by comparing banks that offer free checking.</p>
         <p>A traditional bank may still be worthwhile if you regularly use branches and meet its fee-waiver requirements.</p>
         <h3>2. Interest rates and APY</h3>
         <p>APY tells you how much interest an account could earn over one year, including compounding, assuming the rate remains unchanged.</p>
@@ -292,14 +300,14 @@ export function CheckingAccountComparison() {
         <p>At 0.10% APY, the same balance would earn around $5.</p>
         <p>That difference matters, but it&#x27;s relatively small compared with recurring maintenance charges.</p>
         <p>If you&#x27;re holding money you won&#x27;t need for everyday purchases, consider comparing savings accounts as well.</p>
-        <p>Our <a href="https://microfinancepost.com/savings/high-yield-savings-account-calculator/">High-Yield Savings Account Calculator</a> can help you estimate potential earnings.</p>
+        <p>Our <Link href="/savings/high-yield-savings-account-calculator/">High-Yield Savings Account Calculator</Link> can help you estimate potential earnings.</p>
         <h3>3. ATM access</h3>
         <p>A bank may offer free checking but still cost you money if you regularly use out-of-network ATMs.</p>
         <p>Check whether fee-free ATMs are available near your home, workplace, or school.</p>
         <p>If you travel frequently, also compare ATM reimbursement policies and international transaction fees.</p>
         <h3>4. Overdraft policies</h3>
         <p>Overdraft fees can make an otherwise affordable checking account expensive.</p>
-        <p>Some banks decline transactions when you don&#x27;t have enough money, while others provide overdraft coverage under specific conditions.</p>
+        <p>Some banks decline transactions when you don&#x27;t have enough money, while others provide <a href="https://www.consumerfinance.gov/rules-policy/regulations/1005/17/">overdraft coverage</a> under specific conditions.</p>
         <p>Read the account agreement carefully to understand when transactions may be approved, declined, or charged.</p>
         <h3>5. Mobile banking and customer support</h3>
         <p>Consider whether you can easily deposit checks, receive alerts, lock a missing debit card, and contact customer support.</p>
@@ -310,27 +318,20 @@ export function CheckingAccountComparison() {
       <section aria-labelledby="deposit-insurance">
         <h2 id="deposit-insurance">Are Online Checking Accounts Safe?</h2>
         <p>Online checking accounts can be just as safe from bank-failure losses as traditional checking accounts when deposits are held at FDIC-insured banks and fall within the applicable insurance limits.</p>
-        <p>The Federal Deposit Insurance Corporation generally protects eligible deposits up to <strong>$250,000 per depositor, per insured bank, per ownership category</strong>.</p>
+        <p>The Federal Deposit Insurance Corporation generally protects eligible deposits up to <strong><a href="https://www.fdic.gov/resources/deposit-insurance/">$250,000 per depositor, per insured bank, per ownership category</a></strong>.</p>
         <p>FDIC coverage protects against insured bank failure, not every type of fraud or investment loss.</p>
-        <p>Before opening an account, verify the institution&#x27;s insurance status through the <a href="https://www.fdic.gov/">FDIC website</a> and enable account security features such as multifactor authentication and transaction alerts.</p>
+        <p>Before opening an account, verify the institution&#x27;s insurance status through the <a href="https://banks.data.fdic.gov/bankfind-suite/bankfind">FDIC website</a> and enable account security features such as multifactor authentication and transaction alerts.</p>
       </section>
 
       <section aria-labelledby="how-to-open">
         <h2 id="how-to-open">How to Open a Checking Account in the USA</h2>
         <p>Opening a checking account typically involves a few straightforward steps.</p>
-        <Image
-          className={styles.sectionImage}
-          src="/images/checking-accounts/opening-a-checking-account.webp"
-          width={1200}
-          height={800}
-          alt="A person fills out an online form on a phone beside a face-down card"
-        />
         <p><strong>Step 1: Choose a bank.</strong> Compare fees, minimum deposits, interest rates, ATM availability, and customer support.</p>
         <p><strong>Step 2: Gather identification.</strong> Banks generally require your legal name, date of birth, address, and acceptable identification information.</p>
         <p><strong>Step 3: Complete the application.</strong> Apply online or visit a branch, depending on the bank.</p>
         <p><strong>Step 4: Fund your account.</strong> Some accounts have no minimum opening deposit, while others require an initial deposit.</p>
         <p><strong>Step 5: Set up direct deposit.</strong> If your employer offers it, direct deposit can make receiving income easier and may help you qualify for account benefits.</p>
-        <p>Non-US citizens may also be eligible to open certain bank accounts, depending on the institution&#x27;s requirements. An SSN is not universally required; some banks accept an ITIN or other permitted identification documents.</p>
+        <p>Non-US citizens may also be eligible to open certain bank accounts, depending on the institution&#x27;s requirements. <a href="https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220">An SSN is not universally required</a>; some banks accept an ITIN or other permitted identification documents.</p>
       </section>
 
       <section aria-labelledby="faq">
