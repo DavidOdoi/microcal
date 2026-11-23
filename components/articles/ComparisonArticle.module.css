@@ -129,6 +129,19 @@
   border-bottom: 1px solid #dbe3d8;
 }
 
+.reviewHeading {
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+}
+
+.platformMark {
+  flex: none;
+  width: 2.75rem;
+  height: 2.2rem;
+  object-fit: contain;
+}
+
 .tradeoffs {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
