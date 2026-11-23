@@ -60,7 +60,7 @@ export function CheckingAccountComparison() {
           caption="Monthly fees, checking APYs, and best uses by account"
           rowHeader="Bank"
           columns={comparisonColumns}
-          rows={comparisonRows}
+          rows={comparisonRows.map(({ id, ...row }) => ({ ...row, href: `#${id}` }))}
           emphasizedColumn="Checking APY"
         />
         <p className={styles.tableNote}><em>APYs are variable. The rates shown reflect available bank disclosures reviewed in November 2026. Monthly fees may be waived under qualifying conditions. Check each bank&#x27;s current terms before applying.</em></p>

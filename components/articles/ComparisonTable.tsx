@@ -1,7 +1,7 @@
 import styles from './ComparisonArticle.module.css';
 
 export type ComparisonTableRow = {
-  id?: string;
+  href?: string;
   name: string;
   values: string[];
   links?: Record<string, string>;
@@ -26,9 +26,9 @@ export function ComparisonTable({ headingId, caption, rowHeader, columns, rows, 
           </tr>
         </thead>
         <tbody role="rowgroup">
-          {rows.map(({ id, name, values, links }) => (
+          {rows.map(({ href, name, values, links }) => (
             <tr key={name} role="row">
-              <th scope="row" role="rowheader">{id ? <a href={`#${id}`}>{name}</a> : name}</th>
+              <th scope="row" role="rowheader">{href ? <a href={href}>{name}</a> : name}</th>
               {columns.map((column, index) => (
                 <td key={column} role="cell" className={column === emphasizedColumn ? styles.emphasizedValue : undefined}>
                   <span className={styles.cellLabel} aria-hidden="true">{column}</span>

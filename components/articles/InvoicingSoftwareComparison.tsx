@@ -15,14 +15,14 @@ const providers = {
 };
 
 const softwareRows = [
-  { id: 'zoho', name: 'Zoho Invoice', values: ['Free', 'Free invoicing and automation'], links: { 'Starting price': providers.zoho.pricing } },
-  { id: 'wave', name: 'Wave', values: ['Free; Pro $19/month', 'Invoicing and bookkeeping'], links: { 'Starting price': providers.wave.pricing } },
-  { id: 'freshbooks', name: 'FreshBooks', values: ['$23/month', 'Freelancers and service businesses'], links: { 'Starting price': providers.freshbooks.pricing } },
-  { id: 'quickbooks', name: 'QuickBooks Online', values: ['Free tier; paid from $38/month', 'Accounting and invoicing'], links: { 'Starting price': providers.quickbooks.pricing } },
-  { id: 'square', name: 'Square Invoices', values: ['Free; paid from $49/month', 'Payment collection'], links: { 'Starting price': providers.square.pricing } },
-  { id: 'stripe', name: 'Stripe Invoicing', values: ['0.4% per paid invoice', 'Online payments'], links: { 'Starting price': providers.stripe.pricing } },
-  { id: 'harvest', name: 'Harvest', values: ['Free limited plan', 'Time-based billing'], links: { 'Starting price': providers.harvest.pricing } },
-];
+  { id: 'zoho', name: 'Zoho Invoice', values: ['Free', 'Free invoicing and automation'] },
+  { id: 'wave', name: 'Wave', values: ['Free; Pro $19/month', 'Invoicing and bookkeeping'] },
+  { id: 'freshbooks', name: 'FreshBooks', values: ['$23/month', 'Freelancers and service businesses'] },
+  { id: 'quickbooks', name: 'QuickBooks Online', values: ['Free tier; paid from $38/month', 'Accounting and invoicing'] },
+  { id: 'square', name: 'Square Invoices', values: ['Free; paid from $49/month', 'Payment collection'] },
+  { id: 'stripe', name: 'Stripe Invoicing', values: ['0.4% per paid invoice', 'Online payments'] },
+  { id: 'harvest', name: 'Harvest', values: ['Free limited plan', 'Time-based billing'] },
+] satisfies { id: keyof typeof providers; name: string; values: string[] }[];
 
 const planRows = [
   { name: 'Invoice creation', values: ['Usually included', 'Included'] },
@@ -75,7 +75,11 @@ export function InvoicingSoftwareComparison() {
           caption="Starting prices and best uses for seven invoicing tools"
           rowHeader="Software"
           columns={['Starting price', 'Best for']}
-          rows={softwareRows}
+          rows={softwareRows.map(({ id, ...row }) => ({
+            ...row,
+            href: providers[id].product,
+            links: { 'Starting price': providers[id].pricing },
+          }))}
           emphasizedColumn="Starting price"
         />
         <p className={styles.tableNote}><em>Prices are in US dollars and reflect publicly listed starting rates reviewed in November 2026. Promotional discounts, transaction fees, feature limitations, and taxes may apply.</em></p>

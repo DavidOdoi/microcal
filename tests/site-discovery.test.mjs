@@ -81,7 +81,20 @@ test('invoicing software guide is discoverable from Business and has both compar
   assert.equal(page.status, 200);
   const html = await page.text();
   assert.match(html, /<h1[^>]*>7 Best Invoicing Software for Small Businesses in 2026<\/h1>/);
-  assert.match(html, /<caption[^>]*>Starting prices and best uses for seven invoicing tools<\/caption>/);
+  const softwareTable = html.match(/<caption[^>]*>Starting prices and best uses for seven invoicing tools<\/caption>([\s\S]*?)<\/table>/)?.[1];
+  assert.ok(softwareTable);
+  assert.deepEqual(
+    [...softwareTable.matchAll(/<th scope="row"[^>]*><a href="([^"]+)">/g)].map(match => match[1]),
+    [
+      'https://www.zoho.com/us/invoice/',
+      'https://www.waveapps.com/invoicing',
+      'https://www.freshbooks.com/invoice',
+      'https://quickbooks.intuit.com/invoicing/',
+      'https://squareup.com/us/en/invoices',
+      'https://stripe.com/invoicing',
+      'https://www.getharvest.com/',
+    ],
+  );
   assert.match(html, /<caption[^>]*>Features of free and paid invoicing software<\/caption>/);
   assert.ok(html.includes(`rel="canonical" href="${origin}${path}"`));
 
