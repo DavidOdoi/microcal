@@ -1,4 +1,23 @@
 import Link from 'next/link';
+import { calculateFhaLoan } from '@/lib/fha-loan-calculations';
+import { ArticleComparisonChart } from './ArticleComparisonChart';
+
+const exampleTerm = 30;
+const durationComparison = {
+  label: 'Same $300,000 home and 30-year loan term',
+  rows: [
+    { downPayment: 27000, label: '9% down · 91% original LTV' },
+    { downPayment: 30000, label: '10% down · 90% original LTV', highlighted: true },
+  ].map(({ downPayment, label, highlighted }) => {
+    const { mipMonths } = calculateFhaLoan({
+      homePrice: 300000, downPayment, annualRate: 6.5, years: exampleTerm,
+      upfrontMipRate: 1.75, annualMipRate: 0.55, financeUpfrontMip: true, mipDuration: 'auto',
+      annualTax: 0, annualInsurance: 0, monthlyHoa: 0, closingCosts: 0, countyLimit: 0,
+    });
+    const value = mipMonths / 12;
+    return { label, value, formattedValue: `${value} years`, highlighted };
+  }),
+};
 
 // User-supplied article; wording is preserved with internal links added.
 export function FhaHomeLoanSupportingContent() {
@@ -78,6 +97,7 @@ export function FhaHomeLoanSupportingContent() {
       <p>The duration depends partly on your original loan-to-value ratio and applicable FHA rules.</p>
       <p>For many FHA loans with an original down payment below 10%, annual mortgage insurance continues for the mortgage term.</p>
       <p>With an original down payment of at least 10%, annual insurance may end after 11 years.</p>
+      <ArticleComparisonChart title="Estimated annual mortgage insurance duration" scale={exampleTerm} groups={[durationComparison]} />
       <p>These rules differ from conventional mortgage insurance cancellation requirements.</p>
       <p>Check your loan documents to understand your specific insurance obligations.</p>
     </section>

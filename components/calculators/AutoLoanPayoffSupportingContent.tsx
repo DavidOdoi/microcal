@@ -1,4 +1,30 @@
 import Link from 'next/link';
+import { calculateAutoPayoff } from '@/lib/batch-two-calculations';
+import { ArticleComparisonChart } from './ArticleComparisonChart';
+
+const exampleBalance = 20000;
+const examplePayoff = calculateAutoPayoff({
+  principal: exampleBalance,
+  annualRatePercent: 7,
+  monthlyPayment: 478.92,
+  extraMonthlyPayment: 100,
+  oneTimeAdditionalPayment: 0,
+});
+const roundedDollars = new Intl.NumberFormat('en-US', {
+  style: 'currency',
+  currency: 'USD',
+  maximumFractionDigits: 0,
+});
+const balanceComparisons = [12, 24, examplePayoff.accelerated.months].map((month) => ({
+  label: `After month ${month}`,
+  rows: [
+    { label: 'Regular payment', scenario: examplePayoff.standard },
+    { label: 'Extra $100 monthly', scenario: examplePayoff.accelerated, highlighted: true },
+  ].map(({ label, scenario, highlighted }) => {
+    const value = scenario.schedule[month - 1]?.endingBalance ?? 0;
+    return { label, value, formattedValue: roundedDollars.format(value), highlighted };
+  }),
+}));
 
 // User-supplied article with internal links; example figures reconciled with calculateAutoPayoff.
 export function AutoLoanPayoffSupportingContent() {
@@ -53,6 +79,7 @@ export function AutoLoanPayoffSupportingContent() {
         <tr><td><strong>Estimated interest savings</strong></td><td>—</td><td><strong>$588</strong></td></tr>
       </tbody></table></div>
       <p>These figures are rounded estimates based on monthly interest calculations and a fixed 7% rate.</p>
+      <ArticleComparisonChart title="How much of the $20,000 balance is left?" scale={exampleBalance} groups={balanceComparisons} />
       <p>At the stated $478.92 monthly payment, rounding leaves a small final installment in month 49. Your lender may adjust the final payment instead.</p>
       <p>Actual results may differ because many auto lenders calculate interest daily.</p>
       <p>The important takeaway is that an additional $100 per month could help you repay this loan approximately ten months earlier in this monthly model.</p>
