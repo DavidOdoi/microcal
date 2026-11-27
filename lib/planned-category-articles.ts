@@ -7,7 +7,6 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
     { title: 'Best checking account bonuses', keywords: ['best bonus for opening checking account'] },
     { title: 'Best CD rates in Alabama', keywords: ['best cd rates in alabama'] },
     { title: 'Best CD rates in Pennsylvania', keywords: ['best cd rates in pa'] },
-    { title: 'Best credit unions in California', keywords: ['best credit unions in california'] },
     { title: 'Credit unions with the best savings rates', keywords: ['credit unions with the best savings rates'] },
   ],
   debt: [

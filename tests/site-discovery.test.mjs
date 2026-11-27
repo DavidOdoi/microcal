@@ -104,10 +104,25 @@ test('invoicing software guide is discoverable from Business and has both compar
   assert.ok(!xml.includes(`<loc>${origin}/business${path}</loc>`));
 });
 
+test('the California credit union guide is public and linked from Savings', async () => {
+  const path = '/best-credit-unions-in-california/';
+  const category = await fetch(new URL('/savings/', baseUrl));
+  assert.ok((await category.text()).includes(`href="${path}"`));
+  const alias = await fetch(new URL(`/savings${path}`, baseUrl), { redirect: 'manual' });
+  assert.equal(alias.status, 308);
+  assert.equal(alias.headers.get('location'), path);
+  const page = await fetch(new URL(path, baseUrl));
+  assert.equal(page.status, 200);
+  const html = await page.text();
+  assert.match(html, /<h1[^>]*>7 Best Credit Unions in California for 2026<\/h1>/);
+  assert.match(html, /<caption[^>]*>Best Credit Unions in California Compared<\/caption>/);
+});
+
 test('the comparison guides list every section in their table of contents', async () => {
   for (const path of [
     '/best-banks-for-checking-accounts/',
     '/best-invoicing-software-for-small-businesses/',
+    '/best-credit-unions-in-california/',
   ]) {
     const html = await (await fetch(new URL(path, baseUrl))).text();
     const nav = html.match(/<nav[^>]*aria-labelledby="contents-title"[^>]*>([\s\S]*?)<\/nav>/)?.[1];

@@ -1,4 +1,5 @@
 import type { ComponentType } from 'react';
+import { CaliforniaCreditUnions, californiaCreditUnionsContent } from '@/components/articles/CaliforniaCreditUnions';
 import { CheckingAccountComparison } from '@/components/articles/CheckingAccountComparison';
 import { InvoicingSoftwareComparison } from '@/components/articles/InvoicingSoftwareComparison';
 
@@ -38,8 +39,18 @@ export const invoicingSoftwareArticle: CategoryArticle = {
   Body: InvoicingSoftwareComparison,
 };
 
+export const californiaCreditUnionsArticle: CategoryArticle = {
+  category: californiaCreditUnionsContent.category.slug,
+  slug: 'best-credit-unions-in-california',
+  permalink: californiaCreditUnionsContent.path,
+  kind: 'best',
+  title: californiaCreditUnionsContent.title,
+  description: californiaCreditUnionsContent.description,
+  Body: CaliforniaCreditUnions,
+};
+
 // Register complete articles with an existing category slug and a slug distinct from calculator slugs.
-export const categoryArticles: CategoryArticle[] = [checkingAccountsArticle, invoicingSoftwareArticle];
+export const categoryArticles: CategoryArticle[] = [checkingAccountsArticle, invoicingSoftwareArticle, californiaCreditUnionsArticle];
 
 export function categoryArticlePath({ category, slug, permalink }: CategoryArticle) {
   return permalink ?? `/${category}/${slug}/`;
