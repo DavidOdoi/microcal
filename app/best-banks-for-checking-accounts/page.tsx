@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function BestCheckingAccountsPage() {
   const { Body, title, description, category } = article;
   return (
-    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Savings', slug: category }} contents={checkingAccountContents}>
+    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Savings', slug: category }} contents={checkingAccountContents} layout="roundup">
       <Body />
     </ComparisonArticlePage>
   );

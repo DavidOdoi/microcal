@@ -55,6 +55,16 @@
   object-fit: contain;
 }
 
+.wordmark {
+  padding: .25rem;
+  color: #215d37;
+  font-family: 'Bricolage Grotesque', Arial, sans-serif;
+  font-size: clamp(.9rem, 2vw, 1.15rem);
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+}
+
 .pickInfo h3 {
   margin: .25rem 0 0;
   font-size: clamp(1.15rem, 2vw, 1.4rem);
@@ -132,6 +142,8 @@
 
 .header .logo { background: #f5f8f1; }
 
+.header .wordmark { font-size: clamp(.9rem, 3vw, 1.8rem); }
+
 .header .logo img {
   width: min(72%, 9rem);
   height: min(72%, 9rem);
@@ -164,6 +176,14 @@
   font-weight: 800;
   font-variant-numeric: tabular-nums;
 }
+
+.fact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 .35rem;
+}
+
+.fact + .fact { margin-inline-start: .45rem; }
 
 .disclosure { border-top: 1px solid #d5dfd5; }
 

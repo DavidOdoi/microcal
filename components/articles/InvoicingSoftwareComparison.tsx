@@ -1,10 +1,8 @@
-import Image from 'next/image';
-import { ArrowDown, ChevronDown, Minus, Plus } from 'lucide-react';
-import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { ComparisonTable } from './ComparisonTable';
 import styles from './ComparisonArticle.module.css';
-import reviewStyles from './InvoicingReviews.module.css';
+import { ReviewDisclosure, ReviewTradeoffs, RoundupReviewHeader, RoundupTopPicks } from './RoundupReviews';
+import reviewStyles from './RoundupReviews.module.css';
 
 const providers = {
   zoho: {
@@ -156,99 +154,27 @@ export const invoicingSoftwareContents = [
 ];
 
 type ProviderId = keyof typeof providers;
-const providerIds = Object.keys(providers) as ProviderId[];
-
-function ProviderLogo({ id }: { id: ProviderId }) {
-  return (
-    <span className={reviewStyles.logo}>
-      <Image
-        src={`/images/invoicing-software/${id}.webp`}
-        width={144}
-        height={id === 'zoho' ? 62 : 144}
-        alt=""
-      />
-    </span>
-  );
+function invoicingPick(id: ProviderId) {
+  const provider = providers[id];
+  return {
+    ...provider,
+    id,
+    offer: provider.price,
+    image: { src: `/images/invoicing-software/${id}.webp`, width: 144, height: id === 'zoho' ? 62 : 144 },
+  };
 }
 
-function ReviewDisclosure({ label, children, open }: { label: string; children: ReactNode; open?: boolean }) {
-  return (
-    <details className={reviewStyles.disclosure} open={open}>
-      <summary>{label} <ChevronDown size={20} aria-hidden="true" /></summary>
-      <div className={reviewStyles.disclosureBody}>{children}</div>
-    </details>
-  );
-}
-
-function Tradeoffs({ id }: { id: ProviderId }) {
-  const { pros, cons } = providers[id];
-  return (
-    <div className={reviewStyles.tradeoffs}>
-      <div>
-        <p><strong>Pros</strong></p>
-        <ul role="list">
-          {pros.map(point => <li key={point}><Plus size={18} aria-hidden="true" /><span>{point}</span></li>)}
-        </ul>
-      </div>
-      <div>
-        <p><strong>Cons</strong></p>
-        <ul role="list">
-          {cons.map(point => <li key={point}><Minus size={18} aria-hidden="true" /><span>{point}</span></li>)}
-        </ul>
-      </div>
-    </div>
-  );
-}
-
-function InvoicingTopPicks() {
-  return (
-    <section aria-labelledby="top-picks" className={reviewStyles.picks}>
-      <div className={reviewStyles.picksHeading}>
-        <h2 id="top-picks">Our top picks</h2>
-        <a href="#compare">Compare all seven <ArrowDown size={16} aria-hidden="true" /></a>
-      </div>
-      <ul className={reviewStyles.picksList} role="list">
-        {providerIds.map(id => {
-          const { name, distinction, price, product } = providers[id];
-          return (
-            <li key={id} className={reviewStyles.pick}>
-              <div className={reviewStyles.pickRow}>
-                <ProviderLogo id={id} />
-                <div className={reviewStyles.pickInfo}>
-                  <p className={reviewStyles.distinction}>{distinction}</p>
-                  <h3><a href={`#${id}`}>{name}</a></h3>
-                </div>
-                <div className={reviewStyles.pickOffer}>
-                  <p className={reviewStyles.pickPrice}>{price}</p>
-                  <a className={styles.productLink} href={product}>Visit site<span className={styles.srOnly}> for {name}</span></a>
-                </div>
-              </div>
-              <ReviewDisclosure label="Pros & cons"><Tradeoffs id={id} /></ReviewDisclosure>
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  );
-}
+const picks = (Object.keys(providers) as ProviderId[]).map(invoicingPick);
 
 function InvoicingReviewHeader({ id }: { id: ProviderId }) {
-  const { rank, name, distinction, price } = providers[id];
+  const pick = invoicingPick(id);
   return (
-    <header className={reviewStyles.header}>
-      <ProviderLogo id={id} />
-      <div>
-        <h2 id={id} className={reviewStyles.title}>
-          <span>{rank}. {name}</span>
-          <span className={styles.srOnly}>{' — '}</span>
-          <span className={reviewStyles.distinction}>{distinction}</span>
-        </h2>
-        <dl className={reviewStyles.price}>
-          <dt>Starting price</dt>
-          <dd>{price}</dd>
-        </dl>
-      </div>
-    </header>
+    <RoundupReviewHeader pick={pick} rank={pick.rank}>
+      <dl className={reviewStyles.price}>
+        <dt>Starting price</dt>
+        <dd>{pick.price}</dd>
+      </dl>
+    </RoundupReviewHeader>
   );
 }
 
@@ -272,7 +198,7 @@ export function InvoicingSoftwareComparison() {
         <p>We&#x27;ve compared seven invoicing tools available to US small businesses in 2026, focusing on pricing, ease of use, invoice automation, payment options, and additional business management features.</p>
       </div>
 
-      <InvoicingTopPicks />
+      <RoundupTopPicks picks={picks} compareLabel="Compare all seven" />
 
       <header className={reviewStyles.reviewsHeading}>
         <h2 id="detailed-reviews">A closer look at our picks</h2>
@@ -284,7 +210,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="zoho">
         <InvoicingReviewHeader id="zoho" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="zoho" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.zoho} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>Zoho Invoice is an excellent option for small businesses looking for professional invoicing without paying monthly subscription fees.</p>
           <p><strong>Our verdict:</strong> One of the best free invoicing solutions for small businesses with straightforward billing needs.</p>
@@ -315,7 +241,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="wave">
         <InvoicingReviewHeader id="wave" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="wave" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.wave} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>Wave combines invoicing with basic accounting features, making it particularly useful for freelancers and business owners who want to keep financial records organized.</p>
           <p><strong>Our verdict:</strong> A strong free invoicing choice for freelancers and small businesses that also need simple bookkeeping.</p>
@@ -347,7 +273,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="freshbooks">
         <InvoicingReviewHeader id="freshbooks" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="freshbooks" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.freshbooks} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>FreshBooks is designed for small businesses that bill customers for services, projects, or time worked.</p>
           <p><strong>Our verdict:</strong> An excellent option for service businesses that want invoicing, time tracking, and expense management in one platform.</p>
@@ -379,7 +305,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="quickbooks">
         <InvoicingReviewHeader id="quickbooks" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="quickbooks" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.quickbooks} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>QuickBooks Online is a comprehensive small business accounting platform that also provides invoicing tools.</p>
           <p><strong>Our verdict:</strong> A strong option for businesses that want invoicing integrated with broader accounting and financial management.</p>
@@ -412,7 +338,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="square">
         <InvoicingReviewHeader id="square" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="square" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.square} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>Square Invoices is particularly useful for businesses that want to send invoices and collect payments through the same platform.</p>
           <p><strong>Our verdict:</strong> A practical choice for small businesses that prioritize convenient invoice payments and customer transactions.</p>
@@ -444,7 +370,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="stripe">
         <InvoicingReviewHeader id="stripe" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="stripe" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.stripe} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>Stripe Invoicing is designed for businesses that want to create invoices and collect online payments through Stripe&#x27;s payment infrastructure.</p>
           <p><strong>Our verdict:</strong> An excellent invoicing option for online businesses that value payment flexibility and integrations.</p>
@@ -476,7 +402,7 @@ export function InvoicingSoftwareComparison() {
 
       <section className={reviewStyles.review} aria-labelledby="harvest">
         <InvoicingReviewHeader id="harvest" />
-        <ReviewDisclosure label="Pros & cons" open><Tradeoffs id="harvest" /></ReviewDisclosure>
+        <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs {...providers.harvest} /></ReviewDisclosure>
         <div className={reviewStyles.reviewIntro}>
           <p>Harvest focuses on tracking billable time, managing project budgets, and converting work into invoices.</p>
           <p><strong>Our verdict:</strong> A useful choice for businesses that want to connect time tracking directly to client billing.</p>
