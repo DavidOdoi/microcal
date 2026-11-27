@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function BestInvoicingSoftwarePage() {
   const { Body, title, description, category } = article;
   return (
-    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Business', slug: category }} contents={invoicingSoftwareContents}>
+    <ComparisonArticlePage title={title} description={description} path={path} category={{ name: 'Business', slug: category }} contents={invoicingSoftwareContents} layout="roundup">
       <Body />
     </ComparisonArticlePage>
   );
