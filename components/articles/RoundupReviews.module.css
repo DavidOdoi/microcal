@@ -292,3 +292,26 @@
   .header { grid-template-columns: minmax(5rem, 28%) minmax(0, 1fr); }
   .tradeoffs { grid-template-columns: minmax(0, 1fr); }
 }
+
+.reviewSummary p {
+  margin: .55rem 0 0;
+  line-height: 1.55;
+}
+
+.reviewFacts {
+  display: grid;
+  margin: 0;
+}
+
+.reviewFacts > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .55rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid #d5dfd5;
+}
+
+.reviewFacts dd {
+  margin: 0;
+  font-weight: 700;
+}
