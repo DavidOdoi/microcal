@@ -3,176 +3,272 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  column-gap: 1rem;
+  gap: .25rem 1rem;
+  padding-block-end: .65rem;
   border-bottom: 2px solid #286840;
 }
 
-.picksHeading h2 { font-size: 1.5rem; }
+.picksHeading h2 {
+  font-size: clamp(1.55rem, 3vw, 2.15rem);
+  letter-spacing: -.025em;
+}
 
 .picksHeading a {
   display: inline-flex;
   align-items: center;
-  gap: .35rem;
+  gap: .4rem;
   min-height: 44px;
   font-weight: 700;
 }
 
 .picks ul.picksList {
-  display: grid;
-  gap: .7rem;
   padding: 0;
-  margin: 1rem 0 0;
+  margin: 0;
   list-style: none;
 }
 
 .picksList .pick {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: center;
-  gap: .85rem;
   margin: 0;
-  padding: .85rem 1rem;
-  border: 1px solid #dbe3d8;
-  border-radius: .7rem;
-  background: #f7f9f4;
+  border-bottom: 1px solid #d5dfd5;
 }
 
-.pickInfo h3 {
-  margin: 0;
-  font-size: 1.125rem;
-}
-
-.pickInfo p {
-  margin: .2rem 0 0;
-  line-height: 1.35;
-}
-
-.pickInfo .pickPrice {
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-}
-
-.pickVisit {
-  display: inline-flex;
-  min-height: 44px;
-  justify-content: center;
-  align-items: center;
-  padding: .4rem .8rem;
-  border: 1px solid #b7cbb7;
-  border-radius: .45rem;
-  background: #fff;
-  font-weight: 700;
-}
-
-.pickVisit:hover { background: #e6efe2; }
-
-.review {
-  padding: clamp(1rem, 3vw, 1.75rem);
-  border: 1px solid #cdd9c9;
-  border-top: 3px solid #286840;
-  border-radius: .8rem;
-  background: #fff;
-}
-
-.header {
+.pickRow {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) minmax(13rem, 16rem);
+  grid-template-columns: minmax(6rem, 9rem) minmax(0, 1fr) minmax(10rem, 28%);
   align-items: center;
-  gap: .85rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #dbe3d8;
-}
-
-.header .title {
-  font-size: clamp(1.45rem, 2.5vw, 1.95rem);
-  scroll-margin-top: 7rem;
-  overflow-wrap: anywhere;
-}
-
-.distinction {
-  color: #215d37;
-  font-size: .82em;
+  gap: clamp(.85rem, 3vw, 1.6rem);
+  padding: clamp(1rem, 3vw, 1.85rem) 0 .75rem;
 }
 
 .logo {
   display: grid;
-  width: 3.5rem;
-  aspect-ratio: 1;
-  flex: none;
+  aspect-ratio: 3 / 2;
   place-items: center;
-  border: 1px solid #dbe3d8;
-  border-radius: .6rem;
+  border: 1px solid #d5dfd5;
+  border-radius: .65rem;
   background: #fff;
 }
 
 .logo img {
-  width: 2.75rem;
-  height: 2.2rem;
+  width: 68%;
+  height: 72%;
   object-fit: contain;
 }
 
-.offer {
-  min-width: 0;
-  padding: .75rem .85rem;
-  border-radius: .65rem;
+.pickInfo h3 {
+  margin: .25rem 0 0;
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+}
+
+.pickInfo h3 a { color: #17251b; }
+
+.pickInfo .distinction,
+.title .distinction {
+  margin: 0;
+  color: #215d37;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.pickOffer {
+  display: grid;
+  gap: .5rem;
+}
+
+.pickOffer .pickPrice {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+}
+
+.pickOffer a,
+.actions > a {
+  justify-content: center;
+  text-align: center;
+}
+
+.reviewsHeading {
+  display: grid;
+  gap: 1.1rem;
+  margin-block: clamp(2.75rem, 6vw, 5.25rem) 1.5rem;
+}
+
+.reviewsHeading h2 {
+  font-size: clamp(1.9rem, 4vw, 3.15rem);
+  letter-spacing: -.035em;
+}
+
+.editorialNote {
+  padding: .85rem 1rem;
+  border-inline-start: 3px solid #39724f;
   background: #f2f7ee;
 }
 
-.price {
+.editorialNote p {
   margin: 0;
+  line-height: 1.55;
+}
+
+.editorialNote p + p { margin-top: .35rem; }
+
+.review {
+  padding: clamp(1rem, 3vw, 2.25rem);
+  border: 1px solid #cdd9c9;
+  border-radius: .85rem;
+  background: #fff;
+  box-shadow: 0 .3rem 1rem #16321f0a;
+}
+
+.reviewsHeading + section.review { margin-top: 0; }
+
+.header {
+  display: grid;
+  grid-template-columns: minmax(9rem, 34%) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1rem, 4vw, 2.5rem);
+  padding-block-end: clamp(1rem, 3vw, 1.65rem);
+}
+
+.header .logo { background: #f5f8f1; }
+
+.header .logo img {
+  width: min(72%, 9rem);
+  height: min(72%, 9rem);
+}
+
+.header .title {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  font-size: clamp(1.55rem, 3vw, 2.25rem);
+  scroll-margin-top: 7rem;
+  overflow-wrap: anywhere;
+}
+
+.title .distinction {
+  order: -1;
+  font-size: max(.95rem, .56em);
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .55rem;
+  margin: .7rem 0 0;
   line-height: 1.4;
 }
 
 .price dd {
-  margin: .15rem 0 0;
+  margin: 0;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
 }
 
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: .25rem .75rem;
-  margin-top: .65rem;
-}
-
-.pricingLink {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-}
-
-.disclosure {
-  margin-top: 1.4rem;
-  border-block: 1px solid #dbe3d8;
-}
+.disclosure { border-top: 1px solid #d5dfd5; }
 
 .disclosure summary {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 44px;
-  gap: .5rem;
+  gap: .6rem;
+  min-height: 48px;
+  padding: .75rem .2rem;
   color: #215d37;
   font-weight: 700;
   cursor: pointer;
 }
 
-.disclosure summary::-webkit-details-marker { display: none; }
-.disclosure[open] summary svg { transform: rotate(180deg); }
-
-.disclosure > div {
-  margin-top: .25rem;
-  margin-bottom: .85rem;
+.disclosure summary:focus-visible {
+  outline: 2px solid #176439;
+  outline-offset: 2px;
 }
 
-@media (max-width: 55rem) {
-  .header { grid-template-columns: auto minmax(0, 1fr); }
-  .offer { grid-column: 1 / -1; }
+.disclosure summary::-webkit-details-marker { display: none; }
+.disclosure summary svg { flex: none; }
+.disclosure[open] summary svg { transform: rotate(180deg); }
+
+.pick .disclosure { border: 0; }
+
+.pick .disclosure summary {
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.disclosureBody { padding: 0 0 1rem; }
+.disclosureBody > :first-child { margin-top: 0; }
+
+.tradeoffs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: .65rem;
+  background: #f4f7f1;
+}
+
+.tradeoffs p { margin: 0; }
+
+.tradeoffs ul {
+  padding: 0;
+  margin: .3rem 0 0;
+  list-style: none;
+}
+
+.tradeoffs li {
+  display: flex;
+  align-items: baseline;
+  gap: .55rem;
+  line-height: 1.5;
+}
+
+.tradeoffs li svg {
+  align-self: flex-start;
+  flex: none;
+  margin-top: .2rem;
+  color: #236442;
+}
+
+.tradeoffs > div + div li svg { color: #8b452b; }
+
+.reviewIntro {
+  padding-block: .85rem 1.15rem;
+  border-top: 1px solid #d5dfd5;
+}
+
+.reviewIntro > :first-child { margin-top: 0; }
+
+.actions {
+  display: grid;
+  justify-items: stretch;
+  gap: .2rem;
+  padding: 1rem clamp(1rem, 3vw, 2rem) .45rem;
+  border-top: 1px solid #d5dfd5;
+}
+
+.actions .pricingLink {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+
+@media (min-width: 35rem) {
+  .actions {
+    grid-template-columns: minmax(11rem, 17rem) auto;
+    justify-content: start;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 37rem) {
-  .picksList .pick { grid-template-columns: auto minmax(0, 1fr); }
-  .pickVisit { grid-column: 1 / -1; }
+  .pickRow { grid-template-columns: minmax(4.25rem, 6rem) minmax(0, 1fr); }
+  .pickOffer {
+    grid-column: 1 / -1;
+    padding: .7rem;
+    border-radius: .65rem;
+    background: #f4f7f1;
+  }
+
+  .header { grid-template-columns: minmax(5rem, 28%) minmax(0, 1fr); }
+  .tradeoffs { grid-template-columns: minmax(0, 1fr); }
 }
