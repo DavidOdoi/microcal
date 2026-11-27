@@ -109,7 +109,6 @@ const banks = {
 const picks = Object.values(banks);
 
 export const checkingAccountContents = [
-  { id: 'quick-answer', label: 'Quick answer' },
   { id: 'top-picks', label: 'Top picks' },
   { id: 'detailed-reviews', label: 'Detailed reviews' },
   ...picks.map(({ id, name }) => ({ id, label: name })),
@@ -140,20 +139,6 @@ export function CheckingAccountComparison() {
         <p>The good news is that several US banks offer checking accounts with useful features and relatively low costs. Whether you want to earn interest, deposit cash regularly, or manage everything from your phone, there&#x27;s likely an account that fits your needs.</p>
         <p>We&#x27;ve compared five of the <strong>best banks for checking accounts in 2026</strong>, including online banks and traditional institutions. Our comparison focuses on account fees, annual percentage yields (APYs), ATM access, convenience, and potential drawbacks.</p>
       </div>
-
-      <section className={styles.summary} aria-labelledby="quick-answer">
-        <h2 id="quick-answer">Quick Answer: What Are the Best Banks for Checking Accounts?</h2>
-        <p><strong>SoFi Checking and Savings is our top pick for people who want online banking, no monthly maintenance fees, and interest on their checking balance.</strong> Capital One 360 Checking is another excellent option, particularly if you want access to a large ATM network and occasional in-person banking.</p>
-        <p>Here are our five picks:</p>
-        <ul>
-          <li><strong>SoFi Checking and Savings:</strong> Best for online banking and earning interest.</li>
-          <li><strong>Capital One 360 Checking:</strong> Best overall for convenient, low-fee everyday banking.</li>
-          <li><strong>Ally Bank Spending Account:</strong> Best for ATM fee reimbursements and no minimum opening deposit.</li>
-          <li><strong>Chase Total Checking:</strong> Best for nationwide branch access.</li>
-          <li><strong>Wells Fargo Everyday Checking:</strong> Best for flexible in-person banking and younger account holders.</li>
-        </ul>
-        <p>None of these accounts is perfect for everyone. Your best option depends on how you receive money, access cash, and use your checking account.</p>
-      </section>
 
       <RoundupTopPicks
         compareLabel="Compare all five"

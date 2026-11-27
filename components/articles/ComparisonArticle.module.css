@@ -87,14 +87,6 @@
 
 .introduction :first-child { margin-top: 0; }
 
-.summary {
-  padding: clamp(1rem, 3vw, 1.7rem);
-  border: 1px solid #cfddc9;
-  border-inline-start: 4px solid #25693f;
-  border-radius: .35rem .85rem .85rem .35rem;
-  background: #f2f7ee;
-}
-
 .comparison h2 { margin-bottom: 1rem; }
 
 .tableFrame {

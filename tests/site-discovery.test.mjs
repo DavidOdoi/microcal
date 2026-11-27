@@ -105,9 +105,9 @@ test('invoicing software guide is discoverable from Business and has both compar
 });
 
 test('the comparison guides list every section in their table of contents', async () => {
-  for (const [path, hasQuickAnswer] of [
-    ['/best-banks-for-checking-accounts/', true],
-    ['/best-invoicing-software-for-small-businesses/', false],
+  for (const path of [
+    '/best-banks-for-checking-accounts/',
+    '/best-invoicing-software-for-small-businesses/',
   ]) {
     const html = await (await fetch(new URL(path, baseUrl))).text();
     const nav = html.match(/<nav[^>]*aria-labelledby="contents-title"[^>]*>([\s\S]*?)<\/nav>/)?.[1];
@@ -116,7 +116,7 @@ test('the comparison guides list every section in their table of contents', asyn
     const headings = [...html.matchAll(/<h2\b[^>]*id="([^"]+)"/g)]
       .map(match => match[1]).filter(id => id !== 'contents-title');
     assert.deepEqual(links, headings, path);
-    assert.equal(links.includes('quick-answer'), hasQuickAnswer, path);
+    assert.ok(!links.includes('quick-answer'), path);
   }
 });
 
