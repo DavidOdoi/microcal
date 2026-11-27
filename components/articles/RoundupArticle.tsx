@@ -1,7 +1,7 @@
 import Markdown from 'react-markdown';
 import { ComparisonArticlePage } from './ComparisonArticlePage';
 import { ComparisonTable, type ComparisonTableRow } from './ComparisonTable';
-import { ReviewDisclosure, ReviewTradeoffs, RoundupReviewHeader, RoundupTopPicks } from './RoundupReviews';
+import { ReviewDisclosure, ReviewTradeoffs, RoundupReviewHeader, RoundupTopPicks, type ReviewPhoto } from './RoundupReviews';
 import styles from './ComparisonArticle.module.css';
 import reviewStyles from './RoundupReviews.module.css';
 
@@ -19,6 +19,7 @@ export type RoundupArticleContent = {
     distinction: string;
     product: string;
     image?: { src: string; width: number; height: number };
+    photo?: ReviewPhoto;
     summary: string;
     pros: string[];
     cons: string[];
@@ -53,6 +54,7 @@ export function RoundupArticle({ article }: { article: RoundupArticleContent }) 
       <RoundupTopPicks
         compareLabel={`Compare all ${picks.length}`}
         picks={picks.map(pick => ({ ...pick, offer: pick.summary }))}
+        compact
       />
       <header className={reviewStyles.reviewsHeading}>
         <h2 id="detailed-reviews">A closer look at our picks</h2>
@@ -60,7 +62,7 @@ export function RoundupArticle({ article }: { article: RoundupArticleContent }) 
       </header>
       {picks.map((pick, index) => (
         <section key={pick.id} className={reviewStyles.review} aria-labelledby={pick.id}>
-          <RoundupReviewHeader pick={pick} rank={index + 1}>
+          <RoundupReviewHeader pick={pick} rank={index + 1} feature={{ photo: pick.photo }}>
             <div className={reviewStyles.reviewSummary}><Markdown skipHtml>{pick.overview}</Markdown></div>
           </RoundupReviewHeader>
           <ReviewDisclosure label="Pros & cons" open><ReviewTradeoffs pros={pick.pros} cons={pick.cons} /></ReviewDisclosure>

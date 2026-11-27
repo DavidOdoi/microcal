@@ -16,6 +16,8 @@ type RoundupPick = {
   offer: ReactNode;
 };
 
+export type ReviewPhoto = { src: string; width: number; height: number; alt: string };
+
 function ProductMark({ image, shortName }: Pick<RoundupPick, 'image' | 'shortName'>) {
   return (
     <span className={reviewStyles.logo} aria-hidden="true">
@@ -52,7 +54,11 @@ export function ReviewTradeoffs({ pros, cons }: Pick<RoundupPick, 'pros' | 'cons
   );
 }
 
-export function RoundupTopPicks({ picks, compareLabel }: { picks: readonly RoundupPick[]; compareLabel: string }) {
+export function RoundupTopPicks({ picks, compareLabel, compact }: {
+  picks: readonly RoundupPick[];
+  compareLabel: string;
+  compact?: boolean;
+}) {
   return (
     <section aria-labelledby="top-picks" className={reviewStyles.picks}>
       <div className={reviewStyles.picksHeading}>
@@ -62,7 +68,7 @@ export function RoundupTopPicks({ picks, compareLabel }: { picks: readonly Round
       <ul className={reviewStyles.picksList} role="list">
         {picks.map(({ id, name, distinction, product, image, shortName, pros, cons, offer }) => (
           <li key={id} className={reviewStyles.pick}>
-            <div className={reviewStyles.pickRow}>
+            <div className={compact ? `${reviewStyles.pickRow} ${reviewStyles.compactPickRow}` : reviewStyles.pickRow}>
               <ProductMark image={image} shortName={shortName} />
               <div className={reviewStyles.pickInfo}>
                 <p className={reviewStyles.distinction}>{distinction}</p>
@@ -81,21 +87,23 @@ export function RoundupTopPicks({ picks, compareLabel }: { picks: readonly Round
   );
 }
 
-export function RoundupReviewHeader({ pick, rank, children }: {
+export function RoundupReviewHeader({ pick, rank, feature, children }: {
   pick: Pick<RoundupPick, 'id' | 'name' | 'distinction' | 'image' | 'shortName'>;
   rank: number;
+  feature?: { photo?: ReviewPhoto };
   children: ReactNode;
 }) {
   const { id, name, distinction, image, shortName } = pick;
   return (
-    <header className={reviewStyles.header}>
-      <ProductMark image={image} shortName={shortName} />
+    <header className={feature ? `${reviewStyles.header} ${reviewStyles.featureHeader}` : reviewStyles.header}>
+      {!feature && <ProductMark image={image} shortName={shortName} />}
       <div>
         <h2 id={id} className={reviewStyles.title}>
           <span>{rank}. {name}</span>
           <span className={styles.srOnly}>{' — '}</span>
           <span className={reviewStyles.distinction}>{distinction}</span>
         </h2>
+        {feature?.photo && <Image className={reviewStyles.reviewPhoto} {...feature.photo} />}
         {children}
       </div>
     </header>

@@ -315,3 +315,42 @@
   margin: 0;
   font-weight: 700;
 }
+
+.pickRow.compactPickRow {
+  grid-template-columns: minmax(4.5rem, 17%) minmax(0, 1fr);
+  align-items: start;
+  column-gap: clamp(.85rem, 2vw, 1.4rem);
+  row-gap: .35rem;
+}
+
+.compactPickRow .logo {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.compactPickRow .pickInfo {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.compactPickRow .pickOffer {
+  grid-column: 2;
+  grid-row: 2;
+  justify-items: start;
+  padding: 0;
+  background: transparent;
+}
+
+.header.featureHeader {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.featureHeader .distinction { order: 0; }
+
+.reviewPhoto {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-block: .9rem .75rem;
+  border-radius: .65rem;
+}
