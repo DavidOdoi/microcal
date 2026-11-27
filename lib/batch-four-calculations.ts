@@ -203,14 +203,16 @@ export function calculateStudentLoanInterest(input: {
   let paymentToPrincipal = 0;
   let paymentRemaining = safeMoney(input.paymentAmount);
   const schedule: { date: string; principal: number; interest: number; unpaidInterest: number }[] = [];
-  for (let day = 1; day <= Math.min(days, 36525); day += 1) {
+  for (let day = 0; day <= days; day += 1) {
     const date = new Date(start.getTime() + day * 86400000);
-    if (input.interestTreatment === 'accruing' && principal > 0) {
+    const isPaymentDate = paymentRemaining > 0 && paymentDate?.getTime() === date.getTime();
+    const isCapitalizationDate = input.capitalize && capitalizationDate?.getTime() === date.getTime();
+    if (day > 0 && input.interestTreatment === 'accruing' && principal > 0) {
       const todayInterest = principal * rate / 365.25;
       accruedInterest += todayInterest;
       unpaidInterest += todayInterest;
     }
-    if (paymentRemaining > 0 && paymentDate && date.getTime() === paymentDate.getTime()) {
+    if (isPaymentDate) {
       const toInterest = Math.min(unpaidInterest, paymentRemaining);
       unpaidInterest -= toInterest;
       paymentRemaining -= toInterest;
@@ -220,11 +222,11 @@ export function calculateStudentLoanInterest(input: {
       paymentRemaining -= toPrincipal;
       paymentToPrincipal += toPrincipal;
     }
-    if (input.capitalize && capitalizationDate && date.getTime() === capitalizationDate.getTime()) {
+    if (isCapitalizationDate) {
       principal += unpaidInterest;
       unpaidInterest = 0;
     }
-    if (day === 1 || day === days || (paymentDate && date.getTime() === paymentDate.getTime()) || (input.capitalize && capitalizationDate && date.getTime() === capitalizationDate.getTime())) {
+    if (day === 1 || (day > 0 && day === days) || isPaymentDate || isCapitalizationDate) {
       schedule.push({ date: date.toISOString().slice(0, 10), principal, interest: accruedInterest, unpaidInterest });
     }
   }

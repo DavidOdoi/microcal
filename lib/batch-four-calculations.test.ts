@@ -78,6 +78,22 @@ test('student payment is applied first to unpaid interest then principal on sele
   near(r.paymentToInterest, 20 + (20_000 * 0.06 / 365.25) * 14); near(r.paymentToPrincipal, 100 - r.paymentToInterest); assert.ok(r.principal < 20_000); assert.equal(r.days, 30);
 });
 
+test('student loan applies a start-date payment before any period interest accrues', () => {
+  const r = calculateStudentLoanInterest({ principal: 20_000, annualRatePercent: 6, startDate: '2026-01-01', endDate: '2026-01-31', unpaidInterest: 20, paymentAmount: 100, paymentDate: '2026-01-01', interestTreatment: 'accruing', capitalize: false, capitalizationDate: '' });
+  assert.equal(r.paymentToInterest, 20);
+  assert.equal(r.paymentToPrincipal, 80);
+  near(r.accruedInterest, 19_920 * 0.06 / 365.25 * 30);
+  assert.deepEqual(r.schedule[0], { date: '2026-01-01', principal: 19_920, interest: 0, unpaidInterest: 0 });
+});
+
+test('student loan applies start-date capitalization after a same-day payment in a zero-day window', () => {
+  const r = calculateStudentLoanInterest({ principal: 10_000, annualRatePercent: 5, startDate: '2026-01-01', endDate: '2026-01-01', unpaidInterest: 50, paymentAmount: 20, paymentDate: '2026-01-01', interestTreatment: 'accruing', capitalize: true, capitalizationDate: '2026-01-01' });
+  assert.equal(r.accruedInterest, 0);
+  assert.equal(r.paymentToInterest, 20);
+  assert.equal(r.principal, 10_030);
+  assert.equal(r.unpaidInterest, 0);
+});
+
 test('student loan supports selected subsidy and explicit capitalization, and rejects bad dates', () => {
   const common = { principal: 10_000, annualRatePercent: 5, startDate: '2026-01-01', endDate: '2026-01-11', unpaidInterest: 50, paymentAmount: 0, paymentDate: '', interestTreatment: 'subsidized' as const };
   const subsidized = calculateStudentLoanInterest({ ...common, capitalize: false, capitalizationDate: '' });

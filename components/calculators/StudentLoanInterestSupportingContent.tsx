@@ -1,4 +1,21 @@
 import Link from 'next/link';
+import { calculateStudentLoanInterest } from '@/lib/batch-four-calculations';
+import { ArticleComparisonChart } from './ArticleComparisonChart';
+
+const payment = 250;
+const example = calculateStudentLoanInterest({
+  principal: 20_000,
+  annualRatePercent: 6,
+  startDate: '2026-01-01',
+  endDate: '2026-01-31',
+  unpaidInterest: 0,
+  paymentAmount: payment,
+  paymentDate: '2026-01-31',
+  interestTreatment: 'accruing',
+  capitalize: false,
+  capitalizationDate: '',
+});
+const dollars = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
 // User-supplied article; wording is preserved with internal links added.
 export function StudentLoanInterestSupportingContent() {
@@ -47,6 +64,17 @@ export function StudentLoanInterestSupportingContent() {
       <p><strong>$20,000 × 0.06 ÷ 365.25 = $3.29 per day</strong></p>
       <p>Over 30 days, approximately $98.56 in interest would accumulate.</p>
       <p>If you make a $250 payment after those 30 days, approximately $98.56 would cover accrued interest, while $151.44 would reduce your principal, assuming you have no other unpaid interest or charges.</p>
+      <ArticleComparisonChart
+        title="Where the $250 payment goes"
+        scale={payment}
+        groups={[{
+          label: 'Payment after 30 days',
+          rows: [
+            { label: 'Accrued interest', value: example.paymentToInterest, formattedValue: dollars.format(example.paymentToInterest) },
+            { label: 'Reduction in principal', value: example.paymentToPrincipal, formattedValue: dollars.format(example.paymentToPrincipal), highlighted: true },
+          ],
+        }]}
+      />
       <p>This example shows why part of your student loan payment goes toward interest rather than immediately reducing what you borrowed.</p>
     </section>
     <section className="finance-article-section">
