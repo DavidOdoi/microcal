@@ -1,0 +1,71 @@
+.header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(14rem, 19rem);
+  align-items: stretch;
+  margin-bottom: 1.4rem;
+  border: 1px solid #cdd9c9;
+  border-inline-start: 4px solid #286840;
+  border-radius: .8rem;
+  background: white;
+}
+
+.header h2 {
+  align-self: center;
+  min-width: 0;
+  padding: .9rem clamp(.85rem, 3vw, 1.5rem);
+  scroll-margin-top: 7rem;
+  overflow-wrap: anywhere;
+}
+
+.logo {
+  display: grid;
+  width: 3.5rem;
+  aspect-ratio: 1;
+  flex: none;
+  place-items: center;
+  border: 1px solid #dbe3d8;
+  border-radius: .6rem;
+  background: #fff;
+}
+
+.offer {
+  min-width: 0;
+  padding: .9rem 1.1rem;
+  border-inline-start: 1px solid #dbe3d8;
+  border-radius: 0 .75rem .75rem 0;
+  background: #f2f7ee;
+}
+
+.price {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.price dd {
+  margin: .15rem 0 0;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .25rem .75rem;
+  margin-top: .65rem;
+}
+
+.pricingLink {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+
+@media (max-width: 43rem) {
+  .header { grid-template-columns: minmax(0, 1fr); }
+  .offer {
+    border-inline-start: 0;
+    border-block-start: 1px solid #dbe3d8;
+    border-radius: 0 0 .75rem .75rem;
+  }
+}

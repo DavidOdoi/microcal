@@ -3,26 +3,38 @@ import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { ComparisonTable } from './ComparisonTable';
 import styles from './ComparisonArticle.module.css';
+import reviewStyles from './InvoicingReviews.module.css';
 
 const providers = {
-  zoho: { product: 'https://www.zoho.com/us/invoice/', pricing: 'https://www.zoho.com/us/invoice/' },
-  wave: { product: 'https://www.waveapps.com/invoicing', pricing: 'https://www.waveapps.com/pricing' },
-  freshbooks: { product: 'https://www.freshbooks.com/invoice', pricing: 'https://www.freshbooks.com/pricing' },
-  quickbooks: { product: 'https://quickbooks.intuit.com/invoicing/', pricing: 'https://quickbooks.intuit.com/pricing/' },
-  square: { product: 'https://squareup.com/us/en/invoices', pricing: 'https://squareup.com/us/en/pricing' },
-  stripe: { product: 'https://stripe.com/invoicing', pricing: 'https://stripe.com/invoicing/pricing' },
-  harvest: { product: 'https://www.getharvest.com/', pricing: 'https://www.getharvest.com/pricing' },
+  zoho: {
+    name: 'Zoho Invoice', price: 'Free', bestFor: 'Free invoicing and automation',
+    product: 'https://www.zoho.com/us/invoice/', pricing: 'https://www.zoho.com/us/invoice/',
+  },
+  wave: {
+    name: 'Wave', price: 'Free; Pro $19/month', bestFor: 'Invoicing and bookkeeping',
+    product: 'https://www.waveapps.com/invoicing', pricing: 'https://www.waveapps.com/pricing',
+  },
+  freshbooks: {
+    name: 'FreshBooks', price: '$23/month', bestFor: 'Freelancers and service businesses',
+    product: 'https://www.freshbooks.com/invoice', pricing: 'https://www.freshbooks.com/pricing',
+  },
+  quickbooks: {
+    name: 'QuickBooks Online', price: 'Free tier; paid from $38/month', bestFor: 'Accounting and invoicing',
+    product: 'https://quickbooks.intuit.com/invoicing/', pricing: 'https://quickbooks.intuit.com/pricing/',
+  },
+  square: {
+    name: 'Square Invoices', price: 'Free; paid from $49/month', bestFor: 'Payment collection',
+    product: 'https://squareup.com/us/en/invoices', pricing: 'https://squareup.com/us/en/pricing',
+  },
+  stripe: {
+    name: 'Stripe Invoicing', price: '0.4% per paid invoice', bestFor: 'Online payments',
+    product: 'https://stripe.com/invoicing', pricing: 'https://stripe.com/invoicing/pricing',
+  },
+  harvest: {
+    name: 'Harvest', price: 'Free limited plan', bestFor: 'Time-based billing',
+    product: 'https://www.getharvest.com/', pricing: 'https://www.getharvest.com/pricing',
+  },
 };
-
-const softwareRows = [
-  { id: 'zoho', name: 'Zoho Invoice', values: ['Free', 'Free invoicing and automation'] },
-  { id: 'wave', name: 'Wave', values: ['Free; Pro $19/month', 'Invoicing and bookkeeping'] },
-  { id: 'freshbooks', name: 'FreshBooks', values: ['$23/month', 'Freelancers and service businesses'] },
-  { id: 'quickbooks', name: 'QuickBooks Online', values: ['Free tier; paid from $38/month', 'Accounting and invoicing'] },
-  { id: 'square', name: 'Square Invoices', values: ['Free; paid from $49/month', 'Payment collection'] },
-  { id: 'stripe', name: 'Stripe Invoicing', values: ['0.4% per paid invoice', 'Online payments'] },
-  { id: 'harvest', name: 'Harvest', values: ['Free limited plan', 'Time-based billing'] },
-] satisfies { id: keyof typeof providers; name: string; values: string[] }[];
 
 const planRows = [
   { name: 'Invoice creation', values: ['Usually included', 'Included'] },
@@ -36,25 +48,41 @@ const planRows = [
 
 export const invoicingSoftwareContents = [
   { id: 'compare', label: 'Compare invoicing software' },
-  ...softwareRows.map(({ id, name }) => ({ id, label: name })),
+  ...Object.entries(providers).map(([id, { name }]) => ({ id, label: name })),
   { id: 'how-to-choose', label: 'How to choose software' },
   { id: 'free-vs-paid', label: 'Free vs. paid software' },
   { id: 'faq', label: 'FAQs' },
   { id: 'final-verdict', label: 'Final verdict' },
 ];
 
-function InvoicingReviewHeading({ id, children }: { id: keyof typeof providers; children: ReactNode }) {
+function InvoicingReviewHeader({ id, children }: { id: keyof typeof providers; children: ReactNode }) {
+  const { name, price, product, pricing } = providers[id];
+
   return (
-    <h2 id={id} className={styles.reviewHeading}>
-      <Image
-        src={`/images/invoicing-software/${id}.webp`}
-        width={144}
-        height={id === 'zoho' ? 62 : 144}
-        className={styles.platformMark}
-        alt=""
-      />
-      <span>{children}</span>
-    </h2>
+    <header className={reviewStyles.header}>
+      <h2 id={id} className={styles.reviewHeading}>
+        <span className={reviewStyles.logo}>
+          <Image
+            src={`/images/invoicing-software/${id}.webp`}
+            width={144}
+            height={id === 'zoho' ? 62 : 144}
+            className={styles.platformMark}
+            alt=""
+          />
+        </span>
+        <span>{children}</span>
+      </h2>
+      <div className={reviewStyles.offer}>
+        <dl className={reviewStyles.price}>
+          <dt>Starting price</dt>
+          <dd>{price}</dd>
+        </dl>
+        <div className={reviewStyles.actions}>
+          <a className={styles.productLink} href={product}>Visit {name}</a>
+          {pricing !== product && <a className={reviewStyles.pricingLink} href={pricing}>View pricing<span className={styles.srOnly}> for {name}</span></a>}
+        </div>
+      </div>
+    </header>
   );
 }
 
@@ -75,18 +103,19 @@ export function InvoicingSoftwareComparison() {
           caption="Starting prices and best uses for seven invoicing tools"
           rowHeader="Software"
           columns={['Starting price', 'Best for']}
-          rows={softwareRows.map(({ id, ...row }) => ({
-            ...row,
-            href: providers[id].product,
-            links: { 'Starting price': providers[id].pricing },
+          rows={Object.values(providers).map(({ name, price, bestFor, product, pricing }) => ({
+            name,
+            values: [price, bestFor],
+            href: product,
+            links: { 'Starting price': pricing },
           }))}
           emphasizedColumn="Starting price"
         />
         <p className={styles.tableNote}><em>Prices are in US dollars and reflect publicly listed starting rates reviewed in November 2026. Promotional discounts, transaction fees, feature limitations, and taxes may apply.</em></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="zoho">
-        <InvoicingReviewHeading id="zoho">1. Zoho Invoice — Best Free Invoicing Software Overall</InvoicingReviewHeading>
+      <section aria-labelledby="zoho">
+        <InvoicingReviewHeader id="zoho">1. Zoho Invoice — Best Free Invoicing Software Overall</InvoicingReviewHeader>
         <p>Zoho Invoice is an excellent option for small businesses looking for professional invoicing without paying monthly subscription fees.</p>
         <p>Unlike some free tools that restrict important features, Zoho Invoice includes recurring invoices, automated payment reminders, expense tracking, and a customer portal.</p>
         <p>It works particularly well for freelancers, consultants, contractors, and small service businesses.</p>
@@ -127,11 +156,10 @@ export function InvoicingSoftwareComparison() {
         <h3>Who should choose Zoho Invoice?</h3>
         <p>Zoho Invoice is ideal for small businesses that want to manage billing professionally without paying for an expensive accounting subscription.</p>
         <p><strong>Our verdict:</strong> One of the best free invoicing solutions for small businesses with straightforward billing needs.</p>
-        <p><a className={styles.productLink} href={providers.zoho.product}>Visit Zoho Invoice</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="wave">
-        <InvoicingReviewHeading id="wave">2. Wave — Best for Free Invoicing and Bookkeeping</InvoicingReviewHeading>
+      <section aria-labelledby="wave">
+        <InvoicingReviewHeader id="wave">2. Wave — Best for Free Invoicing and Bookkeeping</InvoicingReviewHeader>
         <p>Wave combines invoicing with basic accounting features, making it particularly useful for freelancers and business owners who want to keep financial records organized.</p>
         <p>Its free Starter plan allows businesses to create unlimited invoices and estimates alongside basic bookkeeping records.</p>
         <p>Businesses needing additional automation can upgrade to Wave Pro.</p>
@@ -172,11 +200,10 @@ export function InvoicingSoftwareComparison() {
         <p>Wave is a practical option for business owners who want to send invoices and maintain basic financial records without purchasing separate bookkeeping software.</p>
         <p>For example, a self-employed photographer could use Wave to invoice customers and record business expenses in one place.</p>
         <p><strong>Our verdict:</strong> A strong free invoicing choice for freelancers and small businesses that also need simple bookkeeping.</p>
-        <p><a className={styles.productLink} href={providers.wave.product}>Visit Wave</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="freshbooks">
-        <InvoicingReviewHeading id="freshbooks">3. FreshBooks — Best for Freelancers and Service Businesses</InvoicingReviewHeading>
+      <section aria-labelledby="freshbooks">
+        <InvoicingReviewHeader id="freshbooks">3. FreshBooks — Best for Freelancers and Service Businesses</InvoicingReviewHeader>
         <p>FreshBooks is designed for small businesses that bill customers for services, projects, or time worked.</p>
         <p>It combines invoicing, expense tracking, time tracking, and client management tools in one platform.</p>
         <p>This makes it particularly useful for designers, consultants, marketing agencies, and independent contractors.</p>
@@ -218,11 +245,10 @@ export function InvoicingSoftwareComparison() {
         <p>FreshBooks is particularly useful when you charge clients based on hours worked or ongoing projects.</p>
         <p>For example, a freelance website developer could track 15 hours of work, apply an hourly rate, and generate an invoice using the recorded billable time.</p>
         <p><strong>Our verdict:</strong> An excellent option for service businesses that want invoicing, time tracking, and expense management in one platform.</p>
-        <p><a className={styles.productLink} href={providers.freshbooks.product}>Visit FreshBooks</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="quickbooks">
-        <InvoicingReviewHeading id="quickbooks">4. QuickBooks Online — Best for Accounting and Invoicing</InvoicingReviewHeading>
+      <section aria-labelledby="quickbooks">
+        <InvoicingReviewHeader id="quickbooks">4. QuickBooks Online — Best for Accounting and Invoicing</InvoicingReviewHeader>
         <p>QuickBooks Online is a comprehensive small business accounting platform that also provides invoicing tools.</p>
         <p>Unlike software focused mainly on sending invoices, QuickBooks connects billing with expense management, financial reports, and bookkeeping.</p>
         <p>This makes it useful for businesses that want a clearer picture of their <Link href="/calculators/gross-margin-calculator/">financial performance</Link>.</p>
@@ -265,11 +291,10 @@ export function InvoicingSoftwareComparison() {
         <p>QuickBooks is a good choice if your business needs more than invoice creation.</p>
         <p>For example, a small consulting company could use it to monitor unpaid invoices, record expenses, and prepare financial reports for its accountant.</p>
         <p><strong>Our verdict:</strong> A strong option for businesses that want invoicing integrated with broader accounting and financial management.</p>
-        <p><a className={styles.productLink} href={providers.quickbooks.product}>Visit QuickBooks Online</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="square">
-        <InvoicingReviewHeading id="square">5. Square Invoices — Best for Accepting Customer Payments</InvoicingReviewHeading>
+      <section aria-labelledby="square">
+        <InvoicingReviewHeader id="square">5. Square Invoices — Best for Accepting Customer Payments</InvoicingReviewHeader>
         <p>Square Invoices is particularly useful for businesses that want to send invoices and collect payments through the same platform.</p>
         <p>It fits well with businesses already using Square for in-person sales, appointments, or customer transactions.</p>
         <p>Square also supports estimates and recurring invoices, making it useful for service providers and contractors.</p>
@@ -311,11 +336,10 @@ export function InvoicingSoftwareComparison() {
         <h3>Who should choose Square?</h3>
         <p>Square Invoices works well for local service businesses, contractors, salons, and other businesses that collect payments both online and in person.</p>
         <p><strong>Our verdict:</strong> A practical choice for small businesses that prioritize convenient invoice payments and customer transactions.</p>
-        <p><a className={styles.productLink} href={providers.square.product}>Visit Square Invoices</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="stripe">
-        <InvoicingReviewHeading id="stripe">6. Stripe Invoicing — Best for Online Payment Collection</InvoicingReviewHeading>
+      <section aria-labelledby="stripe">
+        <InvoicingReviewHeader id="stripe">6. Stripe Invoicing — Best for Online Payment Collection</InvoicingReviewHeader>
         <p>Stripe Invoicing is designed for businesses that want to create invoices and collect online payments through Stripe&#x27;s payment infrastructure.</p>
         <p>It is particularly useful for online service providers, software companies, and businesses with customers in multiple locations.</p>
         <p>Instead of requiring a standard monthly invoicing subscription, Stripe charges based on paid invoices.</p>
@@ -357,11 +381,10 @@ export function InvoicingSoftwareComparison() {
         <h3>Who should choose Stripe?</h3>
         <p>Stripe is a good fit for businesses already accepting online payments through Stripe.</p>
         <p><strong>Our verdict:</strong> An excellent invoicing option for online businesses that value payment flexibility and integrations.</p>
-        <p><a className={styles.productLink} href={providers.stripe.product}>Visit Stripe Invoicing</a></p>
       </section>
 
-      <section className={styles.review} aria-labelledby="harvest">
-        <InvoicingReviewHeading id="harvest">7. Harvest — Best for Time Tracking and Project-Based Invoicing</InvoicingReviewHeading>
+      <section aria-labelledby="harvest">
+        <InvoicingReviewHeader id="harvest">7. Harvest — Best for Time Tracking and Project-Based Invoicing</InvoicingReviewHeader>
         <p>Harvest focuses on tracking billable time, managing project budgets, and converting work into invoices.</p>
         <p>This makes it particularly useful for freelancers, consultants, and agencies that charge clients for hours worked.</p>
         <p>Rather than manually calculating each project&#x27;s billable hours, businesses can use recorded time entries to prepare invoices.</p>
@@ -401,7 +424,6 @@ export function InvoicingSoftwareComparison() {
         <p>Harvest works particularly well for businesses whose income depends on accurately recording billable hours.</p>
         <p>For example, a consultant who works on three client projects could track time separately for each project and prepare invoices based on recorded hours.</p>
         <p><strong>Our verdict:</strong> A useful choice for businesses that want to connect time tracking directly to client billing.</p>
-        <p><a className={styles.productLink} href={providers.harvest.product}>Visit Harvest</a></p>
       </section>
 
       <section aria-labelledby="how-to-choose">
