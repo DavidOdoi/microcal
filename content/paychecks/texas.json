@@ -1,0 +1,114 @@
+{
+  "title": "Texas Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Texas take-home pay after federal income tax, Social Security, Medicare and other deductions. Texas has no personal state income tax.",
+  "heading": "Texas Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Texas paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare and employee benefit deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to see how much money you could receive on payday.\n\nTexas does not impose individual state income tax, which can provide higher take-home earnings compared with states that tax ordinary wages.\n\nHowever, federal taxes, insurance premiums and retirement contributions still influence your net paycheck.\n\nWhether you work in Houston, Dallas, Austin, San Antonio, Fort Worth or another Texas community, this calculator can help you compare employment opportunities and manage your finances.\n\n## How to Use the Texas Paycheck Calculator\n\nFollow these steps to estimate your net earnings:\n\n1. Select annual salary or hourly wages.\n2. Enter your gross earnings before taxes.\n3. Choose your payment frequency.\n4. Enter federal income tax withheld for the pay period from your pay stub, including any extra withholding.\n5. Add retirement contributions, insurance premiums and other deductions.\n6. Review your estimated take-home pay.\n\nTexas employees generally do not need a separate state personal income tax withholding certificate.\n\nFor greater accuracy, use your most recent pay stub when entering employee benefits and year-to-date taxable earnings.\n\n## Texas Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Texas Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "Texas individual income tax",
+          "0%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Texas unemployment insurance",
+          "Employer expense"
+        ],
+        [
+          "Municipal personal wage income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employee benefits and other authorized deductions may further reduce your take-home earnings.\n\nVisit the official [Texas government tax information page](https://www.texas.gov/business-taxes/taxes) for information about the state's taxation system.\n\n## Does Texas Have State Income Tax?\n\nTexas does not impose personal income tax on ordinary salaries or hourly wages.\n\nEmployees working and residing within Texas therefore generally do not have Texas individual income tax deducted from their paychecks.\n\nHowever, the absence of state income tax does not mean residents pay no taxes.\n\nTexas collects revenue through other forms of taxation, including sales taxes and various business taxes. Property taxes can also significantly affect household expenses.\n\nThese costs should be evaluated separately from employee payroll deductions.\n\nVisit the [Texas Comptroller of Public Accounts](https://comptroller.texas.gov/taxes/) for official information about the state's tax system.\n\n## Federal Income Tax on Texas Paychecks\n\nFederal income tax withholding remains applicable to Texas employees.\n\nYour employer generally determines the amount using taxable wages, payment frequency, filing status and information supplied on Form W-4.\n\nEmployees with multiple jobs, qualifying credits, other income or additional withholding requests may receive different net pay despite earning identical salaries.\n\nFederal income tax uses progressive rates. Multiplying your entire salary by your highest marginal tax rate will generally produce an inaccurate estimate.\n\nEmployers follow the withholding calculation procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nThe [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) can help you evaluate whether your current federal withholding is appropriate.\n\n## Social Security and Medicare Taxes in Texas\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe annual taxable wage ceiling is $184,500 in 2026.\n\nAn employee receiving $4,000 in covered wages before reaching the annual limit would contribute $248.\n\nOnce the applicable wage ceiling has been reached with an employer, ordinary Social Security withholding generally stops for the remainder of the calendar year.\n\nReview the [Social Security Administration contribution and benefit base](https://www.ssa.gov/oact/cola/cbb.html) for official annual limits.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings.\n\nAn employee receiving $4,000 in Medicare-covered wages would contribute $58.\n\nOrdinary Medicare does not have a standard annual taxable wage ceiling.\n\nEmployers generally withhold an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nConsult [IRS Publication 15](https://www.irs.gov/publications/p15) for official payroll contribution requirements.\n\n## Texas Paycheck Example: $104,000 Salary\n\nConsider an employee earning $104,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Texas Paycheck Example: $104,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$2,000.00"
+        ],
+        [
+          "Biweekly",
+          "$4,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$4,333.33"
+        ],
+        [
+          "Monthly",
+          "$8,666.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee is single for federal withholding purposes, uses a modern Form W-4, has no multiple-jobs adjustment and has no additional credits or withholding requests."
+    },
+    {
+      "caption": "Texas Paycheck Example: $104,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$540.38"
+        ],
+        [
+          "Texas income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$248.00"
+        ],
+        [
+          "Medicare",
+          "$58.00"
+        ],
+        [
+          "Total deductions",
+          "$846.38"
+        ],
+        [
+          "Estimated take-home pay",
+          "$3,153.62"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes ordinary covered wages, no employee benefit deductions and no annual contribution thresholds reached.\n\nYour actual paycheck may differ depending on your withholding information and employment arrangements.\n\n## Texas Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings using regular working hours and qualifying overtime compensation.\n\nSuppose you earn $30 per hour and work 40 regular hours plus eight qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$30 × 40 = $1,200.\n\nOvertime earnings:\n\n$30 × 1.5 × 8 = $360.\n\nTotal gross earnings: $1,560.\n\nAssuming all earnings are covered by ordinary federal payroll contributions, Social Security would be $96.72 and Medicare would be $22.62.\n\nApproximately $1,440.66 remains before federal income tax and other employee deductions.\n\nReview the [Texas Workforce Commission](https://www.twc.texas.gov/) and [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for applicable employment rules.\n\n## Does Texas Deduct Unemployment Insurance From Paychecks?\n\nTexas unemployment insurance is funded through applicable employer taxes.\n\nEmployers are not permitted to deduct money from employee paychecks to fund ordinary unemployment benefits.\n\nThis distinction matters when calculating take-home pay because including employer-only taxes would underestimate employee net earnings.\n\nRead the official [Texas Workforce Commission unemployment insurance FAQs](https://apps.twc.texas.gov/UBS/afbfaq.do) for additional information.\n\n## How Retirement Contributions Affect Texas Take-Home Pay\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages.\n\nHowever, they generally do not reduce ordinary Social Security and Medicare taxable wages in the same way.\n\nRoth retirement contributions generally do not provide the same immediate federal income tax reduction.\n\nQualifying healthcare arrangements may reduce certain taxable wage amounts.\n\nReview the [IRS retirement plan resources](https://www.irs.gov/retirement-plans) and [IRS employer fringe benefit guidance](https://www.irs.gov/publications/p15b) to understand how different benefits may affect payroll taxes.\n\n## Comparing Salaries in Texas and Other States\n\nTexas can offer an income tax advantage when comparing equivalent salaries with employment in states that impose personal income taxes.\n\nFor illustration, if another state would deduct $250 monthly in state income tax, an equivalent Texas salary could provide $3,000 more annual cash flow under otherwise identical circumstances.\n\nHowever, housing costs, property taxes, vehicle expenses and insurance premiums can reduce or outweigh that advantage.\n\nThe [Texas property tax resources](https://comptroller.texas.gov/taxes/property-tax/) provide information useful when evaluating homeownership expenses.\n\nUse our [US paycheck calculator](/calculators/paycheck-calculator/) to compare estimated earnings across different states.\n\n## Working Across Texas State Borders\n\nTexas employees working in Louisiana, Oklahoma, Arkansas or New Mexico may encounter additional state income tax obligations.\n\nLiving in Texas does not automatically exempt employment income earned in another state.\n\nRemote work and interstate employment may require additional income allocation calculations.\n\nConfirm applicable withholding obligations with the relevant state tax authority before relying on a Texas-only paycheck estimate.\n\n## Planning Your Texas Monthly Budget\n\nUse estimated net earnings to establish realistic spending limits.\n\nInclude housing, transportation, utilities, groceries, healthcare and required debt payments.\n\nOur [mortgage payment calculator](/calculators/mortgage-calculator/) can help estimate housing expenses, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target.\n\nThe [Consumer Financial Protection Bureau homeownership resources](https://www.consumerfinance.gov/owning-a-home/) also provide useful guidance when evaluating housing affordability.\n\n## Frequently Asked Questions\n\n### How much state income tax is deducted from Texas paychecks?\n\nTexas does not impose individual state income tax on ordinary employment earnings. Applicable federal taxes and employee deductions still reduce take-home pay.\n\n### Does Texas unemployment insurance come out of employee wages?\n\nNo. Ordinary Texas unemployment insurance taxes are employer expenses and should not be deducted from employee wages.\n\n### How much is $104,000 a year after taxes in Texas?\n\nUnder the single-filer assumptions illustrated above, estimated biweekly take-home pay is $3,153.62. Your actual result depends on federal withholding elections and employee deductions.\n\n## Calculate Your Texas Take-Home Pay\n\nUse our Texas paycheck calculator to estimate earnings after taxes, compare employment opportunities and establish a realistic [household budget](/calculators/budget-calculator/).\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

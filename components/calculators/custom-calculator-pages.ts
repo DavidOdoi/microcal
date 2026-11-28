@@ -1,3 +1,4 @@
+import texasPaycheckContent from '@/content/paychecks/texas.json';
 import tennesseePaycheckContent from '@/content/paychecks/tennessee.json';
 import south_dakotaPaycheckContent from '@/content/paychecks/south-dakota.json';
 import south_carolinaPaycheckContent from '@/content/paychecks/south-carolina.json';
@@ -88,6 +89,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'texas-paycheck-calculator': texasPaycheckContent,
   'tennessee-paycheck-calculator': tennesseePaycheckContent,
   'south-dakota-paycheck-calculator': south_dakotaPaycheckContent,
   'south-carolina-paycheck-calculator': south_carolinaPaycheckContent,
