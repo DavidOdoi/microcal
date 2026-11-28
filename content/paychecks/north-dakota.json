@@ -1,0 +1,78 @@
+{
+  "title": "North Dakota Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your North Dakota take-home pay after federal income tax, North Dakota income tax, Social Security, Medicare and employee deductions.",
+  "heading": "North Dakota Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free North Dakota paycheck calculator to estimate your take-home pay after federal income tax, North Dakota income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your payroll information to understand how much money you could receive on payday.\n\nNorth Dakota has relatively low individual income tax rates and a substantial zero-withholding income range. Depending on your earnings and filing status, your state paycheck withholding may be small or even zero.\n\nWhether you work in Fargo, Bismarck, Grand Forks, Minot or Williston, understanding your net earnings can help you compare employment opportunities and manage household expenses.\n\n## How to Use the North Dakota Paycheck Calculator\n\nChoose annual salary or hourly wages and select the pay schedule shown on your pay stub. Hourly employees can enter their regular hours and qualifying overtime.\n\nEnter the federal and North Dakota income tax withheld for that pay period. Use the full withholding amounts, including any additional withholding.\n\n\n\nInclude employee retirement contributions, eligible health premiums and other deductions from the same pay period. Enter each deduction once.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\n\n## North Dakota Payroll Taxes in 2026\n\nNorth Dakota employees generally encounter the following payroll deductions."
+    },
+    {
+      "caption": "North Dakota Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "North Dakota income tax",
+          "0%, 1.95% and 2.5%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on taxable earnings, filing classification, employment circumstances and employee benefits.\n\nThe [North Dakota Office of State Tax Commissioner](https://www.tax.nd.gov/) publishes official employer withholding instructions.\n\n## How North Dakota State Income Tax Works\n\nNorth Dakota uses a progressive individual income tax system with three ordinary tax rates.\n\nThe zero-rate bracket allows qualifying taxable income below the applicable threshold to avoid ordinary state income tax.\n\nIncome exceeding that threshold may be subject to a 1.95% rate, while higher taxable income may be subject to a 2.5% rate.\n\nHowever, employees should distinguish between annual taxable income and the annualized wage amount used in payroll withholding.\n\nThe state's employer percentage method incorporates its own withholding thresholds. These should not automatically be replaced with the brackets used to calculate an annual income tax return.\n\n\n## Using North Dakota Withholding From Your Pay Stub\n\nUse the state withholding amount for the current pay period. Your employer’s withholding may depend on your payroll frequency and the federal Form W-4 it has on file. Review the North Dakota Office of State Tax Commissioner’s employer guidance for the applicable schedule.\n\n\n## North Dakota Paycheck Example: $65,000 Salary\n\nA $65,000 salary paid biweekly gives $2,500 in gross pay. This example uses $216.15 in federal withholding and $50 in North Dakota withholding as illustrative paystub entries. Assume ordinary covered wages with federal wage thresholds still ahead and no benefit deductions."
+    },
+    {
+      "caption": "North Dakota Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Federal withholding entered",
+          "$216.15"
+        ],
+        [
+          "North Dakota withholding entered",
+          "$50.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,042.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "Use the [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare offers and the [emergency fund calculator](/savings/emergency-fund-calculator/) to evaluate how much net pay you can set aside.\n\n\n## Frequently Asked Questions\n\n\n### Can my North Dakota withholding be zero?\n\nYes. Some wages fall within the applicable zero-withholding range. Enter zero if your pay stub shows no state withholding.\n\n### Where do I find my North Dakota withholding?\n\nLook for North Dakota income tax on the pay stub and use the amount for the current period, including any additional state withholding already deducted.\n\n### Does take-home pay show my final tax liability?\n\nYour take-home pay reflects payroll deductions. Your annual return determines final tax liability."
+    }
+  ]
+}

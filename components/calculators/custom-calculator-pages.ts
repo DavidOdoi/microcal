@@ -1,3 +1,4 @@
+import north_dakotaPaycheckContent from '@/content/paychecks/north-dakota.json';
 import wyomingPaycheckContent from '@/content/paychecks/wyoming.json';
 import wisconsinPaycheckContent from '@/content/paychecks/wisconsin.json';
 import west_virginiaPaycheckContent from '@/content/paychecks/west-virginia.json';
@@ -98,6 +99,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'north-dakota-paycheck-calculator': north_dakotaPaycheckContent,
   'wyoming-paycheck-calculator': wyomingPaycheckContent,
   'wisconsin-paycheck-calculator': wisconsinPaycheckContent,
   'west-virginia-paycheck-calculator': west_virginiaPaycheckContent,
