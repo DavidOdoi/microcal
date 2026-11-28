@@ -53,9 +53,9 @@ function groupFields(fields: ScenarioField[]) {
 
 const cents = (amount: number) => Math.round(amount * 100);
 
-export function StatePaycheckCalculator({ state, grouped = false }: { state: 'ny' | 'idaho'; grouped?: boolean }) {
+export function StatePaycheckCalculator({ state }: { state: 'ny' | 'idaho' }) {
   const ny = state === 'ny';
-  return <ScenarioCalculator key={state} id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={grouped ? groupFields(fieldsFor(state)) : fieldsFor(state)} copyResults={grouped} validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
+  return <ScenarioCalculator key={state} id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={groupFields(fieldsFor(state))} copyResults validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
     const r = calculateStatePaycheck(parse(state, v));
     const incomeTaxes: [string, number][] = [
       [v.federalMode === 'entered' ? 'Federal withholding (entered + extra)' : 'Federal annual-tax planning estimate + extra', cents(r.federal)],
@@ -73,8 +73,8 @@ export function StatePaycheckCalculator({ state, grouped = false }: { state: 'ny
     const gross = cents(r.gross);
     const net = gross - sum(incomeTaxes) - sum(fica) - sum(other);
     return {
-      summary: { label: 'Estimated take-home pay', amount: money(grouped ? net / 100 : r.net), period: 'Per paycheck' },
-      summaryVisual: grouped && gross > 0 && net >= 0 ? <PaycheckDistribution gross={gross} net={net} federal={cents(r.federal)}
+      summary: { label: 'Estimated take-home pay', amount: money(net / 100), period: 'Per paycheck' },
+      summaryVisual: gross > 0 && net >= 0 ? <PaycheckDistribution gross={gross} net={net} federal={cents(r.federal)}
         stateAndLocal={cents(r.state) + cents(r.local)} fica={sum(fica)} other={sum(other)} /> : undefined,
       metrics: [
         ['Gross pay per paycheck', money(r.gross)],
