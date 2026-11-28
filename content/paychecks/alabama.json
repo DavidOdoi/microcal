@@ -1,0 +1,122 @@
+{
+  "title": "Alabama Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Estimate your Alabama take-home pay after federal taxes, Alabama income tax, Social Security, Medicare and applicable local occupational taxes.",
+  "heading": "Alabama Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Alabama paycheck calculator** to estimate your take-home pay after federal income tax, Alabama income tax, Social Security, Medicare and applicable local occupational taxes.\n\nEnter your annual salary or hourly wage, select your pay frequency and customize your payroll deductions to understand how much money you could receive on payday.\n\nWhether you work in Birmingham, Huntsville, Montgomery, Mobile or another Alabama community, knowing your estimated net income can help you compare salary offers, prepare a monthly budget and make informed financial decisions.\n\n## How to Use the Alabama Paycheck Calculator\n\nStart by selecting the type of income you receive.\n\nSalaried employees should enter their annual compensation before taxes. Hourly employees should enter their hourly rate, regular working hours and qualifying overtime hours.\n\nNext, select your payment frequency. Enter federal and Alabama income tax withheld for the pay period from your pay stub.\n\nAdd retirement contributions, health insurance premiums, additional withholding and other employee deductions where appropriate.\n\nIf your employer deducts a municipal or county occupational tax, enter the total withheld for the pay period.\n\nThe calculator estimates individual deductions and displays your remaining net income.\n\nFor more accurate results, use your most recent pay stub and withholding certificates when completing the inputs.\n\n## Alabama Payroll Taxes in 2026\n\nAlabama employees may encounter several categories of payroll deductions."
+    },
+    {
+      "caption": "Alabama Payroll Taxes in 2026",
+      "columns": [
+        "Payroll tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "Alabama income tax",
+          "Progressive rates of 2%, 4% and 5%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Occupational taxes",
+          "Depend on applicable local requirements"
+        ]
+      ]
+    },
+    {
+      "markdown": "Alabama's state income tax calculation includes adjustments that can affect how much is deducted from your paycheck.\n\nThe highest state income tax rate does not necessarily apply to your entire salary.\n\n## How Alabama State Income Tax Works\n\nAlabama uses a progressive individual income tax system.\n\nThe applicable tax brackets depend on the withholding exemption category selected by the employee.\n\nFor employees claiming single or zero exemption, the state generally applies the following rates to taxable income under its withholding calculation."
+    },
+    {
+      "caption": "How Alabama State Income Tax Works",
+      "columns": [
+        "Taxable income portion",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "First $500",
+          "2%"
+        ],
+        [
+          "Next $2,500",
+          "4%"
+        ],
+        [
+          "Amount above $3,000",
+          "5%"
+        ]
+      ]
+    },
+    {
+      "markdown": "For employees claiming the married exemption:"
+    },
+    {
+      "caption": "How Alabama State Income Tax Works",
+      "columns": [
+        "Taxable income portion",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "First $1,000",
+          "2%"
+        ],
+        [
+          "Next $5,000",
+          "4%"
+        ],
+        [
+          "Amount above $6,000",
+          "5%"
+        ]
+      ]
+    },
+    {
+      "markdown": "These are rates applied to the applicable taxable income amount, not directly to gross annual salary.\n\nEmployers must first account for relevant deductions and exemptions using the official withholding procedure.\n\nReview the [Alabama Department of Revenue withholding guidance](https://www.revenue.alabama.gov/tax-types/income-tax-withholding/) for additional information.\n\n## Alabama Standard Deductions and Withholding Exemptions\n\nAlabama's withholding calculation differs from simpler flat-rate state tax systems.\n\nThe standard deduction can vary according to annualized earnings and the employee's withholding classification.\n\nFor example, the standard deduction for an employee claiming single exemption may decrease as annualized wages rise.\n\nThe calculation can also account for personal exemptions, dependent exemptions and an applicable federal income tax deduction.\n\nThese adjustments mean that multiplying gross pay by 5% will not necessarily provide an accurate estimate of Alabama income tax withholding.\n\nOur Alabama salary calculator uses the withholding amounts shown on your pay stub.\n\nThe [2026 Alabama withholding tax booklet](https://www.revenue.alabama.gov/wp-content/uploads/2026/01/whbooklet_0126.pdf) contains the official calculation instructions.\n\n## Understanding Alabama Occupational Taxes\n\nSome Alabama municipalities and counties impose occupational taxes on qualifying employment earnings.\n\nThese taxes may apply because of the location where you perform your work rather than simply the location where you live.\n\nConsequently, two employees earning identical salaries may receive different net pay when their employment locations are subject to different occupational tax requirements.\n\nFor illustration, suppose your applicable occupational tax rate is 1% and you receive $2,500 in earnings fully subject to that tax.\n\nThe occupational tax would be:\n\n$2,500 × 0.01 = $25\n\nThis is a hypothetical example rather than a rate applicable to every Alabama municipality.\n\nTo confirm a local tax rate, check with your employer or municipal government.\n\nWorkers in Birmingham can consult the [City of Birmingham](https://www.birminghamal.gov/) for local tax information.\n\nRemote workers and employees working across multiple municipalities may require additional calculations.\n\n## Federal Taxes Deducted From Alabama Paychecks\n\n### Federal income tax\n\nFederal withholding depends on your taxable earnings, payment frequency, filing status and Form W-4 information.\n\nEmployees with more than one job, working spouses or other income may require additional withholding adjustments.\n\nThe official [IRS Publication 15-T](https://www.irs.gov/publications/p15t) explains federal payroll withholding methods.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nFor 2026, the annual taxable wage ceiling is $184,500.\n\nAn employee receiving $2,500 in covered wages who has not reached the annual limit would contribute $155.\n\n### Medicare\n\nOrdinary Medicare withholding is 1.45% of covered employee earnings.\n\nEmployers generally withhold an additional 0.9% on Medicare wages exceeding $200,000 paid by that employer during the calendar year.\n\nThe final Additional Medicare Tax liability may depend on your filing status.\n\nLearn more through the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15).\n\n## Alabama Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross payments."
+    },
+    {
+      "caption": "Alabama Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assuming a $2,500 biweekly paycheck is fully subject to ordinary federal payroll contributions:\n\nSocial Security: $155.00\n\nMedicare: $36.25\n\nTotal: $191.25\n\nApproximately $2,308.75 remains before federal income tax, Alabama income tax, occupational taxes and other employee deductions.\n\nIf a hypothetical occupational tax of 1% also applies to the full paycheck, another $25 would be deducted.\n\nUse your actual withholding information in the calculator to obtain a more complete take-home pay estimate.\n\n## Alabama Hourly Paycheck Calculator\n\nHourly workers can estimate their gross earnings using their wage and hours worked.\n\nSuppose an Alabama employee earns $24 per hour and works 40 regular hours plus five qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$24 × 40 = $960\n\nOvertime earnings:\n\n$24 × 1.5 × 5 = $180\n\nTotal gross pay:\n\n$1,140\n\nApplicable payroll taxes and deductions are then calculated from the relevant taxable wage amounts.\n\nNot every employee qualifies for overtime. Check the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) if you are uncertain about your employment classification.\n\nAlabama employees should not assume that previous temporary state overtime tax exemptions continue to apply to current wages.\n\n## Retirement Contributions and Other Payroll Deductions\n\nYour paycheck may include deductions for retirement plans, healthcare, dental insurance and other benefits.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages. Roth retirement contributions generally do not provide the same immediate income tax reduction.\n\nCertain employer-sponsored health insurance premiums may reduce some taxable wage amounts.\n\nHowever, deductions do not necessarily receive identical treatment for federal income tax, Alabama income tax, Social Security and Medicare.\n\nCheck your pay stub and benefit documents to identify the appropriate deduction classification.\n\nAn employer with generous retirement matching and affordable healthcare benefits may offer better overall compensation even when the gross salary is lower than competing offers.\n\n## Comparing Job Offers in Alabama\n\nWhen evaluating employment opportunities, compare estimated take-home income rather than gross compensation alone.\n\nFor example, a salary increase from $60,000 to $70,000 represents approximately $833.33 in additional gross monthly income.\n\nThe actual increase in spending power will depend on taxes, retirement contributions, healthcare premiums and commuting expenses.\n\nA position in Huntsville may involve different housing and transportation expenses from a position in Mobile or Montgomery.\n\nUse the calculator to compare both salaries with the appropriate employment locations and withholding settings.\n\nYou can then use our [emergency fund calculator](/savings/emergency-fund-calculator/) and [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) to evaluate how much financial flexibility each job could provide.\n\n## Frequently Asked Questions\n\n### What is the Alabama income tax rate?\n\nAlabama applies progressive individual income tax rates of 2%, 4% and 5%. Applicable deductions, exemptions and withholding classifications determine the actual amount deducted from your paycheck.\n\n### Does Alabama have local payroll taxes?\n\nSome Alabama municipalities and counties impose occupational taxes on qualifying employee earnings. Check the rules for your actual employment location before calculating local deductions.\n\n### Why does my Alabama paycheck differ from the calculator?\n\nDifferences may arise from withholding elections, taxable wage definitions, local taxes, benefit deductions, irregular payments and payroll rounding. Compare your inputs with your employer's payroll records.\n\n## Calculate Your Alabama Take-Home Pay\n\nUse our Alabama paycheck calculator to estimate your net earnings, evaluate job offers and create a realistic budget based on the amount you could actually receive.\n\nThe results are educational estimates rather than official payroll calculations or personalized tax advice."
+    }
+  ]
+}
