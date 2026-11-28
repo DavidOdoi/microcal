@@ -1,3 +1,4 @@
+import arizonaPaycheckContent from '@/content/paychecks/arizona.json';
 import alaskaPaycheckContent from '@/content/paychecks/alaska.json';
 import alabamaPaycheckContent from '@/content/paychecks/alabama.json';
 import georgiaPaycheckContent from '@/content/paychecks/georgia.json';
@@ -61,6 +62,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'arizona-paycheck-calculator': arizonaPaycheckContent,
   'alaska-paycheck-calculator': alaskaPaycheckContent,
   'alabama-paycheck-calculator': alabamaPaycheckContent,
   'georgia-paycheck-calculator': georgiaPaycheckContent,

@@ -1,0 +1,142 @@
+{
+  "title": "Arizona Paycheck Calculator 2026 – Salary After Tax",
+  "description": "Calculate your Arizona take-home pay after federal taxes, Arizona income tax, Social Security, Medicare and your selected A-4 withholding percentage.",
+  "heading": "Arizona Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Our free **Arizona paycheck calculator** helps you estimate your take-home pay after federal income tax, Arizona income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly earnings, select your payment frequency and enter your Arizona withholding amount to calculate your estimated net paycheck.\n\nArizona's individual income tax rate is relatively straightforward, but employees can select different payroll withholding percentages. Understanding the relationship between your selected percentage and actual tax liability can help you manage your earnings more effectively.\n\nWhether you work in Phoenix, Tucson, Scottsdale, Mesa or another Arizona community, this calculator can help you compare salaries and prepare your budget.\n\n## How to Use the Arizona Paycheck Calculator\n\nSelect annual salary or hourly wages, depending on your employment arrangement.\n\nEnter your gross income before taxes and choose your payment frequency.\n\nEnter federal and Arizona income tax withheld for the pay period from your pay stub, including any extra withholding.\n\nAdd retirement contributions, health insurance premiums and other applicable employee deductions.\n\nReview the paycheck breakdown to understand how much is deducted for federal taxes, Arizona withholding and payroll contributions.\n\nIf you are uncertain about your withholding percentage, check your most recent pay stub or ask your employer's payroll department.\n\n## Arizona Payroll Taxes in 2026\n\nArizona employees generally pay the following taxes through payroll withholding."
+    },
+    {
+      "caption": "Arizona Payroll Taxes in 2026",
+      "columns": [
+        "Payroll tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Arizona individual income tax",
+          "2.5% of applicable taxable income"
+        ],
+        [
+          "Arizona paycheck withholding",
+          "Employee-selected percentage"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Arizona generally does not impose a separate employee-funded unemployment insurance deduction under ordinary employment arrangements.\n\nLocal governments may collect other taxes, but these should not automatically be included as personal income tax deductions.\n\n## How Arizona State Income Tax Works\n\nArizona applies a flat individual income tax rate of 2.5%.\n\nHowever, the state income tax calculated on your annual return is not necessarily the same percentage your employer deducts from every paycheck.\n\nYour annual taxable income may differ from your gross earnings because of deductions and other adjustments.\n\nArizona payroll withholding instead uses a percentage elected by the employee and applied to gross taxable wages.\n\nFor example, an employee might elect 2% withholding even though the statutory individual income tax rate is 2.5%.\n\nWhether this election produces sufficient withholding depends on the employee's overall income, deductions, credits and other circumstances.\n\nThe [Arizona Department of Revenue withholding guidance](https://azdor.gov/individuals/withholding-tax-individual) explains how employees can select or change their withholding arrangements.\n\n## Understanding Arizona Form A-4\n\nForm A-4 allows employees to specify the percentage of gross taxable earnings their employer should withhold for Arizona income tax.\n\nEmployees can also request an additional fixed amount to be withheld from each paycheck.\n\nThe available percentage elections provide flexibility when managing expected annual tax obligations.\n\nArizona withholding is separate from your federal Form W-4 elections. Changing federal withholding does not necessarily change your Arizona withholding percentage.\n\nYou can obtain the current [Arizona Withholding Percentage Election form](https://azdor.gov/forms/withholding-forms/arizona-withholding-percentage-election) from the Arizona Department of Revenue.\n\nEmployees who qualify for zero withholding must meet the applicable requirements rather than simply choosing zero to increase their immediate take-home pay.\n\n## Arizona Withholding Percentage Examples\n\nThe following table illustrates how different Arizona withholding elections affect a paycheck containing $2,500 in Arizona gross taxable wages."
+    },
+    {
+      "caption": "Arizona Withholding Percentage Examples",
+      "columns": [
+        "Withholding election",
+        "State withholding"
+      ],
+      "rows": [
+        [
+          "0.5%",
+          "$12.50"
+        ],
+        [
+          "1.0%",
+          "$25.00"
+        ],
+        [
+          "1.5%",
+          "$37.50"
+        ],
+        [
+          "2.0%",
+          "$50.00"
+        ],
+        [
+          "2.5%",
+          "$62.50"
+        ],
+        [
+          "3.0%",
+          "$75.00"
+        ],
+        [
+          "3.5%",
+          "$87.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "If an employee selects 2.5% and requests another $10 in withholding, the resulting Arizona deduction would be $72.50.\n\nThese examples illustrate paycheck withholding rather than final annual income tax liability.\n\nSelecting a lower percentage increases immediate take-home pay but may result in additional tax due when filing your annual return.\n\n## How to Estimate an Appropriate Arizona Withholding Amount\n\nSuppose you estimate that your annual Arizona income tax liability will be $1,500.\n\nYour employer has already withheld $500, leaving an estimated $1,000 to cover.\n\nIf you expect another 20 paychecks during the year, your remaining withholding target would be:\n\n$1,000 ÷ 20 = $50 per paycheck\n\nIf each paycheck contains $2,000 in Arizona taxable wages, a 2.5% election would produce $50 in withholding.\n\nThis example demonstrates how employees can evaluate their withholding needs using estimated annual liability and remaining pay periods.\n\nThe [Arizona withholding calculation guide](https://azdor.gov/individuals/withholding-calculations) provides additional instructions for assessing your election.\n\n## Federal Taxes Deducted From Arizona Paychecks\n\n### Federal income tax\n\nFederal income tax withholding depends on your taxable wages, filing status, pay frequency and Form W-4 information.\n\nIt may also account for multiple jobs, eligible credits, other income and requested additional withholding.\n\nEmployers generally calculate withholding using the methods described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered Social Security wages.\n\nFor 2026, the annual taxable wage limit is $184,500.\n\nAn employee receiving $2,500 in covered wages who has not reached the annual ceiling would contribute $155.\n\n### Medicare\n\nOrdinary Medicare withholding is 1.45% of covered earnings, without a standard annual wage ceiling.\n\nEmployers generally collect an additional 0.9% on covered Medicare earnings exceeding $200,000 paid by that employer during the calendar year.\n\nThe final tax liability can depend on household income and filing status.\n\nConsult the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for further information.\n\n## Arizona Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross payments."
+    },
+    {
+      "caption": "Arizona Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,500 biweekly, elects Arizona withholding of 2.5% and has no deductions affecting the taxable wage bases."
+    },
+    {
+      "caption": "Arizona Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Arizona income tax withholding",
+          "$62.50"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total",
+          "$253.75"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,246.25 remains before federal income tax withholding and other employee deductions.\n\nThis is a partial paycheck example rather than a complete take-home pay estimate.\n\nUse your actual withholding and benefit information in the calculator to estimate your final net paycheck.\n\n## Arizona Hourly Paycheck Calculator\n\nHourly employees can estimate earnings by multiplying their wage by regular hours and adding any qualifying overtime compensation.\n\nConsider an employee earning $26 per hour who works 40 regular hours and six overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$26 × 40 = $1,040\n\nOvertime earnings:\n\n$26 × 1.5 × 6 = $234\n\nTotal gross earnings:\n\n$1,274\n\nIf the full amount is subject to Arizona withholding and the employee elects 2%, state withholding would be $25.48.\n\nFederal taxes and other applicable contributions would also be deducted.\n\nOvertime eligibility depends on employment classification and applicable labor rules. Review the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for details.\n\n## Does Arizona Have Local Income Taxes?\n\nArizona cities generally do not impose separate municipal personal wage income taxes.\n\nEmployees in Phoenix, Tucson and other Arizona cities therefore generally do not encounter additional city wage income taxes of the kind imposed by certain municipalities in other states.\n\nHowever, local sales taxes, housing costs and transportation expenses can influence how much money remains available after payday.\n\nWhen comparing employment opportunities, consider these living expenses separately from paycheck deductions.\n\n## How Employee Benefits Affect Arizona Take-Home Pay\n\nRetirement contributions, healthcare premiums and other benefits can affect the amount deposited into your bank account.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages, while Roth contributions generally do not provide the same immediate income tax reduction.\n\nQualifying pre-tax health benefits may reduce certain taxable wage amounts.\n\nThese deductions can also affect the wage amount used to calculate Arizona withholding.\n\nFor example, if eligible deductions reduce Arizona gross taxable wages from $2,500 to $2,300, a 2.5% withholding election would produce a state deduction of $57.50 rather than $62.50.\n\nAlways confirm whether each deduction receives the intended tax treatment.\n\n## Comparing Employment Offers in Arizona\n\nA higher salary can provide greater take-home income, but it is important to evaluate your complete compensation package.\n\nCompare employer retirement matching, healthcare premiums, bonuses, paid leave and commuting expenses.\n\nAn employee relocating to metropolitan Phoenix may encounter different housing costs from someone working in Tucson or a smaller Arizona community.\n\nUse the calculator to estimate both salaries and determine which opportunity leaves more money available after essential expenses.\n\nOur [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different compensation arrangements, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target.\n\n## Frequently Asked Questions\n\n### Is Arizona paycheck withholding always 2.5%?\n\nNo. Arizona's individual income tax rate is 2.5%, but employees can elect different paycheck withholding percentages through Form A-4.\n\n### Can I choose zero Arizona income tax withholding?\n\nOnly employees who meet the applicable exemption requirements, including expecting no Arizona income tax liability for the year, should elect zero withholding.\n\n### Why do I still owe Arizona income tax after my employer withheld taxes?\n\nYour total withholding may be lower than your final annual liability because of other income, insufficient withholding elections or changes in your circumstances. Review your withholding information and expected tax liability periodically.\n\n## Calculate Your Arizona Take-Home Pay\n\nUse our Arizona paycheck calculator to understand how your withholding election, federal taxes and employee benefits affect your estimated net income.\n\nThe calculator provides educational estimates and does not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}
