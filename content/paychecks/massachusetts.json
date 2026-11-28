@@ -1,0 +1,194 @@
+{
+  "title": "Massachusetts Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Massachusetts take-home pay after federal taxes, Massachusetts income tax, paid family leave, Social Security and Medicare.",
+  "heading": "Massachusetts Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Massachusetts paycheck calculator** to estimate your take-home pay after federal income tax, Massachusetts income tax, Social Security, Medicare and applicable Paid Family and Medical Leave contributions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your payroll deductions to understand how much money you could receive on payday.\n\nMassachusetts applies a standard income tax rate to ordinary wages, but higher-income employees may also encounter an additional surtax. Paid family and medical leave contributions can further affect take-home earnings.\n\nWhether you work in Boston, Cambridge, Worcester, Springfield or another Massachusetts community, understanding these deductions can help you compare employment opportunities and manage your finances.\n\n## How to Use the Massachusetts Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your earnings before taxes and deductions, then choose your payment frequency.\n\nEnter federal and Massachusetts income tax withheld for the pay period from your pay stub. Include any surtax already withheld in the Massachusetts total.\n\nInclude retirement contributions and health insurance premiums. If Massachusetts paid leave contributions were withheld, enter those amounts under Benefits in Advanced settings, under Other deductions.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\nReview your estimated gross pay, individual deductions and remaining take-home income.\n\nUse your latest pay stub and withholding certificates for greater accuracy.\n\n## Massachusetts Payroll Taxes in 2026\n\nMassachusetts employees may encounter the following payroll deductions."
+    },
+    {
+      "caption": "Massachusetts Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Massachusetts ordinary wage income tax",
+          "5%"
+        ],
+        [
+          "Massachusetts high-income surtax",
+          "Additional 4% above the applicable threshold"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Massachusetts Paid Family and Medical Leave",
+          "Generally up to 0.46% employee contribution"
+        ]
+      ]
+    },
+    {
+      "markdown": "The exact amount deducted depends on your earnings, withholding elections, employer contribution arrangements and employee benefits.\n\nVisit the [Massachusetts Department of Revenue tax rates page](https://www.mass.gov/info-details/tax-rates) for official information.\n\n## How Massachusetts State Income Tax Works\n\nMassachusetts generally applies a 5% individual income tax rate to ordinary employment earnings.\n\nHowever, this rate should not automatically be multiplied by your entire gross salary when calculating paycheck withholding.\n\nEmployers account for the applicable withholding exemptions and authorized payroll adjustments.\n\nMassachusetts publishes Circular M, which contains the state's employer income tax withholding tables and percentage calculation methods.\n\nEmployees receiving identical gross salaries may have different Massachusetts withholding amounts because of differences in personal exemptions, benefit arrangements or additional withholding requests.\n\nReview the official [Massachusetts withholding tax forms and Circular M](https://www.mass.gov/lists/withholding-tax-forms) to understand the applicable calculation procedures.\n\n## Massachusetts High-Income Surtax in 2026\n\nMassachusetts introduced an additional 4% surtax on taxable income above an annually adjusted threshold beginning in 2023.\n\nThe 2026 threshold is $1,107,750.\n\nOnly the portion of applicable taxable income exceeding the threshold is subject to the additional 4%."
+    },
+    {
+      "caption": "Massachusetts High-Income Surtax in 2026",
+      "columns": [
+        "Tax year",
+        "Surtax threshold"
+      ],
+      "rows": [
+        [
+          "2023",
+          "$1,000,000"
+        ],
+        [
+          "2024",
+          "$1,053,750"
+        ],
+        [
+          "2025",
+          "$1,083,150"
+        ],
+        [
+          "2026",
+          "$1,107,750"
+        ]
+      ]
+    },
+    {
+      "markdown": "For example, suppose an individual has $1,200,000 in annual taxable income subject to the surtax calculation.\n\nIncome above the threshold:\n\n$1,200,000 − $1,107,750 = $92,250\n\nAdditional annual surtax:\n\n$92,250 × 4% = $3,690\n\nThis example illustrates annual surtax liability rather than an individual paycheck calculation.\n\nEmployers must use the applicable wage withholding rules, which may differ from the final annual tax calculation when employees have multiple jobs or other income.\n\nRead the official [Massachusetts 4% surtax guidance](https://www.mass.gov/info-details/massachusetts-4-surtax-on-taxable-income) for further information.\n\n## Understanding Massachusetts Form M-4\n\nMassachusetts employees generally use Form M-4, the Employee's Withholding Exemption Certificate, to communicate state withholding information to their employers.\n\nThe form allows employees to claim applicable exemptions and request additional withholding.\n\nMassachusetts withholding selections are separate from federal Form W-4 adjustments.\n\nReview your M-4 information when starting employment, getting married, experiencing changes in household circumstances or determining that your current withholding is insufficient.\n\nClaiming additional exemptions can affect the amount withheld from your paycheck. However, it does not automatically reduce your final annual income tax liability.\n\nCurrent employee withholding forms are available from the Massachusetts Department of Revenue.\n\n## Massachusetts Paid Family and Medical Leave Contributions\n\nMassachusetts Paid Family and Medical Leave, commonly called PFML, provides qualifying workers with temporary income replacement during eligible periods of leave.\n\nFor employers with at least 25 covered individuals, the standard combined public program contribution rate is 0.88% in 2026.\n\nThe employee and employer may share the contribution.\n\nThe maximum ordinary employee contribution consists of:"
+    },
+    {
+      "caption": "Massachusetts Paid Family and Medical Leave Contributions",
+      "columns": [
+        "Contribution category",
+        "Maximum employee rate"
+      ],
+      "rows": [
+        [
+          "Family leave",
+          "0.18%"
+        ],
+        [
+          "Medical leave",
+          "0.28%"
+        ],
+        [
+          "Combined employee contribution",
+          "0.46%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employers with fewer than 25 covered individuals generally have different employer contribution obligations, although the maximum ordinary employee share remains 0.46%.\n\nEmployers may voluntarily cover some or all of the employee contribution.\n\n## Massachusetts PFML Deduction Examples\n\nAssuming the full 0.46% employee contribution applies and the annual covered wage ceiling has not been reached:"
+    },
+    {
+      "caption": "Massachusetts PFML Deduction Examples",
+      "columns": [
+        "Covered earnings",
+        "Employee PFML deduction"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.30"
+        ],
+        [
+          "$1,000",
+          "$4.60"
+        ],
+        [
+          "$2,000",
+          "$9.20"
+        ],
+        [
+          "$3,000",
+          "$13.80"
+        ],
+        [
+          "$5,000",
+          "$23.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "The applicable annual wage ceiling corresponds to the Social Security wage limit, which is $184,500 in 2026.\n\nAt the full 0.46% employee contribution rate, the maximum standard annual contribution is $848.70.\n\nPrivate insurance plans, employer-paid arrangements and certain employment classifications may produce different deductions.\n\nConsult the [Massachusetts PFML contribution guidance](https://www.mass.gov/info-details/paid-family-and-medical-leave-employer-contribution-rates-and-calculator) for official rates and employer cost-sharing requirements.\n\n## Federal Taxes Deducted From Massachusetts Paychecks\n\nFederal income tax withholding depends on your taxable earnings, filing status, payment frequency and Form W-4 information.\n\nSocial Security generally applies at 6.2% of covered wages, subject to an annual taxable wage ceiling of $184,500 in 2026.\n\nOrdinary Medicare withholding is 1.45% of covered earnings without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) and [federal withholding calculation instructions](https://www.irs.gov/publications/p15t) for additional information.\n\n## Massachusetts Paycheck Example: $78,000 Salary\n\nConsider an employee earning $78,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Massachusetts Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500.00"
+        ],
+        [
+          "Biweekly",
+          "$3,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$3,250.00"
+        ],
+        [
+          "Monthly",
+          "$6,500.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $3,000 biweekly and is subject to ordinary federal payroll contributions and the maximum standard employee PFML contribution."
+    },
+    {
+      "caption": "Massachusetts Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Contribution",
+        "Estimated deduction"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Family leave",
+          "$5.40"
+        ],
+        [
+          "Medical leave",
+          "$8.40"
+        ],
+        [
+          "Total illustrated deductions",
+          "$243.30"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,756.70 remains before federal income tax, Massachusetts income tax and other employee deductions.\n\nThis example illustrates selected payroll contributions rather than a complete net paycheck calculation.\n\nUse your actual withholding information and benefit deductions to estimate your final take-home income.\n\n## Massachusetts Hourly Paycheck Calculator\n\nHourly employees can calculate their gross earnings using their wage and qualifying working hours.\n\nFor example, suppose an employee earns $32 per hour and works 40 regular hours plus five qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$32 × 40 = $1,280\n\nOvertime earnings:\n\n$32 × 1.5 × 5 = $240\n\nTotal gross earnings:\n\n$1,520\n\nFederal taxes, Massachusetts income tax and applicable paid leave contributions are then calculated from their respective taxable wage amounts.\n\nOvertime eligibility depends on employment classification and applicable state and federal labor requirements.\n\nConsult the [Massachusetts overtime guidance](https://www.mass.gov/info-details/massachusetts-law-about-overtime) for more information.\n\n## Does Boston Have a Local Income Tax?\n\nBoston generally does not impose a separate municipal personal wage income tax.\n\nEmployees working in Boston are still subject to applicable Massachusetts and federal income taxes and payroll contributions.\n\nHowever, housing, transportation and other living expenses can differ considerably between Boston, Cambridge and other Massachusetts communities.\n\nWhen comparing employment opportunities, calculate your estimated net income first and then evaluate local living costs separately.\n\n## Working in Massachusetts and Living in New Hampshire\n\nMany employees living in southern New Hampshire commute to Massachusetts for employment.\n\nAlthough New Hampshire does not impose individual income tax on ordinary wages, Massachusetts may tax qualifying employment earnings sourced to Massachusetts.\n\nEmployees working remotely or performing employment duties across state borders may need additional income allocation calculations.\n\nDo not assume that living in New Hampshire automatically eliminates Massachusetts withholding.\n\nConsult the Massachusetts Department of Revenue for guidance on nonresident income taxation.\n\n## Planning Your Massachusetts Monthly Budget\n\nCompare job offers using estimated take-home income rather than gross annual salary alone.\n\nInclude housing, transportation, healthcare premiums and other recurring expenses when establishing spending limits.\n\nEmployees working in the Boston metropolitan area may find that housing and commuting expenses substantially influence the practical value of their salaries.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare fixed salaries with hourly employment.\n\n## Frequently Asked Questions\n\n### What is the Massachusetts income tax rate in 2026?\n\nMassachusetts generally applies a 5% rate to ordinary wage income. An additional 4% surtax applies to qualifying taxable income exceeding $1,107,750 in 2026.\n\n### How much is Massachusetts PFML deducted from paychecks?\n\nThe maximum standard employee contribution in 2026 is generally 0.46% of covered wages, consisting of family leave and medical leave contributions.\n\n### Does Boston have a separate employee income tax?\n\nBoston generally does not impose a separate municipal personal wage income tax. Applicable Massachusetts and federal payroll deductions still apply.\n\n## Calculate Your Massachusetts Take-Home Pay\n\nUse our Massachusetts paycheck calculator to understand how state and federal taxes, paid leave contributions and employee benefits affect your earnings.\n\nThe results can help you compare salary offers and manage monthly expenses, but they are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
