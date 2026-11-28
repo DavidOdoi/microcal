@@ -1,0 +1,142 @@
+{
+  "title": "South Dakota Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your South Dakota take-home pay after federal income tax, Social Security, Medicare and employee deductions. No state income tax.",
+  "heading": "South Dakota Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **South Dakota paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nSouth Dakota does not impose individual state income tax on ordinary employment earnings. However, federal taxes and employee benefits can still significantly affect your net paycheck.\n\nWhether you work in Sioux Falls, Rapid City, Aberdeen, Brookings or another South Dakota community, understanding your earnings can help you compare job offers and manage monthly expenses.\n\n## How to Use the South Dakota Paycheck Calculator\n\nFollow these steps to estimate your take-home pay:\n\n1. Select annual salary or hourly wages.\n2. Enter your gross income before taxes.\n3. Choose your payment frequency.\n4. Enter federal income tax withheld for the pay period from your pay stub, including any extra withholding.\n5. Include retirement contributions and insurance premiums.\n6. Review your estimated net paycheck.\n\nUse your latest pay stub to confirm employee benefit deductions and year-to-date taxable earnings.\n\nSouth Dakota employees do not need a separate state personal income tax withholding certificate for ordinary employment within the state.\n\n## South Dakota Payroll Taxes in 2026"
+    },
+    {
+      "caption": "South Dakota Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "South Dakota individual income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Employee benefit deductions",
+          "Depend on employer arrangements"
+        ]
+      ]
+    },
+    {
+      "markdown": "Visit the [South Dakota Department of Revenue](https://dor.sd.gov/) for information about the state's taxation system.\n\n## Does South Dakota Have State Income Tax?\n\nSouth Dakota does not impose individual income tax on salaries, wages or other ordinary employment compensation.\n\nEmployees working and residing within South Dakota therefore generally do not have state personal income tax deducted from their paychecks.\n\nHowever, the absence of state income tax does not eliminate federal income tax obligations.\n\nEmployees may also have retirement contributions, healthcare premiums, insurance payments and other workplace deductions.\n\nSouth Dakota collects revenue through other forms of taxation, including sales taxes. These taxes affect household purchasing power but should not automatically be treated as employee payroll deductions.\n\nReview the [South Dakota sales and use tax information](https://dor.sd.gov/businesses/taxes/sales-use-tax/) when evaluating your overall cost of living.\n\n## Federal Income Tax on South Dakota Paychecks\n\nFederal income tax withholding depends on your taxable wages, filing status, payment frequency and Form W-4 information.\n\nEmployees with multiple jobs, eligible tax credits, additional income or requested extra withholding may have different deductions despite receiving identical salaries.\n\nFederal income tax uses progressive tax rates. Your highest marginal tax rate does not apply to your entire salary.\n\nEmployers follow the calculation procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nYou can review your withholding elections using the official [IRS Form W-4](https://www.irs.gov/forms-pubs/about-form-w-4) and [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator).\n\n## Social Security Contributions\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe annual taxable wage ceiling is $184,500 in 2026."
+    },
+    {
+      "caption": "Social Security Contributions",
+      "columns": [
+        "Covered wages",
+        "Employee Social Security contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$31.00"
+        ],
+        [
+          "$1,000",
+          "$62.00"
+        ],
+        [
+          "$2,000",
+          "$124.00"
+        ],
+        [
+          "$2,500",
+          "$155.00"
+        ],
+        [
+          "$5,000",
+          "$310.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "These amounts assume the employee has not reached the annual wage ceiling.\n\nVisit the [Social Security Administration contribution and benefit base page](https://www.ssa.gov/oact/cola/cbb.html) for official annual limits.\n\n## Medicare Contributions\n\nOrdinary Medicare withholding applies at 1.45% of covered employee earnings.\n\nUnlike Social Security, regular Medicare contributions do not have a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nRead the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official payroll requirements.\n\n## South Dakota Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "South Dakota Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume ordinary single federal withholding settings, a modern Form W-4 with no additional adjustments and no employee benefit deductions."
+    },
+    {
+      "caption": "South Dakota Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "South Dakota income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$407.40"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,092.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes all earnings are covered by ordinary payroll contributions and annual contribution thresholds have not been reached.\n\nYour actual take-home pay depends on withholding elections and employee benefits.\n\n## South Dakota Hourly Paycheck Calculator\n\nHourly employees can estimate gross pay using regular working hours and qualifying overtime compensation.\n\nSuppose an employee earns $24 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$24 × 40 = $960.\n\nOvertime earnings:\n\n$24 × 1.5 × 6 = $216.\n\nTotal gross earnings: $1,176.\n\nSocial Security would be approximately $72.91, and Medicare would be approximately $17.05, assuming all earnings are covered and the annual Social Security ceiling has not been reached.\n\nFederal income tax and other deductions would also apply.\n\nConsult the [South Dakota Department of Labor and Regulation](https://dlr.sd.gov/) and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## South Dakota Unemployment Insurance\n\nSouth Dakota operates a reemployment assistance program funded through applicable employer contributions.\n\nOrdinary employer unemployment insurance contributions should not be treated as employee income tax deductions.\n\nVisit the [South Dakota Reemployment Assistance program](https://dlr.sd.gov/ra/) for official information about unemployment benefits and employer requirements.\n\n## Working Across South Dakota State Borders\n\nSouth Dakota shares borders with states that have different individual income tax systems.\n\nEmployees living in South Dakota while working in Minnesota, Iowa or Nebraska may have income tax obligations in their employment state.\n\nLiving in a state without individual income tax does not automatically eliminate another state's taxation of qualifying employment earnings.\n\nRemote work and employment across multiple states may also create additional tax considerations.\n\nConfirm applicable withholding obligations with your employer before using a standard South Dakota paycheck estimate.\n\n## How Employee Benefits Affect Take-Home Pay\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages. Roth retirement contributions generally do not provide the same immediate income tax reduction.\n\nQualifying employer-sponsored healthcare arrangements may also reduce certain taxable wages.\n\nHowever, not every deduction reduces every payroll tax.\n\nReview the [IRS retirement plan resources](https://www.irs.gov/retirement-plans) for information about retirement contributions and applicable limits.\n\n## Planning Your South Dakota Monthly Budget\n\nUse estimated take-home income rather than gross salary when establishing spending limits.\n\nAccount for housing, transportation, groceries, healthcare, insurance and required debt payments.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a realistic savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare employment opportunities.\n\nThe [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/consumer-tools/) also provides useful financial planning resources.\n\n## Frequently Asked Questions\n\n### Does South Dakota deduct state income tax from paychecks?\n\nNo. South Dakota does not impose individual state income tax on ordinary employee wages. Federal income tax and applicable payroll contributions still apply.\n\n### How much is Social Security withholding in South Dakota?\n\nThe ordinary employee rate is 6.2% of covered wages, subject to the 2026 annual taxable wage ceiling of $184,500.\n\n### Do South Dakota residents working in Minnesota pay Minnesota income tax?\n\nThey may owe Minnesota income tax on qualifying Minnesota-sourced employment earnings, depending on applicable residency and income sourcing rules.\n\n## Calculate Your South Dakota Take-Home Pay\n\nUse our South Dakota paycheck calculator to understand your payroll deductions, compare job offers and prepare a realistic [household budget](/calculators/budget-calculator/).\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
