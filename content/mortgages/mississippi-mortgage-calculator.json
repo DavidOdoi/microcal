@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Mississippi's relatively affordable housing market can provide opportunities for homebuyers, but the purchase price alone does not determine whether a property fits your budget. Property taxes, insurance premiums, financing terms and maintenance expenses also affect affordability.",
+    "Our free Mississippi mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're purchasing in Jackson, Gulfport, Biloxi, Hattiesburg or another Mississippi community, compare financing options before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Mississippi?",
+      "blocks": [
+        {
+          "markdown": "A $170,000 Mississippi home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $815.39.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$170,000"
+            ],
+            [
+              "Down payment",
+              "$34,000"
+            ],
+            [
+              "Loan amount",
+              "$136,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$815.39"
+            ],
+            [
+              "Monthly property taxes",
+              "$125"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$225"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,165.39"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Mississippi Housing Market",
+      "blocks": [
+        {
+          "markdown": "Mississippi offers housing options across metropolitan neighborhoods, suburban communities, agricultural regions and coastal developments.\n\nAccording to the [US Census Bureau's Mississippi QuickFacts](https://www.census.gov/quickfacts/fact/table/MS/HSG010222), the median value of owner-occupied homes was $169,800 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,394, while the owner-occupied housing rate was 70%.\n\nThese historical figures provide useful context for homebuyers but do not represent current property sale prices.\n\nA home near the Gulf Coast may have different insurance requirements from a similarly priced property in central or northern Mississippi.\n\nResearch comparable property sales, employment access, local taxes and insurance availability before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Mississippi Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of the property and the amount you plan to contribute as a down payment.\n\nSelect your preferred repayment period and enter the annual mortgage interest rate offered by your lender.\n\nNext, provide the property's annual tax liability and estimated insurance premiums. Include separate windstorm or flood coverage where applicable.\n\nAdd monthly association fees and private mortgage insurance if your financing arrangement requires them.\n\nReview your estimated monthly housing payment and adjust the inputs to compare financing scenarios.\n\nThe amortization schedule also helps you understand how your outstanding mortgage balance decreases and how much interest you could pay over the loan's lifetime.\n\nUse our national Mortgage Calculator to compare similar borrowing arrangements outside Mississippi."
+        }
+      ]
+    },
+    {
+      "heading": "How Mississippi Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Mississippi calculates property taxes using appraised property values, statutory assessment ratios, applicable millage rates and eligible exemptions.\n\nCounty tax assessors determine property valuations, while local taxing authorities establish rates that support government services and public schools.\n\n### Mississippi residential property assessment ratios\n\nAccording to the [Mississippi Department of Revenue's property tax guidance](https://www.dor.ms.gov/county-services/property-tax-frequently-asked-questions), qualifying single-family homes occupied by their owners fall under Class I property.\n\nThese properties use a 10% assessment ratio. Most other real estate falls under Class II and uses a 15% ratio.\n\nThe assessment ratio determines assessed property value rather than the percentage of market value paid annually in property taxes.\n\nFor example, a qualifying owner-occupied home valued at $170,000 would have an assessed value of $17,000.\n\nThe applicable local millage rate is then applied to that amount.\n\n### Mississippi property tax calculation example\n\nConsider a $170,000 owner-occupied property subject to an illustrative combined millage rate of 100 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Appraised property value",
+              "$170,000"
+            ],
+            [
+              "Residential assessment ratio",
+              "10%"
+            ],
+            [
+              "Assessed property value",
+              "$17,000"
+            ],
+            [
+              "Illustrative millage rate",
+              "100 mills"
+            ],
+            [
+              "Annual tax before exemptions",
+              "$1,700"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$141.67"
+            ]
+          ]
+        },
+        {
+          "markdown": "If the homeowner qualifies for the maximum regular homestead tax credit of $300, the illustrative annual tax could decrease to $1,400.\n\nThis represents approximately $116.67 per month.\n\nActual taxes depend on the property's classification, local levies, exemption eligibility and additional applicable charges.\n\n### Mississippi homestead exemption\n\nThe [Mississippi Department of Revenue's homestead exemption guidance](https://www.dor.ms.gov/county-services/homestead-exemption) describes several tiers of property tax relief.\n\nThe regular exemption provides qualifying homeowners with a property tax credit of up to $300, depending on property value.\n\nHomeowners who are at least 65 years old or meet applicable total disability requirements may qualify for an exemption covering the first $7,500 of assessed property value.\n\nFor qualifying Class I residential property, this generally corresponds to $75,000 in market value.\n\nAdditional provisions may apply to eligible veterans and other qualifying applicants.\n\nApplications are generally submitted to the county tax assessor between January 1 and April 1.\n\nNew homeowners should confirm eligibility rather than assuming the previous owner's exemption will automatically transfer."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Mississippi",
+      "blocks": [
+        {
+          "markdown": "Insurance costs deserve particular attention when purchasing a Mississippi property because environmental risks vary across the state.\n\nHomes can experience thunderstorms, tornadoes, hail and flooding. Properties near the Gulf Coast may face additional hurricane and storm-related risks.\n\nObtain written insurance quotes before finalizing your home purchase.\n\n### Windstorm and hurricane insurance\n\nSome coastal homeowners policies may exclude windstorm damage or contain separate hurricane deductibles.\n\nThe [Mississippi Insurance Department's hurricane guidance](https://www.mid.ms.gov/mississippi-insurance-department/consumers/consumer-hurricane-checklist/) explains that homeowners unable to obtain suitable windstorm coverage through ordinary insurance arrangements may investigate the Mississippi Windstorm Underwriting Association.\n\nReview applicable coverage eligibility and policy conditions with an insurance agent.\n\nFor example, a 3% deductible calculated against $200,000 of insured dwelling coverage would represent $6,000 in potential out-of-pocket costs for an applicable covered claim.\n\nMaintain sufficient emergency savings to cover potential deductibles.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood exposure.\n\nSeparate insurance may be required by your lender, depending on the property's location and applicable lending rules.\n\nFlood insurance may also be worth considering outside designated high-risk areas.\n\nAdd the annual premiums for applicable homeowners, windstorm and flood insurance policies to your mortgage calculator inputs without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Mississippi Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$100,000",
+              "$20,000",
+              "$80,000",
+              "$479.64"
+            ],
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$170,000",
+              "$34,000",
+              "$136,000",
+              "$815.39"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, mortgage insurance and association fees.\n\nA lower purchase price does not necessarily guarantee a lower total monthly payment, particularly when comparing coastal and inland properties with different insurance expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Mississippi First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Mississippi Home Corporation, commonly known as MHC, offers mortgage financing and purchase assistance through participating lenders.\n\n### Easy8 mortgage program\n\nThe [Easy8 program](https://www.mshomecorp.com/easy8/) provides eligible borrowers with $8,000 toward down payments, closing costs and qualifying prepaid expenses.\n\nThe assistance carries no interest but remains repayable when specified events occur, including selling, refinancing or paying off the primary mortgage.\n\nThe program generally serves first-time buyers, although exceptions may apply to qualifying veterans and properties in designated targeted areas.\n\n### Smart7 mortgage program\n\nThe [Smart7 program](https://www.mshomecorp.com/smart7/) provides $7,000 in interest-free secondary financing.\n\nBoth first-time and repeat homebuyers may qualify.\n\nThe published program requirements include a maximum purchase price of $413,610 and household income not exceeding $137,870.\n\nEligible borrowers must occupy the property as their principal residence and meet applicable lending requirements.\n\nThe assistance is deferred financing rather than an unconditional grant.\n\n### Trusty10 mortgage program\n\nThe [Trusty10 program](https://www.mshomecorp.com/trusty10/) offers eligible borrowers $10,000 toward qualifying purchase expenses.\n\nUnlike the deferred Easy8 and Smart7 arrangements, Trusty10 assistance is repaid through a 15-year second mortgage with a 2% interest rate.\n\nBorrowers receiving the full $10,000 would have an additional monthly loan payment of approximately $64.35.\n\nInclude this payment when calculating your complete borrowing expenses.\n\nConfirm program availability, eligibility and current mortgage rates with an approved lender before applying."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Mississippi Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages are available to eligible buyers who satisfy lender credit, income and property requirements.\n\nFHA-insured financing may provide an alternative for borrowers with limited down payment savings.\n\nEligible military households can investigate [VA home loan benefits](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering properties in smaller Mississippi communities can also explore [USDA Rural Development housing programs](https://www.rd.usda.gov/).\n\nThese programs have different insurance, guarantee fee and property eligibility requirements.\n\nCompare complete lender disclosures rather than choosing a mortgage solely because it offers a smaller down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Mississippi Home",
+      "blocks": [
+        {
+          "markdown": "Mississippi homeowners should prepare for expenses beyond their regular mortgage payments.\n\nAir conditioning, roof maintenance, pest control, drainage improvements and unexpected repairs can affect household budgets.\n\nProperties in humid environments may require additional attention to ventilation and moisture control.\n\nRural homes may also involve private wells, septic systems and driveway maintenance.\n\nBefore purchasing, request information about previous flooding, storm damage and significant repairs.\n\nMaintain emergency savings rather than committing your entire cash balance to the down payment."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Mississippi?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract existing financial commitments.\n\nOur [Mississippi Paycheck Calculator](/calculators/mississippi-paycheck-calculator/) can help estimate after-tax earnings. Our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing borrowing obligations.\n\nInclude transportation, groceries, childcare, utilities, insurance and regular savings contributions.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) when comparing mortgage offers.\n\nChoose a property whose complete housing expenses remain manageable alongside your other financial responsibilities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $170,000 Mississippi home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $815.39 monthly. Property taxes, homeowners insurance and applicable fees increase the total housing payment.\n\n### How are Mississippi residential property taxes calculated?\n\nQualifying single-family owner-occupied homes generally use a 10% assessment ratio. Local millage rates are then applied to assessed value, with adjustments for applicable exemptions and credits.\n\n### Does Mississippi offer down payment assistance?\n\nYes. Mississippi Home Corporation offers programs including Easy8, Smart7 and Trusty10, providing qualifying borrowers with $7,000 to $10,000 in secondary financing through these particular options. Repayment arrangements and eligibility requirements vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Mississippi Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Mississippi mortgage calculator to compare home prices, down payments, interest rates and mortgage terms.\n\nReplace illustrative expenses with accurate local property taxes and property-specific insurance quotes. Estimating your complete monthly housing costs can help you choose a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

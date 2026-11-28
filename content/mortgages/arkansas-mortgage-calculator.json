@@ -1,0 +1,202 @@
+{
+  "intro": [
+    "Planning to purchase a home in Little Rock, Fayetteville, Bentonville, Fort Smith or another Arkansas community? Knowing your expected monthly housing costs can help you establish a realistic budget before applying for a mortgage.",
+    "Our Arkansas mortgage calculator estimates your monthly home loan payment based on your purchase price, down payment, interest rate and repayment period. Include property taxes, homeowners insurance, mortgage insurance and association fees to understand the broader cost of owning a home."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Arkansas?",
+      "blocks": [
+        {
+          "markdown": "A $190,000 Arkansas home financed with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $911.32.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$190,000"
+            ],
+            [
+              "Down payment",
+              "$38,000"
+            ],
+            [
+              "Loan amount",
+              "$152,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Principal and interest",
+              "$911.32"
+            ],
+            [
+              "Monthly property taxes",
+              "$100"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,186.32"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no mortgage insurance or HOA fees. Taxes, insurance premiums and the interest rate are illustrative assumptions."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Arkansas Housing Market",
+      "blocks": [
+        {
+          "markdown": "Arkansas offers housing options ranging from established urban neighborhoods to growing communities in Northwest Arkansas and rural properties throughout the state.\n\nAccording to the [US Census Bureau's Arkansas housing statistics](https://www.census.gov/quickfacts/fact/table/AR/POP645224), the median owner-occupied home value was $188,000 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages reached $1,345, while approximately 66.4% of occupied housing units were owner-occupied.\n\nThese figures are historical statewide estimates rather than current property listing prices.\n\nHousing prices can differ substantially between areas experiencing business expansion and smaller communities with different employment and housing demand patterns.\n\nBefore entering a home price in the calculator, review comparable properties in your preferred neighborhood."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Arkansas Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering your estimated home purchase price.\n\nEnter your down payment as either a dollar amount or a percentage of the purchase price.\n\nChoose your preferred mortgage term and enter the annual interest rate. If you have received multiple lender quotes, calculate each offer separately to compare the payments.\n\nNext, add annual property taxes, homeowners insurance premiums and monthly association dues where applicable.\n\nInclude private mortgage insurance if your conventional mortgage requires it.\n\nThe calculator provides an estimated monthly housing payment and shows how your mortgage balance changes throughout the repayment period.\n\nUse these results to evaluate different home prices before arranging property viewings or submitting mortgage applications."
+        }
+      ]
+    },
+    {
+      "heading": "How Arkansas Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Arkansas property taxes depend on property valuations, assessment ratios, local millage rates and applicable tax credits.\n\nThe state's property assessment system generally uses an assessment ratio of 20% of the property's fair market value for residential real estate.\n\nThe [Johnson County Assessor's official guidance](https://johnsoncounty.arkansas.gov/assessor/) explains how residential and other property classifications are assessed.\n\nFor example, consider a home with an appraised market value of $190,000.\n\nApplying a 20% assessment ratio produces an assessed value of $38,000.\n\nIf the applicable combined millage rate were 40 mills, annual property taxes before eligible credits would be:\n\n$38,000 × 0.040 = $1,520\n\nThat would represent approximately $126.67 per month.\n\nThe example uses a hypothetical millage rate. Your actual bill depends on the property's tax district and applicable assessment rules.\n\n### Arkansas homestead property tax credit\n\nEligible Arkansas homeowners may qualify for a homestead property tax credit on their principal residence.\n\nThe credit reduces the applicable property tax bill rather than changing the original mortgage principal.\n\nCredit amounts, eligibility requirements and deadlines may change. Contact your county assessor to confirm the amount available for the relevant assessment year.\n\nAvoid relying on an outdated credit amount or assuming that the previous owner's eligibility will automatically apply to you.\n\n### Property assessments after buying a home\n\nAsk your local assessor how property transfers, reassessments and applicable assessment limitations may affect future tax bills.\n\nIf the seller benefited from special tax treatment, the property's existing tax bill may not reflect what you will pay after purchasing it.\n\nUse a property-specific estimate whenever available."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Arkansas",
+      "blocks": [
+        {
+          "markdown": "Homeowners insurance is another important component of your monthly housing budget.\n\nArkansas properties can face severe thunderstorms, tornadoes, hail and flooding. The level of exposure depends on the property's location and construction.\n\nObtain insurance quotes before closing, paying particular attention to roof condition, replacement cost and wind or hail deductibles.\n\nA policy with a lower annual premium may have a higher deductible or more restrictive coverage.\n\nThe [Arkansas Insurance Department's consumer services division](https://insurance.arkansas.gov/consumer-assistance/consumer-services/) provides resources for understanding insurance products and resolving insurance-related concerns.\n\nYou can also consult its [disaster preparedness resources](https://insurance.arkansas.gov/consumer-assistance/consumer-services/disaster-resources/) for information about flood and earthquake coverage.\n\nStandard homeowners insurance typically excludes flooding. Properties near waterways or in flood-prone areas may require separate coverage.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood designation.\n\nEnter your combined annual insurance costs into the mortgage calculator when estimating monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Arkansas Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following examples assume a 20% down payment, a 6% fixed interest rate and a 30-year repayment term."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$190,000",
+              "$38,000",
+              "$152,000",
+              "$911.32"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and HOA dues.\n\nThe mortgage calculator allows you to add those expenses and compare the resulting monthly payments."
+        }
+      ]
+    },
+    {
+      "heading": "First-Time Homebuyer Programs in Arkansas",
+      "blocks": [
+        {
+          "markdown": "The Arkansas Development Finance Authority, or ADFA, offers mortgage programs intended to expand access to homeownership.\n\n### ADFA Move-Up Loan Program\n\nThe [ADFA Move-Up program](https://adfa.arkansas.gov/programs/homeloans/move-up-loan-program) provides eligible borrowers with 30-year fixed-rate first mortgages.\n\nApplicants do not necessarily need to be first-time homebuyers. However, the property must satisfy program requirements, and borrowers must meet applicable income and credit standards.\n\nParticipating lenders can explain available conventional and government-backed mortgage options.\n\n### ADFA StartSmart program\n\nThe StartSmart program provides another financing option for eligible homebuyers.\n\nVisit the [ADFA homeownership website](https://adfa.arkansas.gov/homeloans/) for current program requirements, participating lenders and available financing terms.\n\nInterest rates may change without notice. Obtain a current quote before using a program-specific rate in the calculator.\n\n### Arkansas down payment assistance\n\nThe [ADFA Down Payment Assistance Loan Program](https://adfa.arkansas.gov/programs/homeloans/down-payment-assistance-program/) offers qualifying borrowers between $1,000 and $15,000 toward down payment and closing expenses.\n\nThe assistance is available alongside qualifying StartSmart or Move-Up mortgages and is structured as a second mortgage with a ten-year term.\n\nBecause the assistance is repayable, borrowers should include the associated payment when calculating their overall housing expenses.\n\nDo not treat the assistance as a free grant or assume that it automatically reduces your monthly payment."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Arkansas Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Your financing choice depends on your savings, income, credit history, military eligibility and the property you intend to purchase.\n\nConventional mortgages offer various down payment and repayment options, depending on lender requirements.\n\nFHA-insured loans may provide financing alternatives for eligible buyers with limited savings.\n\nVeterans, service members and qualifying surviving spouses should investigate [VA home loan benefits](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering rural or smaller communities may benefit from researching [USDA Rural Development housing programs](https://www.rd.usda.gov/), which have property-location and household eligibility requirements.\n\nCompare complete lender disclosures rather than selecting a loan based only on the minimum down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Buying a Home in Northwest Arkansas Versus Rural Communities",
+      "blocks": [
+        {
+          "markdown": "When comparing homes, consider both purchase price and the location's impact on your recurring expenses.\n\nA property near a major employment center may have a higher purchase price but provide convenient access to workplaces, schools and services.\n\nA rural property may offer more space or a lower purchase price. However, transportation expenses, utility arrangements and property maintenance could offset part of those savings.\n\nFor properties outside municipal utility networks, investigate wells, septic systems and access to reliable services.\n\nManufactured homes and properties with substantial acreage may also have financing requirements that differ from ordinary single-family purchases.\n\nReview the property's eligibility with your lender before relying on a standard mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Arkansas?",
+      "blocks": [
+        {
+          "markdown": "Start by reviewing your household's reliable monthly take-home pay.\n\nSubtract recurring expenses, including transportation, food, childcare, utilities, insurance and existing debt payments.\n\nUse our [Arkansas Paycheck Calculator](/calculators/arkansas-paycheck-calculator/) to estimate your income after payroll deductions and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to understand your existing debt obligations.\n\nAllow additional room for home repairs and unexpected expenses rather than committing your entire remaining income to mortgage payments.\n\nThe [CFPB's homebuying resources](https://www.consumerfinance.gov/owning-a-home/) can help you compare loan offers and establish a sustainable purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Closing Costs When Buying an Arkansas Home",
+      "blocks": [
+        {
+          "markdown": "In addition to the down payment, buyers should prepare for lender fees, appraisals, title services, recording fees and prepaid expenses.\n\nDepending on the property, additional inspections may be appropriate.\n\nRequest a Loan Estimate from each lender and compare the complete closing costs and monthly payment figures.\n\nKeep sufficient savings available for moving expenses and immediate repairs after purchasing the home."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $190,000 home in Arkansas?\n\nWith a 20% down payment, a 6% fixed interest rate and a 30-year repayment period, principal and interest would be approximately $911.32 per month. Property taxes, insurance and other fees increase the total payment.\n\n### How are Arkansas residential property taxes calculated?\n\nResidential property generally uses a 20% assessment ratio applied to its fair market value. Local millage rates are applied to the relevant assessed value, with adjustments for eligible tax credits and other applicable rules.\n\n### Does Arkansas offer assistance with mortgage down payments?\n\nYes. ADFA offers down payment and closing cost assistance for qualifying borrowers using eligible mortgage programs. Its published assistance range is $1,000 to $15,000, structured as a second mortgage rather than an unconditional grant."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Arkansas Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use the Arkansas mortgage calculator to explore different home prices, repayment terms and down payment amounts.\n\nFor the most useful estimate, replace illustrative taxes and insurance costs with property-specific figures. Compare multiple financing options and choose a mortgage that leaves enough money for your other financial priorities."
+        }
+      ]
+    }
+  ]
+}

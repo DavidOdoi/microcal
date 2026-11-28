@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Buying a home in South Dakota requires careful consideration of more than the property's advertised price. Local property taxes, homeowners insurance, mortgage rates and seasonal maintenance expenses can significantly affect how much you spend each month.",
+    "Our free South Dakota mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Sioux Falls, Rapid City, Aberdeen, Brookings or a smaller South Dakota community, compare financing options and establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in South Dakota?",
+      "blocks": [
+        {
+          "markdown": "A $260,000 South Dakota home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,247.07.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$260,000"
+            ],
+            [
+              "Down payment",
+              "$52,000"
+            ],
+            [
+              "Loan amount",
+              "$208,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,247.07"
+            ],
+            [
+              "Monthly property taxes",
+              "$275"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$225"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,747.07"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions, not current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the South Dakota Housing Market",
+      "blocks": [
+        {
+          "markdown": "South Dakota offers housing opportunities across growing metropolitan areas, agricultural communities, university towns and the Black Hills region.\n\nAccording to the [US Census Bureau's South Dakota housing statistics](https://www.census.gov/quickfacts/fact/table/SD/POP715223), the median value of owner-occupied housing was $257,400 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,680, while the homeownership rate was 68.6%.\n\nThese historical figures do not represent current property asking prices or lender offers.\n\nHousing expenses around Sioux Falls and Rapid City may differ from those in smaller communities. Rural properties can also involve additional transportation, private utility and maintenance expenses.\n\nResearch comparable property sales within your preferred community before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the South Dakota Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nChoose your preferred repayment period and enter the annual interest rate offered by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, enter annual property taxes, homeowners insurance premiums and monthly association fees.\n\nInclude private mortgage insurance if required by your conventional financing.\n\nReview the estimated monthly payment breakdown and adjust individual inputs to compare borrowing scenarios.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases over time and how much interest you could pay.\n\nOur national Mortgage Calculator also allows you to compare financing arrangements outside South Dakota."
+        }
+      ]
+    },
+    {
+      "heading": "How South Dakota Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "South Dakota calculates property taxes using property valuations, equalization factors and applicable local tax levies.\n\nAccording to the [South Dakota Department of Revenue](https://dor.sd.gov/individuals/taxes/property-tax/), properties are assessed at their full and true value, with an equalization process establishing taxable valuations at 85% of that value.\n\nCounty equalization factors can vary according to assessment conditions.\n\nThe taxable value is then multiplied by the applicable local tax levy. The 85% figure is not an annual property tax rate.\n\n### South Dakota property tax calculation example\n\nSuppose a residential property has a full market value of $260,000.\n\nAssume an equalized taxable value of 85% of market value and a hypothetical combined levy of $15 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Full property value",
+              "$260,000"
+            ],
+            [
+              "Equalized valuation percentage",
+              "85%"
+            ],
+            [
+              "Taxable property value",
+              "$221,000"
+            ],
+            [
+              "Illustrative levy per $1,000",
+              "$15"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$3,315"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$276.25"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual taxes depend on your property's location, applicable equalization factor, classification and local levies.\n\nContact your County Director of Equalization for a property-specific estimate.\n\n### South Dakota owner-occupied property classification\n\nSouth Dakota provides preferential property tax treatment to qualifying homeowners who occupy their properties as primary residences.\n\nThe benefit specifically reduces the school general fund levy. Other components, including county and municipal levies, are not reduced simply because a property receives this classification.\n\nNew homeowners generally submit their owner-occupied certification to the County Director of Equalization by March 15.\n\nOnly one property can receive owner-occupied classification per individual statewide.\n\nConfirm your eligibility and filing requirements before relying on a reduced property tax estimate.\n\n### Property tax relief for older homeowners\n\nSouth Dakota also administers an assessment freeze program for qualifying older homeowners and individuals with eligible disabilities.\n\nThe [Department of Revenue's property tax relief programs](https://dor.sd.gov/individuals/taxes/property-tax/relief-programs/) explain applicable residency, ownership and income requirements.\n\nAn assessment freeze does not necessarily prevent every increase in the final property tax bill because local tax levies may change."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in South Dakota",
+      "blocks": [
+        {
+          "markdown": "South Dakota properties may experience hailstorms, tornadoes, heavy snowfall, freezing temperatures and flooding.\n\nInsurance premiums depend on property location, replacement cost, roof condition, construction materials and coverage requirements.\n\nRequest written insurance quotes before completing your purchase.\n\n### Wind and hail coverage\n\nThe [South Dakota Division of Insurance's homeowners coverage guide](https://dlr.sd.gov/insurance/general_guidance/homeowners_forms_types.aspx) describes common residential insurance policy types and covered hazards.\n\nReview whether your proposed policy contains separate wind or hail deductibles and whether roof damage is covered at replacement cost or depreciated value.\n\nFor example, a hypothetical 2% deductible on $300,000 in dwelling coverage would represent $6,000 in potential out-of-pocket expenses for an applicable covered claim.\n\nBudget for insurance deductibles separately from annual premiums.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flood damage.\n\nProperties near rivers, streams and low-lying areas may require additional protection.\n\nConsult the state's [optional homeowners insurance coverage guidance](https://dlr.sd.gov/insurance/general_guidance/homeowners_optional_extra_coverage.aspx) and investigate flood exposure through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude applicable additional premiums when estimating your monthly housing payment."
+        }
+      ]
+    },
+    {
+      "heading": "South Dakota Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$260,000",
+              "$52,000",
+              "$208,000",
+              "$1,247.07"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees."
+        }
+      ]
+    },
+    {
+      "heading": "South Dakota First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "South Dakota Housing provides mortgage financing and purchase assistance through approved participating lenders.\n\n### First-Time Homebuyer Program\n\nThe [South Dakota Housing First-Time Homebuyer Program](https://www.sdhousing.org/ready-to-buy/first-time-homebuyer) offers eligible buyers fixed-rate financing.\n\nApplicants generally must not have owned a qualifying home within the previous three years and must satisfy applicable household income limits.\n\nThe published maximum purchase price is $410,000.\n\n### Fixed Rate Plus down payment assistance\n\nThe [Fixed Rate Plus program](https://www.sdhousing.org/ready-to-buy/available-programs/downpayment-assistance) offers assistance equal to either 3% or 5% of the first mortgage amount.\n\nThe assistance creates an interest-free second mortgage without scheduled monthly payments. Repayment is required upon specified events, such as selling the property or satisfying the primary mortgage.\n\nBorrowers should compare the associated first mortgage interest rates with standard financing options.\n\n### Give Me Five homebuyer assistance\n\nSouth Dakota Housing launched its [Give Me Five program](https://www.sdhousing.org/ready-to-buy/available-programs/give-me-five) on November 2, 2026.\n\nEligible first-time buyers can receive assistance equal to 5% of their first mortgage amount.\n\nThe secondary loan requires no monthly payments and can be forgiven after five years of qualifying occupancy and compliance with program requirements.\n\nFunding is limited, and household income and purchase price restrictions apply.\n\nThe assistance is not automatically available to every first-time buyer. Contact an approved lender to confirm eligibility and funding availability."
+        }
+      ]
+    },
+    {
+      "heading": "Comparing Mortgage Terms in South Dakota",
+      "blocks": [
+        {
+          "markdown": "A shorter mortgage term can reduce the total interest you pay but requires a larger monthly commitment.\n\nBefore selecting a 15-year or 30-year mortgage, consider whether your household income can support the higher payment throughout periods of unexpected expenses.\n\nYou can also use our [Mortgage Extra Payment Calculator](/calculators/mortgage-extra-payment-calculator/) to explore voluntary additional principal payments.\n\nThis approach may provide greater flexibility than choosing a shorter contractual mortgage term, provided your lender permits additional repayments without unfavorable penalties."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a South Dakota Home",
+      "blocks": [
+        {
+          "markdown": "Winter heating, snow removal, roof maintenance and transportation can affect household budgets.\n\nRequest historical utility bills and inspect the property's insulation, windows, heating equipment and roofing.\n\nRural properties may also require private well maintenance, septic system servicing and access road repairs.\n\nBuyers considering properties with substantial agricultural acreage should confirm whether ordinary residential mortgage financing is available.\n\nCondominium owners should investigate association reserves, recurring fees and potential special assessments.\n\nThese expenses should be considered separately from the calculator's standard mortgage payment estimate."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in South Dakota?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing debt payments, household expenses and savings contributions.\n\nOur [South Dakota Paycheck Calculator](/calculators/south-dakota-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing financial obligations.\n\nCompare lender offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient emergency savings for insurance deductibles, unexpected repairs and seasonal heating costs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $260,000 South Dakota home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,247.07. Property taxes, insurance and applicable fees increase the total payment.\n\n### Do owner-occupied homes receive lower property taxes in South Dakota?\n\nQualifying primary residences receive a reduced school general fund levy. Other property tax components generally remain subject to their applicable rates. Homeowners must satisfy classification and filing requirements.\n\n### Does South Dakota offer forgivable down payment assistance?\n\nYes. The Give Me Five program launched in November 2026 and offers eligible first-time buyers assistance equal to 5% of their first mortgage amount, with conditional forgiveness after five years. Funding and eligibility restrictions apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your South Dakota Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our South Dakota mortgage calculator to compare purchase prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding your complete monthly housing expenses can help you choose a South Dakota property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

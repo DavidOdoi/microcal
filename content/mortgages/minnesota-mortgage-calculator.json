@@ -1,0 +1,263 @@
+{
+  "intro": [
+    "Buying a home in Minnesota means planning for more than your monthly loan repayment. Local property taxes, homeowners insurance, winter heating expenses and maintenance costs can all influence how much house you can comfortably afford.",
+    "Our free Minnesota mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and mortgage term. Whether you're purchasing in Minneapolis, Saint Paul, Rochester, Duluth or a smaller Minnesota community, compare financing options and establish a realistic budget before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Minnesota?",
+      "blocks": [
+        {
+          "markdown": "A $330,000 Minnesota home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would cost approximately $1,582.81 per month in principal and interest.\n\nHere is an illustrative monthly payment breakdown."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$330,000"
+            ],
+            [
+              "Down payment",
+              "$66,000"
+            ],
+            [
+              "Loan amount",
+              "$264,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,582.81"
+            ],
+            [
+              "Monthly property taxes",
+              "$350"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$200"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,132.81"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Minnesota Housing Market",
+      "blocks": [
+        {
+          "markdown": "Minnesota offers housing opportunities across metropolitan neighborhoods, suburban developments, university communities and rural areas.\n\nAccording to the [US Census Bureau's Minnesota housing statistics](https://www.census.gov/quickfacts/fact/table/MN/HSG860222), the median value of owner-occupied homes was $329,300 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $1,947, while 72.2% of occupied housing units were owner-occupied.\n\nThese historical statistics include homeowners who purchased properties under different market conditions. They should not be interpreted as current mortgage quotes or property asking prices.\n\nHousing prices around the Twin Cities can differ from those in smaller communities. Buyers should investigate recent comparable property sales, local employment access and recurring ownership expenses before establishing a purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Minnesota Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you plan to contribute as a down payment.\n\nSelect your preferred repayment period and enter your lender's quoted annual interest rate. If you haven't received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, enter annual property taxes, homeowners insurance and monthly association fees. Include private mortgage insurance where required.\n\nReview the estimated monthly housing payment and experiment with different financing arrangements.\n\nThe amortization schedule shows how your mortgage balance decreases over time and how much interest you could pay throughout the repayment period.\n\nOur national Mortgage Calculator also allows you to compare borrowing scenarios outside Minnesota."
+        }
+      ]
+    },
+    {
+      "heading": "How Minnesota Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Minnesota property taxation involves property valuations, classifications, applicable exclusions, local tax rates and other adjustments.\n\nThe county assessor determines the property's estimated market value. Qualifying exclusions can reduce that amount before property classification rates are applied.\n\nThe resulting tax capacity helps determine the property's share of applicable local tax levies. Certain other taxes and assessments may be calculated differently.\n\n### Minnesota Homestead Market Value Exclusion\n\nQualifying homeowners may benefit from the [Minnesota Homestead Market Value Exclusion](https://www.revenue.state.mn.us/homestead).\n\nThe current calculation provides the following benefits:"
+        },
+        {
+          "columns": [
+            "Estimated market value",
+            "Exclusion calculation"
+          ],
+          "rows": [
+            [
+              "$95,000 or less",
+              "40% of market value"
+            ],
+            [
+              "Above $95,000 but below $517,200",
+              "$38,000 minus 9% of the amount above $95,000"
+            ],
+            [
+              "$517,200 or more",
+              "No exclusion"
+            ]
+          ]
+        },
+        {
+          "markdown": "The maximum exclusion is $38,000.\n\nSome older online guides still reference a maximum exclusion of $30,400 and a lower phaseout threshold. Buyers should use the current rules applicable to their assessment year.\n\n### Minnesota property tax calculation example\n\nConsider a qualifying homestead with an estimated market value of $330,000.\n\nThe market value above $95,000 is $235,000. Multiplying this difference by 9% produces a reduction of $21,150 from the maximum exclusion."
+        },
+        {
+          "columns": [
+            "Calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Estimated market value",
+              "$330,000"
+            ],
+            [
+              "Maximum possible exclusion",
+              "$38,000"
+            ],
+            [
+              "Exclusion reduction",
+              "$21,150"
+            ],
+            [
+              "Final homestead exclusion",
+              "$16,850"
+            ],
+            [
+              "Taxable market value",
+              "$313,150"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example calculates taxable market value, not the final property tax bill.\n\nFor ordinary Class 1a residential homesteads, the classification rate is generally 1% on the first $500,000 of taxable market value and 1.25% on the remaining value.\n\nThese classification rates determine tax capacity and should not be mistaken for the effective annual property tax rate.\n\nConsult your county assessor for an estimate that incorporates applicable local levies and other charges.\n\n### Applying for homestead classification\n\nAccording to the [Minnesota Department of Revenue's homestead classification guidance](https://www.revenue.state.mn.us/homestead-classification), applicants generally need to own the property, occupy it as their principal residence and be Minnesota residents.\n\nApplications are normally due to the county assessor by December 31 for taxes payable the following year.\n\nEligible exclusions are applied automatically once the appropriate classification is established.\n\n### Minnesota property tax refunds\n\nMinnesota also offers [property tax refund programs](https://www.revenue.state.mn.us/property-tax-refund) for qualifying homeowners.\n\nRegular refunds depend on household income and property taxes. Special refunds may be available to homeowners experiencing qualifying tax increases.\n\nThese refunds should not automatically be deducted from monthly mortgage escrow estimates because eligibility and payment timing vary."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Minnesota",
+      "blocks": [
+        {
+          "markdown": "Minnesota properties can experience hailstorms, thunderstorms, tornadoes, heavy snowfall and freezing temperatures.\n\nInsurance premiums depend on replacement costs, roof condition, property location, construction materials and coverage requirements.\n\nRequest several property-specific quotes before committing to a home purchase.\n\n### Wind and hail deductibles\n\nSome homeowners policies contain separate wind and hail deductibles.\n\nFor example, a 2% deductible based on $300,000 in insured dwelling coverage would represent $6,000 in potential out-of-pocket expenses for an applicable covered claim.\n\nAsk insurers whether roof damage is covered at replacement cost or depreciated value.\n\nThe [Minnesota Department of Commerce's homeowners insurance guidance](https://mn.gov/commerce/insurance/home/) explains important coverage distinctions and potential exclusions.\n\n### Flood and water backup coverage\n\nOrdinary homeowners insurance generally excludes flooding.\n\nHomeowners with basements should also investigate coverage for sewer backups and sump pump failures. These risks may require separate endorsements.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate flood exposure.\n\nInclude applicable additional insurance premiums in your annual housing estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Minnesota Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, 6% fixed annual interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$330,000",
+              "$66,000",
+              "$264,000",
+              "$1,582.81"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude taxes, insurance, PMI and association fees.\n\nCompare the complete monthly housing expenses rather than principal and interest alone."
+        }
+      ]
+    },
+    {
+      "heading": "Minnesota First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Minnesota Housing offers mortgage financing and assistance through participating lenders.\n\n### Start Up mortgage program\n\nThe [Minnesota Housing Start Up program](https://www.mnhousing.gov/home/homeownership/buy-home-refinance) primarily serves eligible first-time buyers.\n\nFor one-unit properties, purchase price limits effective July 1, 2026, are $515,200 in the designated 11-county metropolitan area and $472,030 elsewhere in Minnesota.\n\nHousehold income, property eligibility, credit and homebuyer education requirements also apply.\n\n### Step Up mortgage program\n\nStep Up provides financing options for qualifying repeat buyers and certain first-time buyers who exceed Start Up limits.\n\nThe corresponding one-unit purchase limits are $515,200 in the designated metropolitan area and $498,257 elsewhere.\n\nReview the [official Minnesota Housing purchase price limits](https://mnhousing.gov/lenders-and-partners/homeownership-lender-toolkit/purchase-price-limits) before selecting a property.\n\n### Down payment and closing cost assistance\n\nMinnesota Housing offers several forms of secondary financing."
+        },
+        {
+          "columns": [
+            "Assistance program",
+            "Maximum loan"
+          ],
+          "rows": [
+            [
+              "Monthly Payment Loan",
+              "$14,000"
+            ],
+            [
+              "Deferred Payment Loan",
+              "$14,000"
+            ],
+            [
+              "Deferred Payment Loan Plus",
+              "$18,000"
+            ]
+          ]
+        },
+        {
+          "markdown": "The Monthly Payment Loan requires repayment over 15 years at the associated first mortgage interest rate.\n\nDeferred loans carry no scheduled monthly payments or interest, but borrowers remain responsible for repayment when applicable conditions occur.\n\nThese arrangements are loans rather than unconditional grants. Compare their complete financing terms before applying."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Minnesota Home",
+      "blocks": [
+        {
+          "markdown": "Winter heating expenses can materially affect household budgets, especially for older properties with inefficient insulation or heating equipment.\n\nRequest historical utility bills and inspect the condition of furnaces, windows and roofing.\n\nHomeowners should also budget for snow removal, driveway maintenance and emergency repairs.\n\nRural properties may involve private wells, septic systems and access road maintenance.\n\nCondominium buyers should review association reserves, recurring dues and proposed special assessments.\n\nThese expenses extend beyond the calculator's standard mortgage payment estimate and should be included in your broader financial plan."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Minnesota?",
+      "blocks": [
+        {
+          "markdown": "Start with reliable monthly take-home income and subtract existing financial commitments.\n\nOur [Minnesota Paycheck Calculator](/calculators/minnesota-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate outstanding borrowing obligations.\n\nAllow sufficient room for groceries, transportation, childcare, utilities and retirement savings.\n\nCompare mortgage offers using the [CFPB Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) and maintain an [emergency fund](/savings/emergency-fund-calculator/) for insurance deductibles and unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $330,000 Minnesota home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,582.81 monthly. Property taxes, insurance and other applicable expenses increase the total payment.\n\n### What is Minnesota's Homestead Market Value Exclusion?\n\nIt reduces the taxable market value of eligible homestead properties. The maximum exclusion is $38,000, with the benefit gradually decreasing for properties valued above $95,000 and disappearing at $517,200.\n\n### Does Minnesota offer down payment assistance?\n\nYes. Minnesota Housing provides eligible borrowers with secondary financing of up to $18,000 through designated assistance programs. Available amounts, repayment arrangements and qualification requirements vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Minnesota Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Minnesota mortgage calculator to compare purchase prices, down payments, interest rates and loan terms.\n\nReplace illustrative expenses with accurate local property taxes and insurance quotes. Consider heating, maintenance and emergency savings when determining whether a property fits your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

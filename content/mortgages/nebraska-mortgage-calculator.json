@@ -1,0 +1,221 @@
+{
+  "intro": [
+    "Buying a home in Nebraska requires more than finding a property within your preferred price range. Local property taxes, mortgage interest rates, homeowners insurance and ongoing maintenance expenses all influence how much you can comfortably afford.",
+    "Our free Nebraska mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're purchasing in Omaha, Lincoln, Grand Island, Kearney or a smaller Nebraska community, compare financing options before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Nebraska?",
+      "blocks": [
+        {
+          "markdown": "A $240,000 Nebraska home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,151.14.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$240,000"
+            ],
+            [
+              "Down payment",
+              "$48,000"
+            ],
+            [
+              "Loan amount",
+              "$192,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,151.14"
+            ],
+            [
+              "Monthly property taxes",
+              "$325"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$225"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,701.14"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Property taxes, insurance premiums and interest rates are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Nebraska Housing Market",
+      "blocks": [
+        {
+          "markdown": "Nebraska offers housing opportunities across metropolitan neighborhoods, suburban developments, agricultural regions and smaller communities.\n\nAccording to the [US Census Bureau's Nebraska QuickFacts](https://www.census.gov/quickfacts/fact/table/NE/POP715223), the median value of owner-occupied housing was $238,600 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $1,736, while approximately 66.5% of occupied housing units were owner-occupied.\n\nThese historical statistics include homeowners who purchased properties under different market conditions. They do not represent current mortgage offers or property asking prices.\n\nHomes near major employment centers in Omaha and Lincoln may have different purchase prices from properties in western Nebraska.\n\nConsider transportation, local taxes, insurance and maintenance expenses when comparing homes in different communities."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Nebraska Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nSelect your preferred repayment period and enter the annual mortgage interest rate quoted by your lender.\n\nIf you have not received a mortgage quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, include annual property taxes, homeowners insurance premiums and applicable association fees.\n\nAdd private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly housing payment and experiment with different purchase prices, repayment periods and down payments.\n\nThe amortization schedule also shows how your outstanding loan balance decreases over time and how much interest you could pay.\n\nOur national Mortgage Calculator allows you to compare similar financing arrangements outside Nebraska."
+        }
+      ]
+    },
+    {
+      "heading": "How Nebraska Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Property taxes are an important consideration when establishing a Nebraska homebuying budget.\n\nAccording to the [Nebraska Department of Revenue's property assessment guidance](https://revenue.nebraska.gov/about/frequently-asked-questions/nebraska-property-assessment-faqs), ordinary residential real estate is assessed at or near its full actual value.\n\nAgricultural and horticultural land uses different assessment rules.\n\nCounty assessors establish property valuations, while local government budgets and tax levies influence the amount homeowners pay.\n\n### Nebraska property tax calculation example\n\nSuppose a residential property has an assessed value of $240,000 and a hypothetical combined property tax rate of $1.75 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed property value",
+              "$240,000"
+            ],
+            [
+              "Illustrative tax rate",
+              "1.75%"
+            ],
+            [
+              "Annual property taxes before credits",
+              "$4,200"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$350"
+            ]
+          ]
+        },
+        {
+          "markdown": "If applicable property tax credits reduce the annual bill by $300, the remaining liability would be $3,900, equivalent to $325 per month.\n\nThe tax rate and credit amount are hypothetical. Actual liabilities depend on local levies, property valuations and applicable state relief provisions.\n\n### Nebraska property tax credits\n\nNebraska homeowners may benefit from two state-funded credits that directly reduce their property tax bills:\n\n- Real Property Tax Credit.\n- School District Property Tax Relief Credit.\n\nThe [Nebraska Department of Revenue's property tax credit directory](https://revenue.nebraska.gov/PAD/Property-Tax-Credits) publishes information about these credits.\n\nNebraska also provides a separate income tax credit associated with qualifying community college property taxes.\n\nReview the state's [property tax credit FAQs](https://revenue.nebraska.gov/about/frequently-asked-questions/nebraska-property-tax-credit-faqs) to distinguish credits claimed through income tax returns from reductions appearing directly on property tax statements.\n\nAvoid subtracting credits again if they are already reflected in the property's net annual tax bill.\n\n### Nebraska homestead exemption\n\nNebraska provides property tax relief to qualifying older homeowners, individuals with eligible disabilities and certain disabled veterans or surviving spouses.\n\nThe [Nebraska homestead exemption program](https://revenue.nebraska.gov/PAD/homestead-exemption) may exempt part or all of a qualifying residence's taxable value.\n\nSome eligibility categories have income and property valuation restrictions.\n\nThis exemption is not automatically available to every homeowner. Contact your county assessor to confirm eligibility, documentation requirements and filing deadlines."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Nebraska",
+      "blocks": [
+        {
+          "markdown": "Nebraska properties can experience severe thunderstorms, tornadoes, hail, flooding and winter weather.\n\nInsurance premiums depend on construction materials, replacement costs, roof condition, location and selected coverage.\n\nRequest property-specific insurance quotes before completing your purchase.\n\n### Wind and hail insurance\n\nRoof coverage deserves particular attention when comparing policies.\n\nThe [Nebraska Department of Insurance's storm preparedness guidance](https://doi.nebraska.gov/storm-dont-wait-until-its-too-late) recommends reviewing wind and hail deductibles and ensuring that coverage is sufficient to rebuild your home.\n\nSome policies use percentage-based deductibles.\n\nFor example, a 2% deductible on $250,000 in dwelling coverage would represent $5,000 in potential out-of-pocket costs for an applicable covered claim.\n\nMaintain emergency savings to cover deductibles and repairs.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding.\n\nProperties near rivers, streams and low-lying areas may require separate coverage.\n\nConsult the [Nebraska Department of Insurance's flood insurance guidance](https://doi.nebraska.gov/flood-insurance-101) and investigate your property's location through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude additional insurance premiums in the calculator where applicable."
+        }
+      ]
+    },
+    {
+      "heading": "Nebraska Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$240,000",
+              "$48,000",
+              "$192,000",
+              "$1,151.14"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly housing expenses instead of relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Nebraska First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Nebraska Investment Finance Authority, commonly known as NIFA, offers mortgage financing and purchase assistance through participating lenders.\n\n### First Home and Homebuyer Assistance programs\n\nThe [NIFA First Home program](https://www.nifa.org/lenders-realtors/first-home) provides mortgage financing for eligible first-time buyers.\n\nBorrowers who need additional help with upfront expenses can investigate the [Homebuyer Assistance Program](https://www.nifa.org/lenders-realtors/homebuyer-assistance).\n\nThis arrangement combines a primary mortgage with a second mortgage of up to 5% of the property's purchase price.\n\nThe second mortgage has a ten-year repayment period and a fixed interest rate of 1%.\n\nFor example, assistance equal to 5% of a $240,000 purchase price would amount to $12,000. Repaying that loan over ten years at 1% would cost approximately $105.12 monthly.\n\nInclude this additional payment when evaluating your total housing expenses.\n\n### Welcome Home program\n\nThe [NIFA Welcome Home program](https://www.nifa.org/homebuyers-renters/welcome-home) is available to qualifying first-time and repeat homebuyers.\n\nIts published limits, effective July 13, 2026, include a household income ceiling of $182,800 and purchase price limits of $485,500 for one-unit properties and $607,000 for two-unit properties.\n\nWelcome Home Assistance is also available to eligible applicants needing help with down payment and closing expenses.\n\nConfirm current financing terms and eligibility with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Nebraska Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages offer flexible repayment periods and down payment arrangements for borrowers meeting lender requirements.\n\nFHA-insured financing may provide an alternative for households with limited upfront savings.\n\nEligible military borrowers can investigate [VA home loan programs](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering rural properties may also qualify for [USDA Rural Development housing programs](https://www.rd.usda.gov/).\n\nProperties containing agricultural acreage, outbuildings or commercial farming operations may require specialized financing. Confirm property eligibility before relying on a standard residential mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Comparing 15-Year and 30-Year Mortgages in Nebraska",
+      "blocks": [
+        {
+          "markdown": "A shorter repayment period can substantially reduce your total interest expenses.\n\nFor a $192,000 mortgage at the same illustrative 6% interest rate, a 15-year loan would require approximately $1,620.21 monthly in principal and interest, compared with $1,151.14 for a 30-year loan.\n\nThe shorter term requires approximately $469 more each month but allows you to repay the mortgage considerably sooner.\n\nUse the calculator to compare repayment periods while keeping enough money available for property taxes, insurance, repairs and other financial commitments."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Nebraska?",
+      "blocks": [
+        {
+          "markdown": "Start with reliable monthly take-home income and subtract existing financial obligations.\n\nOur [Nebraska Paycheck Calculator](/calculators/nebraska-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate outstanding borrowing commitments.\n\nConsider transportation costs, winter heating, property maintenance and regular savings contributions.\n\nRural properties may also require private well maintenance, septic servicing and access road repairs.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) when comparing mortgage offers and upfront financing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $240,000 Nebraska home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year repayment period, principal and interest would be approximately $1,151.14 monthly. Taxes, insurance and applicable fees increase the total housing payment.\n\n### How are Nebraska residential property taxes calculated?\n\nOrdinary residential property is assessed at or near its full actual value. Applicable local tax levies determine the initial tax liability, with adjustments for qualifying exemptions and property tax credits.\n\n### Does Nebraska offer down payment assistance?\n\nYes. NIFA's Homebuyer Assistance Program offers qualifying borrowers a second mortgage of up to 5% of the purchase price, repayable over ten years at 1% interest. Additional assistance options and eligibility requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Nebraska Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Nebraska mortgage calculator to compare purchase prices, down payments and financing arrangements before making an offer.\n\nReplace illustrative taxes and insurance premiums with verified property-specific estimates. Understanding your complete housing expenses can help you choose a Nebraska property that supports your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

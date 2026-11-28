@@ -1,0 +1,213 @@
+{
+  "intro": [
+    "New Hampshire's property taxes can make the difference between a home that appears affordable and one that stretches your monthly budget. Before choosing a property, consider the complete cost of financing, insurance, taxes and ongoing home maintenance.",
+    "Our free New Hampshire mortgage calculator estimates your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're buying in Manchester, Nashua, Concord, Portsmouth or a smaller Granite State community, use the calculator to compare financing arrangements before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in New Hampshire?",
+      "blocks": [
+        {
+          "markdown": "A $400,000 New Hampshire home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,918.56.\n\nAdding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$400,000"
+            ],
+            [
+              "Down payment",
+              "$80,000"
+            ],
+            [
+              "Loan amount",
+              "$320,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,918.56"
+            ],
+            [
+              "Monthly property taxes",
+              "$650"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,718.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Taxes, insurance premiums and the interest rate are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the New Hampshire Housing Market",
+      "blocks": [
+        {
+          "markdown": "New Hampshire offers housing opportunities across suburban communities, coastal neighborhoods, university towns and rural areas.\n\nAccording to the [US Census Bureau's New Hampshire QuickFacts](https://www.census.gov/quickfacts/NH), the median value of owner-occupied housing was $402,500 during the 2020–2024 survey period. Homeowners with mortgages reported median selected monthly ownership costs of $2,367, while the homeownership rate was 72.8%.\n\nThese historical figures include homeowners who purchased properties under different market conditions and interest rates.\n\nProperties near the Massachusetts border or the Seacoast may have different purchase prices from homes in northern New Hampshire. Transportation, heating and maintenance expenses can also vary substantially between communities.\n\nResearch recent comparable sales in your preferred neighborhood before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the New Hampshire Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your home and the amount you intend to contribute as a down payment.\n\nChoose your repayment period and enter your lender's quoted annual interest rate. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, enter annual property taxes, homeowners insurance premiums and monthly association fees where applicable.\n\nInclude private mortgage insurance if required by your financing arrangement.\n\nReview your estimated monthly housing payment and experiment with different loan terms, down payments and purchase prices.\n\nThe amortization schedule shows how much of each loan payment reduces your balance and how much goes toward interest.\n\nOur national Mortgage Calculator also helps you compare financing arrangements outside New Hampshire."
+        }
+      ]
+    },
+    {
+      "heading": "How New Hampshire Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "New Hampshire does not use a single statewide property tax rate for every residence. Your annual property tax liability depends on local assessments and applicable municipal, county and education tax rates.\n\nMunicipal assessors establish property values, while applicable taxing authorities determine the amounts needed to fund public services.\n\n### Understanding property assessment and equalization\n\nThe [New Hampshire Department of Revenue Administration](https://www.revenue.nh.gov/about-dra/municipal-and-property-division/property-bureau/equalization) conducts an annual equalization process with municipalities.\n\nThis process helps distribute shared property tax obligations between municipalities using comparable valuations.\n\nEqualized municipal values should not be confused with the assessed value of an individual property shown on its tax bill.\n\nWhen estimating your mortgage payment, obtain the property's actual taxable assessment and applicable local tax rate.\n\n### New Hampshire property tax calculation example\n\nSuppose a home has a taxable assessed value of $400,000 and an illustrative combined local property tax rate of $19.50 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Taxable assessed value",
+              "$400,000"
+            ],
+            [
+              "Illustrative tax rate per $1,000",
+              "$19.50"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$7,800"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$650"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example excludes exemptions, credits and additional adjustments.\n\nTwo properties with identical purchase prices may have different tax bills because they are located in different municipalities.\n\nAsk the local assessment office for current valuations, tax rates and information about upcoming revaluations.\n\n### Property tax relief for New Hampshire homeowners\n\nThe state's [Low and Moderate Income Homeowners Property Tax Relief program](https://www.revenue.nh.gov/resource-center/taxpayer-assistance/low-and-moderate-income-homeowners-property-tax-relief) provides assistance with qualifying state education property tax expenses.\n\nPublished income limits include $37,000 for single applicants and $47,000 for married applicants or qualifying heads of household.\n\nOwnership and residency requirements apply. Applications generally must be submitted during May or June.\n\nMunicipal exemptions and credits may also be available to eligible older homeowners, veterans and individuals with qualifying disabilities.\n\nDo not deduct anticipated relief from your monthly mortgage estimate unless you have confirmed its eligibility, amount and payment arrangements."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in New Hampshire",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's construction, condition, replacement cost, location and selected coverage.\n\nNew Hampshire properties may experience heavy snowfall, freezing temperatures, coastal storms and flooding.\n\nObtain property-specific insurance quotes before finalizing your purchase.\n\n### Winter weather coverage\n\nAsk your insurer how the policy handles frozen pipes, ice-related damage and roof damage caused by winter storms.\n\nOlder homes may have heating, plumbing or electrical systems that affect insurance eligibility or maintenance requirements.\n\nReview coverage exclusions and deductibles carefully. Choosing a higher deductible may lower your premium but increase your financial responsibility following a covered loss.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flood damage.\n\nProperties near the coast, rivers and lakes may require separate flood coverage.\n\nInvestigate the property's location using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude the annual premiums for all applicable insurance policies in the mortgage calculator without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "New Hampshire Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, 6% fixed annual interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$650,000",
+              "$130,000",
+              "$520,000",
+              "$3,117.66"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, insurance, PMI and association fees.\n\nWhen comparing properties, pay particular attention to local tax differences. A less expensive home in a higher-tax municipality may have similar monthly housing expenses to a more expensive property elsewhere."
+        }
+      ]
+    },
+    {
+      "heading": "New Hampshire First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "New Hampshire Housing offers mortgage financing and purchase assistance through participating lenders.\n\n### Down payment and closing cost assistance\n\nThe [New Hampshire Housing homeownership programs](https://www.nhhfa.org/homeownership/homeownership-programs/) provide eligible borrowers with assistance of up to $15,000 toward down payment and closing expenses.\n\nAvailable financing arrangements include fixed assistance amounts of $5,000, $10,000 or $15,000.\n\nApplicants should compare mortgage rates, eligibility requirements and assistance conditions before selecting a financing option.\n\nCash assistance should not automatically be treated as an unconditional grant. Request written information about repayment obligations and any conditions under which assistance may be forgiven.\n\n### Preferred mortgage financing\n\nNew Hampshire Housing also offers conventional financing through its Preferred program.\n\nEligible borrowers with incomes below 80% of area median income may qualify for discounted mortgage insurance.\n\nThis can help reduce monthly borrowing expenses for buyers making smaller down payments.\n\nConfirm your eligibility and compare the complete mortgage payment with other lender offers."
+        }
+      ]
+    },
+    {
+      "heading": "New Hampshire Real Estate Transfer Tax and Closing Costs",
+      "blocks": [
+        {
+          "markdown": "Buyers should prepare for upfront expenses in addition to their down payment.\n\nAccording to the [New Hampshire Department of Revenue Administration](https://www.revenue.nh.gov/resource-center/frequently-asked-questions/real-estate-transfer-tax), the state's standard real estate transfer tax is $0.75 per $100 of consideration for both the buyer and seller.\n\nOn a qualifying $400,000 purchase, the buyer's standard share would be $3,000.\n\nOther closing expenses may include mortgage origination fees, title services, inspections, appraisals and prepaid taxes or insurance.\n\nThese costs generally do not form part of your regular monthly mortgage payment unless financed through an eligible arrangement.\n\nReview your lender's disclosures using the [CFPB Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/)."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in New Hampshire?",
+      "blocks": [
+        {
+          "markdown": "Begin with your reliable monthly take-home income and subtract existing household expenses.\n\nUse our [New Hampshire Paycheck Calculator](/calculators/new-hampshire-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate borrowing obligations.\n\nAccount for winter heating, transportation, snow removal and unexpected repairs. If you commute into Massachusetts, consider transportation costs and applicable cross-border income tax obligations.\n\nRural properties may also involve private wells, septic systems and driveway maintenance.\n\nMaintain enough savings to cover insurance deductibles and emergency expenses rather than spending your entire cash balance on a down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $400,000 New Hampshire home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,918.56. Property taxes, homeowners insurance and other applicable fees increase the total payment.\n\n### How are New Hampshire property taxes calculated?\n\nProperty taxes generally depend on the property's taxable assessed value and applicable local tax rates. Municipal, county and education tax components can contribute to the final bill. Eligible exemptions or credits may reduce the amount payable.\n\n### Does New Hampshire offer down payment assistance?\n\nYes. New Hampshire Housing offers qualifying borrowers assistance of up to $15,000 through eligible mortgage programs. Income, property, lending and assistance requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your New Hampshire Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our New Hampshire mortgage calculator to compare purchase prices, mortgage rates, down payments and repayment terms.\n\nReplace illustrative expenses with verified municipal property taxes and insurance quotes. Understanding your complete monthly housing costs can help you select a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

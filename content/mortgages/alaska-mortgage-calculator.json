@@ -1,0 +1,202 @@
+{
+  "intro": [
+    "Buying a home in Alaska involves more than finding a property at the right price. Local property taxes, heating expenses, insurance requirements and the availability of mortgage financing can all affect affordability.",
+    "Our Alaska mortgage calculator helps you estimate your monthly housing payment using your purchase price, down payment, interest rate and loan term. Include property taxes, homeowners insurance and applicable mortgage insurance to build a realistic budget before purchasing a home."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Alaska?",
+      "blocks": [
+        {
+          "markdown": "A $350,000 home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,678.74.\n\nHere is an illustrative payment breakdown:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$350,000"
+            ],
+            [
+              "Down payment",
+              "$70,000"
+            ],
+            [
+              "Loan amount",
+              "$280,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Repayment term",
+              "30 years"
+            ],
+            [
+              "Principal and interest",
+              "$1,678.74"
+            ],
+            [
+              "Monthly property taxes",
+              "$350"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,178.74"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Actual taxes, insurance premiums and interest rates depend on the property and your financing arrangements."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Alaska Housing Market",
+      "blocks": [
+        {
+          "markdown": "Alaska's housing market includes urban properties in Anchorage, homes in Fairbanks, coastal communities such as Juneau and remote settlements with limited transportation access.\n\nAccording to the [US Census Bureau's Alaska QuickFacts](https://www.census.gov/quickfacts/AK), the median value of owner-occupied homes was $352,900 during the 2020–2024 survey period.\n\nMedian selected monthly homeowner costs among households with mortgages reached $2,229, while the owner-occupied housing rate was 66.8%.\n\nThese historical statistics help establish a starting point for financial planning, but housing prices vary considerably between communities.\n\nConstruction materials, transportation requirements, available land and access to utilities can influence both purchase prices and ongoing maintenance expenses.\n\nBefore choosing a home price for the calculator, research properties in your intended community rather than relying exclusively on statewide housing figures."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Alaska Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nNext, select your repayment term and enter the annual mortgage interest rate quoted by your lender.\n\nAdd your expected annual property taxes and insurance premiums. If your property has association fees or requires mortgage insurance, include those amounts.\n\nReview the estimated monthly payment and experiment with different loan terms or down payment amounts.\n\nThe calculator also provides information about your outstanding loan balance and interest expenses over time.\n\nFor properties in remote areas, remember that the calculator may not automatically include heating fuel, water delivery, transportation and other location-specific living costs."
+        }
+      ]
+    },
+    {
+      "heading": "How Property Taxes Work in Alaska",
+      "blocks": [
+        {
+          "markdown": "Alaska has an unusual property taxation system because many areas do not impose a municipal property tax.\n\nAccording to the [Alaska Office of the State Assessor](https://www.commerce.alaska.gov/web/dcra/officeofthestateassessor/alaskataxfacts), only 24 municipalities levied property taxes as reported in its November 2026 update.\n\nHowever, buyers in municipalities that collect property taxes should expect those charges to contribute to their annual ownership expenses.\n\nProperty taxes generally depend on the locally assessed property value and applicable millage rate.\n\nFor example, suppose your property has an assessed taxable value of $350,000 and an illustrative millage rate of 12 mills.\n\nAnnual property tax would be:\n\n$350,000 × 0.012 = $4,200\n\nThis equals $350 per month.\n\nThe actual assessment and millage rate must come from the relevant municipality.\n\n### Property tax exemptions for Alaska homeowners\n\nAlaska provides qualifying senior homeowners and disabled veterans with an exemption on the first $150,000 of assessed property value, subject to applicable eligibility requirements.\n\nMunicipalities may have additional provisions.\n\nContact the local assessor to determine whether you qualify and when an application must be submitted.\n\nNever assume that a property advertised in a low-tax location will automatically qualify for an exemption."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Alaska",
+      "blocks": [
+        {
+          "markdown": "Insurance is particularly important when purchasing property in Alaska because local environmental conditions may create additional risks.\n\nFreezing temperatures, heavy snowfall, earthquake exposure and flooding can affect properties differently depending on their construction and location.\n\nThe [Alaska Division of Insurance's earthquake insurance guidance](https://www.commerce.alaska.gov/web/ins/Consumers/HomeInsurance/EarthquakeInsurance.aspx) explains that most standard residential insurance policies exclude earthquake damage.\n\nBuyers should compare separate earthquake coverage where appropriate and carefully review deductibles, coverage limits and exclusions.\n\nA property in a remote community may also present challenges when arranging repairs or sourcing replacement building materials.\n\nWhen obtaining insurance quotes, focus on the estimated cost of rebuilding the home rather than assuming that its purchase price represents an appropriate coverage limit.\n\nUse the annual cost of all relevant policies when estimating your housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Alaska Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year repayment term."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, HOA fees and other homeownership expenses.\n\nA larger down payment reduces the amount borrowed. A lower interest rate reduces borrowing costs without requiring a change in the purchase price."
+        }
+      ]
+    },
+    {
+      "heading": "Alaska Housing Finance Corporation Mortgage Programs",
+      "blocks": [
+        {
+          "markdown": "The Alaska Housing Finance Corporation, commonly known as Alaska Housing or AHFC, offers several financing programs through approved lenders.\n\n### First Home and First Home Limited\n\nThe [AHFC first-time homebuyer programs](https://www.ahfc.us/buy/loan-programs/first-time-loans) provide mortgage options for eligible borrowers.\n\nFirst Home Limited offers potentially favorable interest rates to applicants meeting applicable income and property acquisition limits.\n\nFirst-time buyers generally must not have owned a primary residence during the preceding three years, although certain exceptions apply.\n\nCompare both programs with ordinary conventional mortgage offers before selecting financing.\n\n### Rural Owner-Occupied Loan\n\nThe [Alaska Housing Rural Loan program](https://www.ahfc.us/buy/loan-programs/rural-programs) supports eligible residential purchases and renovations in qualifying small communities.\n\nIts financing structure can differ from standard conventional loans. For example, different interest rate treatment can apply to portions of a loan above the program's specified threshold.\n\nBecause these arrangements may involve blended rates, request a complete payment estimate from an approved lender rather than assuming the standard mortgage calculation represents the exact program payment.\n\n### Down payment assistance\n\nAHFC provides information about nonprofit organizations offering [down payment assistance across Alaska](https://www.ahfc.us/buy/resources/down-payment-assistance).\n\nAssistance may depend on your community, income, loan type and available funding.\n\nCheck whether the support takes the form of a repayable loan, deferred financing or another arrangement before calculating your required cash at closing."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Alaska Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Conventional financing is one option for buyers who satisfy lender credit and income requirements.\n\nEligible military households can explore [VA-backed purchase loans](https://www.va.gov/housing-assistance/home-loans/), which may offer financing without a down payment.\n\nBuyers in qualifying communities may also consider [USDA rural development housing programs](https://www.rd.usda.gov/).\n\nFHA-insured loans can provide another alternative, although upfront and ongoing mortgage insurance expenses must be included where applicable.\n\nWhen comparing offers, pay attention to lender fees, property eligibility, annual percentage rates and cash requirements rather than focusing only on the advertised interest rate."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Homeownership Costs in Alaska",
+      "blocks": [
+        {
+          "markdown": "A mortgage calculator estimates financing and selected recurring housing expenses, but Alaska homeowners should also prepare for costs outside their mortgage.\n\n### Heating and energy expenses\n\nHeating expenses can vary substantially depending on the climate, insulation, heating system and local fuel availability.\n\nRequest historical utility bills from the seller and consider whether the property's heating equipment may require replacement.\n\n### Remote property maintenance\n\nSome communities have limited access to contractors, building supplies and repair services.\n\nBudget for potential shipping charges and longer repair timelines when purchasing outside major population centers.\n\n### Water and wastewater systems\n\nNot every property connects to municipal utilities. Some homes rely on wells, septic systems, water delivery or other arrangements.\n\nUnderstand the recurring costs, inspection requirements and maintenance obligations before finalizing your purchase.\n\nThese expenses can materially affect affordability even when the mortgage payment itself appears manageable."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Alaska?",
+      "blocks": [
+        {
+          "markdown": "Start by calculating your reliable monthly take-home income and subtracting existing living expenses.\n\nConsider seasonal employment patterns, variable earnings and transportation costs. If you rely on overtime or seasonal income, test a conservative budget that does not assume those earnings remain constant.\n\nOur [Alaska Paycheck Calculator](/calculators/alaska-paycheck-calculator/) can help you estimate take-home pay, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you understand the relationship between debt obligations and income.\n\nYou should also maintain enough savings to cover emergency repairs and insurance deductibles.\n\nReview the [CFPB's homebuying affordability guidance](https://www.consumerfinance.gov/owning-a-home/) when determining an appropriate purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Closing Costs and Mortgage Rates in Alaska",
+      "blocks": [
+        {
+          "markdown": "Closing costs may include lender fees, property appraisals, title services, recording fees and prepaid insurance.\n\nAsk lenders whether additional inspections or appraisal requirements apply to your intended property, particularly in remote communities.\n\nFor mortgage rate information, consult the [AHFC published rate page](https://www.ahfc.us/buy/resources/current-rates) and obtain an individualized quote from an approved lender.\n\nRates may change between the initial estimate and the final mortgage agreement."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $350,000 home in Alaska?\n\nWith a 20% down payment and a 30-year mortgage at 6%, monthly principal and interest would be approximately $1,678.74. Add local property taxes, insurance and applicable fees to estimate your total housing payment.\n\n### Does every Alaska homeowner pay property taxes?\n\nNo. Many Alaska communities do not impose a municipal property tax. However, properties in municipalities that levy these taxes may have substantial annual bills. Confirm the applicable charges with your local assessor.\n\n### Are special mortgage programs available for rural Alaska properties?\n\nYes. Alaska Housing offers rural mortgage programs for qualifying properties and borrowers in eligible small communities. Program requirements and interest rate structures can differ from conventional financing."
+        }
+      ]
+    },
+    {
+      "heading": "Estimate Your Alaska Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use the Alaska mortgage calculator to compare financing options and determine how different purchase prices affect your monthly budget.\n\nRemember to include heating, maintenance, insurance and other location-specific expenses when evaluating the true cost of owning a home in Alaska."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "intro": [
+    "Buying a home in Louisiana involves financial considerations that extend beyond the purchase price. Property taxes, hurricane deductibles, flood insurance and other property-related expenses can significantly influence your monthly housing budget.",
+    "Our free Louisiana mortgage calculator helps you estimate monthly mortgage payments using your home price, down payment, interest rate and loan term. Whether you're purchasing in New Orleans, Baton Rouge, Lafayette, Shreveport or another Louisiana community, compare your financing options before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Louisiana?",
+      "blocks": [
+        {
+          "markdown": "A $215,000 Louisiana home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,031.23.\n\nAn illustrative housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$215,000"
+            ],
+            [
+              "Down payment",
+              "$43,000"
+            ],
+            [
+              "Mortgage amount",
+              "$172,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,031.23"
+            ],
+            [
+              "Monthly property taxes",
+              "$125"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$300"
+            ],
+            [
+              "Monthly flood insurance",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,556.23"
+            ]
+          ]
+        },
+        {
+          "markdown": "The example assumes no private mortgage insurance or association fees. Insurance premiums, property taxes and interest rates are hypothetical rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Louisiana Housing Market",
+      "blocks": [
+        {
+          "markdown": "Louisiana offers housing options across metropolitan neighborhoods, coastal communities, suburban developments and agricultural regions.\n\nAccording to the [US Census Bureau's Louisiana housing statistics](https://www.census.gov/quickfacts/LA), the median value of owner-occupied homes was $216,500 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,604, while the owner-occupied housing rate was 67.4%.\n\nThese historical figures provide general context but do not establish the current market price of a particular property.\n\nBuyers considering southern Louisiana should carefully investigate flood exposure and insurance availability. These expenses may differ considerably between properties with similar purchase prices.\n\nReview recent local property sales and request insurance estimates before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Louisiana Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and your available down payment.\n\nSelect your preferred repayment period and enter the annual mortgage interest rate quoted by your lender.\n\nNext, include the property's annual tax liability and homeowners insurance premium.\n\nAdd separate flood or windstorm insurance premiums where necessary. Avoid counting coverage twice if your primary homeowners policy already includes it.\n\nInclude monthly association fees and private mortgage insurance where applicable.\n\nReview your estimated total housing payment and compare different purchase prices or down payment amounts.\n\nThe amortization schedule helps you understand how principal and interest payments affect your mortgage balance over time.\n\nOur national Mortgage Calculator also allows you to compare financing scenarios outside Louisiana."
+        }
+      ]
+    },
+    {
+      "heading": "How Louisiana Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Louisiana administers property taxes through parish-level assessment systems.\n\nAccording to the [Louisiana Assessors' Association](https://www.louisianaassessors.org/about-assessors/), residential improvements and land generally use a 10% assessment ratio.\n\nThis ratio determines assessed property value rather than the percentage of the home's market value paid in taxes.\n\nLocal taxing authorities apply millage rates to the relevant taxable assessed value.\n\n### Louisiana homestead exemption\n\nQualifying homeowners may receive a homestead exemption on the first $7,500 of assessed property value.\n\nFor residential property assessed at 10% of market value, this generally corresponds to $75,000 in market value.\n\nThe exemption applies to eligible state, parish and special property taxes. Municipal taxation can follow different rules, including exceptions applicable in Orleans Parish.\n\nReview the [Louisiana Constitution's homestead exemption provisions](https://legis.la.gov/Legis/Law.aspx?d=206550) and contact your parish assessor before calculating your final property tax liability.\n\n### Louisiana property tax calculation example\n\nSuppose a residential property has an assessed market value of $215,000 and qualifies for the standard homestead exemption.\n\nAssume a hypothetical levy of 100 mills applies entirely to the exemption-eligible portion of the tax bill."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Market value",
+              "$215,000"
+            ],
+            [
+              "Residential assessment ratio",
+              "10%"
+            ],
+            [
+              "Assessed property value",
+              "$21,500"
+            ],
+            [
+              "Homestead exemption",
+              "$7,500"
+            ],
+            [
+              "Remaining taxable assessed value",
+              "$14,000"
+            ],
+            [
+              "Illustrative annual property tax",
+              "$1,400"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$116.67"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes may include municipal charges, additional assessments or levies to which the exemption does not apply.\n\nObtain a complete property-specific estimate from the relevant parish assessor."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Louisiana",
+      "blocks": [
+        {
+          "markdown": "Insurance is one of the most important expenses to investigate when buying a Louisiana property.\n\nPremiums depend on location, construction materials, roof condition, rebuilding costs and environmental exposure.\n\nThe [Louisiana Department of Insurance's homeowners insurance resources](https://ldi.la.gov/consumers/insurance-type/homeowners) explain common coverage considerations and available consumer assistance.\n\nObtain written insurance quotes before finalizing your purchase.\n\n### Hurricane and named-storm deductibles\n\nLouisiana homeowners policies may include separate deductibles for hurricanes, named storms, wind or hail.\n\nNamed-storm deductibles commonly range from 2% to 5% of the insured dwelling value, according to the Louisiana Department of Insurance.\n\nFor example, a 3% deductible on a home insured for $250,000 would require $7,500 in out-of-pocket expenses for an applicable covered claim.\n\nThis amount is separate from your annual insurance premium.\n\nReview the department's [storm insurance guidance](https://www.ldi.la.gov/news/press-releases/6-22-26-ldi-releases-new-insurance-guidance-following-tropical-storm-arthur) when comparing policy terms.\n\nMaintain sufficient emergency savings to cover applicable deductibles.\n\n### Flood insurance in Louisiana\n\nStandard homeowners insurance generally excludes flood damage.\n\nThe [Louisiana Department of Insurance's flood insurance guidance](https://www.ldi.la.gov/consumers/insurance-type/flood) explains that homeowners can obtain coverage through the National Flood Insurance Program and private insurance providers.\n\nCertain mortgage lenders require flood coverage for properties located in designated high-risk areas.\n\nHowever, flooding can also occur outside those areas.\n\nInvestigate the property's location using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) and obtain an insurance quote before purchasing.\n\nAdd the annual flood insurance premium to your calculator inputs where applicable.\n\n### Wind mitigation discounts\n\nSome homeowners may qualify for insurance discounts after making improvements that strengthen their homes against severe weather.\n\nThe [Louisiana Department of Insurance's wind mitigation guidance](https://ldi.la.gov/consumers/insurance-type/homeowners/storm-mitigation-incentives) explains inspection and certification requirements.\n\nAsk your insurer whether documented roof or structural improvements qualify for premium reductions before assuming those savings in your budget."
+        }
+      ]
+    },
+    {
+      "heading": "Louisiana Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$215,000",
+              "$43,000",
+              "$172,000",
+              "$1,031.23"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, flood insurance, PMI and association fees.\n\nBecause insurance expenses can vary considerably across Louisiana, compare complete housing payments rather than relying solely on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Louisiana First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Louisiana Housing Corporation, commonly called LHC, administers homeownership financing and assistance programs through participating lenders.\n\nSeveral programs were updated in September 2026, making older mortgage assistance guides potentially outdated.\n\n### HomeStart Assist\n\nThe [Louisiana HomeStart Assist program](https://www.lhc.la.gov/homestartassist) combines an eligible fixed-rate first mortgage with assistance equal to 4% of the original first mortgage principal.\n\nThe assistance is structured as an interest-free second mortgage that can be fully forgiven after 60 months when program conditions are satisfied.\n\nThe program primarily serves eligible first-time buyers and requires a minimum credit score of 640.\n\nIncome limits, property eligibility and homebuyer education requirements also apply.\n\nHomeStart Assist replaces the former MRB Assisted arrangement for new reservations under the updated program.\n\n### HomeStart Advantage\n\nThe [HomeStart Advantage program](https://www.lhc.la.gov/homestartadvantage) also offers 4% assistance through a zero-interest second mortgage that can be forgiven after 60 months.\n\nUnlike HomeStart Assist, applicants do not necessarily need to be first-time homebuyers. However, borrowers cannot own another residence at closing.\n\nThe published household income ceiling is $125,000, and the minimum credit score is 640.\n\nThis program replaces the former Keys for Service arrangement for applicable new reservations.\n\nConfirm current funding, mortgage requirements and forgiveness conditions with an approved lender."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Louisiana Buyers",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages offer financing arrangements for borrowers who meet lender credit and income requirements.\n\nFHA-insured financing may help eligible households with limited down payment savings.\n\nVeterans and qualifying military borrowers can investigate [VA home loans](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering eligible rural communities may also explore [USDA Rural Development housing programs](https://www.rd.usda.gov/).\n\nCompare mortgage insurance requirements, upfront fees and property eligibility when choosing a financing option."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Louisiana Home",
+      "blocks": [
+        {
+          "markdown": "Homebuyers should investigate property drainage, foundation condition, roof age and previous flood damage before purchasing.\n\nProperties in coastal or flood-prone areas may require additional maintenance and specialized insurance.\n\nRequest information about the property's elevation, historical flooding and previous repairs. A professional inspection can help identify foreseeable expenses.\n\nMaintain an emergency fund for insurance deductibles, storm-related repairs and temporary accommodation if necessary.\n\nOur [Emergency Fund Calculator](/savings/emergency-fund-calculator/) can help you establish an appropriate savings target alongside your proposed mortgage expenses."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Louisiana?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing debt payments, groceries, transportation, utilities and savings contributions.\n\nUse our [Louisiana Paycheck Calculator](/calculators/louisiana-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to assess existing borrowing obligations.\n\nAllow room for potential insurance premium increases and unexpected property repairs.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) when comparing mortgage offers.\n\nA property with a manageable purchase price may still be unaffordable if its insurance and maintenance requirements place excessive pressure on your budget."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $215,000 Louisiana home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,031.23 per month. Property taxes, insurance and other applicable expenses increase the total housing payment.\n\n### How does Louisiana's homestead exemption work?\n\nQualifying homeowners may receive an exemption on the first $7,500 of assessed property value, generally equivalent to $75,000 in residential market value. Its application depends on eligible tax levies and local rules.\n\n### Does Louisiana offer forgivable down payment assistance?\n\nYes. HomeStart Assist and HomeStart Advantage provide eligible borrowers with assistance equal to 4% of qualifying first mortgage principal. The second mortgage can be forgiven after five years if applicable program conditions are satisfied."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Louisiana Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Louisiana mortgage calculator to compare financing options before purchasing a property.\n\nInclude accurate parish property taxes, homeowners insurance and any additional flood or windstorm coverage. Estimating the complete cost of homeownership can help you select a Louisiana property that supports your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

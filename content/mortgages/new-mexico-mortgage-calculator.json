@@ -1,0 +1,248 @@
+{
+  "intro": [
+    "A $250,000 home in Albuquerque and a similarly priced property near Santa Fe could have different monthly ownership costs, even if both buyers receive identical mortgage rates. Property taxes, insurance availability, association fees and maintenance requirements can make a considerable difference.",
+    "Our free New Mexico mortgage calculator helps you estimate these expenses before purchasing a property. Enter your home price, down payment, interest rate and loan term, then include taxes and insurance to determine whether your proposed mortgage fits your household budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in New Mexico?",
+      "blocks": [
+        {
+          "markdown": "A $250,000 New Mexico home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,199.10.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$250,000"
+            ],
+            [
+              "Down payment",
+              "$50,000"
+            ],
+            [
+              "Loan amount",
+              "$200,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,199.10"
+            ],
+            [
+              "Monthly property taxes",
+              "$150"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,499.10"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. The interest rate, taxes and insurance premiums are illustrative, not current statewide averages or lender offers."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the New Mexico Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's New Mexico housing statistics](https://www.census.gov/quickfacts/fact/table/NM/HSG445224), the median value of owner-occupied homes was $248,100 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,564, while the homeownership rate was 70%.\n\nThese figures provide historical context rather than current purchase prices.\n\nHousing markets in Albuquerque, Santa Fe, Las Cruces, Farmington and smaller communities can differ considerably. Properties near major employment centers may have higher purchase prices, while rural properties can involve additional infrastructure and transportation expenses.\n\nResearch recent comparable property sales before choosing a home price for the calculator. Investigate insurance availability early, especially when considering homes in areas exposed to wildfires."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the New Mexico Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Begin by entering the property's expected purchase price and your available down payment.\n\nChoose your repayment period and provide the annual interest rate offered by your lender. If you have not received a quote, [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) provides a national reference.\n\nEnter annual property taxes, homeowners insurance and monthly association fees. Include private mortgage insurance if required by your conventional loan.\n\nReview the estimated monthly housing payment and its individual components.\n\nAdjust your down payment, interest rate or loan term to compare different borrowing arrangements. The amortization schedule shows how much of each payment goes toward interest and reducing your loan balance.\n\nUse our national Mortgage Calculator if you also want to compare financing options outside New Mexico."
+        }
+      ]
+    },
+    {
+      "heading": "How New Mexico Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "New Mexico property taxes involve property valuations, statutory assessment ratios, local mill levies and applicable exemptions.\n\nThe [New Mexico Taxation and Revenue Department](https://www.tax.newmexico.gov/individuals/personal-income-tax-information-overview/property-tax/) explains that properties are valued annually as of January 1. County assessors generally issue valuation notices around April 1.\n\nThese notices provide information about property values and taxable assessments.\n\n### New Mexico residential property assessment ratio\n\nNew Mexico generally calculates taxable property value by dividing the applicable full property value by three.\n\nFor example, a property with a full value of $250,000 would have a taxable value of approximately $83,333 before exemptions.\n\nLocal mill levies are applied to the net taxable value after eligible exemptions are considered.\n\nThe one-third ratio is not the percentage of your property's market value that you pay annually in taxes.\n\n### New Mexico property tax calculation example\n\nSuppose a property has a full value of $250,000 and qualifies for the $2,000 head-of-family exemption.\n\nAssume a hypothetical combined local tax rate of 22 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Full property value",
+              "$250,000"
+            ],
+            [
+              "Taxable value before exemptions",
+              "$83,333.33"
+            ],
+            [
+              "Head-of-family exemption",
+              "$2,000"
+            ],
+            [
+              "Net taxable value",
+              "$81,333.33"
+            ],
+            [
+              "Illustrative mill levy",
+              "22 mills"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$1,789.33"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$149.11"
+            ]
+          ]
+        },
+        {
+          "markdown": "The [Los Alamos County Assessor's property tax guidance](https://www.losalamosnm.gov/Government/Departments-offices/Assessor-Office/Assessor-FAQs) explains the relationship between full value, taxable value and exemptions.\n\nActual tax liabilities depend on the property's jurisdiction and applicable charges.\n\n### Residential property valuation limitations\n\nNew Mexico generally limits qualifying residential property valuation increases through statutory assessment restrictions.\n\nThese rules commonly involve a 3% annual limitation, although exceptions and additional provisions apply.\n\nA qualifying ownership transfer can remove the valuation limitation for the following tax year. Physical improvements may also affect the applicable valuation.\n\nConsequently, a seller's existing tax bill may underestimate your future expenses. Request a post-purchase estimate from the county assessor rather than assuming the previous owner's valuation will remain unchanged.\n\n### Property tax exemptions\n\nThe head-of-family exemption reduces qualifying taxable property value by up to $2,000.\n\nAdditional exemptions or valuation protections may be available to eligible veterans, older homeowners and individuals with qualifying disabilities.\n\nThese benefits have specific eligibility requirements. Confirm them with your county assessor before reducing your estimated annual taxes."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in New Mexico",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on the property's construction, replacement cost, location, condition and environmental exposure.\n\nNew Mexico homeowners may face wildfires, hailstorms, strong winds and flash flooding.\n\nObtain written insurance quotes before committing to a purchase.\n\n### Wildfire insurance and the New Mexico FAIR Plan\n\nProperties near forests, grasslands and mountainous regions may have additional insurance requirements.\n\nThe [New Mexico Office of the Superintendent of Insurance](https://osi.state.nm.us/en/consumer-assistance/insurance-types/home-insurance/) provides information about wildfire preparedness and the New Mexico FAIR Plan.\n\nThe FAIR Plan is a last-resort insurance option for eligible property owners who cannot obtain suitable coverage through the ordinary insurance market.\n\nIts coverage is limited and generally based on actual cash value rather than full replacement cost. Confirm that the available policy satisfies your lender's insurance requirements.\n\n### Flood insurance\n\nNew Mexico's dry climate does not eliminate flood risk. Intense rainfall and runoff near wildfire burn areas can damage residential properties.\n\nStandard homeowners insurance generally excludes flooding.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate your property's flood exposure.\n\nInclude additional flood insurance premiums when estimating your complete housing payment."
+        }
+      ]
+    },
+    {
+      "heading": "New Mexico Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude taxes, insurance, PMI and association fees."
+        }
+      ]
+    },
+    {
+      "heading": "New Mexico First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Housing New Mexico, also known as the New Mexico Mortgage Finance Authority, offers financing through participating lenders.\n\n### FirstHome and FirstDown\n\nThe [Housing New Mexico mortgage programs](https://housingnm.org/individuals-and-families/homebuyers/mortgage-programs) include FirstHome, a primary mortgage for qualifying first-time buyers with low or moderate incomes.\n\nFirstDown provides additional financing for down payment and closing expenses through a fixed-rate second mortgage.\n\nInclude any required second mortgage payment when calculating total monthly housing expenses.\n\nApplicants generally need a minimum credit score of 620 and approved homebuyer counseling.\n\n### FirstDown Plus and HomeNow\n\nFirstDown Plus offers additional down payment financing for eligible borrowers already using FirstHome and FirstDown. It creates a third mortgage obligation.\n\nHomeNow provides qualifying lower-income first-time buyers with interest-free secondary financing that may be forgiven after ten years when applicable requirements are satisfied.\n\nReview repayment conditions carefully before accepting assistance.\n\n### Housing New Mexico purchase price limits\n\nThe official [income and purchase price limits](https://housingnm.org/individuals-and-families/homebuyers/income-and-purchase-price-limits), effective July 27, 2026, include:"
+        },
+        {
+          "columns": [
+            "Location",
+            "Standard purchase price limit"
+          ],
+          "rows": [
+            [
+              "Los Alamos County",
+              "$724,361"
+            ],
+            [
+              "Santa Fe County",
+              "$595,612"
+            ],
+            [
+              "Other areas",
+              "$566,354"
+            ]
+          ]
+        },
+        {
+          "markdown": "Different limits may apply in designated targeted areas. Household income restrictions also vary by location and family size.\n\nConfirm current eligibility and funding with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Comparing Mortgage Terms in New Mexico",
+      "blocks": [
+        {
+          "markdown": "A shorter repayment period can reduce lifetime borrowing costs, although monthly payments will increase.\n\nFor a $200,000 mortgage at 6% interest, a 15-year repayment period requires approximately $1,687.71 monthly in principal and interest.\n\nThe equivalent 30-year mortgage requires approximately $1,199.10 monthly.\n\nThe shorter term increases monthly principal and interest by about $488.61 but reduces the number of years over which interest accrues.\n\nUse the calculator's amortization schedule to compare total interest expenses before choosing a repayment term."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a New Mexico Home",
+      "blocks": [
+        {
+          "markdown": "Rural properties may require private well maintenance, septic system servicing and access road repairs.\n\nInvestigate water availability and associated expenses before purchasing. Older adobe or stucco homes may also have distinctive maintenance requirements.\n\nRequest historical utility bills and arrange a professional inspection.\n\nUse our [New Mexico Paycheck Calculator](/calculators/new-mexico-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing obligations.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient savings for closing expenses, maintenance and insurance deductibles."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $250,000 New Mexico home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,199.10 monthly. Taxes, insurance and applicable fees increase your total housing payment.\n\n### How are New Mexico property taxes calculated?\n\nThe applicable full property value is generally divided by three to determine taxable value. Eligible exemptions are deducted, and local mill levies are applied to the remaining taxable value.\n\n### Does New Mexico offer down payment assistance?\n\nYes. Housing New Mexico offers programs including FirstDown, FirstDown Plus and HomeNow. Eligibility, repayment obligations and forgiveness conditions vary between financing arrangements."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your New Mexico Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our New Mexico mortgage calculator to compare purchase prices, down payments, interest rates and repayment periods.\n\nReplace illustrative expenses with verified property tax information and insurance quotes. Understanding the complete cost of owning a home can help you establish a sustainable purchase budget."
+        }
+      ]
+    }
+  ]
+}

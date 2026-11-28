@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Buying a home in Nevada involves more than comparing purchase prices and mortgage rates. Property taxes, homeowners insurance, association fees and recurring household expenses can significantly affect how much you need to budget each month.",
+    "Our free Nevada mortgage calculator estimates your monthly housing payment using your home price, down payment, interest rate and repayment period. Whether you're purchasing in Las Vegas, Henderson, Reno, Carson City or another Nevada community, use the calculator to compare financing options before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Nevada?",
+      "blocks": [
+        {
+          "markdown": "A $435,000 Nevada home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,086.44.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$435,000"
+            ],
+            [
+              "Down payment",
+              "$87,000"
+            ],
+            [
+              "Loan amount",
+              "$348,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,086.44"
+            ],
+            [
+              "Monthly property taxes",
+              "$225"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Monthly HOA fees",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,561.44"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance. Interest rates, taxes, insurance premiums and association fees are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Nevada Housing Market",
+      "blocks": [
+        {
+          "markdown": "Nevada offers housing opportunities across metropolitan neighborhoods, master-planned communities, mountain towns and rural areas.\n\nAccording to the [US Census Bureau's Nevada QuickFacts](https://www.census.gov/quickfacts/fact/table/NV/POP060220), the median value of owner-occupied housing was $435,400 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $1,932, while approximately 60% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context but do not represent current property asking prices. Existing homeowners may have purchased their properties years earlier at different interest rates and prices.\n\nHousing expenses in southern Nevada can differ considerably from those in northern Nevada. Properties near Reno and Lake Tahoe may also present different insurance and maintenance considerations.\n\nResearch comparable property sales within your preferred neighborhood before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Nevada Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nSelect your preferred repayment period and enter the annual interest rate quoted by your lender.\n\nIf you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, include annual property taxes, homeowners insurance premiums and monthly association fees.\n\nAdd private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly housing payment and experiment with different purchase prices, loan terms and down payments.\n\nThe amortization schedule shows how your remaining mortgage balance changes over time and how much interest you could pay.\n\nUse our national Mortgage Calculator to compare financing arrangements outside Nevada."
+        }
+      ]
+    },
+    {
+      "heading": "How Nevada Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Nevada calculates property taxes using a system involving taxable property values, assessed values, local tax district rates and applicable abatements.\n\nUnderstanding these distinctions can help you avoid overestimating or underestimating your future property tax liability.\n\n### Nevada taxable and assessed property values\n\nAccording to the [Clark County Assessor's real property guidance](https://www.clarkcountynv.gov/government/assessor/real-property), taxable value generally combines the market value of the land with the replacement cost of improvements, adjusted for statutory depreciation.\n\nThe assessor's taxable value may therefore differ from the property's purchase price.\n\nNevada then applies a statutory assessment ratio of 35% to taxable value.\n\nFor example, if a property's taxable value is $350,000, its assessed value would be $122,500.\n\nApplicable tax district rates are applied to this assessed amount.\n\n### Nevada property tax calculation example\n\nSuppose you purchase a home for $435,000, and the county assessor establishes a taxable value of $350,000.\n\nAssume a hypothetical combined tax rate of $3 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home purchase price",
+              "$435,000"
+            ],
+            [
+              "Assessor's taxable value",
+              "$350,000"
+            ],
+            [
+              "Assessment ratio",
+              "35%"
+            ],
+            [
+              "Assessed value",
+              "$122,500"
+            ],
+            [
+              "Illustrative tax rate per $100",
+              "$3"
+            ],
+            [
+              "Annual property taxes before abatements",
+              "$3,675"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$306.25"
+            ]
+          ]
+        },
+        {
+          "markdown": "The property's actual tax liability may be lower because of applicable abatements.\n\nConsult the [Washoe County Assessor's valuation guidance](https://www.washoecounty.gov/assessor/real_property/UnderstandingYourValueNotice.php) or your relevant county assessor for property-specific information.\n\n### Nevada's 3% property tax cap\n\nNevada provides a partial property tax abatement for qualifying owner-occupied primary residences. This generally limits eligible annual property tax increases to 3%, subject to statutory exceptions.\n\nThe restriction concerns the amount of tax payable, not annual increases in property market value or the underlying tax rate.\n\nFor example, if a qualifying property's previous annual tax bill was $2,700, a fully applicable 3% limitation would generally produce a maximum of $2,781 for the covered tax liability the following year.\n\nNew construction, classification changes and other statutory circumstances can affect the calculation.\n\nThe [Washoe County Assessor's tax cap explanation](https://www.washoecounty.gov/assessor/faq/TC_Is_MyTax_Rate_Capped.php) provides additional clarification.\n\nConfirm the property's abatement classification and any required declarations before using the previous owner's tax bill as your estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Nevada",
+      "blocks": [
+        {
+          "markdown": "Homeowners insurance premiums depend on the property's location, construction, condition, rebuilding cost and environmental exposure.\n\nThe [Nevada Division of Insurance's homeowners insurance guide](https://doi.nv.gov/Consumers/Homeowners_Insurance/Homeowners__Insurance/) explains how these factors influence premiums and coverage.\n\nObtain property-specific quotes before finalizing your purchase.\n\n### Wildfire insurance considerations\n\nProperties near forests, grasslands and mountainous areas may face additional wildfire exposure.\n\nAsk insurers whether your property's location affects coverage availability, premiums or required mitigation measures.\n\nInvestigate the condition of roofing materials, surrounding vegetation and emergency access.\n\nDo not assume that every homeowners insurance provider will offer identical coverage for a high-risk property.\n\n### Flood and earthquake insurance\n\nNevada's dry climate does not eliminate flood risk. Heavy rainfall, snowmelt and changing drainage conditions can produce flooding.\n\nThe [Nevada Division of Insurance's flood insurance guidance](https://doi.nv.gov/Flood-Insurance/) explains that ordinary homeowners insurance excludes flood damage.\n\nStandard policies also generally exclude earthquakes.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood exposure.\n\nInclude any additional insurance premiums in your annual mortgage estimate without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Nevada Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$435,000",
+              "$87,000",
+              "$348,000",
+              "$2,086.44"
+            ],
+            [
+              "$550,000",
+              "$110,000",
+              "$440,000",
+              "$2,638.02"
+            ],
+            [
+              "$700,000",
+              "$140,000",
+              "$560,000",
+              "$3,357.48"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, mortgage insurance and association fees.\n\nUse the complete calculator to compare monthly housing expenses rather than principal and interest alone."
+        }
+      ]
+    },
+    {
+      "heading": "Nevada First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Nevada Housing Division offers mortgage financing and purchase assistance through participating lenders.\n\n### Home Is Possible for First-Time Homebuyers\n\nThe [Home Is Possible First-Time Homebuyer program](https://www.homeispossiblenv.org/home-possible-program) provides eligible buyers with down payment and closing cost assistance of up to 4% of their qualifying mortgage amount.\n\nThe assistance is structured as an interest-free, non-forgivable second mortgage with a 30-year term.\n\nApplicants generally must not have owned a home during the previous three years. Credit score, income, property eligibility and homebuyer education requirements also apply.\n\n### Home Is Possible for repeat buyers\n\nThe standard [Home Is Possible program](https://www.homeispossiblenv.org/home-possible) offers assistance of up to 5% of the qualifying mortgage amount.\n\nApplicants do not necessarily need to be first-time homebuyers.\n\nThe published program requirements include qualifying income of up to $165,000 and a maximum purchase price of $832,750, subject to loan-specific restrictions.\n\nFor example, 5% assistance on an eligible $348,000 first mortgage would amount to $17,400.\n\nThis financing can reduce upfront cash requirements but should not be treated as an unconditional grant.\n\nCompare assistance-based financing with ordinary mortgage offers and confirm repayment requirements with an approved lender."
+        }
+      ]
+    },
+    {
+      "heading": "HOA Fees and Additional Homeownership Costs in Nevada",
+      "blocks": [
+        {
+          "markdown": "Buyers considering master-planned communities or condominiums should investigate recurring association fees before purchasing.\n\nSome properties may have both neighborhood association dues and master association fees.\n\nRequest the complete fee schedule, review reserve funds and investigate potential special assessments.\n\nSouthern Nevada homeowners should also account for summer cooling expenses, water consumption, landscaping and swimming pool maintenance.\n\nProperties in northern Nevada may require additional winter heating, snow removal and weather-related maintenance.\n\nThese expenses are not automatically included in the calculator's mortgage estimate. Add them separately when establishing your broader household budget."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Nevada?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nNevada does not impose an individual state income tax, but federal income taxes and applicable payroll deductions still reduce take-home earnings.\n\nOur [Nevada Paycheck Calculator](/calculators/nevada-paycheck-calculator/) can help estimate after-tax income, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing borrowing commitments.\n\nAllow sufficient room for insurance deductibles, utilities, transportation, groceries and emergency savings.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nChoose a property whose complete housing expenses remain manageable alongside your other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $435,000 Nevada home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,086.44. Property taxes, homeowners insurance and applicable fees increase the total housing payment.\n\n### Does Nevada limit property tax increases to 3%?\n\nQualifying owner-occupied primary residences generally benefit from a 3% annual property tax abatement limitation. Statutory exceptions apply, and the limitation is not a universal property tax rate.\n\n### Does Nevada offer down payment assistance?\n\nYes. The Nevada Housing Division's Home Is Possible programs provide qualifying borrowers with assistance of up to 4% or 5% of their mortgage amount, depending on the selected program. Eligibility and repayment requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Nevada Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Nevada mortgage calculator to compare purchase prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes, insurance premiums and association fees with verified property-specific figures. Understanding your complete housing expenses can help you select a Nevada property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

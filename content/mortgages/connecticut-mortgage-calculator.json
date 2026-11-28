@@ -1,0 +1,258 @@
+{
+  "intro": [
+    "Buying a home in Connecticut requires careful consideration of property taxes, mortgage rates and ongoing household expenses. Even homes with similar purchase prices can have considerably different monthly payments depending on their location.",
+    "Our free Connecticut mortgage calculator helps you estimate your monthly housing payment, including principal, interest, property taxes, homeowners insurance and applicable mortgage insurance. Whether you are purchasing in Hartford, New Haven, Stamford or a smaller Connecticut town, use the calculator to compare financing options before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Connecticut?",
+      "blocks": [
+        {
+          "markdown": "A $370,000 Connecticut home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,774.67.\n\nAdding illustrative taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$370,000"
+            ],
+            [
+              "Down payment",
+              "$74,000"
+            ],
+            [
+              "Loan amount",
+              "$296,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,774.67"
+            ],
+            [
+              "Monthly property taxes",
+              "$600"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,524.67"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no HOA fees or private mortgage insurance. The tax and insurance amounts are hypothetical and should be replaced with property-specific estimates."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Connecticut Housing Market",
+      "blocks": [
+        {
+          "markdown": "Connecticut's housing market includes commuter communities near New York City, established urban neighborhoods, suburban developments and rural towns.\n\nAccording to the [US Census Bureau's Connecticut QuickFacts](https://www.census.gov/quickfacts/fact/table/CT/HSG860221), the median value of owner-occupied housing was $366,900 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $2,429, while the owner-occupied housing rate was 66.5%.\n\nThese figures provide a historical benchmark for understanding housing costs. However, they do not indicate the current market price of a particular property.\n\nBuyers in Fairfield County may encounter different purchase prices and ownership expenses from those considering communities around Hartford or eastern Connecticut.\n\nReview recent comparable property sales and obtain local tax information before selecting a home price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Connecticut Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of the property, followed by your available down payment.\n\nSelect your preferred repayment term and enter the annual mortgage interest rate quoted by your lender.\n\nTo improve the accuracy of your estimate, include annual property taxes, homeowners insurance premiums, applicable private mortgage insurance and monthly association fees.\n\nThe calculator combines these expenses to estimate your monthly housing costs.\n\nExperiment with different down payments and repayment periods to identify financing arrangements that fit your budget.\n\nUse the amortization schedule to understand how much of your payment reduces the loan balance and how much goes toward interest."
+        }
+      ]
+    },
+    {
+      "heading": "How Connecticut Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Property taxes are especially important when comparing homes in Connecticut because individual municipalities determine their local tax rates.\n\nRather than applying one statewide property tax percentage to every home, Connecticut calculates taxes using assessed property values and locally established mill rates.\n\n### Connecticut's 70% assessment ratio\n\nUnder [Connecticut General Statutes Section 12-62a](https://www.cga.ct.gov/2025/pub/chap_203.htm), municipalities generally assess property at 70% of its true and actual value for local taxation purposes.\n\nFor example, a home with a municipal valuation of $370,000 would generally have an assessed value of $259,000.\n\nThe municipality then applies its mill rate to determine the annual tax liability.\n\n### Understanding Connecticut mill rates\n\nOne mill represents one dollar in tax for every $1,000 of assessed property value.\n\nThe [Connecticut Office of Policy and Management's mill rate directory](https://portal.ct.gov/OPM/IGPP/Publications/Mill-Rates) publishes municipal tax rate information.\n\nThe basic formula is:\n\nAnnual property tax = Assessed value × Mill rate ÷ 1,000\n\nConsider a $370,000 home with a hypothetical municipal valuation equal to its purchase price."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Municipal property valuation",
+              "$370,000"
+            ],
+            [
+              "Assessment ratio",
+              "70%"
+            ],
+            [
+              "Assessed value",
+              "$259,000"
+            ],
+            [
+              "Illustrative mill rate",
+              "28 mills"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$7,252"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$604.33"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example demonstrates why using an appropriate local mill rate is important.\n\n### Comparing property taxes between Connecticut towns\n\nSuppose two properties have identical assessed values of $259,000 but different hypothetical mill rates."
+        },
+        {
+          "columns": [
+            "Mill rate",
+            "Annual property tax",
+            "Monthly equivalent"
+          ],
+          "rows": [
+            [
+              "20 mills",
+              "$5,180",
+              "$431.67"
+            ],
+            [
+              "25 mills",
+              "$6,475",
+              "$539.58"
+            ],
+            [
+              "30 mills",
+              "$7,770",
+              "$647.50"
+            ],
+            [
+              "35 mills",
+              "$9,065",
+              "$755.42"
+            ],
+            [
+              "40 mills",
+              "$10,360",
+              "$863.33"
+            ]
+          ]
+        },
+        {
+          "markdown": "The difference between the lowest and highest examples exceeds $430 per month.\n\nAlways confirm the applicable municipal and special district charges before comparing properties.\n\n### Property revaluation\n\nConnecticut municipalities generally conduct property revaluations every five years.\n\nThe state's [municipal revaluation schedule](https://portal.ct.gov/OPM/IGPP/Publications/Revaluation-Date-by-Municipality) identifies when communities are scheduled to update property valuations.\n\nA higher assessment does not automatically produce an equivalent percentage increase in your tax bill because mill rates may also change.\n\nAsk the municipal assessor about upcoming revaluations when evaluating your future ownership costs."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Connecticut",
+      "blocks": [
+        {
+          "markdown": "Homeowners insurance premiums depend on property location, building materials, replacement costs, coverage limits and deductibles.\n\nProperties near Long Island Sound may face different insurance requirements from homes farther inland.\n\n### Coastal flooding and storm damage\n\nCoastal properties can be exposed to storm surge and flooding. Inland properties may also experience flooding during periods of heavy rainfall.\n\nThe [Connecticut Insurance Department's hurricane guidance](https://portal.ct.gov/cid/consumer-information-center/hurricanes-and-tropical-storms) explains the importance of checking wind coverage, hurricane deductibles and flood insurance.\n\nStandard homeowners policies generally exclude flooding.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood exposure and obtain appropriate insurance quotes.\n\n### Insurance for older Connecticut homes\n\nOlder houses may have roofing, plumbing, electrical or heating systems that require additional maintenance.\n\nBefore purchasing, ask insurers whether the age or condition of these systems affects coverage eligibility.\n\nAn inspection may also identify repairs that should be included in your homebuying budget."
+        }
+      ]
+    },
+    {
+      "heading": "Connecticut Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$370,000",
+              "$74,000",
+              "$296,000",
+              "$1,774.67"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ]
+          ]
+        },
+        {
+          "markdown": "These payments exclude property taxes, insurance, PMI and association fees.\n\nUse the complete calculator to compare the actual monthly ownership expenses associated with different properties."
+        }
+      ]
+    },
+    {
+      "heading": "Connecticut First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Connecticut Housing Finance Authority, known as CHFA, provides financing and assistance programs through participating mortgage lenders.\n\n### Down Payment Assistance Program\n\nThe [CHFA Down Payment Assistance Program](https://www.chfa.org/homebuyers-homeowners/homebuyers/downpayment-assistance-program-dap-loan/) offers qualifying buyers financing of up to $15,000 toward eligible home purchase expenses.\n\nThe assistance takes the form of a repayable second mortgage.\n\nBorrowers must qualify for an eligible CHFA first mortgage and demonstrate their ability to repay the financing.\n\nInclude the additional loan payment when assessing your total monthly housing expenses.\n\n### Time To Own program\n\nThe [Time To Own assistance program](https://www.chfa.org/homebuyers-homeowners/homebuyers/time-to-own-down-payment-assistance-program-loan/) provides eligible borrowers with forgivable financing of up to $25,000.\n\nThe loan carries no interest or scheduled monthly payment, and 10% of its principal is forgiven annually over ten years, subject to program conditions.\n\nApplicants generally must meet Connecticut residency, mortgage qualification and other eligibility requirements.\n\nFunding is limited. Confirm current availability before relying on this assistance.\n\n### Next Move mortgage program\n\nThe [CHFA Next Move program](https://www.chfa.org/homebuyers-homeowners/homebuyers/next-move-with-deferred-dpa-program-/) provides another option for qualifying first-time and repeat homebuyers.\n\nEligible applicants may access deferred down payment assistance of up to 3.5% of their first mortgage amount.\n\nCompare the first mortgage rate, assistance terms and repayment obligations against other financing offers."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Connecticut Home",
+      "blocks": [
+        {
+          "markdown": "Mortgage payments do not capture every household expense.\n\nConnecticut homeowners should consider winter heating costs, property maintenance, snow removal, utilities and potential repairs.\n\nIf a property uses heating oil or an older heating system, request historical fuel bills before purchasing.\n\nBuyers commuting to employment centers should also account for transportation expenses, including rail fares, parking or vehicle costs.\n\nCondominium buyers should examine association budgets, insurance arrangements and potential special assessments.\n\nThese expenses can affect affordability even when the advertised mortgage payment appears reasonable."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Connecticut?",
+      "blocks": [
+        {
+          "markdown": "Begin with your reliable monthly take-home pay rather than your gross annual salary.\n\nUse our [Connecticut Paycheck Calculator](/calculators/connecticut-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate your existing debt obligations.\n\nAllow enough room in your budget for property taxes, insurance, household expenses, emergency savings and retirement contributions.\n\nCompare lender offers using the [CFPB's homebuying resources](https://www.consumerfinance.gov/owning-a-home/) before committing to financing."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $370,000 Connecticut home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,774.67. Local property taxes and insurance can substantially increase the total payment.\n\n### How do Connecticut municipalities calculate property taxes?\n\nMunicipalities generally assess residential property at 70% of its applicable valuation and multiply that assessment by the local mill rate divided by 1,000. Actual bills may include additional charges or adjustments.\n\n### Does Connecticut offer forgivable down payment assistance?\n\nYes. The CHFA Time To Own program offers eligible borrowers forgivable financing of up to $25,000, subject to program requirements and available funding. Confirm eligibility with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Estimate Your Connecticut Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use the Connecticut mortgage calculator to compare homes, financing options and local property tax expenses before making a purchase decision.\n\nA realistic estimate based on property-specific taxes and insurance can help you establish a more sustainable homeownership budget."
+        }
+      ]
+    }
+  ]
+}

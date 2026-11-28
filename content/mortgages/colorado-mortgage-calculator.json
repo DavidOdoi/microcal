@@ -1,0 +1,245 @@
+{
+  "intro": [
+    "From metropolitan Denver to Colorado Springs and the state's mountain communities, buying a Colorado home involves expenses beyond the advertised purchase price.",
+    "Our free Colorado mortgage calculator helps you estimate monthly mortgage payments, property taxes, homeowners insurance and other recurring housing costs. Adjust your down payment, interest rate and loan term to compare properties and establish a homebuying budget that reflects your financial circumstances."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Colorado?",
+      "blocks": [
+        {
+          "markdown": "A $540,000 home purchased with a 20% down payment and a 30-year fixed-rate mortgage at 6% would have a monthly principal and interest payment of approximately $2,590.06.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$540,000"
+            ],
+            [
+              "Down payment",
+              "$108,000"
+            ],
+            [
+              "Loan amount",
+              "$432,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,590.06"
+            ],
+            [
+              "Monthly property taxes",
+              "$300"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$250"
+            ],
+            [
+              "Monthly HOA fees",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$3,240.06"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures assume no private mortgage insurance. The taxes, interest rate, insurance and association fees are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Colorado Housing Market",
+      "blocks": [
+        {
+          "markdown": "Colorado's housing market covers large metropolitan areas, growing suburban communities, agricultural regions and mountain destinations.\n\nThe [US Census Bureau's Colorado housing statistics](https://www.census.gov/quickfacts/fact/table/CO/HSG495224) show that the median value of owner-occupied homes was $539,400 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs for homeowners with mortgages were $2,326, while the owner-occupied housing rate was 66.2%.\n\nThese historical figures provide a general picture of housing affordability, but they should not replace recent neighborhood-level property research.\n\nHomes in Boulder or popular mountain destinations can have different prices and ownership costs from properties in Pueblo or smaller communities on the Eastern Plains.\n\nCompare similar properties in your intended area and use realistic purchase prices when completing the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Colorado Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the purchase price of the home you are considering. Add your expected down payment in dollars or as a percentage of the property's price.\n\nChoose a repayment period and enter the annual mortgage interest rate offered by your lender.\n\nFor a more accurate estimate, enter annual property taxes, homeowners insurance premiums and monthly association fees.\n\nIf your conventional mortgage requires private mortgage insurance, include that expense as well.\n\nReview your estimated monthly payment and the amortization schedule. Changing your down payment or interest rate allows you to compare the financial effects of different borrowing arrangements.\n\nUse our national Mortgage Calculator if you are also considering properties outside Colorado."
+        }
+      ]
+    },
+    {
+      "heading": "How Colorado Property Taxes Are Calculated",
+      "blocks": [
+        {
+          "markdown": "Colorado property taxes are imposed by local taxing authorities rather than through a uniform statewide property tax.\n\nThe amount you owe depends on the property's actual value, applicable statutory adjustments, assessment rates and local mill levies.\n\nAccording to the [Colorado General Assembly's property tax overview](https://content.leg.colorado.gov/publications/property-taxes-colorado), property taxation supports local government services and school districts.\n\nImportantly, Colorado introduced separate residential assessment rates for school district taxes and other local government taxes beginning with the 2025 tax year.\n\n### Colorado residential assessment rates for 2026\n\nThe [Boulder County Assessor's property tax calculation guide](https://bouldercounty.gov/property-and-land/assessor/assessment/tax-calculation/) lists the following residential assessment rates for tax year 2026, generally payable in 2027:\n\n- School district assessment rate: 7.05%.\n- Other local government assessment rate: 6.8%.\n- Local government value adjustment: 10% of the first $700,000 of actual property value.\n\nThese are assessment rates, not effective tax rates applied directly to your purchase price.\n\n### Colorado property tax calculation example\n\nConsider a residential property with an assessor-determined actual value of $540,000.\n\nAssume a school district levy of 30 mills and a combined other local government levy of 50 mills. These levies are hypothetical."
+        },
+        {
+          "columns": [
+            "Calculation",
+            "School district",
+            "Other local government"
+          ],
+          "rows": [
+            [
+              "Actual property value",
+              "$540,000",
+              "$540,000"
+            ],
+            [
+              "Applicable value reduction",
+              "$0",
+              "$54,000"
+            ],
+            [
+              "Value used for assessment",
+              "$540,000",
+              "$486,000"
+            ],
+            [
+              "Assessment rate",
+              "7.05%",
+              "6.8%"
+            ],
+            [
+              "Assessed value",
+              "$38,070",
+              "$33,048"
+            ],
+            [
+              "Illustrative mill levy",
+              "30",
+              "50"
+            ],
+            [
+              "Annual tax",
+              "$1,142.10",
+              "$1,652.40"
+            ]
+          ]
+        },
+        {
+          "markdown": "The combined estimated annual tax would be $2,794.50, or approximately $232.88 per month.\n\nActual taxes can differ because of local levies, exemptions and other applicable rules. Consult your county assessor before relying on this calculation.\n\nThe [Colorado Property Tax Map](https://gis.colorado.gov/proptaxmap/) provides additional resources for investigating local taxation."
+        }
+      ]
+    },
+    {
+      "heading": "Metropolitan District Taxes in Colorado",
+      "blocks": [
+        {
+          "markdown": "Homebuyers considering newer residential developments should investigate whether a property belongs to a metropolitan district.\n\nThese districts can finance roads, utilities and other public infrastructure. Their obligations may contribute additional mill levies to the property's annual tax bill.\n\nTwo homes with comparable purchase prices may therefore have different property tax expenses.\n\nAsk the seller or developer for information about applicable district charges and outstanding financial obligations. Review the property's complete tax assessment rather than assuming that all developments in the same city have similar tax rates.\n\nDo not count a metropolitan district levy twice if it is already included in your annual property tax estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Colorado",
+      "blocks": [
+        {
+          "markdown": "Colorado homeowners face different insurance risks depending on their property's location.\n\nHomes along the Front Range and Eastern Plains may experience hailstorms, while properties near forests and mountain communities can face wildfire exposure.\n\nThe [Colorado Division of Insurance's wildfire consumer advisory](https://content.govdelivery.com/accounts/CODORA/bulletins/41f4de2) provides information about homeowner protections and coverage.\n\nObtain insurance quotes that account for the property's actual construction, roof condition, replacement cost and environmental exposure.\n\n### Wind and hail deductibles\n\nSome policies use percentage-based deductibles for wind or hail damage.\n\nFor example, a 2% deductible calculated against a $500,000 dwelling coverage limit would represent $10,000 in potential out-of-pocket costs for a covered claim to which that deductible applies.\n\nAsk your insurer how each deductible works before selecting coverage.\n\n### Insurance for mountain properties\n\nA mountain home may have different rebuilding requirements, emergency access considerations and wildfire risks from an urban property.\n\nAsk insurers about coverage availability and any conditions relating to property maintenance or wildfire mitigation.\n\nReview exclusions carefully and investigate flood risk through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home)."
+        }
+      ]
+    },
+    {
+      "heading": "Colorado Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following examples assume a 20% down payment, a 6% fixed interest rate and a 30-year repayment period."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Mortgage amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$540,000",
+              "$108,000",
+              "$432,000",
+              "$2,590.06"
+            ],
+            [
+              "$650,000",
+              "$130,000",
+              "$520,000",
+              "$3,117.66"
+            ],
+            [
+              "$800,000",
+              "$160,000",
+              "$640,000",
+              "$3,837.12"
+            ]
+          ]
+        },
+        {
+          "markdown": "These payments exclude taxes, insurance and association fees.\n\nAdd property-specific expenses using the calculator before comparing affordability."
+        }
+      ]
+    },
+    {
+      "heading": "Colorado Homebuyer Assistance Programs",
+      "blocks": [
+        {
+          "markdown": "The Colorado Housing and Finance Authority, commonly known as CHFA, offers mortgage programs and assistance through participating lenders.\n\n### CHFA down payment assistance grant\n\nThe [CHFA down payment assistance program](https://www.chfainfo.com/homeownership/down-payment-assistance) offers an eligible grant of up to 3% of the first mortgage amount, capped at $25,000.\n\nThe grant does not require repayment, although the associated mortgage may carry a higher interest rate.\n\n### CHFA second mortgage assistance\n\nCHFA also offers deferred second mortgage assistance of up to 4% of the first mortgage amount, subject to a $25,000 cap and applicable program conditions.\n\nRepayment becomes due when qualifying events occur, such as selling, refinancing or paying off the first mortgage.\n\nCertain specialized programs offer different assistance arrangements.\n\nCompare the complete financing costs rather than selecting a program solely because it offers a larger upfront contribution."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Colorado Home",
+      "blocks": [
+        {
+          "markdown": "Mountain properties may require spending on snow removal, heating, private road maintenance or specialized repairs.\n\nUrban condominiums may have substantial association dues covering shared facilities and building insurance.\n\nAsk for historical utility bills and association financial statements before purchasing. Review potential special assessments that might create unexpected expenses after closing."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Colorado?",
+      "blocks": [
+        {
+          "markdown": "Start with reliable monthly take-home income and account for transportation, groceries, childcare, insurance, savings and existing debts.\n\nOur [Colorado Paycheck Calculator](/calculators/colorado-paycheck-calculator/) can help estimate your after-tax income. Use the [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to compare your financial obligations with gross monthly earnings.\n\nReview the [CFPB's homebuying guidance](https://www.consumerfinance.gov/owning-a-home/) before selecting a lender or establishing your maximum purchase price."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $540,000 Colorado home?\n\nWith a 20% down payment, 6% fixed interest and a 30-year term, monthly principal and interest would be approximately $2,590.06. Taxes, insurance and applicable fees increase total housing expenses.\n\n### How are Colorado residential property taxes calculated?\n\nColorado uses property values, applicable value adjustments, assessment rates and local mill levies. Since 2025, separate residential assessment rates apply to school districts and other local governments.\n\n### Can Colorado buyers receive down payment assistance?\n\nYes. CHFA offers eligible borrowers grants and deferred second mortgages. Assistance amounts, interest rates and qualifying requirements depend on the specific financing program."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Colorado Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Colorado mortgage calculator to compare financing arrangements before making an offer. Include local taxes, insurance and other ownership costs to determine whether a property fits your overall financial plan."
+        }
+      ]
+    }
+  ]
+}

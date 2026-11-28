@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "A home that appears affordable based on its purchase price may cost more each month once property taxes, insurance and other expenses are included. Understanding these costs before applying for a mortgage can help you avoid stretching your household budget.",
+    "Our free Missouri mortgage calculator estimates your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're buying in Kansas City, St. Louis, Springfield, Columbia or a smaller Missouri community, use the calculator to compare financing arrangements before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Missouri?",
+      "blocks": [
+        {
+          "markdown": "A $230,000 Missouri home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,103.17.\n\nAn illustrative monthly housing payment could look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$230,000"
+            ],
+            [
+              "Down payment",
+              "$46,000"
+            ],
+            [
+              "Loan amount",
+              "$184,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,103.17"
+            ],
+            [
+              "Monthly property taxes",
+              "$200"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$225"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,528.17"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Missouri Housing Market",
+      "blocks": [
+        {
+          "markdown": "Missouri offers housing opportunities across metropolitan neighborhoods, suburban developments, university communities and rural areas.\n\nAccording to the [US Census Bureau's Missouri housing statistics](https://www.census.gov/quickfacts/fact/table/MO/HSG860224), the median value of owner-occupied homes was $230,300 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,524, while the owner-occupied housing rate was 68.1%.\n\nThese historical figures provide useful context but do not represent current mortgage offers or home sale prices.\n\nA property in a Kansas City suburb may have different purchase prices, tax obligations and transportation costs from a home in southern Missouri.\n\nCompare recent property sales within your preferred neighborhood before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Missouri Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Begin by entering the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nSelect your preferred repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, use [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) as a national reference.\n\nAdd annual property taxes, homeowners insurance and applicable monthly association fees.\n\nInclude private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly housing payment and experiment with different purchase prices and financing arrangements.\n\nThe amortization schedule shows how your mortgage balance decreases over time, helping you evaluate the potential interest savings associated with shorter repayment periods.\n\nUse our national Mortgage Calculator to compare financing scenarios outside Missouri."
+        }
+      ]
+    },
+    {
+      "heading": "How Missouri Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Missouri calculates real estate taxes using property valuations, statutory assessment ratios and applicable local tax levies.\n\nCounty assessors establish property values, while local taxing authorities determine levy rates that support public schools, emergency services and other government functions.\n\n### Missouri residential property assessment ratio\n\nAccording to the [Missouri State Tax Commission](https://stc.mo.gov/definitions/), residential real estate is generally assessed at 19% of its market value.\n\nThe assessment ratio determines the assessed value used for taxation. It does not mean homeowners pay 19% of their property's market value in annual taxes.\n\nFor example, a residential property valued at $230,000 would have an assessed value of $43,700.\n\nLocal tax levies are then applied to that amount.\n\n### Missouri property tax calculation example\n\nAssume a property has a market value of $230,000 and a combined hypothetical tax levy of $5.50 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Market value",
+              "$230,000"
+            ],
+            [
+              "Residential assessment ratio",
+              "19%"
+            ],
+            [
+              "Assessed property value",
+              "$43,700"
+            ],
+            [
+              "Illustrative levy per $100",
+              "$5.50"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$2,403.50"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$200.29"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes depend on the property's tax district, assessed value and applicable adjustments.\n\nContact your county assessor or collector for an accurate property-specific estimate.\n\n### Missouri property reassessment\n\nMissouri generally determines real property market values as of January 1 of odd-numbered years.\n\nProperty tax bills may change following reassessment or adjustments to local tax levies.\n\nReview the [State Tax Commission's property tax explanation](https://stc.mo.gov/faq/how-much-is-the-tax-amount-that-i-owe/) to understand how assessments and levies interact.\n\nIf your mortgage includes an escrow account, increases in property taxes can raise your monthly payment even when the mortgage interest rate remains fixed.\n\n### Personal property taxes\n\nMissouri also assesses certain personal property, including motor vehicles.\n\nAlthough vehicle taxes are not part of your mortgage payment, they should be considered when establishing your broader household budget.\n\nDo not combine personal property taxes with real estate taxes in the calculator unless you are separately calculating total household expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Missouri",
+      "blocks": [
+        {
+          "markdown": "Missouri properties can experience thunderstorms, hail, tornadoes, flooding and winter-related damage.\n\nInsurance premiums depend on the property's condition, location, replacement cost and coverage requirements.\n\nThe [Missouri Department of Commerce and Insurance](https://insurance.mo.gov/home-insurance) provides consumer information about homeowners coverage, roofing insurance and disaster preparedness.\n\nObtain multiple property-specific insurance quotes before committing to a purchase.\n\n### Earthquake insurance and the New Madrid Seismic Zone\n\nEarthquake exposure is a particularly important consideration for homebuyers in southeastern Missouri and other affected areas.\n\nStandard homeowners insurance does not ordinarily cover earthquake damage.\n\nThe state's [earthquake insurance guidance](https://insurance.mo.gov/earthquake-insurance) explains that coverage generally requires a separate policy or an endorsement.\n\nEarthquake deductibles can differ considerably from ordinary homeowners insurance deductibles.\n\nFor example, a 10% deductible on $250,000 of dwelling coverage would represent $25,000 in potential out-of-pocket expenses for an applicable claim.\n\nInvestigate insurance availability and deductibles before purchasing a property in an earthquake-prone area.\n\n### Flood insurance\n\nProperties near the Missouri and Mississippi rivers, smaller waterways and low-lying areas may face flooding.\n\nStandard homeowners insurance generally excludes flood damage.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate your property's flood exposure.\n\nAdd the annual cost of any applicable flood or earthquake coverage to your mortgage calculator inputs."
+        }
+      ]
+    },
+    {
+      "heading": "Missouri Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$230,000",
+              "$46,000",
+              "$184,000",
+              "$1,103.17"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nTwo homes with identical principal and interest payments can have different total housing costs because of local tax levies and insurance requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Missouri First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Missouri Housing Development Commission, commonly called MHDC, provides mortgage financing and purchase assistance through certified lenders.\n\n### First Place mortgage program\n\nThe [MHDC First Place program](https://mhdc.com/services/homebuyer-programs/first-place/) offers mortgage financing to eligible first-time homebuyers and qualified veterans.\n\nBorrowers who need help with upfront purchase expenses can investigate the program's cash assistance option.\n\nIncome limits, purchase price restrictions and loan eligibility requirements apply.\n\nCompare financing arrangements with and without assistance because the associated mortgage rates and long-term borrowing costs may differ.\n\n### Next Step mortgage program\n\nThe [MHDC Next Step program](https://mhdc.com/services/homebuyer-programs/next-step/) serves qualifying first-time and repeat buyers, including households outside the First Place income limits.\n\nThe program also provides an optional cash assistance arrangement for qualifying down payments and closing expenses.\n\nBuyers should contact a certified lender to confirm current assistance amounts, forgiveness conditions and repayment obligations.\n\nReview the [MHDC lender resources](https://mhdc.com/services/lender-resources/) for updated program manuals and 2026 income and purchase price limits.\n\nDo not assume that purchase assistance is automatically available or that it has no effect on future financial obligations."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Missouri Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages offer various repayment periods and down payment arrangements.\n\nFHA-insured mortgages may provide an alternative for eligible borrowers who have limited upfront savings.\n\nQualified veterans, service members and surviving spouses can investigate [VA home loan benefits](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering properties in smaller Missouri communities may also qualify for [USDA Rural Development housing programs](https://www.rd.usda.gov/), subject to household income and property eligibility requirements.\n\nCompare actual mortgage insurance requirements, financing fees and lender disclosures rather than selecting a loan exclusively because it offers a smaller down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Missouri Home",
+      "blocks": [
+        {
+          "markdown": "Homeowners should prepare for maintenance expenses, seasonal heating and cooling costs, transportation and unexpected repairs.\n\nBuyers considering older homes in St. Louis or Kansas City should investigate the condition of roofing, electrical systems, plumbing and foundations.\n\nRural properties may require private well maintenance, septic system servicing and driveway repairs.\n\nRequest historical utility bills and arrange a professional inspection before purchasing.\n\nMaintain emergency savings for insurance deductibles, particularly when considering specialized earthquake or storm coverage."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Missouri?",
+      "blocks": [
+        {
+          "markdown": "Start with reliable monthly take-home income and subtract existing debt payments, household expenses and regular savings contributions.\n\nOur [Missouri Paycheck Calculator](/calculators/missouri-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing financial obligations.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) when comparing mortgage offers and closing costs.\n\nChoose a property whose total monthly ownership expenses remain manageable alongside your other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $230,000 Missouri home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,103.17 monthly. Taxes, insurance and applicable fees increase the total payment.\n\n### How are Missouri residential property taxes calculated?\n\nResidential real estate generally uses a 19% assessment ratio. Applicable local tax levies are then applied to the assessed value, accounting for relevant adjustments.\n\n### Does Missouri offer down payment assistance?\n\nYes. MHDC offers First Place and Next Step financing programs with optional purchase assistance for eligible borrowers. Income limits, purchase price requirements and assistance terms vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Missouri Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Missouri mortgage calculator to compare purchase prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative taxes and insurance premiums with property-specific estimates. Understanding your complete monthly housing expenses can help you select a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

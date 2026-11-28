@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Buying a home in Pennsylvania involves more than comparing mortgage rates and property prices. School district taxes, municipal levies, homeowners insurance and closing expenses can significantly influence how much you need to budget.",
+    "Our free Pennsylvania mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Philadelphia, Pittsburgh, Harrisburg, Allentown or a smaller Pennsylvania community, enter your financing details and ownership expenses to compare properties and establish a realistic purchase budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Pennsylvania?",
+      "blocks": [
+        {
+          "markdown": "A $255,000 Pennsylvania home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,223.08.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$255,000"
+            ],
+            [
+              "Down payment",
+              "$51,000"
+            ],
+            [
+              "Loan amount",
+              "$204,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,223.08"
+            ],
+            [
+              "Monthly property taxes",
+              "$350"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$125"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,698.08"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. Property taxes, insurance premiums and the interest rate are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Pennsylvania Housing Market",
+      "blocks": [
+        {
+          "markdown": "Pennsylvania offers housing opportunities across major metropolitan areas, suburban neighborhoods, university communities and rural regions.\n\nAccording to the [US Census Bureau's Pennsylvania housing statistics](https://www.census.gov/quickfacts/fact/table/PA/HSG860223), the median value of owner-occupied housing was $254,500 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $1,762, while approximately 69.3% of occupied housing units were owner-occupied.\n\nThese historical figures include existing homeowners who purchased properties under different market conditions. They do not represent current property asking prices.\n\nHousing expenses in suburban Philadelphia may differ considerably from those in western Pennsylvania or smaller central Pennsylvania communities.\n\nInvestigate recent comparable sales, school district taxes, transportation expenses and property maintenance requirements before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Pennsylvania Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter your property's expected purchase price and the amount you intend to contribute as a down payment.\n\nChoose your preferred repayment period and enter your lender's quoted annual interest rate. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, enter annual property taxes, homeowners insurance premiums and monthly association fees where applicable.\n\nInclude private mortgage insurance if your conventional financing requires it.\n\nReview your estimated monthly payment and experiment with different loan terms and down payment amounts.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases over time and how much interest you could pay.\n\nUse our national Mortgage Calculator to compare financing scenarios outside Pennsylvania."
+        }
+      ]
+    },
+    {
+      "heading": "How Pennsylvania Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Pennsylvania property taxes are particularly important when comparing homes across different school districts.\n\nCounty assessment systems determine property valuations, while municipalities, counties and school districts establish applicable real estate tax rates.\n\nYour property's assessed value may differ considerably from its current purchase price because assessment practices and reassessment schedules vary between counties.\n\nObtain the property's taxable assessed value directly from the relevant county assessment office.\n\n### Understanding Pennsylvania millage rates\n\nA mill represents $1 of annual property tax for every $1,000 of taxable assessed value.\n\nA property's combined millage rate may include separate county, municipal and school district components.\n\nWhen reviewing tax records, make sure you account for all applicable tax bills rather than relying exclusively on one municipal charge.\n\n### Pennsylvania property tax calculation example\n\nSuppose you purchase a home for $255,000, but its taxable assessed value is $175,000.\n\nAssume the following hypothetical millage rates."
+        },
+        {
+          "columns": [
+            "Tax component",
+            "Millage rate"
+          ],
+          "rows": [
+            [
+              "County property tax",
+              "5 mills"
+            ],
+            [
+              "Municipal property tax",
+              "4 mills"
+            ],
+            [
+              "School district property tax",
+              "15 mills"
+            ],
+            [
+              "Combined millage rate",
+              "24 mills"
+            ]
+          ]
+        },
+        {
+          "markdown": "The estimated annual property tax would be:\n\n$175,000 × 24 ÷ 1,000 = $4,200\n\nThis represents approximately $350 per month.\n\nActual property taxes depend on local assessments, tax rates and applicable exclusions or additional charges."
+        }
+      ]
+    },
+    {
+      "heading": "Pennsylvania Homestead and Farmstead Exclusions",
+      "blocks": [
+        {
+          "markdown": "Pennsylvania's Taxpayer Relief Act provides mechanisms for reducing property taxes on qualifying primary residences.\n\nThe [Pennsylvania Department of Community and Economic Development's homestead exclusion guidance](https://dced.pa.gov/local-government/property-tax-relief-homestead-exclusion/) explains that eligible exclusions reduce assessed property value before applicable taxes are calculated.\n\nThe amount of relief varies by jurisdiction. Pennsylvania does not provide one universal homestead exclusion amount for every homeowner.\n\nApplications for school property tax relief generally must be submitted to the county assessment office by March 1.\n\n### Homestead exclusion calculation example\n\nSuppose the property from our previous example qualifies for a hypothetical $20,000 exclusion applicable only to the school district tax component.\n\nAt a school district rate of 15 mills, the annual tax savings would be $300.\n\nThe estimated combined annual property tax would decrease from $4,200 to $3,900, equivalent to $325 per month.\n\nDo not automatically apply a school district exclusion to county and municipal tax calculations.\n\nPhiladelphia also has distinct local relief arrangements. Confirm applicable programs with your local government rather than assuming every Pennsylvania municipality uses identical rules."
+        }
+      ]
+    },
+    {
+      "heading": "Pennsylvania Property Tax and Rent Rebate Program",
+      "blocks": [
+        {
+          "markdown": "The [Pennsylvania Department of Revenue's Property Tax/Rent Rebate Program](https://www.pa.gov/agencies/revenue/ptrr) offers income-based assistance to qualifying older residents and people with eligible disabilities.\n\nFor claims concerning the 2025 tax year, the published income ceiling is $48,110, with standard rebates ranging from $380 to $1,000.\n\nSome applicants may qualify for supplemental benefits.\n\nThese rebates are separate from ordinary homestead exclusions and should not automatically be subtracted from monthly mortgage escrow expenses.\n\nConfirm eligibility and application requirements before incorporating expected benefits into your household budget."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Pennsylvania",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's construction, condition, location, replacement cost and selected coverage.\n\nPennsylvania properties may experience heavy rainfall, flooding, winter storms and other weather-related damage.\n\n### Flood insurance\n\nThe [Pennsylvania Insurance Department's flood insurance guidance](https://www.pa.gov/agencies/insurance/consumer-help-center/learn-about-insurance/flood-insurance) explains that standard homeowners policies exclude flood damage.\n\nProperties near rivers, streams and low-lying communities may require additional coverage.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate flood exposure before obtaining insurance quotes.\n\n### Insurance considerations for older homes\n\nOlder Pennsylvania properties may contain aging electrical systems, plumbing, roofing or heating equipment.\n\nThese conditions can influence insurance eligibility, repair expenses and premiums.\n\nArrange a professional home inspection before purchasing. Ask your insurer whether the property's condition affects available coverage or deductible requirements.\n\nInclude the combined annual premiums of applicable insurance policies when calculating monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Pennsylvania Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$255,000",
+              "$51,000",
+              "$204,000",
+              "$1,223.08"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly payments, particularly when evaluating homes in different school districts."
+        }
+      ]
+    },
+    {
+      "heading": "Pennsylvania First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Pennsylvania Housing Finance Agency, commonly called PHFA, offers mortgage financing and purchase assistance through approved lenders.\n\n### Keystone Home Loan\n\nThe [PHFA home purchase programs directory](https://www.phfa.org/programs/homepurchase.aspx) includes Keystone Home Loan financing for qualifying first-time buyers.\n\nCertain repeat buyers purchasing in targeted areas and eligible veterans may qualify for exceptions.\n\nHousehold income, purchase price, occupancy and underwriting requirements apply.\n\n### Keystone Forgivable in Ten Years\n\nThe [K-FIT assistance program](https://www.phfa.org/programs/assistance/kfit.aspx) provides qualifying borrowers with secondary financing equal to 5% of the lesser of the purchase price or appraised property value.\n\nThere is no maximum dollar cap on the assistance under this formula.\n\nFor example, a property purchased for $255,000 but appraised at $250,000 could qualify for $12,500 in assistance.\n\nThe loan is forgiven at a rate of 10% annually over ten years, subject to program conditions.\n\nApplicants must have a minimum credit score of 660 and satisfy applicable first mortgage requirements.\n\n### Keystone Due At Time of Expiration\n\nPHFA also offers [K-DATE assistance](https://www.phfa.org/programs/assistance.aspx) through qualifying mortgage products.\n\nEligible borrowers with loan amounts of $150,000 or less may receive 8% assistance, subject to availability. Borrowers with loan amounts of $150,001 or more may receive 5%.\n\nBoth calculations use the lesser of the purchase price or appraised value.\n\nK-DATE is an interest-free deferred second mortgage. It has no scheduled monthly payments, but repayment becomes due under specified conditions, including property sale, refinancing or repayment of the primary mortgage.\n\nCompare the forgiveness and repayment arrangements before choosing an assistance program."
+        }
+      ]
+    },
+    {
+      "heading": "Pennsylvania Realty Transfer Tax and Closing Costs",
+      "blocks": [
+        {
+          "markdown": "Pennsylvania imposes a state realty transfer tax of 1% on qualifying property transfers.\n\nAccording to the [Pennsylvania Department of Revenue](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax), additional local transfer taxes may also apply.\n\nFor a qualifying $255,000 property transfer, the state tax component would total $2,550 before local charges.\n\nThis does not necessarily represent the amount the buyer must pay individually. Both parties have statutory payment responsibilities, while the purchase agreement may allocate the expense between them.\n\nOther closing costs include title services, appraisals, lender fees, inspections and prepaid expenses.\n\nReview the [CFPB Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) before accepting a mortgage offer."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Pennsylvania?",
+      "blocks": [
+        {
+          "markdown": "Begin with your reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [Pennsylvania Paycheck Calculator](/calculators/pennsylvania-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing commitments.\n\nInclude transportation, heating, utilities, childcare, maintenance and regular savings contributions.\n\nRemember that local earned income taxes or wage taxes may also influence your available household income.\n\nMaintain enough savings for closing expenses and emergency repairs instead of committing your entire cash balance to the down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $255,000 Pennsylvania home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,223.08. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How are Pennsylvania residential property taxes calculated?\n\nApplicable county, municipal and school district tax rates are applied to the property's relevant taxable assessed value. Eligible homestead exclusions and other adjustments may reduce the final tax liability.\n\n### Does Pennsylvania offer forgivable down payment assistance?\n\nYes. PHFA's K-FIT program provides eligible borrowers with assistance equal to 5% of the lesser of the purchase price or appraised value. The assistance is forgiven gradually over ten years, subject to program requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Pennsylvania Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Pennsylvania mortgage calculator to compare purchase prices, down payments, interest rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified local estimates. Pay particular attention to school district taxes, closing expenses and ongoing maintenance requirements when establishing a sustainable homebuying budget."
+        }
+      ]
+    }
+  ]
+}

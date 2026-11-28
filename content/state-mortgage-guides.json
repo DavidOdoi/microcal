@@ -1,0 +1,738 @@
+[
+  {
+    "state": "Alabama",
+    "slug": "alabama-mortgage-calculator",
+    "title": "Alabama Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your monthly Alabama mortgage payment with our free calculator. Include property taxes, insurance, down payment, interest and PMI.",
+    "initialValues": {
+      "homePrice": "210000",
+      "downPayment": "42000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1200",
+      "annualInsurance": "2400",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Alaska",
+    "slug": "alaska-mortgage-calculator",
+    "title": "Alaska Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your monthly Alaska mortgage payment, including property taxes, homeowners insurance, interest, down payment and mortgage insurance.",
+    "initialValues": {
+      "homePrice": "350000",
+      "downPayment": "70000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4200",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Arizona",
+    "slug": "arizona-mortgage-calculator",
+    "title": "Arizona Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Arizona mortgage payment with taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "400000",
+      "downPayment": "80000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2400",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "100"
+    }
+  },
+  {
+    "state": "Arkansas",
+    "slug": "arkansas-mortgage-calculator",
+    "title": "Arkansas Mortgage Calculator With Taxes and Insurance",
+    "description": "Use our Arkansas mortgage calculator to estimate monthly home loan payments, property taxes, homeowners insurance, PMI and HOA fees.",
+    "initialValues": {
+      "homePrice": "190000",
+      "downPayment": "38000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1200",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "California",
+    "slug": "california-mortgage-calculator",
+    "title": "California Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your California mortgage payment with our free calculator. Include property taxes, insurance, PMI, HOA fees and your down payment.",
+    "initialValues": {
+      "homePrice": "750000",
+      "downPayment": "150000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "8250",
+      "annualInsurance": "3000",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Colorado",
+    "slug": "colorado-mortgage-calculator",
+    "title": "Colorado Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Colorado mortgage payment, including property taxes, insurance, PMI and HOA fees. Compare home prices, interest rates and loan terms.",
+    "initialValues": {
+      "homePrice": "540000",
+      "downPayment": "108000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3600",
+      "annualInsurance": "3000",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "100"
+    }
+  },
+  {
+    "state": "Connecticut",
+    "slug": "connecticut-mortgage-calculator",
+    "title": "Connecticut Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Connecticut mortgage payment with property taxes, insurance, PMI and HOA fees. Compare down payments, interest rates and loan terms.",
+    "initialValues": {
+      "homePrice": "370000",
+      "downPayment": "74000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "7200",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Delaware",
+    "slug": "delaware-mortgage-calculator",
+    "title": "Delaware Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Delaware mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "350000",
+      "downPayment": "70000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2400",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Florida",
+    "slug": "florida-mortgage-calculator",
+    "title": "Florida Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Florida mortgage payment with taxes, homeowners insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "360000",
+      "downPayment": "72000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3600",
+      "annualInsurance": "4200",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "100"
+    }
+  },
+  {
+    "state": "Georgia",
+    "slug": "georgia-mortgage-calculator",
+    "title": "Georgia Mortgage Calculator With Taxes and Insurance",
+    "description": "Use our Georgia mortgage calculator to estimate monthly payments with property taxes, insurance, PMI, HOA fees and your preferred down payment.",
+    "initialValues": {
+      "homePrice": "305000",
+      "downPayment": "61000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3000",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Hawaii",
+    "slug": "hawaii-mortgage-calculator",
+    "title": "Hawaii Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Hawaii mortgage payment with property taxes, hurricane insurance, PMI and HOA fees. Compare home prices and mortgage terms.",
+    "initialValues": {
+      "homePrice": "840000",
+      "downPayment": "168000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2520",
+      "annualInsurance": "3000",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "400"
+    }
+  },
+  {
+    "state": "Idaho",
+    "slug": "idaho-mortgage-calculator",
+    "title": "Idaho Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Idaho mortgage payment with property taxes, homeowners insurance, PMI and HOA fees. Compare down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "420000",
+      "downPayment": "84000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2100",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Illinois",
+    "slug": "illinois-mortgage-calculator",
+    "title": "Illinois Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Illinois mortgage payment with property taxes, homeowners insurance, PMI and HOA fees. Compare home prices, interest rates and loan terms.",
+    "initialValues": {
+      "homePrice": "265000",
+      "downPayment": "53000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "5400",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Indiana",
+    "slug": "indiana-mortgage-calculator",
+    "title": "Indiana Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Indiana mortgage payment with property taxes, homeowners insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "220000",
+      "downPayment": "44000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1800",
+      "annualInsurance": "1500",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Iowa",
+    "slug": "iowa-mortgage-calculator",
+    "title": "Iowa Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Iowa mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "210000",
+      "downPayment": "42000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3300",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Kansas",
+    "slug": "kansas-mortgage-calculator",
+    "title": "Kansas Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Kansas mortgage payment with property taxes, homeowners insurance, PMI and HOA fees. Compare down payments, rates and loan terms.",
+    "initialValues": {
+      "homePrice": "220000",
+      "downPayment": "44000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3300",
+      "annualInsurance": "2700",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Kentucky",
+    "slug": "kentucky-mortgage-calculator",
+    "title": "Kentucky Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Kentucky mortgage payment with taxes, insurance, PMI and HOA fees. Compare home prices, down payments, interest rates and loan terms.",
+    "initialValues": {
+      "homePrice": "205000",
+      "downPayment": "41000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1800",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Louisiana",
+    "slug": "louisiana-mortgage-calculator",
+    "title": "Louisiana Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Louisiana mortgage payment with property taxes, homeowners insurance, flood insurance, PMI and HOA fees. Compare loan options.",
+    "initialValues": {
+      "homePrice": "215000",
+      "downPayment": "43000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1500",
+      "annualInsurance": "3600",
+      "annualFloodInsurance": "1200",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Maine",
+    "slug": "maine-mortgage-calculator",
+    "title": "Maine Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Maine mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "300000",
+      "downPayment": "60000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4200",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Maryland",
+    "slug": "maryland-mortgage-calculator",
+    "title": "Maryland Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Maryland mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "420000",
+      "downPayment": "84000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4800",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "100"
+    }
+  },
+  {
+    "state": "Massachusetts",
+    "slug": "massachusetts-mortgage-calculator",
+    "title": "Massachusetts Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Massachusetts mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "560000",
+      "downPayment": "112000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "6000",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Michigan",
+    "slug": "michigan-mortgage-calculator",
+    "title": "Michigan Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Michigan mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "230000",
+      "downPayment": "46000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3300",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Minnesota",
+    "slug": "minnesota-mortgage-calculator",
+    "title": "Minnesota Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Minnesota mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "330000",
+      "downPayment": "66000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4200",
+      "annualInsurance": "2400",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Mississippi",
+    "slug": "mississippi-mortgage-calculator",
+    "title": "Mississippi Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Mississippi mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "170000",
+      "downPayment": "34000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1500",
+      "annualInsurance": "2700",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Missouri",
+    "slug": "missouri-mortgage-calculator",
+    "title": "Missouri Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Missouri mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "230000",
+      "downPayment": "46000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2400",
+      "annualInsurance": "2700",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Montana",
+    "slug": "montana-mortgage-calculator",
+    "title": "Montana Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Montana mortgage payment with property taxes, homeowners insurance, PMI and HOA fees. Compare home prices, rates and loan terms.",
+    "initialValues": {
+      "homePrice": "375000",
+      "downPayment": "75000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3000",
+      "annualInsurance": "2400",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Nebraska",
+    "slug": "nebraska-mortgage-calculator",
+    "title": "Nebraska Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Nebraska mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "240000",
+      "downPayment": "48000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3900",
+      "annualInsurance": "2700",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Nevada",
+    "slug": "nevada-mortgage-calculator",
+    "title": "Nevada Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Nevada mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, interest rates and down payments.",
+    "initialValues": {
+      "homePrice": "435000",
+      "downPayment": "87000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2700",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "100"
+    }
+  },
+  {
+    "state": "New Hampshire",
+    "slug": "new-hampshire-mortgage-calculator",
+    "title": "New Hampshire Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your New Hampshire mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "400000",
+      "downPayment": "80000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "7800",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "New Jersey",
+    "slug": "new-jersey-mortgage-calculator",
+    "title": "New Jersey Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your New Jersey mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "455000",
+      "downPayment": "91000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "9600",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "New Mexico",
+    "slug": "new-mexico-mortgage-calculator",
+    "title": "New Mexico Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your New Mexico mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "250000",
+      "downPayment": "50000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1800",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "New York",
+    "slug": "new-york-mortgage-calculator",
+    "title": "New York Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your New York mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "425000",
+      "downPayment": "85000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "7200",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "North Carolina",
+    "slug": "north-carolina-mortgage-calculator",
+    "title": "North Carolina Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your North Carolina mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "290000",
+      "downPayment": "58000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2700",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "North Dakota",
+    "slug": "north-dakota-mortgage-calculator",
+    "title": "North Dakota Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your North Dakota mortgage payment with property taxes, insurance, PMI and HOA fees. Compare down payments, interest rates and loan terms.",
+    "initialValues": {
+      "homePrice": "250000",
+      "downPayment": "50000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2100",
+      "annualInsurance": "2400",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Ohio",
+    "slug": "ohio-mortgage-calculator",
+    "title": "Ohio Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Ohio mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "215000",
+      "downPayment": "43000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3600",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Oklahoma",
+    "slug": "oklahoma-mortgage-calculator",
+    "title": "Oklahoma Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Oklahoma mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "200000",
+      "downPayment": "40000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "2100",
+      "annualInsurance": "3600",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Oregon",
+    "slug": "oregon-mortgage-calculator",
+    "title": "Oregon Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Oregon mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "480000",
+      "downPayment": "96000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4800",
+      "annualInsurance": "2400",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Pennsylvania",
+    "slug": "pennsylvania-mortgage-calculator",
+    "title": "Pennsylvania Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Pennsylvania mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "255000",
+      "downPayment": "51000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4200",
+      "annualInsurance": "1500",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "South Dakota",
+    "slug": "south-dakota-mortgage-calculator",
+    "title": "South Dakota Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your South Dakota mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "260000",
+      "downPayment": "52000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3300",
+      "annualInsurance": "2700",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Tennessee",
+    "slug": "tennessee-mortgage-calculator",
+    "title": "Tennessee Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Tennessee mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "285000",
+      "downPayment": "57000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1800",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Texas",
+    "slug": "texas-mortgage-calculator",
+    "title": "Texas Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Texas mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "285000",
+      "downPayment": "57000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4500",
+      "annualInsurance": "3600",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Utah",
+    "slug": "utah-mortgage-calculator",
+    "title": "Utah Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Utah mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "490000",
+      "downPayment": "98000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "3000",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Washington",
+    "slug": "washington-mortgage-calculator",
+    "title": "Washington Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Washington mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "565000",
+      "downPayment": "113000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "5100",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "West Virginia",
+    "slug": "west-virginia-mortgage-calculator",
+    "title": "West Virginia Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your West Virginia mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "162500",
+      "downPayment": "32500",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1200",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Wisconsin",
+    "slug": "wisconsin-mortgage-calculator",
+    "title": "Wisconsin Mortgage Calculator With Taxes and Insurance",
+    "description": "Estimate your Wisconsin mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and loan terms.",
+    "initialValues": {
+      "homePrice": "270000",
+      "downPayment": "54000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "4200",
+      "annualInsurance": "1800",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  },
+  {
+    "state": "Wyoming",
+    "slug": "wyoming-mortgage-calculator",
+    "title": "Wyoming Mortgage Calculator With Taxes and Insurance",
+    "description": "Calculate your Wyoming mortgage payment with property taxes, insurance, PMI and HOA fees. Compare home prices, down payments and mortgage terms.",
+    "initialValues": {
+      "homePrice": "310000",
+      "downPayment": "62000",
+      "annualRate": "6",
+      "years": "30",
+      "annualTax": "1800",
+      "annualInsurance": "2100",
+      "annualFloodInsurance": "0",
+      "monthlyHoa": "0"
+    }
+  }
+]

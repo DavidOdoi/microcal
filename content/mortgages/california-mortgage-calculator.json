@@ -1,0 +1,190 @@
+{
+  "intro": [
+    "Buying a home in California requires careful financial planning, especially when property taxes, insurance premiums and local housing prices can significantly affect affordability.",
+    "Our free California mortgage calculator helps you estimate your monthly housing payment based on your home price, down payment, interest rate and loan term. Include property taxes, homeowners insurance, mortgage insurance and HOA fees to understand how much your California home could cost each month."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in California?",
+      "blocks": [
+        {
+          "markdown": "A $750,000 California home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $3,597.30.\n\nHere is an illustrative monthly payment breakdown."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$750,000"
+            ],
+            [
+              "Down payment",
+              "$150,000"
+            ],
+            [
+              "Mortgage amount",
+              "$600,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$3,597.30"
+            ],
+            [
+              "Monthly property taxes",
+              "$687.50"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$250"
+            ],
+            [
+              "Monthly HOA fees",
+              "$0"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$4,534.80"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes an effective property tax rate of 1.1%, annual insurance costs of $3,000 and no private mortgage insurance. These are illustrative assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the California Housing Market",
+      "blocks": [
+        {
+          "markdown": "California's housing market includes some of the country's most expensive metropolitan areas alongside relatively affordable inland communities.\n\nAccording to the [US Census Bureau's California QuickFacts](https://www.census.gov/quickfacts/fact/table/CA/HSG010224), the median value of owner-occupied homes was $734,700 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $2,946, while the owner-occupied housing rate was 55.9%.\n\nThese historical figures provide context, but they do not represent the current selling price of a particular home.\n\nA property in San Francisco or coastal Los Angeles may have a substantially different purchase price from a comparable property in Fresno, Bakersfield or another inland community.\n\nWhen using the calculator, base your purchase price on local comparable properties rather than statewide figures alone."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the California Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the property's expected purchase price. If you are still searching, compare several price ranges to understand how much additional borrowing would affect your monthly budget.\n\nEnter your available down payment as a percentage or dollar amount. Next, select your loan term and enter the annual interest rate offered by your lender.\n\nInclude estimated property taxes, annual insurance premiums and monthly association dues where applicable.\n\nIf you make a down payment below 20% on a conventional mortgage, include any required private mortgage insurance.\n\nReview the payment breakdown and amortization schedule to understand both your immediate monthly expenses and your long-term borrowing costs.\n\nYou can also use our national Mortgage Calculator to compare financing scenarios in other states."
+        }
+      ]
+    },
+    {
+      "heading": "How California Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "California's property tax system differs from those in many other states because of Proposition 13.\n\nThe system generally establishes a property's taxable base-year value when ownership changes or qualifying new construction occurs.\n\nThe basic property tax levy is generally 1% of assessed value, with additional amounts possible for voter-approved debt and other local charges.\n\nFor example, a newly purchased property assessed at $750,000 would have a basic annual property tax of approximately $7,500 before additional assessments.\n\nThat equals $625 per month.\n\nThe final tax bill could be higher depending on the property's location and applicable charges.\n\n### Why the seller's property tax bill may be misleading\n\nUnder Proposition 13, the taxable base-year value generally cannot increase by more than 2% annually without a reassessment-triggering event, subject to applicable exceptions.\n\nA homeowner who purchased decades ago may therefore have a much lower assessed value than the property's current market value.\n\nAccording to the [California State Board of Equalization](https://www.boe.ca.gov/proptaxes/faqs/changeinownership.htm), an ordinary purchase generally triggers reassessment at current fair market value unless an exclusion applies.\n\nUse an estimate based on your expected acquisition assessment rather than automatically copying the seller's existing tax bill.\n\n### Supplemental property taxes\n\nCalifornia buyers may also receive supplemental tax bills following a qualifying change in ownership.\n\nThe [Board of Equalization's supplemental assessment guidance](https://www.boe.ca.gov/proptaxes/supplemental-assessment/) explains how these adjustments account for changes in assessed value during the fiscal year.\n\nAsk your county assessor and lender whether supplemental bills will be included in your escrow arrangements or paid separately.\n\n### Mello-Roos and special assessments\n\nSome California developments have additional property-related charges associated with public infrastructure and community facilities.\n\nThese expenses can affect the affordability of newer homes even when their purchase prices appear competitive.\n\nReview the property's complete tax bill and relevant seller disclosures before estimating your recurring costs."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in California",
+      "blocks": [
+        {
+          "markdown": "Insurance availability and pricing deserve particular attention when purchasing a California property.\n\nWildfire exposure, construction materials, rebuilding costs and local environmental risks can influence both premiums and eligibility for coverage.\n\nThe [California Department of Insurance's comparison tool](https://interactive.web.insurance.ca.gov/apex/f?p=111:20) allows consumers to compare illustrative insurance premiums. However, obtain a property-specific quote before relying on an estimate.\n\n### Wildfire insurance\n\nSome homeowners experience difficulty finding coverage through traditional insurance companies.\n\nThe [California FAIR Plan information page](https://www.insurance.ca.gov/01-consumers/105-type/5-residential/) explains an alternative for properties that cannot obtain suitable coverage through the ordinary market.\n\nFAIR Plan coverage is more limited than a typical comprehensive homeowners policy. Additional coverage may be necessary to address gaps such as liability or theft.\n\nCompare the combined cost of all required policies before entering an insurance figure into the calculator.\n\n### Earthquake and flood coverage\n\nStandard homeowners insurance generally excludes earthquake and flood damage.\n\nThe state's [earthquake insurance guide](https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/eq-ins.cfm) explains coverage options, exclusions and deductibles.\n\nYou can also investigate flood exposure using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude any additional policies you intend to purchase in your homeownership budget."
+        }
+      ]
+    },
+    {
+      "heading": "California Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following examples assume a 20% down payment, a 6% fixed interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Mortgage amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ],
+            [
+              "$1,000,000",
+              "$200,000",
+              "$800,000",
+              "$4,796.40"
+            ],
+            [
+              "$1,500,000",
+              "$300,000",
+              "$1,200,000",
+              "$7,194.61"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude taxes, insurance, PMI and HOA fees.\n\nThe examples illustrate how higher purchase prices increase borrowing expenses even when financing terms remain unchanged."
+        }
+      ]
+    },
+    {
+      "heading": "Conforming and Jumbo Mortgages in California",
+      "blocks": [
+        {
+          "markdown": "High home prices make conforming loan limits particularly relevant for California buyers.\n\nThe [Federal Housing Finance Agency's 2026 announcement](https://www.fhfa.gov/news/news-release/fhfa-announces-conforming-loan-limit-values-for-2026) established a national baseline conforming limit of $832,750 for one-unit properties, with a ceiling of $1,249,125 in designated high-cost areas.\n\nApplicable limits vary by county, property size and calendar year.\n\nA loan exceeding the applicable conforming limit generally requires nonconforming financing, commonly called a jumbo mortgage.\n\nJumbo lenders may impose different down payment, credit, income documentation and cash reserve requirements.\n\nVerify the limit for your county and expected closing year before comparing financing options."
+        }
+      ]
+    },
+    {
+      "heading": "California First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The California Housing Finance Agency, or CalHFA, offers financing and assistance options through approved lenders.\n\n### MyHome Assistance Program\n\nThe [CalHFA MyHome Assistance Program](https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm) provides eligible first-time buyers with deferred junior financing.\n\nFor qualifying conventional mortgages, assistance may reach 3% of the lower of the purchase price or appraised value. The corresponding maximum percentage for qualifying FHA financing is 3.5%.\n\nThe assistance is not an unconditional grant. Repayment obligations generally become relevant when the home is sold, refinanced or the primary mortgage is paid off.\n\n### Dream For All\n\nCalHFA also administers the Dream For All shared appreciation program for qualifying first-generation homebuyers.\n\nUnlike conventional assistance, this arrangement can require repayment of the original assistance amount plus a portion of the property's appreciation.\n\nVisit [CalHFA's homebuyer programs directory](https://www.calhfa.ca.gov/homebuyer/programs/index.htm) to confirm current availability, eligibility and application procedures.\n\nDo not rely on assistance until your lender confirms approval."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in California?",
+      "blocks": [
+        {
+          "markdown": "Begin with your household's monthly take-home income and subtract regular living expenses.\n\nCalifornia buyers should consider commuting costs, childcare, utilities, insurance and existing debt payments alongside their mortgage.\n\nUse our [California Paycheck Calculator](/calculators/california-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing obligations.\n\nCondos and planned developments may also have substantial association dues. Review reserve funds and potential special assessments before purchasing.\n\nFinally, compare lender disclosures using the [Consumer Financial Protection Bureau's homebuying resources](https://www.consumerfinance.gov/owning-a-home/). A mortgage approval represents a lender's qualification decision, not a guarantee that the payment will fit your lifestyle."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $750,000 California home?\n\nWith 20% down and a 30-year mortgage at 6%, principal and interest would be approximately $3,597.30 monthly. Property taxes, insurance and association fees increase your total housing expenses.\n\n### Are California property taxes reassessed when you buy a house?\n\nGenerally, yes. An ordinary ownership transfer normally triggers reassessment at current fair market value unless a legal exclusion applies. Buyers should not assume they will inherit the seller's existing property tax assessment.\n\n### Does California offer down payment assistance?\n\nYes. CalHFA offers programs including MyHome and shared appreciation financing. Eligibility, repayment arrangements and funding availability vary. Contact an approved lender before incorporating assistance into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your California Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our California mortgage calculator to compare financing scenarios before committing to a property. Replace estimated taxes, insurance premiums and association fees with property-specific information whenever possible to obtain a more useful monthly payment estimate."
+        }
+      ]
+    }
+  ]
+}

@@ -4,8 +4,7 @@ import content from '@/content/mortgage-pillar.json';
 import { calculatorPath } from '@/lib/calculator-path';
 import { getCalculator } from '@/lib/site-data';
 
-// State launches register their published calculator slug and display label here.
-const stateMortgageGuides: readonly { slug: string; state: string }[] = [];
+import { stateMortgageGuides } from '@/lib/state-mortgage-guides';
 
 function StateMortgageDirectory() {
   const links = stateMortgageGuides.flatMap(({ slug, state }) => {
@@ -14,16 +13,21 @@ function StateMortgageDirectory() {
       ? [{ href: calculatorPath(calculator), state }] : [];
   });
   if (!links.length) return null;
-  return <nav aria-label="State mortgage calculators"><ul>{links.map(({ href, state }) => (
+  return <nav aria-label="State mortgage calculators"><ul className="mortgage-state-directory">{links.map(({ href, state }) => (
     <li key={href}><Link href={href}>{state} Mortgage Calculator</Link></li>
   ))}</ul></nav>;
 }
 
-export function MortgageSupportingContent() {
-  return <>{content.sections.map(({ heading, blocks }) => (
+export type MortgageGuideContent = {
+  intro: string[];
+  sections: { heading: string; blocks: ({ markdown: string } | { columns: string[]; rows: string[][] })[] }[];
+};
+
+export function MortgageGuideArticle({ guide }: { guide: MortgageGuideContent }) {
+  return <>{guide.sections.map(({ heading, blocks }) => (
     <section key={heading} className="finance-article-section">
       <h2>{heading}</h2>
-      {blocks.map((block, index) => block.markdown !== undefined ? (
+      {blocks.map((block, index) => 'markdown' in block ? (
         <Markdown key={index} skipHtml>{block.markdown}</Markdown>
       ) : (
         <div key={index} className="finance-table-wrap"><table>
@@ -37,4 +41,8 @@ export function MortgageSupportingContent() {
       {heading === 'Mortgage Calculators by State' && <StateMortgageDirectory />}
     </section>
   ))}</>;
+}
+
+export function MortgageSupportingContent() {
+  return <MortgageGuideArticle guide={content} />;
 }

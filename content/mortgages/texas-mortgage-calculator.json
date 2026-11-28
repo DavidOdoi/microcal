@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "A $285,000 home in Texas could cost considerably more each month than its mortgage principal and interest payment suggests. Local property taxes, homeowners insurance, municipal utility district taxes and association fees can significantly influence affordability.",
+    "Our free Texas mortgage calculator helps you estimate your complete monthly housing payment before purchasing a property. Whether you're buying in Houston, Dallas, Austin, San Antonio or a smaller Texas community, compare financing arrangements and determine how much house you can comfortably afford."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Texas?",
+      "blocks": [
+        {
+          "markdown": "A $285,000 Texas home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,366.98.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$285,000"
+            ],
+            [
+              "Down payment",
+              "$57,000"
+            ],
+            [
+              "Loan amount",
+              "$228,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,366.98"
+            ],
+            [
+              "Monthly property taxes",
+              "$375"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$300"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,041.98"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Texas Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's Texas housing statistics](https://www.census.gov/quickfacts/fact/table/TX/HSG495223), the median value of owner-occupied housing was $283,800 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $2,106, while the homeownership rate was 62.6%.\n\nThese historical figures include homeowners who purchased under different market conditions. They do not represent current property asking prices.\n\nHousing costs in Austin and Dallas may differ considerably from those in El Paso, Lubbock or smaller communities. Newly constructed homes may also have additional district taxes and association obligations.\n\nResearch recent comparable property sales and recurring ownership expenses before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Texas Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and your available down payment.\n\nChoose your preferred mortgage term and enter your lender's quoted annual interest rate. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, include annual property taxes, homeowners insurance premiums and monthly association fees.\n\nAdd private mortgage insurance if required by your conventional financing arrangement.\n\nReview the monthly payment breakdown and adjust individual inputs to compare borrowing scenarios.\n\nThe amortization schedule shows how much of each mortgage payment goes toward interest and reducing your outstanding loan balance.\n\nOur national Mortgage Calculator also allows you to compare financing arrangements outside Texas."
+        }
+      ]
+    },
+    {
+      "heading": "How Texas Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Texas does not levy a state property tax. Instead, local taxing authorities establish property taxes to support public schools, counties, municipalities and other public services.\n\nCounty appraisal districts determine property valuations and administer applicable exemptions.\n\nA property's taxable value can differ between taxing jurisdictions because different exemptions may apply.\n\n### Texas residence homestead exemption\n\nUnder the current [Texas Tax Code, Section 11.13](https://tcss.legis.texas.gov/Docs/TX/htm/TX.11.htm), qualifying residence homesteads generally receive a $140,000 school district property tax exemption.\n\nEligible homeowners aged 65 or older or with qualifying disabilities receive an additional $60,000 school district exemption.\n\nOther taxing authorities may offer separate local exemptions.\n\nThe general school district exemption does not automatically reduce taxable value by $140,000 for every county, city or special district tax calculation.\n\nContact your local appraisal district to confirm eligibility and application requirements.\n\n### Texas property tax calculation example\n\nSuppose your home has an appraised value of $285,000 and qualifies for the general school district homestead exemption.\n\nAssume the following hypothetical tax rates, with no additional local exemptions."
+        },
+        {
+          "columns": [
+            "Tax component",
+            "Taxable value",
+            "Rate",
+            "Annual tax"
+          ],
+          "rows": [
+            [
+              "School district",
+              "$145,000",
+              "1.00%",
+              "$1,450"
+            ],
+            [
+              "County",
+              "$285,000",
+              "0.40%",
+              "$1,140"
+            ],
+            [
+              "Municipality",
+              "$285,000",
+              "0.50%",
+              "$1,425"
+            ],
+            [
+              "Special district",
+              "$285,000",
+              "0.17%",
+              "$484.50"
+            ],
+            [
+              "Total",
+              "—",
+              "—",
+              "$4,499.50"
+            ]
+          ]
+        },
+        {
+          "markdown": "The estimated monthly property tax expense would be approximately $374.96.\n\nActual rates, exemptions and taxable values depend on the property's location and classification.\n\n### Texas homestead appraisal cap\n\nThe [Texas Comptroller's appraisal limitation guidance](https://comptroller.texas.gov/taxes/property-tax/appraisal-tax-limitations.php) explains that qualifying residence homesteads generally have a 10% annual limitation on appraised value growth, excluding qualifying new improvements.\n\nThis limitation applies to eligible appraised values rather than the final property tax bill.\n\nFollowing an ownership transfer, a property may lose the benefit of the previous owner's capped appraisal.\n\nRequest an updated tax estimate instead of relying exclusively on the seller's historical property tax bill.\n\n### Municipal utility district taxes\n\nSome Texas properties are located within municipal utility districts, commonly known as MUDs.\n\nThese districts may collect additional property taxes to fund infrastructure such as water and wastewater services.\n\nTwo similarly priced homes may have different property tax obligations because one is located within a special taxing district.\n\nCheck the property's tax records and ask your real estate professional about applicable district taxes and outstanding assessments.\n\nInclude these charges in your annual property tax estimate without counting them twice."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Texas",
+      "blocks": [
+        {
+          "markdown": "Texas homeowners may experience hailstorms, tornadoes, hurricanes, wildfires and flooding.\n\nInsurance premiums depend on property location, roof condition, construction materials, replacement cost and selected coverage.\n\nObtain written insurance quotes before completing your purchase.\n\n### Coastal windstorm insurance\n\nThe [Texas Department of Insurance's windstorm guidance](https://www.tdi.texas.gov/tips/what-is-windstorm-insurance.html) explains that some coastal homeowners policies exclude wind and hail damage.\n\nEligible property owners may obtain separate coverage through the Texas Windstorm Insurance Association or another insurer.\n\nAsk your lender and insurance agent whether separate windstorm protection or property certification is required.\n\n### Flood insurance\n\nOrdinary homeowners insurance generally excludes flood damage.\n\nThis is an important consideration for coastal properties and inland communities exposed to heavy rainfall.\n\nReview the state's [flood insurance resources](https://www.tdi.texas.gov/consumer/storms/flood-insurance.html) and investigate your property's location through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude additional premiums for applicable flood and windstorm policies in your mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Texas Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$285,000",
+              "$57,000",
+              "$228,000",
+              "$1,366.98"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly housing payments rather than relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Texas First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Texas Department of Housing and Community Affairs, commonly known as TDHCA, offers mortgage financing and purchase assistance through approved lenders.\n\n### My First Texas Home\n\nThe [My First Texas Home program](https://welcomehome.tdhca.texas.gov/products/my-first-texas-home) serves qualifying first-time homebuyers and eligible veterans.\n\nBorrowers may receive down payment and closing cost assistance of up to 5% of their qualifying mortgage amount.\n\nThe program generally requires a minimum credit score of 620, approved homebuyer education and compliance with applicable income and purchase price limits.\n\n### My Choice Texas Home\n\nThe [My Choice Texas Home program](https://welcomehome.tdhca.texas.gov/products/my-choice-texas-home) is available to qualifying first-time and repeat buyers.\n\nIt also offers assistance of up to 5% of the eligible mortgage amount.\n\nAvailable arrangements include interest-free deferred repayable financing and conditionally forgivable secondary financing.\n\nFor example, 5% assistance on an eligible $228,000 mortgage would provide $11,400 toward qualifying purchase expenses.\n\nAssistance-based mortgages may carry higher interest rates than loans without assistance. Compare the complete borrowing costs and request written repayment conditions before applying."
+        }
+      ]
+    },
+    {
+      "heading": "How Your Down Payment Changes Your Texas Mortgage",
+      "blocks": [
+        {
+          "markdown": "A larger down payment reduces the amount you need to borrow.\n\nFor a $285,000 home, increasing your down payment from 10% to 20% requires an additional $28,500 upfront.\n\nAt an illustrative 6% interest rate over 30 years, this reduces your monthly principal and interest payment by approximately $170.87.\n\nYou may also avoid conventional private mortgage insurance by making the larger down payment.\n\nHowever, retaining sufficient emergency savings may be more practical than committing every available dollar to the purchase.\n\nCompare both scenarios using the calculator before deciding."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Texas Home",
+      "blocks": [
+        {
+          "markdown": "Homeowners should consider summer cooling expenses, foundation maintenance, roof repairs and landscaping costs.\n\nBuyers purchasing newly constructed homes should investigate whether existing property taxes reflect only undeveloped land rather than the completed residence.\n\nAn initial escrow estimate based on land-only taxation can result in a substantial payment increase when the completed property is assessed.\n\nUse our [Texas Paycheck Calculator](/calculators/texas-paycheck-calculator/) to estimate take-home earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing financial obligations.\n\nTexas does not impose an individual state income tax, but federal income taxes and applicable payroll deductions still affect household income.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/)."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $285,000 Texas home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,366.98 monthly. Property taxes, insurance and applicable fees increase the total payment.\n\n### What is the Texas homestead exemption in 2026?\n\nQualifying residence homesteads generally receive a $140,000 school district property tax exemption. Eligible homeowners aged 65 or older or with qualifying disabilities receive an additional $60,000 exemption. Local exemptions may also apply.\n\n### Does Texas offer down payment assistance?\n\nYes. TDHCA offers eligible borrowers assistance of up to 5% of their qualifying mortgage amount through programs such as My First Texas Home and My Choice Texas Home. Eligibility and repayment conditions vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Texas Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Texas mortgage calculator to compare purchase prices, down payments, interest rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding local exemptions, district taxes and complete insurance requirements can help you establish a sustainable homebuying budget."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "intro": [
+    "Buying a home in New Jersey requires careful consideration of monthly housing expenses. Property taxes, insurance premiums, mortgage interest and association fees can significantly increase the amount you pay beyond your basic home loan repayment.",
+    "Our free New Jersey mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're buying in Newark, Jersey City, Princeton, Trenton or a Jersey Shore community, use the calculator to compare financing options before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in New Jersey?",
+      "blocks": [
+        {
+          "markdown": "A $455,000 New Jersey home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,182.36.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$455,000"
+            ],
+            [
+              "Down payment",
+              "$91,000"
+            ],
+            [
+              "Loan amount",
+              "$364,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,182.36"
+            ],
+            [
+              "Monthly property taxes",
+              "$800"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$3,132.36"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the New Jersey Housing Market",
+      "blocks": [
+        {
+          "markdown": "New Jersey offers housing options ranging from urban condominiums and suburban single-family homes to coastal residences and rural properties.\n\nAccording to the [US Census Bureau's New Jersey QuickFacts](https://www.census.gov/quickfacts/fact/table/NJ/HSG650224), the median value of owner-occupied housing was $454,400 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages reached $2,829, while approximately 63.8% of occupied housing units were owner-occupied.\n\nThese historical statistics provide useful context but do not represent current property asking prices or mortgage offers.\n\nHomes near New York City may have substantially different prices from properties in southern New Jersey. Coastal properties may also involve additional insurance requirements.\n\nResearch comparable property sales in your preferred neighborhood before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the New Jersey Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nChoose your preferred loan term and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nAdd annual property taxes, homeowners insurance premiums and monthly association fees. Include private mortgage insurance if required by your financing arrangement.\n\nReview the estimated monthly housing payment and adjust the inputs to compare different purchase prices, interest rates and repayment periods.\n\nThe amortization schedule also shows how your outstanding loan balance decreases over time.\n\nUse our national Mortgage Calculator to compare financing arrangements outside New Jersey."
+        }
+      ]
+    },
+    {
+      "heading": "How New Jersey Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Property taxes are a particularly important consideration when purchasing a New Jersey home.\n\nAccording to the [New Jersey Division of Taxation's general property tax guidance](https://nj.gov/treasury/taxation/lpt/genlpt.shtml), property valuations are generally based on market value standards.\n\nLocal county, municipal and school budgets influence the amount of property tax collected.\n\nAlthough all 21 New Jersey counties have adopted a 100% assessment standard, an individual property's existing assessment may differ from its current market value.\n\n### General versus effective property tax rates\n\nNew Jersey publishes both general and effective property tax rates.\n\nThe general rate is applied to taxable assessed property value to calculate the tax bill.\n\nThe effective rate is a statistical measure used to compare taxation across different jurisdictions. It should not be applied directly to an existing taxable assessment.\n\nConsult the state's [municipal property tax statistics](https://www.nj.gov/treasury/taxation/lpt/statdata.shtml) when investigating local tax rates.\n\n### New Jersey property tax calculation example\n\nSuppose you purchase a home for $455,000, but its taxable assessed value is $400,000.\n\nAssume an illustrative general property tax rate of $2.40 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home purchase price",
+              "$455,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$400,000"
+            ],
+            [
+              "Illustrative general tax rate",
+              "2.40%"
+            ],
+            [
+              "Annual property taxes",
+              "$9,600"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$800"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes depend on the applicable municipal rate, assessment and other adjustments.\n\nObtain the property's current tax bill and investigate any planned reassessment before using an annual tax estimate."
+        }
+      ]
+    },
+    {
+      "heading": "New Jersey Property Tax Relief Programs",
+      "blocks": [
+        {
+          "markdown": "New Jersey offers several programs intended to reduce the financial burden of property taxes for eligible residents.\n\n### ANCHOR property tax relief\n\nThe Affordable New Jersey Communities for Homeowners and Renters program, commonly called ANCHOR, provides benefits to eligible residents.\n\nAccording to the [official ANCHOR benefit calculation guide](https://www.nj.gov/treasury/taxation/anchor/calculated.shtml), standard homeowner benefits for the 2025 tax year include:"
+        },
+        {
+          "columns": [
+            "New Jersey gross income",
+            "Homeowner benefit"
+          ],
+          "rows": [
+            [
+              "$150,000 or less",
+              "$1,500"
+            ],
+            [
+              "Above $150,000 through $250,000",
+              "$1,000"
+            ],
+            [
+              "Above $250,000",
+              "Not eligible"
+            ]
+          ]
+        },
+        {
+          "markdown": "Ownership, residency and other requirements apply. The filing deadline for the 2025 benefit was November 2, 2026.\n\n### Senior Freeze and Stay NJ\n\nThe [Senior Freeze program](https://nj.gov/treasury/taxation/ptr/index.shtml) reimburses qualifying older homeowners and eligible individuals with disabilities for certain property tax increases.\n\nThe separate [Stay NJ program](https://www.nj.gov/treasury/taxation/staynj/) provides property tax relief for qualifying homeowners aged 65 or older.\n\nUnder the fiscal year 2027 budget, Stay NJ benefits payable in 2027 are subject to updated income thresholds and maximum benefit amounts.\n\nThese programs generally provide benefits separately from regular mortgage escrow payments. Do not automatically subtract anticipated benefits from the annual property tax amount entered into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in New Jersey",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on property location, construction, condition, replacement cost and selected coverage.\n\nNew Jersey homeowners may experience coastal storms, flooding, wind-related damage and winter weather.\n\nObtain property-specific insurance quotes before committing to a purchase.\n\n### Hurricane and windstorm deductibles\n\nThe [New Jersey Department of Banking and Insurance](https://nj.gov/dobi/division_consumers/insurance/extremeweather.html) advises homeowners to review separate hurricane and windstorm deductibles where applicable.\n\nFor example, a 2% hurricane deductible on $400,000 in dwelling coverage would represent $8,000 in potential out-of-pocket costs for an applicable covered claim.\n\nCompare premiums alongside deductibles, coverage restrictions and replacement cost limits.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding.\n\nProperties along the Jersey Shore, near rivers or in low-lying communities may require separate coverage.\n\nInvestigate the property's flood exposure using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude any applicable flood insurance premiums when estimating your total housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "New Jersey Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$455,000",
+              "$91,000",
+              "$364,000",
+              "$2,182.36"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly housing expenses, particularly when evaluating properties in municipalities with substantially different tax rates."
+        }
+      ]
+    },
+    {
+      "heading": "New Jersey First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The New Jersey Housing and Mortgage Finance Agency, commonly known as NJHMFA, offers mortgage financing and down payment assistance through participating lenders.\n\n### NJHMFA First-Time Homebuyer Mortgage Program\n\nThe [NJHMFA homebuyer programs directory](https://www.nj.gov/dca/hmfa/homebuyers-and-renters/homebuyers/) describes 30-year fixed-rate financing options for eligible first-time buyers.\n\nIncome limits, purchase price restrictions and property eligibility requirements vary.\n\nQualifying applicants may combine an eligible first mortgage with down payment and closing cost assistance.\n\n### NJHMFA Down Payment Assistance\n\nThe agency offers eligible borrowers between $10,000 and $15,000 in assistance, depending on the county where the property is located.\n\nThe assistance is structured as an interest-free second mortgage with no scheduled monthly payments. It can be forgiven after five years when applicable program conditions are satisfied.\n\n### First Generation Down Payment Assistance\n\nQualifying first-generation homebuyers may receive an additional $7,000.\n\nWhen combined with standard assistance, eligible borrowers can receive between $17,000 and $22,000.\n\nFamily homeownership history and other eligibility requirements apply.\n\nReview the agency's official program guidance and confirm qualification with a participating lender before incorporating assistance into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a New Jersey Home",
+      "blocks": [
+        {
+          "markdown": "Buyers commuting into New York City or Philadelphia should consider rail fares, tolls, parking and vehicle expenses.\n\nCondominium buyers should review monthly association fees, reserve funds and potential special assessments.\n\nCoastal properties may require additional insurance and exterior maintenance.\n\nPrepare for closing expenses such as inspections, appraisals, title services and lender charges.\n\nNew Jersey also imposes real estate transfer-related fees, generally payable by the seller under applicable law. Review the state's [property transfer tax guidance](https://www.nj.gov/treasury/taxation/realtytransfees.shtml) and confirm contractual responsibilities with your closing professional."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in New Jersey?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing debt payments, household expenses and savings contributions.\n\nOur [New Jersey Paycheck Calculator](/calculators/new-jersey-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing financial obligations.\n\nAllow sufficient room for property taxes, transportation expenses, insurance and unexpected repairs.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) before accepting financing."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $455,000 New Jersey home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,182.36. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How are New Jersey property taxes calculated?\n\nLocal property taxes are generally calculated by applying the municipality's general tax rate to the property's taxable assessed value. Effective tax rates are primarily statistical comparisons and should not replace the applicable general rate.\n\n### Does New Jersey offer $22,000 in down payment assistance?\n\nEligible first-generation homebuyers may receive up to $22,000 by combining standard NJHMFA down payment assistance with additional first-generation assistance. County restrictions, borrower eligibility and forgiveness conditions apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your New Jersey Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our New Jersey mortgage calculator to compare home prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding the complete cost of homeownership can help you select a New Jersey property that supports your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

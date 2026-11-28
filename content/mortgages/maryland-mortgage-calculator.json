@@ -1,0 +1,275 @@
+{
+  "intro": [
+    "Whether you're purchasing your first home in Baltimore, relocating to Frederick or exploring properties in Annapolis, Rockville or another Maryland community, understanding your monthly housing costs can help you establish a realistic purchase budget.",
+    "Our free Maryland mortgage calculator estimates your monthly mortgage payment based on the home price, down payment, interest rate and repayment term. Include property taxes, homeowners insurance, private mortgage insurance and association fees to compare financing options before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Maryland?",
+      "blocks": [
+        {
+          "markdown": "A $420,000 Maryland home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,014.49.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$420,000"
+            ],
+            [
+              "Down payment",
+              "$84,000"
+            ],
+            [
+              "Loan amount",
+              "$336,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,014.49"
+            ],
+            [
+              "Monthly property taxes",
+              "$400"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Monthly HOA fees",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,664.49"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance. The interest rate, property taxes, insurance premiums and association fees are illustrative assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Maryland Housing Market",
+      "blocks": [
+        {
+          "markdown": "Maryland offers a diverse housing market that includes Baltimore's urban neighborhoods, Washington metropolitan area suburbs, Chesapeake Bay communities and rural properties in western Maryland.\n\nAccording to the [US Census Bureau's Maryland QuickFacts](https://www.census.gov/quickfacts/fact/table/MD/SBO060222), the median value of owner-occupied homes was $419,900 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs for households with mortgages were $2,347, while the owner-occupied housing rate was 67.6%.\n\nThese historical statistics provide a useful affordability benchmark but do not represent current property listing prices.\n\nHomes in Montgomery County or communities near Washington, DC, may have substantially different purchase prices from properties in western Maryland.\n\nResearch comparable sales in your preferred neighborhood and investigate local tax rates, commuting expenses and insurance premiums before determining your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Maryland Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and your available down payment.\n\nSelect your preferred mortgage term and enter the annual interest rate quoted by your lender.\n\nNext, include estimated annual property taxes, homeowners insurance premiums and monthly HOA or condominium association fees.\n\nIf your conventional mortgage requires private mortgage insurance, include that expense.\n\nReview the monthly payment breakdown to understand the contribution of each expense.\n\nYou can change the purchase price, down payment or repayment period to compare financing scenarios without submitting a mortgage application.\n\nThe amortization schedule also shows how much interest you may pay and how your outstanding mortgage balance decreases over time."
+        }
+      ]
+    },
+    {
+      "heading": "How Maryland Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Maryland property taxes generally depend on assessed property values and applicable state, county and municipal tax rates.\n\nThe State Department of Assessments and Taxation, commonly known as SDAT, handles real property assessments.\n\nLocal governments establish their respective tax rates, which can differ considerably between jurisdictions.\n\nThe [Maryland property tax rate directory](https://dat.maryland.gov/pages/tax-rates.aspx) publishes updated rates and local homestead credit caps, including information for the 2026–2027 tax year.\n\n### Maryland's property assessment cycle\n\nMaryland generally reassesses real property on a three-year cycle.\n\nWhen an assessment increases, the difference between the previous and new values is normally phased in over three years.\n\nFor example, if a property's assessment increases from $360,000 to $420,000, its phased-in assessment could progress as follows:"
+        },
+        {
+          "columns": [
+            "Assessment period",
+            "Property value"
+          ],
+          "rows": [
+            [
+              "Previous assessment",
+              "$360,000"
+            ],
+            [
+              "First year",
+              "$380,000"
+            ],
+            [
+              "Second year",
+              "$400,000"
+            ],
+            [
+              "Third year",
+              "$420,000"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example excludes additional adjustments and credits.\n\nThe [SDAT property assessment guidance](https://dat.maryland.gov/realproperty/Pages/Questions-and-Answers-About-Real-Property-Assessments.aspx) explains how phased-in values work.\n\n### Maryland property tax calculation example\n\nSuppose your property has a taxable assessment of $420,000 and an illustrative combined tax rate of $1.10 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Taxable assessment",
+              "$420,000"
+            ],
+            [
+              "Illustrative combined tax rate",
+              "1.10%"
+            ],
+            [
+              "Annual property taxes",
+              "$4,620"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$385"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example excludes credits, special assessments and other charges.\n\nObtain the property's applicable assessment and current tax rates before calculating its actual tax liability.\n\n### Maryland Homestead Property Tax Credit\n\nThe [Maryland Homestead Property Tax Credit](https://dat.maryland.gov/realproperty/pages/maryland-homestead-tax-credit.aspx) helps eligible homeowners manage increases in taxable assessments on their principal residences.\n\nThe state portion generally uses a 10% annual limit. Counties and municipalities can establish lower limits.\n\nThis credit does not prevent the property's market value from increasing, nor does it guarantee that the total annual tax bill cannot rise by more than the applicable percentage.\n\nChanges in tax rates and other charges can still affect the final bill.\n\nHomeowners must establish eligibility through an application. Buyers should not assume they will automatically receive the previous owner's accumulated credit.\n\n### Homeowners' Property Tax Credit\n\nMaryland also provides a separate income-based property tax relief program.\n\nThe [Homeowners' Property Tax Credit Program](https://dat.maryland.gov/realproperty/Pages/Homeowners%27-Property-Tax-Credit-Program.aspx) evaluates eligible household income and qualifying property taxes.\n\nIts published guidance includes a maximum combined gross household income of $60,000, subject to additional eligibility requirements and limitations.\n\nThis program differs from the Homestead Credit. Confirm qualification before deducting any expected benefit from your mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Maryland",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's construction, location, replacement cost, condition and selected coverage.\n\nMaryland properties may face thunderstorms, coastal flooding, tropical storms and winter weather.\n\nObtain insurance quotes before completing your purchase.\n\n### Chesapeake Bay and coastal insurance\n\nHomes near the Chesapeake Bay, tidal rivers and Atlantic coastline may face greater exposure to storm surge and flooding.\n\nStandard homeowners insurance generally excludes flooding.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate your property's flood exposure.\n\nDepending on your lender and property location, separate flood insurance may be required.\n\nInclude its annual premium when estimating total housing expenses.\n\n### Windstorm deductibles\n\nThe [Maryland Insurance Administration's storm insurance guidance](https://insurance.maryland.gov/Consumer/Pages/Automobile-and-Homeowners-Post-Disaster-Claim-FAQs.aspx) explains that some policies contain separate deductibles for wind-related losses.\n\nThese deductibles may be calculated as a percentage of insured dwelling value rather than a fixed dollar amount.\n\nFor example, a 2% deductible on $400,000 of dwelling coverage would equal $8,000 for a covered claim to which that deductible applies.\n\nCompare insurance premiums alongside coverage limits and potential out-of-pocket costs."
+        }
+      ]
+    },
+    {
+      "heading": "Maryland Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$420,000",
+              "$84,000",
+              "$336,000",
+              "$2,014.49"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$650,000",
+              "$130,000",
+              "$520,000",
+              "$3,117.66"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, mortgage insurance and association fees.\n\nCompare the complete monthly housing payments rather than relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Maryland First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Maryland Department of Housing and Community Development administers the Maryland Mortgage Program, commonly called MMP.\n\n### MMP 1st Time Advantage\n\nThe [1st Time Advantage program](https://mmp.maryland.gov/home-loans/mmp-1st-time-advantage) provides eligible first-time buyers with mortgage financing and optional purchase assistance.\n\nAvailable options include:"
+        },
+        {
+          "columns": [
+            "Program",
+            "Assistance"
+          ],
+          "rows": [
+            [
+              "1st Time Advantage Direct",
+              "No program down payment assistance"
+            ],
+            [
+              "1st Time Advantage 6000",
+              "$6,000"
+            ],
+            [
+              "1st Time Advantage 3%",
+              "3% of first mortgage"
+            ],
+            [
+              "1st Time Advantage 4%",
+              "4% of first mortgage"
+            ],
+            [
+              "1st Time Advantage 5%",
+              "5% of first mortgage"
+            ]
+          ]
+        },
+        {
+          "markdown": "The assistance arrangements generally involve zero-interest deferred second mortgages.\n\nRepayment becomes due under specified conditions, including repayment or refinancing of the primary mortgage, property sale or ownership transfer.\n\nThese arrangements should not be treated as unconditional grants.\n\n### Maryland Flex Loans\n\nThe [MMP Flex Loan program](https://mmp.maryland.gov/home-loans/mmp-flex-loans) serves qualifying first-time and repeat buyers.\n\nAvailable assistance options include the Flex 6000 product and a second mortgage equal to 3% of the first mortgage amount.\n\nApplicants must satisfy income, credit, homebuyer education and property eligibility requirements.\n\nCompare the associated first mortgage rate alongside the assistance amount.\n\n### Partner Match assistance\n\nMaryland's [down payment assistance directory](https://mmp.maryland.gov/home-loans/down-payment-assistance) explains that qualifying participants using designated $6,000 assistance products may receive matching funds of up to $2,500 through approved partners.\n\nLocal governments, employers and participating organizations may also offer separate purchase assistance.\n\nConfirm program compatibility, eligibility and funding availability with an approved lender before incorporating assistance into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Maryland Home",
+      "blocks": [
+        {
+          "markdown": "Homebuyers should investigate commuting expenses, particularly when purchasing outside major employment centers.\n\nRail fares, tolls, parking and vehicle maintenance can significantly affect the financial advantages of a lower purchase price.\n\nCondominium and townhouse buyers should review association fees, reserve funds and potential special assessments.\n\nAsk which expenses are covered through association dues to avoid double-counting insurance or maintenance costs.\n\nAlso prepare for closing expenses, including applicable transfer and recordation taxes, title services, inspections and lender fees.\n\nReview the [CFPB's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) before accepting a mortgage offer."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Maryland?",
+      "blocks": [
+        {
+          "markdown": "Begin with your reliable monthly take-home income and subtract existing debt payments, household expenses and regular savings contributions.\n\nUse our [Maryland Paycheck Calculator](/calculators/maryland-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing obligations.\n\nAllow sufficient room for insurance deductibles, home repairs, transportation and emergency savings.\n\nA lender's mortgage approval does not necessarily indicate that the approved payment will be comfortable for your household."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $420,000 Maryland home?\n\nWith 20% down, a 6% fixed annual interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,014.49. Taxes, insurance and applicable fees increase your total housing payment.\n\n### How does Maryland's Homestead Property Tax Credit work?\n\nThe credit limits qualifying annual increases in taxable assessments on eligible principal residences. The state generally uses a 10% limit, while local governments may establish lower limits. Homeowners must meet applicable eligibility requirements.\n\n### Does Maryland offer down payment assistance for homebuyers?\n\nYes. The Maryland Mortgage Program offers assistance through its 1st Time Advantage and Flex products. Assistance may be a fixed dollar amount or a percentage of the first mortgage, generally structured as deferred secondary financing."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Maryland Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Maryland mortgage calculator to compare home prices, mortgage rates, down payments and repayment periods.\n\nReplace illustrative assumptions with verified property taxes, insurance quotes and association fees. Estimating the complete cost of homeownership can help you select a Maryland property that supports your financial goals."
+        }
+      ]
+    }
+  ]
+}

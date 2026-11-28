@@ -1,3 +1,4 @@
+import { getStateMortgageCalculatorPage } from './StateMortgageCalculatorPage';
 import north_dakotaPaycheckContent from '@/content/paychecks/north-dakota.json';
 import wyomingPaycheckContent from '@/content/paychecks/wyoming.json';
 import wisconsinPaycheckContent from '@/content/paychecks/wisconsin.json';
@@ -152,5 +153,5 @@ const statePaystubPages = new Map(paycheckGuides.map(guide => [
 ]));
 
 export function getCustomCalculatorPage(slug: string) {
-  return Object.hasOwn(pages, slug) ? pages[slug as keyof typeof pages] : statePaystubPages.get(slug) ?? null;
+  return Object.hasOwn(pages, slug) ? pages[slug as keyof typeof pages] : statePaystubPages.get(slug) ?? getStateMortgageCalculatorPage(slug);
 }

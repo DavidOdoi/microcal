@@ -64,3 +64,13 @@ test('extra principal shortens payoff and annual rows reconcile with the final m
   assert.equal(short.payoffDate, '2026-02-28');
   assert.equal(short.schedule.at(-1)!.payment, 600);
 });
+
+test('state mortgage estimates include separately entered flood coverage without changing loan interest', () => {
+  const louisiana = {
+    ...example, homePrice: 215000, downPayment: 43000, annualTax: 1500, annualInsurance: 3600, annualFloodInsurance: 1200,
+  };
+  const result = calculateMortgage(louisiana);
+  assert.equal(result.monthlyFloodInsurance, 100);
+  assert.equal(result.monthlyTotal.toFixed(2), '1556.23');
+  assert.equal(result.totalInterest, calculateMortgage({ ...louisiana, annualFloodInsurance: 0 }).totalInterest);
+});

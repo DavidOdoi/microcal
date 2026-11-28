@@ -1,0 +1,237 @@
+{
+  "intro": [
+    "Buying a home in Wyoming requires more than finding a property with an affordable purchase price. Property taxes, mortgage interest, homeowners insurance and seasonal maintenance expenses can significantly influence your monthly housing budget.",
+    "Our free Wyoming mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Cheyenne, Casper, Laramie, Sheridan or a smaller Wyoming community, compare financing arrangements and understand the complete cost of homeownership."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Wyoming?",
+      "blocks": [
+        {
+          "markdown": "A $310,000 Wyoming home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,486.89.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$310,000"
+            ],
+            [
+              "Down payment",
+              "$62,000"
+            ],
+            [
+              "Loan amount",
+              "$248,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,486.89"
+            ],
+            [
+              "Monthly property taxes",
+              "$150"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,811.89"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. Taxes, insurance premiums and the interest rate are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Wyoming Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's Wyoming housing statistics](https://www.census.gov/quickfacts/fact/table/WY/LND110220), the median value of owner-occupied housing was $309,700 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,754, while the homeownership rate was 71.8%.\n\nThese historical figures include homeowners who purchased properties under different market conditions. They do not represent current home sale prices or mortgage offers.\n\nHousing prices around Jackson and popular mountain communities may differ considerably from those in eastern Wyoming or smaller agricultural communities.\n\nBuyers considering rural properties should investigate transportation expenses, utility availability, insurance and infrastructure maintenance.\n\nResearch recent comparable property sales before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Wyoming Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering your expected home purchase price and the amount you intend to contribute as a down payment.\n\nChoose your preferred repayment period and enter the annual mortgage interest rate quoted by your lender.\n\nIf you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, enter annual property taxes, homeowners insurance premiums and applicable association fees.\n\nInclude private mortgage insurance if required by your conventional financing arrangement.\n\nReview the estimated monthly housing payment and adjust individual inputs to compare borrowing scenarios.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases over time and how much interest you could pay.\n\nOur national Mortgage Calculator also allows you to compare financing arrangements outside Wyoming."
+        }
+      ]
+    },
+    {
+      "heading": "How Wyoming Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Wyoming calculates property taxes using property valuations, statutory assessment percentages, applicable local mill levies and eligible exemptions.\n\nCounty assessors establish property values, while local taxing districts determine rates that support public schools, emergency services and other government functions.\n\n### Wyoming residential property assessment ratio\n\nAccording to the [Wyoming Department of Revenue's residential property tax guidance](https://wyo-prop-div.wyo.gov/residential), residential property is generally assessed at 9.5% of its applicable market value.\n\nFor example, a residential property valued at $310,000 would have an assessed value of $29,450 before applicable exemptions.\n\nThe assessment ratio determines the value used for taxation. It does not mean homeowners pay 9.5% of their property's market value in annual property taxes.\n\nLocal mill levies are applied to the resulting taxable amount."
+        }
+      ]
+    },
+    {
+      "heading": "Wyoming's 25% Homeowner Property Tax Exemption",
+      "blocks": [
+        {
+          "markdown": "Wyoming provides a property tax exemption covering 25% of the first $1 million of qualifying residential market value.\n\nBeginning in 2026, the exemption requires qualifying owner occupancy and an application.\n\nAccording to [Albany County's homeowner exemption guidance](https://www.albanycountywy.gov/1594/Property-Tax-Exemption-for-Homeowners), homeowners generally must occupy the property as their primary residence for at least eight months during the applicable year.\n\nApplications open on October 1 and generally must be submitted by March 1 for the relevant tax year. Homeowners must renew their applications annually.\n\nCertain additional eligibility requirements and statutory exceptions apply.\n\n### Wyoming property tax calculation example\n\nSuppose your home has a fair market value of $310,000 and qualifies for the 25% homeowner exemption.\n\nAssume a hypothetical combined property tax levy of 80 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Fair market value",
+              "$310,000"
+            ],
+            [
+              "Homeowner exemption",
+              "$77,500"
+            ],
+            [
+              "Remaining market value",
+              "$232,500"
+            ],
+            [
+              "Residential assessment ratio",
+              "9.5%"
+            ],
+            [
+              "Taxable assessed value",
+              "$22,087.50"
+            ],
+            [
+              "Illustrative combined levy",
+              "80 mills"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$1,767"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$147.25"
+            ]
+          ]
+        },
+        {
+          "markdown": "Without the exemption, the same hypothetical property would have annual taxes of $2,356.\n\nThe exemption would therefore reduce annual taxes by $589 under these assumptions.\n\nActual tax liabilities depend on property classification, applicable levies and confirmed exemption eligibility.\n\n### Long-term homeowner tax relief\n\nWyoming also provides a separate property tax exemption for qualifying older homeowners with a substantial history of paying residential property taxes in the state.\n\nUnder [House Bill 45, enacted in 2026](https://wyoleg.gov/Legislation/2026/HB0045), eligibility generally requires the homeowner or spouse to be at least 65 years old and to have paid Wyoming residential property taxes for at least 25 years.\n\nPrimary residence and application requirements also apply.\n\nHomeowners should not combine the ordinary homeowner exemption with the long-term homeowner exemption when the programs prohibit overlapping benefits."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Wyoming",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's location, construction, replacement cost, condition and environmental exposure.\n\nWyoming homeowners may experience wildfires, severe winds, hailstorms, heavy snowfall and freezing temperatures.\n\nObtain written insurance quotes before completing your purchase.\n\n### Wildfire insurance\n\nProperties near forests, grasslands and mountainous communities may face additional wildfire exposure.\n\nAsk insurers whether the property's location affects coverage availability, premiums or required protective measures.\n\nInvestigate roofing materials, surrounding vegetation and emergency access.\n\nA relatively affordable property may become more expensive to own if suitable insurance coverage is difficult to obtain.\n\n### Wind, hail and winter weather\n\nReview whether your homeowners insurance policy includes separate wind or hail deductibles.\n\nAsk insurers how they settle roof damage claims and whether coverage reflects replacement cost or depreciated value.\n\nFor example, a hypothetical 2% deductible on $300,000 in dwelling coverage would represent $6,000 in potential out-of-pocket expenses for an applicable covered claim.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding.\n\nProperties near rivers, streams and areas exposed to snowmelt runoff may require additional protection.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate potential flood exposure.\n\nInclude applicable additional insurance premiums in your mortgage estimate without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Wyoming Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$310,000",
+              "$62,000",
+              "$248,000",
+              "$1,486.89"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly housing expenses rather than relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Wyoming First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Wyoming Community Development Authority, commonly known as WCDA, offers mortgage financing and purchase assistance through participating lenders.\n\n### First-Time Homebuyer Program\n\nThe [WCDA homebuyer programs](https://www.wyomingcda.com/homebuyers/) include fixed-rate mortgage financing for eligible first-time purchasers.\n\nApplicants must satisfy applicable income, purchase price, property and underwriting requirements.\n\n### Home$tretch down payment assistance\n\nThe Home$tretch program provides qualifying borrowers with up to $15,000 toward eligible purchase expenses.\n\nThe assistance carries a 0% interest rate and requires no scheduled monthly payments.\n\nRepayment becomes due when the property is sold, the mortgage is refinanced or the secondary loan reaches its 30-year maturity.\n\nPublished requirements generally include a minimum credit score of 620 and a minimum borrower contribution of $1,500, which may come from an eligible gift.\n\nHome$tretch is deferred financing rather than an unconditional grant.\n\n### Amortizing down payment assistance\n\nWCDA also offers an amortizing assistance loan through its Advantage mortgage product.\n\nQualifying borrowers may receive up to $15,000, repayable through scheduled monthly payments over a maximum ten-year term.\n\nUnlike Home$tretch, this option increases recurring borrowing expenses.\n\nRequest the applicable interest rate and repayment schedule before incorporating assistance into your budget.\n\n### Spruce Up financing\n\nWCDA's Spruce Up program combines eligible home purchase and rehabilitation expenses into one financing arrangement.\n\nThis may be useful when purchasing an older Wyoming property requiring roofing, plumbing, heating or accessibility improvements.\n\nConfirm that your proposed improvements and property meet program requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Wyoming Home",
+      "blocks": [
+        {
+          "markdown": "Wyoming homeowners should prepare for winter heating, snow removal, transportation and ongoing property maintenance.\n\nRural properties may also involve private wells, septic systems and access road repairs.\n\nProperties containing substantial acreage or agricultural operations may require specialized financing instead of an ordinary residential mortgage.\n\nRequest historical utility bills and investigate maintenance obligations before purchasing."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Wyoming?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [Wyoming Paycheck Calculator](/calculators/wyoming-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate outstanding borrowing commitments.\n\nWyoming does not impose an individual state income tax, although federal taxes and applicable payroll deductions still reduce available earnings.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient emergency savings for closing expenses, insurance deductibles and unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $310,000 Wyoming home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,486.89. Property taxes, insurance and applicable fees increase the total payment.\n\n### What is Wyoming's 25% homeowner property tax exemption?\n\nQualifying homeowners may receive an exemption covering 25% of the first $1 million of eligible residential market value. Primary residence, occupancy and annual application requirements apply.\n\n### Does Wyoming offer $15,000 in down payment assistance?\n\nYes. WCDA offers eligible borrowers up to $15,000 through its Home$tretch and amortizing assistance programs. Repayment obligations and eligibility requirements depend on the selected financing arrangement."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Wyoming Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Wyoming mortgage calculator to compare purchase prices, down payments, interest rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding Wyoming's property tax exemptions and complete ownership expenses can help you choose a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

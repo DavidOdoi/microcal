@@ -1,0 +1,248 @@
+{
+  "intro": [
+    "Whether you are buying a home in Wilmington, Dover, Newark or one of Delaware's coastal communities, understanding your monthly housing expenses is an important step toward homeownership.",
+    "Our free Delaware mortgage calculator helps you estimate mortgage payments using your purchase price, down payment, interest rate and loan term. Include property taxes, homeowners insurance, private mortgage insurance and HOA fees to compare financing options and establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Delaware?",
+      "blocks": [
+        {
+          "markdown": "A $350,000 Delaware home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,678.74.\n\nHere is an illustrative monthly payment breakdown."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$350,000"
+            ],
+            [
+              "Down payment",
+              "$70,000"
+            ],
+            [
+              "Loan amount",
+              "$280,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,678.74"
+            ],
+            [
+              "Monthly property taxes",
+              "$200"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,028.74"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. Taxes, insurance and interest rates are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Delaware Housing Market",
+      "blocks": [
+        {
+          "markdown": "Delaware's housing market covers three counties: New Castle, Kent and Sussex.\n\nNorthern communities provide access to employment centers around Wilmington and Philadelphia, while central Delaware includes Dover and surrounding residential areas. Southern Delaware includes agricultural communities, growing developments and popular coastal destinations.\n\nAccording to the [US Census Bureau's Delaware QuickFacts](https://www.census.gov/quickfacts/fact/table/DE/POP060220), the median value of owner-occupied homes was $352,000 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,816, while the owner-occupied housing rate reached 73%.\n\nThese historical statistics provide a useful affordability benchmark. However, actual purchase prices differ by neighborhood, property condition, location and market demand.\n\nA beach-area home may involve different insurance costs and association fees from a similarly priced inland property.\n\nCompare recent local property sales before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Delaware Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of the home.\n\nNext, provide your available down payment and choose a repayment period. Enter the annual interest rate offered by your lender, rather than assuming every borrower receives the same rate.\n\nAdd annual property taxes and homeowners insurance premiums.\n\nIf you plan to purchase a condominium or property in a managed development, enter the applicable monthly association fees.\n\nInclude private mortgage insurance when required by your conventional financing arrangement.\n\nReview the estimated monthly payment and compare multiple scenarios. Adjusting the down payment, interest rate or repayment period can reveal substantial differences in borrowing costs.\n\nOur national Mortgage Calculator can also help you compare home financing arrangements outside Delaware."
+        }
+      ]
+    },
+    {
+      "heading": "How Delaware Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Delaware property taxes vary according to the property's location, assessed value and applicable local tax rates.\n\nA property tax bill can include county taxes, school district charges and other applicable local assessments.\n\nRecent property reassessment activity makes it particularly important to obtain updated information rather than relying exclusively on older tax records.\n\n### Property reassessment in Delaware\n\nProperty assessments may change when counties update their valuation systems.\n\nBuyers should establish which assessment values and tax rates apply to the intended property for the relevant tax year.\n\nIn April 2026, [New Castle County announced an updated property tax billing schedule and online estimation tool](https://www.newcastlede.gov/m/newsflash/Home/Detail/2651).\n\nThe announcement specified that the county's 2026 estimation tool covered county taxes but did not include school taxes or certain additional local charges.\n\nThis distinction matters because relying exclusively on the county portion can substantially underestimate your complete property tax expenses.\n\n### Calculating monthly property taxes\n\nOnce you obtain an estimate of the property's full annual tax liability, divide the amount by 12 to calculate its monthly equivalent.\n\nFor example:"
+        },
+        {
+          "columns": [
+            "Annual property tax",
+            "Monthly equivalent"
+          ],
+          "rows": [
+            [
+              "$1,200",
+              "$100"
+            ],
+            [
+              "$1,800",
+              "$150"
+            ],
+            [
+              "$2,400",
+              "$200"
+            ],
+            [
+              "$3,600",
+              "$300"
+            ],
+            [
+              "$4,800",
+              "$400"
+            ]
+          ]
+        },
+        {
+          "markdown": "If your lender collects property taxes through an escrow account, this amount may form part of your regular mortgage payment.\n\nYour escrow payment can change when property taxes or insurance premiums increase, even if you have a fixed-rate mortgage.\n\nContact your county and relevant tax authorities to obtain a complete property-specific estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Delaware",
+      "blocks": [
+        {
+          "markdown": "Delaware homeowners should consider the property's environmental exposure when comparing insurance options.\n\nCoastal communities may face windstorms, hurricanes, flooding and storm surge. Properties farther inland can also experience flooding and severe weather.\n\n### Flood insurance for Delaware properties\n\nAccording to the [Delaware Department of Insurance's flood insurance guidance](https://insurance.delaware.gov/divisions/consumerhp/flood/), ordinary homeowners insurance does not provide standard protection against flood damage.\n\nBuyers may need a separate policy, particularly when purchasing property in designated flood hazard areas.\n\nThe [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) allows homeowners to investigate flood exposure using property information.\n\nObtain an insurance quote early in the purchasing process. Do not wait until closing to determine whether additional coverage is required.\n\n### Coastal homeowners insurance\n\nInsurance for a coastal property may involve different deductibles, coverage restrictions and premiums from an inland home.\n\nAsk whether the policy includes separate windstorm or hurricane deductibles and how those deductibles are calculated.\n\nAlso confirm that the coverage limit adequately reflects the potential cost of rebuilding the home.\n\nEnter the combined cost of applicable insurance policies into the calculator to create a more comprehensive monthly estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Delaware Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following calculations assume a 20% down payment, a 6% fixed annual interest rate and a 30-year repayment period."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$550,000",
+              "$110,000",
+              "$440,000",
+              "$2,638.02"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude property taxes, homeowners insurance, PMI and association dues.\n\nCompare the complete housing payment rather than selecting a property solely because its principal and interest payment appears affordable."
+        }
+      ]
+    },
+    {
+      "heading": "Delaware Realty Transfer Tax and Closing Costs",
+      "blocks": [
+        {
+          "markdown": "Delaware homebuyers should pay particular attention to realty transfer taxes when estimating the cash needed at closing.\n\nThese taxes are separate from recurring annual property taxes and generally apply when ownership of real estate changes.\n\nAccording to the [Delaware Division of Revenue](https://revenue.delaware.gov/first-time-home-buyer-tax-credit/), the state realty transfer tax is generally 2.5% where a local transfer tax also applies, or 3% in areas without a local transfer tax.\n\nThe responsibility for paying transfer taxes is commonly divided between buyers and sellers, although contractual arrangements can differ.\n\n### First-time homebuyer transfer tax reduction\n\nQualifying first-time buyers may receive a reduction of 0.5 percentage points on their portion of the state realty transfer tax, capped at $2,000.\n\nFor example, an eligible purchase valued at $350,000 could qualify for a $1,750 reduction.\n\nEligibility includes specific previous ownership and primary residence requirements.\n\nAsk your closing attorney to confirm whether you qualify.\n\n### Other Delaware closing costs\n\nBuyers should also budget for mortgage origination charges, appraisals, inspections, title services, recording fees and prepaid expenses.\n\nReview your lender's disclosures using the [CFPB Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nThese upfront costs generally should not be included in the monthly mortgage calculation unless they are financed as part of an eligible loan."
+        }
+      ]
+    },
+    {
+      "heading": "Delaware First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Housing Delaware, the Delaware State Housing Authority, offers homeownership programs through participating lenders.\n\n### Welcome Home and Open Door\n\nThe [Delaware Mortgage Program](https://www.destatehousing.com/homeownership-loans/) offers fixed-rate first mortgages through its Welcome Home and Open Door options.\n\nWelcome Home primarily serves eligible first-time buyers, while Open Door accommodates both first-time and repeat purchasers.\n\nIncome limits, purchase price restrictions, credit requirements and other qualifications apply.\n\n### Down payment assistance\n\nHousing Delaware lists several deferred second mortgage options:"
+        },
+        {
+          "columns": [
+            "Assistance program",
+            "Assistance amount"
+          ],
+          "rows": [
+            [
+              "First State Home Loan",
+              "3% of first mortgage"
+            ],
+            [
+              "Keys4You Home Loan",
+              "4% of first mortgage"
+            ],
+            [
+              "Take5 Home Loan",
+              "5% of first mortgage"
+            ]
+          ]
+        },
+        {
+          "markdown": "These programs provide zero-interest secondary financing for eligible purchase expenses. Specific first mortgage requirements and availability apply.\n\nAlthough no scheduled monthly payment is required, repayment can become due when borrowers sell, refinance, transfer ownership or stop occupying the property as their primary residence.\n\nAssistance should not be treated as an unconditional grant.\n\nVisit Housing Delaware's [published mortgage rates](https://www.destatehousing.com/interest-rates/) and contact a participating lender to compare current financing options."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Delaware Home",
+      "blocks": [
+        {
+          "markdown": "Delaware buyers considering beach communities or managed residential developments should investigate costs outside their mortgage.\n\nAssociation dues may cover community facilities, landscaping, shared roads or building maintenance.\n\nCoastal properties may require additional insurance and more frequent exterior maintenance.\n\nBuyers should also investigate utility arrangements, property maintenance requirements and any private infrastructure obligations.\n\nFor condominiums, review the association's reserves, insurance coverage and potential special assessments.\n\nA relatively low purchase price does not necessarily result in lower overall ownership expenses."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Delaware?",
+      "blocks": [
+        {
+          "markdown": "Review your monthly take-home income, existing debt obligations, living expenses and savings before deciding on a purchase budget.\n\nOur [Delaware Paycheck Calculator](/calculators/delaware-paycheck-calculator/) can help estimate your after-tax income, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you understand how existing debt affects your financial position.\n\nAllow sufficient room for transportation, healthcare, groceries, insurance, repairs and emergency savings.\n\nIf you commute to employment centers outside Delaware, account for the associated travel expenses when comparing properties."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $350,000 Delaware home?\n\nWith a 20% down payment, a 6% fixed interest rate and a 30-year repayment period, monthly principal and interest would be approximately $1,678.74. Add local property taxes, insurance and applicable fees for a complete housing estimate.\n\n### Do Delaware property taxes include school district taxes?\n\nProperty tax obligations may include county, school district and other local charges. Obtain the complete property tax estimate rather than relying solely on the county portion of the bill.\n\n### Does Delaware offer down payment assistance for first-time buyers?\n\nYes. Housing Delaware offers eligible buyers assistance through programs such as First State, Keys4You and Take5. These are deferred second mortgages, subject to eligibility, repayment requirements and program availability."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Delaware Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Delaware mortgage calculator to compare properties and financing options before committing to a purchase.\n\nReplace illustrative assumptions with current property tax information, lender quotes and insurance premiums to establish a more accurate monthly housing budget."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "intro": [
+    "Two Oregon homes selling for $480,000 can have significantly different property tax bills, even when they are located in the same neighborhood. Oregon's property assessment system, insurance requirements and local ownership expenses make it important to look beyond the advertised purchase price.",
+    "Our free Oregon mortgage calculator helps you estimate your monthly housing payment before buying a property. Enter your home price, down payment, interest rate and loan term, then include taxes, homeowners insurance and applicable association fees to establish a realistic purchase budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Oregon?",
+      "blocks": [
+        {
+          "markdown": "A $480,000 Oregon home purchased with 20% down and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $2,302.27.\n\nIncluding estimated property taxes and insurance produces the following monthly payment."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$480,000"
+            ],
+            [
+              "Down payment",
+              "$96,000"
+            ],
+            [
+              "Loan amount",
+              "$384,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,302.27"
+            ],
+            [
+              "Monthly property taxes",
+              "$400"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$200"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,902.27"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Oregon Housing Market",
+      "blocks": [
+        {
+          "markdown": "Oregon offers housing opportunities across metropolitan neighborhoods, coastal communities, agricultural regions and mountain towns.\n\nAccording to the [US Census Bureau's Oregon housing statistics](https://www.census.gov/quickfacts/fact/table/OR/PST120223), the median value of owner-occupied housing was $477,600 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $2,157, while the homeownership rate was 63.3%.\n\nThese statistics include existing homeowners who purchased under different market conditions. They do not represent current asking prices or mortgage offers.\n\nBuyers considering Portland, Eugene, Salem, Bend or Medford should research recent neighborhood sales and investigate property-specific ownership expenses.\n\nA rural home may offer more space but require additional transportation and infrastructure maintenance. Coastal properties may have different insurance requirements from inland homes."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Oregon Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and your available down payment.\n\nChoose your preferred mortgage term and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, enter annual property taxes, homeowners insurance premiums and monthly association fees.\n\nInclude private mortgage insurance if your financing arrangement requires it.\n\nReview the estimated monthly payment and adjust individual inputs to compare different borrowing scenarios.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases over time. Our national Mortgage Calculator also allows you to compare financing arrangements outside Oregon."
+        }
+      ]
+    },
+    {
+      "heading": "How Oregon Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Oregon uses several property valuations when determining residential property taxes.\n\nUnderstanding the difference between these values can prevent inaccurate mortgage estimates.\n\n### Real market value and maximum assessed value\n\nReal market value represents the assessor's estimate of what a property could sell for under ordinary market conditions.\n\nMaximum assessed value, commonly called MAV, is a separate statutory valuation governed by Oregon's property tax limitations.\n\nThe [Oregon Department of Revenue's property assessment guidance](https://www.oregon.gov/dor/programs/property/pages/personal-property.aspx) explains that taxable assessed value is generally the lower of these two figures.\n\nConsequently, a home selling for $480,000 may have a taxable assessment considerably below its purchase price.\n\n### Oregon Measure 50\n\nMeasure 50 generally limits annual increases in maximum assessed value to 3%, subject to applicable exceptions.\n\nMajor improvements, subdivisions and other qualifying property changes can result in larger increases.\n\nThe limitation does not guarantee that your annual property tax bill will increase by no more than 3%. Local levies and other adjustments can change the amount payable.\n\nDo not estimate property taxes solely by multiplying your intended purchase price by a municipal tax rate.\n\n### Oregon property tax calculation example\n\nSuppose you are buying a property with a real market value of $480,000 and a maximum assessed value of $300,000.\n\nAssume a hypothetical combined tax rate of $16 per $1,000 of taxable assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Real market value",
+              "$480,000"
+            ],
+            [
+              "Maximum assessed value",
+              "$300,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$300,000"
+            ],
+            [
+              "Illustrative tax rate per $1,000",
+              "$16"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$4,800"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$400"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual liabilities may include additional assessments or constitutional tax reductions.\n\nRequest the latest property tax statement and valuation details from the county assessor before relying on an estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Oregon",
+      "blocks": [
+        {
+          "markdown": "Insurance availability and costs can vary significantly across Oregon. Obtain written quotes early in the homebuying process, especially when considering properties exposed to natural hazards.\n\n### Wildfire insurance\n\nProperties near forests and grasslands may face additional insurance costs or underwriting requirements.\n\nOregon repealed its statewide wildfire hazard map in 2025. However, insurers continue to evaluate wildfire exposure using their own risk assessment methods.\n\nThe [Oregon Division of Financial Regulation's wildfire insurance resources](https://dfr.oregon.gov/insure/home/storm/pages/wildfires.aspx) explain available consumer protections and insurance considerations.\n\nAsk whether vegetation management, roof improvements or other protective measures could affect coverage eligibility.\n\nHomeowners struggling to obtain ordinary coverage may investigate the Oregon FAIR Plan with an insurance professional. Confirm that any alternative policy meets your lender's requirements.\n\n### Earthquake insurance\n\nMost standard residential insurance policies do not cover earthquake damage.\n\nThe state's [earthquake insurance guidance](https://dfr.oregon.gov/insure/home/storm/Pages/earthquake.aspx) explains that homeowners can investigate separate earthquake protection.\n\nThese policies may have substantial percentage-based deductibles.\n\nFor example, a hypothetical 15% deductible on $400,000 of dwelling coverage would leave the homeowner responsible for the first $60,000 of an applicable covered dwelling loss.\n\nBudget for premiums and potential deductibles separately.\n\n### Flood insurance\n\nOrdinary homeowners insurance generally excludes flooding. Properties near rivers and the Oregon coast may require additional coverage.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate your property's flood exposure.\n\nInclude applicable flood and earthquake insurance premiums in the mortgage calculator without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Oregon Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year repayment period."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$480,000",
+              "$96,000",
+              "$384,000",
+              "$2,302.27"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, mortgage insurance and association fees."
+        }
+      ]
+    },
+    {
+      "heading": "Oregon First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Oregon Housing and Community Services, commonly known as OHCS, provides mortgage financing through approved lenders.\n\n### FirstHome mortgage program\n\nThe [Oregon FirstHome program](https://www.oregon.gov/ohcs/homeownership/homebuyers/Pages/default.aspx) primarily serves qualifying first-time buyers and offers assistance equal to 4% or 5% of the first mortgage amount.\n\nFor example, a qualifying $384,000 mortgage could generate $15,360 in standard 4% assistance.\n\nBorrowers must satisfy applicable income, purchase price, credit and property eligibility requirements.\n\n### NextStep mortgage program\n\nThe [Flex Lending NextStep program](https://www.oregon.gov/ohcs/homeownership/homebuyers/pages/flex-lending.aspx) is available to eligible first-time and repeat buyers.\n\nIts published borrower income limit is $125,000. The assistance arrangement can be forgivable or repayable depending on the applicant's circumstances.\n\nDo not assume that receiving assistance eliminates all future repayment obligations.\n\n### Comparing assistance arrangements\n\nOHCS works with local organizations and participating lenders to provide different forms of [down payment assistance](https://www.oregon.gov/ohcs/homeownership/homebuyers/Pages/down-payment-assistance.aspx).\n\nAsk your lender whether an assistance loan requires monthly repayment, carries interest or becomes repayable when you sell or refinance.\n\nA program that reduces your upfront expenses may not necessarily produce the lowest overall borrowing cost."
+        }
+      ]
+    },
+    {
+      "heading": "How Your Down Payment Changes Your Oregon Mortgage",
+      "blocks": [
+        {
+          "markdown": "Making a larger down payment reduces the amount borrowed and may eliminate conventional PMI requirements.\n\nConsider a $480,000 home financed at 6% over 30 years.\n\nWith 10% down, the loan amount would be $432,000, producing monthly principal and interest of approximately $2,590.06.\n\nIncreasing the down payment to 20% would reduce monthly principal and interest to approximately $2,302.27, potentially saving additional money through avoided PMI.\n\nHowever, the larger down payment requires an additional $48,000 upfront.\n\nCompare both scenarios while retaining enough savings for closing expenses, repairs and insurance deductibles."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning an Oregon Home",
+      "blocks": [
+        {
+          "markdown": "Oregon homeowners should consider expenses that are not included in the standard mortgage calculation.\n\nHeavy rainfall can increase the importance of roof maintenance, drainage and moisture control. Rural properties may require private well maintenance, septic servicing and driveway repairs.\n\nCondominium buyers should review association budgets and reserve funds. Ask about upcoming special assessments that could increase ownership expenses.\n\nUse our [Oregon Paycheck Calculator](/calculators/oregon-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing financial commitments.\n\nCompare lender offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain an [emergency fund](/savings/emergency-fund-calculator/) rather than committing all available savings to your down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $480,000 Oregon home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,302.27. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### Does Oregon limit property tax increases to 3%?\n\nOregon generally limits annual increases in maximum assessed value to 3%, subject to qualifying exceptions. This is not a universal limit on increases in the final property tax bill.\n\n### Does Oregon offer down payment assistance?\n\nYes. Oregon Housing and Community Services offers assistance through FirstHome, NextStep and participating community organizations. Assistance amounts, eligibility and repayment arrangements depend on the selected program."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Oregon Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Oregon mortgage calculator to compare home prices, down payments, interest rates and repayment periods.\n\nReplace illustrative expenses with accurate county tax information and property-specific insurance quotes. Understanding your complete housing costs can help you select an Oregon property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

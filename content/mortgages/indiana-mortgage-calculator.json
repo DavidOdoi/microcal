@@ -1,0 +1,213 @@
+{
+  "intro": [
+    "Whether you're buying your first home in Indianapolis, moving to Fort Wayne or exploring properties in South Bend, Bloomington or Evansville, understanding your monthly housing costs is an important part of financial planning.",
+    "Our free Indiana mortgage calculator helps you estimate your monthly mortgage payment based on the home price, down payment, interest rate and loan term. Include property taxes, homeowners insurance, private mortgage insurance and HOA fees to compare financing options and determine how much house you can comfortably afford."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Indiana?",
+      "blocks": [
+        {
+          "markdown": "A $220,000 Indiana home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,055.21.\n\nAn illustrative monthly housing payment might look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$220,000"
+            ],
+            [
+              "Down payment",
+              "$44,000"
+            ],
+            [
+              "Loan amount",
+              "$176,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,055.21"
+            ],
+            [
+              "Monthly property taxes",
+              "$150"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$125"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,330.21"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The taxes, insurance premiums and mortgage rate are illustrative assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Indiana Housing Market",
+      "blocks": [
+        {
+          "markdown": "Indiana offers housing options across metropolitan areas, suburban developments, university communities and rural regions.\n\nAccording to the [US Census Bureau's Indiana QuickFacts](https://www.census.gov/quickfacts/fact/table/IN/POP645224), the median value of owner-occupied housing was $218,200 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,404, while approximately 70.6% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context for homebuyers, although current purchase prices vary between neighborhoods.\n\nProperties near Indianapolis employment centers, university campuses or popular suburban communities may have different prices from homes in smaller Indiana towns.\n\nResearch comparable properties in your preferred area before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Indiana Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you plan to contribute toward the purchase upfront.\n\nChoose your mortgage repayment period and enter the annual interest rate quoted by your lender.\n\nFor a more accurate estimate, include annual property taxes, homeowners insurance premiums, monthly association fees and applicable private mortgage insurance.\n\nThe calculator displays your estimated monthly housing payment and shows how much goes toward each expense.\n\nAdjust your down payment or mortgage term to compare financing scenarios. You can also review the amortization schedule to understand how your outstanding mortgage balance decreases over time.\n\nOur national Mortgage Calculator allows you to compare similar financing arrangements in other states."
+        }
+      ]
+    },
+    {
+      "heading": "How Indiana Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Indiana calculates property taxes using assessed property values, eligible deductions, local tax rates and applicable credits.\n\nThe property's assessed value does not necessarily equal its purchase price. County assessment officials determine the relevant property valuation under Indiana's assessment rules.\n\nLocal government budgets and taxation requirements influence the rates applied to individual properties.\n\n### Indiana's property tax caps\n\nIndiana uses property tax limitations commonly known as circuit breaker credits.\n\nAccording to the [Indiana Department of Local Government Finance](https://faqs.in.gov/hc/en-us/articles/115005239828-How-are-property-taxes-determined-and-calculated), qualifying homestead properties generally benefit from a 1% property tax cap based on gross assessed value.\n\nThe broader property tax cap system includes:"
+        },
+        {
+          "columns": [
+            "Property classification",
+            "General tax cap"
+          ],
+          "rows": [
+            [
+              "Qualifying homestead property",
+              "1%"
+            ],
+            [
+              "Other residential property",
+              "2%"
+            ],
+            [
+              "Agricultural land",
+              "2%"
+            ],
+            [
+              "Nonresidential property",
+              "3%"
+            ]
+          ]
+        },
+        {
+          "markdown": "These percentages establish general tax limitations rather than actual local tax rates. Certain referendum-related charges and statutory exceptions can affect the final amount payable.\n\nFor example, a qualifying homestead with a gross assessed value of $220,000 would have a general circuit breaker threshold of $2,200 annually, equivalent to approximately $183.33 per month.\n\nYour actual bill may be lower because of deductions and credits or may include charges outside the general cap.\n\n### Indiana homestead deductions and credits\n\nEligible homeowners may receive deductions that reduce the assessed value subject to property taxation.\n\nProperty tax credits work differently because they reduce the actual tax liability rather than the underlying assessed value.\n\nIndiana's property tax relief provisions have undergone legislative changes, making the assessment year and payment year particularly important when estimating future expenses.\n\nConsult the [Indiana Department of Local Government Finance's deductions and credits directory](https://www.in.gov/dlgf/deductions-and-credits) for current eligibility requirements.\n\nNew homeowners should contact their county auditor to confirm whether they need to apply for homestead-related benefits following a property transfer.\n\n### Estimating your annual property tax bill\n\nIndiana provides official [property tax estimation tools](https://www.in.gov/dlgf/understanding-your-tax-bill/taxpayer-calculators/) that allow residents to investigate potential tax liabilities using assessed values, tax districts and applicable deductions.\n\nOnce you obtain your estimated annual property tax bill, divide the amount by 12.\n\nFor example, annual taxes of $1,800 represent $150 in monthly housing expenses.\n\nEnter this monthly equivalent or the annual amount into the mortgage calculator, depending on the selected input format."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Indiana",
+      "blocks": [
+        {
+          "markdown": "Homeowners insurance premiums depend on the property's age, construction, replacement cost, roof condition and exposure to environmental hazards.\n\nIndiana properties may experience severe thunderstorms, tornadoes, hail, winter weather and flooding.\n\nObtain insurance quotes before purchasing a home and compare equivalent coverage levels, exclusions and deductibles.\n\n### Flood insurance\n\nThe [Indiana government's flood insurance resource](https://www.in.gov/floodinsurance/) highlights the importance of investigating flood exposure, including in areas outside designated high-risk zones.\n\nOrdinary homeowners insurance generally excludes flood damage.\n\nProperties near rivers, streams or low-lying areas may require additional insurance coverage depending on the property's risk and mortgage requirements.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the location before requesting insurance quotes.\n\n### Mine subsidence insurance\n\nHomebuyers in southwestern Indiana should also consider the potential effects of historical underground coal mining.\n\nMine subsidence occurs when underground mining areas collapse and damage structures above them.\n\nThe [Indiana Department of Insurance's mine subsidence program](https://www.in.gov/idoi/consumer-services/types-of-insurance/mine-subsidence/) provides access to specialized insurance in 26 designated counties.\n\nThese include counties such as Vigo, Sullivan, Greene, Knox, Vanderburgh and Warrick.\n\nStandard homeowners insurance generally excludes this type of damage.\n\nIf you are considering a property in an affected area, discuss coverage options with your insurance agent and investigate historical mining activity before purchasing.\n\nInclude the premiums for any additional policies when estimating your total housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Indiana Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$220,000",
+              "$44,000",
+              "$176,000",
+              "$1,055.21"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude property taxes, homeowners insurance, mortgage insurance and association fees.\n\nUse the complete Indiana mortgage calculator to estimate total housing costs for individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Indiana First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Indiana Housing and Community Development Authority, commonly known as IHCDA, offers mortgage programs through participating lenders across the state's 92 counties.\n\n### First Step program\n\nThe [IHCDA First Step program](https://secure.in.gov/ihcda/homebuyers/) provides qualifying buyers with down payment assistance alongside an eligible 30-year fixed-rate mortgage.\n\nAs of November 2026, the authority lists assistance of up to 4% of the purchase price.\n\nThe program generally serves first-time buyers, although exceptions may apply to eligible military borrowers and properties in designated targeted areas.\n\nThe assistance is non-forgivable financing. Review repayment obligations carefully before accepting the loan.\n\n### Next Home program\n\nThe Next Home program provides eligible buyers with assistance toward qualifying purchase expenses.\n\nPublished assistance options include 2.5% or 3.5% of the purchase price, subject to applicable financing and property requirements.\n\nBorrowers should review the [IHCDA homeownership programs directory](https://www.in.gov/ihcda/homebuyers/programs/) to compare available options.\n\n### Step Down program\n\nStep Down is a mortgage rate-focused program for eligible buyers who do not need down payment assistance.\n\nCompare its complete borrowing costs with assistance-based mortgage options. A program offering upfront financial support may have different interest rates or repayment obligations.\n\nConfirm current program terms with an IHCDA participating lender before incorporating assistance into your budget."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options Available in Indiana",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages may suit buyers with established credit histories and sufficient savings.\n\nFHA-insured loans can provide alternative financing for borrowers who meet applicable program requirements.\n\nEligible veterans, service members and surviving spouses may investigate [VA home loan benefits](https://www.va.gov/housing-assistance/home-loans/).\n\nBuyers considering rural Indiana communities can also explore [USDA Rural Development housing programs](https://www.rd.usda.gov/), subject to household income and property eligibility requirements.\n\nGovernment-backed loans have different mortgage insurance or funding fee arrangements. Do not assume conventional private mortgage insurance calculations apply to every loan program."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Indiana?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract regular household expenses.\n\nInclude transportation, groceries, utilities, childcare, insurance, existing debt payments and savings contributions.\n\nOur [Indiana Paycheck Calculator](/calculators/indiana-paycheck-calculator/) can help you estimate income after payroll deductions, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you evaluate your existing borrowing obligations.\n\nIndiana homeowners should also prepare for winter heating expenses, roof maintenance and unexpected repairs.\n\nWhen comparing mortgage offers, review the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) to understand upfront borrowing expenses and recurring payments.\n\nChoose a home that leaves sufficient room in your budget for emergencies and other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $220,000 Indiana home?\n\nWith a 20% down payment, a 6% fixed annual interest rate and a 30-year repayment term, monthly principal and interest would be approximately $1,055.21. Taxes, homeowners insurance and applicable fees increase the total housing payment.\n\n### Does Indiana cap residential property taxes at 1%?\n\nQualifying homestead properties generally benefit from a 1% circuit breaker cap based on gross assessed value. However, certain charges and exceptions can affect the final tax bill. The cap is not a universal property tax rate.\n\n### Does Indiana offer down payment assistance for first-time buyers?\n\nYes. IHCDA offers mortgage programs such as First Step and Next Home that provide assistance to qualifying borrowers. Assistance amounts, repayment obligations and eligibility requirements depend on the selected mortgage program."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Indiana Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Indiana mortgage calculator to compare home prices, down payments, interest rates and loan terms before making an offer.\n\nReplace illustrative taxes and insurance premiums with property-specific estimates. Understanding your complete monthly housing expenses can help you choose a property that supports sustainable homeownership and your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

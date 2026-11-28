@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Whether you are purchasing your first home in Wichita, moving to Overland Park or exploring properties in Topeka, Lawrence or rural Kansas, knowing your expected monthly housing expenses can help you establish a realistic budget.",
+    "Our free Kansas mortgage calculator estimates your monthly payment based on your home price, down payment, interest rate and repayment period. Include property taxes, homeowners insurance, private mortgage insurance and association fees to compare financing options before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Kansas?",
+      "blocks": [
+        {
+          "markdown": "A $220,000 Kansas home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,055.21.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$220,000"
+            ],
+            [
+              "Down payment",
+              "$44,000"
+            ],
+            [
+              "Mortgage amount",
+              "$176,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,055.21"
+            ],
+            [
+              "Monthly property taxes",
+              "$275"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$225"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,555.21"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, insurance premium and property taxes are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Kansas Housing Market",
+      "blocks": [
+        {
+          "markdown": "Kansas offers housing opportunities across metropolitan areas, suburban neighborhoods, agricultural communities and smaller towns.\n\nAccording to the [US Census Bureau's Kansas QuickFacts](https://www.census.gov/quickfacts/fact/table/KS/IPE120223), the median value of owner-occupied homes was $217,200 during the 2020–2024 survey period.\n\nHomeowners with mortgages reported median selected monthly ownership costs of $1,689, while approximately 67.2% of occupied housing units were owner-occupied.\n\nThese historical statistics provide useful context for understanding affordability but do not represent current property asking prices.\n\nA home in Johnson County may have a different purchase price, property tax bill and transportation cost from a comparable property in western Kansas.\n\nBefore entering a purchase price into the calculator, research recent comparable sales within your preferred neighborhood."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Kansas Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the purchase price of the property you intend to buy.\n\nAdd your available down payment in dollars or as a percentage of the purchase price. A larger down payment reduces the amount you need to borrow.\n\nSelect your preferred mortgage term and enter the annual interest rate quoted by your lender.\n\nNext, include the property's annual tax bill, homeowners insurance premiums and association fees where applicable.\n\nConventional borrowers making smaller down payments may also need private mortgage insurance.\n\nReview the estimated monthly payment and use the amortization schedule to understand how your mortgage balance decreases over time.\n\nExperiment with different purchase prices and financing terms before applying for a mortgage.\n\nOur national Mortgage Calculator also allows you to compare financing scenarios outside Kansas."
+        }
+      ]
+    },
+    {
+      "heading": "How Kansas Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Kansas property taxes depend on appraised property values, statutory assessment ratios, local mill levies and applicable exemptions.\n\nCounty appraisers determine property valuations, while local taxing authorities establish the rates used to calculate tax liabilities.\n\nThe [Kansas Department of Revenue's property tax calculation guide](https://ksrevenue.gov/propertyvaluation/ptbasics/slide03.html) explains the relationship between appraised value, assessed value and mill levies.\n\n### Kansas residential property assessment ratio\n\nResidential real estate generally uses a statewide assessment ratio of 11.5%.\n\nThis means a residential property appraised at $220,000 would have an assessed value of $25,300.\n\nThe assessment ratio is not the percentage of your home's market value that you pay annually in taxes.\n\nInstead, the relevant mill levy is applied to this smaller assessed value.\n\n### Kansas property tax calculation example\n\nSuppose a home has an appraised value of $220,000 and an illustrative combined mill levy of 130 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Appraised market value",
+              "$220,000"
+            ],
+            [
+              "Residential assessment ratio",
+              "11.5%"
+            ],
+            [
+              "Assessed property value",
+              "$25,300"
+            ],
+            [
+              "Illustrative mill levy",
+              "130 mills"
+            ],
+            [
+              "Annual tax before exemptions",
+              "$3,289"
+            ],
+            [
+              "Monthly tax equivalent",
+              "$274.08"
+            ]
+          ]
+        },
+        {
+          "markdown": "The actual tax bill may include exemptions, credits, special assessments and other adjustments.\n\nContact your county appraiser or county clerk to obtain the applicable valuation and levy rates.\n\n### Kansas school finance levy exemption\n\nKansas provides an exemption on a specified portion of residential property value for the statewide school finance levy.\n\nThe [Kansas Department of Revenue's property tax exemption directory](https://www.ksrevenue.gov/pvdptexemptions.html) identifies the applicable statutory provision under K.S.A. 79-201x.\n\nThis exemption applies specifically to the statewide school finance portion of the tax bill. It does not automatically reduce every county, city or school district levy.\n\nConfirm the applicable exemption amount for the relevant tax year rather than relying on older published examples.\n\n### Kansas homestead property tax refunds\n\nCertain homeowners may qualify for property tax relief through state refund programs.\n\nThe [Kansas Homestead Refund Programs directory](https://ksrevenue.gov/perstaxtypeshs.html) describes three arrangements:\n\n- The Kansas Homestead Refund Program.\n- Property Tax Relief for eligible low-income seniors.\n- Property Tax Relief for qualifying seniors and disabled veterans.\n\nEligibility depends on income, residency, homeownership and other statutory conditions.\n\nBecause these programs generally involve refunds, do not automatically subtract an anticipated refund from your lender's monthly escrow payment."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Kansas",
+      "blocks": [
+        {
+          "markdown": "Kansas homeowners should carefully evaluate insurance coverage because severe weather can affect both property maintenance expenses and insurance premiums.\n\nThe state experiences thunderstorms, tornadoes, hail and damaging winds. Flooding may also affect properties in certain locations.\n\nObtain property-specific insurance quotes before completing your mortgage application.\n\n### Wind and hail insurance\n\nRoof damage is an important consideration when comparing Kansas homeowners insurance policies.\n\nAsk your insurer whether roof claims are settled using replacement cost or actual cash value.\n\nReplacement cost coverage generally considers the expense of replacing damaged property with comparable materials, while actual cash value may account for depreciation.\n\nSome policies also include separate wind and hail deductibles.\n\nFor example, a 2% deductible calculated against $250,000 of dwelling coverage would equal $5,000 for a covered claim to which that deductible applies.\n\nReview the [Kansas Department of Insurance's homeowners insurance resources](https://www.insurance.kansas.gov/consumers/home-and-renters) before selecting coverage.\n\n### Flood insurance in Kansas\n\nStandard homeowners insurance generally excludes flooding.\n\nThe [Kansas Department of Insurance's storm and flood guidance](https://www.insurance.kansas.gov/consumers/storm-and-flood) provides additional information about coverage limitations and flood protection.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate your property's flood exposure.\n\nInclude separate flood insurance premiums in the mortgage calculator where applicable."
+        }
+      ]
+    },
+    {
+      "heading": "Kansas Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following calculations assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$220,000",
+              "$44,000",
+              "$176,000",
+              "$1,055.21"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, PMI and association fees.\n\nUse the complete Kansas mortgage calculator to compare actual housing expenses associated with different properties."
+        }
+      ]
+    },
+    {
+      "heading": "First-Time Homebuyer Programs in Kansas",
+      "blocks": [
+        {
+          "markdown": "The Kansas Housing Resources Corporation, commonly known as KHRC, administers homeownership assistance programs for eligible residents.\n\n### Kansas First Time Homebuyer Program\n\nThe [Kansas Department of Commerce's housing resources](https://www.kansascommerce.gov/housing/) identify the First Time Homebuyer Program as a source of down payment and closing cost assistance.\n\nThe program targets qualifying lower-income households and provides assistance through a forgivable second mortgage.\n\nPublished 2026 program materials describe assistance ranging from 15% to 20% of the home's purchase price, subject to eligibility requirements.\n\nApplicants generally need to meet household income, purchase price, occupancy and first-time buyer requirements.\n\nThe [KHRC homebuyer eligibility page](https://kshousingcorp.org/first-time-home-buyer-journey/) also specifies that participants generally contribute between 1% and 10% of the purchase price from their own funds.\n\n### Location restrictions\n\nThe KHRC First Time Homebuyer Program does not operate in Johnson County or within the city limits of:\n\n- Topeka.\n- Lawrence.\n- Wichita.\n- Kansas City, Kansas.\n\nThese jurisdictions administer their own federal HOME funding and may provide separate assistance opportunities.\n\nBuyers should investigate their local housing authority's programs before assuming KHRC assistance is available in their preferred location.\n\n### Understanding forgivable financing\n\nForgivable assistance is different from an unconditional grant.\n\nThe KHRC assistance arrangement can be forgiven after ten years, subject to program requirements.\n\nSelling or otherwise failing to satisfy applicable conditions before the forgiveness period ends may create repayment obligations.\n\nReview the financing documents with your participating lender before incorporating assistance into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Kansas Homebuyers",
+      "blocks": [
+        {
+          "markdown": "Conventional financing may suit buyers who meet standard credit, income and down payment requirements.\n\nFHA-insured mortgages offer another financing option for eligible households, although borrowers should account for applicable mortgage insurance premiums.\n\nEligible veterans, service members and surviving spouses may investigate [VA home loan programs](https://www.va.gov/housing-assistance/home-loans/), which may allow qualified borrowers to purchase without a down payment.\n\nBuyers considering smaller Kansas communities can also explore [USDA Rural Development housing programs](https://www.rd.usda.gov/).\n\nUSDA financing depends on household income, property location and other lending requirements.\n\nCompare the complete mortgage payment and upfront expenses associated with each program before making a financing decision."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Kansas Home",
+      "blocks": [
+        {
+          "markdown": "Mortgage payments represent only one part of your homeownership budget.\n\nKansas homeowners should prepare for recurring maintenance, seasonal heating and cooling expenses, insurance deductibles and unexpected repairs.\n\nBuyers considering older properties should inspect roofing, foundations, electrical systems and heating equipment before purchasing.\n\nRural properties may also require private well maintenance, septic system repairs or additional transportation expenses.\n\nNewer developments can have special assessments associated with roads, utilities and other infrastructure improvements.\n\nRequest information about outstanding assessments and determine whether they appear on the property's existing tax bill. Avoid counting the same expense twice in your mortgage calculations."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Kansas?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract existing financial obligations.\n\nInclude groceries, utilities, transportation, childcare, insurance premiums, debt payments and regular savings contributions.\n\nOur [Kansas Paycheck Calculator](/calculators/kansas-paycheck-calculator/) can help you estimate income after payroll deductions, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help assess your existing borrowing obligations.\n\nMaintain an [emergency fund](/savings/emergency-fund-calculator/) for repairs and insurance deductibles rather than using all your available savings for the down payment.\n\nCompare multiple mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nA lender's maximum approved mortgage amount is not necessarily the amount that best fits your household budget."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $220,000 Kansas home?\n\nWith a 20% down payment, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,055.21. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How are Kansas residential property taxes calculated?\n\nKansas generally assesses residential property at 11.5% of its appraised market value. Applicable mill levies are then applied to the assessed value, with adjustments for eligible exemptions and other charges.\n\n### Does Kansas offer down payment assistance for first-time buyers?\n\nYes. KHRC administers a First Time Homebuyer Program that provides qualifying households with down payment and closing cost assistance. Geographic restrictions, income limits, purchase price limits and forgiveness conditions apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Kansas Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Kansas mortgage calculator to compare purchase prices, mortgage rates, repayment periods and down payments.\n\nReplace illustrative property taxes and insurance premiums with verified local figures whenever possible. Understanding your complete monthly housing expenses can help you select a Kansas property that fits your financial circumstances and long-term homeownership goals."
+        }
+      ]
+    }
+  ]
+}

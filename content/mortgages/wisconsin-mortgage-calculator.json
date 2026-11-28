@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Buying a $270,000 home in Wisconsin involves more than calculating the amount you need to borrow. Local property taxes, homeowners insurance, winter heating expenses and maintenance requirements can make a substantial difference to your household budget.",
+    "Our free Wisconsin mortgage calculator estimates your monthly housing payment using your purchase price, down payment, interest rate and loan term. Whether you're buying in Milwaukee, Madison, Green Bay, Appleton or a smaller Wisconsin community, include property taxes, insurance and applicable association fees to understand the complete cost of your proposed mortgage."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Wisconsin?",
+      "blocks": [
+        {
+          "markdown": "A $270,000 Wisconsin home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,295.03.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$270,000"
+            ],
+            [
+              "Down payment",
+              "$54,000"
+            ],
+            [
+              "Loan amount",
+              "$216,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,295.03"
+            ],
+            [
+              "Monthly property taxes",
+              "$350"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,795.03"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Taxes, insurance premiums and the interest rate are illustrative planning assumptions rather than current statewide averages or lender offers."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Wisconsin Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's Wisconsin housing statistics](https://www.census.gov/quickfacts/fact/table/WI/HSG445224), the median value of owner-occupied housing was $266,500 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $1,689, while approximately 67.8% of occupied housing units were owner-occupied.\n\nThese historical statistics include homeowners who purchased properties under different market conditions. They should not be interpreted as current home sale prices.\n\nHousing expenses around Madison and Milwaukee may differ considerably from those in smaller communities. Properties near Wisconsin's lakes and popular recreational destinations may also involve different insurance and maintenance requirements.\n\nInvestigate recent comparable sales, local property tax bills and recurring expenses before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Wisconsin Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your home and your available down payment.\n\nSelect your preferred repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nEnter annual property taxes, homeowners insurance premiums and applicable association fees. Include private mortgage insurance if required by your conventional financing arrangement.\n\nReview the estimated monthly housing payment and adjust individual inputs to compare borrowing scenarios.\n\nThe amortization schedule shows how your outstanding loan balance changes throughout the repayment period. It can also help you understand the interest savings associated with shorter mortgage terms.\n\nOur national Mortgage Calculator allows you to compare financing arrangements outside Wisconsin."
+        }
+      ]
+    },
+    {
+      "heading": "How Wisconsin Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Wisconsin property taxes depend on locally assessed property values, applicable tax levies and eligible credits.\n\nMunicipalities, counties, school districts and other taxing authorities contribute to the final property tax obligation.\n\nThe property's purchase price may differ from the assessed value shown on its tax statement.\n\n### Assessed value versus equalized value\n\nLocal assessed value is used when distributing property tax obligations among property owners within a municipality.\n\nWisconsin's equalization process helps distribute shared tax obligations fairly between municipalities that may assess properties at different proportions of market value.\n\nThe [Wisconsin Department of Revenue's Guide for Property Owners](https://www.revenue.wi.gov/dor%20publications/pb060.pdf) explains these valuation differences.\n\nUse the actual local assessment and applicable tax rate when calculating an individual property's tax liability.\n\n### Wisconsin property tax calculation example\n\nSuppose a home has a locally assessed value of $270,000 and a hypothetical combined property tax rate of $17 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed property value",
+              "$270,000"
+            ],
+            [
+              "Illustrative tax rate per $1,000",
+              "$17"
+            ],
+            [
+              "Annual property taxes before credits",
+              "$4,590"
+            ],
+            [
+              "Illustrative applicable credits",
+              "$390"
+            ],
+            [
+              "Net annual property taxes",
+              "$4,200"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$350"
+            ]
+          ]
+        },
+        {
+          "markdown": "The tax rate and credit amounts are hypothetical. Actual liabilities depend on local assessments, levies and applicable relief.\n\nRequest a recent property tax statement from the seller and investigate whether upcoming reassessments could affect future expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Wisconsin Property Tax Credits",
+      "blocks": [
+        {
+          "markdown": "The [Wisconsin Department of Revenue](https://www.revenue.wi.gov/Pages/FAQS/slf-ptrecred.aspx) identifies three principal credits applied directly to property tax bills.\n\n### Lottery and Gaming Credit\n\nThe [Lottery and Gaming Credit](https://www.revenue.wi.gov/Pages/FAQS/slf-lottcr.aspx) provides property tax relief for qualifying Wisconsin residents who own and occupy their principal residence on the applicable January 1 certification date.\n\nThe benefit depends on available funding and school tax rates.\n\nNew buyers purchasing after January 1 may qualify for the current year's credit when the property met the relevant requirements under its previous owner.\n\nConfirm eligibility with the appropriate treasurer.\n\n### First Dollar Credit\n\nThe [First Dollar Credit](https://www.revenue.wi.gov/Pages/FAQS/slf-fdolcred.aspx) applies to qualifying Wisconsin parcels containing real property improvements.\n\nUnlike the Lottery and Gaming Credit, eligibility is not restricted to an owner's primary residence.\n\nThe benefit is calculated using applicable school tax rates and the annually determined maximum credit value.\n\n### School Levy Tax Credit\n\nTaxable Wisconsin real estate qualifies for the School Levy Tax Credit under applicable state rules.\n\nThis benefit appears on property tax statements.\n\nWhen entering annual property taxes into the calculator, use the net liability after confirmed credits. Subtracting credits that have already been included in the tax statement would underestimate your monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Wisconsin",
+      "blocks": [
+        {
+          "markdown": "Wisconsin homeowners may experience severe thunderstorms, hail, freezing temperatures, heavy snowfall and flooding.\n\nInsurance premiums depend on the property's location, replacement cost, construction materials, condition and selected coverage.\n\nConsult the [Wisconsin Office of the Commissioner of Insurance's homeowners insurance guide](https://oci.wi.gov/Pages/Consumers/PI-015.aspx) when comparing policy options.\n\n### Flood and water backup coverage\n\nStandard homeowners insurance generally excludes flood damage.\n\nProperties near rivers, lakes and low-lying communities may require separate flood insurance.\n\nReview Wisconsin's [flood insurance guidance](https://oci.wi.gov/Pages/Consumers/FloodInsurance.aspx) and use the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's exposure.\n\nBasement flooding caused by sewer backups or sump pump failures can require different insurance protection.\n\nDiscuss these risks with your insurance agent rather than assuming they are included in ordinary flood coverage.\n\n### Winter weather and deductibles\n\nInspect roofing, insulation, plumbing and heating equipment before purchasing an older Wisconsin home.\n\nAsk your insurance provider about frozen pipe coverage, winter damage exclusions and separate wind or hail deductibles.\n\nFor example, a hypothetical 2% deductible based on $250,000 in insured dwelling coverage would represent $5,000 in potential out-of-pocket expenses for an applicable covered loss.\n\nMaintain emergency savings to cover expenses that insurance does not reimburse."
+        }
+      ]
+    },
+    {
+      "heading": "Wisconsin Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$270,000",
+              "$54,000",
+              "$216,000",
+              "$1,295.03"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees."
+        }
+      ]
+    },
+    {
+      "heading": "Wisconsin First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Wisconsin Housing and Economic Development Authority, commonly known as WHEDA, provides mortgage financing through participating lenders.\n\n### WHEDA Advantage mortgages\n\nThe [WHEDA homebuyer programs](https://www.wheda.com/homeownership-and-renters/home-buyers/available-programs) include conventional and FHA financing for eligible purchasers.\n\nApplicants must satisfy applicable income, credit, property and underwriting requirements.\n\nCertain first-time buyers, eligible veterans and purchasers in designated targeted areas may qualify for preferential mortgage rates.\n\n### Easy Close down payment assistance\n\nWHEDA's Easy Close program provides secondary financing of up to 6% of the lesser of the purchase price or appraised value.\n\nThe assistance has a ten-year repayment period and generally carries the same interest rate as the associated WHEDA first mortgage.\n\nFor example, a property purchased and appraised at $270,000 could qualify for up to $16,200.\n\nInclude the required secondary loan payment when estimating complete monthly borrowing expenses.\n\nEasy Close is repayable financing rather than a grant.\n\n### Capital Access down payment assistance\n\nWHEDA's Capital Access program has offered $7,500 in interest-free secondary financing without scheduled monthly payments.\n\nHowever, WHEDA announced that available funding had been reserved and paused new registrations on September 30, 2026.\n\nThe program should not be included in your expected financing arrangements unless WHEDA or an approved lender confirms that it has reopened."
+        }
+      ]
+    },
+    {
+      "heading": "Wisconsin Real Estate Transfer Fees and Closing Costs",
+      "blocks": [
+        {
+          "markdown": "Wisconsin generally charges a real estate transfer fee of $0.30 for each $100 of taxable transaction value or fraction thereof.\n\nOn an ordinary $270,000 taxable transfer, this would amount to $810.\n\nThe seller is generally responsible for the statutory transfer fee. Buyers should still review their purchase agreement and closing disclosures to understand transaction expenses.\n\nOther closing costs can include title services, appraisals, inspections, lender fees and prepaid taxes or insurance."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Wisconsin?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [Wisconsin Paycheck Calculator](/calculators/wisconsin-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate outstanding borrowing commitments.\n\nAccount for winter heating, transportation, childcare, utilities and ongoing maintenance.\n\nProperties in rural areas may also require private well maintenance, septic servicing and access road repairs.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nKeep sufficient emergency savings for closing expenses and unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $270,000 Wisconsin home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,295.03 monthly. Property taxes, homeowners insurance and applicable fees increase the total housing payment.\n\n### Can Wisconsin homeowners reduce their property taxes through credits?\n\nYes. Qualifying properties may receive the Lottery and Gaming Credit, First Dollar Credit and School Levy Tax Credit. Each has its own eligibility and calculation rules.\n\n### Does Wisconsin offer down payment assistance?\n\nYes. WHEDA's Easy Close program offers eligible borrowers secondary financing of up to 6% of the lesser of purchase price or appraised value. The separate Capital Access program was paused in September 2026, pending additional funding."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Wisconsin Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Wisconsin mortgage calculator to compare home prices, down payments, interest rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding your complete monthly housing expenses can help you select a Wisconsin property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

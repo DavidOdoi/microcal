@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Buying a home in North Dakota involves more than determining how much money you need to borrow. Property taxes, homeowners insurance, winter heating expenses and ongoing maintenance can significantly influence your monthly budget.",
+    "Our free North Dakota mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Fargo, Bismarck, Grand Forks, Minot or a smaller North Dakota community, compare financing options and understand the complete cost of homeownership."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in North Dakota?",
+      "blocks": [
+        {
+          "markdown": "A $250,000 North Dakota home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,199.10.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$250,000"
+            ],
+            [
+              "Down payment",
+              "$50,000"
+            ],
+            [
+              "Loan amount",
+              "$200,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,199.10"
+            ],
+            [
+              "Monthly property taxes",
+              "$175"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$200"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,574.10"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative rather than current statewide averages. The example does not assume eligibility for any property tax relief program."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the North Dakota Housing Market",
+      "blocks": [
+        {
+          "markdown": "North Dakota offers housing opportunities across metropolitan communities, agricultural regions, university towns and areas connected to the state's energy industry.\n\nAccording to the [US Census Bureau's North Dakota housing statistics](https://www.census.gov/quickfacts/fact/table/ND/POP815224), the median value of owner-occupied homes was $249,900 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,762, while approximately 62.9% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context but do not represent current property asking prices or mortgage offers.\n\nHousing prices in Fargo and Bismarck may differ considerably from those in smaller agricultural communities. Employment opportunities, transportation distances, local property taxes and utility expenses can also influence affordability.\n\nReview recent comparable property sales within your preferred community before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the North Dakota Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering your property's expected purchase price and the amount you intend to contribute as a down payment.\n\nSelect your preferred repayment period and enter the annual mortgage interest rate quoted by your lender.\n\nIf you have not received a mortgage quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, include annual property taxes, homeowners insurance premiums and monthly association fees where applicable.\n\nAdd private mortgage insurance if your conventional financing requires it.\n\nReview your estimated monthly housing payment and adjust the inputs to compare financing arrangements.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases throughout the repayment period.\n\nOur national Mortgage Calculator also allows you to compare financing options outside North Dakota."
+        }
+      ]
+    },
+    {
+      "heading": "How North Dakota Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "North Dakota calculates residential property taxes using market values, statutory assessment percentages and applicable local mill levies.\n\nCounty and local assessment officials determine property valuations, while taxing authorities establish the rates needed to support schools, counties, cities and other public services.\n\nUnderstanding the difference between market value, assessed value and taxable value can help you estimate your annual property tax expenses accurately.\n\n### North Dakota residential property assessment\n\nAccording to the [North Dakota Office of State Tax Commissioner's property tax guidance](https://www.tax.nd.gov/property-tax), assessed real property value generally equals 50% of its market value.\n\nResidential taxable value is then calculated using 9% of the assessed value.\n\nTogether, these calculations produce a residential taxable value equivalent to 4.5% of the property's market value.\n\nThis percentage does not represent the property's effective annual tax rate. Applicable mill levies must still be applied.\n\n### North Dakota property tax calculation example\n\nSuppose you purchase a residential property valued at $250,000.\n\nAssume its local taxing districts have a combined hypothetical levy of 250 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Market value",
+              "$250,000"
+            ],
+            [
+              "Assessment percentage",
+              "50%"
+            ],
+            [
+              "Assessed value",
+              "$125,000"
+            ],
+            [
+              "Residential taxable valuation percentage",
+              "9%"
+            ],
+            [
+              "Taxable value",
+              "$11,250"
+            ],
+            [
+              "Illustrative combined mill levy",
+              "250 mills"
+            ],
+            [
+              "Annual property taxes before credits",
+              "$2,812.50"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$234.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "The annual tax is calculated by multiplying the taxable value by the mill levy divided by 1,000.\n\nActual property taxes depend on local rates, eligible credits and other applicable charges.\n\nConsult the state's [residential property tax calculation guide](https://www.tax.nd.gov/residential-property-tax) before estimating your property's tax liability."
+        }
+      ]
+    },
+    {
+      "heading": "North Dakota Primary Residence Credit",
+      "blocks": [
+        {
+          "markdown": "The [North Dakota Primary Residence Credit](https://www.tax.nd.gov/prc) provides qualifying homeowners with an annual property tax credit of up to $1,600.\n\nUnlike some property tax relief programs, this credit does not impose age or income restrictions.\n\nApplicants must own and occupy an eligible North Dakota dwelling as their principal residence. Only one credit is available per household.\n\nHomeowners generally apply annually between January 1 and April 1.\n\nApproved credits are applied directly to the property tax statement and cannot exceed the applicable property tax obligation.\n\n### How the credit affects mortgage payments\n\nConsider the previous example involving annual property taxes of $2,812.50.\n\nIf the homeowner qualifies for the full $1,600 Primary Residence Credit, the remaining tax liability would be $1,212.50 before any other adjustments or charges.\n\nThis represents approximately $101.04 per month, compared with $234.38 before applying the credit.\n\nIf your tax statement already includes the credit, enter the net tax liability into the mortgage calculator. Do not subtract the credit a second time.\n\nNew homeowners should confirm their eligibility and the relevant application period before incorporating this benefit into their purchase budget.\n\n### North Dakota Homestead Property Tax Credit\n\nNorth Dakota also offers a separate [Homestead Property Tax Credit](https://www.tax.nd.gov/property-tax-exemptions-credits/property-tax-credits/homestead-property-tax-credit) for qualifying homeowners aged 65 or older and individuals with permanent and total disabilities.\n\nThe program currently has a household income ceiling of $70,000.\n\nEligible applicants may qualify for reductions in taxable property value according to income and other program requirements.\n\nDo not confuse this program with the broader Primary Residence Credit."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in North Dakota",
+      "blocks": [
+        {
+          "markdown": "North Dakota homeowners may experience hailstorms, severe thunderstorms, flooding, heavy snowfall and freezing temperatures.\n\nInsurance premiums depend on property location, construction, condition, replacement cost and coverage requirements.\n\nObtain multiple property-specific insurance quotes before committing to a purchase.\n\n### Winter weather and hail coverage\n\nReview how your homeowners insurance policy handles roof damage, frozen pipes and winter-related incidents.\n\nAsk insurers whether wind and hail damage is subject to separate deductibles and whether roof claims are settled using replacement cost or depreciated value.\n\nA policy with a lower annual premium may leave you responsible for larger out-of-pocket expenses after a covered loss.\n\n### Flood and sump pump coverage\n\nThe [North Dakota Insurance Department's flood insurance guidance](https://www.insurance.nd.gov/consumers/insurance/flood) explains that ordinary homeowners insurance excludes flood damage.\n\nThis is particularly relevant for properties near rivers, low-lying areas and communities exposed to seasonal flooding.\n\nSewer backups and sump pump failures may require separate endorsements. These endorsements are not substitutes for flood insurance.\n\nInvestigate the property's flood designation through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude any additional insurance premiums when calculating your total monthly housing payment."
+        }
+      ]
+    },
+    {
+      "heading": "North Dakota Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nUse the complete North Dakota mortgage calculator to compare total monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "North Dakota First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The North Dakota Housing Finance Agency, commonly known as NDHFA, offers mortgage financing and purchase assistance through approved lenders.\n\n### FirstHome mortgage program\n\nThe [NDHFA homeownership programs](https://www.ndhousing.nd.gov/homeownership) include FirstHome financing for qualifying first-time buyers.\n\nApplicants generally must not have owned a qualifying principal residence during the preceding three years.\n\nIncome limits, purchase price restrictions and lending requirements apply.\n\n### North Dakota Roots\n\nThe North Dakota Roots program serves qualifying borrowers who have previously owned a home and certain households outside other program income limits.\n\nApplicants must satisfy the relevant income and mortgage financing requirements.\n\n### Down payment and closing cost assistance\n\nNDHFA provides purchase assistance through its DCA and Start programs.\n\nBoth offer eligible borrowers assistance equal to 3% of their qualifying first mortgage amount, applied toward eligible upfront purchase expenses.\n\nFor example, assistance on a $200,000 first mortgage would amount to $6,000.\n\nThe programs have different eligibility requirements and cannot be combined with other down payment assistance programs under their published rules.\n\nConfirm all financing terms with an approved lender before incorporating assistance into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a North Dakota Home",
+      "blocks": [
+        {
+          "markdown": "Winter heating is an important consideration when evaluating North Dakota properties.\n\nRequest historical utility bills and inspect insulation, windows, heating equipment and roofing before purchasing.\n\nRural properties may require private well maintenance, septic servicing and access road repairs.\n\nBuyers should also investigate outstanding special assessments for local infrastructure improvements. These charges may affect future ownership costs even when they are not reflected in ordinary property tax calculations.\n\nUse our [North Dakota Paycheck Calculator](/calculators/north-dakota-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing financial obligations.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient savings for closing costs, heating expenses and emergency repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $250,000 North Dakota home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,199.10 monthly. Property taxes, insurance and other applicable expenses increase the total housing payment.\n\n### Can North Dakota homeowners receive a $1,600 property tax credit?\n\nYes. Qualifying homeowners may receive up to $1,600 annually through the Primary Residence Credit. There are no age or income restrictions, but ownership, occupancy and annual application requirements apply.\n\n### Does North Dakota offer down payment assistance?\n\nYes. NDHFA offers assistance through its DCA and Start programs, providing qualifying borrowers with assistance equal to 3% of their first mortgage amount. Income, property and financing requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your North Dakota Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our North Dakota mortgage calculator to compare home prices, down payments, interest rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with accurate local estimates. Account for confirmed property tax credits, seasonal heating expenses and maintenance costs to establish a sustainable homebuying budget."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "intro": [
+    "Planning to buy a home in Birmingham, Huntsville, Montgomery, Mobile or another Alabama community? Our Alabama mortgage calculator helps you estimate your monthly housing expenses before committing to a home loan.",
+    "Enter your home price, down payment, mortgage interest rate and repayment term to calculate your monthly payment. You can also include Alabama property taxes, homeowners insurance, private mortgage insurance and homeowners association fees to create a more realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Alabama?",
+      "blocks": [
+        {
+          "markdown": "If you purchase a $210,000 home in Alabama with a 20% down payment and finance the remaining balance through a 30-year mortgage at 6% interest, your monthly principal and interest payment would be approximately $1,007.24.\n\nYour estimated total housing payment could look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$210,000"
+            ],
+            [
+              "Down payment",
+              "$42,000"
+            ],
+            [
+              "Mortgage amount",
+              "$168,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Principal and interest",
+              "$1,007.24"
+            ],
+            [
+              "Estimated monthly property taxes",
+              "$100"
+            ],
+            [
+              "Estimated monthly insurance",
+              "$200"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,307.24"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no PMI or HOA fees. The interest rate, taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Alabama Housing Market",
+      "blocks": [
+        {
+          "markdown": "Alabama offers a range of housing options, from established neighborhoods in Birmingham to suburban developments around Huntsville and coastal properties near Mobile.\n\nAccording to the [US Census Bureau's Alabama housing statistics](https://www.census.gov/quickfacts/fact/table/AL/DIS010223), the median value of owner-occupied housing was $209,900 during the 2020–2024 survey period. Homeowners with mortgages reported median selected monthly ownership costs of $1,433.\n\nApproximately 70.2% of occupied housing units were owner-occupied during the same period.\n\nThese figures provide a useful historical benchmark, but they do not represent today's asking prices or guarantee what you will pay for a particular property.\n\nHomes near major employment centers may have different prices from properties in smaller towns. Compare recent local listings and completed sales before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Alabama Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the advertised or negotiated purchase price of the property. Next, enter your available down payment and the annual interest rate offered by your lender.\n\nChoose a mortgage repayment period that suits your financial circumstances. A 30-year loan generally has lower monthly principal and interest than a 15-year loan with the same rate, although the longer repayment period increases total borrowing costs.\n\nInclude the annual property tax amount and homeowners insurance premium. If the property has an HOA, enter its monthly membership fees.\n\nThe calculator combines these expenses to estimate your monthly housing payment. Adjust the inputs to compare different properties or financing arrangements.\n\nYou can also use our national Mortgage Calculator to explore home loan scenarios outside Alabama."
+        }
+      ]
+    },
+    {
+      "heading": "How Alabama Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Property taxes are an important part of homeownership expenses, even when the principal and interest payment remains unchanged.\n\nAlabama calculates property taxes using the property's classification, assessed value, applicable millage rates and exemptions.\n\nAccording to the [Alabama Department of Revenue's property tax assessment guidance](https://www.revenue.alabama.gov/property-tax/property-tax-assessment/), qualifying owner-occupied single-family residences generally fall into Class III, which uses a 10% assessment ratio.\n\nThis means a qualifying residential property appraised at $210,000 would have an assessed value of $21,000 before applicable exemptions.\n\nSuppose the combined local millage rate is 40 mills. Your illustrative annual property tax would be:\n\n$21,000 × 0.040 = $840\n\nThat represents $70 per month before exemptions or other applicable adjustments.\n\nActual millage rates depend on the property's location. Two similarly priced homes in different counties may have different tax bills.\n\n### Alabama homestead exemptions\n\nHomeowners who occupy qualifying properties as their primary residence may be eligible for a homestead exemption.\n\nThe [Alabama Department of Revenue's homestead exemption guide](https://www.revenue.alabama.gov/property-tax/homestead-exemptions/) explains available exemptions, including provisions for certain older homeowners and people with qualifying disabilities.\n\nContact your county tax office to confirm eligibility, application requirements and deadlines. Do not assume the seller's exemptions will automatically transfer to you."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Alabama",
+      "blocks": [
+        {
+          "markdown": "Alabama homebuyers should obtain insurance estimates early in the purchasing process.\n\nWeather exposure varies across the state. Inland properties may face tornadoes, thunderstorms and hail, while homes near the Gulf Coast can face hurricane-related wind and flood risks.\n\nInsurance premiums depend on the property's construction, age, roof condition, location, replacement cost and coverage requirements.\n\nA coastal home may require additional coverage or carry different windstorm deductibles from a property farther inland.\n\nVisit the [Alabama Department of Insurance](https://www.insurance.alabama.gov/) for consumer insurance information. You can also check the property's flood exposure using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nStandard homeowners insurance generally excludes flooding, so obtain a separate flood insurance quote where appropriate.\n\nEnter the combined annual insurance premiums into the calculator to account for these expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Payment Examples for Alabama Homes",
+      "blocks": [
+        {
+          "markdown": "The following examples illustrate monthly principal and interest payments for different home prices, assuming a 20% down payment, 6% fixed interest rate and 30-year repayment period."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These payments exclude taxes, insurance, PMI and HOA fees.\n\nUse the calculator to determine how much each additional expense contributes to your monthly budget."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options Available in Alabama",
+      "blocks": [
+        {
+          "markdown": "Different mortgage programs serve different financial circumstances.\n\n### Conventional mortgages\n\nConventional loans are worth comparing if you have a stable income, sufficient savings and a credit profile that meets lender requirements.\n\nSome conventional programs accept down payments below 20%, although mortgage insurance may be required.\n\n### FHA loans\n\nFHA-insured mortgages may help borrowers who have limited savings or do not meet certain conventional lending requirements.\n\nReview the [Federal Housing Administration's homebuying resources](https://www.hud.gov/) for additional information about government-insured financing. Remember that FHA mortgage insurance differs from conventional PMI.\n\n### VA loans\n\nEligible veterans, service members and qualifying surviving spouses may benefit from [VA home loan programs](https://www.va.gov/housing-assistance/home-loans/).\n\nQualified borrowers may purchase without a down payment, although funding fees and other expenses can apply.\n\n### USDA loans\n\nAlabama buyers considering smaller communities should investigate [USDA rural housing programs](https://www.rd.usda.gov/).\n\nEligibility depends on household income, property location and program requirements."
+        }
+      ]
+    },
+    {
+      "heading": "First-Time Homebuyer Assistance in Alabama",
+      "blocks": [
+        {
+          "markdown": "The Alabama Housing Finance Authority provides mortgage and assistance programs through participating lenders.\n\n### Step Up program\n\nThe [AHFA Step Up program](https://www.ahfa.com/programs/homeownership/available-programs/step-up) helps qualifying buyers who can manage mortgage payments but need assistance with upfront purchase expenses.\n\nAs of November 2026, the program lists assistance of 4% of the purchase price, capped at $10,000. The assistance is structured as a second mortgage with a ten-year repayment term alongside the primary mortgage.\n\nEligibility includes income, credit, debt-to-income and homebuyer education requirements.\n\n### First Step program\n\nAHFA also offers the First Step mortgage program for eligible homebuyers, subject to location, income, purchase price and other conditions.\n\nReview the [official AHFA eligibility requirements](https://www.ahfa.com/programs/homeownership/am-i-eligible) before making an offer.\n\nWhen assistance is repayable, include the second mortgage payment in your overall housing budget. Assistance reduces upfront cash requirements but does not necessarily reduce monthly expenses."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Alabama?",
+      "blocks": [
+        {
+          "markdown": "Before selecting a home, calculate how much money remains after your regular household expenses.\n\nInclude transportation, utilities, groceries, childcare, insurance, existing loans and savings contributions. Buyers commuting between suburban communities and employment centers should account for fuel and vehicle maintenance.\n\nYou should also consider home maintenance expenses. An affordable purchase price does not guarantee an affordable property if major repairs are needed soon after closing.\n\nUse your estimated take-home pay rather than gross salary alone when evaluating the practical impact of a mortgage payment.\n\nOur [Alabama Paycheck Calculator](/calculators/alabama-paycheck-calculator/) and [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you assess these expenses alongside your proposed housing costs."
+        }
+      ]
+    },
+    {
+      "heading": "Closing Costs When Buying an Alabama Home",
+      "blocks": [
+        {
+          "markdown": "Your down payment is only one part of the cash needed to purchase a property.\n\nClosing expenses may include mortgage origination charges, appraisal fees, title insurance, recording fees, prepaid interest and initial escrow deposits.\n\nSome buyers may also need cash for home inspections, pest inspections and repairs identified during negotiations.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) to understand which expenses your lender expects you to pay.\n\nCompare multiple lender offers and reserve enough savings for unexpected expenses after moving."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is the monthly mortgage payment on a $250,000 home in Alabama?\n\nWith a 20% down payment, a 30-year repayment term and a 6% fixed interest rate, monthly principal and interest would be approximately $1,199.10. Property taxes, insurance and other applicable fees increase the total housing payment.\n\n### How are property taxes calculated on Alabama homes?\n\nQualifying owner-occupied single-family homes generally use a 10% assessment ratio. The assessed value is multiplied by applicable local millage rates, with adjustments for eligible exemptions. Your county tax office can provide property-specific information.\n\n### Does Alabama offer down payment assistance for homebuyers?\n\nYes. The Alabama Housing Finance Authority offers programs including Step Up and First Step. Eligibility and assistance terms vary, and applicants should contact participating lenders to confirm current requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Plan Your Alabama Mortgage",
+      "blocks": [
+        {
+          "markdown": "Use the Alabama mortgage calculator to compare purchase prices, down payments and financing options before making an offer.\n\nInclude property-specific taxes and insurance premiums whenever possible. By estimating your full housing expenses rather than principal and interest alone, you can make a better-informed decision about which property fits your budget."
+        }
+      ]
+    }
+  ]
+}

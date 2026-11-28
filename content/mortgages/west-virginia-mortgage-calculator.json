@@ -1,0 +1,235 @@
+{
+  "intro": [
+    "West Virginia's relatively affordable housing market can provide opportunities for buyers with modest household incomes. However, a property's purchase price does not tell you everything about its monthly ownership costs. Property taxes, insurance, mortgage interest and maintenance expenses can influence affordability.",
+    "Our free West Virginia mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Charleston, Morgantown, Huntington, Martinsburg or a smaller West Virginia community, compare financing arrangements and establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in West Virginia?",
+      "blocks": [
+        {
+          "markdown": "A $162,500 West Virginia home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $779.42.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$162,500"
+            ],
+            [
+              "Down payment",
+              "$32,500"
+            ],
+            [
+              "Loan amount",
+              "$130,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$779.42"
+            ],
+            [
+              "Monthly property taxes",
+              "$100"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,029.42"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the West Virginia Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's West Virginia housing statistics](https://www.census.gov/quickfacts/fact/table/WV/HSG445223), the median value of owner-occupied housing was $162,600 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,255, while the homeownership rate was 74.9%.\n\nThese historical figures include existing homeowners who purchased properties under different market conditions. They do not represent current property asking prices.\n\nHousing expenses in the Eastern Panhandle may differ considerably from those in southern West Virginia or smaller mountain communities.\n\nBuyers considering rural properties should investigate transportation expenses, internet availability, private utility systems and maintenance requirements.\n\nCompare recent property sales within your preferred community before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the West Virginia Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and your available down payment.\n\nChoose your preferred mortgage repayment period and enter the annual interest rate quoted by your lender.\n\nIf you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, provide annual property taxes, homeowners insurance premiums and applicable monthly association fees.\n\nInclude private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly housing payment and adjust individual inputs to compare borrowing scenarios.\n\nThe amortization schedule shows how much of each mortgage payment goes toward interest and reducing your outstanding balance.\n\nOur national Mortgage Calculator also allows you to compare financing arrangements outside West Virginia."
+        }
+      ]
+    },
+    {
+      "heading": "How West Virginia Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "West Virginia calculates property taxes using assessed property values, statutory property classifications and applicable local tax levies.\n\nCounty assessors establish property valuations, while applicable taxing authorities collect revenue for public services.\n\nUnderstanding your property's classification is particularly important because different classes are subject to different levy rates.\n\n### West Virginia residential property assessment ratio\n\nUnder the [West Virginia Constitution](https://www.wvlegislature.gov/wvcode/WV_CON.cfm), taxable property is generally assessed at 60% of its applicable value.\n\nFor example, a residential property valued at $162,500 would have an assessed value of $97,500.\n\nThe 60% assessment ratio determines the amount used for taxation. It does not mean homeowners pay 60% of their property's market value in annual taxes.\n\n### West Virginia property tax classifications\n\nThe [West Virginia Tax Division](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxClassifications.aspx) identifies several property classifications.\n\nClass II generally includes residential property occupied by its owner and used exclusively for residential purposes.\n\nClass III includes property outside municipalities that does not qualify under Classes I or II.\n\nClass IV includes property within municipalities that does not qualify under Classes I or II.\n\nRental and investment properties may therefore have different tax obligations from qualifying owner-occupied residences.\n\nConfirm the applicable classification with your county assessor.\n\n### West Virginia property tax calculation example\n\nSuppose your home has an appraised value of $162,500 and qualifies as Class II residential property.\n\nAssume a hypothetical combined property tax rate, including applicable excess levies, of $1.20 per $100 of assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Appraised property value",
+              "$162,500"
+            ],
+            [
+              "Assessment ratio",
+              "60%"
+            ],
+            [
+              "Assessed property value",
+              "$97,500"
+            ],
+            [
+              "Illustrative combined tax rate",
+              "1.20%"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$1,170"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$97.50"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes depend on county, municipal, school district and applicable additional levies.\n\nConsult the state's [property tax rate guidance](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxRates.aspx) and obtain a property-specific estimate before making an offer."
+        }
+      ]
+    },
+    {
+      "heading": "West Virginia Homestead Exemption",
+      "blocks": [
+        {
+          "markdown": "West Virginia provides additional property tax relief to qualifying homeowners aged 65 or older and individuals who meet permanent and total disability requirements.\n\nAccording to the [West Virginia Tax Division's exemption guidance](https://tax.wv.gov/Business/PropertyTax/Pages/PropertyTaxExemptions.aspx), eligible homeowners may receive an exemption on the first $20,000 of assessed residential property value.\n\nThe exemption applies to assessed value rather than the property's full market value.\n\nUsing the previous property tax example, a qualifying homeowner would have $77,500 in taxable assessed value after applying the exemption.\n\nAt the same illustrative 1.20% combined tax rate, annual property taxes would decrease to $930, equivalent to $77.50 per month.\n\nOwnership, residency and application requirements apply.\n\nThe [Fayette County Assessor's homestead exemption guidance](https://fayettecounty.wv.gov/assessor/realestate/Pages/Homestead-Exemption.aspx) identifies July 1 through December 1 as the application period for relief affecting the following tax bill.\n\nContact your county assessor to confirm eligibility before reducing your estimated annual property taxes."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in West Virginia",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's construction, replacement cost, condition, location and environmental exposure.\n\nWest Virginia homeowners may experience flooding, severe thunderstorms, winter weather and ground movement.\n\nRequest property-specific insurance quotes before completing your purchase.\n\n### Mine subsidence insurance\n\nMine subsidence deserves particular attention when purchasing properties in areas affected by historical underground coal mining.\n\nGround movement associated with abandoned mines can damage foundations and other structural components.\n\nUnder [West Virginia Code Section 33-30-6](https://code.wvlegislature.gov/33-30-6/), qualifying property insurance policies generally include separately priced mine subsidence coverage unless the policyholder waives it.\n\nIn certain counties, the coverage is instead available upon request.\n\nAsk your insurance provider whether this protection applies to your property and review its limits and exclusions.\n\nMine subsidence coverage should not be assumed to cover ordinary landslides or every form of ground movement.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding.\n\nProperties located near rivers, streams and narrow valleys may require additional flood protection.\n\nInvestigate the property's location through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude applicable flood insurance premiums when calculating total monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "West Virginia Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, 6% fixed annual interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$100,000",
+              "$20,000",
+              "$80,000",
+              "$479.64"
+            ],
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$162,500",
+              "$32,500",
+              "$130,000",
+              "$779.42"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, homeowners insurance, PMI and association fees.\n\nCompare complete monthly housing expenses instead of relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "West Virginia First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The West Virginia Housing Development Fund, commonly known as WVHDF, offers mortgage financing and purchase assistance through participating lenders.\n\n### WVHDF Homeownership Program\n\nThe [West Virginia Homeownership Program](https://www.wvhdf.com/programs/single-family-programs-and-resources/homeownership-program/) provides mortgage financing to eligible homebuyers.\n\nApplicants must satisfy county-specific income and purchase price limits.\n\nBorrowers purchasing in non-targeted counties generally must not have held an ownership interest in their principal residence during the preceding three years.\n\nEligible properties must be located in West Virginia, and the program generally limits property lot sizes to five acres.\n\n### Low Down Home Loan\n\nThe [WVHDF Low Down Home Loan](https://www.wvhdf.com/programs/single-family-programs-and-resources/low-down-home-loan/) provides up to $12,000 toward down payment and closing expenses for qualifying borrowers whose loan-to-value ratio is at least 80%.\n\nThe assistance is a second mortgage with a 15-year repayment period and a fixed interest rate of 2%.\n\nBorrowers receiving the full $12,000 would have an additional monthly payment of approximately $77.22.\n\nThis amount should be included when estimating complete monthly borrowing expenses.\n\nThe assistance is repayable financing rather than a grant.\n\n### Movin' Up mortgage program\n\nThe [WVHDF Movin' Up program](https://www.wvhdf.com/programs/single-family-programs-and-resources/movin-up-program/) serves qualifying first-time and repeat buyers.\n\nIts published income limit is $171,120, with a maximum home purchase price of $350,000.\n\nAdditional lending and property requirements apply.\n\nConfirm current financing terms with a participating lender before relying on assistance."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a West Virginia Home",
+      "blocks": [
+        {
+          "markdown": "A relatively inexpensive property may still require considerable maintenance.\n\nInspect foundations, roofing, drainage, retaining walls and heating systems before purchasing.\n\nRural properties may involve private well maintenance, septic servicing and access road repairs.\n\nRequest historical utility bills and investigate whether previous flooding or ground movement has affected the property.\n\nKeep sufficient emergency savings for repairs rather than committing your entire cash balance to the down payment."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in West Virginia?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [West Virginia Paycheck Calculator](/calculators/west-virginia-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing commitments.\n\nAccount for transportation, utilities, insurance, maintenance and regular savings contributions.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nChoose a property whose complete ownership expenses fit comfortably alongside your other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $162,500 West Virginia home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $779.42. Property taxes, homeowners insurance and applicable fees increase the total housing payment.\n\n### How are West Virginia residential property taxes calculated?\n\nProperties are generally assessed at 60% of their applicable value. Local levy rates are then applied to assessed value, accounting for property classifications and eligible exemptions.\n\n### Does West Virginia offer $12,000 in down payment assistance?\n\nYes. WVHDF's Low Down Home Loan offers eligible borrowers up to $12,000 toward down payment and closing expenses. The assistance requires repayment over 15 years at a fixed 2% interest rate."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your West Virginia Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our West Virginia mortgage calculator to compare purchase prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding your complete monthly ownership expenses can help you choose a West Virginia property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

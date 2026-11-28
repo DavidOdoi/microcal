@@ -1,0 +1,225 @@
+{
+  "intro": [
+    "Buying a home in Iowa starts with understanding how much you can comfortably afford each month. Whether you're searching for a property in Des Moines, Cedar Rapids, Iowa City, Davenport or a smaller community, your housing expenses extend beyond the advertised mortgage payment.",
+    "Our free Iowa mortgage calculator estimates your monthly payment using your home price, down payment, interest rate and repayment term. Include property taxes, homeowners insurance, mortgage insurance and association fees to build a more realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Iowa?",
+      "blocks": [
+        {
+          "markdown": "A $210,000 Iowa home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,007.24.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$210,000"
+            ],
+            [
+              "Down payment",
+              "$42,000"
+            ],
+            [
+              "Loan amount",
+              "$168,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,007.24"
+            ],
+            [
+              "Monthly property taxes",
+              "$275"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,457.24"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no PMI or HOA fees. The mortgage rate, taxes and insurance premiums are hypothetical planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Iowa Housing Market",
+      "blocks": [
+        {
+          "markdown": "Iowa offers housing options across metropolitan areas, university communities, agricultural regions and smaller towns.\n\nAccording to the [US Census Bureau's Iowa housing statistics](https://www.census.gov/quickfacts/ia), the median value of owner-occupied homes was $208,000 during the 2020–2024 survey period. Median monthly ownership costs among homeowners with mortgages were $1,533, while the homeownership rate reached 71.7%.\n\nThese historical statistics include households that purchased properties under different housing market conditions and financing arrangements.\n\nA home near employment centers in Des Moines may have different purchase and transportation costs from a property in rural Iowa. University communities can also experience distinctive housing demand.\n\nReview recent comparable property sales before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Iowa Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price and the amount you intend to contribute as a down payment.\n\nChoose your repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, use [Freddie Mac's mortgage rate survey](https://www.freddiemac.com/pmms) as a national reference rather than a guaranteed Iowa mortgage rate.\n\nAdd annual property taxes, homeowners insurance and applicable association fees. Include private mortgage insurance if required by your conventional mortgage.\n\nReview your estimated monthly housing payment and adjust individual inputs to compare financing scenarios.\n\nThe amortization schedule also helps you understand how much interest you could pay and how your remaining mortgage balance changes over time."
+        }
+      ]
+    },
+    {
+      "heading": "How Iowa Property Taxes Are Calculated",
+      "blocks": [
+        {
+          "markdown": "Iowa uses a property taxation system involving assessed values, assessment limitations, local levy rates and available exemptions.\n\nThe [Iowa Department of Revenue's property tax overview](https://revenue.iowa.gov/taxes/tax-guidance/property-tax/iowa-property-tax-overview) explains that assessors establish property values before the applicable assessment limitation is used to calculate taxable value.\n\nThis limitation is commonly known as the rollback.\n\nThe rollback determines how much of a property's assessed value is subject to taxation. Its percentage can change between assessment years.\n\nIt is not a direct percentage reduction in your final property tax bill.\n\nLocal authorities then establish levy rates that support schools, public infrastructure and other services.\n\n### Iowa's new homestead exemption\n\nIowa enacted significant property tax changes on May 18, 2026, under Senate File 2472.\n\nBeginning with the 2026 assessment year, the former homestead tax credit is replaced by an exemption equal to 10% of the qualifying homestead's taxable value.\n\nFor that assessment year, the minimum exemption is $5,500 and the maximum is $20,000. The upper limit is subject to inflation adjustments beginning in 2027.\n\nThe change affects tax installments payable in September 2027 and March 2028, rather than immediately changing every homeowner's 2026 tax bill.\n\nEligible homeowners aged 65 or older may also qualify for an additional $6,500 exemption.\n\nReview the [Department of Revenue's homestead exemption guidance](https://revenue.iowa.gov/taxes/tax-guidance/property-tax/homestead-tax-credit-and-exemption) for filing requirements and eligibility.\n\n### Iowa property tax calculation example\n\nSuppose an Iowa home has an assessed value of $250,000. Assume a hypothetical residential rollback of 45%, eligibility for the new homestead exemption and a consolidated levy of $30 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed property value",
+              "$250,000"
+            ],
+            [
+              "Illustrative rollback",
+              "45%"
+            ],
+            [
+              "Taxable value before exemption",
+              "$112,500"
+            ],
+            [
+              "Homestead exemption",
+              "$11,250"
+            ],
+            [
+              "Remaining taxable value",
+              "$101,250"
+            ],
+            [
+              "Annual property tax",
+              "$3,037.50"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$253.13"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example excludes additional exemptions and credits. The rollback and levy are illustrative, not official rates for a specific assessment year or jurisdiction.\n\nCheck the state's [assessment limitation guidance](https://revenue.iowa.gov/taxes/tax-guidance/property-tax/equalization-and-assessment-limitations) and obtain property-specific information from your assessor."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Iowa",
+      "blocks": [
+        {
+          "markdown": "Iowa properties can experience thunderstorms, tornadoes, hail, high winds, winter weather and flooding.\n\nInsurance costs depend on the property's replacement value, construction, roof condition, location and selected coverage.\n\nBefore purchasing, request quotes from several insurers using equivalent coverage limits and deductibles.\n\nThe [Iowa Insurance Division's homeowners insurance resources](https://iid.iowa.gov/consumers/insurance/homeowners-insurance) explain available coverage categories and common exclusions.\n\n### Wind and hail coverage\n\nInspect the age and condition of the property's roof. Ask whether your insurance policy provides replacement cost coverage or depreciated compensation for roof damage.\n\nAlso check whether wind and hail claims have separate deductibles.\n\nThese provisions can affect how much you would need to pay after a severe weather event.\n\n### Flood and sewer backup insurance\n\nOrdinary homeowners insurance generally excludes flooding. Sewer backup protection may also require a separate endorsement.\n\nThe state's [flood preparedness guidance](https://iid.iowa.gov/consumer-connection/2025-02-05/consumer-connection-flood-preparedness-and-insurance) explains these coverage differences.\n\nInvestigate the property's location through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) and include additional insurance premiums in your mortgage estimate where applicable."
+        }
+      ]
+    },
+    {
+      "heading": "Iowa Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following calculations assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$210,000",
+              "$42,000",
+              "$168,000",
+              "$1,007.24"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, insurance, PMI and association fees.\n\nA $300,000 home requires approximately $431.68 more in monthly principal and interest than a $210,000 home under these assumptions.\n\nCompare the complete housing payments before deciding whether a more expensive property is affordable."
+        }
+      ]
+    },
+    {
+      "heading": "Iowa First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Iowa Finance Authority offers mortgage financing and assistance through participating lenders.\n\n### FirstHome program\n\nThe [Iowa FirstHome program](https://opportunityiowa.gov/housing/homeownership-programs/firsthome-program) primarily serves first-time buyers who meet applicable income, purchase price and lending requirements.\n\nCertain military borrowers and buyers purchasing in designated targeted areas may qualify for exceptions to the first-time buyer requirement.\n\nEligible borrowers can investigate fixed-rate mortgage options and assistance with qualifying purchase expenses.\n\n### Homes for Iowans\n\nThe [Homes for Iowans program](https://opportunityiowa.gov/housing/homeownership-programs/homes-iowans) is available to qualifying first-time and repeat buyers purchasing a primary residence.\n\nThe published 2026 program information identifies a statewide household income limit of $171,360 and a maximum purchase price of $692,000.\n\nLender qualification requirements also apply.\n\n### Down payment and closing cost assistance\n\nIowa updated its mortgage assistance options effective November 2, 2026.\n\nThe [official down payment assistance page](https://opportunityiowa.gov/housing/homeownership-programs/down-payment-and-closing-costs-programs) identifies changes including a new 3% second mortgage option.\n\nBecause some older program descriptions remain accessible, request the latest assistance limits and repayment conditions directly from an approved lender.\n\nDistinguish grants from deferred second mortgages. Deferred financing may require no immediate monthly payment but can create repayment obligations when you sell or refinance your home.\n\nDo not incorporate assistance into your purchase budget until eligibility and funding are confirmed."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Rural Iowa Buyers",
+      "blocks": [
+        {
+          "markdown": "Buyers considering smaller communities can investigate conventional mortgages and government-backed financing.\n\nThe [USDA Rural Development housing programs](https://www.rd.usda.gov/) provide financing opportunities for eligible households purchasing qualifying properties.\n\nA rural home's mortgage eligibility may depend on its condition, acreage, utility systems and residential use.\n\nProperties with private wells or septic systems may require inspections before financing is approved.\n\nWhen comparing rural homes with urban properties, include transportation, heating, maintenance and private utility expenses alongside the monthly mortgage."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Iowa?",
+      "blocks": [
+        {
+          "markdown": "Start with reliable monthly take-home pay and subtract existing debt payments, household expenses and savings contributions.\n\nOur [Iowa Paycheck Calculator](/calculators/iowa-paycheck-calculator/) can help estimate earnings after payroll deductions. Use the [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to understand how existing obligations affect mortgage qualification.\n\nConsider seasonal heating expenses, vehicle costs, roof maintenance and emergency repairs.\n\nKeep savings available for closing costs rather than committing your entire cash balance to the down payment.\n\nReview the [CFPB's Loan Estimate guidance](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) when comparing lender fees, monthly payments and upfront financing costs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $210,000 Iowa home?\n\nWith a 20% down payment, 6% fixed interest and a 30-year mortgage, monthly principal and interest would be approximately $1,007.24. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### What changed with Iowa's homestead property tax exemption in 2026?\n\nIowa replaced its former homestead tax credit with an exemption equal to 10% of qualifying taxable value, subject to minimum and maximum amounts. The 2026 assessment-year change affects taxes payable in September 2027 and March 2028.\n\n### Does Iowa offer down payment assistance?\n\nYes. The Iowa Finance Authority offers assistance associated with programs such as FirstHome and Homes for Iowans. Program limits and financing terms were updated in November 2026, so confirm current conditions with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Iowa Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Iowa mortgage calculator to compare purchase prices, loan terms and down payments before making an offer.\n\nReplace illustrative costs with verified property tax information and insurance quotes. Understanding your complete monthly housing expenses can help you choose a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "intro": [
+    "Buying a home in Michigan involves more than finding a property with an affordable purchase price. Property tax reassessments, homeowners insurance, mortgage rates and seasonal maintenance expenses can all influence your monthly housing budget.",
+    "Our free Michigan mortgage calculator helps you estimate your monthly mortgage payment using your home price, down payment, interest rate and repayment period. Whether you're purchasing in Detroit, Grand Rapids, Ann Arbor, Lansing or another Michigan community, compare financing scenarios before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Michigan?",
+      "blocks": [
+        {
+          "markdown": "A $230,000 Michigan home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,103.17.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$230,000"
+            ],
+            [
+              "Down payment",
+              "$46,000"
+            ],
+            [
+              "Loan amount",
+              "$184,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,103.17"
+            ],
+            [
+              "Monthly property taxes",
+              "$275"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,528.17"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Michigan Housing Market",
+      "blocks": [
+        {
+          "markdown": "Michigan offers housing options across metropolitan communities, university towns, suburban developments and rural areas.\n\nAccording to the [US Census Bureau's Michigan QuickFacts](https://www.census.gov/quickfacts/fact/table/MI/POP060220), the median value of owner-occupied housing was $231,600 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,569, while approximately 73.2% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context but should not be interpreted as current home sale prices.\n\nProperties in Ann Arbor and popular metropolitan suburbs may have different purchase prices from homes in smaller communities or parts of northern Michigan.\n\nWhen comparing properties, investigate local taxes, insurance premiums and transportation expenses alongside the advertised purchase price."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Michigan Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and your available down payment.\n\nSelect your preferred loan term and enter the annual interest rate offered by your lender.\n\nNext, include the property's estimated annual taxes and homeowners insurance premium. Add monthly association fees and applicable private mortgage insurance.\n\nReview the estimated monthly housing payment and adjust your inputs to compare different financing arrangements.\n\nThe amortization schedule helps you understand how your loan balance decreases over time and how much interest you could pay during the repayment period.\n\nYou can also use our national Mortgage Calculator to compare financing options in other states."
+        }
+      ]
+    },
+    {
+      "heading": "How Michigan Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Michigan's property tax system is particularly important for new homebuyers because the amount a seller currently pays may differ substantially from the buyer's future tax liability.\n\nUnderstanding the distinction between market value, assessed value and taxable value can help prevent unexpected increases in monthly housing expenses.\n\n### State Equalized Value\n\nMichigan generally assesses real estate at 50% of its true cash value, subject to the applicable assessment and equalization process.\n\nState Equalized Value, commonly abbreviated as SEV, represents the assessed value after equalization.\n\nFor example, a residential property with an estimated true cash value of $230,000 could have an SEV of approximately $115,000.\n\nHowever, the property's taxable value may be lower than its SEV because of assessment limitations.\n\n### Proposal A and taxable value uncapping\n\nMichigan's Proposal A limits annual increases in taxable value, generally to the lower of inflation or 5%, subject to applicable adjustments such as additions and losses.\n\nWhen a qualifying transfer of ownership occurs, the taxable value generally resets to the property's SEV in the following calendar year.\n\nThe [Michigan Department of Treasury's ownership transfer guidance](https://www.michigan.gov/en/taxes/property/change-ownership) explains this process, commonly called uncapping.\n\nCertain legally exempt transfers do not trigger uncapping.\n\n### Michigan property tax calculation example\n\nSuppose you purchase a property for $230,000. Assume its SEV is $115,000, while the previous owner's taxable value is $80,000.\n\nUsing an illustrative combined tax rate of 28 mills:"
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Previous owner",
+            "New uncapped value"
+          ],
+          "rows": [
+            [
+              "Taxable value",
+              "$80,000",
+              "$115,000"
+            ],
+            [
+              "Illustrative mill rate",
+              "28",
+              "28"
+            ],
+            [
+              "Annual property taxes",
+              "$2,240",
+              "$3,220"
+            ],
+            [
+              "Monthly tax equivalent",
+              "$186.67",
+              "$268.33"
+            ]
+          ]
+        },
+        {
+          "markdown": "Under these assumptions, the new buyer's annual property tax increases by $980, equivalent to approximately $81.67 per month.\n\nThe actual future SEV and local millage rate may differ.\n\nUse the state's official [Michigan Property Tax Estimator](https://www.michigan.gov/taxes/property/estimator) to investigate property taxes in your intended city or township.\n\n### Michigan Principal Residence Exemption\n\nThe [Michigan Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal), commonly known as PRE, exempts qualifying primary residences from up to 18 mills of local school operating taxes.\n\nIt does not eliminate all school-related property taxes or other local property charges.\n\nFor a qualifying home with a taxable value of $115,000, an exemption from the full 18 mills would represent potential annual savings of $2,070 compared with an otherwise identical nonexempt property subject to that levy.\n\nConfirm eligibility and filing requirements with your local assessor.\n\nThe PRE is separate from Michigan's income-based Homestead Property Tax Credit."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Michigan",
+      "blocks": [
+        {
+          "markdown": "Michigan homeowners may experience severe thunderstorms, hail, freezing temperatures, heavy snowfall and flooding.\n\nInsurance premiums depend on the property's location, replacement cost, construction materials, condition and selected coverage.\n\nObtain multiple insurance quotes before completing your purchase.\n\n### Flood and water backup coverage\n\nThe [Michigan Department of Insurance and Financial Services](https://www.michigan.gov/difs/consumers/disaster-prep/flood) explains that standard homeowners policies exclude flood damage.\n\nSeparate flood insurance may be available through the National Flood Insurance Program or private insurers.\n\nHomeowners can also investigate endorsements that provide limited coverage for sewer or water backup damage.\n\nFlood insurance and sewer backup coverage are different products. Purchasing one does not necessarily provide protection against the risks covered by the other.\n\nCheck the property's flood designation using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\n### Winter-related insurance considerations\n\nMichigan's winter weather can create additional property maintenance requirements.\n\nInspect the condition of roofing, insulation, heating equipment and plumbing before purchasing a home.\n\nAsk your insurer about coverage for frozen pipes, ice-related damage and other winter hazards. Review applicable exclusions and maintenance requirements.\n\nInclude any additional insurance premiums when estimating your monthly housing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Michigan Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$230,000",
+              "$46,000",
+              "$184,000",
+              "$1,103.17"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, insurance, mortgage insurance and association fees.\n\nUse the complete Michigan mortgage calculator to compare the monthly expenses associated with individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Michigan First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Michigan State Housing Development Authority, commonly known as MSHDA, offers mortgage financing and down payment assistance through approved lenders.\n\n### MI Home Loan program\n\nThe [MI Home Loan program](https://www.michigan.gov/en/mshda/Pathway-to-Housing/mi-home-loan) serves eligible first-time buyers statewide and qualifying repeat buyers in designated targeted areas.\n\nFirst-time buyers generally must not have owned a home during the preceding three years.\n\nThe published program requirements include:\n\n- A minimum credit score of 640.\n- Household income restrictions based on location and family size.\n- A statewide purchase price limit of $566,355, effective after June 1, 2026.\n\nAdditional lender and property requirements apply.\n\n### MI 10K Down Payment Assistance\n\nThe [MI 10K DPA Loan](https://www.michigan.gov/mshda/homeownership/mi-10k-dpa-loan) provides eligible borrowers with up to $10,000 toward down payment, closing costs and qualifying prepaid expenses.\n\nThe assistance is available statewide and must be combined with an eligible MSHDA MI Home Loan.\n\nIt takes the form of an interest-free deferred loan without scheduled monthly payments.\n\nRepayment becomes due when specified events occur, such as selling or refinancing the home, paying off the primary mortgage or ceasing to occupy the property.\n\nBorrowers must also complete approved homebuyer education.\n\nAlthough the assistance can reduce your upfront cash requirements, it remains a future financial obligation rather than an unconditional grant."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Michigan Home",
+      "blocks": [
+        {
+          "markdown": "Michigan homebuyers should prepare for expenses beyond their mortgage payments.\n\nWinter heating, snow removal, roof maintenance and weather-related repairs can affect household budgets.\n\nOlder properties may require electrical, plumbing or heating system improvements.\n\nBuyers considering rural or northern Michigan properties should also investigate private wells, septic systems and access road maintenance.\n\nProperties used as seasonal residences may have different tax and insurance requirements from qualifying primary residences.\n\nRequest historical utility bills and arrange a professional inspection before committing to a property."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Michigan?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract household expenses, existing debts and savings contributions.\n\nUse our [Michigan Paycheck Calculator](/calculators/michigan-paycheck-calculator/) to estimate income after applicable payroll deductions. Our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you understand existing borrowing obligations.\n\nAllow enough room for potential property tax increases following ownership transfers.\n\nCompare lender offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain emergency savings for unexpected repairs and insurance deductibles rather than spending all available funds on the down payment."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $230,000 Michigan home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,103.17 monthly. Taxes, insurance and applicable fees increase the total housing payment.\n\n### Do Michigan property taxes increase when you buy a house?\n\nThey can. A qualifying ownership transfer generally causes taxable value to reset to State Equalized Value in the following calendar year. This may increase your tax liability compared with the previous owner's bill.\n\n### Does Michigan offer $10,000 in down payment assistance?\n\nYes. Eligible buyers may qualify for up to $10,000 through MSHDA's MI 10K DPA Loan. The assistance is an interest-free deferred loan combined with an eligible MI Home Loan, subject to program requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Michigan Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Michigan mortgage calculator to compare purchase prices, interest rates, down payments and repayment periods.\n\nPay particular attention to property tax estimates following an ownership transfer. Replacing illustrative expenses with accurate local taxes and insurance premiums can help you establish a sustainable homebuying budget."
+        }
+      ]
+    }
+  ]
+}

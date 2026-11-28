@@ -1642,3 +1642,11 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 .mortgage-balance-chart li { display: grid; grid-template-columns: 4rem minmax(2rem, 1fr) auto; gap: .5rem; align-items: center; }
 .mortgage-balance-track { display: block; height: .7rem; background: #e8f0e1; border-radius: .3rem; overflow: hidden; }
 .mortgage-balance-track > span { display: block; height: 100%; background: #216755; }
+
+.finance-article .mortgage-state-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: .45rem 1.25rem;
+  list-style: none;
+  padding-left: 0;
+}

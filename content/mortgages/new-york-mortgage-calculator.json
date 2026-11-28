@@ -1,0 +1,260 @@
+{
+  "intro": [
+    "Buying a $425,000 home in Buffalo can involve a very different financial commitment from purchasing a similarly priced condominium in New York City. Local property taxes, building maintenance fees, insurance premiums and financing requirements can significantly affect your monthly housing expenses.",
+    "Our free New York mortgage calculator helps you estimate these costs before purchasing a property. Enter your home price, down payment, interest rate and loan term, then include property taxes, homeowners insurance and applicable fees to establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in New York?",
+      "blocks": [
+        {
+          "markdown": "A $425,000 New York home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,038.47.\n\nAn illustrative monthly housing payment could look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$425,000"
+            ],
+            [
+              "Down payment",
+              "$85,000"
+            ],
+            [
+              "Loan amount",
+              "$340,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,038.47"
+            ],
+            [
+              "Monthly property taxes",
+              "$600"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,813.47"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. The interest rate, property taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the New York Housing Market",
+      "blocks": [
+        {
+          "markdown": "New York offers housing opportunities across metropolitan neighborhoods, suburban communities, university towns and rural regions.\n\nAccording to the [US Census Bureau's New York housing statistics](https://www.census.gov/quickfacts/fact/table/NY/HSG860224), the median value of owner-occupied housing was $423,800 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $2,555, while the homeownership rate was 54.3%.\n\nThese historical statistics do not represent current property asking prices.\n\nHomes in Manhattan, Brooklyn, Long Island and Westchester County may have substantially different prices from properties in Buffalo, Rochester, Syracuse or Albany.\n\nResearch recent comparable sales within your preferred neighborhood. Consider transportation expenses, local property taxes and association fees alongside the purchase price."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the New York Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Begin by entering your expected property purchase price and available down payment.\n\nSelect a repayment period and enter your lender's quoted annual interest rate. You can consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark if you have not received a quote.\n\nNext, enter annual property taxes, homeowners insurance and monthly association fees.\n\nInclude private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly housing payment and adjust individual inputs to compare different borrowing arrangements.\n\nThe amortization schedule helps you understand how your outstanding mortgage balance decreases over time and how much interest you could pay.\n\nOur national Mortgage Calculator also allows you to compare financing scenarios outside New York."
+        }
+      ]
+    },
+    {
+      "heading": "How New York Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "New York property taxes depend on local assessments, applicable exemptions and tax rates established by taxing jurisdictions.\n\nThe [New York Department of Taxation and Finance's assessment guidance](https://www.tax.ny.gov/pit/property/learn/howassess.htm) explains that municipalities may assess properties at full market value or a percentage of market value.\n\nNew York City and Nassau County also operate property classification systems with different assessment arrangements.\n\n### New York property tax calculation example\n\nSuppose a home has a market value of $425,000, but its taxable assessed value is $300,000.\n\nAssume a hypothetical combined property tax rate of $24 per $1,000 of taxable assessed value."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Property market value",
+              "$425,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$300,000"
+            ],
+            [
+              "Illustrative tax rate per $1,000",
+              "$24"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$7,200"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$600"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes may include separate county, municipal, school district and special district charges.\n\nReview the state's [property tax calculation guidance](https://www.tax.ny.gov/pit/property/learn/proptaxcalc.htm) and obtain a property-specific estimate from your local assessor.\n\n### New York City property taxes\n\nNew York City uses four property tax classifications.\n\nAccording to the [NYC Department of Finance](https://www.nyc.gov/site/finance/property/property-determining-your-assessed-value.page), Class 1 properties generally use a 6% assessment ratio, while Classes 2, 3 and 4 generally use 45%.\n\nClass 1 includes most one- to three-family homes.\n\nAnnual assessment limitations may prevent the actual assessed value from reaching the amount produced by applying the standard ratio.\n\nNew York City adopted the following rates for the fiscal year beginning July 1, 2026, and ending June 30, 2027:"
+        },
+        {
+          "columns": [
+            "Property class",
+            "Property tax rate"
+          ],
+          "rows": [
+            [
+              "Class 1",
+              "19.972%"
+            ],
+            [
+              "Class 2",
+              "12.423%"
+            ],
+            [
+              "Class 3",
+              "11.119%"
+            ],
+            [
+              "Class 4",
+              "10.859%"
+            ]
+          ]
+        },
+        {
+          "markdown": "These rates apply to the relevant taxable assessment rather than the property's full purchase price.\n\nThe updated rates will be reflected in January 2027 property tax bills, according to [NYC's official property tax guidance](https://portal.311.nyc.gov/article/?kanumber=KA-01250)."
+        }
+      ]
+    },
+    {
+      "heading": "New York STAR Property Tax Relief",
+      "blocks": [
+        {
+          "markdown": "The School Tax Relief program, commonly called STAR, provides qualifying homeowners with assistance toward school property taxes.\n\n### Basic STAR\n\nEligible homeowners with qualifying income of $500,000 or less may receive the Basic STAR credit.\n\nOwnership, principal residence and income requirements apply.\n\n### Enhanced STAR\n\nEnhanced STAR provides additional benefits to qualifying older homeowners.\n\nThe published income limit for 2026 benefits is $110,750. For 2027 benefits, the limit increases to $113,550.\n\nAt least one resident owner generally must meet the applicable age requirement of 65.\n\nReview the [official STAR eligibility requirements](https://www.tax.ny.gov/pit/property/star/eligibility.htm) before assuming eligibility.\n\nNew homeowners generally register for the STAR credit instead of the older STAR exemption program.\n\nThe credit is paid directly to qualifying homeowners rather than automatically reducing their school tax bills. Consequently, it should not automatically be deducted from monthly mortgage escrow estimates.\n\nVisit the [STAR registration portal](https://www.tax.ny.gov/pit/property/star/) after establishing the property as your primary residence."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in New York",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's construction, replacement cost, location, condition and selected coverage.\n\nNew York homeowners may face coastal storms, flooding, freezing temperatures and other weather-related risks.\n\nObtain property-specific insurance quotes before finalizing your purchase.\n\n### Hurricane and flood insurance\n\nProperties along Long Island, coastal New York City and waterfront communities may have additional insurance considerations.\n\nThe [New York Department of Financial Services](https://www.dfs.ny.gov/consumers/help_for_homeowners/insurance/basic_coverage) explains that some policies contain separate hurricane deductibles.\n\nStandard homeowners insurance also generally excludes flooding.\n\nCheck your property's exposure through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude any applicable additional insurance premiums in your mortgage calculator inputs."
+        }
+      ]
+    },
+    {
+      "heading": "New York Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$425,000",
+              "$85,000",
+              "$340,000",
+              "$2,038.47"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ],
+            [
+              "$1,000,000",
+              "$200,000",
+              "$800,000",
+              "$4,796.40"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude property taxes, insurance, PMI and association fees."
+        }
+      ]
+    },
+    {
+      "heading": "New York First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The State of New York Mortgage Agency, commonly known as SONYMA, provides mortgage financing and purchase assistance through participating lenders.\n\n### SONYMA mortgage programs\n\nSONYMA's primary financing options include Achieving the Dream and the Low Interest Rate Program.\n\nEligible applicants may qualify for fixed-rate mortgages with relatively small down payment requirements.\n\nIncome limits, property price restrictions and borrower contribution requirements depend on the selected financing arrangement.\n\nReview the [SONYMA preparation and eligibility guide](https://hcr.ny.gov/preparation-eligibility) before applying.\n\n### DPAL Plus 2026\n\nSONYMA launched an enhanced down payment assistance program on July 1, 2026.\n\nThe [DPAL Plus 2026 program](https://hcr.ny.gov/node/78501) offers eligible borrowers assistance of up to $30,000 toward qualifying purchase expenses.\n\nApplicants must satisfy a household income ceiling of 60% of area median income.\n\nFunding is limited and distributed to eligible borrowers while available.\n\nThe associated first mortgage interest rate generally increases by 0.40 percentage points when DPAL financing is attached, although certain specialized programs are exempt.\n\nCompare your mortgage payment with and without assistance to understand the long-term borrowing costs."
+        }
+      ]
+    },
+    {
+      "heading": "Buying a Condominium or Co-op in New York",
+      "blocks": [
+        {
+          "markdown": "Condominiums and cooperative apartments can involve expenses that differ from ordinary single-family homeownership.\n\nCondominium owners generally pay common charges for shared building expenses and may receive individual property tax bills.\n\nCooperative apartment owners typically pay monthly maintenance charges that may incorporate building property taxes, underlying mortgage expenses and other operating costs.\n\nCo-op financing also involves purchasing shares in a cooperative corporation rather than acquiring conventional direct ownership of an apartment.\n\nWhen using the calculator, avoid adding property taxes separately if they are already included in your cooperative maintenance fees.\n\nReview building financial statements, reserve funds, financing requirements and potential special assessments before purchasing."
+        }
+      ]
+    },
+    {
+      "heading": "New York Mortgage Recording Tax and Closing Costs",
+      "blocks": [
+        {
+          "markdown": "New York buyers should prepare for expenses beyond their down payment.\n\nThe [New York State guide for new homebuyers](https://www.tax.ny.gov/pit/property/new-homebuyers/) identifies mortgage recording taxes and other property transaction expenses.\n\nAdditional local mortgage recording taxes may apply in New York City, Yonkers and other jurisdictions.\n\nClosing costs can also include legal fees, title services, inspections, appraisals and prepaid insurance.\n\nThese expenses are generally separate from your regular monthly mortgage payment."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in New York?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [New York Paycheck Calculator](/calculators/new-york-paycheck-calculator/) to estimate income after payroll deductions and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate outstanding borrowing commitments.\n\nInclude commuting expenses, childcare, utilities, association fees and emergency savings.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nChoose a property whose complete ownership expenses remain manageable alongside your other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $425,000 New York home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,038.47. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### Can New York homeowners reduce property taxes through STAR?\n\nEligible homeowners may receive Basic or Enhanced STAR benefits toward school property taxes. New buyers generally register for the STAR credit, which is paid directly rather than automatically reducing their property tax bills.\n\n### Does New York offer $30,000 in down payment assistance?\n\nYes. SONYMA's limited DPAL Plus 2026 program offers eligible borrowers up to $30,000 toward qualifying purchase expenses. Income limits, funding availability and financing conditions apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your New York Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our New York mortgage calculator to compare purchase prices, interest rates, down payments and repayment periods.\n\nReplace illustrative property taxes, insurance premiums and association fees with verified property-specific estimates. Understanding your complete monthly housing expenses can help you select a New York property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

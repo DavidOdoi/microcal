@@ -1,3 +1,4 @@
+import { stateMortgageGuides } from './state-mortgage-guides';
 import { paycheckGuideDescription, paycheckGuides } from './paycheck-guides';
 import {
   Banknote,
@@ -147,6 +148,7 @@ export const categories: Category[] = [
 ];
 
 const liveCalculatorSlugs = new Set([
+  ...stateMortgageGuides.map(guide => guide.slug),
   ...paycheckGuides.map(guide => guide.slug),
   'mortgage-extra-payment-calculator',
   'gross-margin-calculator',
@@ -180,6 +182,7 @@ const makeCalculator = (
 ): Calculator => ({ slug, name, description, category, status: liveCalculatorSlugs.has(slug) ? 'live' : 'coming-soon' });
 
 export const calculators: Calculator[] = [
+  ...stateMortgageGuides.map(guide => makeCalculator('mortgages', guide.slug, `${guide.state} Mortgage Calculator`, guide.description)),
   ...paycheckGuides.map(guide => makeCalculator('taxes', guide.slug, `${guide.state} Paycheck Calculator`, paycheckGuideDescription(guide))),
   makeCalculator('mortgages', 'mortgage-extra-payment-calculator', 'Mortgage Extra Payment Calculator', 'Compare mortgage interest savings and early payoff with monthly or lump-sum extra payments.'),
   makeCalculator('business', 'gross-margin-calculator', 'Gross Margin Calculator', 'Compare gross profit, gross margin, markup, and target selling prices.'),

@@ -1,0 +1,229 @@
+{
+  "intro": [
+    "Whether you are purchasing your first home in Boise, moving to Meridian, exploring properties in Idaho Falls or looking for a home near Coeur d'Alene, understanding your monthly mortgage expenses can help you establish a realistic purchase budget.",
+    "Our free Idaho mortgage calculator estimates your monthly housing payment using your home price, down payment, interest rate and repayment term. Include property taxes, homeowners insurance, private mortgage insurance and association fees to compare financing options and understand the true cost of homeownership."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Idaho?",
+      "blocks": [
+        {
+          "markdown": "A $420,000 Idaho home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,014.49.\n\nHere is an illustrative monthly payment breakdown."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$420,000"
+            ],
+            [
+              "Down payment",
+              "$84,000"
+            ],
+            [
+              "Mortgage amount",
+              "$336,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,014.49"
+            ],
+            [
+              "Monthly property taxes",
+              "$175"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,339.49"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, taxes and insurance premiums are illustrative assumptions rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Idaho Housing Market",
+      "blocks": [
+        {
+          "markdown": "Idaho's housing market includes metropolitan communities, mountain towns, agricultural regions and smaller residential developments.\n\nAccording to the [US Census Bureau's Idaho QuickFacts](https://www.census.gov/quickfacts/fact/table/ID/POP645224), the median value of owner-occupied housing was $418,600 during the 2020–2024 survey period.\n\nHomeowners with mortgages reported median selected monthly ownership costs of $1,687. Approximately 72.1% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context but should not replace current research into individual housing markets.\n\nProperties around Boise and Meridian may have different purchase prices from comparable homes in Pocatello, Twin Falls or rural communities.\n\nHomes near recreational destinations may also have distinctive insurance, transportation and maintenance expenses.\n\nCompare recent property sales in your preferred area before entering a purchase price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Idaho Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of the home you intend to buy.\n\nProvide your down payment as either a dollar amount or a percentage of the purchase price.\n\nChoose your preferred mortgage term and enter the annual interest rate offered by your lender.\n\nFor a more comprehensive estimate, include:\n\n- Annual property taxes.\n- Annual homeowners insurance premiums.\n- Private mortgage insurance where applicable.\n- Monthly homeowners association fees.\n\nReview the estimated monthly housing payment and amortization schedule.\n\nAdjust your inputs to compare different purchase prices and financing terms. For example, you can determine whether making a larger down payment produces meaningful monthly savings without exhausting your [emergency fund](/savings/emergency-fund-calculator/).\n\nUse our national Mortgage Calculator to compare financing scenarios beyond Idaho."
+        }
+      ]
+    },
+    {
+      "heading": "How Idaho Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Property taxes in Idaho depend on the property's taxable assessed value and applicable local tax rates.\n\nCounty assessors determine property values, while local taxing districts establish budgets that influence the tax rates applied to properties.\n\nTax bills can include charges supporting schools, cities, counties and other local services.\n\nTwo similarly priced homes may have different annual property tax expenses because they belong to different taxing districts.\n\n### Idaho homeowner's exemption\n\nThe [Idaho State Tax Commission's homeowner exemption guidance](https://tax.idaho.gov/taxes/property/homeowners/exemption/) explains that qualifying owner-occupied primary residences can receive an exemption equal to 50% of the eligible property's value, up to a maximum of $125,000.\n\nThe exemption can cover the qualifying residence and up to one acre of land.\n\nApplications are handled by county assessors, who determine eligibility.\n\nOnce approved, the exemption generally continues until ownership changes or the property ceases to qualify as the owner's primary residence.\n\nBuyers should not assume the previous owner's exemption automatically transfers following a sale.\n\n### Idaho property tax calculation example\n\nConsider a property with an assessed market value of $420,000 that qualifies for the maximum homeowner exemption."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed market value",
+              "$420,000"
+            ],
+            [
+              "Homeowner exemption",
+              "$125,000"
+            ],
+            [
+              "Remaining taxable value",
+              "$295,000"
+            ],
+            [
+              "Illustrative local tax rate",
+              "0.7%"
+            ],
+            [
+              "Estimated annual property tax",
+              "$2,065"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$172.08"
+            ]
+          ]
+        },
+        {
+          "markdown": "The calculation assumes the entire property qualifies for the relevant exemption calculation and uses a hypothetical local tax rate.\n\nThe actual rate depends on the property's taxing districts. Other assessments, credits or charges may also apply.\n\nReview the [Idaho homeowner exemption statute](https://legislature.idaho.gov/statutesrules/idstat/title63/t63ch6/sect63-602g/) or consult your county assessor for additional information.\n\n### Idaho property tax reduction program\n\nCertain Idaho homeowners may qualify for additional relief through the state's Property Tax Reduction program.\n\nThe [Idaho State Tax Commission](https://tax.idaho.gov/taxes/property/homeowners/reduction/) lists potential reductions ranging from $250 to $1,500 for qualifying applicants.\n\nEligibility depends on income, residency, homeownership and other specified requirements. Certain older homeowners, individuals with qualifying disabilities and other eligible groups may receive assistance.\n\nThe program does not necessarily reduce every local fee associated with a property.\n\nConfirm eligibility and the applicable year's requirements before deducting assistance from your estimated property tax bill."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Idaho",
+      "blocks": [
+        {
+          "markdown": "Idaho homeowners face different insurance considerations depending on their property's construction, location and exposure to environmental hazards.\n\nPremiums may depend on roof materials, rebuilding costs, proximity to fire protection services and the property's insurance claims history.\n\nObtain property-specific insurance quotes early in the purchasing process.\n\n### Wildfire insurance considerations\n\nProperties near forests, grasslands and mountainous areas may face increased wildfire exposure.\n\nIn May 2026, the [Idaho Department of Insurance announced a review of wildfire-related impacts on the property insurance market](https://doi.idaho.gov/pressrelease/idaho-department-of-insurance-issues-data-call-to-assess-wildfire-impacts-on-property-insurance-market/).\n\nThe department noted changes in insurance premiums, available coverage and insurer participation in certain higher-risk areas.\n\nThis makes it particularly important to confirm that affordable insurance is available before purchasing a property.\n\nAsk insurers about coverage limitations, wildfire-related requirements and potential mitigation measures.\n\n### Comparing homeowners insurance premiums\n\nThe [Idaho Department of Insurance's home insurance rate guide](https://doi.idaho.gov/consumers/home-renters-insurance/home-insurance-rates/) explains factors that influence insurance costs.\n\nCompare equivalent coverage levels and deductibles rather than selecting a policy solely because it has the lowest monthly premium.\n\nYou should also investigate flood exposure through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home), since standard homeowners insurance generally excludes flooding.\n\nInclude the combined annual premiums of applicable policies in your calculator inputs."
+        }
+      ]
+    },
+    {
+      "heading": "Idaho Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following examples assume a 20% down payment, a 6% fixed annual interest rate and a 30-year repayment period."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$420,000",
+              "$84,000",
+              "$336,000",
+              "$2,014.49"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$650,000",
+              "$130,000",
+              "$520,000",
+              "$3,117.66"
+            ]
+          ]
+        },
+        {
+          "markdown": "These calculations exclude property taxes, insurance, PMI and association fees.\n\nUse the complete mortgage calculator to compare total housing expenses associated with specific properties."
+        }
+      ]
+    },
+    {
+      "heading": "Idaho First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Idaho Housing and Finance Association offers mortgage financing and homebuyer assistance through participating lenders.\n\n### Idaho Housing mortgage programs\n\nThe [Idaho Housing home loan program](https://www.idahohousing.com/homebuyers/home-loans/) offers several mortgage options, including conventional, FHA, VA and USDA Rural Development financing.\n\nThe organization serves qualifying first-time and repeat buyers.\n\nEligibility depends on household income, creditworthiness, employment history, property requirements and the selected loan product.\n\nIts published program information identifies household incomes of up to $170,000 as potentially eligible, although some products have lower limits.\n\nReview the [official borrower income requirements](https://www.idahohousing.com/partners/lenders-realtors/borrower-income-limits/) before applying.\n\n### Idaho down payment and closing cost assistance\n\nThe [Idaho Housing down payment assistance program](https://www.idahohousing.com/homebuyers/down-payment-closing-cost-assistance/) offers eligible buyers financing of up to 8% of the property's purchase price toward qualifying down payment and closing expenses.\n\nQualifying borrowers may be able to complete the transaction with as little as $500 of their own funds, subject to program and lender requirements.\n\nAssistance may be provided through a second mortgage that must be repaid alongside the primary mortgage.\n\nFor example, if your first mortgage payment is $2,000 and an assistance loan requires an additional $150 monthly payment, your combined loan repayments would total $2,150 before taxes and insurance.\n\nAsk your lender for the actual payment on any secondary financing. Down payment assistance reduces upfront cash requirements but does not necessarily reduce your ongoing expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Options for Rural Idaho Properties",
+      "blocks": [
+        {
+          "markdown": "Buyers considering properties outside major population centers may benefit from researching [USDA Rural Development housing programs](https://www.rd.usda.gov/).\n\nCertain programs offer financing options for qualifying households purchasing eligible rural properties.\n\nHowever, rural homes can present additional financing and maintenance considerations.\n\nProperties with substantial acreage, agricultural buildings, private wells or septic systems may require specialized inspections or lending assessments.\n\nManufactured homes may also be subject to different property and financing requirements.\n\nConfirm the property's eligibility with your lender before relying on a conventional mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Home in Idaho",
+      "blocks": [
+        {
+          "markdown": "Idaho homeowners should prepare for expenses beyond their mortgage payments.\n\nWinter heating, snow removal, roofing maintenance and repairs can affect annual household budgets.\n\nRural properties may require maintenance of private roads, wells, septic systems or irrigation arrangements.\n\nRequest historical utility bills and information about existing maintenance obligations before buying.\n\nA home located farther from your workplace may also increase transportation costs despite having a lower purchase price.\n\nReserve sufficient savings for unexpected expenses and avoid relying exclusively on your estimated mortgage payment when comparing properties."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Idaho?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and existing financial commitments.\n\nOur [Idaho Paycheck Calculator](/calculators/idaho-paycheck-calculator/) can help estimate your earnings after payroll deductions, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you evaluate your existing borrowing obligations.\n\nConsider household expenses, transportation, utilities, healthcare, insurance and emergency savings before deciding on a purchase price.\n\nUse the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) to compare borrowing costs and closing expenses from different lenders.\n\nSelect a mortgage payment that remains manageable alongside your other financial goals."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $420,000 Idaho home?\n\nWith 20% down, a 6% fixed annual interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,014.49. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### What is the Idaho homeowner's property tax exemption?\n\nQualifying homeowners may receive an exemption equal to 50% of the eligible property's assessed market value, capped at $125,000 under the published statutory rules. Applications are submitted to the county assessor.\n\n### Does Idaho offer down payment assistance?\n\nYes. Idaho Housing offers qualifying buyers assistance of up to 8% of the purchase price toward eligible down payment and closing expenses. Assistance terms and repayment obligations depend on the financing arrangement."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Idaho Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Idaho mortgage calculator to compare home prices, repayment periods and down payment amounts before purchasing a property.\n\nReplace estimated property taxes and insurance premiums with verified property-specific figures. A comprehensive housing estimate can help you establish a purchase budget that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

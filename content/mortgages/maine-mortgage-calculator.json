@@ -1,0 +1,221 @@
+{
+  "intro": [
+    "Buying a home in Maine requires careful planning, especially when property taxes, winter heating expenses and insurance premiums can influence your monthly budget.",
+    "Our free Maine mortgage calculator helps you estimate your monthly housing payment based on your home price, down payment, interest rate and loan term. Whether you're purchasing in Portland, Bangor, Augusta, Lewiston or a smaller coastal community, include property taxes, homeowners insurance and applicable fees to understand the financial commitment before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Maine?",
+      "blocks": [
+        {
+          "markdown": "A $300,000 Maine home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,438.92.\n\nYour estimated monthly housing expenses could look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$300,000"
+            ],
+            [
+              "Down payment",
+              "$60,000"
+            ],
+            [
+              "Loan amount",
+              "$240,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,438.92"
+            ],
+            [
+              "Monthly property taxes",
+              "$350"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,938.92"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Property taxes, insurance premiums and interest rates are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Maine Housing Market",
+      "blocks": [
+        {
+          "markdown": "Maine offers housing options ranging from urban condominiums and coastal cottages to rural properties and traditional single-family homes.\n\nAccording to the [US Census Bureau's Maine QuickFacts](https://www.census.gov/quickfacts/fact/table/ME/HSD310223), the median value of owner-occupied housing was $296,600 during the 2020–2024 survey period.\n\nHomeowners with mortgages reported median selected monthly ownership costs of $1,729, while approximately 74.3% of occupied housing units were owner-occupied.\n\nThese historical statistics provide useful context but do not represent current asking prices or guarantee affordability.\n\nProperties around Portland and southern Maine may have substantially different purchase prices from homes in northern or inland communities. Coastal properties may also involve additional insurance and maintenance considerations.\n\nResearch recent comparable property sales in your preferred location before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Maine Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price and the amount you intend to contribute as a down payment.\n\nChoose your preferred mortgage term and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, include annual property taxes, homeowners insurance premiums and monthly association fees where applicable.\n\nAdd private mortgage insurance if your conventional financing requires it.\n\nThe calculator displays your estimated monthly housing payment and provides a breakdown of borrowing and ownership expenses.\n\nUse the amortization schedule to understand how your remaining mortgage balance decreases over time. Adjust the purchase price, down payment or repayment term to compare different financing arrangements."
+        }
+      ]
+    },
+    {
+      "heading": "How Maine Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Maine property taxes depend on locally assessed property values, municipal tax rates and applicable exemptions.\n\nMunicipalities establish mill rates based on their taxable property valuations and revenue requirements. One mill represents $1 in annual tax for every $1,000 of taxable assessed value.\n\nLocal assessment ratios can also affect the relationship between market value and assessed value.\n\nThe [Maine Revenue Services property tax relief directory](https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/property-tax-relief-programs/property-tax-exemptions) provides information about exemptions that may reduce taxable property values.\n\n### Maine homestead exemption\n\nQualifying permanent Maine residents may receive a homestead exemption of up to $25,000 in just property value.\n\nAccording to the [official homestead exemption requirements](https://www1.maine.gov/revenue/faq/homestead-exemption-program), applicants must generally have owned a home in Maine for at least twelve months before applying and use the qualifying property as their permanent residence.\n\nApplications are normally due by April 1. Once approved, homeowners generally do not need to reapply annually unless their circumstances change.\n\nMunicipal assessment ratios can affect the exemption amount applied to the local assessment.\n\nNew buyers should not automatically assume eligibility immediately after purchasing their first Maine property.\n\n### Maine property tax calculation example\n\nSuppose a home has an assessed value of $300,000 in a municipality assessing property at full market value.\n\nAssume the homeowner qualifies for the full homestead exemption and the municipality has an illustrative tax rate of 15 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed property value",
+              "$300,000"
+            ],
+            [
+              "Homestead exemption",
+              "$25,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$275,000"
+            ],
+            [
+              "Illustrative mill rate",
+              "15 mills"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$4,125"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$343.75"
+            ]
+          ]
+        },
+        {
+          "markdown": "Without the exemption, the same hypothetical property would generate $4,500 in annual property taxes.\n\nActual tax rates and assessments vary between municipalities. Contact your local assessor before using a tax estimate to establish your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Maine",
+      "blocks": [
+        {
+          "markdown": "Maine homeowners face environmental risks that include winter storms, freezing temperatures, coastal flooding and heavy rainfall.\n\nInsurance premiums depend on the property's construction, condition, replacement cost, location and selected coverage.\n\nObtain property-specific insurance quotes before committing to a purchase.\n\n### Winter weather and older homes\n\nOlder Maine properties may have aging roofs, outdated electrical systems or heating equipment that requires additional maintenance.\n\nAsk insurers how they handle damage associated with frozen pipes, ice buildup and other winter-related incidents.\n\nCheck whether your policy contains maintenance requirements or exclusions that could affect coverage.\n\nA professional home inspection can also help identify repairs that should be included in your purchase budget.\n\n### Flood insurance\n\nThe [Maine Emergency Management Agency's flooding guidance](https://www.maine.gov/mema/hazards/natural-hazards/flooding) explains that ordinary homeowners insurance does not cover flood damage.\n\nCoastal communities and properties near rivers may require additional coverage.\n\nInvestigate your property's flood exposure through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude separate flood insurance premiums in the calculator where applicable. Obtain quotes early enough to account for any coverage waiting periods before closing."
+        }
+      ]
+    },
+    {
+      "heading": "Maine Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude property taxes, insurance, mortgage insurance and association fees.\n\nUse the complete Maine mortgage calculator to estimate the total monthly expenses associated with individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Maine First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Maine State Housing Authority, commonly known as MaineHousing, offers mortgage financing and purchase assistance through approved lenders.\n\n### MaineHousing First Home Loan Program\n\nThe [First Home Loan Program](https://www.mainehousing.org/programs-services/homebuyer/homebuyerdetail/first-home-loan-program) provides eligible borrowers with fixed-rate mortgage financing.\n\nApplicants generally qualify as first-time buyers if they have not held an ownership interest in their primary residence during the previous three years.\n\nIncome limits, property price restrictions and lending requirements apply.\n\n### Advantage down payment assistance\n\nMaineHousing's [Advantage assistance option](https://www.mainehousing.org/programs-services/homebuyer/first-home-program-faqs) provides eligible borrowers with $5,000 toward qualifying closing expenses.\n\nThe standard assistance does not require a second mortgage or increase the first mortgage amount.\n\nParticipants must complete approved homebuyer education and contribute at least 1% of the loan amount under the applicable program conditions.\n\nSpecial assistance amounts may apply to eligible owner-occupied multi-unit properties.\n\n### First Generation Program\n\nThe [MaineHousing First Generation Program](https://www.mainehousing.org/programs-services/homebuyer/homebuyerdetail/first-generation-program) provides qualifying applicants with $10,000 toward eligible purchase expenses.\n\nThe program serves qualifying lifetime first-time buyers who meet additional family homeownership or childhood foster care criteria.\n\nEligible applicants can also receive a reduced mortgage interest rate and must complete approved financial literacy and homebuyer education courses.\n\nCheck current [MaineHousing income and purchase price limits](https://www.mainehousing.org/charts/homebuyer-limits) before applying.\n\n### Salute ME\n\nQualifying military personnel and veterans may investigate MaineHousing's Salute ME financing option.\n\nThe program offers a 0.50 percentage-point reduction from the regular First Home Loan fixed interest rate for eligible applicants.\n\nReview MaineHousing's [published mortgage rates](https://www.mainehousing.org/programs-services/homebuyer/current-interest-rates) and confirm your qualification with an approved lender."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Maine Home",
+      "blocks": [
+        {
+          "markdown": "Heating expenses are an important consideration when evaluating Maine properties.\n\nHomes may use heating oil, propane, electricity, wood or other heating sources. Operating costs depend on insulation, equipment efficiency and energy prices.\n\nRequest historical utility and heating fuel bills from the seller.\n\nRural properties may also require private well maintenance, septic system servicing and snow removal.\n\nCoastal homes can involve additional exterior maintenance because of moisture and exposure to salt air.\n\nThese expenses are separate from the calculator's standard mortgage payment estimate. Include them in your broader household budget before purchasing."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Maine?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract existing financial commitments.\n\nOur [Maine Paycheck Calculator](/calculators/maine-paycheck-calculator/) can help estimate your after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you evaluate existing debt obligations.\n\nMaintain enough savings for closing costs, winter heating bills and unexpected repairs.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nA lower purchase price does not necessarily mean lower overall ownership costs if the property requires extensive repairs or has substantial heating expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $300,000 Maine home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,438.92. Property taxes, homeowners insurance and other applicable charges increase the total housing payment.\n\n### Does Maine offer a homestead property tax exemption?\n\nYes. Qualifying homeowners can receive an exemption of up to $25,000 in just property value. Residency, ownership and application requirements apply, and the local assessment ratio can affect the exemption calculation.\n\n### Does Maine offer assistance for first-time homebuyers?\n\nYes. MaineHousing offers First Home financing, $5,000 in standard Advantage assistance and a First Generation program providing $10,000 to eligible applicants. Income, property and education requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Maine Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Maine mortgage calculator to compare purchase prices, down payments and financing arrangements before committing to a property.\n\nReplace illustrative taxes and insurance premiums with verified local estimates. Include heating, maintenance and emergency savings in your overall budget to support sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "intro": [
+    "Buying a home in Illinois involves more than finding a property with an affordable purchase price. Property taxes, insurance premiums and association fees can significantly influence your monthly housing expenses, particularly in Chicago and its surrounding suburbs.",
+    "Our free Illinois mortgage calculator helps you estimate your monthly payment using your home price, down payment, mortgage interest rate and loan term. Include property taxes, homeowners insurance and other applicable expenses to determine whether a property fits your budget before making an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Illinois?",
+      "blocks": [
+        {
+          "markdown": "A $265,000 Illinois home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,271.05.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$265,000"
+            ],
+            [
+              "Down payment",
+              "$53,000"
+            ],
+            [
+              "Loan amount",
+              "$212,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,271.05"
+            ],
+            [
+              "Monthly property taxes",
+              "$450"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,896.05"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Illinois Housing Market",
+      "blocks": [
+        {
+          "markdown": "Illinois offers a diverse housing market, ranging from high-rise condominiums in Chicago to suburban single-family homes and smaller communities around Springfield, Peoria and Rockford.\n\nAccording to the [US Census Bureau's Illinois QuickFacts](https://www.census.gov/quickfacts/fact/table/IL/HSG860223), the median value of owner-occupied homes was $263,300 during the 2020–2024 survey period.\n\nHomeowners with mortgages reported median selected monthly ownership costs of $1,987, while approximately 67.1% of occupied housing units were owner-occupied.\n\nThese historical figures provide a useful affordability benchmark, but they do not represent current sale prices.\n\nWhen comparing properties, investigate local taxes, transportation options and recurring maintenance expenses. A less expensive suburban property may not necessarily produce lower overall housing costs."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Illinois Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property. Add your available down payment as a dollar amount or percentage.\n\nChoose a mortgage repayment period and enter the annual interest rate offered by your lender.\n\nNext, enter annual property taxes, homeowners insurance premiums and any required private mortgage insurance. Include association dues if you are purchasing a condominium or home within a managed development.\n\nReview the estimated monthly housing payment and adjust your inputs to compare financing scenarios.\n\nThe amortization schedule shows how your outstanding mortgage balance decreases over time. Use it to evaluate different repayment terms and potential interest savings.\n\nOur national Mortgage Calculator can also help you compare financing arrangements outside Illinois."
+        }
+      ]
+    },
+    {
+      "heading": "How Illinois Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Illinois does not have one universal residential property tax rate. Local taxing districts, property assessments, equalization factors and exemptions influence the amount homeowners pay.\n\nAccording to the [Illinois Department of Revenue's property assessment guidance](https://tax.illinois.gov/questionsandanswers/answer.318.html), most property is initially assessed at one-third of its fair market value.\n\nCook County operates a different classification system, making its calculations particularly important for Chicago-area buyers.\n\n### Property tax calculation outside Cook County\n\nConsider a property with a fair market value of $265,000.\n\nAssuming the standard one-third assessment ratio, its initial assessed value would be approximately $88,333.\n\nFor simplicity, assume an equalization factor of 1.0, an eligible $6,000 homestead exemption and a hypothetical combined tax rate of 6.5%."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Fair market value",
+              "$265,000"
+            ],
+            [
+              "Initial assessed value",
+              "$88,333.33"
+            ],
+            [
+              "Equalized assessed value",
+              "$88,333.33"
+            ],
+            [
+              "Homestead exemption",
+              "$6,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$82,333.33"
+            ],
+            [
+              "Illustrative annual property tax",
+              "$5,351.67"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$445.97"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual equalization factors, exemptions and tax rates vary by location.\n\n### How Cook County property taxes work\n\nCook County generally assesses residential property at 10% of market value before applying the relevant equalization factor.\n\nFor example, a home valued at $300,000 would initially have an assessed value of $30,000. That figure must then be equalized before eligible exemptions and applicable tax rates are considered.\n\nDo not confuse the 10% residential assessment ratio with the property's annual effective tax rate.\n\nConsult the [Cook County Assessor's Office](https://www.cookcountyassessor.com/) for current assessment information.\n\n### Illinois General Homestead Exemption\n\nEligible homeowners can reduce their equalized assessed property value through the General Homestead Exemption.\n\nThe [Illinois Department of Revenue's property tax relief guidance](https://tax.illinois.gov/localgovernments/property/taxrelief.html) lists maximum exemption amounts of:"
+        },
+        {
+          "columns": [
+            "Location",
+            "Maximum exemption"
+          ],
+          "rows": [
+            [
+              "Cook County",
+              "$10,000"
+            ],
+            [
+              "Counties bordering Cook County",
+              "$8,000"
+            ],
+            [
+              "Other Illinois counties",
+              "$6,000"
+            ]
+          ]
+        },
+        {
+          "markdown": "The exemption reduces assessed value rather than directly reducing your tax bill by the same dollar amount.\n\nConfirm eligibility with your local assessment office before using the exemption in your calculations."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Illinois",
+      "blocks": [
+        {
+          "markdown": "Illinois homeowners face environmental risks that can include severe thunderstorms, tornadoes, hail, freezing temperatures and flooding.\n\nInsurance premiums depend on the property's construction, age, replacement cost, location and coverage requirements.\n\nCompare insurance quotes before purchasing a property. Review deductibles and exclusions carefully rather than selecting coverage based solely on the lowest premium.\n\nThe [Illinois Department of Insurance's flood insurance guidance](https://idoi.illinois.gov/consumers/consumerinsurance/floods.html) explains that standard homeowners policies typically exclude flood damage.\n\nThis matters for properties near rivers and low-lying areas, but flooding can also occur outside designated high-risk zones.\n\nCheck your property's flood exposure through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nInclude separate flood insurance premiums in your calculator inputs where applicable."
+        }
+      ]
+    },
+    {
+      "heading": "Illinois Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, 6% fixed annual interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$265,000",
+              "$53,000",
+              "$212,000",
+              "$1,271.05"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, insurance, PMI and association fees.\n\nBecause property taxation varies considerably across Illinois, two homes with identical mortgage payments may have substantially different total monthly expenses."
+        }
+      ]
+    },
+    {
+      "heading": "First-Time Homebuyer Programs in Illinois",
+      "blocks": [
+        {
+          "markdown": "The Illinois Housing Development Authority, commonly known as IHDA, offers mortgage and down payment assistance programs through approved lenders.\n\n### IHDA Access Forgivable\n\nThe [IHDA Access mortgage program](https://www.ihda.org/my-home/getting-an-ihda-loan/) includes an assistance option equal to 4% of the purchase price, up to $6,000.\n\nThe assistance is structured to be forgiven gradually over ten years, subject to program requirements.\n\n### IHDA Access Deferred\n\nThis option provides eligible borrowers with 5% of the purchase price, capped at $7,500.\n\nRepayment of the interest-free assistance loan is postponed until specified events occur, such as selling the home, refinancing or paying off the primary mortgage.\n\n### IHDA Access Repayable\n\nEligible applicants may receive assistance equal to 10% of the purchase price, up to $10,000.\n\nThe interest-free loan is repaid over ten years. Borrowing the maximum amount would add approximately $83.33 per month to your loan repayments.\n\n### IHDA Access Home\n\nThe authority also offers assistance of 6% of the purchase price, capped at $15,000, through Access Home.\n\nThis deferred financing option generally targets first-time homebuyers and applicants meeting applicable exceptions.\n\nReview [IHDA's complete lending program requirements](https://www.ihda.org/lenders-realtors/lending-programs/) for income restrictions, purchase price limits and eligibility details.\n\nConfirm assistance availability before incorporating any program into your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Buying a Condominium in Illinois",
+      "blocks": [
+        {
+          "markdown": "Condominiums can provide an alternative to single-family housing, particularly in Chicago and other urban communities.\n\nHowever, monthly association dues can substantially affect affordability.\n\nReview which services the association covers, including shared building insurance, heating, maintenance, security and other amenities.\n\nRequest information about reserve funds, outstanding repairs and upcoming special assessments.\n\nFor example, a condominium with a $1,500 monthly mortgage payment and $400 in association dues costs at least $1,900 per month before separately paid taxes and insurance.\n\nInclude these recurring dues in your calculator inputs without counting expenses already covered by the association twice."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Illinois?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract household expenses, existing debt payments and regular savings contributions.\n\nUse our [Illinois Paycheck Calculator](/calculators/illinois-paycheck-calculator/) to estimate your earnings after payroll deductions. Our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you assess existing financial obligations.\n\nBuyers commuting into Chicago should consider rail fares, parking, fuel and vehicle maintenance when comparing properties.\n\nThe [CFPB's home affordability guidance](https://www.consumerfinance.gov/owning-a-home/prepare/decide-how-much-you-want-spend/) explains how to establish a purchase budget that reflects both borrowing costs and everyday expenses.\n\nIf you are comparing a 15-year and 30-year mortgage, consider the higher monthly commitment of the shorter term alongside its potential lifetime interest savings."
+        }
+      ]
+    },
+    {
+      "heading": "Closing Costs and Property Tax Prorations",
+      "blocks": [
+        {
+          "markdown": "Illinois buyers should prepare for upfront expenses such as title services, inspections, lender fees, appraisals and applicable transfer taxes.\n\nProperty tax prorations may also affect the financial settlement because real estate taxes are generally collected after the assessment year.\n\nAsk your closing attorney or settlement agent how unpaid taxes will be allocated between the buyer and seller.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) before accepting a financing offer.\n\nKeep sufficient savings available for closing expenses and unexpected repairs after moving."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $265,000 home in Illinois?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,271.05 per month. Property taxes, insurance and other applicable fees increase the total payment.\n\n### How are Illinois residential property taxes calculated?\n\nMost Illinois properties are initially assessed at one-third of market value, while Cook County generally uses a 10% residential assessment ratio. Equalization, exemptions and local tax rates determine the final property tax liability.\n\n### Does Illinois offer down payment assistance?\n\nYes. IHDA offers multiple assistance arrangements, including forgivable, deferred and repayable financing. Eligibility, assistance amounts and repayment requirements depend on the program."
+        }
+      ]
+    },
+    {
+      "heading": "Estimate Your Illinois Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Illinois mortgage calculator to compare properties and financing options before applying for a home loan.\n\nReplace illustrative property taxes and insurance costs with accurate local estimates. A complete housing budget can help you choose an Illinois property that supports your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

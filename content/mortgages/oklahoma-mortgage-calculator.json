@@ -1,0 +1,248 @@
+{
+  "intro": [
+    "Oklahoma's housing market offers opportunities for buyers looking for relatively affordable properties. However, homeowners insurance, storm-related expenses, property taxes and mortgage interest can significantly influence the total cost of owning a home.",
+    "Our free Oklahoma mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Whether you're buying in Oklahoma City, Tulsa, Norman, Edmond or a smaller Oklahoma community, compare financing options and understand how much you can comfortably afford."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Oklahoma?",
+      "blocks": [
+        {
+          "markdown": "A $200,000 Oklahoma home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $959.28.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$200,000"
+            ],
+            [
+              "Down payment",
+              "$40,000"
+            ],
+            [
+              "Loan amount",
+              "$160,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$959.28"
+            ],
+            [
+              "Monthly property taxes",
+              "$175"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$300"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,434.28"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Oklahoma Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's Oklahoma housing statistics](https://www.census.gov/quickfacts/fact/table/OK/NES010221), the median value of owner-occupied homes was $199,800 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,539, while approximately 65.8% of occupied housing units were owner-occupied.\n\nThese historical statistics provide useful context but do not represent current property asking prices.\n\nHousing expenses around Oklahoma City and Tulsa may differ from those in smaller communities. Buyers considering rural properties should also investigate transportation, private utility systems and infrastructure maintenance costs.\n\nCompare recent property sales within your preferred neighborhood before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Oklahoma Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering your expected home purchase price and available down payment.\n\nSelect your preferred repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, include annual property taxes, homeowners insurance premiums and applicable monthly association fees.\n\nAdd private mortgage insurance if required by your conventional financing.\n\nReview the estimated monthly housing payment and adjust individual inputs to compare financing arrangements.\n\nThe amortization schedule shows how much interest you could pay and how your outstanding mortgage balance decreases over time.\n\nOur national Mortgage Calculator also helps you compare borrowing scenarios outside Oklahoma."
+        }
+      ]
+    },
+    {
+      "heading": "How Oklahoma Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Oklahoma calculates real estate taxes using property valuations, county assessment ratios, local tax levies and eligible exemptions.\n\nUnderstanding these components can help you avoid confusing the property's purchase price with its taxable assessed value.\n\n### Oklahoma residential property assessment ratios\n\nOklahoma's constitutional framework generally permits real property assessment ratios between 11% and 13.5%.\n\nIndividual county assessment ratios may vary.\n\nFor example, the [Oklahoma County Assessor](https://www.oklahomacounty.org/elected-offices/assessor/property-search) identifies an assessment ratio of 11% for real property in that county.\n\nA residential property valued at $200,000 using this ratio would have an assessed value of $22,000 before exemptions.\n\nApplicable local mill levies are then applied to the taxable assessed amount.\n\n### Oklahoma property tax calculation example\n\nSuppose a property has a fair cash value of $200,000 and qualifies for the standard homestead exemption.\n\nAssume an assessment ratio of 11% and a hypothetical combined tax levy of 100 mills."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Fair cash value",
+              "$200,000"
+            ],
+            [
+              "Assessment ratio",
+              "11%"
+            ],
+            [
+              "Assessed property value",
+              "$22,000"
+            ],
+            [
+              "Homestead exemption",
+              "$1,000"
+            ],
+            [
+              "Taxable assessed value",
+              "$21,000"
+            ],
+            [
+              "Illustrative mill levy",
+              "100 mills"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$2,100"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$175"
+            ]
+          ]
+        },
+        {
+          "markdown": "The actual assessment ratio, levy and applicable exemptions depend on your property's jurisdiction and eligibility.\n\nContact your county assessor for a property-specific estimate before making an offer.\n\n### Oklahoma homestead exemption\n\nQualifying homeowners can receive a standard homestead exemption of $1,000 in assessed property value.\n\nThis does not mean homeowners receive a $1,000 reduction in their annual property tax bill. The actual savings depend on the applicable local millage rate.\n\nAdditional relief may be available to qualifying lower-income homeowners, eligible disabled veterans and older residents.\n\nReview the [Oklahoma County homestead exemption resources](https://www.oklahomacounty.org/elected-offices/assessor/lookup/homestead-exemptions) or contact your local assessor to confirm eligibility.\n\n### Oklahoma property valuation limitations\n\nFor the 2026 tax year, Oklahoma generally limits annual increases in the fair cash value used for tax purposes to 3% for qualifying homestead properties and agricultural land.\n\nMost other locally assessed real property is subject to a 5% limitation.\n\nOwnership transfers and property improvements can trigger exceptions to these restrictions.\n\nThese limitations concern property valuations rather than the final tax bill. Changes in tax levies can still affect your annual expenses.\n\nWhen purchasing a property, request an updated valuation estimate instead of assuming the seller's existing tax bill will remain unchanged."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Oklahoma",
+      "blocks": [
+        {
+          "markdown": "Insurance deserves particular attention when purchasing an Oklahoma home because severe weather can affect premiums, deductibles and coverage availability.\n\nInsurance costs depend on construction materials, replacement value, property condition, location and selected coverage.\n\nObtain property-specific insurance quotes before committing to a purchase.\n\n### Tornado, wind and hail coverage\n\nThe [Oklahoma Insurance Department's wind and hail guidance](https://www.oid.ok.gov/consumers/insurance-basics/disasters/wind-and-hail/) explains that homeowners insurance policies may impose separate deductibles or restrictions for certain types of storm damage.\n\nAsk insurers whether roof damage is covered at replacement cost or actual cash value.\n\nFor example, a 2% wind and hail deductible on $250,000 in dwelling coverage would represent $5,000 in potential out-of-pocket expenses for an applicable covered claim.\n\nMaintain sufficient emergency savings to cover potential deductibles.\n\n### Oklahoma earthquake insurance\n\nEarthquake exposure is another consideration for Oklahoma homeowners.\n\nAccording to the [Oklahoma Insurance Department](https://www.oid.ok.gov/consumers/insurance-basics/disasters/earthquakes/), standard homeowners insurance excludes earthquake damage.\n\nSeparate coverage may be available through an endorsement or standalone policy.\n\nEarthquake deductibles are frequently expressed as a percentage of insured property value. Review policy exclusions and discuss appropriate coverage with your insurance agent.\n\n### Flood insurance\n\nOrdinary homeowners insurance also excludes flooding.\n\nInvestigate the property's location using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nThe state's [flood insurance resources](https://www.oid.ok.gov/consumers/insurance-basics/disasters/floods/) provide additional guidance about coverage and mortgage requirements.\n\nInclude all applicable annual insurance premiums in the calculator without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Oklahoma Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, 6% fixed annual interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$150,000",
+              "$30,000",
+              "$120,000",
+              "$719.46"
+            ],
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude property taxes, homeowners insurance, PMI and association fees.\n\nBecause insurance expenses can vary considerably, compare complete monthly housing payments when evaluating individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Oklahoma First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Oklahoma Housing Finance Agency, commonly known as OHFA, offers mortgage financing and purchase assistance through approved lenders.\n\n### OHFA GOLD Loan Program\n\nThe [OHFA GOLD program](https://www.ohfa.org/dpa-products/) primarily serves eligible first-time buyers, although exceptions apply in designated targeted areas.\n\nThe published maximum purchase price is $310,600.\n\nIncome limits vary by county and household size. Eligible school employees, first responders and state employees may qualify for special mortgage rates.\n\n### OHFA DREAM Loan Program\n\nThe DREAM program is available to qualifying first-time and repeat buyers.\n\nPublished program limits include:"
+        },
+        {
+          "columns": [
+            "Program",
+            "Maximum purchase price"
+          ],
+          "rows": [
+            [
+              "DREAM Government",
+              "$356,362"
+            ],
+            [
+              "DREAM Conventional",
+              "$453,100"
+            ]
+          ]
+        },
+        {
+          "markdown": "The government-backed option has a published statewide income limit of $150,000. Conventional income limits vary by county.\n\nBorrowers can compare financing with assistance against qualifying options without assistance that may offer lower interest rates.\n\n### Oklahoma down payment assistance\n\nThe [OHFA homebuyer assistance program](https://www.ohfa.org/homebuyers/) provides qualifying borrowers with assistance of up to 3.5% of their mortgage amount.\n\nFor an eligible $160,000 mortgage, this would amount to $5,600.\n\nThe assistance creates an interest-free secondary lien that must eventually be repaid. Repayment may become due when the primary mortgage is paid off, the property is refinanced or ownership or primary residency changes.\n\nReview the agency's [assistance repayment guidance](https://www.ohfa.org/homeownership-faq/) before incorporating assistance into your budget."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning an Oklahoma Home",
+      "blocks": [
+        {
+          "markdown": "Oklahoma homebuyers should investigate property maintenance expenses, utility bills and potential storm-related repair costs.\n\nAsk whether the property has an existing storm shelter or safe room. If you intend to install one, include the expected expense in your broader purchase budget.\n\nBuyers considering older homes should investigate roofing, foundation condition, drainage and heating or cooling equipment.\n\nRural properties may also require private well maintenance, septic system servicing and access road repairs.\n\nThese expenses are not automatically included in the mortgage calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Oklahoma?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing financial obligations.\n\nUse our [Oklahoma Paycheck Calculator](/calculators/oklahoma-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing commitments.\n\nInclude transportation, groceries, utilities, childcare, insurance deductibles and regular savings contributions.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient savings for unexpected repairs and severe weather-related expenses."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $200,000 Oklahoma home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $959.28. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How are Oklahoma residential property taxes calculated?\n\nCounty assessment ratios are applied to the property's applicable fair cash value. Eligible exemptions reduce assessed value before local mill levies are applied. Real property assessment ratios generally range from 11% to 13.5%.\n\n### Does Oklahoma offer down payment assistance?\n\nYes. OHFA provides eligible borrowers with assistance of up to 3.5% of the qualifying mortgage amount. This assistance is interest-free secondary financing that must eventually be repaid under the applicable program conditions."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Oklahoma Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Oklahoma mortgage calculator to compare home prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Pay particular attention to storm coverage, insurance deductibles and ongoing maintenance expenses when establishing a sustainable homebuying budget."
+        }
+      ]
+    }
+  ]
+}

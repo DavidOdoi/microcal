@@ -124,3 +124,31 @@ test('the national mortgage pillar preserves both routes and uses one canonical 
     assert.deepEqual(schema['@graph'].map(item => item['@type']), ['WebPage', 'WebApplication', 'BreadcrumbList']);
   }
 });
+
+test('state mortgage guides belong to the pillar and sitemap and retain one canonical', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const guideData = new URL('../content/state-mortgage-guides.json', import.meta.url);
+  const guides = JSON.parse(await readFile(guideData, 'utf8'));
+  const pillar = '/calculators/mortgage-calculator/';
+  const site = 'https://microfinancepost.com';
+  const fetchHtml = async path => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200, path);
+    return response.text();
+  };
+  const [hub, sitemap] = await Promise.all([fetchHtml(pillar), fetchHtml('/sitemap.xml')]);
+  for (const guide of guides) {
+    const path = `/calculators/${guide.slug}/`;
+    assert.ok(hub.includes(`href="${path}"`), path);
+    assert.ok(sitemap.includes(`${site}${path}`), path);
+    const [page, category] = await Promise.all([fetchHtml(path), fetchHtml(`/mortgages/${guide.slug}/`)]);
+    for (const html of [page, category]) {
+      assert.ok(html.includes(`rel="canonical" href="${site}${path}"`), path);
+      assert.ok(html.includes(`<h1>${guide.state} Mortgage Calculator</h1>`), path);
+      assert.ok(html.includes(`href="${pillar}"`), path);
+      assert.ok(html.includes(`href="${path.replace('-mortgage-calculator', '-paycheck-calculator')}"`), path);
+      const faq = html.match(/<h2>Frequently Asked Questions<\/h2>([\s\S]*?)<\/section>/)?.[1];
+      assert.equal((faq?.match(/<h3\b/g) ?? []).length, 3, path);
+    }
+  }
+});

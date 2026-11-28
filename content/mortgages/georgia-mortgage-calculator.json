@@ -1,0 +1,221 @@
+{
+  "intro": [
+    "Whether you are buying a property in Atlanta, Savannah, Augusta, Columbus or a smaller Georgia community, knowing your expected monthly mortgage payment can help you make a more informed purchase decision.",
+    "Our free Georgia mortgage calculator estimates your monthly housing expenses using your home price, down payment, interest rate and repayment term. Include local property taxes, homeowners insurance, private mortgage insurance and association fees to determine how much a home could cost you each month."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Georgia?",
+      "blocks": [
+        {
+          "markdown": "A $305,000 Georgia home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,462.90.\n\nThe following example includes estimated taxes and insurance."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$305,000"
+            ],
+            [
+              "Down payment",
+              "$61,000"
+            ],
+            [
+              "Mortgage amount",
+              "$244,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,462.90"
+            ],
+            [
+              "Monthly property taxes",
+              "$250"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,887.90"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures assume no PMI or HOA fees. The interest rate, property taxes and insurance premiums are illustrative planning assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Georgia Housing Market",
+      "blocks": [
+        {
+          "markdown": "Georgia offers housing options across large metropolitan areas, suburban developments, coastal communities and rural regions.\n\nAccording to the [US Census Bureau's Georgia QuickFacts](https://www.census.gov/quickfacts/fact/table/GA/IPE120224), the median value of owner-occupied homes was $303,300 during the 2020–2024 survey period. Median selected monthly ownership costs for homeowners with mortgages were $1,783, while the homeownership rate was 65.7%.\n\nThese historical statistics provide useful context but should not be interpreted as current home sale prices.\n\nThe cost of purchasing a home in metropolitan Atlanta can differ considerably from buying in a smaller community elsewhere in the state. Neighborhood amenities, employment opportunities, school districts and transportation access all influence local housing demand.\n\nResearch comparable properties in your preferred area before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Georgia Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of the property and the amount you intend to contribute toward the purchase upfront.\n\nChoose a mortgage repayment term and enter your lender's quoted annual interest rate. You can compare different rates and down payments without submitting a mortgage application.\n\nAdd the property's estimated annual taxes and homeowners insurance premium. Include monthly HOA fees and applicable private mortgage insurance.\n\nThe calculator displays your estimated monthly housing payment and the relationship between principal, interest and additional expenses.\n\nUse the amortization schedule to examine how your outstanding mortgage balance changes throughout the repayment period."
+        }
+      ]
+    },
+    {
+      "heading": "How Georgia Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Georgia calculates property taxes using assessed property values and local millage rates.\n\nAccording to the [Georgia Department of Revenue's property tax valuation guidance](https://dor.georgia.gov/property-tax-valuation), most property is assessed at 40% of its fair market value unless another statutory provision applies.\n\nThis assessment ratio does not mean homeowners pay 40% of their property value in taxes. Instead, it determines the assessed amount to which applicable tax rates are applied.\n\n### Georgia property tax calculation example\n\nConsider a Georgia home with a fair market value of $305,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Fair market value",
+              "$305,000"
+            ],
+            [
+              "Assessment ratio",
+              "40%"
+            ],
+            [
+              "Assessed value",
+              "$122,000"
+            ],
+            [
+              "Illustrative combined millage rate",
+              "25 mills"
+            ],
+            [
+              "Annual property taxes before exemptions",
+              "$3,050"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$254.17"
+            ]
+          ]
+        },
+        {
+          "markdown": "The calculation uses a hypothetical millage rate and excludes exemptions or additional charges.\n\nDifferent counties, municipalities and school districts can impose different tax rates. Obtain the applicable rate and taxable assessment from your local tax office.\n\n### Georgia homestead exemptions\n\nHomeowners who occupy eligible properties as their primary residence may qualify for homestead exemptions.\n\nGeorgia's exemption arrangements include statewide provisions and additional benefits established by local governments. Certain exemptions depend on the homeowner's age, income, disability or military status.\n\nSome exemptions apply to county taxes but not necessarily to every school or municipal tax.\n\nReview the [Georgia Department of Revenue's homestead exemption guide](https://dor.georgia.gov/property-tax-homestead-exemptions) before incorporating these benefits into your mortgage estimate.\n\n### Property valuation limitations\n\nSome Georgia jurisdictions provide exemptions or valuation limitations that can reduce the effect of increasing property assessments.\n\nLocal participation and eligibility requirements differ. Contact your county tax assessor to understand the rules that apply to the property you intend to purchase.\n\nDo not assume that the previous owner's exemptions or valuation protections will automatically transfer to you."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Georgia",
+      "blocks": [
+        {
+          "markdown": "Homeowners insurance premiums depend on your property's construction, roof condition, location, replacement cost and coverage requirements.\n\nGeorgia properties may experience severe thunderstorms, tornadoes, hail and flooding. Homes near the Atlantic Coast can also face tropical storm and hurricane-related risks.\n\nObtain insurance quotes before committing to a purchase.\n\nThe state's [home insurance consumer guidance](https://georgia.gov/get-home-insurance) explains common coverage categories and the importance of reviewing policy limits and deductibles.\n\n### Flood insurance\n\nMost ordinary homeowners policies exclude flooding.\n\nThis is relevant not only for coastal properties but also for homes near rivers, streams and areas susceptible to heavy rainfall.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood designation.\n\nAdd separate flood insurance premiums to the calculator where applicable.\n\n### Comparing insurance deductibles\n\nA lower monthly premium does not necessarily represent better value if the associated policy requires a substantially higher deductible.\n\nReview the amount you would need to pay following a covered loss and maintain sufficient emergency savings to handle unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Georgia Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$305,000",
+              "$61,000",
+              "$244,000",
+              "$1,462.90"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ]
+          ]
+        },
+        {
+          "markdown": "These examples exclude taxes, insurance, PMI and association fees.\n\nUse the complete calculator to compare monthly housing expenses associated with individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Georgia First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Georgia Department of Community Affairs provides mortgage assistance through several Georgia Dream products.\n\n### Georgia Dream Homeownership Program\n\nThe [Georgia Dream Loan Program](https://dca.georgia.gov/affordable-housing/home-ownership/georgia-dream-mortgage-products/georgia-dream) supports eligible first-time homebuyers with mortgage financing and down payment assistance.\n\nIts standard assistance option offers the lesser of 5% of the property's purchase price or $10,000.\n\nCertain qualifying public protectors, educators, healthcare workers, military personnel and households affected by disability may qualify for enhanced assistance options of up to $12,500, subject to program conditions.\n\nThe assistance is loan financing rather than an automatic cash grant. Confirm its repayment requirements with a participating lender.\n\n### Peach Plus and Peach Advantage\n\nThe [Georgia Dream mortgage product directory](https://dca.georgia.gov/affordable-housing/home-ownership/georgia-dream-mortgage-products) also lists Peach Plus and Peach Advantage.\n\nThese programs can serve qualifying first-time and repeat buyers who meet the applicable income, purchase price and financing requirements.\n\nCompare the first mortgage rate and total financing costs alongside the available assistance.\n\n### Peach Select VA\n\nEligible military borrowers may also investigate Peach Select VA, which provides a separate mortgage option under Georgia's homeownership programs.\n\nUnlike certain other Georgia Dream products, its published program description does not include down payment assistance.\n\nCheck the official [Georgia Dream interest rate page](https://dca.georgia.gov/affordable-housing/home-ownership/georgia-dream-mortgage-products/georgia-dream-lenders/current) or consult a participating lender before entering a program-specific rate into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Georgia Home",
+      "blocks": [
+        {
+          "markdown": "When comparing properties, consider transportation, utilities and maintenance expenses alongside mortgage payments.\n\nA suburban home outside Atlanta may have a lower purchase price than a property closer to your workplace, but commuting costs can reduce those savings.\n\nHomes with large gardens or older heating and cooling equipment may require additional maintenance. Summer air conditioning expenses can also affect household budgets.\n\nFor properties located within managed developments, review HOA budgets, reserve funds and possible special assessments.\n\nThese expenses may not be fully reflected in the mortgage calculator, so include them separately when establishing your overall household budget."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Georgia?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income. Subtract existing debt payments, transportation costs, groceries, utilities, childcare and savings contributions.\n\nUse our [Georgia Paycheck Calculator](/calculators/georgia-paycheck-calculator/) to estimate income after applicable payroll deductions. Our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help you understand how your existing debt affects mortgage qualification.\n\nReserve enough money for closing costs and emergency repairs instead of using all available savings for the down payment.\n\nBefore selecting a lender, review the [Consumer Financial Protection Bureau's homebuying resources](https://www.consumerfinance.gov/owning-a-home/) and compare multiple Loan Estimates."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $305,000 Georgia home?\n\nWith a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage, principal and interest would be approximately $1,462.90 per month. Add property taxes, insurance and applicable fees for a complete housing estimate.\n\n### How are residential property taxes calculated in Georgia?\n\nMost residential property is assessed at 40% of fair market value. Applicable local millage rates are then applied to the relevant taxable assessment, accounting for eligible exemptions and other adjustments.\n\n### Does Georgia offer down payment assistance for first-time buyers?\n\nYes. The Georgia Dream Homeownership Program provides qualifying buyers with mortgage and down payment assistance options. Eligibility, assistance amounts and repayment requirements depend on the selected program."
+        }
+      ]
+    },
+    {
+      "heading": "Estimate Your Georgia Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Georgia mortgage calculator to compare home prices, mortgage rates and repayment terms before committing to a purchase.\n\nReplace estimated taxes and insurance with property-specific figures whenever possible. Understanding your complete monthly housing expenses can help you find a Georgia home that fits your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

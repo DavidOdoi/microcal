@@ -1,0 +1,240 @@
+{
+  "intro": [
+    "Buying a home in Massachusetts requires careful financial planning, particularly when local property taxes, insurance premiums and housing prices can significantly affect affordability.",
+    "Our free Massachusetts mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're purchasing in Boston, Worcester, Springfield, Cambridge or a smaller Massachusetts community, include property taxes, homeowners insurance and other applicable expenses to establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Massachusetts?",
+      "blocks": [
+        {
+          "markdown": "A $560,000 Massachusetts home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $2,685.99.\n\nAn illustrative monthly payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$560,000"
+            ],
+            [
+              "Down payment",
+              "$112,000"
+            ],
+            [
+              "Loan amount",
+              "$448,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,685.99"
+            ],
+            [
+              "Monthly property taxes",
+              "$500"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$3,360.99"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. The interest rate, property taxes and insurance premiums are illustrative assumptions rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Massachusetts Housing Market",
+      "blocks": [
+        {
+          "markdown": "Massachusetts offers housing options ranging from Boston-area condominiums and suburban single-family homes to rural properties and coastal residences.\n\nAccording to the [US Census Bureau's Massachusetts housing statistics](https://www.census.gov/quickfacts/fact/table/MA/POP060220), the median value of owner-occupied homes was $562,100 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among households with mortgages were $2,726, while the homeownership rate was 62.5%.\n\nThese historical statistics include homeowners who purchased properties under different market conditions. They do not represent current mortgage offers or property sale prices.\n\nHousing costs near Boston and Cambridge can differ considerably from those in central and western Massachusetts. Buyers should compare recent local property sales rather than relying entirely on statewide figures."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Massachusetts Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the expected purchase price of your property and the amount you intend to contribute as a down payment.\n\nChoose your mortgage repayment term and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage rate survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, enter annual property taxes, homeowners insurance premiums and applicable association fees.\n\nInclude private mortgage insurance if your financing arrangement requires it.\n\nReview the monthly payment breakdown and experiment with different home prices, down payments and repayment periods.\n\nUse the amortization schedule to understand how much interest you could pay and how your outstanding loan balance decreases over time."
+        }
+      ]
+    },
+    {
+      "heading": "How Massachusetts Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Massachusetts property taxes depend on locally assessed property values and municipal tax rates.\n\nAccording to the [Massachusetts Department of Revenue's municipal property tax guide](https://www.mass.gov/guides/massachusetts-municipal-property-taxes), local assessors generally establish property assessments using full and fair cash value.\n\nMunicipalities determine their tax rates according to property valuations, local budgets and applicable statutory restrictions.\n\n### Massachusetts property tax calculation example\n\nSuppose your home has an assessed value of $560,000 and your municipality applies an illustrative residential tax rate of $10.50 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Assessed property value",
+              "$560,000"
+            ],
+            [
+              "Illustrative tax rate per $1,000",
+              "$10.50"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$5,880"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$490"
+            ]
+          ]
+        },
+        {
+          "markdown": "This calculation excludes exemptions and additional charges.\n\nActual rates vary between municipalities. Obtain the appropriate residential tax rate from your local assessor before entering annual taxes into the calculator.\n\n### Understanding Proposition 2½\n\nMassachusetts limits municipal property tax collections through a system known as Proposition 2½.\n\nThe law generally restricts annual growth in a municipality's property tax levy to 2.5% of the previous levy limit, with adjustments for new growth and approved exceptions.\n\nIt also establishes a levy ceiling based on the community's total taxable property value.\n\nImportantly, Proposition 2½ does not guarantee that an individual homeowner's annual property tax bill can increase by only 2.5%.\n\nChanges in individual property assessments and local tax arrangements can result in different increases.\n\nReview the state's [property tax levies and tax rate information](https://www.mass.gov/info-details/fy2026-tax-levies-assessed-values-and-tax-rates) for additional details.\n\n### Massachusetts residential property tax exemptions\n\nSome Massachusetts municipalities offer residential exemptions to eligible homeowners who occupy their properties as primary residences.\n\nUnder [Massachusetts General Laws Chapter 59, Section 5C](https://malegislature.gov/Laws/GeneralLaws/Parti/Titleix/Chapter59/Section5c), participating municipalities may establish an exemption of up to 35% of the average assessed value of qualifying residential parcels.\n\nThis does not automatically mean 35% of your individual home's value is exempt.\n\nBoston, for example, offers a locally administered residential exemption. Visit the [Boston Assessing Department](https://www.boston.gov/departments/assessing) to investigate current eligibility and application requirements.\n\nConfirm whether your municipality offers an exemption before reducing your estimated property tax bill."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Massachusetts",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on your property's location, construction, replacement cost, condition and coverage requirements.\n\nMassachusetts homeowners may experience winter storms, freezing temperatures, coastal flooding and wind-related damage.\n\nObtain property-specific insurance quotes before completing your purchase.\n\n### Coastal and flood insurance\n\nProperties near Cape Cod, coastal Boston and other waterfront communities may have additional insurance considerations.\n\nThe [Massachusetts Division of Insurance](https://www.mass.gov/info-details/flood-assistance-and-insurance-information) explains that standard homeowners insurance does not cover flood damage.\n\nDepending on your property's location and mortgage requirements, separate flood coverage may be necessary.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate flood exposure before requesting insurance quotes.\n\n### Insurance for older homes\n\nOlder Massachusetts homes may contain aging electrical systems, plumbing, roofing or heating equipment.\n\nAsk insurers whether the property's condition affects coverage eligibility or premiums.\n\nReview deductibles and exclusions carefully. A less expensive policy may provide less comprehensive protection or require greater out-of-pocket spending after a covered loss.\n\nInclude the combined annual premiums of applicable policies in your mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Massachusetts Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$560,000",
+              "$112,000",
+              "$448,000",
+              "$2,685.99"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ],
+            [
+              "$1,000,000",
+              "$200,000",
+              "$800,000",
+              "$4,796.40"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude taxes, homeowners insurance, PMI and association fees.\n\nUse the complete calculator to compare total housing expenses rather than relying exclusively on principal and interest."
+        }
+      ]
+    },
+    {
+      "heading": "Massachusetts First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Massachusetts provides several financing and assistance options for qualifying homebuyers.\n\n### MassHousing down payment assistance\n\nThe [MassHousing Down Payment Assistance program](https://www.masshousing.com/buy-a-home/programs/downpayment-assistance/) currently offers eligible first-time buyers assistance of up to $30,000.\n\nAvailable financing arrangements include:"
+        },
+        {
+          "columns": [
+            "Assistance option",
+            "Maximum amount",
+            "Repayment terms"
+          ],
+          "rows": [
+            [
+              "Deferred second mortgage",
+              "$30,000",
+              "0% interest"
+            ],
+            [
+              "Repayable second mortgage",
+              "$25,000",
+              "2% interest over 15 years"
+            ],
+            [
+              "Repayable second mortgage",
+              "$25,000",
+              "3% interest over 15 years"
+            ]
+          ]
+        },
+        {
+          "markdown": "The deferred option becomes payable when specified events occur, including selling or refinancing the home or paying off the first mortgage.\n\nThe amortizing options require separate monthly payments.\n\nBorrowers must qualify for an eligible MassHousing first mortgage and satisfy applicable income, property and education requirements.\n\n### ONE Mortgage Program\n\nThe [Massachusetts ONE Mortgage Program](https://www.mass.gov/info-details/one-mortgage-program) provides eligible low- and moderate-income first-time buyers with fixed-rate financing.\n\nQualifying borrowers purchasing a single-family home, condominium or two-family property may make a down payment as low as 3%. Three-family properties generally require 5%.\n\nThe program does not require private mortgage insurance. Some eligible households may also receive additional assistance with monthly payments.\n\nIncome, asset, credit and homebuyer education requirements apply.\n\nCompare the complete costs of ONE Mortgage and MassHousing financing before selecting a loan."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Massachusetts Home",
+      "blocks": [
+        {
+          "markdown": "Massachusetts buyers should account for expenses beyond their monthly mortgage payments.\n\nWinter heating, snow removal, transportation, property maintenance and utility bills can affect affordability.\n\nCondominium buyers should review association budgets, reserve funds and proposed special assessments.\n\nProperties with private septic systems may also be subject to inspection requirements when ownership changes.\n\nThe [Massachusetts Department of Environmental Protection's septic system transfer guide](https://www.mass.gov/guides/buying-or-selling-property-with-a-septic-system) explains Title 5 inspection requirements and applicable exceptions.\n\nInvestigate potential repair obligations before committing to a property."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Massachusetts?",
+      "blocks": [
+        {
+          "markdown": "Start with your reliable monthly take-home income and subtract household expenses, existing debt payments and savings contributions.\n\nUse our [Massachusetts Paycheck Calculator](/calculators/massachusetts-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to understand existing financial obligations.\n\nConsider commuting expenses, childcare, heating and association fees when comparing properties.\n\nReview the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) to compare borrowing costs and upfront expenses.\n\nChoose a mortgage that allows sufficient room for emergencies and other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $560,000 Massachusetts home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $2,685.99 monthly. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### Does Proposition 2½ limit individual property tax increases?\n\nNot directly. Proposition 2½ primarily limits municipal property tax collections. An individual homeowner's tax bill can increase by more than 2.5% because of assessment changes and other applicable factors.\n\n### Can Massachusetts first-time buyers receive down payment assistance?\n\nYes. Eligible buyers may qualify for MassHousing assistance of up to $30,000 or financing through programs such as ONE Mortgage. Eligibility, repayment arrangements and program requirements vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Massachusetts Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Massachusetts mortgage calculator to compare purchase prices, loan terms and down payments before making an offer.\n\nReplace illustrative property taxes, insurance premiums and association fees with verified property-specific figures. Understanding your complete monthly expenses can help you select a home that fits your long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

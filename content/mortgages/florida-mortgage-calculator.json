@@ -1,0 +1,190 @@
+{
+  "intro": [
+    "Buying a home in Florida involves more than comparing property prices and mortgage interest rates. Homeowners insurance, hurricane coverage, property taxes and community association fees can significantly affect your monthly housing expenses.",
+    "Our free Florida mortgage calculator helps you estimate your monthly payment before purchasing a home. Whether you are considering a property in Miami, Orlando, Tampa, Jacksonville or another Florida community, enter your financing details and estimated ownership costs to establish a realistic budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Florida?",
+      "blocks": [
+        {
+          "markdown": "A $360,000 Florida home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,726.71.\n\nYour estimated monthly housing expenses might look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$360,000"
+            ],
+            [
+              "Down payment",
+              "$72,000"
+            ],
+            [
+              "Loan amount",
+              "$288,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,726.71"
+            ],
+            [
+              "Monthly property taxes",
+              "$300"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$350"
+            ],
+            [
+              "Monthly HOA fees",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,476.71"
+            ]
+          ]
+        },
+        {
+          "markdown": "The example assumes no private mortgage insurance. Taxes, insurance, association fees and interest rates are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Florida Housing Market",
+      "blocks": [
+        {
+          "markdown": "Florida offers a diverse housing market, including coastal condominiums, suburban single-family homes, retirement communities and inland properties.\n\nAccording to the [US Census Bureau's Florida housing statistics](https://www.census.gov/quickfacts/fact/table/FL/INC910224), the median value of owner-occupied housing was $359,000 during the 2020–2024 survey period. Homeowners with mortgages reported median selected monthly ownership costs of $1,959.\n\nThese historical figures provide a useful starting point, but they cannot tell you the current purchase price of a particular property.\n\nA waterfront home may involve considerably different insurance premiums and maintenance expenses from a similarly priced inland property. Condominiums can also have substantial monthly association fees.\n\nWhen using the calculator, enter the expected purchase price of the specific property rather than relying exclusively on statewide housing statistics."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Florida Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Begin with your anticipated home purchase price and the amount you have available for a down payment.\n\nEnter the annual interest rate quoted by your lender and select a repayment term. A 30-year mortgage generally offers lower monthly principal and interest payments than a 15-year mortgage with the same rate.\n\nNext, enter your expected annual property taxes and insurance premiums.\n\nIf separate hurricane or flood insurance is required, include those premiums without counting any coverage twice. Add monthly HOA or condominium association fees where applicable.\n\nReview your estimated total monthly housing payment and amortization schedule.\n\nTry different purchase prices, down payments and interest rates to understand how each variable affects affordability. You can also use our national Mortgage Calculator to compare financing arrangements outside Florida."
+        }
+      ]
+    },
+    {
+      "heading": "How Florida Property Taxes Affect Mortgage Payments",
+      "blocks": [
+        {
+          "markdown": "Florida property taxes depend on assessed property values, applicable exemptions and local millage rates.\n\nCounty property appraisers establish property valuations, while local taxing authorities determine the rates used to calculate tax liabilities.\n\nFor example, assume a property's taxable value is $320,000 and its combined applicable millage rate is 15 mills.\n\nAnnual property tax would be:\n\n$320,000 × 0.015 = $4,800\n\nThis equals $400 per month.\n\nThe example uses a hypothetical taxable value and millage rate. Your actual bill may include additional assessments or charges.\n\n### Florida homestead exemption\n\nQualifying homeowners who use their Florida property as their permanent residence may receive a homestead exemption that reduces taxable property value.\n\nDifferent portions of the exemption apply to different categories of taxes, and certain exemption amounts are subject to inflation adjustments.\n\nVisit the [Florida Department of Revenue's property tax exemption guide](https://floridarevenue.com/property/pages/Taxpayers_Exemptions.aspx) and contact your county property appraiser to confirm eligibility and current exemption amounts.\n\nDo not subtract an assumed exemption from every portion of your property tax calculation.\n\n### Save Our Homes assessment limitation\n\nFlorida's Save Our Homes provision limits annual assessment increases for qualifying homestead properties.\n\nThe annual increase is generally capped at the lower of 3% or the relevant change in the Consumer Price Index, subject to applicable rules.\n\nThe [Florida Department of Revenue's assessment limitation guidance](https://floridarevenue.com/property/Pages/ConsumerPriceIndex.aspx) explains how this calculation works.\n\nThis limitation can create a significant difference between a property's market value and its existing assessed value.\n\n### Property tax reassessment after purchasing a home\n\nWhen ownership changes, a property's assessment generally resets to its just value, subject to applicable exceptions and portability provisions.\n\nConsequently, the seller's existing property tax bill may substantially underestimate what you will pay.\n\nUse the county property appraiser's new-homebuyer tax estimation resources wherever available."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Florida",
+      "blocks": [
+        {
+          "markdown": "Insurance deserves particular attention when purchasing a Florida home.\n\nPremiums can depend on roof condition, construction materials, property location, replacement cost and exposure to severe weather.\n\nObtain insurance quotes before finalizing your purchase rather than waiting until your mortgage closing date.\n\n### Hurricane insurance deductibles\n\nSome Florida homeowners policies contain separate hurricane deductibles expressed as a percentage of dwelling coverage.\n\nFor example, a 2% hurricane deductible on a policy with $350,000 in dwelling coverage represents $7,000 in potential out-of-pocket expenses for an applicable covered loss.\n\nA lower insurance premium may therefore come with a substantially higher financial risk.\n\nThe [Florida Department of Financial Services' hurricane deductible guide](https://www.myfloridacfo.com/division/consumers/consumerprotections/floridashurricanedeductible) explains how these deductibles operate.\n\n### Flood insurance\n\nOrdinary homeowners insurance generally excludes flooding. Some mortgage lenders require separate flood coverage depending on the property's location and applicable lending rules.\n\nCheck the property's flood designation using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nEven properties outside designated high-risk flood areas can experience flooding.\n\nAdd the annual cost of applicable flood insurance to your mortgage calculator inputs."
+        }
+      ]
+    },
+    {
+      "heading": "Florida Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$360,000",
+              "$72,000",
+              "$288,000",
+              "$1,726.71"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, mortgage insurance and association fees.\n\nUse the full calculator to compare total housing expenses rather than principal and interest alone."
+        }
+      ]
+    },
+    {
+      "heading": "HOA, Condominium and Community Development District Fees",
+      "blocks": [
+        {
+          "markdown": "Florida buyers should investigate charges associated with planned residential communities and condominium developments.\n\nAssociation fees may support shared facilities, landscaping, building maintenance, security and insurance.\n\nReview the association's budget, reserve funding and any proposed special assessments before purchasing a property.\n\nSome developments also belong to Community Development Districts, commonly called CDDs. District assessments can help finance infrastructure and public services.\n\nThese charges may appear on the property tax bill. Avoid counting them again as separate monthly expenses if they are already included in your annual tax estimate.\n\nCondominium buyers should also investigate building inspection requirements and future repair obligations, which can affect association budgets and ownership costs."
+        }
+      ]
+    },
+    {
+      "heading": "Florida First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Florida Housing Finance Corporation offers financing and assistance programs through approved participating lenders.\n\n### Florida Housing Homebuyer Program\n\nThe [Florida Housing Homebuyer Program](https://floridahousing.org/programs/homebuyer-overview-page) provides eligible applicants with 30-year fixed-rate mortgage options.\n\nApplicants generally need to meet credit score, household income, purchase price and homebuyer education requirements.\n\nCounty-specific limits apply, so consult a participating lender before selecting a property.\n\n### Florida Assist\n\nFlorida Assist provides eligible buyers with up to $10,000 toward qualifying purchase expenses.\n\nThe assistance is structured as a zero-interest deferred second mortgage rather than an unconditional grant.\n\nRepayment may become due when the property is sold, refinanced or no longer occupied as the borrower's primary residence, among other qualifying events.\n\nCompare the complete financing arrangement before accepting assistance.\n\n### Other mortgage assistance options\n\nFlorida Housing also offers additional assistance arrangements associated with qualifying first mortgages.\n\nProgram funding and eligibility requirements can change. Do not include assistance in your budget until an approved lender confirms that you qualify and funds are available."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Florida?",
+      "blocks": [
+        {
+          "markdown": "Begin with your reliable monthly take-home income and subtract regular household expenses.\n\nFlorida does not impose an individual state income tax, but homeowners still face federal taxes, payroll deductions, insurance expenses and property-related charges.\n\nUse our [Florida Paycheck Calculator](/calculators/florida-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing debt obligations.\n\nAllow room for potential insurance premium increases, maintenance costs and hurricane-related deductibles.\n\nWhen comparing mortgage offers, review the [Consumer Financial Protection Bureau's homebuying resources](https://www.consumerfinance.gov/owning-a-home/) to understand borrowing costs and lender disclosures.\n\nA lender's approval amount should not automatically become your household's maximum purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $360,000 Florida home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year loan term, monthly principal and interest would be approximately $1,726.71. Property taxes, insurance and association fees increase your total housing expenses.\n\n### Does buying a Florida home change its property tax assessment?\n\nGenerally, yes. An ownership change can reset the property's assessed value, meaning the previous owner's tax bill may not reflect your future liability. Contact your county property appraiser for an updated estimate.\n\n### Should flood insurance be included in a Florida mortgage calculator?\n\nYes, if you expect to purchase flood coverage. Include its annual premium alongside other applicable insurance costs. Standard homeowners insurance generally excludes flooding, and certain mortgage arrangements require separate coverage."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Florida Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Florida mortgage calculator to compare financing options and property-related expenses before making an offer.\n\nObtain property-specific tax estimates, insurance quotes and association information whenever possible. Understanding these costs early can help prevent unexpected financial pressure after purchasing your Florida home."
+        }
+      ]
+    }
+  ]
+}

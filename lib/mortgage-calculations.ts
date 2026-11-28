@@ -5,7 +5,7 @@ export const mortgageAmount = (value: number, maximum = 1e12) => Number.isFinite
 export type MortgageInput = {
   homePrice: number; downPayment: number; annualRate: number; years: number;
   annualTax: number; annualInsurance: number; monthlyPmi: number; monthlyHoa: number;
-  annualPmiRate?: number; extraPrincipal?: number; firstPaymentDate?: string;
+  annualFloodInsurance?: number; annualPmiRate?: number; extraPrincipal?: number; firstPaymentDate?: string;
 };
 
 export function calculateMortgage(input: MortgageInput) {
@@ -21,8 +21,9 @@ export function calculateMortgage(input: MortgageInput) {
   const monthlyInsurance = mortgageAmount(input.annualInsurance) / 12;
   const monthlyPmi = principal === 0 ? 0 : input.annualPmiRate === undefined ? mortgageAmount(input.monthlyPmi)
     : principal > homePrice * .8 ? principal * mortgageAmount(input.annualPmiRate, 100) / 1200 : 0;
+  const monthlyFloodInsurance = mortgageAmount(input.annualFloodInsurance ?? 0) / 12;
   const monthlyHoa = mortgageAmount(input.monthlyHoa);
-  const monthlyTotal = monthlyPrincipalInterest + monthlyTax + monthlyInsurance + monthlyPmi + monthlyHoa;
+  const monthlyTotal = monthlyPrincipalInterest + monthlyTax + monthlyInsurance + monthlyFloodInsurance + monthlyPmi + monthlyHoa;
   const extraPrincipal = mortgageAmount(input.extraPrincipal ?? 0);
   let balance = principal;
   let totalInterest = 0;
@@ -45,7 +46,7 @@ export function calculateMortgage(input: MortgageInput) {
   const payoffMonths = schedule.length;
   const payoffDate = payoffMonths && input.firstPaymentDate
     ? mortgagePaymentDate(input.firstPaymentDate, payoffMonths - 1) : undefined;
-  return { homePrice, downPayment, principal, months, monthlyPrincipalInterest, monthlyTax, monthlyInsurance, monthlyPmi,
+  return { homePrice, downPayment, principal, months, monthlyPrincipalInterest, monthlyTax, monthlyInsurance, monthlyFloodInsurance, monthlyPmi,
     monthlyHoa, monthlyTotal, extraPrincipal, payoffMonths, payoffDate, totalLoanPayments: principal + totalInterest, totalInterest, schedule };
 }
 

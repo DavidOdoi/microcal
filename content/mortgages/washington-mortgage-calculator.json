@@ -1,0 +1,221 @@
+{
+  "intro": [
+    "Buying a home in Washington can involve significantly different expenses depending on where you live. A property near Seattle may have a higher purchase price, while a home in eastern Washington could present different insurance requirements and maintenance costs. Local property taxes, mortgage interest and association fees also influence affordability.",
+    "Our free Washington mortgage calculator helps you estimate your monthly housing payment before purchasing a property. Enter your home price, down payment, interest rate and loan term, then include property taxes, homeowners insurance and applicable fees to establish a realistic homebuying budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Washington?",
+      "blocks": [
+        {
+          "markdown": "A $565,000 Washington home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $2,709.97.\n\nAdding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$565,000"
+            ],
+            [
+              "Down payment",
+              "$113,000"
+            ],
+            [
+              "Loan amount",
+              "$452,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$2,709.97"
+            ],
+            [
+              "Monthly property taxes",
+              "$425"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$3,309.97"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. The interest rate, taxes and insurance premiums are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Washington Housing Market",
+      "blocks": [
+        {
+          "markdown": "According to the [US Census Bureau's Washington housing statistics](https://www.census.gov/quickfacts/fact/table/WA/HSG860223), the median value of owner-occupied housing was $564,600 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $2,445, while the homeownership rate was 63.8%.\n\nThese figures include existing homeowners who purchased properties under different market conditions. They do not represent current property sale prices.\n\nHousing prices in Seattle, Bellevue and other Puget Sound communities may differ considerably from those in Spokane, Yakima or the Tri-Cities.\n\nBuyers should compare recent neighborhood sales while investigating transportation expenses, local taxes and insurance requirements. A property farther from employment centers may offer a lower purchase price but increase commuting expenses."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Washington Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and your available down payment.\n\nSelect your preferred repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nNext, enter annual property taxes, homeowners insurance premiums and monthly association fees.\n\nInclude private mortgage insurance if your conventional financing requires it.\n\nReview the estimated monthly payment and adjust individual inputs to compare different financing arrangements.\n\nThe amortization schedule shows how much of each payment goes toward interest and reducing your outstanding mortgage balance.\n\nUse our national Mortgage Calculator to compare borrowing scenarios outside Washington State."
+        }
+      ]
+    },
+    {
+      "heading": "How Washington Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Washington property taxes depend on property assessments and the levies imposed by applicable taxing districts.\n\nCounty assessors generally establish property valuations based on their true and fair value. Property tax rates are expressed in dollars per $1,000 of taxable assessed value.\n\nYour tax bill can include charges supporting schools, counties, municipalities, fire districts and other public services.\n\n### Washington property tax calculation example\n\nSuppose a residential property has a taxable assessed value of $565,000 and a hypothetical combined property tax rate of $9 per $1,000."
+        },
+        {
+          "columns": [
+            "Property tax calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Taxable assessed value",
+              "$565,000"
+            ],
+            [
+              "Illustrative rate per $1,000",
+              "$9"
+            ],
+            [
+              "Estimated annual property taxes",
+              "$5,085"
+            ],
+            [
+              "Monthly property tax equivalent",
+              "$423.75"
+            ]
+          ]
+        },
+        {
+          "markdown": "Actual property taxes depend on your property's assessment, location and applicable exemptions.\n\nThe [Washington Department of Revenue](https://dor.wa.gov/forms-publications/publications-subject/tax-topics/property-tax-how-1-property-tax-levy-limit-works) reported a statewide average levy rate of $8.96 per $1,000 for taxes due in 2025.\n\nThis historical statewide figure should not replace a current property-specific tax estimate.\n\n### Understanding Washington's 1% property tax limitations\n\nWashington has two distinct property tax limitations that homeowners should understand.\n\nThe annual levy growth limitation generally restricts increases in taxing district revenues to 1%, subject to exceptions and applicable approval requirements.\n\nThis does not mean an individual homeowner's tax bill can increase by only 1% annually.\n\nWashington also has a constitutional limitation on regular property tax levies, generally equivalent to $10 per $1,000 of market value. Certain levies and voter-approved excess taxes fall outside this restriction.\n\nReview the state's [property tax reference guide](https://dor.wa.gov/about/statistics-reports/tax-manuals/tax-reference-manual/property-tax) for additional information."
+        }
+      ]
+    },
+    {
+      "heading": "Washington Property Tax Relief Programs",
+      "blocks": [
+        {
+          "markdown": "Washington provides property tax exemptions to qualifying older homeowners, individuals unable to work because of disabilities and eligible disabled veterans.\n\nThe [Washington Department of Revenue's exemption guidance](https://dor.wa.gov/taxes-rates/property-tax/property-tax-exemption-seniors-people-retired-due-disability-and-veterans-disabilities) identifies ownership, primary residence and income requirements.\n\nApplicants qualifying through age generally must be at least 61 by December 31 of the assessment year.\n\nIncome thresholds differ between counties. Updated thresholds for tax years 2027–2029 have already been published.\n\nFor example, the highest exemption income threshold for King County is $101,000, compared with $74,000 in Spokane County for that period.\n\nConsult the [official county income threshold directory](https://dor.wa.gov/taxes-rates/property-tax/senior-citizens-and-people-disabilities-exemption-and-deferred-income-thresholds) to investigate eligibility.\n\nDo not assume the previous homeowner's exemption will transfer to you."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Washington",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on property location, construction, condition, replacement cost and environmental exposure.\n\nWashington homeowners may face earthquakes, wildfires, flooding, landslides and severe winter weather.\n\nObtain written property-specific insurance quotes before completing your purchase.\n\n### Earthquake insurance\n\nMost standard homeowners policies exclude earthquake damage.\n\nThe [Washington Office of the Insurance Commissioner](https://www.insurance.wa.gov/insurance-resources/natural-disasters/disaster-preparedness/earthquake-insurance) explains that earthquake coverage is available through separate policies or endorsements.\n\nEarthquake deductibles commonly range between 10% and 25% of the insured building coverage limit.\n\nFor example, a 15% deductible on $500,000 of dwelling coverage would represent $75,000 in potential out-of-pocket costs for an applicable covered building loss.\n\n### Flood, wildfire and landslide coverage\n\nOrdinary homeowners insurance generally excludes flooding and landslides. Wildfire coverage is typically included, subject to policy terms.\n\nReview the state's [natural disaster insurance resources](https://www.insurance.wa.gov/insurance-resources/natural-disasters/disaster-preparedness) to understand coverage differences.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate flood exposure.\n\nInclude applicable additional insurance premiums when estimating your monthly housing payment."
+        }
+      ]
+    },
+    {
+      "heading": "Washington Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume 20% down, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$450,000",
+              "$90,000",
+              "$360,000",
+              "$2,158.38"
+            ],
+            [
+              "$565,000",
+              "$113,000",
+              "$452,000",
+              "$2,709.97"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ],
+            [
+              "$1,000,000",
+              "$200,000",
+              "$800,000",
+              "$4,796.40"
+            ]
+          ]
+        },
+        {
+          "markdown": "These estimates exclude property taxes, insurance, PMI and association fees.\n\nCompare complete housing payments rather than principal and interest alone."
+        }
+      ]
+    },
+    {
+      "heading": "Washington First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Washington State Housing Finance Commission provides mortgage financing and purchase assistance through participating lenders.\n\n### Home Advantage down payment assistance\n\nThe [Home Advantage program](https://heretohome.org/downpayment-assistance/) offers eligible borrowers assistance equal to 3%, 4% or 5% of their first mortgage amount.\n\nIts published statewide household income limit is $215,000.\n\nBoth first-time and repeat buyers may qualify, provided the property becomes their principal residence.\n\nThe assistance carries no interest or scheduled monthly payments. Repayment becomes due when specified events occur, including selling, refinancing or paying off the primary mortgage.\n\nFor example, 5% assistance on an eligible $452,000 mortgage would provide $22,600 toward qualifying purchase expenses.\n\n### House Key Opportunity assistance\n\nHouse Key Opportunity provides eligible borrowers with up to $15,000 in secondary financing at 1% simple interest.\n\nThe program generally serves first-time buyers or qualifying purchasers in designated targeted areas.\n\nAdditional income, purchase price and financial need requirements apply.\n\nCompare first mortgage rates and total repayment obligations before choosing an assistance program. Neither option should automatically be treated as an unconditional grant."
+        }
+      ]
+    },
+    {
+      "heading": "Comparing Down Payments in Washington",
+      "blocks": [
+        {
+          "markdown": "For a $565,000 purchase, a 10% down payment would require $56,500 upfront, compared with $113,000 for a 20% down payment.\n\nAt an illustrative 6% fixed interest rate over 30 years, increasing your down payment to 20% would reduce monthly principal and interest by approximately $338.75.\n\nThe larger contribution may also eliminate conventional private mortgage insurance.\n\nHowever, consider whether committing an additional $56,500 would leave sufficient savings for closing expenses, repairs and emergencies.\n\nUse the calculator to compare both scenarios rather than assuming that the largest possible down payment is always the best choice."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Washington Home",
+      "blocks": [
+        {
+          "markdown": "Homebuyers should account for expenses beyond regular mortgage payments.\n\nProperties in managed developments may involve association dues and special assessments. Rural or mountain properties may require private well maintenance, septic servicing and access road repairs.\n\nWestern Washington homeowners should pay particular attention to drainage, roofing and moisture management.\n\nUse our [Washington Paycheck Calculator](/calculators/washington-paycheck-calculator/) to estimate take-home earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing borrowing commitments.\n\nWashington does not impose a broad individual income tax on wages, although federal taxes and applicable payroll deductions still reduce take-home earnings.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain adequate emergency savings for closing expenses, insurance deductibles and unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $565,000 Washington home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $2,709.97. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### Does Washington limit individual property tax increases to 1%?\n\nNo. The annual levy growth limitation primarily applies to taxing district revenues. Individual property tax bills may increase by more than 1% depending on relative property valuations, voter-approved levies and other applicable factors.\n\n### Does Washington offer down payment assistance?\n\nYes. The Washington State Housing Finance Commission offers qualifying borrowers assistance through programs including Home Advantage and House Key Opportunity. Available amounts, eligibility requirements and repayment conditions vary."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Washington Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Washington mortgage calculator to compare purchase prices, down payments, mortgage rates and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding your complete ownership expenses can help you select a Washington property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}

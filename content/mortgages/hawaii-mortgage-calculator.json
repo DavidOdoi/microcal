@@ -1,0 +1,220 @@
+{
+  "intro": [
+    "Buying a home in Hawaii requires careful financial planning. High property prices, condominium association fees, insurance requirements and differences between island housing markets can all influence your monthly expenses.",
+    "Our free Hawaii mortgage calculator helps you estimate your monthly housing payment based on the purchase price, down payment, mortgage interest rate and repayment period. Include property taxes, homeowners insurance, hurricane coverage and applicable association fees to understand the financial commitment before purchasing a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Hawaii?",
+      "blocks": [
+        {
+          "markdown": "An $840,000 Hawaii home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $4,028.98.\n\nHere is an illustrative monthly housing payment breakdown."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$840,000"
+            ],
+            [
+              "Down payment",
+              "$168,000"
+            ],
+            [
+              "Loan amount",
+              "$672,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$4,028.98"
+            ],
+            [
+              "Monthly property taxes",
+              "$210"
+            ],
+            [
+              "Monthly insurance",
+              "$250"
+            ],
+            [
+              "Monthly association fees",
+              "$400"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$4,888.98"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes conventional financing without private mortgage insurance. Taxes, insurance, interest rates and association fees are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Hawaii Housing Market",
+      "blocks": [
+        {
+          "markdown": "Hawaii's housing market varies significantly between islands and individual communities. Buyers can choose from condominiums in Honolulu, suburban properties on Oahu, homes on Maui and Kauai, and residential communities across the Island of Hawaii.\n\nAccording to the [US Census Bureau's Hawaii housing statistics](https://www.census.gov/quickfacts/fact/table/HI/POP715223), the median value of owner-occupied housing was $839,100 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $2,904, while the owner-occupied housing rate was 63%.\n\nThese historical statistics include existing homeowners who may have purchased their properties years earlier under different market conditions. They should not be interpreted as current mortgage quotes or average asking prices.\n\nCompare recent property sales within your preferred island and neighborhood before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Hawaii Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and your available down payment.\n\nSelect your preferred loan term and provide the annual interest rate quoted by your lender.\n\nEnter the property's annual tax liability, homeowners insurance premiums and other applicable insurance costs.\n\nIf you are purchasing a condominium, include its monthly maintenance or association fees. Add ground rent separately when budgeting for a leasehold property.\n\nInclude private mortgage insurance where required by your financing arrangement.\n\nReview the estimated monthly housing payment and amortization schedule. Adjust the home price or down payment to compare different purchase scenarios.\n\nOur national Mortgage Calculator also allows you to compare Hawaii's financing costs with those in other states."
+        }
+      ]
+    },
+    {
+      "heading": "How Property Taxes Are Calculated in Hawaii",
+      "blocks": [
+        {
+          "markdown": "Hawaii's real property taxes are administered at the county level. Tax classifications, rates and exemptions vary depending on the property's location and use.\n\nA primary residence, investment property and short-term rental may have different tax classifications even when their assessed values are similar.\n\nThe [Honolulu Real Property Assessment Division's statewide reports](https://realproperty.honolulu.gov/statewide-reports/2026-27/) provide information about real property taxation across Hawaii's counties.\n\nUse the relevant county's tax assessment records rather than applying one statewide effective tax rate.\n\n### Honolulu home exemption\n\nEligible owner-occupants in the City and County of Honolulu can reduce their taxable assessed property value through the home exemption.\n\nThe [official Honolulu home exemption guidance](https://realproperty.honolulu.gov/tax-relief-and-forms/exemptions/home-exemption) lists the following amounts:"
+        },
+        {
+          "columns": [
+            "Homeowner age",
+            "July 2026–June 2027",
+            "July 2027–June 2028"
+          ],
+          "rows": [
+            [
+              "Under 65",
+              "$120,000",
+              "$140,000"
+            ],
+            [
+              "65 or older",
+              "$160,000",
+              "$180,000"
+            ]
+          ]
+        },
+        {
+          "markdown": "These exemptions reduce taxable assessed value rather than directly reducing your mortgage balance.\n\nEligibility depends on ownership, occupancy, filing requirements and other conditions.\n\n### Hawaii property tax calculation example\n\nSuppose you purchase a Honolulu property with an assessed value of $840,000 and qualify for the $120,000 home exemption applicable during the 2026–2027 tax year.\n\nYour net taxable value would be $720,000.\n\nUsing an illustrative residential tax rate of $3.50 per $1,000 of taxable assessed value:\n\nAnnual property tax = $720,000 ÷ 1,000 × $3.50\n\nThe resulting annual tax would be $2,520, equivalent to $210 per month.\n\nActual property taxes depend on your county, tax classification, applicable rates and exemption approval.\n\nConfirm those details with the local assessor before relying on the estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Hawaii",
+      "blocks": [
+        {
+          "markdown": "Insurance requirements can differ across Hawaii because properties face varying environmental risks.\n\nA standard homeowners insurance policy may not provide every type of coverage required by your lender or appropriate for the property's location.\n\n### Hurricane insurance\n\nThe [Hawaii Department of Commerce and Consumer Affairs](https://cca.hawaii.gov/ins/prepare-for-hurricane-season/) advises homeowners that standard residential policies commonly exclude hurricane damage.\n\nSeparate hurricane coverage or an endorsement may therefore be necessary.\n\nObtain quotes for all required policies before estimating your total annual insurance cost.\n\nReview applicable deductibles carefully, since a percentage-based deductible can create a considerable out-of-pocket expense following a covered loss.\n\n### Flood and other environmental risks\n\nProperties near coastal areas, rivers or low-lying locations may face flooding.\n\nCheck the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) and discuss appropriate coverage with your insurance agent.\n\nDepending on the island and property location, volcanic activity, earthquakes and other hazards may also warrant additional investigation.\n\nDo not assume that every natural hazard is covered by a standard insurance policy."
+        }
+      ]
+    },
+    {
+      "heading": "Condominium Association Fees in Hawaii",
+      "blocks": [
+        {
+          "markdown": "Condominiums are an important housing option for buyers in Honolulu and other densely developed areas.\n\nMonthly maintenance fees can support shared facilities, elevators, building insurance, landscaping, security and common-area repairs.\n\nThese charges can substantially affect affordability.\n\nConsider two properties with identical monthly principal and interest payments of $3,000. If one has monthly association fees of $350 and another has fees of $850, the second property costs an additional $500 per month before other expenses are considered.\n\nReview the association's reserve study, financial statements, insurance arrangements and planned repairs.\n\nSpecial assessments may require additional payments beyond ordinary monthly dues.\n\nYour mortgage calculator estimate should include recurring association fees, but one-time assessments and unexpected repairs need separate consideration."
+        }
+      ]
+    },
+    {
+      "heading": "Fee Simple Versus Leasehold Properties in Hawaii",
+      "blocks": [
+        {
+          "markdown": "Understanding the property's ownership structure is particularly important in Hawaii.\n\nWith fee simple ownership, the purchaser generally acquires ownership of the land and improvements, subject to applicable legal restrictions.\n\nA leasehold purchase provides rights to use the property for a defined lease period while another party retains ownership of the underlying land.\n\nLeasehold properties can have lower advertised purchase prices, but ground rent, lease expiration dates and rent renegotiation provisions can affect long-term costs.\n\nMortgage eligibility may also depend on the remaining lease duration.\n\nBefore purchasing a leasehold property, obtain the lease documents and confirm financing requirements with your lender. Do not compare fee simple and leasehold properties using purchase prices alone.\n\nEligible applicants may also investigate the [Department of Hawaiian Home Lands](https://dhhl.hawaii.gov/information-for-applicants/), which administers a distinct homestead leasing program with specific eligibility requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Hawaii Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "These illustrations assume a 20% down payment, 6% fixed interest and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$700,000",
+              "$140,000",
+              "$560,000",
+              "$3,357.48"
+            ],
+            [
+              "$840,000",
+              "$168,000",
+              "$672,000",
+              "$4,028.98"
+            ],
+            [
+              "$1,000,000",
+              "$200,000",
+              "$800,000",
+              "$4,796.40"
+            ],
+            [
+              "$1,250,000",
+              "$250,000",
+              "$1,000,000",
+              "$5,995.51"
+            ]
+          ]
+        },
+        {
+          "markdown": "Taxes, insurance, association fees, ground rent and mortgage insurance are excluded.\n\nBuyers considering expensive properties should check applicable county-specific conforming mortgage limits through the [Federal Housing Finance Agency](https://www.fhfa.gov/)."
+        }
+      ]
+    },
+    {
+      "heading": "First-Time Homebuyer Programs in Hawaii",
+      "blocks": [
+        {
+          "markdown": "The Hawaii Housing Finance and Development Corporation, or HHFDC, administers financing initiatives for eligible residents.\n\n### Hale Kamaʻāina Mortgage Program\n\nThe [Hale Kamaʻāina Mortgage Program](https://dbedt.hawaii.gov/hhfdc/2026/06/16/hale-kama%CA%BBaina-mortgage-program-for-homebuyers-frequently-asked-questions/) provides eligible first-time homebuyers with 30-year fixed-rate mortgage financing.\n\nThe program aims to offer interest rates below prevailing market levels, subject to funding and financing conditions.\n\nApplicants must meet applicable residency, household income, property price and homebuyer education requirements.\n\nThe program's [eligibility and purchase price guidelines](https://dbedt.hawaii.gov/hhfdc/hale-kama%CA%BBaina-mortgage-program-eligibility-income-and-purchase-price-requirements/) include county-specific restrictions.\n\nConfirm available funding and mortgage terms directly with an approved participating lender.\n\n### Mortgage Credit Certificate program\n\nHawaii's [Mortgage Credit Certificate program](https://dbedt.hawaii.gov/hhfdc/current-mcc-holders-page/) previously provided eligible homeowners with federal income tax benefits.\n\nHHFDC currently states that it is not accepting new MCC applications. Certain existing certificate holders may still qualify for reissuance when refinancing.\n\nNew buyers should not assume this tax benefit remains available for their purchase."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Hawaii?",
+      "blocks": [
+        {
+          "markdown": "Evaluate your take-home income alongside housing expenses, groceries, transportation, utilities and regular savings contributions.\n\nIsland-specific shipping and maintenance costs can affect household budgets. Consider the cost of repairing or replacing major appliances and maintaining your property.\n\nUse our [Hawaii Paycheck Calculator](/calculators/hawaii-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to understand existing borrowing obligations.\n\nReview the [CFPB's homebuying guidance](https://www.consumerfinance.gov/owning-a-home/) before accepting financing."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on an $840,000 Hawaii home?\n\nWith 20% down, 6% fixed interest and a 30-year mortgage, principal and interest would be approximately $4,028.98 monthly. Taxes, insurance and association fees increase your total housing expenses.\n\n### Does Hawaii have a statewide residential property tax rate?\n\nNo. Real property tax rates, classifications and exemptions vary by county. Obtain the applicable assessment and tax information from the county responsible for your property.\n\n### Is first-time homebuyer mortgage assistance available in Hawaii?\n\nYes. Eligible buyers may investigate HHFDC's Hale Kamaʻāina Mortgage Program. Income limits, property price restrictions, residency requirements and funding availability apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Hawaii Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Hawaii mortgage calculator to compare financing scenarios and estimate your recurring housing expenses. Obtain accurate tax, insurance and association information before committing to a property, particularly when purchasing a condominium or leasehold home."
+        }
+      ]
+    }
+  ]
+}

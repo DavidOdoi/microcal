@@ -7,13 +7,13 @@ import { CalculatorLayout, CalculatorNumberField, PaymentSummary } from './Calcu
 
 const defaults = {
   homePrice: '300000', downPayment: '60000', annualRate: '6', years: '30', annualTax: '3600', annualInsurance: '1800',
-  monthlyPmi: '0', annualPmiRate: '.5', monthlyHoa: '0', extraPrincipal: '0', firstPaymentDate: '',
+  monthlyPmi: '0', annualPmiRate: '.5', annualFloodInsurance: '0', monthlyHoa: '0', extraPrincipal: '0', firstPaymentDate: '',
 };
 type MortgageInputs = typeof defaults;
 type PmiMode = 'auto' | 'manual';
 const formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 const money = (amount: number) => formatter.format(amount);
-const chartColors = ['#216755', '#8cb943', '#4c7593', '#ad704c', '#79628e'];
+const chartColors = ['#216755', '#8cb943', '#4c7593', '#ad704c', '#79628e', '#67724b'];
 const amountLimit = 1e12;
 
 function getResult(values: MortgageInputs, mode: PmiMode) {
@@ -31,7 +31,7 @@ function getResult(values: MortgageInputs, mode: PmiMode) {
   }
   return calculateMortgage({
     homePrice: +homePrice, downPayment: +downPayment, annualRate: +annualRate, years: +years,
-    annualTax: +values.annualTax, annualInsurance: +values.annualInsurance, monthlyHoa: +values.monthlyHoa,
+    annualTax: +values.annualTax, annualInsurance: +values.annualInsurance, annualFloodInsurance: +values.annualFloodInsurance, monthlyHoa: +values.monthlyHoa,
     monthlyPmi: +values.monthlyPmi, annualPmiRate: mode === 'auto' ? +annualPmiRate : undefined,
     extraPrincipal: +values.extraPrincipal, firstPaymentDate,
   });
@@ -99,6 +99,7 @@ export function MortgageCalculator({ initialValues, id = 'mortgage-calculator' }
                 <CalculatorNumberField label="Annual PMI rate" value={values.annualPmiRate} onChange={set('annualPmiRate')} unit="%" max={100} />
                 <p className="finance-note">Below 20% down, the estimate multiplies the original loan amount by this editable rate. The starting 0.5% is illustrative. Use the monthly option for a quote or to enter zero.</p>
               </> : <CalculatorNumberField label="Monthly mortgage insurance" value={values.monthlyPmi} onChange={set('monthlyPmi')} prefix="$" max={amountLimit} />}
+              <CalculatorNumberField label="Annual flood insurance" value={values.annualFloodInsurance} onChange={set('annualFloodInsurance')} prefix="$" max={amountLimit} />
               <CalculatorNumberField label="Monthly HOA fees" value={values.monthlyHoa} onChange={set('monthlyHoa')} prefix="$" max={amountLimit} />
               <CalculatorNumberField label="Additional monthly principal" value={values.extraPrincipal} onChange={set('extraPrincipal')} prefix="$" max={amountLimit} />
               <label className="finance-field"><span>First payment date (optional)</span>
@@ -121,10 +122,11 @@ export function MortgageCalculator({ initialValues, id = 'mortgage-calculator' }
 type MortgageResult = ReturnType<typeof calculateMortgage>;
 
 function MortgageResults({ result }: { result: MortgageResult }) {
-  const [selected, setSelected] = useState<number>();
+  const [selected, setSelected] = useState<string>();
   const rows = [
     ['Principal and interest', result.monthlyPrincipalInterest], ['Property taxes', result.monthlyTax],
     ['Homeowners insurance', result.monthlyInsurance], ['Mortgage insurance', result.monthlyPmi], ['HOA fees', result.monthlyHoa],
+    ...(result.monthlyFloodInsurance > 0 ? [['Flood insurance', result.monthlyFloodInsurance] as const] : []),
   ] as const;
   const extra = result.schedule[0] ? Math.max(0, result.schedule[0].payment - result.monthlyPrincipalInterest) : 0;
   const date = result.payoffDate ? new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(result.payoffDate)) : '';
@@ -135,11 +137,11 @@ function MortgageResults({ result }: { result: MortgageResult }) {
     </div>
     <div className="mortgage-payment-chart" aria-hidden="true">
       {rows.map(([name, amount], index) => amount > 0 && <span key={name} style={{
-        flexBasis: `${100 * amount / result.monthlyTotal}%`, backgroundColor: chartColors[index], opacity: selected === undefined || selected === index ? 1 : .28,
+        flexBasis: `${100 * amount / result.monthlyTotal}%`, backgroundColor: chartColors[index], opacity: !rows.some(([label]) => label === selected) || selected === name ? 1 : .28,
       }} />)}
     </div>
     <ul className="mortgage-legend" aria-label="Monthly payment breakdown">
-      {rows.map(([name, amount], index) => <li key={name}><button type="button" aria-pressed={selected === index} onClick={() => setSelected(selected === index ? undefined : index)}>
+      {rows.map(([name, amount], index) => <li key={name}><button type="button" aria-pressed={selected === name} onClick={() => setSelected(selected === name ? undefined : name)}>
         <span className="mortgage-swatch" style={{ backgroundColor: chartColors[index] }} aria-hidden="true" />
         <span>{name}</span><strong>{money(amount)}</strong>
       </button></li>)}

@@ -1,0 +1,236 @@
+{
+  "intro": [
+    "Buying a home in Montana requires careful consideration of mortgage payments, property taxes, insurance premiums and ongoing maintenance expenses. Recent changes to Montana's property tax system also make it important to understand how residential properties are classified.",
+    "Our free Montana mortgage calculator helps you estimate your monthly housing payment using your home price, down payment, interest rate and loan term. Whether you're purchasing in Billings, Missoula, Bozeman, Great Falls or a smaller Montana community, compare financing scenarios before committing to a property."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Montana?",
+      "blocks": [
+        {
+          "markdown": "A $375,000 Montana home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,798.65.\n\nAn illustrative monthly housing payment breakdown is shown below."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$375,000"
+            ],
+            [
+              "Down payment",
+              "$75,000"
+            ],
+            [
+              "Mortgage amount",
+              "$300,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,798.65"
+            ],
+            [
+              "Monthly property taxes",
+              "$250"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$200"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,248.65"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or HOA fees. Taxes, insurance premiums and the interest rate are illustrative planning assumptions rather than verified statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Montana Housing Market",
+      "blocks": [
+        {
+          "markdown": "Montana offers housing opportunities across metropolitan communities, mountain towns, agricultural regions and rural areas.\n\nAccording to the [US Census Bureau's Montana QuickFacts](https://www.census.gov/quickfacts/fact/table/MT/LFE041223), the median value of owner-occupied homes was $375,800 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,798, while approximately 69.2% of occupied housing units were owner-occupied.\n\nThese historical figures provide useful context for homebuyers but do not represent current property asking prices.\n\nProperties in Bozeman and popular mountain communities may have different purchase prices from comparable homes in eastern Montana.\n\nResearch recent property sales within your preferred neighborhood. Consider employment access, utilities, transportation and insurance availability when establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Montana Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the expected purchase price of your property and the amount you plan to contribute as a down payment.\n\nSelect your repayment period and enter the annual interest rate quoted by your lender.\n\nNext, provide the property's estimated annual tax liability and homeowners insurance premiums. Include monthly association dues and applicable private mortgage insurance.\n\nReview the estimated monthly housing payment and adjust your inputs to compare financing arrangements.\n\nFor example, increasing your down payment reduces your borrowing amount and may eliminate conventional mortgage insurance requirements.\n\nThe amortization schedule helps you understand how your mortgage balance decreases over time and how much interest you could pay throughout the repayment period.\n\nUse our national Mortgage Calculator to compare financing scenarios in other states."
+        }
+      ]
+    },
+    {
+      "heading": "How Montana Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "Montana's property tax system underwent significant changes affecting residential properties in the 2026 tax year.\n\nThe revised system provides different property tax classifications and rates depending on how a property is used.\n\nQualifying primary residences and long-term rental properties may benefit from reduced, graduated rates.\n\n### Montana residential property tax rates for 2026\n\nAccording to the [Montana Department of Revenue's 2026 property tax guidance](https://revenue.mt.gov/property/property-tax-changes/2026-property-tax-information), qualifying homesteads and applicable long-term rental properties use the following tiered rates:"
+        },
+        {
+          "columns": [
+            "Portion of property market value",
+            "Classification tax rate"
+          ],
+          "rows": [
+            [
+              "First $378,000",
+              "0.76%"
+            ],
+            [
+              "Next $378,000",
+              "0.90%"
+            ],
+            [
+              "Next $756,000",
+              "1.10%"
+            ],
+            [
+              "Amount above $1,512,000",
+              "1.90%"
+            ]
+          ]
+        },
+        {
+          "markdown": "The rates apply incrementally. A higher property value does not automatically cause the entire property's value to be calculated using the highest applicable rate.\n\nThese percentages determine taxable value before applicable mill levies are applied. They are not the property's final effective annual tax rate.\n\n### Montana property tax calculation example\n\nConsider a qualifying homestead with an assessed market value of $500,000.\n\nThe first $378,000 falls within the 0.76% bracket. The remaining $122,000 falls within the 0.90% bracket."
+        },
+        {
+          "columns": [
+            "Calculation",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "First $378,000 × 0.76%",
+              "$2,872.80"
+            ],
+            [
+              "Remaining $122,000 × 0.90%",
+              "$1,098.00"
+            ],
+            [
+              "Combined taxable value",
+              "$3,970.80"
+            ]
+          ]
+        },
+        {
+          "markdown": "Assuming a hypothetical combined levy of 500 mills, annual property taxes would be:\n\n$3,970.80 × 500 ÷ 1,000 = $1,985.40\n\nThis represents approximately $165.45 per month.\n\nThe example excludes special assessments, additional charges and other applicable adjustments. Obtain a property-specific estimate before entering annual taxes into the calculator.\n\n### Primary residences versus second homes\n\nUnder the revised system, ordinary residential properties that do not qualify for homestead or long-term rental treatment generally use a flat classification rate of 1.90%.\n\nThis can include second homes, short-term rentals and vacant residential lots.\n\nConsequently, two similarly valued properties may have considerably different tax obligations depending on their classification.\n\nReview the [Montana homestead and long-term rental guidance](https://revenue.mt.gov/property/property-tax-changes/homesteads-and-long-term-rentals) to understand occupancy, enrollment and eligibility requirements.\n\nDo not assume that the previous owner's preferential classification automatically applies to you.\n\n### Montana property tax assistance\n\nThe [Property Tax Assistance Program](https://www.revenue.mt.gov/property/property-tax-help/ptap) provides qualifying homeowners with reductions based on income, marital status, ownership and occupancy requirements.\n\nEligible applicants may receive reductions of 30%, 50% or 80% in the applicable property tax rate under program rules.\n\nIncome thresholds and other conditions can change annually. Confirm your eligibility before incorporating potential tax savings into your mortgage estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Montana",
+      "blocks": [
+        {
+          "markdown": "Insurance premiums depend on property location, construction materials, rebuilding costs and environmental exposure.\n\nMontana homeowners may experience wildfires, hailstorms, heavy snowfall, freezing temperatures and flooding.\n\nObtain insurance quotes before completing your property purchase.\n\n### Wildfire insurance considerations\n\nHomes near forests, grasslands and mountainous areas may face additional wildfire exposure.\n\nAsk insurers whether the property's location affects coverage availability, premiums or required mitigation measures.\n\nReview the property's roof materials, surrounding vegetation and accessibility for emergency services.\n\nA property with a relatively affordable purchase price may become less attractive if suitable insurance is difficult or expensive to obtain.\n\n### Flood and winter weather coverage\n\nOrdinary homeowners insurance generally excludes flooding.\n\nProperties near rivers, streams and low-lying areas may require separate flood coverage.\n\nUse the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate potential exposure.\n\nMontana homeowners should also review coverage conditions relating to frozen pipes, roof damage and winter weather.\n\nInclude all applicable annual insurance premiums in your mortgage estimate without counting overlapping coverage twice."
+        }
+      ]
+    },
+    {
+      "heading": "Montana Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$300,000",
+              "$60,000",
+              "$240,000",
+              "$1,438.92"
+            ],
+            [
+              "$375,000",
+              "$75,000",
+              "$300,000",
+              "$1,798.65"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$750,000",
+              "$150,000",
+              "$600,000",
+              "$3,597.30"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude property taxes, insurance, mortgage insurance and association fees.\n\nUse the complete Montana mortgage calculator to compare monthly expenses associated with individual properties."
+        }
+      ]
+    },
+    {
+      "heading": "Montana First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The Montana Board of Housing offers mortgage financing and down payment assistance through approved participating lenders.\n\n### Regular Bond Loan Program\n\nThe [Montana Regular Bond Loan Program](https://commerce.mt.gov/Housing/Lenders-and-Real-Estate-Agents/Regular-Bond-Loan-Program) provides eligible buyers with 30-year mortgage financing.\n\nApplicants generally must meet household income, purchase price, occupancy and first-time homebuyer requirements.\n\nThe program is available for qualifying properties throughout Montana, including certain manufactured homes and condominiums.\n\n### Bond Advantage down payment assistance\n\nThe [Bond Advantage assistance program](https://www.commerce.mt.gov/Housing/Homeownership/Down-Payment-Assistance) provides qualifying borrowers with assistance of up to 5% of the purchase price, capped at $15,000.\n\nThe assistance takes the form of a 15-year second mortgage carrying the same fixed interest rate as the associated first mortgage.\n\nApplicants generally need a minimum credit score of 620, approved homebuyer education and a minimum $1,000 contribution toward the purchase.\n\nInclude the second mortgage payment when estimating your complete housing expenses.\n\n### MBOH Plus deferred assistance\n\nThe MBOH Plus program also provides assistance of up to 5% of the purchase price, capped at $15,000.\n\nUnlike Bond Advantage, this option carries no interest or scheduled monthly payments.\n\nIts published household income limits are $80,000 for households of one or two people and $90,000 for households of three or more.\n\nAdditional lending, education and borrower contribution requirements apply.\n\nRepayment becomes due when qualifying events occur, including property sale, refinancing or repayment of the primary mortgage.\n\nReview the [Montana Board of Housing's current financing rates and eligibility limits](https://commerce.mt.gov/Housing/Homeownership/Current-Rates-Income-and-Purchase-Price-Limits) before selecting a mortgage."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Montana Home",
+      "blocks": [
+        {
+          "markdown": "Montana homeowners should prepare for expenses beyond their regular mortgage payments.\n\nWinter heating, snow removal, roof maintenance and transportation can affect household budgets.\n\nRural and mountain properties may require private well maintenance, septic system servicing, access road repairs or additional wildfire mitigation.\n\nRequest historical utility bills and investigate maintenance obligations before purchasing.\n\nBuyers considering properties far from employment centers should account for commuting distances and vehicle expenses.\n\nMaintain emergency savings rather than committing all available funds to the down payment."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Montana?",
+      "blocks": [
+        {
+          "markdown": "Begin with reliable monthly take-home income and subtract existing debt payments, household expenses and savings contributions.\n\nOur [Montana Paycheck Calculator](/calculators/montana-paycheck-calculator/) can help estimate after-tax earnings, while our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing financial obligations.\n\nAllow sufficient room for insurance deductibles, repairs and seasonal heating expenses.\n\nCompare mortgage offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nChoose a property whose complete housing expenses remain manageable alongside your other financial priorities."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $375,000 Montana home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, principal and interest would be approximately $1,798.65 monthly. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How did Montana property taxes change in 2026?\n\nMontana introduced reduced, graduated classification rates for qualifying homesteads and certain long-term rental properties. Other ordinary residential properties generally use a flat 1.90% classification rate. Local mill levies still determine the resulting property tax liability.\n\n### Does Montana offer down payment assistance?\n\nYes. The Montana Board of Housing offers qualifying borrowers up to $15,000 through Bond Advantage and MBOH Plus assistance programs. These are secondary loans with different repayment arrangements and eligibility requirements."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your Montana Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Montana mortgage calculator to compare home prices, interest rates, down payments and repayment periods.\n\nReplace illustrative property taxes and insurance premiums with verified property-specific estimates. Understanding Montana's updated tax classifications and complete homeownership expenses can help you establish a sustainable purchase budget."
+        }
+      ]
+    }
+  ]
+}

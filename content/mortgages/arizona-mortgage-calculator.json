@@ -1,0 +1,206 @@
+{
+  "intro": [
+    "Whether you're purchasing a home in Phoenix, Tucson, Mesa, Scottsdale or a smaller Arizona community, understanding your monthly housing expenses can help you choose a property that fits your budget.",
+    "Our Arizona mortgage calculator estimates your monthly payment using the purchase price, down payment, mortgage interest rate and repayment period. Include property taxes, homeowners insurance, private mortgage insurance and HOA fees to compare the full housing costs of different properties."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in Arizona?",
+      "blocks": [
+        {
+          "markdown": "A $400,000 Arizona home purchased with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would have a monthly principal and interest payment of approximately $1,918.56.\n\nAn illustrative monthly housing budget might look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$400,000"
+            ],
+            [
+              "Down payment",
+              "$80,000"
+            ],
+            [
+              "Mortgage amount",
+              "$320,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Principal and interest",
+              "$1,918.56"
+            ],
+            [
+              "Monthly property taxes",
+              "$200"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Monthly HOA fees",
+              "$100"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$2,368.56"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures are hypothetical planning assumptions, not statewide average expenses or a current mortgage offer."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the Arizona Housing Market",
+      "blocks": [
+        {
+          "markdown": "Arizona offers a diverse housing market, including metropolitan developments around Phoenix, established neighborhoods in Tucson, mountain communities near Flagstaff and retirement communities throughout the state.\n\nAccording to the [US Census Bureau's Arizona QuickFacts](https://www.census.gov/quickfacts/fact/table/AZ/POP060220), the median value of owner-occupied homes was $394,500 during the 2020–2024 survey period.\n\nHomeowners with mortgages reported median selected monthly ownership costs of $1,803. Approximately 67.4% of occupied housing units were owner-occupied.\n\nThese historical figures provide context for homebuying decisions, but they should not be interpreted as current listing prices.\n\nHousing costs depend on neighborhood amenities, employment access, property size, construction quality and local demand.\n\nResearch the specific city or neighborhood where you intend to purchase before entering a home price into the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Arizona Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Enter the property's expected purchase price and your available down payment.\n\nSelect a repayment term and enter the annual mortgage interest rate offered by your lender.\n\nFor a more comprehensive estimate, include:\n\n- Annual property taxes.\n- Annual homeowners insurance.\n- Private mortgage insurance, where applicable.\n- Monthly HOA or condominium association fees.\n\nReview the payment breakdown to understand which expenses contribute most to your monthly costs.\n\nYou can adjust the inputs to compare a more expensive property with lower association fees against a less expensive property with higher recurring charges.\n\nUse the national Mortgage Calculator to compare financing scenarios outside Arizona."
+        }
+      ]
+    },
+    {
+      "heading": "How Property Taxes Are Calculated in Arizona",
+      "blocks": [
+        {
+          "markdown": "Arizona's property taxation system uses several different valuation measures. Understanding them can help you avoid estimating your tax bill using the wrong property value.\n\n### Full Cash Value\n\nFull Cash Value, or FCV, generally represents the assessor's estimate of the property's market value.\n\nHowever, this figure is not necessarily the value used directly to calculate your annual residential property taxes.\n\n### Limited Property Value\n\nAccording to the [Maricopa County Assessor's explanation of Limited Property Value](https://www.mcassessor.maricopa.gov/home/understandinglpv/), property taxes for most Arizona real estate are based on Limited Property Value, commonly abbreviated as LPV.\n\nFor properties governed by the standard Rule A method, LPV generally increases by no more than 5% annually and cannot exceed Full Cash Value.\n\nCertain property changes can result in a different calculation method.\n\n### Assessed property value\n\nThe applicable assessment ratio is applied to the property's limited value before calculating the tax bill.\n\nFor example, consider a property with a Limited Property Value of $250,000 and a residential assessment ratio of 10%.\n\nIts limited assessed value would be $25,000.\n\nIf the combined hypothetical tax rate were $8 per $100 of assessed value, annual property taxes would equal $2,000, or approximately $166.67 per month.\n\nActual tax rates, exemptions, levies and charges depend on the property's location.\n\nReview the [Maricopa County Assessor's property tax guidance](https://www.mcassessor.maricopa.gov/faq/property_tax) or contact the appropriate county assessor for property-specific information."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in Arizona",
+      "blocks": [
+        {
+          "markdown": "Although Arizona is often associated with dry weather, homeowners face several environmental risks.\n\nProperties in forested communities may be exposed to wildfires, while urban and desert locations can experience monsoon storms, hail and flash flooding.\n\nThe [Arizona Department of Insurance and Financial Institutions](https://difi.az.gov/consumers/homeowners-insurance) provides guidance about insurance availability, wildfire exposure and changing premiums.\n\nObtain insurance quotes before committing to a purchase, particularly if the property is located near wildfire-prone areas.\n\nStandard homeowners insurance generally does not include flood coverage. Use the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home) to investigate the property's flood exposure.\n\nCompare coverage limits and deductibles rather than choosing a policy solely because it has the lowest premium.\n\nInclude the annual cost of applicable coverage in your mortgage calculator inputs."
+        }
+      ]
+    },
+    {
+      "heading": "Why HOA Fees Matter When Buying an Arizona Home",
+      "blocks": [
+        {
+          "markdown": "Many planned residential developments, condominiums and retirement communities have homeowners associations.\n\nHOA charges may support community landscaping, swimming pools, shared facilities, security or maintenance.\n\nAlthough these expenses are often paid separately from the mortgage, they affect how much money you need each month.\n\nConsider two properties with identical mortgage terms:\n\n- Property A has monthly HOA dues of $75.\n- Property B has monthly HOA dues of $300.\n\nProperty B would cost an additional $225 each month, equivalent to $2,700 annually, even if the purchase prices were identical.\n\nReview association financial statements, reserve funds, governing documents and potential special assessments before purchasing.\n\nA low monthly HOA fee does not necessarily mean the association has sufficient funds for future repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Arizona Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "These illustrative examples assume a 20% down payment, a 6% fixed interest rate and a 30-year loan term."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$350,000",
+              "$70,000",
+              "$280,000",
+              "$1,678.74"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$500,000",
+              "$100,000",
+              "$400,000",
+              "$2,398.20"
+            ],
+            [
+              "$600,000",
+              "$120,000",
+              "$480,000",
+              "$2,877.84"
+            ]
+          ]
+        },
+        {
+          "markdown": "Property taxes, homeowners insurance, PMI and association dues are not included in these figures.\n\nAdjust your calculator inputs using the actual expenses associated with each home."
+        }
+      ]
+    },
+    {
+      "heading": "Arizona First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "Arizona homebuyers who have sufficient income to support mortgage payments but limited upfront savings may benefit from down payment assistance.\n\n### Home Plus down payment assistance\n\nThe Arizona Industrial Development Authority's [Home Plus program](https://homeplusaz.com/arizona-dpa-programs/) offers qualifying homebuyers assistance of up to 4% toward down payment and closing expenses.\n\nThe program combines assistance with an eligible first mortgage. Its second mortgage can be forgiven after 60 months, subject to program requirements.\n\nApplicants must satisfy applicable income, lending and homebuyer education requirements.\n\nCompare the complete financing terms with other available mortgage options.\n\n### Arizona Is Home program\n\nArizona Is Home is another assistance initiative, but funding availability is limited.\n\nAccording to the [program administrator's October 2026 update](https://homeplusaz.com/home-plus-dpa-lender-support/), its 2026 allocation was exhausted on October 6.\n\nBuyers should check the official website for future funding announcements rather than assuming assistance remains available.\n\nDo not include unapproved assistance in your home purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "Types of Mortgages Available in Arizona",
+      "blocks": [
+        {
+          "markdown": "Conventional mortgages may suit buyers who meet standard lender requirements.\n\nFHA-insured financing offers another option for eligible borrowers who have limited savings or need more flexible qualification criteria.\n\nVeterans and qualifying service members may consider [VA home loans](https://www.va.gov/housing-assistance/home-loans/), while buyers in eligible rural communities may investigate [USDA housing programs](https://www.rd.usda.gov/).\n\nBorrowers purchasing properties that require specialized financing should verify property eligibility with their lender before making an offer.\n\nCompare estimated monthly payments, mortgage insurance, closing costs and long-term interest expenses across programs."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a Home in Arizona",
+      "blocks": [
+        {
+          "markdown": "Your mortgage payment represents only part of the financial commitment associated with homeownership.\n\n### Electricity and cooling\n\nAir conditioning can be a significant expense during Arizona's hotter months.\n\nRequest historical electricity bills and inspect the age and condition of the property's cooling equipment.\n\nAn older or poorly maintained system may increase operating costs or require expensive repairs.\n\n### Water and landscaping\n\nOutdoor landscaping, swimming pools and irrigation systems can increase household water usage.\n\nConsider the ongoing costs of maintaining these features, especially when comparing properties with different lot sizes.\n\n### Property maintenance\n\nRoofing, exterior surfaces, plumbing and cooling systems can require periodic repairs or replacement.\n\nMaintain an emergency savings reserve instead of committing every available dollar to your down payment."
+        }
+      ]
+    },
+    {
+      "heading": "How Much House Can You Afford in Arizona?",
+      "blocks": [
+        {
+          "markdown": "Calculate your available monthly income after taxes and regular expenses.\n\nOur [Arizona Paycheck Calculator](/calculators/arizona-paycheck-calculator/) can help you estimate take-home pay. You can also use our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing debt obligations alongside a proposed mortgage payment.\n\nInclude realistic cooling, transportation, insurance and maintenance expenses before deciding how much you can spend.\n\nCompare lender offers using the [CFPB's mortgage shopping resources](https://www.consumerfinance.gov/owning-a-home/), and remember that a loan approval does not guarantee that the payment will be comfortable for your household."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $400,000 Arizona home?\n\nWith a 20% down payment, a 6% fixed interest rate and a 30-year loan term, principal and interest would be approximately $1,918.56 per month. Your total housing expenses depend on taxes, insurance and applicable association fees.\n\n### Are Arizona property taxes based on the home's purchase price?\n\nNot directly for most residential properties. Arizona generally uses Limited Property Value and an applicable assessment ratio when determining taxable assessed value. Contact the local county assessor for an accurate property-specific estimate.\n\n### Can Arizona homebuyers receive down payment assistance?\n\nYes. Eligible buyers may qualify for programs such as Home Plus. Assistance amounts, mortgage conditions and eligibility requirements vary. Confirm current terms with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Estimate Your Arizona Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our Arizona mortgage calculator to compare different purchase prices, loan terms and down payments.\n\nInclude property-specific insurance, taxes and association fees whenever possible. A comprehensive monthly estimate makes it easier to find an Arizona home that fits both your immediate budget and long-term financial goals."
+        }
+      ]
+    }
+  ]
+}

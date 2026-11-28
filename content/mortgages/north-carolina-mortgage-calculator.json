@@ -1,0 +1,209 @@
+{
+  "intro": [
+    "A home in Charlotte, a townhouse in Raleigh and a coastal property near Wilmington can have very different monthly ownership costs, even when their purchase prices are identical. Property taxes, insurance requirements and association fees can significantly influence affordability.",
+    "Our free North Carolina mortgage calculator helps you estimate your monthly housing expenses before purchasing a property. Enter your home price, down payment, interest rate and loan term, then include property taxes, homeowners insurance and other applicable costs to establish a realistic budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Is a Mortgage Payment in North Carolina?",
+      "blocks": [
+        {
+          "markdown": "A $290,000 North Carolina home purchased with a 20% down payment and financed through a 30-year mortgage at a 6% fixed annual interest rate would have a monthly principal and interest payment of approximately $1,390.96.\n\nIncluding illustrative property taxes and insurance produces the following estimate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$290,000"
+            ],
+            [
+              "Down payment",
+              "$58,000"
+            ],
+            [
+              "Loan amount",
+              "$232,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Mortgage term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,390.96"
+            ],
+            [
+              "Monthly property taxes",
+              "$225"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$175"
+            ],
+            [
+              "Estimated monthly housing payment",
+              "$1,790.96"
+            ]
+          ]
+        },
+        {
+          "markdown": "This example assumes no private mortgage insurance or association fees. Taxes, insurance premiums and the interest rate are illustrative rather than current statewide averages."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding the North Carolina Housing Market",
+      "blocks": [
+        {
+          "markdown": "North Carolina offers housing opportunities across metropolitan neighborhoods, university communities, mountain towns and coastal regions.\n\nAccording to the [US Census Bureau's North Carolina housing statistics](https://www.census.gov/quickfacts/fact/table/NC/HSG860224), the median value of owner-occupied housing was $288,900 during the 2020–2024 survey period.\n\nMedian selected monthly ownership costs among homeowners with mortgages were $1,631, while the homeownership rate was 66.6%.\n\nThese historical statistics provide useful context but do not represent current mortgage offers or property asking prices.\n\nHomes near employment centers in Charlotte, Raleigh and Durham may have different purchase prices from properties in smaller communities. Coastal homes can also involve additional insurance expenses.\n\nResearch recent comparable property sales and investigate recurring ownership costs before selecting a purchase price for the calculator."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the North Carolina Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "Start by entering the property's expected purchase price and your available down payment.\n\nSelect your repayment period and enter the annual interest rate quoted by your lender. If you have not received a quote, consult [Freddie Mac's mortgage market survey](https://www.freddiemac.com/pmms) for a national reference.\n\nNext, include annual property taxes, homeowners insurance premiums and monthly association fees.\n\nAdd private mortgage insurance if your conventional financing requires it.\n\nReview your estimated monthly housing payment and adjust individual inputs to compare financing arrangements.\n\nThe amortization schedule shows how much of each mortgage payment goes toward interest and reducing your outstanding balance.\n\nUse our national Mortgage Calculator to compare borrowing scenarios outside North Carolina."
+        }
+      ]
+    },
+    {
+      "heading": "How North Carolina Property Taxes Affect Your Mortgage",
+      "blocks": [
+        {
+          "markdown": "North Carolina real estate taxes depend on property valuations and applicable local tax rates.\n\nCounty assessors establish property values, while counties, municipalities and certain special districts determine the tax rates used to fund local services.\n\nThe property's assessed value may differ from its current purchase price, particularly when local real estate prices have changed since the last countywide reappraisal.\n\n### North Carolina property reappraisals\n\nAccording to the [North Carolina Department of Revenue](https://www.ncdor.gov/taxes-forms/property-tax/types-property-be-taxed), counties must conduct real property reappraisals at least once every eight years.\n\nSome counties conduct reappraisals more frequently, including on four-year cycles.\n\nA reappraisal can increase or decrease the assessed value used for taxation. However, a higher assessed value does not necessarily result in an identical percentage increase in the final tax bill because local tax rates may also change.\n\nAsk your county assessor about upcoming reappraisals before relying on a property's existing tax bill.\n\n### North Carolina property tax calculation example\n\nSuppose a home has an assessed value of $290,000 and is subject to the following hypothetical tax rates."
+        },
+        {
+          "columns": [
+            "Tax component",
+            "Rate per $100"
+          ],
+          "rows": [
+            [
+              "County property tax",
+              "$0.60"
+            ],
+            [
+              "Municipal property tax",
+              "$0.33"
+            ],
+            [
+              "Combined rate",
+              "$0.93"
+            ]
+          ]
+        },
+        {
+          "markdown": "The estimated annual property tax would be:\n\n$290,000 ÷ 100 × $0.93 = $2,697\n\nThis represents approximately $224.75 per month.\n\nActual taxes depend on your property's jurisdiction, assessment and applicable exemptions or additional charges.\n\n### Property tax exemptions and relief\n\nNorth Carolina offers property tax relief to certain eligible homeowners, including qualifying older residents, people with permanent disabilities and disabled veterans.\n\nThe elderly or disabled exclusion generally removes the greater of $25,000 or 50% of the qualifying permanent residence's appraised value from taxation.\n\nIncome, ownership and residency requirements apply.\n\nReview the [North Carolina Department of Revenue's property tax resources](https://www.ncdor.gov/taxes-forms/property-tax) and contact your county assessor to investigate eligibility.\n\nDo not automatically apply these exemptions to every homeowner."
+        }
+      ]
+    },
+    {
+      "heading": "Homeowners Insurance in North Carolina",
+      "blocks": [
+        {
+          "markdown": "North Carolina properties face different environmental risks depending on their location.\n\nCoastal communities may experience hurricanes and storm surge, while inland and mountain regions can experience flooding, severe storms and other weather-related damage.\n\nObtain property-specific insurance quotes before completing your purchase.\n\n### Coastal windstorm and hail insurance\n\nThe [North Carolina Department of Insurance](https://www.ncdoi.gov/consumers/homeowners-insurance/windstorm-and-hail) explains that some homeowners policies exclude windstorm and hail coverage.\n\nHomeowners in eligible coastal areas may need separate coverage through the North Carolina Insurance Underwriting Association or another suitable insurer.\n\nSeparate windstorm policies may also have their own deductibles.\n\nFor example, a 2% deductible calculated against $300,000 in dwelling coverage would represent $6,000 in potential out-of-pocket expenses for an applicable covered claim.\n\n### Flood insurance\n\nStandard homeowners insurance generally excludes flooding. This matters for both coastal communities and inland properties near rivers or flood-prone areas.\n\nInvestigate your property's flood exposure using the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\nAdd the annual cost of separate flood and windstorm policies to your mortgage estimate when applicable.\n\nAvoid counting coverage twice if your primary homeowners policy already includes it."
+        }
+      ]
+    },
+    {
+      "heading": "North Carolina Mortgage Payment Examples",
+      "blocks": [
+        {
+          "markdown": "The following estimates assume a 20% down payment, a 6% fixed annual interest rate and a 30-year mortgage."
+        },
+        {
+          "columns": [
+            "Home price",
+            "Down payment",
+            "Loan amount",
+            "Monthly principal and interest"
+          ],
+          "rows": [
+            [
+              "$200,000",
+              "$40,000",
+              "$160,000",
+              "$959.28"
+            ],
+            [
+              "$250,000",
+              "$50,000",
+              "$200,000",
+              "$1,199.10"
+            ],
+            [
+              "$290,000",
+              "$58,000",
+              "$232,000",
+              "$1,390.96"
+            ],
+            [
+              "$400,000",
+              "$80,000",
+              "$320,000",
+              "$1,918.56"
+            ],
+            [
+              "$550,000",
+              "$110,000",
+              "$440,000",
+              "$2,638.02"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures exclude taxes, homeowners insurance, PMI and association fees.\n\nCompare complete housing payments rather than principal and interest alone."
+        }
+      ]
+    },
+    {
+      "heading": "North Carolina First-Time Homebuyer Programs",
+      "blocks": [
+        {
+          "markdown": "The North Carolina Housing Finance Agency offers mortgage financing and purchase assistance through participating lenders.\n\n### NC Home Advantage Mortgage\n\nThe [NC Home Advantage Mortgage program](https://nchfa.com/home-buyers/buy-home/nc-home-advantage-mortgage) serves qualifying first-time and repeat homebuyers.\n\nEligible borrowers may receive down payment assistance of up to 3% of their mortgage amount.\n\nFor example, 3% assistance on a qualifying $232,000 mortgage would amount to $6,960.\n\nFollowing the June 2026 program update, the published statewide income limit increased to $158,000, while the purchase price limit increased to $525,000.\n\nAdditional credit, occupancy, financing and property requirements apply.\n\n### NC 1st Home Advantage Down Payment\n\nEligible first-time buyers and military veterans may qualify for $15,000 in down payment assistance through the NC 1st Home Advantage option.\n\nThe assistance is conditional financing rather than an immediate unconditional grant.\n\nUnder the agency's published forgiveness schedule, 20% is forgiven annually at the end of years 11 through 15. Selling, refinancing or transferring the property before full forgiveness can trigger repayment obligations.\n\nCompare the complete costs of each financing arrangement and confirm current eligibility with a participating lender."
+        }
+      ]
+    },
+    {
+      "heading": "Comparing Mortgage Terms in North Carolina",
+      "blocks": [
+        {
+          "markdown": "A shorter mortgage term can reduce your lifetime interest expenses but requires a larger monthly payment.\n\nFor example, borrowing $232,000 at 6% over 30 years requires approximately $1,390.96 monthly in principal and interest.\n\nRepaying the same loan over 15 years at the same interest rate would require approximately $1,957.54 monthly.\n\nUse the amortization schedule to compare interest savings and determine whether the higher monthly commitment fits your budget."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs of Owning a North Carolina Home",
+      "blocks": [
+        {
+          "markdown": "Homebuyers should investigate expenses beyond their regular mortgage payments.\n\nProperties in managed developments may have association dues, special assessments and community maintenance obligations.\n\nCoastal homes can require additional exterior maintenance, while rural properties may involve private wells, septic systems and access roads.\n\nUse our [North Carolina Paycheck Calculator](/calculators/north-carolina-paycheck-calculator/) to estimate after-tax earnings and our [Debt to Income Ratio Calculator](/debt/debt-to-income-ratio-calculator/) to evaluate existing financial obligations.\n\nCompare lender offers using the [Consumer Financial Protection Bureau's Loan Estimate guide](https://www.consumerfinance.gov/owning-a-home/loan-estimate/).\n\nMaintain sufficient savings for closing costs, insurance deductibles and unexpected repairs."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### How much is a mortgage payment on a $290,000 North Carolina home?\n\nWith 20% down, a 6% fixed interest rate and a 30-year mortgage, monthly principal and interest would be approximately $1,390.96. Property taxes, insurance and applicable fees increase the total housing payment.\n\n### How are North Carolina property taxes calculated?\n\nProperty taxes generally depend on the county's assessed property value and applicable local tax rates. Counties, municipalities and special taxing districts may contribute to the final tax bill.\n\n### Does North Carolina offer $15,000 in down payment assistance?\n\nYes. Eligible first-time homebuyers and military veterans may qualify for $15,000 through the NC 1st Home Advantage Down Payment program. Income, credit, property and forgiveness requirements apply."
+        }
+      ]
+    },
+    {
+      "heading": "Calculate Your North Carolina Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "Use our North Carolina mortgage calculator to compare purchase prices, down payments, interest rates and repayment periods.\n\nReplace illustrative expenses with accurate local property taxes and insurance quotes. Understanding your complete housing costs can help you choose a property that supports sustainable homeownership."
+        }
+      ]
+    }
+  ]
+}
