@@ -1,0 +1,152 @@
+{
+  "title": "Utah Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Estimate your 2026 Utah take-home pay using federal and Utah withholding from your paystub and calculated Social Security and Medicare.",
+  "heading": "Utah Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Utah paycheck calculator** to estimate your take-home pay after federal income tax, Utah income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nUtah updated its payroll withholding schedules during 2026, reducing its withholding rate and adjusting the allowances used in employer calculations.\n\nWhether you work in Salt Lake City, Provo, Ogden, St. George or another Utah community, understanding your net income can help you compare job offers and manage household expenses.\n\n## How to Use the Utah Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross earnings before taxes and deductions.\n\nSelect your payment frequency. Enter federal and Utah income tax withheld for the pay period from your pay stub.\n\nInclude healthcare premiums, retirement contributions and other employee deductions. Use the full withholding amounts, including any extra tax withheld.\n\nIf your earnings are approaching annual payroll contribution limits, provide your year-to-date taxable wages.\n\nReview your estimated gross pay, individual deductions and remaining take-home income.\n\nUse your latest payroll statement to confirm the applicable taxable wage amounts.\n\n## Utah Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Utah Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Utah income tax withholding",
+          "4.45% with applicable allowance adjustments from June 1"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Visit the [Utah State Tax Commission](https://tax.utah.gov/) for official information about individual income tax and employer withholding.\n\n## What Changed in Utah Income Tax in 2026?\n\nUtah reduced its withholding rate from 4.50% to 4.45% for payroll periods beginning on or after June 1, 2026.\n\nThe revised withholding schedules also increased the base allowance and adjusted the income thresholds used to determine allowance reductions.\n\nThese changes mean a Utah employee may receive a different paycheck during the second half of 2026 even if their gross salary and employee benefits remain unchanged.\n\nA reliable Utah salary calculator must account for the applicable payroll period rather than applying one configuration to the entire calendar year.\n\nReview the official [Utah Publication 14 withholding guide](https://tax.utah.gov/forms-pubs/pub-14/) for the revised calculation schedules.\n\n## How Utah Income Tax Withholding Works\n\nUtah's ordinary employer withholding method starts with the applicable taxable wages multiplied by the withholding rate.\n\nThe employer then calculates an allowance adjustment that reduces the initial withholding amount.\n\nThis allowance gradually decreases as taxable wages rise.\n\nOnce the applicable allowance is completely phased out, ordinary withholding equals the taxable wage amount multiplied by 4.45%, subject to the applicable calculation and rounding method.\n\nThis differs from simply subtracting a fixed standard deduction from gross salary.\n\nThe [Utah employer withholding guidance](https://tax.utah.gov/business/withholding-overview/employers/) explains the information employers use when determining the appropriate deduction.\n\n## Utah Withholding Allowances in 2026\n\nThe revised schedules use different allowance amounts and reduction thresholds according to filing classification and payment frequency."
+    },
+    {
+      "caption": "Utah Withholding Allowances in 2026",
+      "columns": [
+        "Payroll frequency",
+        "Single base allowance",
+        "Married base allowance"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$9",
+          "$19"
+        ],
+        [
+          "Biweekly",
+          "$19",
+          "$37"
+        ],
+        [
+          "Semimonthly",
+          "$20",
+          "$40"
+        ],
+        [
+          "Monthly",
+          "$40",
+          "$81"
+        ]
+      ]
+    },
+    {
+      "markdown": "The allowance is reduced by 1.3% of taxable wages exceeding the applicable threshold."
+    },
+    {
+      "caption": "Utah Withholding Allowances in 2026",
+      "columns": [
+        "Payroll frequency",
+        "Single threshold",
+        "Married threshold"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$180",
+          "$360"
+        ],
+        [
+          "Biweekly",
+          "$360",
+          "$719"
+        ],
+        [
+          "Semimonthly",
+          "$390",
+          "$779"
+        ],
+        [
+          "Monthly",
+          "$779",
+          "$1,558"
+        ]
+      ]
+    },
+    {
+      "markdown": "These are payroll calculation parameters rather than cash deductions or ordinary annual income tax return exemptions.\n\n## How to Calculate Utah Income Tax Withholding\n\nConsider a single employee receiving $400 in weekly Utah taxable wages under the revised June 2026 schedules.\n\nInitial withholding:\n\n$400 × 4.45% = $17.80.\n\nApplicable base allowance: $9.\n\nWages exceeding the allowance reduction threshold:\n\n$400 − $180 = $220.\n\nAllowance reduction:\n\n$220 × 1.3% = $2.86.\n\nRemaining allowance:\n\n$9 − $2.86 = $6.14.\n\nThe unrounded calculation produces $11.66 in withholding.\n\nThe official Utah Publication 14 worked example displays whole-dollar amounts and produces final withholding of $12.\n\nDifferent authorized withholding methods may produce slightly different results because of rounding.\n\n## Understanding Federal Form W-4 in Utah\n\nUtah generally uses the employee's federal Form W-4 filing information to determine the appropriate state withholding classification.\n\nEmployees filing as head of household generally use the single Utah withholding schedule.\n\nFederal credits, deductions and other withholding adjustments should not automatically be transferred into the Utah calculation.\n\nVisit the [IRS Form W-4 resources](https://www.irs.gov/forms-pubs/about-form-w-4) for federal certificate information and the Utah withholding guide for state-specific treatment.\n\n## Federal Taxes Deducted From Utah Paychecks\n\nFederal income tax withholding depends on taxable earnings, filing status, payment frequency and applicable Form W-4 information.\n\nEmployers use the official calculation methods in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nSocial Security generally applies at 6.2% of covered wages up to the annual taxable wage ceiling of $184,500 in 2026.\n\nOrdinary Medicare applies at 1.45% of covered earnings without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% on Medicare-covered wages exceeding $200,000 paid by that employer during the calendar year.\n\nConsult the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) and [Social Security Administration contribution limits](https://www.ssa.gov/oact/cola/cbb.html) for more information.\n\n## Utah Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly payments."
+    },
+    {
+      "caption": "Utah Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Gross biweekly earnings",
+          "$2,500.00"
+        ],
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Utah income tax",
+          "$111.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$518.40"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,981.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes ordinary single federal withholding settings, no additional benefit deductions, no annual payroll contribution limits reached and application of Utah's revised June 2026 withholding schedule using whole-dollar calculations.\n\nAt this earnings level, the ordinary single Utah withholding allowance has been fully reduced.\n\nYour actual paycheck may differ depending on employer withholding methods and benefit arrangements.\n\n## Utah Hourly Paycheck Calculator\n\nSuppose you earn $28 per hour and work 40 regular hours plus five qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$28 × 40 = $1,120.\n\nOvertime earnings:\n\n$28 × 1.5 × 5 = $210.\n\nTotal gross earnings: $1,330.\n\nFederal and Utah withholding and ordinary payroll contributions are then calculated using the applicable taxable wage amounts.\n\nReview the [Utah Labor Commission](https://laborcommission.utah.gov/) and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## Working Across Utah State Borders\n\nEmployees working across Utah, Nevada, Idaho, Colorado or other neighboring states may have different withholding obligations depending on residency and employment location.\n\nUtah also provides specific withholding exclusions for certain qualifying short-term nonresident employees.\n\nThese exclusions have eligibility requirements and should not automatically be applied to every temporary worker.\n\nConsult the [Utah withholding guide](https://tax.utah.gov/forms-pubs/pub-14/) before claiming an interstate withholding exemption.\n\n## Planning Your Utah Monthly Budget\n\nUse estimated net income rather than gross annual salary when establishing spending limits.\n\nAccount for housing, transportation, healthcare, insurance, groceries and required debt payments.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [mortgage payment calculator](/calculators/mortgage-calculator/) can help estimate housing expenses.\n\nThe [Consumer Financial Protection Bureau financial education resources](https://www.consumerfinance.gov/consumer-tools/) provide additional guidance for managing household finances.\n\n## Frequently Asked Questions\n\n### What is Utah's income tax withholding rate in 2026?\n\nThe revised employer withholding rate is 4.45% for payroll periods beginning on or after June 1, 2026. Earlier payroll periods generally use the previous configuration.\n\n### Does Salt Lake City have a separate personal income tax?\n\nSalt Lake City generally does not impose a separate municipal personal wage income tax. Applicable federal and Utah payroll taxes still reduce earnings.\n\n### Why is Utah withholding sometimes lower than 4.45% of my wages?\n\nUtah's employer withholding calculation includes an allowance that can reduce the initial withholding amount. The allowance gradually decreases as taxable wages increase.\n\n## Calculate Your Utah Take-Home Pay\n\nUse our Utah paycheck calculator to understand how state and federal taxes affect your earnings, compare employment opportunities and establish a realistic [household budget](/calculators/budget-calculator/).\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
