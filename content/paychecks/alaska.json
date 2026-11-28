@@ -1,0 +1,138 @@
+{
+  "title": "Alaska Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Estimate your Alaska take-home pay after federal income tax, Social Security, Medicare and Alaska unemployment insurance contributions.",
+  "heading": "Alaska Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Alaska paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare, Alaska unemployment insurance contributions and other payroll deductions.\n\nAlaska does not impose an individual state income tax on employment earnings, which distinguishes it from most US states. However, federal taxes and certain state payroll contributions can still reduce the amount you receive on payday.\n\nWhether you work in Anchorage, Fairbanks, Juneau or a remote Alaskan community, understanding your net earnings can help you evaluate job opportunities and manage the cost of living.\n\n## How to Use the Alaska Paycheck Calculator\n\nIf your pay stub lists Alaska employee unemployment insurance, include the amount under other deductions. Enter each deduction once.\n\nEnter your annual salary or hourly wage before taxes and deductions.\n\nChoose your pay frequency, including weekly, biweekly, semimonthly or monthly payments.\n\nEnter federal income tax withheld for the pay period from your pay stub.\n\nAdd retirement contributions, health insurance premiums and other employee deductions.\n\nIf you have already earned income during the current calendar year, enter your year-to-date taxable wages to improve the accuracy of the Social Security estimate.\n\nReview the results to see your estimated gross pay, individual deductions and net paycheck.\n\nYou can also compare different salary offers by changing your income and benefit information.\n\n## Alaska Payroll Taxes in 2026\n\nAlthough Alaska has no individual state income tax, employees may still face several payroll deductions."
+    },
+    {
+      "caption": "Alaska Payroll Taxes in 2026",
+      "columns": [
+        "Payroll tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Alaska individual state income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Alaska employee unemployment insurance",
+          "0.50% up to $54,200 in covered wages"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual deductions depend on your employment classification, earnings and benefit arrangements.\n\nThe [Alaska Department of Labor and Workforce Development](https://labor.alaska.gov/estax/2026-experience-rates.html) publishes official unemployment insurance rates and annual taxable wage limits.\n\n## Does Alaska Have State Income Tax?\n\nAlaska does not impose an individual state income tax on employment earnings.\n\nFor employees relocating from states with significant individual income taxes, this can improve take-home pay when other circumstances remain unchanged.\n\nHowever, living in a state without individual income tax does not automatically mean that every worker has more disposable income.\n\nFederal income tax remains applicable. Housing, groceries, transportation, heating and insurance costs can also influence the financial benefits of living in Alaska.\n\nLocal governments may collect other types of taxes, including sales and property taxes, which can affect household expenses without appearing as ordinary state income tax withholding on your paycheck.\n\nThe Alaska paycheck calculator separates the absence of state income tax from other applicable deductions.\n\n## Alaska Employee Unemployment Insurance Contributions\n\nAlaska is among the states that collect unemployment insurance contributions directly from covered employees.\n\nFor 2026, the employee contribution rate is 0.50% of covered wages, subject to an annual taxable wage base of $54,200.\n\nThe maximum standard annual contribution is therefore:\n\n$54,200 × 0.005 = $271\n\nYour employer's unemployment insurance contribution is separate and should not automatically be deducted from your paycheck.\n\nThe employee contribution supports Alaska's unemployment insurance system, which provides benefits to qualifying workers experiencing unemployment.\n\n### Alaska unemployment insurance deduction examples\n\nAssuming all earnings are covered and the annual wage limit has not been reached:"
+    },
+    {
+      "caption": "Alaska Employee Unemployment Insurance Contributions",
+      "columns": [
+        "Gross covered wages",
+        "Employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.50"
+        ],
+        [
+          "$1,000",
+          "$5.00"
+        ],
+        [
+          "$2,000",
+          "$10.00"
+        ],
+        [
+          "$3,000",
+          "$15.00"
+        ],
+        [
+          "$5,000",
+          "$25.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "These deductions generally stop once the applicable annual taxable wage ceiling has been reached with the employer.\n\nRead the official [Alaska employment security tax FAQ](https://www.labor.alaska.gov/estax/faq/w1.htm) for additional information.\n\n## How the Annual Unemployment Insurance Limit Works\n\nSuppose you have already earned $53,000 in covered wages during 2026 and receive another paycheck containing $2,000 in covered earnings.\n\nOnly $1,200 remains below the $54,200 wage ceiling.\n\nThe employee contribution for that paycheck would be:\n\n$1,200 × 0.005 = $6\n\nApplying the contribution rate to the entire $2,000 would incorrectly produce a $10 deduction.\n\nThis demonstrates why year-to-date earnings are an important calculator input.\n\nEmployees earning above the annual limit may notice a small increase in take-home pay later in the calendar year when unemployment insurance contributions stop.\n\n## Federal Taxes Deducted From Alaska Paychecks\n\n### Federal income tax\n\nAlaska residents are generally subject to federal income tax even though their state does not impose individual income tax.\n\nYour employer calculates federal withholding using your taxable earnings, filing status, pay frequency and Form W-4 information.\n\nThe federal withholding methodology is available in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nFor 2026, the annual taxable wage limit is $184,500.\n\nSome public-sector employees may participate in alternative retirement arrangements and have different Social Security coverage. Check your employment terms before assuming that ordinary Social Security withholding applies.\n\n### Medicare\n\nThe standard Medicare employee contribution is 1.45% of covered earnings.\n\nAn additional 0.9% generally applies through employer withholding once Medicare wages paid by that employer exceed $200,000 during the calendar year.\n\nThe [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) explains these federal payroll contribution requirements.\n\n## Alaska Paycheck Example: $78,000 Salary\n\nConsider an employee earning $78,000 annually."
+    },
+    {
+      "caption": "Alaska Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500.00"
+        ],
+        [
+          "Biweekly",
+          "$3,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$3,250.00"
+        ],
+        [
+          "Monthly",
+          "$6,500.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives a $3,000 biweekly paycheck and has not reached the applicable annual contribution limits."
+    },
+    {
+      "caption": "Alaska Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Alaska unemployment insurance",
+          "$15.00"
+        ],
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Alaska income tax",
+          "$0.00"
+        ],
+        [
+          "Total",
+          "$244.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,755.50 remains before federal income tax withholding and other employee deductions.\n\nLater in the year, the Alaska unemployment insurance deduction may stop when the annual covered wage ceiling is reached.\n\nYour actual take-home pay depends on your federal withholding elections and benefit deductions.\n\n## Alaska Hourly Paycheck Calculator\n\nHourly employment is common across Alaska's transportation, tourism, construction, fishing and natural resource industries.\n\nSuppose an hourly worker earns $30 per hour and works 40 regular hours plus eight qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$30 × 40 = $1,200\n\nOvertime earnings:\n\n$30 × 1.5 × 8 = $360\n\nTotal gross earnings:\n\n$1,560\n\nApplicable federal taxes and Alaska unemployment insurance contributions are then calculated using the relevant taxable wage amounts.\n\nAlaska generally requires qualifying overtime compensation for hours worked beyond eight in a day or 40 in a week, subject to exemptions and applicable employment arrangements.\n\nConsult the [Alaska Wage and Hour Administration](https://labor.alaska.gov/lss/whhome.htm) before estimating overtime for specialized occupations or alternative work schedules.\n\n## Seasonal Employment and Alaska Paychecks\n\nMany Alaska industries experience significant seasonal changes in employment demand.\n\nTourism, commercial fishing and construction workers may earn substantial income during certain months and considerably less during others.\n\nA calculator that estimates annual income from one unusually large paycheck may therefore produce a misleading annual projection.\n\nFor seasonal employment, estimate your total annual income separately rather than assuming your current earnings will continue at the same rate throughout the year.\n\nAlso consider unpaid periods between contracts, travel expenses and employer-provided accommodation when evaluating employment opportunities.\n\n## Alaska Permanent Fund Dividend and Take-Home Pay\n\nThe Alaska Permanent Fund Dividend, commonly known as the PFD, is separate from ordinary employment earnings.\n\nEligible residents may receive an annual dividend when they meet applicable program requirements.\n\nThe payment amount varies by year and eligibility is not automatic.\n\nA PFD payment is generally subject to federal income tax, even though Alaska does not impose individual state income tax.\n\nDo not add an assumed dividend payment to your regular paycheck when calculating your employment earnings.\n\nVisit the official [Alaska Permanent Fund Dividend website](https://pfd.alaska.gov/) to review eligibility, application requirements and payment information.\n\n## Planning Your Budget Around Alaska Take-Home Income\n\nAlaska's geography can create significant differences in living expenses between communities.\n\nHeating, groceries, transportation and housing may cost considerably more in remote locations than in larger cities.\n\nBefore accepting a position, compare estimated net earnings alongside accommodation benefits, transportation allowances and expected living expenses.\n\nUse our [emergency fund calculator](/savings/emergency-fund-calculator/) to establish a savings target, particularly if your employment is seasonal or your income fluctuates.\n\nA higher salary is most valuable when it produces a meaningful improvement in your remaining income after essential household expenses.\n\n## Frequently Asked Questions\n\n### Does Alaska deduct state income tax from paychecks?\n\nNo. Alaska does not impose an individual state income tax on wages. Federal income tax, applicable payroll contributions and other employee deductions may still reduce your paycheck.\n\n### What is the Alaska unemployment insurance deduction in 2026?\n\nThe standard employee contribution is 0.50% of covered earnings up to $54,200 annually, producing a maximum standard annual employee contribution of $271.\n\n### Is the Alaska Permanent Fund Dividend included in my paycheck?\n\nNo. The Permanent Fund Dividend is a separate payment for qualifying residents and is not part of ordinary employment payroll.\n\n## Estimate Your Alaska Take-Home Pay\n\nUse our Alaska paycheck calculator to understand your estimated net income, compare employment opportunities and plan your spending.\n\nThe results are educational estimates rather than official payroll calculations or personalized tax advice."
+    }
+  ]
+}
