@@ -1,0 +1,110 @@
+{
+  "title": "Nevada Paycheck Calculator 2026 – Salary After Tax",
+  "metaDescription": "Calculate your Nevada take-home pay after federal income tax, Social Security, Medicare and deductions. Nevada has no individual state income tax.",
+  "heading": "Nevada Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Nevada paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare and other employee deductions.\n\nNevada does not impose individual state income tax, which can provide higher take-home earnings compared with states that collect personal income tax when other circumstances remain unchanged.\n\nHowever, federal taxes, employee benefits and other deductions still affect the amount deposited into your bank account.\n\nWhether you work in Las Vegas, Reno, Henderson, Carson City or another Nevada community, this calculator can help you understand your earnings and make informed financial decisions.\n\n## How to Use the Nevada Paycheck Calculator\n\nBegin by choosing annual salary or hourly wages.\n\nEnter your gross income before taxes and select your payment frequency.\n\nEnter the federal income tax withheld for the pay period from your pay stub.\n\nAdd retirement contributions, healthcare premiums and other employee deductions. Include any additional federal tax already withheld in the federal total.\n\nIf your earnings are approaching the annual Social Security wage ceiling or Additional Medicare withholding threshold, provide your year-to-date taxable earnings.\n\nReview your estimated paycheck breakdown and remaining take-home income.\n\nNevada employees do not need to enter a Nevada personal income tax withholding allowance.\n\n## Nevada Payroll Taxes in 2026\n\nAlthough Nevada has no individual state income tax, several federal payroll deductions may still apply."
+    },
+    {
+      "caption": "Nevada Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Nevada individual income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500 in covered wages"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Nevada Modified Business Tax",
+          "Employer expense"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employee retirement contributions, insurance premiums and other workplace deductions may also reduce your take-home pay.\n\n## Does Nevada Have State Income Tax?\n\nNevada does not impose an individual state income tax on salaries, wages or similar employment compensation.\n\nEmployees working and residing in Nevada therefore generally do not have a Nevada personal income tax deduction on their regular paychecks.\n\nThis can make Nevada attractive to employees relocating from states with significant personal income taxes.\n\nHowever, the absence of state income tax does not eliminate federal income tax obligations.\n\nHousing costs, transportation, sales taxes, insurance premiums and other expenses can also influence the financial benefits of living in Nevada.\n\nReview the official [Nevada Department of Taxation income tax guidance](https://tax.nv.gov/about-nevada-department-of-taxation/income-tax-in-nevada/) to confirm the state's tax treatment.\n\n## Federal Income Tax on Nevada Paychecks\n\nFederal income tax withholding remains applicable to Nevada employees.\n\nYour employer determines the withholding amount using taxable earnings, payment frequency and information supplied on Form W-4.\n\nYour filing status, multiple jobs, eligible tax credits, other income and additional withholding requests can affect the amount deducted.\n\nFederal income tax uses progressive rates. Your highest marginal tax rate does not apply to every dollar of gross earnings.\n\nEmployers use the calculation procedures described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nThe amount withheld throughout the year is a payment toward your annual tax liability. It does not necessarily equal the final amount owed.\n\n## Social Security and Medicare Taxes in Nevada\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered earnings toward Social Security.\n\nFor 2026, the annual taxable wage ceiling is $184,500.\n\nFor example, an employee receiving $3,000 in covered wages who has not reached the annual limit would contribute:\n\n$3,000 × 6.2% = $186\n\nOnce the applicable wage ceiling has been reached with an employer, further covered wages generally stop attracting ordinary Social Security withholding for the remainder of the calendar year.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered employee earnings.\n\nFor $3,000 in covered wages:\n\n$3,000 × 1.45% = $43.50\n\nMedicare does not have a standard annual taxable wage ceiling.\n\nEmployers also generally withhold an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for additional information.\n\n## Nevada Modified Business Tax Explained\n\nNevada imposes a Modified Business Tax on applicable employers.\n\nThis is a business payroll tax rather than an individual employee income tax.\n\nAn employee should not expect the employer's Modified Business Tax liability to appear as an ordinary mandatory deduction from their salary.\n\nA paycheck calculator that incorrectly subtracts the employer's Modified Business Tax may underestimate employee take-home pay.\n\nThe same distinction applies to ordinary employer unemployment insurance contributions.\n\nVisit the official [Nevada Modified Business Tax guidance](https://tax.nv.gov/tax-types/modified-business-tax/) to learn more about the tax and its application to businesses.\n\n## Nevada Paycheck Example: $65,000 Salary\n\nConsider a Nevada employee earning $65,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Nevada Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,500 biweekly, is single for federal withholding purposes and uses a modern Form W-4 without additional adjustments.\n\nAlso assume all earnings are covered by ordinary federal payroll contributions, annual wage limits have not been reached and no other employee deductions apply."
+    },
+    {
+      "caption": "Nevada Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Nevada income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$407.40"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,092.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employees receiving the same salary may have different net pay because of federal withholding elections, insurance premiums or retirement contributions.\n\nUse the calculator to estimate your actual employment circumstances.\n\n## Nevada Hourly Paycheck Calculator\n\nHourly employees can calculate gross earnings using their hourly wage and working hours.\n\nSuppose an employee earns $26 per hour and works 40 regular hours plus six qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$26 × 40 = $1,040\n\nOvertime earnings:\n\n$26 × 1.5 × 6 = $234\n\nTotal gross earnings:\n\n$1,274\n\nAssuming all earnings are covered by ordinary payroll contributions:\n\nSocial Security: $78.99\n\nMedicare: $18.47\n\nApproximately $1,176.54 remains before federal income tax and other deductions.\n\nNevada has state-specific overtime provisions that may apply to certain employees based on their wage rate and daily working hours.\n\nConfirm eligibility and the applicable overtime rules before entering your hours.\n\nVisit the [Nevada Office of the Labor Commissioner](https://labor.nv.gov/) for current wage and overtime guidance.\n\n## How Tips Affect Nevada Paychecks\n\nMany Nevada employees work in hospitality, entertainment, restaurants and tourism.\n\nWorkers in these industries may receive tips alongside their ordinary wages.\n\nReported tips can affect federal income tax withholding, Social Security and Medicare.\n\nEmployees should include applicable taxable tips when estimating compensation.\n\nCertain qualified tips may be eligible for federal income tax deductions under current law. However, that does not automatically eliminate all payroll contributions or withholding on tip income.\n\nEmployees whose income fluctuates substantially should calculate their average earnings over several months rather than assuming their highest-paying week represents their normal income.\n\n## Does Las Vegas Have a Local Income Tax?\n\nLas Vegas generally does not impose a separate municipal personal wage income tax.\n\nEmployees still pay applicable federal taxes and ordinary payroll contributions.\n\nHowever, housing, transportation and other household costs can influence disposable income.\n\nWhen comparing employment opportunities in Las Vegas, Reno or elsewhere in Nevada, estimate your take-home pay first and then evaluate location-specific expenses.\n\nThese expenses should not be treated as payroll income taxes.\n\n## Working in Nevada and Living in California\n\nEmployees living near the Nevada–California border may work in one state while residing in another.\n\nCalifornia residents may remain subject to California income tax on income earned while working in Nevada, depending on applicable residency and tax rules.\n\nSimilarly, Nevada residents performing employment duties in California may have California income tax obligations.\n\nLiving or working in Nevada does not automatically eliminate another state's income tax requirements.\n\nConsult the relevant state tax authority if your employment or residence involves multiple states.\n\n## Comparing Nevada Salaries With Other States\n\nSuppose you are considering identical salary offers in Nevada and a state that would deduct $150 per month in personal income tax.\n\nUnder otherwise identical assumptions, Nevada could provide an additional $1,800 in annual cash flow.\n\nHowever, differences in housing costs, insurance premiums, transportation and employee benefits can reduce or outweigh that advantage.\n\nOur [US paycheck calculator](/calculators/paycheck-calculator/) can help compare estimated earnings across different states.\n\nUse your estimated net income alongside a realistic [household budget](/calculators/budget-calculator/) to evaluate relocation decisions.\n\n## Frequently Asked Questions\n\n### How much Nevada income tax is deducted from my paycheck?\n\nNevada does not impose individual state income tax on ordinary wages. Federal income tax, Social Security, Medicare and other applicable employee deductions still affect take-home pay.\n\n### Do Las Vegas employees pay local income tax?\n\nLas Vegas generally does not impose separate municipal personal wage income tax on ordinary employment earnings.\n\n### Is Nevada Modified Business Tax deducted from employee wages?\n\nModified Business Tax is an employer payroll tax. It should not be treated as an ordinary employee paycheck deduction.\n\n## Calculate Your Nevada Take-Home Pay\n\nUse our Nevada paycheck calculator to estimate your income after federal taxes and employee deductions, compare salary offers and establish a realistic spending plan.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
