@@ -1,3 +1,6 @@
+import indianaPaycheckContent from '@/content/paychecks/indiana.json';
+import { paycheckGuides } from '@/lib/paycheck-guides';
+import { createStatePaystubGuidePage } from './StatePaystubGuidePage';
 import { IllinoisPaycheckCalculatorPage, illinoisPaycheckMetadata } from './IllinoisPaycheckCalculatorPage';
 import { CaliforniaPaycheckCalculatorPage, californiaPaycheckMetadata } from './CaliforniaPaycheckCalculatorPage';
 import { PaycheckCalculatorPage, paycheckMetadata } from './PaycheckCalculatorPage';
@@ -48,6 +51,14 @@ const pages = {
   'home-equity-loan-calculator': { category: 'home-equity', metadata: homeEquityLoanMetadata, Component: HomeEquityLoanCalculatorPage },
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
+const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'indiana-paycheck-calculator': indianaPaycheckContent,
+};
+
+const statePaystubPages = new Map(paycheckGuides.map(guide => [
+  guide.slug, createStatePaystubGuidePage(guide, stateContent[guide.slug]),
+]));
+
 export function getCustomCalculatorPage(slug: string) {
-  return Object.hasOwn(pages, slug) ? pages[slug as keyof typeof pages] : null;
+  return Object.hasOwn(pages, slug) ? pages[slug as keyof typeof pages] : statePaystubPages.get(slug) ?? null;
 }

@@ -1,0 +1,118 @@
+{
+  "title": "Indiana Paycheck Calculator 2026 – State and County Taxes",
+  "description": "Calculate your Indiana take-home pay after federal income tax, Indiana state income tax, county income taxes, Social Security and Medicare.",
+  "heading": "Indiana Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Indiana paycheck calculator** to estimate your take-home pay after federal income tax, Indiana state income tax, county income taxes, Social Security, Medicare and other payroll deductions.\n\nEnter your salary or hourly wage, select your pay frequency and provide your withholding amounts to understand how much money you could receive on payday.\n\nIndiana's county income tax system means that employees earning identical salaries may receive different take-home pay depending on where they reside or work.\n\nWhether you work in Indianapolis, Fort Wayne, Bloomington, South Bend or another Indiana community, this calculator can help you evaluate employment opportunities and manage your finances.\n\n## How to Use the Indiana Paycheck Calculator\n\nChoose whether you receive an annual salary or hourly wages.\n\nEnter your gross compensation before taxes and deductions. Hourly employees should include their regular working hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter federal, Indiana and applicable county income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions, healthcare premiums, additional withholding and other employee deductions.\n\nReview the results to understand how each deduction affects your estimated net income.\n\nFor the most accurate estimate, refer to your latest payroll statement and Indiana Form WH-4.\n\n## Indiana Payroll Taxes in 2026\n\nIndiana employees generally encounter the following payroll deductions."
+    },
+    {
+      "caption": "Indiana Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Indiana income tax",
+          "2.95% after applicable exemptions"
+        ],
+        [
+          "County income tax",
+          "Depends on the applicable county"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "County income tax is an important component of Indiana paycheck calculations. Ignoring it can result in an estimate that overstates your actual take-home pay.\n\nThe [Indiana Department of Revenue](https://www.in.gov/dor/) provides official state and county withholding guidance.\n\n## How Indiana State Income Tax Works\n\nIndiana uses a flat individual income tax rate.\n\nFor 2026, the state income tax rate is 2.95%. This rate is scheduled to decrease to 2.90% in 2027.\n\nThe state withholding calculation accounts for qualifying employee exemptions before applying the applicable tax rate.\n\nFor example, suppose an employee receives $2,500 in biweekly taxable wages and claims one qualifying annual personal exemption of $1,000.\n\nThe exemption adjustment per paycheck is approximately $38.46.\n\nEstimated Indiana withholding is therefore:\n\n($2,500 − $38.46) × 2.95% = $72.62\n\nThis calculation does not include county income tax or additional withholding.\n\nReview the [Indiana income tax rates](https://secure.in.gov/dor/resources/tax-rates-and-reports/rates-fees-and-penalties/) for official tax-year information.\n\n## Understanding Indiana County Income Taxes\n\nIndiana's local income tax system operates at the county level.\n\nThe applicable county tax generally depends on where an employee lived on January 1 of the tax year. For qualifying nonresidents, the principal Indiana employment or business location on that date may determine the applicable county tax.\n\nConsequently, moving to a different county during the year does not necessarily mean that your payroll department should immediately switch your county withholding rate.\n\nCounty tax rates may also change during the calendar year.\n\n### Selected Indiana county tax rates\n\nThe following rates apply under the October 1, 2026 withholding notice."
+    },
+    {
+      "caption": "Understanding Indiana County Income Taxes",
+      "columns": [
+        "County",
+        "Income tax rate"
+      ],
+      "rows": [
+        [
+          "Allen",
+          "1.59%"
+        ],
+        [
+          "Adams",
+          "1.60%"
+        ],
+        [
+          "Bartholomew",
+          "1.75%"
+        ],
+        [
+          "Boone",
+          "1.71%"
+        ],
+        [
+          "Clark",
+          "2.00%"
+        ],
+        [
+          "Blackford",
+          "2.50%"
+        ],
+        [
+          "Cass",
+          "2.95%"
+        ]
+      ]
+    },
+    {
+      "markdown": "These examples illustrate why using a statewide average county tax rate would not provide a reliable paycheck estimate.\n\nConsult Indiana's official [Departmental Notice #1](https://www.in.gov/dor/files/dn01.pdf) for the complete county tax schedule and applicable effective dates.\n\n## Indiana County Tax Calculation Example\n\nAssume an employee receives $2,500 in biweekly taxable wages, claims one applicable $1,000 annual exemption and is subject to Allen County's 1.59% income tax rate.\n\nAdjusted biweekly taxable wages:\n\n$2,500 − $38.46 = $2,461.54\n\nState income tax:\n\n$2,461.54 × 2.95% = $72.62\n\nCounty income tax:\n\n$2,461.54 × 1.59% = $39.14\n\nCombined state and county withholding:\n\n$72.62 + $39.14 = $111.76\n\nAn employee subject to a different county rate could have a different withholding amount despite receiving the same salary.\n\n## Understanding Indiana Form WH-4\n\nIndiana employees provide state withholding information using Form WH-4.\n\nThe form records personal exemptions, qualifying dependent exemptions and information used to determine the applicable county tax.\n\nCertain dependent exemptions can provide additional withholding adjustments, including allowances for eligible first-time dependent claims and qualifying adopted children.\n\nThe exact exemption amount depends on the employee's circumstances and the applicable instructions.\n\nReview your withholding certificate after significant household changes or when starting employment with a new employer.\n\nIndiana's county residency rules should be considered separately from federal and state filing status.\n\n## Federal Payroll Taxes for Indiana Employees\n\nIndiana employees remain subject to applicable federal income tax withholding.\n\nYour employer calculates federal withholding using taxable earnings, pay frequency and information from Form W-4.\n\nSocial Security generally applies at 6.2% of covered wages up to the 2026 annual taxable wage ceiling of $184,500.\n\nOrdinary Medicare contributions apply at 1.45% of covered wages.\n\nEmployers also generally withhold additional Medicare tax at 0.9% when covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t) and the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official federal withholding information.\n\n## Indiana Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive $2,500 every two weeks.\n\nAssume this employee has one applicable Indiana personal exemption, is subject to Allen County tax and has no pre-tax employee deductions."
+    },
+    {
+      "caption": "Indiana Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Indiana income tax",
+          "$72.62"
+        ],
+        [
+          "Allen County income tax",
+          "$39.14"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$303.01"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,196.99 remains before federal income tax withholding and other employee deductions.\n\nThis is a partial payroll example rather than a complete estimate of the employee's net income.\n\nEnter your actual federal withholding information and benefit deductions into the calculator to estimate your complete paycheck.\n\n## Indiana Hourly Paycheck Calculator\n\nHourly employees can calculate gross earnings using their hourly rate and working hours.\n\nSuppose you earn $25 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 6 = $225\n\nTotal gross earnings:\n\n$1,225\n\nFederal taxes, Indiana income tax and applicable county taxes are then calculated from the appropriate taxable wage amounts.\n\nEmployees working in manufacturing, healthcare, transportation and logistics may receive additional compensation through shift differentials or overtime.\n\nConsult the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for eligibility requirements.\n\n## Working Across Indiana State Borders\n\nIndiana has reciprocal income tax agreements with Kentucky, Michigan, Ohio, Pennsylvania and Wisconsin.\n\nThese agreements can affect state income tax withholding on qualifying employee compensation.\n\nHowever, state income tax reciprocity does not automatically eliminate Indiana county income tax obligations.\n\nEmployees who live outside Indiana and work within the state should confirm their eligibility and county tax circumstances with the relevant tax authority.\n\nA standard Indiana paycheck calculation may not capture every multi-state employment arrangement.\n\n## Comparing Salaries in Different Indiana Counties\n\nWhen comparing job offers, examine both the advertised salary and applicable county income tax.\n\nA higher county tax rate can reduce take-home pay even when two positions offer identical gross compensation.\n\nHousing, commuting, healthcare benefits and employer retirement matching should also influence your decision.\n\nUse the calculator to compare employment offers under their applicable withholding assumptions.\n\nOur [US paycheck calculator](/calculators/paycheck-calculator/) can help you explore employment income across state borders, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help you establish realistic savings goals.\n\n## Frequently Asked Questions\n\n### What is Indiana's income tax rate in 2026?\n\nIndiana's individual state income tax rate is 2.95% in 2026. Applicable county income taxes are calculated separately.\n\n### Which Indiana county income tax rate should I use?\n\nFor ordinary Indiana residents, the applicable county generally depends on where they lived on January 1 of the tax year. Qualifying nonresidents may use their principal Indiana employment location on that date.\n\n### Do Indiana county income tax rates change during the year?\n\nYes. County rates may change in January or October. The calculator should use the official withholding schedule applicable to the payment date.\n\n## Calculate Your Indiana Take-Home Pay\n\nUse our Indiana paycheck calculator to understand how federal, state and county taxes affect your earnings and build a realistic budget based on estimated net income.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}

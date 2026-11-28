@@ -1,3 +1,4 @@
+import { paycheckGuides } from '@/lib/paycheck-guides';
 import Link from 'next/link';
 import { CalculatorArticlePage, calculatorArticleMetadata } from './CalculatorArticlePage';
 import { NationalPaycheckCalculator } from './NationalPaycheckCalculator';
@@ -10,7 +11,8 @@ const stateCalculators = [
   { name: 'Illinois Paycheck Calculator', href: '/calculators/illinois-paycheck-calculator/' },
   { name: 'Idaho Paycheck Calculator', href: '/calculators/idaho-paycheck-calculator/' },
   { name: 'New York Paycheck Calculator', href: '/calculators/new-york-paycheck-calculator/' },
-];
+  ...paycheckGuides.map(guide => ({ name: `${guide.state} Paycheck Calculator`, href: `/calculators/${guide.slug}/` })),
+].sort((first, second) => first.name.localeCompare(second.name));
 
 const example = [
   ['Gross pay', '$2,884.62'],

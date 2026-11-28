@@ -16,7 +16,7 @@ export function IllinoisPaycheckCalculatorPage() {
     categoryName="Taxes"
     description={description}
     intro="Use your paystub to estimate your Illinois take-home pay for 2026. Enter federal and Illinois income tax withholding. The calculator estimates Social Security and Medicare from the wages you provide."
-    calculator={<NationalPaycheckCalculator paystubState="Illinois" />}
+    calculator={<NationalPaycheckCalculator paystubState={{ name: 'Illinois' }} />}
     article={<>
       {content.parts.map((part, index) => part.markdown !== undefined ? (
         <Markdown key={index} skipHtml>{part.markdown}</Markdown>

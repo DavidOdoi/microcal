@@ -33,8 +33,8 @@ const fields: ScenarioField[] = [
   { key: 'other', section: 'Benefits', label: 'Other deductions per paycheck', prefix: '$', value: '0', help: 'Enter any state payroll contributions or other after-tax deductions from your paystub. These amounts do not reduce taxable wages in this estimate.', advanced: true },
 ];
 
-const paystubExcludedFields = new Set(['federalMode', 'status', 'extraFederal', 'otherIncome', 'adjustments', 'credits', 'local']);
-type PaystubState = 'California' | 'Illinois';
+const paystubExcludedFields = new Set(['federalMode', 'status', 'extraFederal', 'otherIncome', 'adjustments', 'credits']);
+type PaystubState = { name: string; localTax?: string; noStateIncomeTax?: boolean; californiaSdi?: boolean };
 
 function fieldsForPaystub(state: PaystubState): ScenarioField[] {
   return fields.flatMap((field): ScenarioField[] => {
@@ -44,9 +44,14 @@ function fieldsForPaystub(state: PaystubState): ScenarioField[] {
     if (field.key === 'federal') return [{
       ...field, value: '', help: 'Enter the full federal withholding shown on the paystub, including any extra withholding. Enter 0 if none was withheld.',
     }];
+    if (field.key === 'local') return state.localTax ? [{
+      ...field, label: `${state.localTax} withheld per paycheck`,
+      help: 'Enter the total for this paycheck from your paystub. Enter 0 when none was withheld.',
+    }] : [];
+    if (field.key === 'state' && state.noStateIncomeTax) return [];
     if (field.key === 'state') return [
-      { ...field, label: `${state} income tax withheld per paycheck`, value: '', help: `Enter the ${state} income tax shown on this paystub. Enter 0 if none was withheld.` },
-      ...(state === 'California' ? [{ key: 'stateDisability', section: 'State and Local Taxes', label: 'California SDI withheld per paycheck', prefix: '$', value: '',
+      { ...field, label: `${state.name} income tax withheld per paycheck`, value: '', help: `Enter the ${state.name} income tax shown on this paystub. Enter 0 if none was withheld.` },
+      ...(state.californiaSdi ? [{ key: 'stateDisability', section: 'State and Local Taxes', label: 'California SDI withheld per paycheck', prefix: '$', value: '',
         help: 'Enter CA SDI or CASDI from your paystub. If a separate voluntary disability plan deduction applies, enter it under Benefits and enter 0 for SDI.' }] : []),
     ];
     if (field.key === 'other') return [{ ...field, help: 'Enter after-tax deductions that you have not listed in any other field.' }];
@@ -68,7 +73,7 @@ function input(values: ScenarioValues): NationalPaycheckInput {
     filingStatus: (values.status ?? 'single') as NationalPaycheckInput['filingStatus'],
     federalWithholding: Number(values.federal),
     extraFederal: Number(values.extraFederal ?? 0),
-    stateWithholding: Number(values.state),
+    stateWithholding: Number(values.state ?? 0),
     localWithholding: Number(values.local ?? 0),
     extraState: 0,
     otherAnnualIncome: Number(values.otherIncome ?? 0),
@@ -87,13 +92,15 @@ function input(values: ScenarioValues): NationalPaycheckInput {
 const money = (cents: number) => scenarioMoney(cents / 100);
 
 export function NationalPaycheckCalculator({ paystubState }: { paystubState?: PaystubState } = {}) {
-  const californiaPaystub = paystubState === 'California';
+  const californiaPaystub = paystubState?.californiaSdi;
+  const stateName = paystubState?.name;
+  const enteredWithholding = paystubState?.noStateIncomeTax ? 'federal withholding' : `federal and ${stateName} withholding`;
   return <ScenarioCalculator
-    id={paystubState ? `${paystubState.toLowerCase()}-paycheck-calculator` : 'paycheck-calculator'}
-    title={paystubState ? `Your ${paystubState} Paycheck Estimate` : 'Your Paycheck Estimate'}
+    id={paystubState ? `${paystubState.name.toLowerCase().replaceAll(' ', '-')}-paycheck-calculator` : 'paycheck-calculator'}
+    title={paystubState ? `Your ${stateName} Paycheck Estimate` : 'Your Paycheck Estimate'}
     action="Calculate Paycheck"
     fields={paystubState ? fieldsForPaystub(paystubState) : fields}
-    emptyMessage={paystubState ? `Enter gross pay, federal withholding, and ${paystubState} withholding${californiaPaystub ? ' and SDI' : ''} to see your estimated take-home pay.` : undefined}
+    emptyMessage={paystubState ? `Enter gross pay and ${enteredWithholding}${californiaPaystub ? ', plus SDI' : ''} to see your estimated take-home pay.` : undefined}
     validate={values => validateNationalPaycheck(input(values))}
     copyResults
     compute={values => {
@@ -107,9 +114,9 @@ export function NationalPaycheckCalculator({ paystubState }: { paystubState?: Pa
         metrics: [
           ['Gross pay per paycheck', money(pay.gross)],
           [federalLabel, money(pay.federal)],
-          [paystubState ? `${paystubState} income-tax withholding entered` : 'State income-tax withholding entered', money(pay.state)],
+          ...(!paystubState?.noStateIncomeTax ? [[stateName ? `${stateName} income-tax withholding entered` : 'State income-tax withholding entered', money(pay.state)] as [string, string]] : []),
           ...(californiaPaystub ? [['California SDI entered', money(pay.stateDisability)] as [string, string]] : []),
-          ...(!paystubState ? [['Local income-tax withholding entered', money(pay.local)] as [string, string]] : []),
+          ...(!paystubState || paystubState.localTax ? [[paystubState?.localTax ? `${paystubState.localTax} entered` : 'Local income-tax withholding entered', money(pay.local)] as [string, string]] : []),
           ['Social Security', money(pay.socialSecurity)],
           ['Medicare', money(pay.medicare)],
           ['Additional Medicare withholding', money(pay.additionalMedicare)],
@@ -126,7 +133,7 @@ export function NationalPaycheckCalculator({ paystubState }: { paystubState?: Pa
         ],
         notes: [
           ...(paystubState ? [
-            `Federal income tax and ${paystubState} income tax${californiaPaystub ? ' and California SDI' : ''} use the amounts you enter. Social Security and Medicare are calculated from the wages and year-to-date amounts you provide.`,
+            `Income-tax withholding and any other deductions you enter are taken from the amounts on your paystub. Social Security and Medicare are calculated from the wages and year-to-date amounts you provide.`,
             'If your paystub shows different Social Security or Medicare taxable wages, payroll adjustments, or nonstandard deductions, the estimate can differ from your actual net pay.',
           ] : [
             'State and local income taxes and any state payroll contributions are based on the amounts you enter. A zero entry excludes that deduction.',

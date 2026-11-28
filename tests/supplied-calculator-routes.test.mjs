@@ -68,3 +68,33 @@ for (const entry of cases) {
     assert.equal((await fetch(new URL(`/savings/${entry.slug}/`, baseUrl))).status, 404);
   });
 }
+
+test('published state paystub guides have both entry points and reciprocal hub links', async () => {
+  const { paycheckGuides } = await import('../lib/paycheck-guides.ts');
+  const fetchPage = async path => {
+    const response = await fetch(new URL(path, baseUrl));
+    assert.equal(response.status, 200, path);
+    return response.text();
+  };
+
+  const [hub, directory, sitemap] = await Promise.all([
+    fetchPage('/calculators/paycheck-calculator/'), fetchPage('/calculators/'), fetchPage('/sitemap.xml'),
+  ]);
+  for (const guide of paycheckGuides) {
+    const path = `/calculators/${guide.slug}/`;
+    assert.ok(hub.includes(`href="${path}"`), path);
+    assert.ok(directory.includes(guide.slug), path);
+    assert.ok(sitemap.includes(`https://microfinancepost.com${path}`), path);
+    const pages = await Promise.all([fetchPage(path), fetchPage(`/taxes/${guide.slug}/`)]);
+    for (const html of pages) {
+      assert.ok(html.includes(`rel="canonical" href="https://microfinancepost.com${path}"`), path);
+      assert.ok(html.includes(`Your ${guide.state} Paycheck Estimate`), path);
+      assert.ok(html.includes('Federal withholding from your paystub per paycheck'), path);
+      assert.ok(html.includes('href="/calculators/paycheck-calculator/">US Paycheck Calculator'), path);
+      assert.ok(html.includes('<h2>Frequently Asked Questions</h2>'), path);
+      assert.ok(html.includes('<table>'), path);
+      assert.equal(html.includes(`${guide.state} income tax withheld per paycheck`), !guide.noStateIncomeTax, path);
+      if (guide.localTax) assert.ok(html.includes(`${guide.localTax} withheld per paycheck`), path);
+    }
+  }
+});
