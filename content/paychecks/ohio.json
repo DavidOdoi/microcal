@@ -1,0 +1,94 @@
+{
+  "title": "Ohio Paycheck Calculator 2026 – Salary After Tax",
+  "description": "Estimate your Ohio take-home pay after federal income tax, Ohio state tax, municipal income taxes, school district taxes and payroll deductions.",
+  "heading": "Ohio Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Our free **Ohio paycheck calculator** helps you estimate your take-home pay after federal taxes, Ohio income tax, applicable municipal income taxes and school district taxes. Enter your salary or hourly earnings to understand how much of your gross income you could receive on payday.\n\nOhio's local income tax system makes paycheck calculations particularly important. Two employees earning the same salary may receive different net pay because they live or work in different municipalities or school districts.\n\nWhether you work in Columbus, Cleveland, Cincinnati, Dayton or a smaller Ohio community, this calculator can help you understand the deductions affecting your earnings.\n\n## How to Use the Ohio Paycheck Calculator\n\nEnter your annual salary if you receive fixed compensation. Hourly employees should enter their hourly rate and the number of regular and qualifying overtime hours worked.\n\nChoose your pay frequency. Enter federal and Ohio income tax withheld for the pay period from your pay stub.\n\nIf you are subject to municipal or school district income taxes, enter the total amount withheld for the pay period.\n\nAdd retirement contributions, insurance premiums and other employee deductions where applicable.\n\nReview the estimated results to see how much of your gross earnings remains after taxes and deductions.\n\nFor accurate local tax estimates, confirm your residence and work location rather than relying exclusively on your postal address.\n\n## Ohio Payroll Taxes in 2026\n\nOhio employees may encounter several layers of payroll taxation."
+    },
+    {
+      "caption": "Ohio Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal payroll withholding schedules"
+        ],
+        [
+          "Ohio income tax",
+          "State payroll withholding schedules"
+        ],
+        [
+          "Municipal income tax",
+          "Applicable municipality's rules"
+        ],
+        [
+          "School district income tax",
+          "Applicable school district's rules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ]
+      ]
+    },
+    {
+      "markdown": "Additional Medicare withholding may apply to higher-income employees.\n\nUnlike states with only federal and state income taxes, Ohio requires particular attention to local taxation. An estimate that ignores municipal or school district taxes may overstate your actual take-home pay.\n\n## How Ohio State Income Tax Works\n\nOhio reduced its highest individual income tax rate to 2.75% for the 2026 tax year.\n\nThe state's annual nonbusiness income tax calculation uses the following structure:"
+    },
+    {
+      "caption": "How Ohio State Income Tax Works",
+      "columns": [
+        "Ohio taxable nonbusiness income",
+        "Annual tax calculation"
+      ],
+      "rows": [
+        [
+          "Up to $26,050",
+          "No tax under this schedule"
+        ],
+        [
+          "Above $26,050",
+          "$332 plus 2.75% of the amount exceeding $26,050"
+        ]
+      ]
+    },
+    {
+      "markdown": "These thresholds apply to Ohio taxable nonbusiness income, not necessarily your total gross salary.\n\nFor example, an employee with $60,000 in Ohio taxable nonbusiness income would have an illustrative tax calculation of:\n\n$332 + (($60,000 − $26,050) × 0.0275) = $1,265.63\n\nThis represents the annual tax schedule calculation before other applicable adjustments or credits. It is not automatically the amount an employer should withhold throughout the year.\n\nEmployers use Ohio's dedicated payroll withholding tables. The [Ohio Department of Taxation employer withholding page](https://tax.ohio.gov/business/employer-withholding) provides the schedules and effective dates.\n\nThe 2026 withholding tables changed on August 1, so the date of your paycheck matters when estimating historical payroll deductions.\n\n## Understanding Ohio Municipal Income Tax\n\nMany Ohio cities and villages impose municipal income taxes on qualifying employee earnings.\n\nThe tax rate and applicable withholding requirements depend on the municipality and the employee's circumstances.\n\nFor instance, an employee may live in one city but commute to another municipality for work. The work municipality may impose income tax, while the employee's residence municipality may have separate tax requirements.\n\nSome municipalities offer credits for income tax paid elsewhere. However, the amount and availability of these credits vary.\n\nDo not assume that working in one municipality eliminates your potential tax obligation in another.\n\n### Municipal paycheck example\n\nSuppose an employee has $2,000 of municipal taxable earnings during a pay period, and an applicable local tax rate of 2%.\n\nThe municipal tax would be:\n\n$2,000 × 0.02 = $40\n\nThis is an illustrative calculation using a hypothetical tax rate.\n\nUse [The Finder](https://tax.ohio.gov/finder) to identify applicable tax jurisdictions and rates. You can also consult the [Regional Income Tax Agency](https://www.ritaohio.com/) if your municipality participates in RITA.\n\n## Ohio School District Income Tax\n\nOhio's school district income tax is another feature that can affect residents' take-home income.\n\nNot every school district imposes this tax. Liability generally depends on whether you reside in a district that has enacted an income tax.\n\nOhio distinguishes between school districts using a traditional tax base and those using an earned income tax base.\n\nTraditional-base districts generally apply withholding using the appropriate state wage base and exemptions. Earned-income-base districts use a flat withholding rate without reductions for personal exemptions.\n\nThese distinctions matter because two school districts with the same published tax rate may not produce identical withholding amounts.\n\nCheck your school district using Ohio's official tax jurisdiction lookup before entering the applicable details.\n\nIf you move during the year, review whether your school district tax obligations have changed.\n\n## Federal Payroll Taxes for Ohio Employees\n\nOhio employees generally pay federal income tax, Social Security and Medicare in addition to applicable state and local taxes.\n\nFederal income tax withholding depends on earnings, filing status, payroll frequency and Form W-4 adjustments.\n\nSocial Security applies to covered employee earnings at 6.2%, up to the 2026 annual wage limit of $184,500.\n\nRegular Medicare withholding is 1.45% of covered earnings, without a standard annual wage ceiling.\n\nEmployers also generally withhold an additional 0.9% when covered Medicare wages exceed $200,000 from that employer during the calendar year.\n\nRead the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for further information about federal payroll contributions.\n\n## Ohio Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross earnings:"
+    },
+    {
+      "caption": "Ohio Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross pay"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assuming a $2,500 biweekly paycheck is fully subject to ordinary Social Security and Medicare contributions:\n\nSocial Security: $155.00\n\nMedicare: $36.25\n\nTotal federal payroll contributions: $191.25\n\nNow suppose the employee is also subject to an illustrative municipal income tax of 2%, calculated on the full $2,500.\n\nMunicipal tax: $50.00\n\nThe remaining income would be $2,258.75 before federal income tax, Ohio income tax, applicable school district taxes and other deductions.\n\nYour actual paycheck may be substantially different depending on your specific tax jurisdictions and withholding information.\n\n## Ohio Hourly Paycheck Calculator\n\nOhio hourly employees can estimate earnings by multiplying their hourly rate by regular working hours and adding qualifying overtime compensation.\n\nFor example, an employee earning $22 per hour who works 40 regular hours and six overtime hours at time-and-a-half would earn:\n\nRegular pay: $22 × 40 = $880\n\nOvertime pay: $22 × 1.5 × 6 = $198\n\nTotal gross pay: $1,078\n\nTaxes and deductions are then calculated from the appropriate taxable wage amounts.\n\nNot every worker qualifies for overtime compensation. Review the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) if you are uncertain about your employment classification.\n\n## Working Across Ohio State Borders\n\nOhio shares borders with several states, making interstate commuting relatively common.\n\nEmployees working across state lines may be affected by reciprocal income tax agreements, nonresident withholding rules and local tax obligations.\n\nA reciprocal agreement can change which state generally receives income tax withholding on employee compensation.\n\nHowever, it does not automatically remove every local tax obligation.\n\nIf you live outside Ohio but work for an Ohio employer, or live in Ohio while working elsewhere, confirm the applicable rules and withholding certificates with your payroll department.\n\nThe calculator should not be treated as a complete multi-state tax return estimator.\n\n## Other Deductions From Ohio Paychecks\n\nYour paycheck may include employee retirement contributions, health insurance premiums, dental coverage, flexible spending account contributions and other deductions.\n\nSome deductions reduce taxable wages, while others are deducted after taxes have been calculated.\n\nFor example, a qualifying traditional retirement contribution may lower income-taxable earnings without reducing ordinary Social Security withholding.\n\nLocal taxable wage definitions may also differ from federal income tax definitions.\n\nReview your actual pay stub when entering deductions into an Ohio salary calculator.\n\n## Planning Your Budget Around Ohio Take-Home Pay\n\nYour net paycheck is generally a more useful budgeting figure than your gross annual salary.\n\nBefore accepting a new job, estimate the impact of local taxes, commuting costs and employee benefits. A position offering higher gross pay may not provide a proportionately higher disposable income.\n\nIf you receive biweekly paychecks, remember that most months contain two payments, while some contain three.\n\nBuild a budget using your ordinary monthly cash flow, and consider allocating additional paychecks toward emergency savings or debt reduction.\n\nOur [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) can help you evaluate borrowing commitments, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target.\n\n## Frequently Asked Questions\n\n### What is the Ohio income tax rate in 2026?\n\nOhio's highest individual income tax rate for 2026 is 2.75%. The annual tax calculation includes a taxable-income threshold and a base tax amount. Payroll withholding follows separate official tables.\n\n### Do all Ohio employees pay city income tax?\n\nNo. Municipal income tax depends on where you work, where you live and the applicable local rules. Some municipalities do not impose an income tax.\n\n### How do I know whether I owe Ohio school district income tax?\n\nUse Ohio's official tax jurisdiction lookup to identify your school district and confirm whether it imposes an income tax. Your school district and mailing address may not be identical.\n\n## Estimate Your Ohio Take-Home Pay\n\nUse our Ohio paycheck calculator to understand federal, state and applicable local payroll deductions before planning your spending or comparing employment opportunities.\n\nThe calculator provides estimates for educational purposes. Confirm complicated local or interstate tax obligations with the relevant tax authority or a qualified professional."
+    }
+  ]
+}

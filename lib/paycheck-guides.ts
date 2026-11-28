@@ -6,6 +6,7 @@ export type PaycheckGuide = {
 };
 
 export const paycheckGuides: readonly PaycheckGuide[] = [
+  { state: 'Ohio', slug: 'ohio-paycheck-calculator', localTax: 'Municipal and school district income tax' },
   { state: 'Kentucky', slug: 'kentucky-paycheck-calculator', localTax: 'Local occupational tax' },
   { state: 'Kansas', slug: 'kansas-paycheck-calculator' },
   { state: 'Iowa', slug: 'iowa-paycheck-calculator' },
