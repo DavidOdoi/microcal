@@ -1,0 +1,126 @@
+{
+  "title": "Georgia Paycheck Calculator 2026 – Salary After Taxes",
+  "description": "Calculate your Georgia take-home pay after federal income tax, Georgia state income tax, Social Security, Medicare and other employee deductions.",
+  "heading": "Georgia Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Georgia paycheck calculator** to estimate your take-home salary after federal income tax, Georgia state income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, choose your pay frequency and provide your withholding information to understand how much money you could receive on payday.\n\nWhether you work in Atlanta, Savannah, Augusta, Columbus or another Georgia community, knowing your estimated net earnings can help you evaluate job offers, manage expenses and establish realistic savings goals.\n\n## How to Use the Georgia Paycheck Calculator\n\nSelect annual salary if you receive fixed compensation or hourly wage if your earnings depend on working hours.\n\nEnter your gross income before taxes and select the number of paychecks you typically receive each year.\n\nEnter federal and Georgia income tax withheld for the pay period from your pay stub.\n\nInclude any retirement contributions, health insurance premiums and additional tax withholding requested from your employer.\n\nReview the individual tax deductions and estimated net paycheck.\n\nIf your earnings change during the year, update the calculator inputs to understand how those changes could affect your take-home pay.\n\n## Georgia Payroll Taxes in 2026\n\nGeorgia employees generally pay federal and state income taxes alongside ordinary federal payroll contributions."
+    },
+    {
+      "caption": "Georgia Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Georgia income tax",
+          "State withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Georgia's individual income tax rate is 4.99% for the 2026 tax year.\n\nYour actual paycheck withholding depends on the official employer calculation procedures, taxable wages and applicable withholding elections.\n\nReview the [Georgia Department of Revenue's Employer's Tax Guide](https://dor.georgia.gov/employers-tax-guide) for current withholding information.\n\n## How Georgia State Income Tax Works\n\nGeorgia uses a flat individual income tax rate. Unlike a progressive tax system, this structure applies the same statutory rate to applicable taxable net income.\n\nHowever, the amount of taxable income may differ from your gross salary.\n\nGeorgia allows certain deductions and adjustments that can reduce taxable net income before the state income tax rate is applied.\n\nFor 2026, the standard deductions are:"
+    },
+    {
+      "caption": "How Georgia State Income Tax Works",
+      "columns": [
+        "Filing status",
+        "Annual standard deduction"
+      ],
+      "rows": [
+        [
+          "Single",
+          "$15,000"
+        ],
+        [
+          "Married filing separately",
+          "$15,000"
+        ],
+        [
+          "Head of household",
+          "$15,000"
+        ],
+        [
+          "Married filing jointly",
+          "$30,000"
+        ]
+      ]
+    },
+    {
+      "markdown": "These deductions relate to annual income tax calculations. Payroll withholding must follow the applicable employer tax guide.\n\nThe [Georgia Department of Revenue tax updates](https://dor.georgia.gov/taxes/important-tax-updates) explain recent changes to the state's individual income tax system.\n\n## Understanding Georgia Form G-4\n\nGeorgia employees generally provide their employers with state withholding information using Form G-4.\n\nThe form helps employers determine the applicable withholding status, allowances and additional amounts requested by the employee.\n\nYour Georgia withholding information is separate from your federal Form W-4.\n\nIf you start a new job, experience a change in household income or want additional state tax withheld, reviewing your G-4 information may help align withholding with your expected annual tax liability.\n\nAccess the form through the [Georgia employer withholding resources](https://dor.georgia.gov/taxes/withholding-tax-employers).\n\nKeep in mind that reducing paycheck withholding does not automatically reduce the final amount of income tax you owe.\n\n## Federal Payroll Taxes for Georgia Employees\n\n### Federal income tax\n\nFederal income tax withholding depends on your taxable earnings, filing status, pay frequency and Form W-4 adjustments.\n\nA worker with multiple jobs may need different withholding settings from someone receiving income from a single employer.\n\nDependents, qualifying deductions and additional income can also affect federal withholding.\n\nThe [IRS federal income tax withholding methods](https://www.irs.gov/publications/p15t) provide the official calculation procedures.\n\n### Social Security tax\n\nFor 2026, employees generally pay 6.2% of covered Social Security wages, subject to an annual taxable wage ceiling of $184,500.\n\nAn employee earning $2,000 in covered wages who has not reached the annual ceiling would contribute $124.\n\n### Medicare tax\n\nEmployees generally pay 1.45% of covered Medicare wages.\n\nThere is no standard annual wage ceiling for ordinary Medicare withholding.\n\nEmployers also generally withhold an additional 0.9% on covered Medicare earnings exceeding $200,000 paid by that employer during the calendar year.\n\nYour final Additional Medicare Tax liability may depend on your filing status.\n\n## Georgia Paycheck Example: $72,000 Salary\n\nConsider an employee earning $72,000 per year before taxes and deductions."
+    },
+    {
+      "caption": "Georgia Paycheck Example: $72,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross pay"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,384.62"
+        ],
+        [
+          "Biweekly",
+          "$2,769.23"
+        ],
+        [
+          "Semimonthly",
+          "$3,000.00"
+        ],
+        [
+          "Monthly",
+          "$6,000.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $3,000 semimonthly and has not reached any applicable federal payroll contribution thresholds."
+    },
+    {
+      "caption": "Georgia Paycheck Example: $72,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Total",
+          "$229.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "The employee would have $2,770.50 remaining before federal income tax, Georgia income tax and other payroll deductions.\n\nTo illustrate Georgia's annual income tax structure separately, suppose a single filer has $72,000 of applicable income before the standard deduction and no other adjustments, exemptions or credits.\n\nSubtracting the $15,000 standard deduction leaves $57,000.\n\nApplying the 4.99% annual tax rate produces an illustrative amount of $2,844.30.\n\nThis annual example is not a complete state income tax return calculation and should not be used as a substitute for official paycheck withholding schedules.\n\nUse the calculator with your actual G-4 information to estimate your paycheck.\n\n## Does Georgia Have Local Income Taxes?\n\nGeorgia generally does not impose separate municipal employee wage income taxes.\n\nThis means employees working in Atlanta, Savannah or other Georgia cities generally do not encounter the same type of municipal payroll income taxes found in certain Ohio and Michigan communities.\n\nHowever, Georgia residents still pay applicable state and federal income taxes.\n\nOther local taxes, including sales taxes and property taxes, can affect the cost of living without appearing as personal wage income tax deductions on your paycheck.\n\nWhen comparing employment opportunities across Georgia, housing, transportation and benefit expenses may have a greater direct impact on disposable income than municipal income tax differences.\n\n## Georgia Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings using their hourly wage and working hours.\n\nConsider a worker earning $24 per hour who works 40 regular hours and eight qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$24 × 40 = $960\n\nOvertime earnings:\n\n$24 × 1.5 × 8 = $288\n\nTotal gross earnings:\n\n$1,248\n\nApplicable taxes and deductions are then calculated using the relevant taxable wage amounts.\n\nEmployees in industries such as healthcare, logistics, hospitality and manufacturing may receive irregular earnings because of overtime, shift differentials or bonuses.\n\nReview the [US Department of Labor overtime rules](https://www.dol.gov/agencies/whd/overtime) for information about overtime eligibility.\n\nRecent federal and Georgia tax provisions may affect the annual tax treatment of certain qualifying overtime compensation and tips. These provisions do not mean all overtime earnings or tips are automatically free from paycheck withholding or payroll taxes.\n\n## How Retirement and Health Benefits Affect Take-Home Pay\n\nRetirement contributions and health insurance premiums can significantly influence your net paycheck.\n\nTraditional 401(k) contributions generally provide current federal income tax benefits, while Roth 401(k) contributions use after-income-tax earnings.\n\nQualifying health insurance arrangements may reduce certain taxable wage amounts.\n\nOther deductions, such as voluntary insurance or retirement contributions made after taxes, may reduce take-home pay without reducing all applicable taxes.\n\nUnderstanding these differences is important when comparing salary offers.\n\nAn employer offering lower insurance premiums or a larger retirement match may provide better overall compensation even when the gross salary is similar to competing offers.\n\n## Comparing Job Offers in Atlanta and Other Georgia Cities\n\nGeorgia's employment opportunities span industries including technology, finance, healthcare, transportation and manufacturing.\n\nWhen comparing job offers, consider more than annual salary.\n\nFor instance, increasing your salary from $60,000 to $70,000 adds approximately $833.33 in gross monthly income.\n\nYour actual improvement in spending power will depend on taxes, benefit deductions, commuting costs and other expenses.\n\nA position in metropolitan Atlanta may involve different housing and transportation costs than employment in a smaller Georgia community.\n\nCalculate your estimated take-home pay for each opportunity, then compare how much money remains after essential expenses.\n\n## Planning Your Budget Using Georgia Take-Home Pay\n\nCreate a monthly spending plan based on net earnings rather than your gross annual salary.\n\nStart with housing, utilities, food, transportation, healthcare and required debt payments.\n\nNext, determine how much you can realistically contribute toward emergency savings and retirement.\n\nIf you receive biweekly paychecks, consider how months containing three paydays could support additional savings or debt repayments.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help you evaluate your savings target. Our [loan payment](/calculators/loan-calculator/) and [debt-to-income ratio](/debt/debt-to-income-ratio-calculator/) calculators can help you understand how existing borrowing commitments affect financial flexibility.\n\nIf your household or employment situation changes, review your withholding using the [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) and the applicable Georgia withholding guidance.\n\n## Frequently Asked Questions\n\n### What is Georgia's state income tax rate in 2026?\n\nGeorgia's individual income tax rate is 4.99% for the 2026 tax year. Actual paycheck withholding depends on the state's official payroll procedures and your withholding information.\n\n### Does Atlanta have a separate employee income tax?\n\nAtlanta generally does not impose a separate municipal personal wage income tax. Employees still pay applicable Georgia and federal taxes.\n\n### How much will I take home from a $70,000 salary in Georgia?\n\nYour net salary depends on filing status, withholding elections, payroll frequency, retirement contributions and other deductions. Enter $70,000 into the Georgia paycheck calculator with your actual information for a personalized estimate.\n\n## Calculate Your Georgia Take-Home Pay\n\nUse our Georgia paycheck calculator to estimate the amount remaining after applicable income taxes and payroll deductions.\n\nUnderstanding your net income can help you compare job opportunities, manage monthly expenses and make informed financial decisions.\n\nThe calculator provides educational estimates and does not replace official payroll calculations or professional tax advice."
+    }
+  ]
+}
