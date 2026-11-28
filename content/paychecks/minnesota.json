@@ -1,0 +1,210 @@
+{
+  "title": "Minnesota Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Minnesota take-home pay after federal income tax, Minnesota income tax, paid leave contributions, Social Security and Medicare.",
+  "heading": "Minnesota Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Minnesota paycheck calculator** to estimate your take-home pay after federal income tax, Minnesota income tax, Social Security, Medicare and applicable Minnesota Paid Leave contributions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nMinnesota uses progressive state income tax rates and introduced a new paid family and medical leave program in January 2026. These requirements make it important to use current payroll calculations when estimating your net earnings.\n\nWhether you work in Minneapolis, Saint Paul, Rochester, Duluth or another Minnesota community, this calculator can help you compare employment opportunities and manage your monthly expenses.\n\n## How to Use the Minnesota Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross earnings before taxes and deductions. Hourly employees should include their regular hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter the federal and Minnesota income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions and healthcare premiums. If Minnesota Paid Leave was withheld, enter the amount under Benefits in Advanced settings, under Other deductions.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\nReview your estimated federal withholding, Minnesota income tax, payroll contributions and remaining take-home pay.\n\nFor greater accuracy, use information from your latest pay stub and withholding certificates.\n\n## Minnesota Payroll Taxes in 2026\n\nMinnesota employees may encounter the following payroll deductions."
+    },
+    {
+      "caption": "Minnesota Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Minnesota income tax",
+          "Progressive rates from 5.35% to 9.85%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Minnesota Paid Leave",
+          "Generally up to 0.44% of covered wages"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual deductions depend on taxable earnings, withholding elections, employee benefits and employment circumstances.\n\nThe [Minnesota Department of Revenue](https://www.revenue.state.mn.us/) publishes official state income tax and withholding information.\n\n## How Minnesota Income Tax Withholding Works\n\nMinnesota applies a progressive individual income tax system.\n\nIts 2026 automated payroll withholding method uses four marginal tax rates: 5.35%, 6.80%, 7.85% and 9.85%.\n\nEmployers calculate withholding by annualizing taxable wages, subtracting the value of applicable withholding allowances, applying the appropriate percentage schedule and converting the result back to the relevant payroll period.\n\nFor 2026, each ordinary Minnesota withholding allowance has an annual value of $5,300.\n\nThis amount reduces the wages used in the withholding calculation. It is not an additional cash payment or a direct tax credit.\n\nThe [2026 Minnesota Withholding Tax Instructions and Tables](https://www.revenue.state.mn.us/sites/default/files/2025-12/wh-inst-26.pdf) provide the complete employer calculation methodology.\n\n## Minnesota Withholding Percentage Schedules\n\nThe following thresholds apply to the 2026 automated withholding formula after subtracting applicable allowances.\n\n### Single withholding classification"
+    },
+    {
+      "caption": "Minnesota Withholding Percentage Schedules",
+      "columns": [
+        "Adjusted annual wages",
+        "Marginal withholding rate"
+      ],
+      "rows": [
+        [
+          "Up to $4,700",
+          "0%"
+        ],
+        [
+          "$4,700–$38,010",
+          "5.35%"
+        ],
+        [
+          "$38,010–$114,130",
+          "6.80%"
+        ],
+        [
+          "$114,130–$207,850",
+          "7.85%"
+        ],
+        [
+          "Above $207,850",
+          "9.85%"
+        ]
+      ]
+    },
+    {
+      "markdown": "### Married withholding classification"
+    },
+    {
+      "caption": "Minnesota Withholding Percentage Schedules",
+      "columns": [
+        "Adjusted annual wages",
+        "Marginal withholding rate"
+      ],
+      "rows": [
+        [
+          "Up to $14,700",
+          "0%"
+        ],
+        [
+          "$14,700–$63,400",
+          "5.35%"
+        ],
+        [
+          "$63,400–$208,180",
+          "6.80%"
+        ],
+        [
+          "$208,180–$352,630",
+          "7.85%"
+        ],
+        [
+          "Above $352,630",
+          "9.85%"
+        ]
+      ]
+    },
+    {
+      "markdown": "These are adjusted-wage payroll withholding thresholds rather than the ordinary income tax brackets used on Minnesota annual tax returns.\n\nEmployers must also apply the appropriate base tax amounts from the official computer formula.\n\n## Minnesota Income Tax Withholding Example\n\nSuppose an employee receives $2,500 biweekly in Minnesota taxable wages, uses the single withholding classification and claims one ordinary withholding allowance.\n\nAnnualized wages:\n\n$2,500 × 26 = $65,000\n\nSubtract the applicable withholding allowance:\n\n$65,000 − $5,300 = $59,700\n\nThe adjusted wages fall into the applicable 6.80% withholding bracket.\n\nUsing the official base amount of $1,782.09 and the lower bracket threshold of $38,010:\n\nAnnualized withholding:\n\n$1,782.09 + (($59,700 − $38,010) × 0.068)\n\nAnnualized withholding equals $3,257.01.\n\nBiweekly withholding:\n\n$3,257.01 ÷ 26 = approximately $125.27\n\nAn employer using the permitted whole-dollar rounding method may withhold $125 instead.\n\nYour actual withholding may differ if you claim additional allowances, request extra withholding or have deductions affecting taxable wages.\n\n## Understanding Minnesota Form W-4MN\n\nMinnesota employees generally provide withholding information using Form W-4MN.\n\nThis certificate allows employees to communicate their state withholding allowances and additional withholding requests to employers.\n\nThe modern federal Form W-4 does not use the same allowance-based structure. Consequently, federal withholding elections should not automatically be copied onto Form W-4MN.\n\nFor a new employee who has not provided Form W-4MN before the first wage payment, ordinary withholding generally defaults to the single classification with zero allowances.\n\nEmployees should review their withholding information after employment changes or significant changes in household circumstances.\n\nRead the official [Minnesota Form W-4MN guidance](https://www.revenue.state.mn.us/form-w-4mn) for additional instructions.\n\n## Minnesota Paid Leave Contributions in 2026\n\nMinnesota's Paid Leave program became operational on January 1, 2026.\n\nThe program provides eligible workers with partial income replacement and employment protections during qualifying periods of family or medical leave.\n\nFor 2026, the standard combined employer and employee contribution rate is 0.88%.\n\nEmployers may generally deduct up to 0.44% from covered employee wages.\n\nCertain qualifying small employers have reduced overall premium obligations. However, the employee contribution is still subject to the applicable maximum.\n\nEmployers may also choose to pay more than their required share, reducing the amount deducted from employee earnings."
+    },
+    {
+      "caption": "Minnesota Paid Leave Contributions in 2026",
+      "columns": [
+        "Covered earnings",
+        "Employee contribution at 0.44%"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.20"
+        ],
+        [
+          "$1,000",
+          "$4.40"
+        ],
+        [
+          "$2,000",
+          "$8.80"
+        ],
+        [
+          "$2,500",
+          "$11.00"
+        ],
+        [
+          "$5,000",
+          "$22.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Minnesota uses a rounded annual contribution ceiling of $185,000 for 2026.\n\nAt the full 0.44% employee rate, the maximum standard annual contribution is $814.\n\nVisit the official [Minnesota Paid Leave website](https://paidleave.mn.gov/) for current program information.\n\n## Federal Taxes Deducted From Minnesota Paychecks\n\nFederal income tax withholding depends on taxable earnings, filing status, pay frequency and information supplied on Form W-4.\n\nSocial Security generally applies at 6.2% of covered wages, subject to the 2026 annual wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nThe Minnesota Paid Leave contribution has a separate rounded wage ceiling and should not be confused with the federal Social Security limit.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t) and the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official federal payroll requirements.\n\n## Minnesota Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly paychecks."
+    },
+    {
+      "caption": "Minnesota Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee uses the single Minnesota withholding classification, claims one state withholding allowance and has no additional benefit deductions.\n\nFor federal withholding, assume a single employee with a modern Form W-4, no multiple-jobs adjustment and no additional credits or withholding."
+    },
+    {
+      "caption": "Minnesota Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Minnesota income tax",
+          "$125.27"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Minnesota Paid Leave",
+          "$11.00"
+        ],
+        [
+          "Total deductions",
+          "$543.67"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,956.33"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes all earnings are covered by ordinary payroll contributions, the maximum standard employee paid leave rate applies and no annual wage thresholds have been reached.\n\nActual payroll results may differ because of withholding elections, employer contributions and rounding procedures.\n\n## Minnesota Hourly Paycheck Calculator\n\nHourly workers can estimate earnings using their hourly wage and regular working hours, together with qualifying overtime compensation.\n\nSuppose an employee earns $29 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$29 × 40 = $1,160\n\nOvertime earnings:\n\n$29 × 1.5 × 6 = $261\n\nTotal gross earnings:\n\n$1,421\n\nFederal income tax, Minnesota income tax and applicable payroll contributions are then calculated using their respective taxable wage amounts.\n\nMinnesota and federal overtime requirements can differ depending on the employee's coverage and employment classification.\n\nConsult the [Minnesota Department of Labor and Industry overtime guidance](https://www.dli.mn.gov/business/employment-practices/overtime-laws) before estimating compensation for specialized employment arrangements.\n\n## Working Across Minnesota State Borders\n\nMinnesota has reciprocal income tax agreements with Michigan and North Dakota covering qualifying employee compensation.\n\nEligible nonresident workers may receive different withholding treatment if they provide the required documentation.\n\nEmployees working across other state borders should not assume that the same reciprocal treatment applies.\n\nRemote work and employment across multiple jurisdictions can introduce additional tax considerations.\n\nConsult the Minnesota Department of Revenue before applying an interstate withholding exemption.\n\n## Planning Your Minnesota Monthly Budget\n\nUse estimated take-home income rather than gross salary when establishing your household budget.\n\nAccount for housing, groceries, transportation, utilities, healthcare and required debt payments.\n\nEmployees living in Minnesota may also benefit from budgeting for seasonal heating expenses and winter-related transportation costs.\n\nCompare employer retirement matching, insurance premiums and paid leave arrangements when evaluating job offers.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is Minnesota's income tax rate in 2026?\n\nMinnesota uses progressive individual income tax rates of 5.35%, 6.80%, 7.85% and 9.85%. Actual paycheck withholding depends on taxable wages, applicable allowances and withholding classification.\n\n### How much is deducted for Minnesota Paid Leave?\n\nEmployers may generally deduct up to 0.44% of covered employee wages in 2026. The applicable rounded annual contribution wage ceiling is $185,000.\n\n### Why did my Minnesota take-home pay change in January 2026?\n\nMinnesota introduced its Paid Leave program in January 2026. Updated federal and state withholding schedules, contribution limits and employee benefits can also affect paycheck amounts.\n\n## Calculate Your Minnesota Take-Home Pay\n\nUse our Minnesota paycheck calculator to understand how federal taxes, Minnesota income tax and paid leave contributions affect your earnings.\n\nThe results can help you compare salary offers and establish a realistic budget. They are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
