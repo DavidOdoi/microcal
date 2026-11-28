@@ -1,5 +1,7 @@
 import { paycheckGuides } from '@/lib/paycheck-guides';
 import Link from 'next/link';
+import Image from 'next/image';
+import type { Metadata } from 'next';
 import { CalculatorArticlePage, calculatorArticleMetadata } from './CalculatorArticlePage';
 import { NationalPaycheckCalculator } from './NationalPaycheckCalculator';
 
@@ -23,7 +25,21 @@ const example = [
   ['Estimated take-home pay', '$2,268.94'],
 ];
 
-export const paycheckMetadata = calculatorArticleMetadata(slug, 'Paycheck Calculator – Estimate US Take-Home Pay', description);
+const featuredImage = {
+  src: '/images/paycheck/biweekly-gross-to-take-home.webp',
+  width: 1200,
+  height: 630,
+  alt: 'Illustrative biweekly paycheck on a $75,000 salary. Gross pay is $2,884.62, with $615.68 in estimated taxes and $2,268.94 in take-home pay.',
+};
+
+const metadata = calculatorArticleMetadata(slug, 'Paycheck Calculator – Estimate US Take-Home Pay', description);
+export const paycheckMetadata: Metadata = {
+  ...metadata,
+  openGraph: {
+    ...metadata.openGraph,
+    images: [{ ...featuredImage, url: `https://microfinancepost.com${featuredImage.src}` }],
+  },
+};
 
 export function PaycheckCalculatorPage() {
   return (
@@ -78,6 +94,9 @@ function PaycheckSupportingContent() {
     <section className="finance-article-section">
       <h2>Example Biweekly Paycheck on a $75,000 Salary</h2>
       <p>In this 2026 example, a single filer earns $75,000 over 26 paychecks and enters $100 of state withholding per paycheck. The federal estimate assumes the standard deduction and no additional income or credits. The worker has no pre-tax deductions or local withholding and is below the Social Security and Additional Medicare thresholds.</p>
+      <figure style={{ margin: '1.25rem 0' }}>
+        <Image {...featuredImage} sizes="(max-width: 900px) 100vw, 850px" style={{ width: '100%', height: 'auto', borderRadius: '1rem' }} />
+      </figure>
       <div className="finance-table-wrap"><table>
         <caption>Estimated amounts per biweekly paycheck</caption>
         <thead><tr><th scope="col">Pay or deduction</th><th scope="col">Amount</th></tr></thead>
