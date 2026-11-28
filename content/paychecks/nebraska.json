@@ -1,0 +1,142 @@
+{
+  "title": "Nebraska Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Estimate your Nebraska take-home pay after federal taxes, Nebraska income tax, Social Security, Medicare and employee payroll deductions.",
+  "heading": "Nebraska Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Nebraska paycheck calculator** to estimate your take-home pay after federal income tax, Nebraska income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly earnings, select your payment frequency and customize your withholding information to see how much money you could receive on payday.\n\nNebraska's payroll withholding system includes state-specific allowance deductions, progressive percentage tables and special minimum withholding requirements for certain employers.\n\nWhether you work in Omaha, Lincoln, Bellevue, Grand Island or another Nebraska community, understanding these deductions can help you compare salaries and manage monthly expenses.\n\n## How to Use the Nebraska Paycheck Calculator\n\nChoose annual salary if you receive fixed compensation or hourly wages if your earnings depend on working hours.\n\nEnter your gross earnings before taxes and deductions.\n\nSelect your payment frequency. Enter the federal and Nebraska income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions, healthcare premiums and other employee deductions. Use the full withholding amounts, including any extra tax withheld.\n\nReview your estimated paycheck breakdown to understand how much of your gross income remains after applicable deductions.\n\nUse your latest payroll statement and withholding certificate for greater accuracy.\n\n## Nebraska Payroll Taxes in 2026\n\nNebraska employees generally encounter the following payroll deductions."
+    },
+    {
+      "caption": "Nebraska Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Nebraska income tax",
+          "Official payroll-period percentage schedules"
+        ],
+        [
+          "Special Nebraska minimum withholding",
+          "Generally 1.5% where applicable"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "The amount withheld depends on taxable earnings, payroll frequency, withholding allowances, employer circumstances and employee benefits.\n\nThe [Nebraska Department of Revenue withholding page](https://revenue.nebraska.gov/businesses/nebraska-income-tax-withholding) provides official employer instructions and current tax-year publications.\n\n## How Nebraska Income Tax Withholding Works\n\nNebraska publishes Circular EN, which contains its official employer income tax withholding instructions.\n\nThe 2026 version applies to qualifying wages paid on or after January 1, 2026.\n\nEmployers calculate withholding using the applicable payroll-period wage bracket tables or percentage method.\n\nThe withholding calculation accounts for the appropriate allowance amount before applying the relevant percentage schedule.\n\nNebraska's payroll withholding rates and brackets should not automatically be replaced with the rates used to calculate an individual's final annual income tax return.\n\nRead the official [2026 Nebraska Circular EN](https://revenue.nebraska.gov/sites/default/files/doc/business/Cir_En_2025/2026cir_en_whole.pdf) for the applicable calculation methodology.\n\n## Nebraska Weekly Withholding Percentage Table\n\nThe following table illustrates Nebraska's 2026 weekly percentage method for the single withholding classification, including head of household.\n\nThe amounts refer to wages after subtracting applicable withholding allowances."
+    },
+    {
+      "caption": "Nebraska Weekly Withholding Percentage Table",
+      "columns": [
+        "Adjusted weekly wages",
+        "Withholding calculation"
+      ],
+      "rows": [
+        [
+          "Up to $66",
+          "$0"
+        ],
+        [
+          "$66–$129",
+          "2.26% of the excess over $66"
+        ],
+        [
+          "$129–$419",
+          "$1.42 plus 3.22% of the excess over $129"
+        ],
+        [
+          "$419–$608",
+          "$10.76 plus 4.21% of the excess over $419"
+        ],
+        [
+          "$608–$772",
+          "$18.72 plus 4.35% of the excess over $608"
+        ],
+        [
+          "$772–$1,449",
+          "$25.85 plus 4.48% of the excess over $772"
+        ],
+        [
+          "Above $1,449",
+          "$56.18 plus 4.60% of the excess over $1,449"
+        ]
+      ]
+    },
+    {
+      "markdown": "Other payment schedules and married withholding classifications use different tables.\n\nEmployees should select their actual payment frequency rather than applying the weekly schedule to monthly or biweekly wages.\n\n## Understanding Nebraska Form W-4N\n\nNebraska employees generally provide state withholding information through Form W-4N.\n\nThe form records applicable withholding allowances and additional withholding information.\n\nThe 2026 annual withholding allowance value is $2,440 per applicable allowance.\n\nEmployees with older withholding certificates may require different treatment depending on the form version and applicable state instructions.\n\nThe modern federal Form W-4 does not use the same allowance structure.\n\nConsequently, federal withholding information should not automatically be copied into Nebraska allowance fields.\n\nReview your state certificate when your employment or household circumstances change.\n\n## Nebraska's Special Minimum Withholding Requirement\n\nNebraska has a special income tax withholding rule that can affect employees working for larger employers.\n\nEmployers with more than 24 employees generally must withhold at least 1.5% of an employee's taxable wages.\n\nA lower amount may be withheld if the employee provides appropriate documentation supporting the lower withholding amount.\n\nRelevant documentation can include information about qualifying dependents, marital status or itemized deductions.\n\nFor example, if an employee has $1,000 in taxable wages and the special requirement applies, the ordinary minimum withholding amount is:\n\n$1,000 × 1.5% = $15\n\nIf the standard withholding calculation produces only $8 and no qualifying documentation supports lower withholding, the applicable minimum would affect the final deduction.\n\nThis is why employer circumstances matter when calculating Nebraska take-home pay.\n\n## Nebraska Withholding Calculation Example\n\nSuppose an employee has $1,000 in adjusted weekly wages after the applicable withholding allowance has already been subtracted.\n\nThe applicable weekly single withholding bracket begins at $772.\n\nUsing the published base tax of $25.85 and marginal withholding rate of 4.48%:\n\n$25.85 + (($1,000 − $772) × 0.0448)\n\nThe ordinary withholding estimate is approximately $36.06.\n\nAny applicable special minimum withholding requirement or additional withholding request must also be considered.\n\nThis example uses adjusted wages rather than the employee's original gross paycheck.\n\n## Federal Taxes Deducted From Nebraska Paychecks\n\nNebraska employees remain subject to applicable federal income tax withholding.\n\nFederal withholding depends on taxable earnings, filing status, payroll frequency and Form W-4 information.\n\nSocial Security generally applies at 6.2% of covered earnings up to the 2026 annual taxable wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nConsult [IRS Publication 15-T](https://www.irs.gov/publications/p15t) and the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official federal payroll calculation procedures.\n\n## Nebraska Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross payments."
+    },
+    {
+      "caption": "Nebraska Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,500 biweekly, uses ordinary single federal withholding settings and has no benefit deductions."
+    },
+    {
+      "caption": "Nebraska Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated federal deductions",
+          "$407.40"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,092.60 remains before Nebraska income tax and other employee deductions.\n\nYour actual state withholding depends on your Nebraska withholding allowances, payment frequency and applicable special withholding requirements.\n\nEnter your Nebraska withholding amount and any other deductions from your pay stub to obtain a more complete estimate.\n\n## Nebraska Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by multiplying their hourly wage by regular working hours and adding qualifying overtime compensation.\n\nSuppose an employee earns $25 per hour and works 40 regular hours plus seven overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 7 = $262.50\n\nTotal gross earnings:\n\n$1,262.50\n\nApplicable taxes and deductions are then calculated using their respective taxable wage amounts.\n\nEmployees receiving shift differentials, commissions or bonuses may experience different withholding amounts.\n\nReview the [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for additional guidance.\n\n## Does Nebraska Have Local Income Taxes?\n\nNebraska municipalities generally do not impose separate personal wage income taxes on ordinary employee compensation.\n\nEmployees working in Omaha or Lincoln therefore generally do not encounter additional municipal wage taxes of the kind found in certain cities in Missouri, Ohio or Michigan.\n\nHowever, local taxes on purchases and household expenses can still influence disposable income.\n\nEvaluate these expenses separately when comparing employment opportunities.\n\n## Working Across Nebraska State Borders\n\nNebraska workers may live in Iowa, South Dakota, Kansas or another neighboring state while working in Nebraska.\n\nA residence in a state without individual wage income tax does not automatically eliminate Nebraska income tax on qualifying Nebraska-sourced earnings.\n\nRemote work and short-term employment assignments may also involve special income sourcing rules.\n\nNebraska has specific provisions affecting nonresident employees attending qualifying training or conferences and other multi-state employment arrangements.\n\nConsult the official Circular EN guidance before applying a nonresident withholding exemption.\n\n## Planning Your Nebraska Monthly Budget\n\nBuild your [household budget](/calculators/budget-calculator/) using estimated take-home pay rather than gross salary.\n\nInclude housing, transportation, groceries, utilities, healthcare and required debt payments.\n\nWhen comparing employment offers, consider insurance premiums, employer retirement matching and paid leave alongside your estimated net income.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) can help evaluate existing borrowing obligations.\n\n## Frequently Asked Questions\n\n### Does Nebraska have a minimum paycheck withholding requirement?\n\nEmployers with more than 24 employees generally must withhold at least 1.5% of taxable wages unless appropriate documentation supports lower withholding.\n\n### What is Nebraska's withholding allowance in 2026?\n\nThe annual withholding allowance value is $2,440 per applicable allowance. Employees should follow their Form W-4N information and the official withholding instructions.\n\n### Does Omaha have a separate personal wage income tax?\n\nOmaha generally does not impose a separate personal wage income tax. Applicable federal and Nebraska state taxes still reduce employee earnings.\n\n## Calculate Your Nebraska Take-Home Pay\n\nUse our Nebraska paycheck calculator to understand your estimated payroll deductions, compare salary offers and establish a realistic household budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
