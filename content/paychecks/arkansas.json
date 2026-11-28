@@ -1,0 +1,110 @@
+{
+  "title": "Arkansas Paycheck Calculator 2026 – Salary After Tax",
+  "description": "Estimate your Arkansas take-home pay after federal taxes, Arkansas income tax, Social Security, Medicare and employee payroll deductions.",
+  "heading": "Arkansas Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Arkansas paycheck calculator** to estimate how much of your salary remains after federal income tax, Arkansas income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to see your estimated take-home pay.\n\nWhether you work in Little Rock, Fayetteville, Bentonville, Fort Smith or another Arkansas community, knowing your estimated net income can help you compare employment opportunities, manage household expenses and establish realistic financial goals.\n\n## How to Use the Arkansas Paycheck Calculator\n\nBegin by entering your earnings before taxes and deductions.\n\nIf you receive a fixed salary, enter your annual gross compensation. Hourly employees should provide their hourly rate, regular hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter federal and Arkansas income tax withheld for the pay period from your pay stub.\n\nInclude any retirement contributions, health insurance premiums, additional withholding and other payroll deductions.\n\nThe calculator displays an estimated breakdown of individual deductions and remaining take-home earnings.\n\nFor the most accurate estimate, enter information from your latest pay stub and withholding certificates.\n\n## Arkansas Payroll Taxes in 2026\n\nArkansas employees generally face federal and state income tax withholding alongside ordinary federal payroll contributions."
+    },
+    {
+      "caption": "Arkansas Payroll Taxes in 2026",
+      "columns": [
+        "Payroll tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Arkansas income tax",
+          "Progressive state tax system"
+        ],
+        [
+          "Top Arkansas annual income tax rate",
+          "3.7% for 2026"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Arkansas reduced its highest individual income tax rate for the 2026 tax year. However, the original employer withholding instructions were issued before that legislative change.\n\nConsequently, employees should distinguish between current payroll withholding and the income tax they ultimately owe when filing their annual return.\n\nThe [Arkansas Department of Finance and Administration](https://www.dfa.arkansas.gov/) provides official tax information and employer resources.\n\n## How Arkansas State Income Tax Works\n\nArkansas uses a progressive individual income tax system, meaning the tax rate applied to portions of taxable income can increase as earnings rise.\n\nFor the 2026 tax year, individuals with applicable net income of $94,700 or less are subject to the following annual tax schedule."
+    },
+    {
+      "caption": "How Arkansas State Income Tax Works",
+      "columns": [
+        "Annual net income bracket",
+        "Tax rate"
+      ],
+      "rows": [
+        [
+          "$0–$5,599",
+          "0%"
+        ],
+        [
+          "$5,600–$11,199",
+          "2%"
+        ],
+        [
+          "$11,200–$15,999",
+          "3%"
+        ],
+        [
+          "$16,000–$26,399",
+          "3.4%"
+        ],
+        [
+          "$26,400–$94,700",
+          "3.7%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Arkansas uses a different calculation structure for higher-income taxpayers. Additional adjustments may also apply.\n\nThese figures represent annual income tax rules rather than direct paycheck withholding percentages.\n\nYour employer must follow the applicable state payroll withholding instructions.\n\nReview the official [2026 Arkansas income tax legislation](https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2026S1%2FPublic%2FACT2.pdf) for details about the rate reduction.\n\n## Understanding Arkansas Income Tax Withholding\n\nArkansas employers can calculate employee income tax withholding using official withholding tables or an authorized calculation formula.\n\nThe state provides withholding tables for different payroll frequencies.\n\nAn employee paid weekly may therefore have different withholding amounts per paycheck from an employee paid monthly, even when both receive the same annual salary.\n\nThe calculation also accounts for applicable withholding exemptions.\n\nDo not estimate Arkansas income tax withholding by simply multiplying your entire gross salary by the highest state tax rate.\n\nThat approach ignores exemptions, deductions and the official payroll calculation methodology.\n\nThe original [2026 Arkansas employer withholding instructions](https://www.dfa.arkansas.gov/wp-content/uploads/withholdInstructions_2026.pdf) explain the state's withholding framework. Check the Department of Finance and Administration for subsequent revisions.\n\n## Arkansas Employee Withholding Certificates\n\nArkansas employees generally provide withholding information using Form AR4EC, the Employee's Withholding Exemption Certificate.\n\nThe form helps employers determine the applicable number of withholding exemptions.\n\nEmployees who qualify for special withholding exemption treatment may need to complete Form AR4ECSP instead.\n\nFederal and Arkansas withholding certificates serve different purposes. Updating your federal Form W-4 does not necessarily update your Arkansas withholding elections.\n\nReview your state withholding information after significant household changes, employment changes or other events that affect your expected tax liability.\n\nClaiming fewer or more withholding exemptions can change your immediate paycheck without necessarily changing your final annual tax obligation.\n\n## Federal Taxes Deducted From Arkansas Paychecks\n\n### Federal income tax\n\nFederal income tax withholding depends on your taxable wages, filing status, payment frequency and Form W-4 adjustments.\n\nHouseholds with multiple jobs or other income sources may need additional withholding to align their payments with expected annual tax obligations.\n\nEmployers generally use the methods described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n### Social Security tax\n\nEmployees generally contribute 6.2% of covered Social Security wages.\n\nFor 2026, the annual taxable wage ceiling is $184,500.\n\nAn employee receiving $2,400 in covered earnings before reaching that annual limit would contribute $148.80.\n\n### Medicare tax\n\nOrdinary Medicare withholding is 1.45% of covered wages.\n\nUnlike Social Security, ordinary Medicare does not have a standard annual taxable wage ceiling.\n\nEmployers generally withhold an additional 0.9% on Medicare-covered wages exceeding $200,000 paid by that employer during the calendar year.\n\nThe [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) explains these requirements in greater detail.\n\n## Arkansas Paycheck Example: $62,400 Annual Salary\n\nConsider an Arkansas employee earning $62,400 annually."
+    },
+    {
+      "caption": "Arkansas Paycheck Example: $62,400 Annual Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,200.00"
+        ],
+        [
+          "Biweekly",
+          "$2,400.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,600.00"
+        ],
+        [
+          "Monthly",
+          "$5,200.00"
+        ],
+        [
+          "Annually",
+          "$62,400.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,400 biweekly, with all wages covered by ordinary Social Security and Medicare contributions.\n\nSocial Security:\n\n$2,400 × 6.2% = $148.80\n\nMedicare:\n\n$2,400 × 1.45% = $34.80\n\nTotal federal payroll contributions:\n\n$148.80 + $34.80 = $183.60\n\nThe employee would have approximately $2,216.40 remaining before federal income tax, Arkansas income tax and other payroll deductions.\n\nThis example illustrates only part of the paycheck calculation.\n\nYour actual net earnings depend on your withholding elections, benefit arrangements and other applicable adjustments.\n\n## Arkansas Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by multiplying their hourly wage by regular working hours and adding qualifying overtime compensation.\n\nFor example, an employee earning $23 per hour who works 40 regular hours and six qualifying overtime hours at time-and-a-half would receive:\n\nRegular earnings:\n\n$23 × 40 = $920\n\nOvertime earnings:\n\n$23 × 1.5 × 6 = $207\n\nTotal gross earnings:\n\n$1,127\n\nThe applicable federal and Arkansas payroll deductions would then be calculated using the relevant taxable wage amounts.\n\nEmployees working in manufacturing, transportation, healthcare and retail may receive additional compensation through shift differentials, bonuses or overtime.\n\nThese earnings can cause paycheck amounts to vary throughout the year.\n\nReview the [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) to understand overtime eligibility and applicable exemptions.\n\n## Does Arkansas Have Local Income Taxes?\n\nArkansas municipalities generally do not impose a separate employee wage income tax.\n\nThis differs from states such as Ohio, where municipal and school district income taxes may significantly affect take-home pay.\n\nHowever, local sales taxes and other household expenses can still affect your disposable income.\n\nWhen comparing salaries in different Arkansas communities, consider housing, transportation, insurance and other essential expenses alongside your estimated paycheck.\n\nThese living expenses should be evaluated separately rather than deducted as payroll income taxes.\n\n## Special Tax Considerations for Texarkana Residents\n\nArkansas has a special income tax exemption that may apply to qualifying residents of Texarkana, Arkansas, and certain income earned by qualifying Texas residents working in Texarkana, Arkansas.\n\nThis arrangement reflects the unusual geographic circumstances of a city located on the Arkansas–Texas border.\n\nEligibility depends on residency, income source and applicable state rules.\n\nDo not assume that every person living or working near Texarkana automatically qualifies.\n\nEmployees claiming this treatment should confirm their eligibility with the Arkansas Department of Finance and Administration and their employer.\n\nA standard statewide paycheck estimate may not fully represent these special arrangements.\n\n## How Employee Benefits Affect Arkansas Take-Home Pay\n\nRetirement contributions, health insurance premiums and other employee deductions can influence both your taxable wages and final paycheck.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable earnings, while Roth contributions generally do not provide the same immediate income tax reduction.\n\nCertain qualifying health insurance arrangements may reduce applicable taxable wages.\n\nOther deductions reduce the amount deposited into your bank account without necessarily reducing income or payroll taxes.\n\nReview your pay stub to understand how each benefit is classified.\n\nWhen comparing employment offers, consider employer retirement matching, insurance coverage and other benefits alongside your take-home salary.\n\n## Planning Your Monthly Budget in Arkansas\n\nUse estimated net income rather than gross salary when establishing a monthly spending plan.\n\nBegin with essential expenses, including housing, groceries, transportation, utilities, insurance and debt payments.\n\nThen determine how much you can allocate toward emergency savings, retirement and other financial objectives.\n\nEmployees paid biweekly should remember that most months contain two paychecks, while some contain three.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help estimate your savings requirements, while our [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) can help you evaluate your borrowing commitments.\n\n## Frequently Asked Questions\n\n### What is the Arkansas state income tax rate in 2026?\n\nArkansas reduced its highest individual income tax rate to 3.7% for the 2026 tax year. Actual paycheck withholding depends on the applicable official payroll schedules and your withholding information.\n\n### Does Arkansas deduct city income tax from paychecks?\n\nArkansas municipalities generally do not impose separate personal wage income taxes. Employees remain subject to applicable state and federal taxes.\n\n### Can Texarkana residents qualify for an Arkansas income tax exemption?\n\nCertain qualifying Texarkana residents and income arrangements may receive special state tax treatment. Confirm eligibility with the Arkansas Department of Finance and Administration before applying an exemption.\n\n## Calculate Your Arkansas Take-Home Pay\n\nUse our Arkansas paycheck calculator to estimate net earnings, understand your payroll deductions and compare salary offers.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}
