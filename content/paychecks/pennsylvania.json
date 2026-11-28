@@ -1,0 +1,161 @@
+{
+  "title": "Pennsylvania Paycheck Calculator 2026 – State and Local Taxes",
+  "metaDescription": "Calculate your Pennsylvania take-home pay after federal taxes, PA income tax, local earned income tax, unemployment contributions and other deductions.",
+  "heading": "Pennsylvania Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Pennsylvania paycheck calculator** to estimate your take-home pay after federal income tax, Pennsylvania income tax, local earned income tax, Social Security, Medicare and applicable employee unemployment contributions.\n\nEnter your annual salary or hourly wage, select your payment frequency and provide your local tax information to understand how much money you could receive on payday.\n\nPennsylvania's local income tax system makes location particularly important when calculating net earnings. Employees receiving identical salaries may have different take-home pay because they live or work in different municipalities.\n\nWhether you work in Philadelphia, Pittsburgh, Harrisburg, Allentown or another Pennsylvania community, this calculator can help you compare salaries and manage your finances.\n\n## How to Use the Pennsylvania Paycheck Calculator\n\nBegin by entering your annual salary or hourly earnings before taxes.\n\nSelect your payment frequency. Enter the federal and Pennsylvania income tax withheld for the pay period from your pay stub.\n\nEnter the local earned income tax or Philadelphia Wage Tax amount shown on your pay stub. If both apply, enter the total withheld.\n\nInclude retirement contributions and healthcare premiums. Under Benefits, open Advanced settings and enter any Local Services Tax and employee unemployment contribution under Other deductions. Enter each deduction once.\n\nReview your estimated gross pay, individual deductions and remaining take-home earnings.\n\nUse your latest payroll statement and official local tax information for a more accurate estimate.\n\n## Pennsylvania Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Pennsylvania Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Pennsylvania income tax",
+          "3.07%"
+        ],
+        [
+          "Local Earned Income Tax",
+          "Applicable jurisdiction rate"
+        ],
+        [
+          "Philadelphia Wage Tax",
+          "Resident or nonresident rate"
+        ],
+        [
+          "Local Services Tax",
+          "Depends on employment jurisdiction"
+        ],
+        [
+          "Employee unemployment contribution",
+          "0.07%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ]
+      ]
+    },
+    {
+      "markdown": "Higher-income employees may also encounter Additional Medicare withholding.\n\nThe exact deductions depend on your taxable earnings, residency, work location and employee benefit arrangements.\n\n## How Pennsylvania State Income Tax Works\n\nPennsylvania applies a flat individual income tax rate of 3.07%.\n\nUnlike states that use progressive tax brackets, Pennsylvania generally applies the same statutory rate to all applicable taxable compensation.\n\nFor example, an employee receiving $2,500 in Pennsylvania taxable wages would have ordinary state withholding of:\n\n$2,500 × 3.07% = $76.75.\n\nPennsylvania does not automatically follow every federal deduction rule. Certain employee retirement contributions that reduce federal income-taxable wages may remain taxable compensation for Pennsylvania purposes.\n\nA reliable Pennsylvania salary calculator must therefore maintain separate federal and state taxable wage amounts.\n\nRead the official [Pennsylvania employer withholding guidance](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/employer-withholding) and [personal income tax guide](https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/personal-income-tax) for additional information.\n\n## Pennsylvania Local Earned Income Tax\n\nPennsylvania's Act 32 framework requires employers to account for applicable municipal and school district earned income taxes.\n\nFor ordinary employment covered by Act 32, employers compare the employee's total resident earned income tax rate with the nonresident earned income tax rate applicable to the workplace.\n\nThe higher of these two rates generally determines withholding.\n\nSuppose your resident earned income tax rate is 1% and your workplace's nonresident rate is 1.5%.\n\nThe applicable withholding rate would generally be 1.5%, not the combined 2.5%.\n\nFor $2,500 of covered earnings, the resulting local withholding would be $37.50.\n\nThese rates are hypothetical. Use the official [Pennsylvania local tax information and address lookup resources](https://dced.pa.gov/local-government/local-income-tax-information/) to identify your actual tax jurisdiction.\n\nThe [Pennsylvania local withholding FAQs](https://dced.pa.gov/local-government/local-income-tax-information/local-withholding-tax-faqs/) explain the residence and workplace rate comparison.\n\n## Understanding Pennsylvania PSD Codes\n\nPolitical Subdivision codes, commonly known as PSD codes, identify Pennsylvania municipalities for local income tax administration.\n\nYour employer uses residence and employment location information to determine applicable withholding rates and direct payments to the correct tax collector.\n\nA ZIP code alone may not establish your correct local tax jurisdiction.\n\nWhen entering local tax information, use your official residence and workplace tax classifications rather than relying on a nearby city's published rate.\n\nThe [Pennsylvania residency certification form](https://dced.pa.gov/download/residency-certification-form-local-earned-income-tax-withholding-pdf/?wpdmdl=57773) explains the information used by employers.\n\n## Philadelphia Paycheck Calculator\n\nPhiladelphia operates its own Wage Tax system rather than simply following the ordinary Act 32 withholding calculation.\n\nThe applicable 2026 rates are:"
+    },
+    {
+      "caption": "Philadelphia Paycheck Calculator",
+      "columns": [
+        "Effective period",
+        "Resident rate",
+        "Nonresident rate"
+      ],
+      "rows": [
+        [
+          "January 1–June 30",
+          "3.74%",
+          "3.43%"
+        ],
+        [
+          "July 1–December 31",
+          "3.735%",
+          "3.425%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Residents are generally subject to the tax on applicable earned income, while nonresidents may owe the tax on qualifying work performed in Philadelphia.\n\nFor $2,500 of covered earnings after July 1, 2026:\n\nPhiladelphia resident withholding is approximately $93.38.\n\nPhiladelphia nonresident withholding is approximately $85.63.\n\nThe correct calculation depends on the payment date and employee circumstances.\n\nReview the official [Philadelphia Wage Tax rates and employer guidance](https://www.phila.gov/services/business-self-employment/business-taxes/wage-tax-employers/) before entering local tax information.\n\n## Pennsylvania Local Services Tax\n\nSome Pennsylvania municipalities collect a Local Services Tax, commonly abbreviated LST.\n\nUnlike ordinary earned income tax, this is generally a fixed annual amount rather than a percentage of wages.\n\nFor illustration, an annual Local Services Tax of $52 distributed across 26 biweekly paychecks would produce a $2 deduction per paycheck.\n\nCertain income exemptions, multiple-employer rules and collection requirements can affect the amount withheld.\n\nDo not assume that every Pennsylvania employee pays $52 annually.\n\nConsult the [Pennsylvania local tax requirements for employers](https://dced.pa.gov/local-government/local-income-tax-information/instructions-employers/) for official guidance.\n\n## Pennsylvania Employee Unemployment Contributions\n\nPennsylvania requires covered employees to contribute toward its unemployment compensation system.\n\nFor 2026, the employee contribution rate is 0.07% of gross covered wages.\n\nUnlike some other state unemployment contribution systems, Pennsylvania does not impose an annual wage ceiling on this employee deduction."
+    },
+    {
+      "caption": "Pennsylvania Employee Unemployment Contributions",
+      "columns": [
+        "Covered earnings",
+        "Employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$0.35"
+        ],
+        [
+          "$1,000",
+          "$0.70"
+        ],
+        [
+          "$2,500",
+          "$1.75"
+        ],
+        [
+          "$5,000",
+          "$3.50"
+        ],
+        [
+          "$10,000",
+          "$7.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employer unemployment contributions are separate from the employee contribution.\n\nVisit the official [Pennsylvania unemployment compensation yearly tax highlights](https://www.pa.gov/agencies/dli/resources/for-employers-and-educators/how-to-file/uc-tax/yearly-tax-highlights) for the applicable annual rate.\n\n## Federal Payroll Taxes for Pennsylvania Employees\n\nFederal income tax withholding depends on taxable wages, payment frequency, filing status and Form W-4 information.\n\nThe ordinary employee Social Security contribution is 6.2% of covered wages up to $184,500 in 2026.\n\nMedicare generally applies at 1.45% of covered wages without a standard annual wage ceiling.\n\nEmployers also generally withhold an additional 0.9% once Medicare wages paid by that employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t), the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) and the [Social Security Administration wage base information](https://www.ssa.gov/oact/cola/cbb.html).\n\n## Pennsylvania Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually with 26 biweekly payments.\n\nAssume ordinary single federal withholding settings, no additional benefit deductions, an applicable local earned income tax rate of 1%, and a $52 annual Local Services Tax."
+    },
+    {
+      "caption": "Pennsylvania Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Gross biweekly earnings",
+          "$2,500.00"
+        ],
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Pennsylvania income tax",
+          "$76.75"
+        ],
+        [
+          "Local earned income tax",
+          "$25.00"
+        ],
+        [
+          "Local Services Tax",
+          "$2.00"
+        ],
+        [
+          "Employee unemployment contribution",
+          "$1.75"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$512.90"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,987.10"
+        ]
+      ]
+    },
+    {
+      "markdown": "The local tax assumptions are illustrative and do not represent every Pennsylvania municipality.\n\nUse your actual tax jurisdiction and benefit information when estimating your paycheck.\n\n## Pennsylvania Hourly Paycheck Calculator\n\nSuppose an employee earns $25 per hour and works 40 regular hours plus eight qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $1,000.\n\nOvertime earnings: $300.\n\nTotal gross earnings: $1,300.\n\nAssuming all earnings are subject to Pennsylvania income tax, ordinary state withholding would be $39.91.\n\nThe employee unemployment contribution would be $0.91.\n\nFederal taxes and applicable local deductions would also reduce the paycheck.\n\nReview the [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for information about eligibility and exemptions.\n\n## Working Across Pennsylvania State Borders\n\nPennsylvania has reciprocal income tax agreements with Indiana, Maryland, New Jersey, Ohio, Virginia and West Virginia.\n\nThese arrangements may affect the state income tax treatment of qualifying employee compensation.\n\nHowever, state reciprocity does not automatically remove Pennsylvania local earned income taxes.\n\nEligible employees should follow the applicable withholding exemption and documentation requirements.\n\nConsult the [Pennsylvania income withholding guide](https://www.pa.gov/agencies/revenue/forms-and-publications/pa-personal-income-tax-guide/income-subject-withholding-estimated-payments-penalties-interest-other-additions) before applying an interstate exemption.\n\n## Managing Your Pennsylvania Take-Home Income\n\nCompare employment offers using estimated net income rather than gross salary alone.\n\nAccount for differences in municipal taxes, housing expenses, commuting costs and employee benefits.\n\nUse our [emergency fund calculator](/savings/emergency-fund-calculator/) to establish a savings target and our [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) to evaluate your borrowing commitments.\n\nThe [CFPB consumer financial education resources](https://www.consumerfinance.gov/consumer-tools/) can also help you prepare a practical [household budget](/calculators/budget-calculator/).\n\n## Frequently Asked Questions\n\n### What is Pennsylvania's state income tax rate in 2026?\n\nPennsylvania applies a flat individual income tax rate of 3.07% to applicable taxable compensation.\n\n### Do all Pennsylvania employees pay the same local income tax?\n\nNo. Applicable local taxes depend on residence, employment location and municipal rules. Philadelphia also operates a separate Wage Tax system.\n\n### How much is Pennsylvania employee unemployment withholding?\n\nThe 2026 employee contribution rate is 0.07% of gross covered wages, without an annual wage ceiling.\n\n## Calculate Your Pennsylvania Take-Home Pay\n\nUse our Pennsylvania paycheck calculator to estimate your federal, state and local payroll deductions and understand your remaining net earnings.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
