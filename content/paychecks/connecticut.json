@@ -1,0 +1,174 @@
+{
+  "title": "Connecticut Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Estimate your Connecticut take-home pay after federal taxes, Connecticut income tax, paid leave contributions, Social Security and Medicare.",
+  "heading": "Connecticut Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Connecticut paycheck calculator** to estimate your take-home pay after federal income tax, Connecticut income tax, Social Security, Medicare and Connecticut Paid Leave contributions.\n\nEnter your annual salary or hourly wage, select your payment frequency and provide your withholding information to see how much money you could receive on payday.\n\nWhether you work in Hartford, Stamford, Bridgeport, New Haven or another Connecticut community, understanding your paycheck can help you evaluate employment opportunities and manage household expenses.\n\n## How to Use the Connecticut Paycheck Calculator\n\nIf your pay stub lists Connecticut Paid Leave contributions, include the amount under other deductions. Enter each deduction once.\n\nThe calculator estimates employee earnings and deductions using your income and payroll information.\n\n1. Select annual salary or hourly wages.\n2. Enter your gross income before taxes.\n3. Choose your payment frequency.\n4. Enter the federal income tax withheld from that pay period.\n5. Enter the Connecticut income tax withheld from the same pay period.\n6. Include retirement contributions, insurance premiums and other deductions.\n7. Review your estimated take-home pay.\n\nUse the information from your latest pay stub and Form CT-W4 for a more representative estimate.\n\nEmployees with multiple jobs, interstate employment or irregular earnings may require additional calculations.\n\n## Connecticut Payroll Taxes in 2026\n\nConnecticut employees generally encounter several types of income tax and payroll contributions."
+    },
+    {
+      "caption": "Connecticut Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Connecticut income tax",
+          "Progressive rates from 2% to 6.99%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the applicable employer threshold"
+        ],
+        [
+          "Connecticut Paid Leave",
+          "0.5% of covered wages up to the annual limit"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on your withholding elections, taxable income, employment classification and employee benefits.\n\nThe [Connecticut Department of Revenue Services](https://portal.ct.gov/drs) publishes the official state withholding requirements.\n\n## How Connecticut State Income Tax Works\n\nConnecticut applies progressive individual income tax rates. This means different portions of taxable income may be taxed at different rates.\n\nFor single filers and married individuals filing separately, the initial annual tax calculation uses the following brackets in 2026."
+    },
+    {
+      "caption": "How Connecticut State Income Tax Works",
+      "columns": [
+        "Applicable taxable income portion",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "First $10,000",
+          "2%"
+        ],
+        [
+          "$10,000–$50,000",
+          "4.5%"
+        ],
+        [
+          "$50,000–$100,000",
+          "5.5%"
+        ],
+        [
+          "$100,000–$200,000",
+          "6%"
+        ],
+        [
+          "$200,000–$250,000",
+          "6.5%"
+        ],
+        [
+          "$250,000–$500,000",
+          "6.9%"
+        ],
+        [
+          "Above $500,000",
+          "6.99%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Other filing statuses use different thresholds.\n\nConnecticut also applies personal exemptions, tax credits, phase-outs and tax recapture rules where applicable. Consequently, the bracket calculation alone may not determine your final income tax or paycheck withholding.\n\nThe [Connecticut withholding forms and publications](https://portal.ct.gov/DRS/DRS-Forms/Current-Year-Forms/Withholding-Forms) provide official calculation instructions.\n\n## Understanding Connecticut Form CT-W4\n\nConnecticut employees use Form CT-W4 to provide state withholding information to their employers.\n\nUnlike the federal Form W-4, Connecticut uses letter-based withholding codes. The appropriate code depends on your expected filing status, household income and other circumstances.\n\nFor example, married employees whose spouses also work may need different withholding treatment from married employees in single-income households.\n\nEmployees qualifying for exemption from withholding may use the applicable exemption code.\n\nChoosing an incorrect code can result in insufficient or excessive withholding throughout the year.\n\nReview your CT-W4 after changing jobs, getting married or experiencing a significant change in household income.\n\n## Connecticut Paid Leave Contributions\n\nConnecticut Paid Leave provides financial benefits to eligible workers taking leave for qualifying family and medical circumstances.\n\nIn 2026, covered employees generally contribute 0.5% of eligible wages.\n\nAssuming the annual contribution ceiling has not been reached:"
+    },
+    {
+      "caption": "Connecticut Paid Leave Contributions",
+      "columns": [
+        "Covered earnings",
+        "Paid Leave contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.50"
+        ],
+        [
+          "$1,000",
+          "$5.00"
+        ],
+        [
+          "$2,000",
+          "$10.00"
+        ],
+        [
+          "$3,000",
+          "$15.00"
+        ],
+        [
+          "$5,000",
+          "$25.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "The annual covered wage ceiling follows the Social Security contribution and benefit base.\n\nFor 2026, that limit is $184,500, giving a maximum standard annual contribution of $922.50.\n\nEmployees who reach the wage ceiling with an employer generally stop paying additional contributions through that employer for the remainder of the calendar year.\n\nApproved private plans and certain employment arrangements may affect coverage.\n\nRead the official [Connecticut Paid Leave contribution guidance](https://www.ctpaidleave.org/remit-contributions) for additional information.\n\n## Connecticut Paid Leave Wage Limit Example\n\nSuppose an employee has already earned $184,000 in covered wages and receives another $2,000 paycheck.\n\nOnly $500 remains below the annual contribution ceiling.\n\nThe contribution would be:\n\n$500 × 0.005 = $2.50\n\nApplying the contribution percentage to the entire paycheck would produce an incorrect deduction.\n\nThis is why entering year-to-date covered wages is particularly useful for higher-income employees.\n\nEmployees working for multiple employers may also need to review whether their combined contributions exceed the applicable annual limit.\n\n## Federal Taxes Deducted From Connecticut Paychecks\n\nFederal income tax withholding depends on your taxable income, payment frequency and federal withholding information.\n\nSocial Security generally deducts 6.2% of covered wages until the annual limit is reached.\n\nFor 2026, the annual Social Security wage limit is $184,500.\n\nOrdinary Medicare withholding is 1.45% of covered wages.\n\nHigher-income employees may encounter additional Medicare withholding when covered wages paid by their employer exceed $200,000 during the calendar year.\n\nEmployers use the federal calculation procedures described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n## Connecticut Paycheck Example: $78,000 Salary\n\nSuppose you earn $78,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Connecticut Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500"
+        ],
+        [
+          "Biweekly",
+          "$3,000"
+        ],
+        [
+          "Semimonthly",
+          "$3,250"
+        ],
+        [
+          "Monthly",
+          "$6,500"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume your $3,000 biweekly paycheck is fully covered by ordinary payroll contributions and the annual limits have not been reached."
+    },
+    {
+      "caption": "Connecticut Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Contribution",
+        "Estimated deduction"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Connecticut Paid Leave",
+          "$15.00"
+        ],
+        [
+          "Total",
+          "$244.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,755.50 remains before federal income tax, Connecticut income tax and other employee deductions.\n\nYour actual take-home pay depends on the withholding information you provide to your employer.\n\n## Connecticut Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by combining regular pay and qualifying overtime.\n\nConsider a worker earning $28 per hour who works 40 regular hours and five qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $28 × 40 = $1,120\n\nOvertime earnings: $28 × 1.5 × 5 = $210\n\nTotal gross earnings: $1,330\n\nApplicable taxes and contributions are then calculated from the relevant taxable wage amounts.\n\nEmployees receiving commissions, shift differentials or irregular bonuses should account for these separately where applicable.\n\nConsult the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for information about eligibility and exemptions.\n\n## Working in Connecticut and Living in Another State\n\nConnecticut's proximity to New York, Massachusetts and Rhode Island creates additional tax considerations for interstate commuters.\n\nEmployees may owe income tax in their work state while also having filing obligations in their residence state.\n\nResident tax credits may reduce double taxation, but eligibility depends on the applicable rules.\n\nRemote work and employment across multiple states can complicate income sourcing.\n\nConnecticut provides Form CT-W4NA for applicable nonresident wage apportionment situations.\n\nA standard Connecticut paycheck estimate should not be treated as a complete interstate tax calculation.\n\n## How Retirement and Health Benefits Affect Your Paycheck\n\nYour employer may deduct contributions toward retirement savings, healthcare and other employee benefits.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages. Roth 401(k) contributions generally do not offer the same immediate tax reduction.\n\nQualifying health insurance arrangements may reduce certain taxable wages.\n\nHowever, deductions do not necessarily affect income tax, Social Security, Medicare and paid leave contributions identically.\n\nReview the taxable wage figures on your pay stub to determine how your employer classifies each deduction.\n\n## Managing Your Connecticut Take-Home Income\n\nCompare employment opportunities using estimated net earnings rather than annual gross salary alone.\n\nConsider commuting expenses, housing costs, health insurance premiums and employer retirement contributions.\n\nFor employees commuting between Fairfield County and New York City, transportation expenses and interstate tax arrangements may significantly affect disposable income.\n\nUse our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare compensation arrangements and our [emergency fund calculator](/savings/emergency-fund-calculator/) to estimate the savings needed to cover unexpected expenses.\n\n## Frequently Asked Questions\n\n### What is Connecticut's income tax rate in 2026?\n\nConnecticut uses progressive individual income tax rates ranging from 2% to 6.99%. Exemptions, credits, withholding codes and other adjustments affect the actual amount deducted from your paycheck.\n\n### What is the CT Paid Leave deduction on my paycheck?\n\nCovered employees generally contribute 0.5% of eligible wages, subject to the annual wage ceiling of $184,500 in 2026.\n\n### Does Connecticut have municipal employee income taxes?\n\nConnecticut municipalities generally do not impose a separate personal wage income tax. Federal income tax, Connecticut income tax and applicable payroll contributions still apply.\n\n## Calculate Your Connecticut Take-Home Pay\n\nUse our Connecticut paycheck calculator to estimate your earnings after taxes, understand your payroll deductions and build a realistic budget.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}
