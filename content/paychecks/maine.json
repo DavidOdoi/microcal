@@ -1,0 +1,134 @@
+{
+  "title": "Maine Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Maine take-home pay after federal taxes, Maine income tax, paid family leave contributions, Social Security and Medicare.",
+  "heading": "Maine Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Maine paycheck calculator** to estimate your take-home pay after federal income tax, Maine income tax, Social Security, Medicare and applicable Paid Family and Medical Leave contributions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your payroll deductions to see how much money you could receive on payday.\n\nMaine's income tax system includes progressive tax rates, income-dependent adjustments and paid leave contributions. Understanding these deductions is important when comparing salaries or planning your monthly expenses.\n\nWhether you work in Portland, Bangor, Augusta, Lewiston or another Maine community, this calculator can help you understand the relationship between gross earnings and take-home income.\n\n## How to Use the Maine Paycheck Calculator\n\nStart by selecting whether you receive a fixed annual salary or hourly wages.\n\nEnter your earnings before taxes, then select your payment frequency. Enter the federal and Maine income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions and health insurance premiums. If Maine Paid Leave was withheld, enter the amount under Benefits in Advanced settings, under Other deductions.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\nReview your estimated paycheck breakdown and compare it with your latest payroll statement.\n\nEmployees with variable earnings, multiple jobs or interstate employment may need to provide additional information to obtain a representative estimate.\n\n## Maine Payroll Taxes in 2026\n\nMaine employees may encounter the following payroll deductions."
+    },
+    {
+      "caption": "Maine Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Maine income tax",
+          "Progressive withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual taxable wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the applicable employer threshold"
+        ],
+        [
+          "Maine Paid Family and Medical Leave",
+          "Generally up to 0.5% employee contribution"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual deductions depend on taxable earnings, withholding information, employment arrangements and employee benefits.\n\nVisit [Maine Revenue Services](https://www.maine.gov/revenue/) for official income tax and employer withholding information.\n\n## How Maine State Income Tax Works\n\nMaine uses a progressive individual income tax system. Its ordinary income tax brackets apply rates of 5.8%, 6.75% and 7.15%, with additional high-income provisions under the revised 2026 rules.\n\nProgressive taxation means that different portions of your taxable earnings may be subject to different rates.\n\nYour highest marginal tax rate should not be applied to your entire gross salary.\n\nEmployers calculate withholding using state-approved tables or the authorized percentage method. These calculations account for applicable deductions, withholding allowances and filing classifications.\n\nMaine revised its 2026 withholding instructions during the year to account for increased standard deductions and a new income tax surcharge.\n\nThe [revised Maine 2026 withholding instructions](https://www1.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/26_wh_tab_instr_August2026.pdf) explain the updated methodology.\n\n## Maine Standard Deductions and Personal Exemptions\n\nMaine's revised 2026 guidance identifies a personal exemption amount of $5,300.\n\nThe basic annual standard deductions are $15,700 for single filers and $31,400 for married couples filing jointly.\n\nHowever, these deductions are subject to income-based phase-outs, and the amounts used in the payroll withholding calculation differ slightly from the annual income tax return figures.\n\nEmployees should therefore avoid using a simplified annual income tax calculation as a substitute for payroll withholding.\n\nFor example, an employee earning $80,000 may have different withholding from another employee earning the same amount because of filing classifications, allowances or additional withholding.\n\n## Understanding Maine Form W-4ME\n\nMaine employees generally use Form W-4ME to provide withholding information to their employers.\n\nThe form allows employees to specify applicable withholding allowances, marital classifications and additional withholding amounts.\n\nYour Maine withholding elections are separate from federal Form W-4 information.\n\nReview your withholding certificate when starting a new job, changing your filing status or experiencing a substantial change in household income.\n\nYou can obtain current forms through the [Maine Revenue Services tax forms directory](https://www.maine.gov/revenue/tax-return-forms).\n\nChanging your withholding may increase or decrease your immediate take-home pay, but it does not necessarily change your final annual tax liability.\n\n## Maine Paid Family and Medical Leave Contributions\n\nMaine's Paid Family and Medical Leave program provides financial benefits to qualifying workers who need time away from employment for eligible family or medical circumstances.\n\nPayroll contributions began in January 2025, and benefits became available in May 2026.\n\nThe standard employee share is generally limited to 0.5% of covered wages.\n\nEmployers may pay some or all of the employee's contribution.\n\nAssuming the maximum ordinary employee contribution applies and the annual wage limit has not been reached:"
+    },
+    {
+      "caption": "Maine Paid Family and Medical Leave Contributions",
+      "columns": [
+        "Covered wages",
+        "Employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.50"
+        ],
+        [
+          "$1,000",
+          "$5.00"
+        ],
+        [
+          "$1,500",
+          "$7.50"
+        ],
+        [
+          "$2,500",
+          "$12.50"
+        ],
+        [
+          "$5,000",
+          "$25.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "The program applies an annual covered wage ceiling corresponding to the Social Security wage base.\n\nFor 2026, this ceiling is $184,500, producing a maximum standard employee contribution of $922.50 at the 0.5% rate.\n\nVisit the official [Maine Paid Family and Medical Leave website](https://www.maine.gov/paidleave/) for additional coverage and contribution information.\n\n## Maine Paid Leave Wage Limit Example\n\nSuppose an employee has already earned $183,000 in covered wages and receives another paycheck containing $2,500.\n\nOnly $1,500 remains below the annual wage ceiling.\n\nThe maximum ordinary employee contribution for this paycheck would be:\n\n$1,500 × 0.005 = $7.50\n\nApplying the contribution rate to the entire paycheck would incorrectly produce a deduction of $12.50.\n\nThis illustrates why year-to-date covered wages are an important input for higher-income employees.\n\nApproved private plans and employer-paid contributions may produce different deductions.\n\n## Federal Taxes Deducted From Maine Paychecks\n\nFederal income tax withholding depends on your taxable earnings, filing status, payroll frequency and Form W-4 information.\n\nSocial Security generally applies at 6.2% of covered wages, up to the 2026 annual taxable wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings without a standard annual wage limit.\n\nEmployers generally withhold an additional 0.9% when covered Medicare wages paid by that employer exceed $200,000 during the calendar year.\n\nThe official calculation procedures are available in [IRS Publication 15-T](https://www.irs.gov/publications/p15t) and the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15).\n\n## Maine Paycheck Example: $65,000 Annual Salary\n\nSuppose you earn $65,000 annually and receive 26 biweekly paychecks."
+    },
+    {
+      "caption": "Maine Paycheck Example: $65,000 Annual Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume all wages are subject to ordinary federal payroll contributions and the maximum standard Maine employee paid leave contribution."
+    },
+    {
+      "caption": "Maine Paycheck Example: $65,000 Annual Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Maine Paid Leave",
+          "$12.50"
+        ],
+        [
+          "Total illustrated contributions",
+          "$203.75"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,296.25 remains before federal income tax, Maine income tax and other employee deductions.\n\nIf your employer pays the entire employee paid leave contribution, the remaining amount would be $12.50 higher under otherwise identical assumptions.\n\nUse your actual withholding amounts to calculate your complete estimated net paycheck.\n\n## Maine Hourly Paycheck Calculator\n\nHourly employees can estimate their earnings by multiplying their hourly rate by regular working hours and adding qualifying overtime compensation.\n\nConsider an employee earning $26 per hour who works 40 regular hours plus six overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$26 × 40 = $1,040\n\nOvertime earnings:\n\n$26 × 1.5 × 6 = $234\n\nTotal gross earnings:\n\n$1,274\n\nAt a 0.5% employee paid leave contribution rate, the deduction would be $6.37 if all earnings are covered and the annual limit has not been reached.\n\nFederal and state taxes would also apply.\n\nConsult the [Maine Department of Labor](https://www.maine.gov/labor/) for state employment requirements and overtime guidance.\n\n## Working in Maine and New Hampshire\n\nEmployees living near the Maine–New Hampshire border may work in one state while residing in the other.\n\nAlthough New Hampshire does not impose individual income tax on ordinary wages, working or residing in Maine can still create Maine income tax obligations.\n\nYour employment location, residency and income sourcing determine the appropriate tax treatment.\n\nRemote workers and employees performing duties in multiple states may require more detailed calculations.\n\nA standard Maine paycheck calculator should not be treated as a complete interstate tax estimator.\n\n## Managing Seasonal Earnings in Maine\n\nTourism, hospitality, fishing and other seasonal industries can produce substantial differences in earnings throughout the year.\n\nEmployees may receive higher paychecks during busy months and lower earnings during quieter periods.\n\nWhen planning your budget, avoid assuming that your highest-paying month represents your normal annual income.\n\nEstimate your total expected earnings and maintain sufficient savings to cover periods of reduced employment.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help you establish a savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare hourly and salaried positions.\n\n## Frequently Asked Questions\n\n### What is Maine's income tax rate in 2026?\n\nMaine's ordinary individual income tax brackets use rates of 5.8%, 6.75% and 7.15%. Revised 2026 rules also include additional high-income provisions. Actual withholding depends on the applicable payroll schedules.\n\n### How much is Maine Paid Family and Medical Leave deducted from paychecks?\n\nCovered employees generally contribute up to 0.5% of eligible wages, subject to the annual wage ceiling of $184,500 in 2026. Employers may cover some or all of the employee contribution.\n\n### Why did my Maine paycheck change during 2026?\n\nMaine issued revised withholding instructions during 2026 to reflect updated deductions and a new income tax surcharge. Changes in federal taxes, benefits and payroll contributions may also affect your earnings.\n\n## Calculate Your Maine Take-Home Pay\n\nUse our Maine paycheck calculator to understand your payroll deductions, compare employment opportunities and manage your finances using estimated net earnings.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
