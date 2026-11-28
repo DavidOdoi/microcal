@@ -1,0 +1,74 @@
+{
+  "title": "Wyoming Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Estimate Wyoming take-home pay from federal withholding, Social Security, Medicare and employee deductions. Wyoming has no state wage income tax.",
+  "heading": "Wyoming Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use the Wyoming paycheck calculator to estimate take-home pay from your salary or hourly earnings. Wyoming has no individual state income tax on wages. Federal withholding, Social Security, Medicare and deductions such as insurance or retirement contributions still affect the amount you receive.\n\n\n## How to Use the Wyoming Paycheck Calculator\n\nChoose the pay schedule shown on your pay stub. Enter annual salary or hourly wages and hours worked, including qualifying overtime where applicable.\n\nEnter the federal income tax withheld for that pay period. Include any extra federal withholding in the total and enter zero if none was withheld. Add your applicable retirement contributions, eligible health premiums and other employee deductions in the Benefits tab. Each deduction should appear once.\n\nIf your employer has already paid you wages this year, use the year-to-date Social Security and Medicare taxable wages before the paycheck you are modeling when approaching either threshold.\n\n\n## Wyoming Payroll Taxes and Deductions\n\nThe table shows what to look for on a regular employee pay stub."
+    },
+    {
+      "caption": "Wyoming Payroll Taxes and Deductions",
+      "columns": [
+        "Deduction",
+        "How it is handled"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Enter the amount from your pay stub"
+        ],
+        [
+          "Wyoming individual income tax",
+          "None on ordinary employment wages"
+        ],
+        [
+          "Social Security",
+          "Estimated using covered wages and the annual limit"
+        ],
+        [
+          "Medicare",
+          "Estimated using covered wages"
+        ],
+        [
+          "Benefits and other deductions",
+          "Enter the applicable amounts for this paycheck"
+        ]
+      ]
+    },
+    {
+      "markdown": "Read the [Wyoming Department of Revenue](https://revenue.wyo.gov/) for state tax information. [IRS Publication 15](https://www.irs.gov/publications/p15) explains federal payroll contributions. For federal withholding procedures, see [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n\n## Wyoming Paycheck Example: $65,000 Salary\n\nA $65,000 salary paid biweekly gives $2,500 in gross pay across 26 regular pay periods. This example uses an illustrative $216.15 federal withholding amount, with no benefit deductions or federal wage thresholds reached."
+    },
+    {
+      "caption": "Wyoming Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax entered",
+          "$216.15"
+        ],
+        [
+          "Wyoming income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,092.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "Use your own pay stub to compare results. If you live or work in more than one state, ask payroll about withholding outside Wyoming. The [US paycheck calculator](/calculators/paycheck-calculator/) accepts separate state and local amounts when they apply.\n\n\n## Comparing Hourly and Salary Offers\n\nUse the [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare gross compensation. Then compare the net amounts from the paycheck calculator after accounting for benefits and deductions. On a biweekly schedule, your average monthly income includes the effect of months with an extra paycheck. The [budget calculator](/calculators/budget-calculator/) can help you plan around months with two paychecks.\n\n\n## Frequently Asked Questions\n\n\n### Does Wyoming withhold state income tax from ordinary wages?\n\nWyoming has no individual state income tax on ordinary wages. Federal taxes and any eligible employee deductions still apply.\n\n### Why is my net pay lower than my gross pay?\n\nFederal withholding, Social Security, Medicare, and employee benefits are common deductions. Compare the amounts for the same pay period on your pay stub.\n\n### What if I commute to a job outside Wyoming?\n\nYour work state may have different withholding rules. Enter those amounts in the national calculator if they apply, and confirm the state rules with payroll."
+    }
+  ]
+}
