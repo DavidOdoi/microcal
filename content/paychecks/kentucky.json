@@ -1,0 +1,131 @@
+{
+  "title": "Kentucky Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Calculate your Kentucky take-home pay after federal taxes, Kentucky's 3.5% income tax, local occupational taxes, Social Security and Medicare.",
+  "heading": "Kentucky Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Kentucky paycheck calculator** to estimate your take-home pay after federal income tax, Kentucky state income tax, Social Security, Medicare and applicable local occupational taxes.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your payroll deductions to understand how much money you could receive on payday.\n\nKentucky reduced its state income tax rate to 3.5% in 2026. However, employees working in certain cities and counties may also pay local occupational taxes, making employment location an important part of calculating take-home income.\n\nWhether you work in Louisville, Lexington, Bowling Green, Covington or another Kentucky community, understanding your net earnings can help you compare job offers and manage household expenses.\n\n## How to Use the Kentucky Paycheck Calculator\n\nBegin by selecting the type of compensation you receive.\n\nSalaried employees should enter their annual gross income, while hourly employees should provide their hourly wage, regular working hours and qualifying overtime hours.\n\nNext, select your payment frequency. Enter federal and Kentucky income tax withheld for the pay period from your pay stub.\n\nIf your employment is subject to local occupational taxes, enter the total amount withheld for the pay period.\n\nInclude retirement contributions, healthcare premiums and other employee deductions.\n\nReview your estimated gross pay, individual tax deductions and remaining take-home income.\n\nFor greater accuracy, use the information from your latest payroll statement rather than estimating your deductions.\n\n## Kentucky Payroll Taxes in 2026\n\nKentucky employees generally encounter several categories of payroll deductions."
+    },
+    {
+      "caption": "Kentucky Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Kentucky income tax",
+          "3.5% after the applicable standard deduction"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Local occupational taxes",
+          "Depend on applicable local requirements"
+        ]
+      ]
+    },
+    {
+      "markdown": "Kentucky's annual standard deduction for 2026 is $3,360.\n\nThe amount deducted from your paycheck depends on taxable earnings, payment frequency, local tax requirements, withholding elections and employee benefits.\n\nVisit the [Kentucky Department of Revenue](https://revenue.ky.gov/Business/Pages/Employer-Payroll-Withholding.aspx) for official employer withholding guidance.\n\n## How Kentucky State Income Tax Works\n\nKentucky uses a flat individual income tax rate.\n\nFor 2026, the applicable state income tax withholding rate is 3.5%, down from 4% in 2025.\n\nUnlike progressive tax systems, Kentucky does not use increasingly higher individual income tax rates as taxable earnings rise.\n\nHowever, multiplying your entire gross salary by 3.5% may overestimate your ordinary state withholding because the calculation accounts for the applicable standard deduction.\n\nEmployees receiving multiple paychecks during the year have the standard deduction distributed across their regular payroll periods.\n\nThe amount withheld throughout the year may differ from the final tax liability calculated on your annual income tax return.\n\n## Kentucky Standard Deduction in 2026\n\nKentucky adjusts its individual standard deduction periodically.\n\nFor 2026, the standard deduction increased to $3,360.\n\nThe following table illustrates how that annual amount can be distributed across ordinary payroll frequencies."
+    },
+    {
+      "caption": "Kentucky Standard Deduction in 2026",
+      "columns": [
+        "Pay frequency",
+        "Annual payments",
+        "Approximate deduction per period"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "52",
+          "$64.62"
+        ],
+        [
+          "Biweekly",
+          "26",
+          "$129.23"
+        ],
+        [
+          "Semimonthly",
+          "24",
+          "$140.00"
+        ],
+        [
+          "Monthly",
+          "12",
+          "$280.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "These amounts help explain the withholding calculation. They are not separate cash deductions from your paycheck.\n\nInstead, they reduce the earnings amount used to calculate ordinary Kentucky income tax withholding.\n\nReview the [Kentucky standard deduction announcement](https://revenue.ky.gov/News/Pages/Kentucky-DOR-Announces-2026-Standard-Deduction.aspx) for the official annual amount.\n\n## How to Calculate Kentucky Income Tax Withholding\n\nSuppose an employee earns $65,000 annually and receives 26 biweekly paychecks.\n\nThe gross biweekly paycheck is $2,500.\n\nFirst, determine annualized earnings:\n\n$2,500 × 26 = $65,000\n\nSubtract the annual Kentucky standard deduction:\n\n$65,000 − $3,360 = $61,640\n\nApply the state withholding rate:\n\n$61,640 × 3.5% = $2,157.40\n\nDivide by the number of annual pay periods:\n\n$2,157.40 ÷ 26 = approximately $82.98\n\nUnder these assumptions, the employee's estimated Kentucky income tax withholding is $82.98 per paycheck.\n\nThis example assumes ordinary regular wages, no withholding exemption and no additional requested withholding.\n\nThe official [2026 Kentucky withholding formula](https://revenue.ky.gov/Forms/2026%20Withholding%20Formula.pdf) explains the calculation methodology.\n\n## Understanding Kentucky Form K-4\n\nKentucky employees use Form K-4 to provide applicable state withholding information.\n\nThe form allows qualifying employees to claim exemption from withholding or request additional withholding.\n\nUnlike certain other states, Kentucky's ordinary withholding calculation does not use a system of personal withholding exemptions for each dependent.\n\nEmployees may qualify for special withholding treatment under certain circumstances, including eligible interstate employment arrangements and military-related exemptions.\n\nHowever, claiming exemption from withholding requires meeting specific eligibility requirements.\n\nDownload the official [2026 Kentucky withholding certificate](https://revenue.ky.gov/Forms/42A804%20%28K-4%29%20%282026%29.pdf) for further information.\n\n## Kentucky Local Occupational Taxes\n\nOne important feature of Kentucky payroll is the presence of occupational taxes imposed by certain local governments.\n\nDepending on your employment location, you may encounter city, county or other local occupational taxes.\n\nThese deductions are separate from Kentucky state income tax.\n\nLocal taxable wage definitions may also differ from state or federal income-taxable wages.\n\nAs a result, a deduction that reduces your federal taxable income may not necessarily reduce your local occupational tax by the same amount.\n\nEmployees working remotely or performing duties in multiple jurisdictions may need to allocate their earnings according to the applicable local requirements.\n\nConsult the relevant local tax authority to confirm the applicable occupational tax rate.\n\n## Louisville Paycheck Calculator: Local Occupational Tax\n\nLouisville Metro imposes occupational taxes on applicable employee compensation.\n\nThe published ordinary rates are:"
+    },
+    {
+      "caption": "Louisville Paycheck Calculator: Local Occupational Tax",
+      "columns": [
+        "Employee classification",
+        "Occupational tax rate"
+      ],
+      "rows": [
+        [
+          "Qualifying resident employee",
+          "2.20%"
+        ],
+        [
+          "Qualifying nonresident employee",
+          "1.45%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Consider an employee receiving $2,500 in earnings fully subject to Louisville occupational tax.\n\nFor a qualifying resident employee:\n\n$2,500 × 2.20% = $55.00\n\nFor a qualifying nonresident employee:\n\n$2,500 × 1.45% = $36.25\n\nThe difference is $18.75 per paycheck under these assumptions.\n\nEmployees performing some of their work outside Louisville Metro may require additional adjustments.\n\nConsult the [Louisville Metro Revenue Commission](https://louisvilleky.gov/government/revenue-commission) for official occupational tax requirements.\n\nDo not apply Louisville's rates to every Kentucky city or county.\n\n## Federal Payroll Taxes for Kentucky Employees\n\nFederal income tax withholding is calculated separately using the employee's taxable earnings and Form W-4 information.\n\nIn 2026, employees generally contribute 6.2% of covered Social Security wages, subject to an annual taxable wage limit of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% on Medicare-covered wages exceeding $200,000 paid by that employer during the calendar year.\n\nEmployees with more than one employer may have additional considerations when calculating annual tax liability.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) and [Publication 15-T](https://www.irs.gov/publications/p15t) for official federal payroll guidance.\n\n## Kentucky Paycheck Example: $65,000 Annual Salary\n\nConsider a Louisville resident earning $65,000 annually and receiving $2,500 biweekly.\n\nAssume the employee is subject to ordinary Kentucky withholding, Louisville resident occupational tax and federal payroll contributions, with no applicable annual contribution limits reached."
+    },
+    {
+      "caption": "Kentucky Paycheck Example: $65,000 Annual Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Kentucky income tax",
+          "$82.98"
+        ],
+        [
+          "Louisville occupational tax",
+          "$55.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$329.23"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,170.77 remains before federal income tax withholding and other employee deductions.\n\nAn employee earning the same salary in a location without an applicable occupational tax would have approximately $55 more remaining under otherwise identical assumptions.\n\nThis example illustrates selected payroll deductions rather than a complete net paycheck.\n\nEnter your actual federal withholding and employee benefit information into the calculator to obtain your estimated take-home pay.\n\n## Kentucky Hourly Paycheck Calculator\n\nHourly employees can estimate their gross earnings using regular working hours and qualifying overtime.\n\nSuppose a Kentucky employee earns $25 per hour and works 40 regular hours plus eight qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 8 = $300\n\nTotal gross earnings:\n\n$1,300\n\nApplicable federal income tax, Kentucky withholding, local occupational taxes and employee contributions are then calculated using their respective taxable wage amounts.\n\nEmployees working in manufacturing, logistics, healthcare and hospitality may receive variable earnings because of shift differentials or overtime.\n\nReview the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) before estimating compensation for employment arrangements involving exemptions or specialized schedules.\n\n## Working Across Kentucky State Borders\n\nKentucky has reciprocal income tax arrangements with Illinois, Indiana, Michigan, Ohio, Virginia, West Virginia and Wisconsin.\n\nThese agreements can affect the state income tax treatment of qualifying compensation earned by interstate workers.\n\nHowever, special conditions apply to certain arrangements. Virginia's agreement generally requires daily commuting, while Ohio's agreement has restrictions involving certain shareholder-employees.\n\nState income tax reciprocity does not automatically eliminate local occupational taxes.\n\nEmployees should confirm eligibility and provide the appropriate withholding certificate before claiming an exemption.\n\n## Managing Your Kentucky Take-Home Income\n\nUse estimated net income rather than gross salary when establishing your household budget.\n\nCompare housing costs, commuting expenses, insurance premiums and employer retirement contributions alongside paycheck deductions.\n\nEmployees with multiple jobs should review their Kentucky withholding because more than one employer may account for the standard deduction independently.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help you establish a suitable savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is Kentucky's income tax rate in 2026?\n\nKentucky applies a flat individual income tax withholding rate of 3.5%. The applicable annual standard deduction is $3,360.\n\n### Does Louisville have a separate employee occupational tax?\n\nYes. Louisville Metro publishes ordinary occupational tax rates of 2.2% for qualifying resident employees and 1.45% for qualifying nonresident employees.\n\n### Do all Kentucky employees pay local occupational taxes?\n\nNo. Occupational taxes depend on the applicable employment jurisdiction and local rules. Rates and taxable wage definitions can vary between cities and counties.\n\n## Calculate Your Kentucky Take-Home Pay\n\nUse our Kentucky paycheck calculator to understand how federal taxes, state withholding and local occupational taxes affect your earnings.\n\nThe calculator can help you compare salaries and build a realistic budget, but its results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
