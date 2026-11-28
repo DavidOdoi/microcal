@@ -1,6 +1,7 @@
 'use client';
 
 import { calculateNationalPaycheck, validateNationalPaycheck, type NationalPaycheckInput } from '@/lib/state-paycheck-calculations';
+import { PaycheckDistribution } from './PaycheckDistribution';
 import { ScenarioCalculator, scenarioMoney, type ScenarioField, type ScenarioValues } from './ScenarioCalculator';
 
 const fields: ScenarioField[] = [
@@ -63,35 +64,6 @@ function input(values: ScenarioValues): NationalPaycheckInput {
 
 const money = (cents: number) => scenarioMoney(cents / 100);
 
-function PaycheckDistribution({ pay }: { pay: ReturnType<typeof calculateNationalPaycheck> }) {
-  const categories = [
-    { label: 'Take-home pay', amount: pay.net, color: '#25643e' },
-    { label: 'Federal income tax', amount: pay.federal, color: '#345a93' },
-    { label: 'State and local tax', amount: pay.state + pay.local, color: '#875929' },
-    { label: 'Social Security and Medicare', amount: pay.socialSecurity + pay.medicare + pay.additionalMedicare, color: '#6d568a' },
-    { label: 'Other deductions', amount: pay.health + pay.traditional + pay.roth + pay.other, color: '#596362' },
-  ].filter(({ amount }) => amount > 0);
-  let position = 0;
-  const segments = categories.map(({ amount, color }) => {
-    const start = position;
-    position += amount;
-    return `${color} ${start / pay.gross * 100}% ${position / pay.gross * 100}%`;
-  });
-  return <figure className="finance-paycheck-distribution">
-    <figcaption>Where your gross pay goes</figcaption>
-    <div className="finance-paycheck-ring" style={{ backgroundImage: `conic-gradient(${segments.join(', ')})` }}>
-      <div className="finance-paycheck-ring-center">
-        <span>Take-home pay</span>
-        <strong>{money(pay.net)}</strong>
-        <span>Per paycheck</span>
-      </div>
-    </div>
-    <ul>{categories.map(({ label, amount, color }) => <li key={label}>
-      <span aria-hidden="true" style={{ backgroundColor: color }} />{label} <strong>{money(amount)}</strong>
-    </li>)}</ul>
-  </figure>;
-}
-
 export function NationalPaycheckCalculator() {
   return <ScenarioCalculator
     id="paycheck-calculator"
@@ -106,7 +78,8 @@ export function NationalPaycheckCalculator() {
       const federalLabel = scenario.federalMode === 'entered' ? 'Federal withholding entered, including any extra' : 'Federal annual-tax estimate, including any extra';
       return {
         summary: { label: 'Estimated take-home pay', amount: money(pay.net), period: 'Per paycheck' },
-        summaryVisual: pay.gross > 0 && pay.net >= 0 ? <PaycheckDistribution pay={pay} /> : undefined,
+        summaryVisual: pay.gross > 0 && pay.net >= 0 ? <PaycheckDistribution gross={pay.gross} net={pay.net} federal={pay.federal} stateAndLocal={pay.state + pay.local}
+          fica={pay.socialSecurity + pay.medicare + pay.additionalMedicare} other={pay.health + pay.traditional + pay.roth + pay.other} /> : undefined,
         metrics: [
           ['Gross pay per paycheck', money(pay.gross)],
           [federalLabel, money(pay.federal)],

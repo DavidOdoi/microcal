@@ -1,5 +1,6 @@
 'use client';
 import { calculateStatePaycheck, validateStatePaycheck, type StatePaycheckInput } from '@/lib/state-paycheck-calculations';
+import { PaycheckDistribution } from './PaycheckDistribution';
 import { ScenarioCalculator, scenarioMoney as money, type ScenarioField, type ScenarioValues } from './ScenarioCalculator';
 
 function fieldsFor(state: 'ny' | 'idaho'): ScenarioField[] {
@@ -38,12 +39,48 @@ function fieldsFor(state: 'ny' | 'idaho'): ScenarioField[] {
 function parse(state: 'ny' | 'idaho', v: ScenarioValues): StatePaycheckInput {
   return { state, year: +v.year as StatePaycheckInput['year'], earnings: +v.earnings, earningsUnit: v.unit as StatePaycheckInput['earningsUnit'], hours: +v.hours, weeks: +v.weeks, periods: +v.periods as StatePaycheckInput['periods'], federalMode: v.federalMode as StatePaycheckInput['federalMode'], federalWithholding: +v.federal, stateWithholding: +v.state, localWithholding: +(v.local ?? 0), extraFederal: +v.extraFederal, extraState: +v.extraState, filingStatus: v.status as StatePaycheckInput['filingStatus'], otherAnnualIncome: +v.otherIncome, annualDeductions: +v.deductions, annualCredits: +v.credits, health: +v.health, traditional: +v.traditional, roth: +v.roth, otherDeductions: +v.other, ytdSocialSecurity: +v.ytdSs, ytdMedicare: +v.ytdMed, pflCovered: v.pfl === 'yes', ytdPfl: +(v.ytdPfl ?? 0), residence: (v.residence ?? 'other') as StatePaycheckInput['residence'], work: (v.work ?? 'other') as StatePaycheckInput['work'] };
 }
-export function StatePaycheckCalculator({ state }: { state: 'ny' | 'idaho' }) {
+const earningsInputs = ['earnings', 'unit', 'periods', 'year', 'hours', 'weeks'];
+const federalInputs = ['federal', 'extraFederal', 'ytdSs', 'ytdMed', 'federalMode', 'status', 'otherIncome', 'deductions', 'credits'];
+const stateInputs = ['state', 'residence', 'work', 'local', 'pfl', 'ytdPfl', 'extraState'];
+
+function groupFields(fields: ScenarioField[]) {
+  return fields.map(field => ({
+    ...field,
+    section: earningsInputs.includes(field.key) ? 'Earnings' : federalInputs.includes(field.key) ? 'Federal Taxes' :
+      stateInputs.includes(field.key) ? 'State and Local Taxes' : 'Benefits',
+  }));
+}
+
+const cents = (amount: number) => Math.round(amount * 100);
+
+export function StatePaycheckCalculator({ state, grouped = false }: { state: 'ny' | 'idaho'; grouped?: boolean }) {
   const ny = state === 'ny';
-  return <ScenarioCalculator key={state} id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={fieldsFor(state)} validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
+  return <ScenarioCalculator key={state} id={`${ny ? 'new-york' : 'idaho'}-paycheck-calculator`} title={`Your ${ny ? 'New York' : 'Idaho'} Paycheck Estimate`} action="Calculate Paycheck" fields={grouped ? groupFields(fieldsFor(state)) : fieldsFor(state)} copyResults={grouped} validate={(v) => validateStatePaycheck(parse(state, v))} compute={(v) => {
     const r = calculateStatePaycheck(parse(state, v));
-    return { summary: { label: 'Estimated take-home pay', amount: money(r.net), period: 'Per paycheck' },
-      metrics: [['Gross pay per paycheck', money(r.gross)], [v.federalMode === 'entered' ? 'Federal withholding (entered + extra)' : 'Federal annual-tax planning estimate + extra', money(r.federal)], [`${ny ? 'NYS' : 'Idaho'} withholding (entered + extra)`, money(r.state)], ...(ny ? [['Local withholding (entered)', money(r.local)]] as [string, string][] : []), ['Social Security', money(r.socialSecurity)], ['Medicare', money(r.medicare)], ['Additional Medicare withholding', money(r.additionalMedicare)], ...(ny ? [['NY Paid Family Leave', money(r.pfl)]] as [string, string][] : []), ['Benefit and retirement deductions', money(r.benefitDeductions)], ['Other after-tax deductions', money(+v.other)], ['Income-tax wages per paycheck', money(r.incomeTaxWages)], ['FICA wages per paycheck', money(r.ficaWages)]] as [string, string][],
+    const incomeTaxes: [string, number][] = [
+      [v.federalMode === 'entered' ? 'Federal withholding (entered + extra)' : 'Federal annual-tax planning estimate + extra', cents(r.federal)],
+      [`${ny ? 'NYS' : 'Idaho'} withholding (entered + extra)`, cents(r.state)],
+      ...(ny ? [['Local withholding (entered)', cents(r.local)] as [string, number]] : []),
+    ];
+    const fica: [string, number][] = [
+      ['Social Security', cents(r.socialSecurity)], ['Medicare', cents(r.medicare)], ['Additional Medicare withholding', cents(r.additionalMedicare)],
+    ];
+    const other: [string, number][] = [
+      ...(ny ? [['NY Paid Family Leave', cents(r.pfl)] as [string, number]] : []),
+      ['Benefit and retirement deductions', cents(r.benefitDeductions)], ['Other after-tax deductions', cents(+v.other)],
+    ];
+    const sum = (rows: [string, number][]) => rows.reduce((total, [, amount]) => total + amount, 0);
+    const gross = cents(r.gross);
+    const net = gross - sum(incomeTaxes) - sum(fica) - sum(other);
+    return {
+      summary: { label: 'Estimated take-home pay', amount: money(grouped ? net / 100 : r.net), period: 'Per paycheck' },
+      summaryVisual: grouped && gross > 0 && net >= 0 ? <PaycheckDistribution gross={gross} net={net} federal={cents(r.federal)}
+        stateAndLocal={cents(r.state) + cents(r.local)} fica={sum(fica)} other={sum(other)} /> : undefined,
+      metrics: [
+        ['Gross pay per paycheck', money(r.gross)],
+        ...[...incomeTaxes, ...fica, ...other].map(([label, amount]): [string, string] => [label, money(amount / 100)]),
+        ['Income-tax wages per paycheck', money(r.incomeTaxWages)], ['FICA wages per paycheck', money(r.ficaWages)],
+      ] as [string, string][],
       notes: ['Income-tax withholding is entered from your paystub or the applicable official tables. Update those amounts when salary, benefits, elections, location, or pay frequency change. Starting amounts are illustrations, not personalized tax calculations.', `Payroll calculations use ${v.year} employee FICA rules and prior wages from this employer. Traditional retirement contributions reduce income-tax wages but not FICA wages; eligible Section 125 premiums reduce both. Roth contributions are after tax.`, ...(ny ? ['2026 NY PFL is 0.432% of gross wages, capped at $411.91 per year. Local amounts must reflect NYC residence or applicable Yonkers resident/nonresident rules; location selections do not estimate local withholding.'] : ['For 2026 Idaho withholding, use the tables applicable to the pay date, including the July 23 revision. For 2025, enter historical payroll withholding. This tool does not automate either set of state tables. Idaho local income tax is not modeled.']), ...(r.net < 0 ? ['Entered taxes and deductions exceed gross pay. Review the amounts before using this estimate.'] : []), 'This is a paycheck planning estimate, not final annual tax liability. It assumes regular covered employee wages; special payroll rules and multi-employer tax reconciliation are excluded.'],
     };
   }} />;
