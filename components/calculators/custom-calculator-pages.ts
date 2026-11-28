@@ -1,3 +1,4 @@
+import iowaPaycheckContent from '@/content/paychecks/iowa.json';
 import indianaPaycheckContent from '@/content/paychecks/indiana.json';
 import { paycheckGuides } from '@/lib/paycheck-guides';
 import { createStatePaystubGuidePage } from './StatePaystubGuidePage';
@@ -52,6 +53,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'iowa-paycheck-calculator': iowaPaycheckContent,
   'indiana-paycheck-calculator': indianaPaycheckContent,
 };
 

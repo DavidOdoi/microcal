@@ -1,0 +1,142 @@
+{
+  "title": "Iowa Paycheck Calculator 2026 – Salary After Tax",
+  "description": "Estimate your Iowa take-home pay after federal taxes, Iowa's 3.8% income tax, Social Security, Medicare and other employee deductions.",
+  "heading": "Iowa Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Iowa paycheck calculator** to estimate your take-home pay after federal income tax, Iowa income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nIowa's flat income tax rate simplifies part of the paycheck calculation. However, household income, withholding allowances and employee deductions still influence the final amount.\n\nWhether you work in Des Moines, Cedar Rapids, Davenport, Iowa City or another Iowa community, understanding your net income can help you compare salary offers and manage monthly expenses.\n\n## How to Use the Iowa Paycheck Calculator\n\nChoose annual salary if you receive fixed compensation or hourly wages if your earnings depend on working hours.\n\nEnter your gross income before taxes and select your pay frequency.\n\nEnter federal and Iowa income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions, healthcare premiums, additional withholding and other payroll deductions.\n\nReview your estimated gross pay, individual taxes and remaining net earnings.\n\nFor greater accuracy, use your most recent pay stub and withholding certificate.\n\n## Iowa Payroll Taxes in 2026\n\nIowa employees generally encounter federal and state income taxes alongside ordinary payroll contributions."
+    },
+    {
+      "caption": "Iowa Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Iowa income tax",
+          "3.8% after applicable withholding adjustments"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Iowa's state withholding calculation accounts for applicable deductions and allowances before determining the amount to withhold.\n\nVisit the [Iowa Department of Revenue](https://revenue.iowa.gov/) for official tax information.\n\n## How Iowa State Income Tax Works\n\nIowa applies a flat individual income tax rate of 3.8% in 2026.\n\nHowever, this rate should not simply be multiplied by your gross paycheck.\n\nIowa's payroll withholding procedure accounts for the appropriate deduction based on withholding status. The resulting tax amount is further adjusted by the employee's withholding allowances and any additional requested withholding.\n\nThis means employees receiving identical salaries may have different state deductions depending on their household circumstances.\n\nThe [Iowa 2026 withholding tax information](https://revenue.iowa.gov/taxes/tax-guidance/withholding-tax/iowa-withholding-tax-information/2026-withholding-tax-information) provides the applicable employer tables and calculation instructions.\n\n## Iowa Paycheck Withholding Deductions\n\nEmployees using a 2024 or later Iowa W-4 are assigned a withholding deduction according to their reported household circumstances.\n\nThe following table summarizes selected 2026 deduction amounts."
+    },
+    {
+      "caption": "Iowa Paycheck Withholding Deductions",
+      "columns": [
+        "Pay frequency",
+        "Single or qualifying two-earner married household",
+        "Head of household",
+        "Qualifying single-earner married household"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$250",
+          "$375",
+          "$500"
+        ],
+        [
+          "Biweekly",
+          "$500",
+          "$750",
+          "$1,000"
+        ],
+        [
+          "Semimonthly",
+          "$541.67",
+          "$812.50",
+          "$1,083.33"
+        ],
+        [
+          "Monthly",
+          "$1,083.33",
+          "$1,625",
+          "$2,166.67"
+        ],
+        [
+          "Annually",
+          "$13,000",
+          "$19,500",
+          "$26,000"
+        ]
+      ]
+    },
+    {
+      "markdown": "Qualifying surviving spouses are included in the applicable higher deduction category.\n\nThese amounts are payroll withholding deductions, not necessarily the deductions used on your final individual income tax return.\n\n## How to Calculate Iowa Income Tax Withholding\n\nIowa's payroll calculation involves four main operations.\n\nFirst, subtract the appropriate pay-period deduction from taxable wages.\n\nNext, apply the 3.8% withholding rate.\n\nSubtract the employee's annual withholding allowance divided by the number of annual pay periods.\n\nFinally, include any additional withholding requested for the current paycheck.\n\n### Iowa withholding example\n\nSuppose an employee receives $2,500 in biweekly taxable wages, qualifies for a $500 pay-period deduction and has a $40 annual withholding allowance.\n\nAdjusted taxable wages:\n\n$2,500 − $500 = $2,000\n\nTax before the allowance adjustment:\n\n$2,000 × 3.8% = $76\n\nAllowance adjustment:\n\n$40 ÷ 26 = approximately $1.54\n\nEstimated Iowa withholding:\n\n$76 − $1.54 = $74.46\n\nIf the employee requests another $10 in state withholding, the total would be approximately $84.46.\n\nThis example assumes ordinary payroll circumstances and uses cents for illustrative precision.\n\n## Understanding Iowa Form IA W-4\n\nIowa employees use Form IA W-4 to provide state withholding information to their employers.\n\nMore recent versions of the form use a total dollar allowance amount rather than simply requiring the employee to report a number of allowances.\n\nEmployees with forms from 2023 or earlier may require a conversion. Under the 2026 withholding methodology, each applicable old-form allowance is converted into a $40 annual allowance amount.\n\nFor instance, six allowances on an older form would correspond to an annual allowance amount of $240.\n\nThis distinction matters because entering six dollars instead of six allowances would produce an inaccurate result.\n\nReview your withholding certificate and update it when your employment or household circumstances change.\n\n## Iowa Withholding for Married Couples With Two Incomes\n\nMarried couples with two working spouses may need to pay particular attention to withholding.\n\nIf both employers calculate deductions independently, the combined household withholding may be insufficient to cover the family's final income tax liability.\n\nEmployees may need to adjust their state withholding selections or request additional withholding.\n\nA higher monthly take-home paycheck can be useful, but not if it creates an unexpected tax bill at the end of the year.\n\nReview your estimated household income and existing withholding before changing your elections.\n\n## Federal Taxes Deducted From Iowa Paychecks\n\n### Federal income tax\n\nFederal withholding depends on taxable wages, payment frequency and Form W-4 information.\n\nThe calculation may account for filing status, multiple jobs, eligible credits, deductions and additional withholding requests.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered Social Security wages up to the 2026 annual limit of $184,500.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings without a standard annual wage ceiling.\n\nAdditional Medicare withholding generally applies at 0.9% once covered wages paid by an employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t) for federal income tax withholding procedures.\n\n## Iowa Paycheck Example: $65,000 Salary\n\nSuppose an employee earns $65,000 annually and receives 26 biweekly paychecks."
+    },
+    {
+      "caption": "Iowa Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250"
+        ],
+        [
+          "Biweekly",
+          "$2,500"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee has the same Iowa withholding settings used in the earlier example, no pre-tax deductions and no additional requested withholding."
+    },
+    {
+      "caption": "Iowa Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Iowa withholding",
+          "$74.46"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$265.71"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,234.29 remains before federal income tax withholding and other employee deductions.\n\nYour actual net paycheck depends on your federal withholding information and employee benefits.\n\n## Iowa Hourly Paycheck Calculator\n\nHourly employees can estimate their gross wages using regular and qualifying overtime hours.\n\nSuppose an employee earns $24 per hour and works 40 regular hours plus six qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings: $24 × 40 = $960\n\nOvertime earnings: $24 × 1.5 × 6 = $216\n\nTotal gross earnings: $1,176\n\nApplicable federal and Iowa taxes are then calculated from their respective taxable wage amounts.\n\nEmployees receiving commissions, bonuses or other supplemental compensation may experience different withholding treatment.\n\nConsult the [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for information about overtime eligibility.\n\n## Does Iowa Have Local Income Taxes?\n\nIowa residents in certain school districts may owe a school district income surtax through their annual income tax return.\n\nThis should not automatically be treated as a standard municipal wage tax deducted from every paycheck.\n\nEmployees should distinguish regular payroll withholding from additional taxes that may be assessed when filing their annual return.\n\nThe applicable school district surtax depends on residency and the district's tax requirements.\n\nIf you expect an additional tax liability, consider whether adjusting your regular withholding or establishing a separate savings reserve would be appropriate.\n\n## Working in Iowa and Living in Illinois\n\nIowa and Illinois have a reciprocal income tax agreement covering qualifying employee compensation.\n\nEligible employees working across the state border may generally pay state income tax to their residence state rather than their employment state.\n\nThe appropriate withholding exemption certificate must be provided where required.\n\nEmployees working in other neighboring states should not assume that the same reciprocity agreement applies.\n\nConsult the Iowa Department of Revenue for guidance before claiming a nonresident withholding exemption.\n\n## Managing Your Iowa Take-Home Pay\n\nBuild your monthly budget using estimated net income rather than gross annual salary.\n\nAccount for housing, groceries, transportation, insurance and required debt payments.\n\nWhen comparing jobs, include differences in healthcare premiums, retirement matching, paid leave and commuting expenses.\n\nOur [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different employment arrangements, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target.\n\n## Frequently Asked Questions\n\n### What is Iowa's income tax rate in 2026?\n\nIowa's individual income tax rate is 3.8%. Actual paycheck withholding depends on taxable wages, the applicable deduction and withholding allowances.\n\n### Does my spouse's income affect Iowa withholding?\n\nYes. The applicable Iowa withholding deduction can differ depending on whether a spouse also has earned income.\n\n### Do Iowa school district surtaxes come out of every paycheck?\n\nSchool district surtaxes are generally assessed through the annual income tax return rather than automatically withheld as an ordinary local payroll income tax.\n\n## Calculate Your Iowa Take-Home Pay\n\nUse our Iowa paycheck calculator to compare salaries, understand payroll deductions and establish a realistic household budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
