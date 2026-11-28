@@ -1,0 +1,106 @@
+{
+  "title": "Florida Paycheck Calculator 2026 – Salary After Tax",
+  "description": "Calculate your Florida take-home pay after federal income tax, Social Security, Medicare and deductions. Florida has no personal state income tax.",
+  "heading": "Florida Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Florida paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare and other employee deductions.\n\nFlorida does not impose individual state income tax, allowing employees to avoid a category of payroll withholding that applies in many other states. However, federal taxes and employee benefit deductions can still significantly affect the amount you receive on payday.\n\nWhether you work in Miami, Orlando, Tampa, Jacksonville or another Florida community, understanding your estimated net salary can help you compare employment opportunities and manage monthly expenses.\n\n## How to Use the Florida Paycheck Calculator\n\nOur calculator helps you estimate your paycheck using your earnings and withholding information.\n\n1. Choose annual salary or hourly wages.\n2. Enter your gross salary or hourly pay rate.\n3. Select weekly, biweekly, semimonthly or monthly payments.\n4. Enter the full federal income tax withheld for the pay period, including any extra withholding.\n5. Include retirement contributions, insurance premiums and other deductions.\n6. Review your estimated net paycheck.\n\nFlorida employees do not need to enter a Florida personal income tax withholding allowance.\n\nFor greater accuracy, use your latest pay stub and federal Form W-4 when entering your information.\n\nYou can also change your salary and deductions to compare different employment offers without performing the calculations manually.\n\n## Florida Payroll Taxes in 2026\n\nAlthough Florida has no personal state income tax, several federal deductions may still apply."
+    },
+    {
+      "caption": "Florida Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS payroll withholding schedules"
+        ],
+        [
+          "Florida personal income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500 in covered wages"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Florida reemployment tax",
+          "Employer expense"
+        ]
+      ]
+    },
+    {
+      "markdown": "Ordinary employee benefit deductions may also reduce your take-home pay.\n\nThe [Florida Department of Revenue](https://floridarevenue.com/) publishes information about the state's tax requirements.\n\n## Does Florida Have State Income Tax?\n\nFlorida does not impose personal income tax on individuals.\n\nThis means employees generally do not have a Florida state income tax deduction on their regular paychecks.\n\nFor workers relocating from states that impose individual income taxes, Florida can offer higher take-home earnings when salary, federal withholding and employee deductions remain the same.\n\nHowever, the financial advantages of moving to Florida depend on more than the absence of state income tax.\n\nHousing costs, property insurance, transportation, sales taxes and other living expenses may influence how much income remains available after essential spending.\n\nEmployees should compare their complete household budgets rather than evaluating relocation based solely on state income tax rates.\n\nYou can confirm Florida's personal income tax treatment through the [Florida Department of Revenue FAQ](https://floridarevenue.com/faq/Pages/FAQDetails.aspx?FAQID=1466).\n\n## Federal Income Tax on Florida Paychecks\n\nFederal income tax remains applicable to Florida employees.\n\nYour employer determines the withholding amount using your taxable earnings, payroll frequency and the information supplied on Form W-4.\n\nThe form allows employees to provide information about filing status, multiple jobs, eligible credits, other income and additional withholding.\n\nFederal income tax is progressive. Different portions of taxable income may be subject to different tax rates.\n\nFor this reason, multiplying your entire salary by your highest marginal federal income tax rate will generally produce an inaccurate paycheck estimate.\n\nEmployers follow the calculation procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nFederal withholding is not necessarily equal to your final annual tax liability. You may receive a refund or owe additional tax when filing your return.\n\n## Social Security and Medicare Contributions\n\n### Social Security\n\nIn 2026, employees generally contribute 6.2% of covered earnings toward Social Security, subject to an annual taxable wage ceiling of $184,500.\n\nFor example, an employee with $2,000 in covered wages who has not reached the annual limit would contribute:\n\n$2,000 × 0.062 = $124\n\nEmployees whose earnings exceed the annual limit may notice an increase in net pay after their employer stops collecting ordinary Social Security withholding.\n\n### Medicare\n\nMedicare generally applies at 1.45% of covered employee earnings.\n\nA paycheck containing $2,000 in Medicare-covered wages would ordinarily produce a deduction of $29.\n\nUnlike Social Security, regular Medicare withholding does not have a standard annual wage ceiling.\n\nEmployers must also generally withhold an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nLearn more through the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15).\n\n## Florida Reemployment Tax Explained\n\nFlorida's unemployment compensation system is known as reemployment assistance.\n\nEmployers generally finance the program through reemployment tax contributions.\n\nThese employer contributions should not be deducted from ordinary employee paychecks.\n\nIf a payroll calculator includes Florida reemployment tax as a standard employee deduction, it may underestimate your take-home pay.\n\nRead the official [Florida reemployment tax guidance](https://floridarevenue.com/taxes/taxesfees/Pages/reemployment.aspx) for additional information.\n\n## Florida Paycheck Example: $78,000 Salary\n\nConsider an employee earning $78,000 annually with 26 biweekly paychecks."
+    },
+    {
+      "caption": "Florida Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500.00"
+        ],
+        [
+          "Biweekly",
+          "$3,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$3,250.00"
+        ],
+        [
+          "Monthly",
+          "$6,500.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $3,000 biweekly, has no pre-tax deductions and has not reached an applicable federal payroll tax threshold."
+    },
+    {
+      "caption": "Florida Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Florida income tax",
+          "$0.00"
+        ],
+        [
+          "Florida reemployment tax",
+          "$0.00"
+        ],
+        [
+          "Total illustrated deductions",
+          "$229.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,770.50 remains before federal income tax withholding and other employee deductions.\n\nFor example, if the employee's actual federal withholding were $250 and other post-tax deductions totaled $75, the resulting paycheck would be $2,445.50.\n\nThe $250 federal withholding figure is hypothetical. Your actual deduction must be calculated using your federal withholding information.\n\n## Florida Hourly Paycheck Calculator\n\nHourly employees can estimate earnings using their hourly wage, regular working hours and qualifying overtime.\n\nSuppose a worker earns $25 per hour and works 40 regular hours plus eight qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 8 = $300\n\nTotal gross earnings:\n\n$1,300\n\nAssuming all earnings are subject to ordinary federal payroll contributions:\n\nSocial Security: $80.60\n\nMedicare: $18.85\n\nThe worker would have $1,200.55 remaining before federal income tax and other deductions.\n\nThis example is particularly relevant to employees in hospitality, healthcare, retail and construction, where working hours may vary.\n\nReview the [US Department of Labor overtime rules](https://www.dol.gov/agencies/whd/overtime) for eligibility requirements and exceptions.\n\n## How Tips and Bonuses Affect Florida Paychecks\n\nFlorida has a large hospitality and tourism sector, where many employees receive tips alongside ordinary wages.\n\nReported tips can affect federal income tax withholding and payroll contributions.\n\nEmployees should include applicable tips and other taxable compensation when estimating gross earnings.\n\nBonuses and commissions may be treated as supplemental wages for federal withholding purposes. Their withholding may differ from the amount deducted from ordinary salary payments.\n\nCertain eligible tips and overtime compensation may qualify for federal income tax deductions under current law. However, this does not automatically eliminate Social Security, Medicare or all paycheck withholding on those earnings.\n\nConsult current IRS guidance before treating any type of compensation as tax-free.\n\n## How Retirement and Health Benefits Affect Take-Home Pay\n\nRetirement contributions and employee insurance premiums may reduce the amount deposited into your bank account.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages, while Roth 401(k) contributions generally do not provide the same immediate income tax reduction.\n\nQualifying health insurance contributions may reduce certain taxable wage amounts.\n\nOther deductions may be taken after taxes have been calculated.\n\nWhen entering deductions, distinguish between their effects on federal income tax and federal payroll contributions. Not every deduction reduces every tax.\n\nEmployer retirement matching and healthcare benefits should also be considered when evaluating the total value of a job offer.\n\n## Comparing Florida Salaries With Other States\n\nSuppose you are considering two employment offers with identical gross salaries, one in Florida and another in a state that imposes personal income tax.\n\nIf the other position produces an additional $200 monthly in state income tax withholding, Florida could provide $2,400 more annual cash flow under otherwise identical conditions.\n\nHowever, if your monthly housing and insurance expenses increase by more than $200 after relocating, that tax advantage may disappear.\n\nUse our [US paycheck calculator](/calculators/paycheck-calculator/) to compare employment income across different states.\n\nThen evaluate housing, transportation, healthcare and other expenses separately to determine which opportunity offers better financial value.\n\n## Planning Your Budget Around Florida Take-Home Pay\n\nUse your estimated net paycheck to determine how much you can comfortably spend and save.\n\nFlorida residents may need to budget carefully for housing, vehicle insurance, home insurance and other location-specific expenses.\n\nIf your income fluctuates because of seasonal employment or tips, establish your budget using a realistic estimate of ordinary earnings rather than your highest-paying month.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target. Our [loan payment calculator](/calculators/loan-calculator/) can help evaluate the monthly cost of financing a vehicle or other purchase.\n\n## Frequently Asked Questions\n\n### How much state income tax is deducted from a Florida paycheck?\n\nFlorida does not impose individual state income tax. Federal income tax, Social Security, Medicare and other applicable employee deductions may still reduce your take-home pay.\n\n### Does Florida unemployment tax come out of employee paychecks?\n\nNo. Florida reemployment tax is an employer expense and should not be deducted from employees' wages.\n\n### How much will I take home from a $75,000 salary in Florida?\n\nYour actual take-home salary depends on your federal filing status, withholding adjustments, retirement contributions, insurance premiums and other deductions. Enter $75,000 into the calculator with your applicable information for an estimate.\n\n## Calculate Your Florida Take-Home Pay\n\nUse our Florida paycheck calculator to estimate your net salary, understand federal payroll deductions and compare employment opportunities.\n\nThe results are educational estimates and do not replace official payroll calculations or personalized tax advice."
+    }
+  ]
+}
