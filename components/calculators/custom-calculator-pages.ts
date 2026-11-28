@@ -1,3 +1,4 @@
+import washingtonPaycheckContent from '@/content/paychecks/washington.json';
 import virginiaPaycheckContent from '@/content/paychecks/virginia.json';
 import { MortgageCalculatorPage, mortgageMetadata } from './MortgageCalculatorPage';
 import vermontPaycheckContent from '@/content/paychecks/vermont.json';
@@ -94,6 +95,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'washington-paycheck-calculator': washingtonPaycheckContent,
   'virginia-paycheck-calculator': virginiaPaycheckContent,
   'vermont-paycheck-calculator': vermontPaycheckContent,
   'utah-paycheck-calculator': utahPaycheckContent,

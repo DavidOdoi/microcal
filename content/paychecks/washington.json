@@ -1,0 +1,154 @@
+{
+  "title": "Washington Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Washington take-home pay after federal taxes, Paid Family and Medical Leave, WA Cares Fund, Social Security and Medicare.",
+  "heading": "Washington Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free Washington paycheck calculator to estimate your take-home pay after federal income tax, Social Security, Medicare, Washington Paid Family and Medical Leave contributions, [WA Cares Fund](https://wacaresfund.wa.gov/) premiums and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your payroll information to understand how much money you could receive on payday.\n\nAlthough Washington does not impose individual income tax on ordinary employment wages, its state insurance programs can reduce employee take-home pay.\n\nWhether you work in Seattle, Spokane, Tacoma, Bellevue, Vancouver or another Washington community, this calculator can help you understand your paycheck and compare employment opportunities.\n\n## How to Use the Washington Paycheck Calculator\n\nChoose annual salary or hourly wages and select the pay schedule shown on your pay stub. Hourly employees can enter their regular hours and qualifying overtime.\n\nEnter the federal income tax withheld for that pay period. Use the full withholding amounts, including any additional withholding.\n\nUnder Benefits, open Advanced settings and enter any Washington Paid Leave, WA Cares and employee workers’ compensation amounts shown on your pay stub under Other deductions. If your employer pays a contribution or you are exempt, exclude that amount.\n\nInclude employee retirement contributions, eligible health premiums and other deductions from the same pay period. Enter each deduction once.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\n\n## Washington Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Washington Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Washington individual wage income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer threshold"
+        ],
+        [
+          "Washington Paid Leave",
+          "Approximately 0.8072% maximum employee share"
+        ],
+        [
+          "WA Cares Fund",
+          "0.58% of covered wages"
+        ],
+        [
+          "Workers' compensation",
+          "Depends on employment risk classification"
+        ]
+      ]
+    },
+    {
+      "markdown": "Visit the [Washington Department of Revenue](https://dor.wa.gov/) for official information about the state's taxation system.\n\n## Does Washington Have State Income Tax?\n\nWashington does not impose individual income tax on ordinary salaries and hourly wages.\n\nHowever, this does not mean Washington employees receive their entire gross salary without deductions.\n\nFederal income tax, Social Security, Medicare and applicable Washington insurance premiums can reduce take-home earnings.\n\nWashington also imposes certain other taxes, including sales taxes and a capital gains tax on qualifying transactions. These should not automatically be treated as ordinary employee paycheck income taxes.\n\nReview the Washington Department of Revenue capital gains tax guidance for information about the distinction between employment wages and other taxable income.\n\n## Washington Paid Family and Medical Leave\n\nWashington's Paid Family and Medical Leave program provides qualifying employees with partial income replacement during eligible periods of family or medical leave.\n\nFor 2026, the combined employer and employee premium rate is 1.13% of covered wages.\n\nEmployees may pay up to 71.43% of that premium.\n\nThe approximate maximum employee contribution rate is therefore:\n\n1.13% × 71.43% = 0.807159%.\n\nEmployers may choose to cover some or all of the employee's share.\n\nThe contribution applies to qualifying gross wages, excluding tips, up to the annual Social Security wage ceiling of $184,500 in 2026."
+    },
+    {
+      "caption": "Washington Paid Family and Medical Leave",
+      "columns": [
+        "Covered earnings",
+        "Approximate maximum employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$4.04"
+        ],
+        [
+          "$1,000",
+          "$8.07"
+        ],
+        [
+          "$2,500",
+          "$20.18"
+        ],
+        [
+          "$5,000",
+          "$40.36"
+        ]
+      ]
+    },
+    {
+      "markdown": "Read the official [Washington Paid Leave premium estimator](https://paidleave.wa.gov/estimate-your-paid-leave-payments/) and employer responsibilities for additional information.\n\n## Washington Paid Leave Wage Limit Example\n\nSuppose you have already earned $184,000 in qualifying covered wages during 2026 and receive another paycheck containing $2,500.\n\nOnly $500 remains below the annual contribution ceiling.\n\nYour approximate maximum employee Paid Leave deduction would be:\n\n$500 × 0.00807159 = $4.04.\n\nApplying the contribution rate to the entire paycheck would overestimate the deduction.\n\nThe contribution ceiling must be tracked separately from other payroll wage bases.\n\n## WA Cares Fund Contributions\n\nThe WA Cares Fund is Washington's public long-term care insurance program.\n\nCovered employees generally contribute 0.58% of applicable wages unless they have an approved exemption or their employer covers the contribution.\n\nUnlike Washington Paid Leave, WA Cares premiums are not limited by the Social Security annual wage ceiling."
+    },
+    {
+      "caption": "WA Cares Fund Contributions",
+      "columns": [
+        "Covered earnings",
+        "WA Cares contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.90"
+        ],
+        [
+          "$1,000",
+          "$5.80"
+        ],
+        [
+          "$2,500",
+          "$14.50"
+        ],
+        [
+          "$5,000",
+          "$29.00A higher-income employee may therefore continue paying WA Cares premiums after ordinary Social Security and Washington Paid Leave contributions have stopped."
+        ]
+      ]
+    },
+    {
+      "markdown": "Visit the official WA Cares Fund website, employer information page and exemption FAQs for applicable requirements.\n\n## Washington Workers' Compensation Deductions\n\nWashington allows employers to deduct certain authorized portions of workers' compensation premiums from employee earnings.\n\nThe applicable employee deduction depends on the employer's risk classification and authorized payroll deduction rate.\n\nFor example, if an employer's authorized employee deduction is $0.10 per covered working hour, an employee working 80 covered hours would contribute $8.\n\nThis rate is hypothetical and should not be applied universally.\n\nConsult the Washington Department of Labor and Industries workers' compensation rates and paycheck deduction guidance for official information.\n\n## Federal Taxes Deducted From Washington Paychecks\n\nFederal income tax withholding depends on taxable wages, payment frequency, filing status and Form W-4 information.\n\nEmployers follow the calculation procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nSocial Security generally applies at 6.2% of covered wages up to $184,500 in 2026.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages without an annual taxable wage ceiling.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) and the Social Security Administration contribution limits for official guidance.\n\n## Washington Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving $2,500 biweekly.\n\nAssume ordinary single federal withholding settings, the maximum employee Paid Leave contribution, no WA Cares exemption and no other employee deductions."
+    },
+    {
+      "caption": "Washington Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Washington state income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Washington Paid Leave",
+          "$20.18"
+        ],
+        [
+          "WA Cares Fund",
+          "$14.50"
+        ],
+        [
+          "Total illustrated deductions",
+          "$442.08"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,057.92"
+        ]
+      ]
+    },
+    {
+      "markdown": "Any applicable workers' compensation deduction, healthcare premium or retirement contribution would further reduce this amount.\n\nEmployer rounding procedures may also produce small differences.\n\n## Washington Hourly Paycheck Calculator\n\nSuppose you earn $30 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $1,200.\n\nOvertime earnings: $270.\n\nTotal gross earnings: $1,470.\n\nApplicable federal taxes, state insurance contributions and employee benefit deductions are then calculated using their respective taxable wage amounts.\n\nConsult the Washington overtime guidance and US Department of Labor overtime resources for eligibility requirements.\n\n## Working in Washington and Living in Oregon\n\nOregon residents working in Washington may still have Oregon income tax obligations based on their residence and applicable tax rules.\n\nSimilarly, Washington residents working in Oregon may owe Oregon income tax on qualifying Oregon-sourced employment earnings.\n\nThe absence of Washington wage income tax does not automatically eliminate another state's income tax requirements.\n\nConsult the Oregon Department of Revenue for applicable guidance.\n\n## Planning Your Washington Monthly Budget\n\nUse estimated net income rather than gross salary when comparing employment opportunities.\n\nAccount for housing, transportation, healthcare, groceries and required debt payments.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target, while our [mortgage payment calculator](/calculators/mortgage-calculator/) can help estimate housing expenses.\n\n## Frequently Asked Questions\n\n\n### Does Washington deduct state income tax from paychecks?\n\nWashington does not impose individual income tax on ordinary employee wages. Federal taxes and applicable state insurance contributions still reduce take-home pay.\n\n### How much is Washington Paid Family and Medical Leave in 2026?\n\nThe total premium is 1.13% of covered wages. Employees may pay up to 71.43% of that premium, equivalent to approximately 0.8072% of covered wages.\n\n### Does WA Cares Fund have an annual contribution ceiling?\n\nNo. WA Cares premiums generally apply to covered wages without the ordinary Social Security annual wage ceiling.\n\n## Calculate Your Washington Take-Home Pay\n\nUse our Washington paycheck calculator to understand how federal taxes, state insurance contributions and employee deductions affect your income.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
