@@ -1,3 +1,4 @@
+import louisianaPaycheckContent from '@/content/paychecks/louisiana.json';
 import hawaiiPaycheckContent from '@/content/paychecks/hawaii.json';
 import floridaPaycheckContent from '@/content/paychecks/florida.json';
 import delawarePaycheckContent from '@/content/paychecks/delaware.json';
@@ -68,6 +69,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'louisiana-paycheck-calculator': louisianaPaycheckContent,
   'hawaii-paycheck-calculator': hawaiiPaycheckContent,
   'florida-paycheck-calculator': floridaPaycheckContent,
   'delaware-paycheck-calculator': delawarePaycheckContent,

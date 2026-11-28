@@ -93,7 +93,8 @@ test('published state paystub guides have both entry points and reciprocal hub l
       assert.ok(html.includes('href="/calculators/paycheck-calculator/">US Paycheck Calculator'), path);
       assert.ok(html.includes('<h2>Frequently Asked Questions</h2>'), path);
       assert.ok(html.includes('<table>'), path);
-      assert.equal(html.includes(`${guide.state} income tax withheld per paycheck`), !guide.noStateIncomeTax, path);
+      const taxLabel = guide.combinedStateAndLocal ? `${guide.state} state and local income tax` : `${guide.state} income tax`;
+      assert.equal(html.includes(`${taxLabel} withheld per paycheck`), !guide.noStateIncomeTax, path);
       if (guide.localTax) assert.ok(html.includes(`${guide.localTax} withheld per paycheck`), path);
     }
   }

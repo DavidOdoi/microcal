@@ -34,7 +34,11 @@ const fields: ScenarioField[] = [
 ];
 
 const paystubExcludedFields = new Set(['federalMode', 'status', 'extraFederal', 'otherIncome', 'adjustments', 'credits']);
-type PaystubState = { name: string; localTax?: string; noStateIncomeTax?: boolean; californiaSdi?: boolean };
+type PaystubState = { name: string; localTax?: string; noStateIncomeTax?: boolean; combinedStateAndLocal?: boolean; californiaSdi?: boolean };
+
+function paystubStateTaxLabel(state: PaystubState) {
+  return state.combinedStateAndLocal ? `${state.name} state and local income tax` : `${state.name} income tax`;
+}
 
 function fieldsForPaystub(state: PaystubState): ScenarioField[] {
   return fields.flatMap((field): ScenarioField[] => {
@@ -50,7 +54,9 @@ function fieldsForPaystub(state: PaystubState): ScenarioField[] {
     }] : [];
     if (field.key === 'state' && state.noStateIncomeTax) return [];
     if (field.key === 'state') return [
-      { ...field, label: `${state.name} income tax withheld per paycheck`, value: '', help: `Enter the ${state.name} income tax shown on this paystub. Enter 0 if none was withheld.` },
+      { ...field, label: `${paystubStateTaxLabel(state)} withheld per paycheck`, value: '',
+        help: state.combinedStateAndLocal ? 'Enter the total state and local income tax shown on this paystub. If your paystub lists them separately, add them together first. Enter 0 if none was withheld.'
+          : `Enter the ${state.name} income tax shown on this paystub. Enter 0 if none was withheld.` },
       ...(state.californiaSdi ? [{ key: 'stateDisability', section: 'State and Local Taxes', label: 'California SDI withheld per paycheck', prefix: '$', value: '',
         help: 'Enter CA SDI or CASDI from your paystub. If a separate voluntary disability plan deduction applies, enter it under Benefits and enter 0 for SDI.' }] : []),
     ];
@@ -114,7 +120,7 @@ export function NationalPaycheckCalculator({ paystubState }: { paystubState?: Pa
         metrics: [
           ['Gross pay per paycheck', money(pay.gross)],
           [federalLabel, money(pay.federal)],
-          ...(!paystubState?.noStateIncomeTax ? [[stateName ? `${stateName} income-tax withholding entered` : 'State income-tax withholding entered', money(pay.state)] as [string, string]] : []),
+          ...(!paystubState?.noStateIncomeTax ? [[paystubState ? `${paystubStateTaxLabel(paystubState)} withholding entered` : 'State income-tax withholding entered', money(pay.state)] as [string, string]] : []),
           ...(californiaPaystub ? [['California SDI entered', money(pay.stateDisability)] as [string, string]] : []),
           ...(!paystubState || paystubState.localTax ? [[paystubState?.localTax ? `${paystubState.localTax} entered` : 'Local income-tax withholding entered', money(pay.local)] as [string, string]] : []),
           ['Social Security', money(pay.socialSecurity)],

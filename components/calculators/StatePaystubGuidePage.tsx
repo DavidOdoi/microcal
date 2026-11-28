@@ -6,6 +6,7 @@ import { NationalPaycheckCalculator } from './NationalPaycheckCalculator';
 
 type GuideContent = {
   title: string;
+  metaDescription?: string;
   heading: string;
   parts: ({ markdown: string } | { caption: string; columns: string[]; rows: string[][] })[];
 };
@@ -14,7 +15,7 @@ export function createStatePaystubGuidePage(guide: PaycheckGuide, content: Guide
   const description = paycheckGuideDescription(guide);
   return {
     category: 'taxes',
-    metadata: calculatorArticleMetadata(guide.slug, content.title, description),
+    metadata: calculatorArticleMetadata(guide.slug, content.title, content.metaDescription ?? description),
     Component: function StatePaystubGuidePage() {
       return <CalculatorArticlePage
         slug={guide.slug}
@@ -23,7 +24,7 @@ export function createStatePaystubGuidePage(guide: PaycheckGuide, content: Guide
         categoryName="Taxes"
         description={description}
         intro={description}
-        calculator={<NationalPaycheckCalculator paystubState={{ name: guide.state, localTax: guide.localTax, noStateIncomeTax: guide.noStateIncomeTax }} />}
+        calculator={<NationalPaycheckCalculator paystubState={{ name: guide.state, localTax: guide.localTax, noStateIncomeTax: guide.noStateIncomeTax, combinedStateAndLocal: guide.combinedStateAndLocal }} />}
         article={<>
           {content.parts.map((part, index) => 'markdown' in part ? (
             <Markdown key={index} skipHtml>{part.markdown}</Markdown>

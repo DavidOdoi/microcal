@@ -2,10 +2,12 @@ export type PaycheckGuide = {
   state: string;
   slug: string;
   localTax?: string;
+  combinedStateAndLocal?: boolean;
   noStateIncomeTax?: boolean;
 };
 
 export const paycheckGuides: readonly PaycheckGuide[] = [
+  { state: 'Louisiana', slug: 'louisiana-paycheck-calculator' },
   { state: 'Hawaii', slug: 'hawaii-paycheck-calculator' },
   { state: 'Florida', slug: 'florida-paycheck-calculator', noStateIncomeTax: true },
   { state: 'Delaware', slug: 'delaware-paycheck-calculator', localTax: 'Wilmington wage tax' },
@@ -26,6 +28,7 @@ export const paycheckGuides: readonly PaycheckGuide[] = [
 ];
 
 export function paycheckGuideDescription(guide: PaycheckGuide) {
-  const taxes = guide.noStateIncomeTax ? 'federal withholding' : `federal and ${guide.state} withholding`;
+  const stateTax = guide.combinedStateAndLocal ? `${guide.state} state and local` : guide.state;
+  const taxes = guide.noStateIncomeTax ? 'federal withholding' : `federal and ${stateTax} withholding`;
   return `Estimate 2026 ${guide.state} take-home pay using ${taxes} from your paystub and estimated Social Security and Medicare.`;
 }
