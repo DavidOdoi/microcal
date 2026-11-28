@@ -1,3 +1,4 @@
+import vermontPaycheckContent from '@/content/paychecks/vermont.json';
 import utahPaycheckContent from '@/content/paychecks/utah.json';
 import texasPaycheckContent from '@/content/paychecks/texas.json';
 import tennesseePaycheckContent from '@/content/paychecks/tennessee.json';
@@ -90,6 +91,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'vermont-paycheck-calculator': vermontPaycheckContent,
   'utah-paycheck-calculator': utahPaycheckContent,
   'texas-paycheck-calculator': texasPaycheckContent,
   'tennessee-paycheck-calculator': tennesseePaycheckContent,

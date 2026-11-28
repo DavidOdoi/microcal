@@ -1,0 +1,178 @@
+{
+  "title": "Vermont Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Vermont take-home pay after federal taxes, Vermont income tax, childcare contributions, Social Security and Medicare.",
+  "heading": "Vermont Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Vermont paycheck calculator** to estimate your take-home pay after federal income tax, Vermont income tax, Social Security, Medicare and applicable Child Care Contribution deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nVermont uses progressive income tax withholding and has an additional payroll contribution supporting childcare services. Understanding these deductions can help you compare employment opportunities and manage monthly expenses.\n\nWhether you work in Burlington, Montpelier, Rutland, South Burlington or another Vermont community, this calculator can help you understand your earnings.\n\n## How to Use the Vermont Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross compensation before taxes and deductions.\n\nSelect your payment frequency. Enter federal and Vermont income tax withheld for the pay period from your pay stub.\n\nInclude applicable benefit deductions. If an employee Child Care Contribution was withheld, enter the amount under Benefits in Advanced settings, under Other deductions. Enter each deduction once.\n\nReview your estimated gross pay, individual taxes and remaining take-home income.\n\nFor greater accuracy, use your latest payroll statement and withholding certificates.\n\n## Vermont Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Vermont Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Vermont income tax",
+          "Progressive withholding rates up to 8.75%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Vermont Child Care Contribution",
+          "Up to 0.11% employee share"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on taxable wages, withholding elections, employer arrangements and employee benefits.\n\nVisit the [Vermont Department of Taxes](https://tax.vermont.gov/) for official state tax information.\n\n## How Vermont State Income Tax Works\n\nVermont uses a progressive individual income tax system.\n\nThe applicable employer percentage schedules for 2026 contain four marginal withholding rates:\n\n- 3.35%.\n- 6.60%.\n- 7.60%.\n- 8.75%.\n\nThe state also provides zero-withholding ranges based on applicable adjusted wages and withholding classification.\n\nEmployers subtract withholding allowances before applying the appropriate payroll-period percentage table.\n\nRead the official [2026 Vermont Income Tax Withholding Instructions](https://tax.vermont.gov/sites/tax/files/documents/GB-1210-2026.pdf) for the calculation methodology.\n\n## Vermont Biweekly Withholding Tables\n\nThe 2026 biweekly percentage method for the single withholding classification uses the following adjusted wage thresholds."
+    },
+    {
+      "caption": "Vermont Biweekly Withholding Tables",
+      "columns": [
+        "Adjusted biweekly wages",
+        "Withholding calculation"
+      ],
+      "rows": [
+        [
+          "Up to $151",
+          "$0"
+        ],
+        [
+          "$151–$2,103",
+          "3.35% of the excess over $151"
+        ],
+        [
+          "$2,103–$4,876",
+          "$65.39 plus 6.60% of the excess over $2,103"
+        ],
+        [
+          "$4,876–$10,009",
+          "$248.41 plus 7.60% of the excess over $4,876"
+        ],
+        [
+          "Above $10,009",
+          "$638.52 plus 8.75% of the excess over $10,009"
+        ]
+      ]
+    },
+    {
+      "markdown": "Married employees use a separate schedule with different thresholds.\n\nThese are employer withholding tables rather than annual individual income tax return brackets.\n\nThe complete [Vermont 2026 percentage-method tables](https://tax.vermont.gov/sites/tax/files/documents/TaxTables-2026.pdf) cover the applicable payroll frequencies.\n\n## Understanding Vermont Form W-4VT\n\nVermont employees are encouraged to complete Form W-4VT to provide state-specific withholding information to their employers.\n\nEach ordinary withholding allowance has an annual value of $5,400 in 2026."
+    },
+    {
+      "caption": "Understanding Vermont Form W-4VT",
+      "columns": [
+        "Payment frequency",
+        "Allowance value"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$103.85"
+        ],
+        [
+          "Biweekly",
+          "$207.69"
+        ],
+        [
+          "Semimonthly",
+          "$225.00"
+        ],
+        [
+          "Monthly",
+          "$450.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employees with multiple jobs or working spouses should review their allowance selections carefully to avoid insufficient withholding.\n\nThe [Vermont employee withholding guidance](https://tax.vermont.gov/individuals/personal-income-tax/withholding) explains how to determine appropriate withholding allowances.\n\nDownload the official [Form W-4VT](https://tax.vermont.gov/content/form-w-4vt) and review the [withholding certificate FAQs](https://tax.vermont.gov/individuals/personal-income-tax/withholding/faqs) for additional information.\n\n## How to Calculate Vermont Income Tax Withholding\n\nSuppose you receive $2,500 in Vermont taxable wages every two weeks and claim one applicable withholding allowance using the single classification.\n\nSubtract the biweekly allowance:\n\n$2,500 − $207.69 = $2,292.31.\n\nThe adjusted wages fall into the applicable 6.60% bracket.\n\nVermont withholding:\n\n$65.39 + (($2,292.31 − $2,103) × 6.60%).\n\nEstimated state withholding: $77.88 before any additional requested withholding.\n\nYour employer's authorized calculation and rounding method may produce a slightly different result.\n\n## Vermont Child Care Contribution\n\nVermont introduced its Child Care Contribution on July 1, 2024.\n\nThe contribution supports childcare and early childhood education programs.\n\nThe total employer payroll tax rate is 0.44% of covered wages.\n\nEmployers may recover up to one-quarter of that contribution from employee wages.\n\nThis means the maximum ordinary employee contribution rate is 0.11%."
+    },
+    {
+      "caption": "Vermont Child Care Contribution",
+      "columns": [
+        "Covered earnings",
+        "Maximum employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$0.55"
+        ],
+        [
+          "$1,000",
+          "$1.10"
+        ],
+        [
+          "$2,500",
+          "$2.75"
+        ],
+        [
+          "$5,000",
+          "$5.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employers may choose to pay the entire contribution instead of deducting any portion from employees.\n\nReview the official [Vermont Child Care Contribution guidance](https://tax.vermont.gov/business/child-care-contribution) and [Vermont contribution legislation](https://legislature.vermont.gov/statutes/section/32/246/10553) for additional information.\n\n## Does Vermont Child Care Contribution Have a Wage Ceiling?\n\nThe Child Care Contribution is not subject to the ordinary Social Security annual wage ceiling.\n\nEligible wages can therefore continue attracting this contribution even after an employee reaches the annual Social Security taxable wage limit.\n\nA paycheck calculator should maintain separate wage bases for Social Security, Medicare, Vermont income tax and the Child Care Contribution.\n\nThe official [Vermont Child Care Contribution guide](https://tax.vermont.gov/sites/tax/files/documents/GB-1326.pdf) explains applicable covered wages and employer responsibilities.\n\n## Federal Taxes Deducted From Vermont Paychecks\n\nFederal income tax withholding depends on taxable earnings, filing status, payment frequency and Form W-4 information.\n\nEmployers follow [IRS Publication 15-T](https://www.irs.gov/publications/p15t) when calculating ordinary federal withholding.\n\nSocial Security generally applies at 6.2% of covered wages up to $184,500 in 2026.\n\nOrdinary Medicare applies at 1.45% of covered earnings, while additional Medicare withholding may apply above the employer's $200,000 annual threshold.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) and the [Social Security Administration wage base information](https://www.ssa.gov/oact/cola/cbb.html) for official contribution rules.\n\n## Vermont Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly payments.\n\nAssume ordinary single federal withholding settings, one Vermont withholding allowance and the maximum ordinary employee Child Care Contribution."
+    },
+    {
+      "caption": "Vermont Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Gross biweekly earnings",
+          "$2,500.00"
+        ],
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Vermont income tax",
+          "$77.88"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Child Care Contribution",
+          "$2.75"
+        ],
+        [
+          "Total deductions",
+          "$488.03"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,011.97"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes no employee benefit deductions or reached federal payroll contribution thresholds.\n\nIf your employer pays the entire Child Care Contribution, your take-home pay would increase by $2.75 under otherwise identical assumptions.\n\n## Vermont Hourly Paycheck Calculator\n\nSuppose an employee earns $27 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $1,080.\n\nOvertime earnings: $243.\n\nTotal gross earnings: $1,323.\n\nAssuming all wages are covered and the maximum ordinary employee childcare contribution applies, the deduction would be approximately $1.46.\n\nApplicable federal and Vermont income taxes would also reduce the paycheck.\n\nConsult the [Vermont Department of Labor](https://labor.vermont.gov/) and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## Working in Vermont and Living in New Hampshire\n\nEmployees living in New Hampshire while working in Vermont may owe Vermont income tax on qualifying Vermont-sourced employment earnings.\n\nNew Hampshire's absence of a personal wage income tax does not automatically exempt Vermont employment income.\n\nRemote work and employment across multiple states may require separate income allocation calculations.\n\nReview the [Vermont withholding guidance](https://tax.vermont.gov/individuals/calculating-withholding) before applying a nonresident exemption.\n\n## Managing Your Vermont Take-Home Income\n\nBuild your [household budget](/calculators/budget-calculator/) using estimated net earnings rather than annual gross salary.\n\nInclude housing, groceries, transportation, healthcare, utilities and required debt payments.\n\nVermont households may also benefit from budgeting for seasonal heating and winter transportation expenses.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is Vermont's income tax rate in 2026?\n\nVermont's ordinary employer withholding schedules use rates of 3.35%, 6.60%, 7.60% and 8.75%. The amount deducted depends on applicable wages, withholding classification and allowances.\n\n### How much is Vermont's Child Care Contribution for employees?\n\nEmployers may deduct up to 0.11% of covered employee wages. They may also choose to pay the entire contribution themselves.\n\n### Does Vermont's childcare payroll contribution stop at the Social Security wage ceiling?\n\nNo. The Child Care Contribution does not use the ordinary Social Security annual wage ceiling.\n\n## Calculate Your Vermont Take-Home Pay\n\nUse our Vermont paycheck calculator to understand how taxes, childcare contributions and employee benefits affect your earnings.\n\nThe results can help you compare employment offers and establish a realistic budget. They are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
