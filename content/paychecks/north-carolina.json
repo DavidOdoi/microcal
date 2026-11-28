@@ -1,0 +1,146 @@
+{
+  "title": "North Carolina Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your North Carolina take-home pay using 2026 state withholding rules, federal income tax, Social Security and Medicare.",
+  "heading": "North Carolina Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free North Carolina paycheck calculator to estimate your take-home pay after federal income tax, North Carolina income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nNorth Carolina reduced its individual income tax rate to 3.99% in 2026. However, the state's official payroll withholding rate is slightly higher, making it important to distinguish between paycheck withholding and final annual income tax liability.\n\nWhether you work in Charlotte, Raleigh, Durham, Greensboro, Asheville or another North Carolina community, understanding your net earnings can help you compare employment opportunities and manage household expenses.\n\n## How to Use the North Carolina Paycheck Calculator\n\nBegin by selecting whether you receive annual salary or hourly wages.\n\nEnter your gross compensation before taxes and deductions. Hourly employees should provide their hourly rate, regular working hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter federal and North Carolina income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions, healthcare premiums and other employee deductions. Use the full withholding amounts, including any extra tax withheld.\n\nIf your earnings are approaching annual federal payroll contribution thresholds, enter your year-to-date taxable wages.\n\nReview your estimated paycheck breakdown to understand how individual deductions affect your remaining take-home income.\n\nFor greater accuracy, use information from your latest pay stub and withholding certificates.\n\n## North Carolina Payroll Taxes in 2026\n\nNorth Carolina employees generally encounter the following payroll deductions."
+    },
+    {
+      "caption": "North Carolina Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "North Carolina individual income tax",
+          "3.99%"
+        ],
+        [
+          "North Carolina payroll withholding rate",
+          "4.09% after applicable deductions and allowances"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on taxable earnings, withholding elections, payment frequency and employee benefit arrangements.\n\nThe [North Carolina Department of Revenue](https://www.ncdor.gov/) publishes official income tax and employer withholding guidance.\n\n## Why North Carolina Withholding Is 4.09% Instead of 3.99%\n\nNorth Carolina uses a flat individual income tax rate of 3.99% for the 2026 tax year.\n\nHowever, employers using the state's ordinary percentage or annualized withholding method calculate withholding at 4.09%.\n\nThe difference is an additional 0.1 percentage point incorporated into the official withholding calculation.\n\nThis does not mean your final statutory income tax rate is 4.09%.\n\nPayroll withholding represents advance payments toward your expected annual tax liability.\n\nWhen you file your North Carolina income tax return, the final calculation uses the applicable annual tax rules, deductions and credits.\n\nDepending on your circumstances, you may receive a refund or owe additional tax.\n\nRead the official [2026 North Carolina income tax withholding tables and instructions](https://www.ncdor.gov/taxes-forms/withholding-tax) for the complete methodology.\n\n## North Carolina Payroll Withholding Deductions\n\nNorth Carolina's employer percentage method accounts for a standard deduction and any applicable withholding allowances.\n\nThe following annual amounts are used in the ordinary 2026 payroll withholding formula."
+    },
+    {
+      "caption": "North Carolina Payroll Withholding Deductions",
+      "columns": [
+        "Withholding classification",
+        "Annual payroll deduction"
+      ],
+      "rows": [
+        [
+          "Single",
+          "$12,750"
+        ],
+        [
+          "Married",
+          "$12,750"
+        ],
+        [
+          "Surviving spouse",
+          "$12,750"
+        ],
+        [
+          "Head of household",
+          "$19,125"
+        ]
+      ]
+    },
+    {
+      "markdown": "Each applicable withholding allowance has an annual value of $2,500.\n\nThese amounts relate to the official employer withholding method. They should not be confused with all the deductions available when preparing an annual income tax return.\n\nFor example, married taxpayers filing a joint return may have a different annual standard deduction from the amount used in the ordinary payroll withholding formula.\n\n## North Carolina Withholding Allowances by Pay Frequency\n\nThe annual withholding allowance is divided into the applicable payroll periods."
+    },
+    {
+      "caption": "North Carolina Withholding Allowances by Pay Frequency",
+      "columns": [
+        "Payment frequency",
+        "Amount per allowance"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$48.08"
+        ],
+        [
+          "Biweekly",
+          "$96.15"
+        ],
+        [
+          "Semimonthly",
+          "$104.17"
+        ],
+        [
+          "Monthly",
+          "$208.33"
+        ]
+      ]
+    },
+    {
+      "markdown": "For an employee receiving biweekly paychecks and claiming two allowances, the ordinary allowance adjustment is approximately $192.30 per paycheck.\n\nThe standard deduction adjustment is applied separately.\n\nThese amounts reduce the wages used to calculate withholding. They are not separate deductions taken from your bank deposit.\n\n## Understanding North Carolina Form NC-4\n\nNorth Carolina employees generally complete Form NC-4, the Employee's Withholding Allowance Certificate, or the simplified NC-4 EZ where applicable.\n\nThese forms communicate the employee's withholding classification, allowances and additional withholding requests.\n\nFederal Form W-4 serves a separate purpose.\n\nAn employee who updates federal withholding information should not automatically assume that their North Carolina withholding information has also changed.\n\nEmployees with multiple jobs, working spouses, qualifying deductions or other tax circumstances should review the appropriate withholding certificate instructions.\n\nCurrent forms are available through the North Carolina withholding tax forms directory.\n\n## How to Calculate North Carolina Income Tax Withholding\n\nConsider an employee receiving $2,500 in taxable wages every two weeks.\n\nAssume the employee uses the single withholding classification, claims zero additional allowances and has no additional withholding requests.\n\nThe published biweekly standard deduction adjustment is $490.38.\n\nAdjusted biweekly wages:\n\n$2,500 − $490.38 = $2,009.62\n\nApply the ordinary 2026 withholding rate:\n\n$2,009.62 × 4.09% = approximately $82.19\n\nNorth Carolina requires the final ordinary withholding amount to be rounded to the nearest whole dollar.\n\nEstimated North Carolina withholding: $82.\n\nThis example demonstrates why simply multiplying $2,500 by the statutory 3.99% income tax rate would produce an inaccurate payroll withholding estimate.\n\n## Federal Taxes Deducted From North Carolina Paychecks\n\nFederal income tax withholding depends on taxable earnings, filing status, pay frequency and Form W-4 information.\n\nSocial Security generally applies at 6.2% of covered wages up to the 2026 annual taxable wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nThe [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) and [IRS Publication 15-T](https://www.irs.gov/publications/p15t) provide official federal payroll calculation guidance.\n\n## North Carolina Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly paychecks.\n\nAssume the employee is single for federal withholding purposes, uses a modern Form W-4 and has no multiple-jobs adjustment, additional credits or other federal withholding adjustments.\n\nFor North Carolina withholding, assume the employee is single and claims zero additional allowances."
+    },
+    {
+      "caption": "North Carolina Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Gross biweekly earnings",
+          "$2,500.00"
+        ],
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "North Carolina income tax",
+          "$82.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$489.40"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,010.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes no retirement contributions, health insurance premiums or other employee deductions, and that applicable annual payroll contribution limits have not been reached.\n\nYour actual paycheck depends on your individual withholding information and employee benefits.\n\n## North Carolina Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by multiplying their hourly wage by regular working hours and adding qualifying overtime compensation.\n\nSuppose an employee earns $25 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 6 = $225\n\nTotal gross earnings:\n\n$1,225\n\nFor an employee using the single North Carolina withholding classification with zero allowances, the weekly standard deduction adjustment is $245.19.\n\nAdjusted weekly wages:\n\n$1,225 − $245.19 = $979.81\n\nApply the withholding rate:\n\n$979.81 × 4.09% = approximately $40.07\n\nEstimated North Carolina withholding after whole-dollar rounding: $40.\n\nFederal taxes and other employee deductions would also apply.\n\nConsult the [North Carolina Department of Labor](https://www.labor.nc.gov/) for state employment requirements and the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for federal rules.\n\n## Does North Carolina Have Local Income Taxes?\n\nNorth Carolina municipalities generally do not impose separate personal wage income taxes on ordinary employees.\n\nEmployees working in Charlotte, Raleigh or Durham therefore generally do not encounter municipal wage taxes of the kind imposed by certain cities in other states.\n\nHowever, local sales taxes, housing costs, transportation and insurance expenses can affect your disposable income.\n\nWhen comparing employment opportunities, consider these expenses separately from paycheck deductions.\n\n## Working Across North Carolina State Borders\n\nNorth Carolina shares borders with Virginia, Tennessee, Georgia and South Carolina.\n\nEmployees who live in one state and perform employment duties in another may have different withholding and tax filing obligations.\n\nLiving in Tennessee, which does not impose personal income tax on ordinary wages, does not automatically eliminate North Carolina income tax on North Carolina-sourced employment earnings.\n\nRemote employees and workers performing duties across multiple states may require additional income allocation calculations.\n\nA standard North Carolina paycheck calculator may not fully capture every interstate employment arrangement.\n\n## Planning Your North Carolina Monthly Budget\n\nUse your estimated take-home pay rather than gross annual salary to establish realistic spending limits.\n\nConsider housing, transportation, utilities, groceries, healthcare and required debt payments.\n\nEmployees evaluating positions in Charlotte or the Research Triangle should compare commuting costs and employee benefits alongside estimated net income.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a suitable savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different compensation arrangements.\n\n## Frequently Asked Questions\n\n\n### What is North Carolina's income tax rate in 2026?\n\nThe statutory individual income tax rate is 3.99%. The official ordinary employer payroll withholding percentage is 4.09% after applicable deductions and allowances.\n\n### Does Charlotte have a separate employee income tax?\n\nCharlotte generally does not impose a separate municipal personal wage income tax. Applicable federal and North Carolina payroll deductions still reduce employee earnings.\n\n### Why is my North Carolina withholding rounded to a whole dollar?\n\nThe state's official percentage and annualized withholding methods instruct employers to round the ordinary calculated withholding amount to the nearest whole dollar.\n\n## Calculate Your North Carolina Take-Home Pay\n\nUse our North Carolina paycheck calculator to understand how taxes, withholding allowances and employee deductions affect your earnings.\n\nThe results can help you compare salaries and manage your monthly budget, but they are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
