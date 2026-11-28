@@ -1,3 +1,4 @@
+import new_jerseyPaycheckContent from '@/content/paychecks/new-jersey.json';
 import ohioPaycheckContent from '@/content/paychecks/ohio.json';
 import kentuckyPaycheckContent from '@/content/paychecks/kentucky.json';
 import kansasPaycheckContent from '@/content/paychecks/kansas.json';
@@ -56,6 +57,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'new-jersey-paycheck-calculator': new_jerseyPaycheckContent,
   'ohio-paycheck-calculator': ohioPaycheckContent,
   'kentucky-paycheck-calculator': kentuckyPaycheckContent,
   'kansas-paycheck-calculator': kansasPaycheckContent,

@@ -1,0 +1,122 @@
+{
+  "title": "New Jersey Paycheck Calculator 2026 – NJ Take-Home Pay",
+  "description": "Calculate your New Jersey take-home pay after federal and NJ income taxes, unemployment, temporary disability, family leave and payroll deductions.",
+  "heading": "New Jersey Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **New Jersey paycheck calculator** to estimate your salary after federal income tax, New Jersey income tax and applicable employee payroll contributions. Enter your gross income, choose your payment schedule and customize your deductions to see your estimated take-home pay.\n\nNew Jersey employees may notice more deduction categories on their pay stubs than employees in many other states. These can include unemployment insurance, temporary disability insurance and family leave insurance.\n\nWhether you work in Newark, Jersey City, Trenton, Princeton or another New Jersey community, understanding these deductions can help you evaluate your earnings and plan your finances.\n\n## How to Use the NJ Paycheck Calculator\n\nIf your pay stub lists New Jersey employee payroll contributions, include the amount under other deductions. Enter each deduction once.\n\nChoose whether you receive an annual salary or hourly wages.\n\nEnter your earnings before taxes and select your pay frequency. Common payment schedules include weekly, biweekly, semimonthly and monthly payroll.\n\nEnter federal and New Jersey income tax withheld for the pay period from your pay stub.\n\nEnter employee benefit deductions, retirement contributions and additional withholding where relevant.\n\nFor employees approaching annual taxable wage limits, year-to-date earnings are particularly useful. New Jersey applies different limits to its unemployment, disability and family leave contributions.\n\nReview your estimated paycheck breakdown and compare it with your employer's payroll statement.\n\n## New Jersey Payroll Taxes in 2026\n\nEmployees in New Jersey may pay the following taxes and contributions."
+    },
+    {
+      "caption": "New Jersey Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Calculation or rate"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "New Jersey income tax",
+          "State withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the federal wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Unemployment Insurance",
+          "0.3825% for standard covered workers"
+        ],
+        [
+          "Workforce funds",
+          "0.0425%"
+        ],
+        [
+          "Temporary Disability Insurance",
+          "0.19%"
+        ],
+        [
+          "Family Leave Insurance",
+          "0.23%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Additional Medicare withholding may apply to higher earnings.\n\nNot every employee is covered by identical contribution arrangements. Certain government employment and approved private benefit plans can have different requirements.\n\nThe [New Jersey Division of Employer Accounts](https://nj.gov/labor/ea/employer-services/rate-info/index.shtml) provides official contribution rates and taxable wage limits.\n\n## How New Jersey Income Tax Affects Your Paycheck\n\nNew Jersey has a progressive gross income tax system. Higher taxable income may result in portions of your earnings being subject to higher tax rates.\n\nHowever, your actual payroll withholding also depends on the withholding information you provide to your employer.\n\nThe New Jersey Employee's Withholding Allowance Certificate, commonly known as Form NJ-W4, allows you to provide state-specific withholding information.\n\nEmployees with multiple jobs or households with more than one wage earner may need to adjust their withholding selections.\n\nAdditional state tax withholding can also be requested when necessary.\n\nReview the official [NJ-W4 guidance](https://nj.gov/treasury/taxation/njit29.shtml) if your household income or employment circumstances change.\n\nState withholding does not necessarily equal the tax you will ultimately owe on your New Jersey income tax return. Other income sources, exemptions, credits and deductions can influence the final amount.\n\n## New Jersey Unemployment Insurance Contributions\n\nUnlike many states, New Jersey generally requires covered employees to contribute toward its unemployment insurance system.\n\nFor standard covered workers, the 2026 unemployment insurance contribution rate is 0.3825%.\n\nThe employee taxable wage base is $44,800.\n\nAn employee who has not reached the annual limit and receives $2,000 in covered wages would contribute approximately:\n\n$2,000 × 0.003825 = $7.65\n\nThe maximum standard annual contribution under this rate is $171.36.\n\nOnce the applicable covered wage base is reached with an employer, withholding generally stops for the remaining calendar year.\n\nEmployees may also contribute to workforce development and supplemental workforce funds, which have a combined standard rate of 0.0425% on the applicable wage base.\n\n## New Jersey Temporary Disability Insurance\n\nTemporary Disability Insurance provides financial support to eligible employees experiencing qualifying non-work-related disabilities.\n\nNew Jersey's standard employee TDI contribution rate for 2026 is 0.19%.\n\nThe employee taxable wage ceiling is $171,100, resulting in a maximum standard contribution of $325.09.\n\nFor $2,000 of covered earnings, the contribution is:\n\n$2,000 × 0.0019 = $3.80\n\nApproved private disability coverage may affect the deduction shown on your paycheck.\n\nVisit the [New Jersey Temporary Disability and Family Leave Insurance website](https://www.nj.gov/labor/myleavebenefits/) for information about the programs and eligibility.\n\n## New Jersey Family Leave Insurance\n\nFamily Leave Insurance provides benefits to qualifying employees during certain periods of family caregiving or bonding leave.\n\nFor 2026, the employee contribution rate is 0.23% on covered wages up to $171,100.\n\nThe maximum standard annual employee contribution is $393.53.\n\nA paycheck containing $2,000 of covered earnings would generally produce a $4.60 family leave insurance contribution before the annual limit is reached.\n\nUnderstanding these contributions is useful when comparing New Jersey salary offers with employment opportunities in states that do not collect similar employee payroll deductions.\n\n## Federal Taxes on New Jersey Paychecks\n\nFederal income tax withholding is calculated using your taxable earnings and Form W-4 information.\n\nEmployees generally contribute 6.2% of covered earnings to Social Security, subject to the 2026 annual wage ceiling of $184,500.\n\nThe standard Medicare contribution is 1.45% of covered earnings.\n\nHigher-income employees may also encounter additional Medicare withholding at 0.9% when covered earnings paid by an employer exceed $200,000 during the calendar year.\n\nThese federal contributions are separate from New Jersey's state insurance programs.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) to learn how federal payroll taxes apply.\n\n## New Jersey Paycheck Example: $78,000 Salary\n\nAn employee receiving an annual salary of $78,000 would generally earn:"
+    },
+    {
+      "caption": "New Jersey Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500.00"
+        ],
+        [
+          "Biweekly",
+          "$3,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$3,250.00"
+        ],
+        [
+          "Monthly",
+          "$6,500.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives a $3,000 biweekly paycheck, all wages are covered by the following contributions and none of the annual limits have been reached."
+    },
+    {
+      "caption": "New Jersey Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Deduction",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "NJ Unemployment Insurance",
+          "$11.48"
+        ],
+        [
+          "NJ workforce funds",
+          "$1.28"
+        ],
+        [
+          "NJ Temporary Disability Insurance",
+          "$5.70"
+        ],
+        [
+          "NJ Family Leave Insurance",
+          "$6.90"
+        ],
+        [
+          "Total",
+          "$254.86"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,745.14 remains before federal and New Jersey income tax withholding and other deductions.\n\nThe contribution amounts can change later in the year as the employee reaches the different taxable wage limits.\n\nThis example is not a complete net salary estimate. Use your actual withholding amounts to calculate estimated take-home pay.\n\n## Working in New Jersey and Pennsylvania\n\nNew Jersey and Pennsylvania have a reciprocal personal income tax agreement that affects employee compensation.\n\nUnder the agreement, Pennsylvania residents working in New Jersey generally do not owe New Jersey income tax on qualifying wages. Similarly, New Jersey residents working in Pennsylvania generally pay state income tax to New Jersey rather than Pennsylvania on covered compensation.\n\nPennsylvania residents working in New Jersey may need to submit Form NJ-165 to their employer to establish the applicable withholding treatment.\n\nThe agreement does not automatically eliminate Pennsylvania municipal wage taxes or cover every category of non-wage income.\n\nRead New Jersey's official [Pennsylvania reciprocal income tax agreement guidance](https://nj.gov/treasury/taxation/njit25.shtml) before assuming your paycheck is exempt from a particular tax.\n\n## Living in New Jersey and Working in New York\n\nMany New Jersey residents commute to New York for employment.\n\nUnlike the Pennsylvania arrangement, New Jersey and New York do not have the same reciprocal wage income tax agreement.\n\nDepending on your circumstances, you may have tax filing responsibilities in both states. A resident tax credit may reduce double taxation on qualifying income.\n\nRemote work arrangements can introduce additional complications involving the sourcing of employment income.\n\nIf you work across state lines, obtain a multi-state estimate rather than assuming that a New Jersey-only paycheck calculation captures every applicable tax.\n\n## Retirement Contributions and Other Deductions\n\nEmployee benefits can substantially change New Jersey take-home income.\n\nTraditional 401(k) contributions, Roth retirement contributions, health insurance premiums and other benefits may have different tax treatments.\n\nNew Jersey does not automatically follow every federal tax deduction or benefit provision.\n\nFor example, the state treatment of certain retirement and health-related accounts can differ from federal treatment.\n\nCheck the taxable wage amounts shown on your payroll statement and consult the [New Jersey Division of Taxation](https://www.nj.gov/treasury/taxation/) for applicable rules.\n\n## Planning Your Monthly Budget in New Jersey\n\nWhen evaluating a salary, focus on net earnings rather than gross compensation.\n\nConsider housing, commuting, childcare, insurance and other recurring household costs.\n\nEmployees commuting to New York City or Philadelphia may face substantial transportation expenses, making disposable income more important than the advertised salary alone.\n\nUse our [savings](/calculators/savings-calculator/) and [loan](/calculators/loan-calculator/) calculators to evaluate how much of your paycheck you can allocate toward emergency savings, debt repayment and future purchases.\n\n## Frequently Asked Questions\n\n### Why are there so many deductions on my New Jersey paycheck?\n\nNew Jersey collects employee contributions for programs including unemployment insurance, workforce development, temporary disability and family leave, in addition to ordinary federal and state taxes.\n\n### Does New Jersey have a wage limit for disability contributions?\n\nYes. The standard employee taxable wage base for temporary disability and family leave insurance is $171,100 in 2026. Unemployment and workforce contributions use a separate $44,800 wage base.\n\n### Is a New Jersey paycheck calculator accurate for New York commuters?\n\nA New Jersey-only calculator may not capture all taxes for employees working in New York. Interstate employment can require separate withholding and resident tax credit calculations.\n\n## Calculate Your New Jersey Take-Home Pay\n\nUse our NJ paycheck calculator to understand how state insurance contributions, federal taxes and withholding choices affect your earnings.\n\nThe results are estimates intended for financial planning and education, not official payroll or individualized tax advice."
+    }
+  ]
+}
