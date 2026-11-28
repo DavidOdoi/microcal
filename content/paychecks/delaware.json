@@ -1,0 +1,150 @@
+{
+  "title": "Delaware Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Estimate your Delaware take-home pay after federal taxes, Delaware income tax, paid family leave contributions and Wilmington wage tax.",
+  "heading": "Delaware Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Delaware paycheck calculator** to estimate your take-home pay after federal income tax, Delaware income tax, Social Security, Medicare, applicable paid leave contributions and Wilmington wage tax.\n\nEnter your annual salary or hourly earnings, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nDelaware has several payroll rules worth understanding, particularly if you live or work in Wilmington or participate in the state's paid family and medical leave program.\n\n## How to Use the Delaware Paycheck Calculator\n\nIf your pay stub lists Delaware Paid Leave contributions, include the amount under other deductions. Enter each deduction once.\n\nChoose whether you receive a fixed salary or hourly wages. Enter your gross earnings before taxes, then select your payment frequency.\n\nEnter federal and Delaware income tax withheld for the pay period from your pay stub.\n\nIf Wilmington wage tax was withheld, enter the amount shown for the pay period.\n\nInclude retirement contributions, health insurance premiums and other deductions.\n\nReview your estimated paycheck breakdown to see how each deduction affects your net earnings.\n\nFor the most useful estimate, have your latest pay stub and withholding certificates available when entering your information.\n\n## Delaware Payroll Taxes in 2026\n\nSeveral taxes and contributions may affect your Delaware paycheck."
+    },
+    {
+      "caption": "Delaware Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "Delaware income tax",
+          "Progressive rates up to 6.6%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Wilmington wage tax",
+          "1.25% of applicable earnings"
+        ],
+        [
+          "Delaware Paid Leave",
+          "Depends on coverage and employee cost sharing"
+        ]
+      ]
+    },
+    {
+      "markdown": "Not every employee pays every deduction listed above. Your location, employment arrangement and benefit selections determine which taxes and contributions apply.\n\n## How Delaware State Income Tax Works\n\nDelaware uses a progressive personal income tax system.\n\nThe first $2,000 of taxable income is subject to a zero rate under its ordinary tax schedule. Subsequent portions of taxable income are subject to progressively higher rates."
+    },
+    {
+      "caption": "How Delaware State Income Tax Works",
+      "columns": [
+        "Taxable income portion",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "First $2,000",
+          "0%"
+        ],
+        [
+          "$2,000–$5,000",
+          "2.2%"
+        ],
+        [
+          "$5,000–$10,000",
+          "3.9%"
+        ],
+        [
+          "$10,000–$20,000",
+          "4.8%"
+        ],
+        [
+          "$20,000–$25,000",
+          "5.2%"
+        ],
+        [
+          "$25,000–$60,000",
+          "5.55%"
+        ],
+        [
+          "Above $60,000",
+          "6.6%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employers calculate withholding using the appropriate wage bracket tables or an authorized calculation method.\n\nApplicable deductions and personal exemption credits can reduce the withholding amount.\n\nRead the [Delaware employer withholding guide](https://revenue.delaware.gov/employers-guide-withholding-regulations-employers-duties/) to understand the state's payroll calculation methodology.\n\n## Understanding Delaware's W-4 Form\n\nDelaware has its own employee withholding allowance certificate because its tax system continues to recognize withholding allowances.\n\nThe current federal Form W-4 does not use the same allowance-based structure.\n\nEmployees should therefore provide their Delaware withholding information separately rather than assuming their federal selections automatically determine state withholding.\n\nReview your state withholding certificate when changing jobs, getting married or experiencing a significant change in household income.\n\nThe [Delaware W-4 guidance](https://revenue.delaware.gov/frequently-asked-questions/delaware-w-4-employees-withholding-allowance-certificate/) explains the relationship between federal and state withholding certificates.\n\n## Delaware Paid Family and Medical Leave Contributions\n\nDelaware's paid leave program provides qualifying employees with financial support during eligible periods of leave.\n\nThe public program has three contribution categories: parental leave, medical leave, and family caregiving or qualifying exigency leave.\n\nFor 2026, employers participating in full public coverage face a combined contribution rate of 0.8%. Employers may require employees to pay up to half of the applicable cost.\n\nAn employer offering only parental leave has a lower total public plan contribution rate of 0.32%.\n\nThis means the amount deducted from your paycheck depends on your employer's coverage arrangements.\n\nFor example, if you receive $2,500 in covered wages and your employer provides full public coverage with an equal contribution split, your deduction would be:\n\n$2,500 × 0.004 = $10\n\nIf your employer pays the entire contribution, your employee deduction would be zero.\n\nVisit the [Delaware Paid Leave program](https://labor.delaware.gov/delaware-paid-leave/) for official coverage and contribution information.\n\n## Wilmington Wage Tax\n\nWilmington imposes a municipal wage tax that can affect city residents and qualifying nonresidents working within city boundaries.\n\nThe standard wage tax rate is 1.25%.\n\nSuppose you receive $2,500 in earnings that are fully subject to Wilmington wage tax.\n\nYour municipal deduction would be:\n\n$2,500 × 0.0125 = $31.25\n\nThe tax is separate from Delaware state income tax.\n\nEmployees working partly inside and partly outside Wilmington may require additional income allocation calculations.\n\nDelaware's municipal tax authorization is available in the [Delaware Code, Title 22, Chapter 9](https://delcode.delaware.gov/title22/c009/).\n\nConsult the city or your payroll department if you are uncertain about whether the tax applies to your employment.\n\n## Federal Payroll Taxes for Delaware Employees\n\nDelaware employees remain subject to applicable federal payroll taxes.\n\nFederal income tax withholding depends on taxable earnings, filing status and Form W-4 information.\n\nThe ordinary employee Social Security contribution is 6.2% of covered earnings, subject to the 2026 annual taxable wage ceiling of $184,500.\n\nMedicare withholding generally applies at 1.45% of covered wages.\n\nEmployers generally deduct additional Medicare tax at 0.9% when covered earnings paid by that employer exceed $200,000 during the calendar year.\n\nThese federal deductions are calculated separately from state income tax and local wage tax.\n\nReview the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official federal payroll information.\n\n## Delaware Paycheck Example: $65,000 Salary\n\nSuppose you earn $65,000 annually and receive 26 biweekly paychecks."
+    },
+    {
+      "caption": "Delaware Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume your $2,500 biweekly paycheck is subject to ordinary federal payroll contributions, Wilmington wage tax and the maximum standard employee share of full public paid leave coverage."
+    },
+    {
+      "caption": "Delaware Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Wilmington wage tax",
+          "$31.25"
+        ],
+        [
+          "Paid leave contribution",
+          "$10.00"
+        ],
+        [
+          "Total",
+          "$232.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,267.50 remains before federal and Delaware income tax withholding and other employee deductions.\n\nIf Wilmington wage tax does not apply, or your employer pays the entire paid leave contribution, your take-home earnings would be higher under otherwise identical conditions.\n\nEnter your actual circumstances into the calculator to obtain a complete estimate.\n\n## Delaware Hourly Paycheck Calculator\n\nHourly employees may earn different amounts each pay period depending on their working hours and overtime.\n\nSuppose you earn $25 per hour and work 40 regular hours plus six qualifying overtime hours paid at time-and-a-half.\n\nRegular pay:\n\n$25 × 40 = $1,000\n\nOvertime pay:\n\n$25 × 1.5 × 6 = $225\n\nTotal gross earnings:\n\n$1,225\n\nFederal taxes, Delaware withholding and applicable employee contributions are calculated using the appropriate taxable wage amounts.\n\nConsult the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) if you are uncertain about overtime eligibility.\n\n## Working Across Delaware State Borders\n\nDelaware is bordered by Maryland, Pennsylvania and New Jersey. Employees may live in one state and work in another.\n\nDelaware does not have general reciprocal income tax agreements with other states.\n\nDepending on your circumstances, you may have withholding or tax filing responsibilities in more than one state.\n\nDelaware residents may qualify for credits for certain income taxes paid to other jurisdictions.\n\nHowever, these credits do not automatically eliminate all interstate tax obligations.\n\nReview the official [Delaware withholding tax FAQs](https://revenue.delaware.gov/frequently-asked-questions/withholding-tax-faqs/) before estimating take-home income from interstate employment.\n\n## How Employee Benefits Affect Delaware Take-Home Pay\n\nYour paycheck may include retirement contributions, health insurance premiums and other voluntary or mandatory deductions.\n\nTraditional retirement contributions and qualifying health benefits may reduce some taxable wage amounts. Other deductions may be taken after taxes.\n\nWhen comparing job offers, examine the employer's retirement match, insurance costs and paid leave arrangements alongside the advertised salary.\n\nA higher salary may not necessarily produce a proportionately higher take-home paycheck.\n\n## Planning Your Budget Using Delaware Net Income\n\nCalculate your expected monthly net earnings before committing to rent, mortgage payments, vehicle financing or other recurring expenses.\n\nInclude commuting costs, particularly if your employment involves interstate travel.\n\nOur [loan payment calculator](/calculators/loan-calculator/) can help estimate borrowing costs, while our [emergency fund calculator](/savings/emergency-fund-calculator/) can help you establish a suitable financial cushion.\n\nReview your paycheck whenever your employer changes its benefit contributions or your work location changes.\n\n## Frequently Asked Questions\n\n### What is Delaware's state income tax rate?\n\nDelaware applies progressive individual income tax rates ranging from zero to 6.6%. Your actual withholding depends on taxable earnings, applicable deductions and withholding allowances.\n\n### Does everyone in Delaware pay Wilmington wage tax?\n\nNo. Wilmington's 1.25% municipal wage tax applies to qualifying earnings of city residents and nonresidents working within the city, subject to applicable rules.\n\n### How much is deducted for Delaware Paid Leave?\n\nThe employee deduction depends on the employer's coverage and cost-sharing arrangement. For full public coverage in 2026, the maximum standard employee share is 0.4% of covered wages.\n\n## Calculate Your Delaware Take-Home Pay\n\nUse our Delaware paycheck calculator to compare employment offers, understand deductions and manage your personal finances using estimated net income.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}

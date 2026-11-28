@@ -1,3 +1,4 @@
+import delawarePaycheckContent from '@/content/paychecks/delaware.json';
 import connecticutPaycheckContent from '@/content/paychecks/connecticut.json';
 import coloradoPaycheckContent from '@/content/paychecks/colorado.json';
 import arkansasPaycheckContent from '@/content/paychecks/arkansas.json';
@@ -65,6 +66,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'delaware-paycheck-calculator': delawarePaycheckContent,
   'connecticut-paycheck-calculator': connecticutPaycheckContent,
   'colorado-paycheck-calculator': coloradoPaycheckContent,
   'arkansas-paycheck-calculator': arkansasPaycheckContent,
