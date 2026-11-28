@@ -1,0 +1,162 @@
+{
+  "title": "Missouri Paycheck Calculator 2026 – State and City Taxes",
+  "metaDescription": "Estimate your Missouri take-home pay after federal taxes, Missouri income tax, Kansas City or St. Louis earnings taxes, Social Security and Medicare.",
+  "heading": "Missouri Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Missouri paycheck calculator** to estimate your take-home pay after federal income tax, Missouri income tax, Social Security, Medicare and applicable local earnings taxes.\n\nEnter your annual salary or hourly wage, choose your pay frequency and customize your withholding information to understand how much money you could receive on payday.\n\nMissouri employees working or living in Kansas City and St. Louis may face additional municipal earnings taxes. These deductions can affect the take-home value of otherwise identical salaries.\n\nWhether you work in Springfield, Columbia, Jefferson City, Kansas City or St. Louis, this calculator can help you understand your payroll deductions and manage your finances.\n\n## How to Use the Missouri Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross earnings before taxes and choose your payment frequency.\n\nEnter the federal and Missouri income tax withheld for the pay period from your pay stub.\n\nIf Kansas City or St. Louis earnings tax was withheld, enter the amount shown for the pay period.\n\nInclude retirement contributions, health insurance premiums and other employee deductions. Use the full withholding amounts, including any extra tax withheld.\n\nReview your estimated paycheck breakdown to understand your remaining net income.\n\nFor greater accuracy, use your latest payroll statement and Missouri Form MO W-4.\n\n## Missouri Payroll Taxes in 2026\n\nMissouri employees may encounter the following payroll deductions."
+    },
+    {
+      "caption": "Missouri Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Missouri income tax",
+          "Progressive withholding rates up to 4.7%"
+        ],
+        [
+          "Kansas City earnings tax",
+          "1% of applicable earnings"
+        ],
+        [
+          "St. Louis earnings tax",
+          "1% of applicable earnings"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Not every Missouri employee pays municipal earnings tax. Your residence, employment location and applicable municipal rules determine whether these deductions apply.\n\n## How Missouri State Income Tax Works\n\nMissouri uses progressive income tax rates.\n\nIts 2026 employer withholding formula applies the following annual payroll-period brackets after subtracting the applicable withholding deduction."
+    },
+    {
+      "caption": "How Missouri State Income Tax Works",
+      "columns": [
+        "Adjusted annual taxable wages",
+        "Marginal withholding rate"
+      ],
+      "rows": [
+        [
+          "First $1,348",
+          "0%"
+        ],
+        [
+          "$1,348–$2,696",
+          "2%"
+        ],
+        [
+          "$2,696–$4,044",
+          "2.5%"
+        ],
+        [
+          "$4,044–$5,392",
+          "3%"
+        ],
+        [
+          "$5,392–$6,740",
+          "3.5%"
+        ],
+        [
+          "$6,740–$8,088",
+          "4%"
+        ],
+        [
+          "$8,088–$9,436",
+          "4.5%"
+        ],
+        [
+          "Above $9,436",
+          "4.7%"
+        ]
+      ]
+    },
+    {
+      "markdown": "The highest rate applies only to the portion of adjusted earnings within that bracket.\n\nEmployers follow the official [2026 Missouri withholding tax formula](https://dor.mo.gov/forms/Withholding%20Formula_2026.pdf), rather than applying the highest rate directly to every dollar of gross income.\n\n## Missouri Withholding Deductions\n\nMissouri's 2026 employer formula recognizes the following annual deduction amounts."
+    },
+    {
+      "caption": "Missouri Withholding Deductions",
+      "columns": [
+        "Withholding classification",
+        "Annual deduction"
+      ],
+      "rows": [
+        [
+          "Single",
+          "$16,100"
+        ],
+        [
+          "Married and spouse works",
+          "$16,100"
+        ],
+        [
+          "Married filing separately",
+          "$16,100"
+        ],
+        [
+          "Married and spouse does not work",
+          "$32,200"
+        ],
+        [
+          "Head of household",
+          "$24,150"
+        ]
+      ]
+    },
+    {
+      "markdown": "These amounts reduce annualized taxable wages before the appropriate withholding rates are applied.\n\nMarried employees should pay particular attention to whether their spouse earns employment income. Using the larger deduction independently at both jobs could lead to insufficient withholding.\n\n## Understanding Missouri Form MO W-4\n\nMissouri employees generally complete Form MO W-4 to communicate their state withholding information to employers.\n\nThe form provides information about filing classification, spouse employment and additional withholding requests.\n\nFederal Form W-4 is separate from Missouri withholding information.\n\nReview your elections when starting employment, getting married or experiencing a significant change in household income.\n\nVisit the [Missouri Department of Revenue withholding guidance](https://dor.mo.gov/taxation/business/registration/small-business/maintain/withholding.html) to learn more about employer calculations and withholding certificates.\n\n## Kansas City Earnings Tax\n\nKansas City, Missouri, imposes a 1% earnings tax on qualifying earned income.\n\nResidents are generally subject to the tax on earned income even when they work outside the city. Nonresidents generally pay it on qualifying earnings from work performed within city boundaries.\n\nFor example, an employee receiving $2,500 in wages fully subject to Kansas City earnings tax would have a local deduction of:\n\n$2,500 × 1% = $25\n\nThe tax is separate from Missouri state income tax.\n\nEmployees working partly outside the city or working remotely may need additional income allocation calculations.\n\nRead the official [Kansas City earnings tax guidance](https://www.kcmo.gov/city-hall/departments/finance/earnings-tax) to determine whether the tax applies.\n\nDo not confuse Kansas City, Missouri, with Kansas City, Kansas.\n\n## St. Louis Earnings Tax\n\nThe City of St. Louis also imposes a 1% earnings tax on qualifying employee compensation.\n\nEmployees living or working within the city may be affected by the tax, depending on the applicable residency and employment rules.\n\nA paycheck containing $3,000 in wages fully subject to the tax would produce a $30 local deduction.\n\nSt. Louis also imposes a separate payroll expense tax of 0.5% on applicable employers.\n\nThis employer expense should not be treated as an ordinary employee paycheck deduction.\n\nVisit the official [St. Louis employer withholding and payroll expense tax guidance](https://www.stlouis-mo.gov/government/departments/collector/earnings-tax/payroll-tax-info.cfm) for additional information.\n\n## Missouri Income Tax Calculation Example\n\nConsider a single employee earning $65,000 annually with 26 biweekly payments.\n\nAnnualized taxable wages:\n\n$2,500 × 26 = $65,000\n\nSubtract the applicable annual deduction:\n\n$65,000 − $16,100 = $48,900\n\nApply the progressive withholding rates to the adjusted annual earnings.\n\nThe accumulated tax on the first $9,436 is $262.86.\n\nThe remaining adjusted earnings are:\n\n$48,900 − $9,436 = $39,464\n\nTax on that portion:\n\n$39,464 × 4.7% = $1,854.808\n\nAnnualized withholding:\n\n$262.86 + $1,854.808 = $2,117.668\n\nBiweekly withholding before applicable rounding:\n\n$2,117.668 ÷ 26 = approximately $81.45\n\nEmployer withholding and reporting rounding procedures may affect the final amount shown on your pay stub.\n\n## Federal Taxes Deducted From Missouri Paychecks\n\nMissouri employees remain subject to applicable federal income tax, Social Security and Medicare.\n\nFederal income tax withholding depends on wages, filing status and Form W-4 information.\n\nSocial Security generally applies at 6.2% of covered earnings up to the 2026 annual wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nEmployers generally collect an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) and [Publication 15-T](https://www.irs.gov/publications/p15t) for official federal payroll guidance.\n\n## Missouri Paycheck Example: $65,000 Salary\n\nAssume an employee receives $2,500 biweekly, uses ordinary single withholding settings and has no benefit deductions.\n\nFor federal withholding, assume a modern Form W-4 with no additional credits, income adjustments or multiple-jobs selection."
+    },
+    {
+      "caption": "Missouri Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Missouri income tax before whole-dollar rounding",
+          "$81.45"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$488.85"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,011.15"
+        ]
+      ]
+    },
+    {
+      "markdown": "If a 1% municipal earnings tax also applies to the entire paycheck, the employee's estimated take-home pay would decrease by another $25, to $1,986.15.\n\nThese examples illustrate how employment location and withholding arrangements affect net income.\n\n## Missouri Hourly Paycheck Calculator\n\nSuppose an employee earns $25 per hour and works 40 regular hours plus six qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 6 = $225\n\nTotal gross earnings:\n\n$1,225\n\nIf the entire amount is subject to a 1% municipal earnings tax, the local deduction would be $12.25.\n\nApplicable federal and Missouri withholding would also apply.\n\nConsult the [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for information about eligibility.\n\n## Working Across Missouri State Borders\n\nMissouri employees may live in Kansas, Illinois or another neighboring state while working within Missouri.\n\nInterstate employment can create additional tax withholding and filing obligations.\n\nResident tax credits may help reduce double taxation, but employees should not assume that every neighboring state has a reciprocal wage income tax agreement with Missouri.\n\nA standard single-state paycheck calculator may not capture all interstate employment circumstances.\n\nConfirm applicable withholding requirements with your employer and the relevant state tax authorities.\n\n## Managing Your Missouri Take-Home Income\n\nCompare estimated net pay alongside housing expenses, transportation costs, healthcare premiums and employer retirement matching.\n\nWhen evaluating jobs in Kansas City or St. Louis, consider the potential impact of municipal earnings taxes.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare different compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is Missouri's income tax rate in 2026?\n\nMissouri's ordinary withholding schedule uses progressive rates up to 4.7%. Applicable deductions and withholding classifications determine the amount deducted from each paycheck.\n\n### Do Kansas City and St. Louis have income taxes?\n\nBoth cities impose a 1% earnings tax on qualifying compensation. Residency, employment location and applicable municipal rules determine whether the tax applies.\n\n### Does every Missouri employee pay local earnings tax?\n\nNo. Municipal earnings taxes depend on your applicable tax jurisdiction. Employees should not automatically apply Kansas City or St. Louis taxes to wages earned elsewhere.\n\n## Calculate Your Missouri Take-Home Pay\n\nUse our Missouri paycheck calculator to understand your estimated federal, state and municipal deductions.\n\nThe results provide educational estimates to support budgeting and salary comparisons, rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
