@@ -106,3 +106,21 @@ test('published state paystub guides have both entry points and reciprocal hub l
     }
   }
 });
+
+test('the national mortgage pillar preserves both routes and uses one canonical and article hierarchy', async () => {
+  const path = '/calculators/mortgage-calculator/';
+  for (const route of [path, '/mortgages/mortgage-calculator/']) {
+    const response = await fetch(new URL(route, baseUrl));
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.ok(html.includes('<h1>Mortgage Calculator</h1>'));
+    assert.ok(html.includes('Mortgage Calculator – Estimate Your Monthly Payment'));
+    assert.ok(html.includes(`rel="canonical" href="https://microfinancepost.com${path}"`));
+    assert.ok(html.includes('$1,888.92'));
+    assert.ok(html.includes('Mortgage Calculators by State'));
+    const faq = html.match(/<h2>Frequently Asked Questions<\/h2>([\s\S]*?)<\/section>/)?.[1];
+    assert.equal((faq?.match(/<h3\b/g) ?? []).length, 3);
+    const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+    assert.deepEqual(schema['@graph'].map(item => item['@type']), ['WebPage', 'WebApplication', 'BreadcrumbList']);
+  }
+});

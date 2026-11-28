@@ -1,3 +1,4 @@
+import { MortgageCalculatorPage, mortgageMetadata } from './MortgageCalculatorPage';
 import vermontPaycheckContent from '@/content/paychecks/vermont.json';
 import utahPaycheckContent from '@/content/paychecks/utah.json';
 import texasPaycheckContent from '@/content/paychecks/texas.json';
@@ -66,6 +67,7 @@ import { RentVsBuyCalculatorPage, rentVsBuyMetadata } from './RentVsBuyCalculato
 // Shared by the directory and category routes so new pages cannot be published
 // in one URL form while their navigation URL falls back to a placeholder.
 const pages = {
+  'mortgage-calculator': { category: 'mortgages', metadata: mortgageMetadata, Component: MortgageCalculatorPage },
   'mortgage-extra-payment-calculator': { category: 'mortgages', metadata: mortgageExtraMetadata, Component: MortgageExtraCalculatorPage },
   'gross-margin-calculator': { category: 'business', metadata: grossMarginMetadata, Component: GrossMarginCalculatorPage },
   '1099-tax-calculator': { category: 'taxes', metadata: selfEmploymentMetadata, Component: SelfEmploymentCalculatorPage },

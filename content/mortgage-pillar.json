@@ -1,0 +1,178 @@
+{
+  "intro": [
+    "Buying a home is a major financial decision, and knowing how much you can expect to pay each month makes it easier to plan. Our free mortgage calculator helps you estimate your monthly mortgage payment based on the home price, down payment, interest rate, loan term, property taxes and homeowners insurance.",
+    "Whether you're buying your first home, moving to a larger property or comparing mortgage offers, use this calculator to explore different borrowing scenarios and find a monthly payment that fits your budget."
+  ],
+  "sections": [
+    {
+      "heading": "Quick Answer: How Much Will My Mortgage Payment Be?",
+      "blocks": [
+        {
+          "markdown": "A $300,000 home with a 20% down payment and a 30-year mortgage at a 6% fixed interest rate would cost approximately $1,438.92 per month in principal and interest.\n\nAfter including estimated property taxes and homeowners insurance, your monthly housing payment could look like this:"
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Home price",
+              "$300,000"
+            ],
+            [
+              "Down payment (20%)",
+              "$60,000"
+            ],
+            [
+              "Loan amount",
+              "$240,000"
+            ],
+            [
+              "Interest rate",
+              "6%"
+            ],
+            [
+              "Loan term",
+              "30 years"
+            ],
+            [
+              "Monthly principal and interest",
+              "$1,438.92"
+            ],
+            [
+              "Monthly property taxes",
+              "$300"
+            ],
+            [
+              "Monthly homeowners insurance",
+              "$150"
+            ],
+            [
+              "Estimated monthly payment",
+              "$1,888.92"
+            ]
+          ]
+        },
+        {
+          "markdown": "These figures are illustrative. Your actual payment depends on your lender, location, insurance coverage and loan requirements."
+        }
+      ]
+    },
+    {
+      "heading": "How to Use the Mortgage Calculator",
+      "blocks": [
+        {
+          "markdown": "You don't need to have an official mortgage offer to start estimating your payments. Enter the information you know and adjust your assumptions as you explore different homes.\n\n### Home price\n\nEnter the purchase price of the property you're considering. If you're still house hunting, try several prices within your preferred range to see how they affect your monthly expenses.\n\n### Down payment\n\nYour down payment is the money you contribute toward the purchase upfront. For example, putting $40,000 down on a $400,000 home means borrowing $360,000 before any financed fees.\n\nA larger down payment generally reduces your monthly payment and may help you avoid private mortgage insurance on a conventional loan.\n\n### Loan term\n\nChoose how long you intend to repay the mortgage. Common options include 15-year and 30-year mortgages.\n\nA longer term usually produces smaller monthly payments, while a shorter term reduces the time you spend paying interest.\n\n### Interest rate\n\nEnter the annual interest rate quoted by your lender. If you haven't received an offer, check [Freddie Mac's Primary Mortgage Market Survey](https://www.freddiemac.com/pmms) for a national benchmark.\n\nRemember that advertised rates may differ from the rate you qualify for. Use the contractual interest rate rather than the annual percentage rate (APR) when calculating principal and interest.\n\n### Property taxes and insurance\n\nEnter your estimated annual property taxes and homeowners insurance premium. Include mortgage insurance and homeowners association fees where applicable.\n\nAdding these expenses provides a more realistic estimate than calculating the loan payment alone."
+        }
+      ]
+    },
+    {
+      "heading": "What Is Included in a Monthly Mortgage Payment?",
+      "blocks": [
+        {
+          "markdown": "A mortgage payment often includes more than the money you borrowed. Understanding each component helps you avoid underestimating the cost of owning a home.\n\n### Principal\n\nPrincipal is the outstanding amount borrowed from your lender. Each principal payment reduces your loan balance and gradually increases your equity in the property.\n\n### Interest\n\nInterest is the amount your lender charges for borrowing money. With a standard fixed-rate mortgage, interest is calculated using the remaining principal balance.\n\nEarlier payments generally contain more interest, while later payments contribute more toward principal.\n\n### Property taxes\n\nLocal governments collect property taxes to fund services such as schools, roads and public infrastructure.\n\nTax bills depend on local assessment rules, applicable rates and exemptions. Consult your county assessor rather than assuming that the previous owner's tax bill will remain unchanged after your purchase.\n\n### Homeowners insurance\n\nHomeowners insurance helps protect your property against covered losses. Your premium depends on factors such as location, replacement cost, coverage limits and deductible.\n\nStandard policies generally exclude flooding. You can explore flood risks through the [FEMA Flood Map Service Center](https://msc.fema.gov/portal/home).\n\n### Private mortgage insurance (PMI)\n\nConventional lenders typically require PMI when your down payment is below 20%. It protects the lender rather than the homeowner.\n\nPMI costs vary depending on your loan and borrower profile. Government-backed mortgages have different insurance or guarantee fee requirements.\n\n### HOA fees\n\nIf your property belongs to a homeowners association, include its regular dues in your housing budget. Although these fees are often paid separately from the mortgage, they still affect affordability."
+        }
+      ]
+    },
+    {
+      "heading": "How Are Mortgage Payments Calculated?",
+      "blocks": [
+        {
+          "markdown": "The mortgage calculator uses a standard fixed-rate amortization formula to estimate monthly principal and interest.\n\n**M = P × [r(1 + r)ⁿ] ÷ [(1 + r)ⁿ − 1]**\n\nWhere:\n\n- M = monthly principal and interest payment\n- P = original loan principal\n- r = annual interest rate divided by 12 and expressed as a decimal\n- n = total number of monthly payments\n\nFor a $240,000 mortgage at 6% over 30 years:\n\n- Loan principal: $240,000\n- Monthly interest rate: 0.005\n- Number of payments: 360\n- Monthly principal and interest: $1,438.92\n\nProperty taxes, insurance and applicable fees are added separately.\n\nFor a zero-interest loan, monthly principal repayment is simply the loan amount divided by the number of payments."
+        }
+      ]
+    },
+    {
+      "heading": "Understanding Your Mortgage Amortization Schedule",
+      "blocks": [
+        {
+          "markdown": "A mortgage amortization schedule shows how your outstanding balance decreases throughout the repayment period.\n\nDuring the first month of the $240,000 mortgage example, approximately $1,200 goes toward interest and $238.92 reduces the principal.\n\nAs your balance decreases, less interest accumulates each month. A growing portion of subsequent payments goes toward repaying the original loan.\n\nThe amortization schedule helps you estimate your remaining balance at a future date, understand total interest expenses and evaluate the potential benefits of [additional principal payments](/calculators/mortgage-extra-payment-calculator/)."
+        }
+      ]
+    },
+    {
+      "heading": "15-Year vs. 30-Year Mortgage",
+      "blocks": [
+        {
+          "markdown": "Choosing a repayment term affects both your monthly budget and long-term borrowing costs.\n\nThe following example compares a $240,000 mortgage at the same illustrative 6% fixed interest rate."
+        },
+        {
+          "columns": [
+            "Mortgage details",
+            "15-year loan",
+            "30-year loan"
+          ],
+          "rows": [
+            [
+              "Monthly principal and interest",
+              "$2,025.26",
+              "$1,438.92"
+            ],
+            [
+              "Total interest",
+              "$124,546",
+              "$278,012"
+            ],
+            [
+              "Repayment period",
+              "180 months",
+              "360 months"
+            ]
+          ]
+        },
+        {
+          "markdown": "The 15-year mortgage requires a larger monthly commitment but significantly reduces lifetime interest under these assumptions.\n\nA 30-year mortgage offers greater monthly flexibility. Compare actual lender rates for both terms, since they may differ."
+        }
+      ]
+    },
+    {
+      "heading": "How Much Mortgage Can You Afford?",
+      "blocks": [
+        {
+          "markdown": "Start with your household income, recurring expenses and existing financial commitments rather than the maximum amount a lender might approve.\n\nConsider your [monthly take-home pay](/calculators/paycheck-calculator/), existing debt payments, groceries, transportation, childcare, retirement contributions and emergency savings.\n\nCheck your price range with the [Home Affordability Calculator](/calculators/home-affordability-calculator/) or compare monthly costs with the [Rent vs Buy Calculator](/calculators/rent-vs-buy-calculator/).\n\nLenders also evaluate your [debt-to-income ratio (DTI)](/debt/debt-to-income-ratio-calculator/), which compares qualifying monthly debt obligations with gross monthly income.\n\nFor example, if your gross monthly income is $6,000 and your qualifying monthly debts, including proposed housing expenses, total $2,100, your DTI is 35%.\n\nHowever, lender approval does not guarantee that a payment is comfortable for your household. Review the [Consumer Financial Protection Bureau's home affordability guidance](https://www.consumerfinance.gov/owning-a-home/prepare/decide-how-much-you-want-spend/) before establishing your purchase budget."
+        }
+      ]
+    },
+    {
+      "heading": "How to Lower Your Monthly Mortgage Payment",
+      "blocks": [
+        {
+          "markdown": "If the calculator returns a payment above your budget, consider these options:\n\n- **Increase your down payment:** Borrowing less reduces principal and interest expenses.\n- **Compare mortgage lenders:** Request competing offers rather than accepting the first available rate.\n- **Improve your credit profile:** Paying bills on time and reducing outstanding debt may help you qualify for more favorable terms.\n- **Choose a less expensive property:** A lower purchase price reduces the amount you need to finance.\n- **Consider a longer repayment term:** This can lower monthly payments but generally increases total interest.\n- **Compare insurance policies:** Obtain quotes for equivalent coverage and review deductibles carefully.\n\nFirst-time buyers should also investigate local housing assistance programs. [HUD's housing resources](https://www.hud.gov/) are a useful starting point."
+        }
+      ]
+    },
+    {
+      "heading": "Additional Costs to Consider When Buying a Home",
+      "blocks": [
+        {
+          "markdown": "Your estimated mortgage payment does not represent every homeownership expense.\n\nYou may also need money for closing costs, moving, inspections, utility bills, maintenance and unexpected repairs.\n\nClosing costs can include lender charges, appraisal fees, title services, recording fees and prepaid expenses.\n\nReview the [CFPB's Loan Estimate explainer](https://www.consumerfinance.gov/owning-a-home/loan-estimate/) to understand these charges before committing to a mortgage.\n\nAvoid using all your available savings for the down payment. Keeping an [emergency fund](/savings/emergency-fund-calculator/) can make unexpected homeownership expenses easier to manage."
+        }
+      ]
+    },
+    {
+      "heading": "Mortgage Calculators by State",
+      "blocks": [
+        {
+          "markdown": "The cost of buying a home varies considerably across the United States. Two properties with identical purchase prices and interest rates can have different monthly housing payments because of local taxes, insurance premiums and association fees.\n\nFor a local estimate, check the property's assessment with the county assessor, get an insurance quote, and enter those figures above."
+        }
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "markdown": "### 1. How much is the monthly payment on a $400,000 mortgage?\n\nA $400,000 loan at a 6% fixed interest rate over 30 years has a monthly principal and interest payment of approximately $2,398.20. Property taxes, homeowners insurance, mortgage insurance and HOA fees may increase your total monthly housing expenses.\n\n### 2. Can I buy a home without a 20% down payment?\n\nYes. Some conventional mortgages allow smaller down payments. [FHA loans](/calculators/fha-home-loan-calculator/) and eligible VA or USDA mortgage programs may offer additional alternatives. Requirements depend on your financial profile, the property and the loan program. A smaller down payment can increase borrowing costs.\n\n### 3. Does making extra mortgage payments save money?\n\nAdditional payments applied directly to principal can reduce your remaining balance, lower total interest and shorten your repayment period. Confirm how your lender handles additional payments and whether your mortgage has any applicable prepayment restrictions."
+        }
+      ]
+    },
+    {
+      "heading": "Plan Your Mortgage With Confidence",
+      "blocks": [
+        {
+          "markdown": "Use the MicroFinancePost mortgage calculator to compare home prices, down payments, interest rates and repayment terms before approaching a lender. If you already own a home, use the [Refinance Calculator](/calculators/refinance-calculator/) to compare loan costs or the [Home Equity Loan Calculator](/calculators/home-equity-loan-calculator/) to estimate a fixed-rate equity loan.\n\nFocus on a payment that accommodates your everyday expenses, savings goals and unexpected costs. Revisit your calculations whenever your loan offer or property information changes.\n\nThis calculator provides educational estimates, not a mortgage approval, guaranteed interest rate or personalized financial recommendation."
+        }
+      ]
+    }
+  ]
+}
