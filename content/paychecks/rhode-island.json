@@ -1,0 +1,170 @@
+{
+  "title": "Rhode Island Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Rhode Island take-home pay after federal income tax, Rhode Island income tax, disability insurance, Social Security and Medicare.",
+  "heading": "Rhode Island Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Rhode Island paycheck calculator** to estimate your take-home pay after federal income tax, Rhode Island income tax, Social Security, Medicare and Temporary Disability Insurance contributions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nRhode Island's payroll system includes employee-funded disability insurance, making its paycheck calculations different from those in many other states.\n\nWhether you work in Providence, Warwick, Cranston, Pawtucket or another Rhode Island community, understanding your net income can help you compare job offers, manage expenses and establish realistic financial goals.\n\n## How to Use the Rhode Island Paycheck Calculator\n\nStart by selecting annual salary or hourly wages.\n\nEnter your earnings before taxes and deductions, then choose your payment frequency.\n\nEnter the federal and Rhode Island income tax withheld for the pay period from your pay stub.\n\nEnter any Temporary Disability Insurance withheld under Benefits in Advanced settings, under Other deductions.\n\nAdd retirement contributions, healthcare premiums and other employee deductions. Enter the full tax amounts, including any extra withholding.\n\nReview your estimated paycheck breakdown to understand your gross earnings, individual taxes and remaining take-home pay.\n\nUse your latest payroll statement and withholding certificates for greater accuracy.\n\n## Rhode Island Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Rhode Island Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Rhode Island income tax",
+          "3.75%, 4.75% and 5.99%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Temporary Disability Insurance",
+          "1.1% up to $100,000"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on your taxable income, withholding exemptions, employee benefits and employment circumstances.\n\nThe [Rhode Island Division of Taxation](https://tax.ri.gov/) provides official information about state income tax and employer withholding.\n\n## How Rhode Island State Income Tax Works\n\nRhode Island applies progressive individual income tax rates of 3.75%, 4.75% and 5.99%.\n\nDifferent portions of applicable taxable wages may therefore be subject to different withholding rates.\n\nThe state's official employer percentage tables apply to all withholding filing status categories, with applicable adjustments for employee withholding exemptions.\n\nFor ordinary biweekly payroll in 2026, the percentage calculation uses the following adjusted wage brackets."
+    },
+    {
+      "caption": "How Rhode Island State Income Tax Works",
+      "columns": [
+        "Adjusted biweekly taxable wages",
+        "Withholding calculation"
+      ],
+      "rows": [
+        [
+          "Up to $3,156",
+          "3.75% of adjusted wages"
+        ],
+        [
+          "$3,156–$7,171",
+          "$118.35 plus 4.75% of the excess over $3,156"
+        ],
+        [
+          "Above $7,171",
+          "$309.06 plus 5.99% of the excess over $7,171"
+        ]
+      ]
+    },
+    {
+      "markdown": "These are employer withholding brackets, not annual individual income tax return brackets.\n\nRead the official [2026 Rhode Island withholding booklet](https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/2026%20Withholding%20Tax%20Booklet.pdf) for all payroll frequencies and calculation instructions.\n\n## Understanding Rhode Island Withholding Exemptions\n\nRhode Island employees generally provide state withholding information through Form RI W-4.\n\nEach ordinary withholding exemption has an annual value of $1,000, subject to an income limit."
+    },
+    {
+      "caption": "Understanding Rhode Island Withholding Exemptions",
+      "columns": [
+        "Payment frequency",
+        "Amount per exemption"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$19.23"
+        ],
+        [
+          "Biweekly",
+          "$38.46"
+        ],
+        [
+          "Semimonthly",
+          "$41.67"
+        ],
+        [
+          "Monthly",
+          "$83.33"
+        ]
+      ]
+    },
+    {
+      "markdown": "The exemption value becomes zero when wages exceed the applicable high-income threshold.\n\nFor biweekly payroll, that threshold is $11,184.62 in 2026. The corresponding published annual threshold is $290,800.\n\nThese limits mean high-income employees may receive different withholding treatment despite claiming the same number of exemptions as lower-income employees.\n\nConsult pages 9–10 of the official withholding booklet for the appropriate payroll-period thresholds.\n\n## How to Calculate Rhode Island Income Tax Withholding\n\nConsider an employee receiving $2,500 in biweekly taxable wages and claiming one qualifying state withholding exemption.\n\nApplicable exemption: $38.46.\n\nAdjusted taxable wages:\n\n$2,500 − $38.46 = $2,461.54.\n\nBecause this amount falls within the first biweekly percentage bracket, apply the 3.75% rate.\n\n$2,461.54 × 3.75% = approximately $92.31.\n\nThis example assumes ordinary taxable employment, no additional withholding and no high-income exemption restriction.\n\nEmployees with different withholding elections may have different deductions.\n\n## Rhode Island Temporary Disability Insurance\n\nRhode Island's Temporary Disability Insurance program provides financial assistance to eligible workers experiencing qualifying non-work-related illness or injury.\n\nThe employee payroll contribution also supports the state's Temporary Caregiver Insurance program.\n\nFor 2026, the employee contribution rate is 1.1% of covered earnings, up to an annual wage ceiling of $100,000.\n\nThe maximum standard annual employee contribution is:\n\n$100,000 × 0.011 = $1,100."
+    },
+    {
+      "caption": "Rhode Island Temporary Disability Insurance",
+      "columns": [
+        "Covered earnings",
+        "TDI deduction"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$5.50"
+        ],
+        [
+          "$1,000",
+          "$11.00"
+        ],
+        [
+          "$2,500",
+          "$27.50"
+        ],
+        [
+          "$3,000",
+          "$33.00"
+        ],
+        [
+          "$5,000",
+          "$55.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "These amounts assume the annual taxable wage ceiling has not been reached.\n\nVisit the official [Rhode Island TDI and TCI tax information page](https://dlt.ri.gov/individuals/temporary-disability-caregiver-insurance/claimants/tdi-and-tci-tax-information) for additional details.\n\n## Rhode Island TDI Wage Limit Example\n\nSuppose an employee has already earned $99,000 in covered wages during 2026 and receives another paycheck containing $2,500.\n\nOnly $1,000 remains below the $100,000 annual wage ceiling.\n\nThe TDI deduction for that paycheck would therefore be:\n\n$1,000 × 1.1% = $11.\n\nApplying the rate to the entire paycheck would produce an incorrect deduction of $27.50.\n\nOnce the annual wage ceiling is reached with an employer, ordinary contributions generally stop for the remainder of the calendar year.\n\nEmployees who change employers may qualify for a refund of excess contributions under applicable rules.\n\nThe [Rhode Island Department of Labor and Training employer tax information](https://dlt.ri.gov/employers/employer-tax-unit) provides annual contribution rates and wage bases.\n\n## Federal Taxes Deducted From Rhode Island Paychecks\n\nFederal income tax withholding depends on your taxable earnings, filing status, payment frequency and Form W-4 information.\n\nEmployees generally contribute 6.2% of covered wages to Social Security, subject to the 2026 annual wage ceiling of $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t), [IRS Publication 15](https://www.irs.gov/publications/p15) and the [Social Security Administration wage ceiling information](https://www.ssa.gov/oact/cola/cbb.html) for official federal payroll rules.\n\n## Rhode Island Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving $2,500 biweekly.\n\nAssume ordinary single federal withholding settings, one Rhode Island withholding exemption, no benefit deductions and no annual contribution limits reached."
+    },
+    {
+      "caption": "Rhode Island Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Rhode Island income tax",
+          "$92.31"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Temporary Disability Insurance",
+          "$27.50"
+        ],
+        [
+          "Total deductions",
+          "$527.21"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,972.79"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employees with different withholding elections, retirement contributions or healthcare premiums may receive different take-home pay.\n\nUse the calculator with your actual employment circumstances to obtain a personalized estimate.\n\n## Rhode Island Hourly Paycheck Calculator\n\nSuppose you earn $26 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $1,040.\n\nOvertime earnings: $234.\n\nTotal gross earnings: $1,274.\n\nIf all earnings are covered by ordinary disability insurance and the annual ceiling has not been reached, the TDI deduction would be approximately $14.01.\n\nApplicable federal and state taxes would also reduce the paycheck.\n\nConsult the [Rhode Island Department of Labor and Training](https://dlt.ri.gov/) and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## Does Rhode Island Have Local Income Taxes?\n\nRhode Island municipalities generally do not impose separate personal wage income taxes on ordinary employee earnings.\n\nHowever, employees working across state borders may encounter additional withholding obligations.\n\nFor example, a Rhode Island resident working in Massachusetts may have Massachusetts withholding and Rhode Island annual tax filing responsibilities.\n\nApplicable tax credits may reduce double taxation.\n\nA standard Rhode Island paycheck estimate may not fully capture complicated interstate employment arrangements.\n\n## Managing Your Rhode Island Take-Home Income\n\nUse estimated net income to establish realistic spending limits for housing, transportation, groceries, utilities, insurance and debt payments.\n\nEmployees approaching the TDI wage ceiling may notice an increase in their take-home pay when their employer stops collecting the ordinary contribution.\n\nAvoid treating this temporary increase as a permanent salary adjustment because annual contribution limits reset in the next calendar year.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare employment offers.\n\n## Frequently Asked Questions\n\n### What is Rhode Island's income tax rate in 2026?\n\nRhode Island uses progressive withholding rates of 3.75%, 4.75% and 5.99%. Actual deductions depend on applicable wage thresholds and withholding exemptions.\n\n### How much is Rhode Island TDI in 2026?\n\nThe employee contribution rate is 1.1% of covered wages up to $100,000, producing a maximum standard annual contribution of $1,100.\n\n### Why did my Rhode Island disability insurance deduction change?\n\nThe rate, annual wage ceiling and your year-to-date covered earnings affect the deduction. Rhode Island changed both its contribution rate and wage ceiling for 2026.\n\n## Calculate Your Rhode Island Take-Home Pay\n\nUse our Rhode Island paycheck calculator to understand how taxes, disability insurance and employee benefits affect your earnings.\n\nThe results can help you compare employment offers and plan your finances, but they are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

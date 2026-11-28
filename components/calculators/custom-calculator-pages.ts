@@ -1,3 +1,4 @@
+import rhode_islandPaycheckContent from '@/content/paychecks/rhode-island.json';
 import pennsylvaniaPaycheckContent from '@/content/paychecks/pennsylvania.json';
 import oregonPaycheckContent from '@/content/paychecks/oregon.json';
 import oklahomaPaycheckContent from '@/content/paychecks/oklahoma.json';
@@ -84,6 +85,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'rhode-island-paycheck-calculator': rhode_islandPaycheckContent,
   'pennsylvania-paycheck-calculator': pennsylvaniaPaycheckContent,
   'oregon-paycheck-calculator': oregonPaycheckContent,
   'oklahoma-paycheck-calculator': oklahomaPaycheckContent,
