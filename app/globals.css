@@ -1560,8 +1560,63 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 
 .finance-paycheck-distribution { margin: 1rem 0; }
 .finance-paycheck-distribution figcaption { margin-bottom: .45rem; font-weight: 700; }
-.finance-paycheck-bar { display: flex; overflow: hidden; height: .85rem; border-radius: .5rem; }
-.finance-paycheck-bar > span { flex-basis: 0; }
+.finance-paycheck-ring {
+  display: grid;
+  width: min(100%, 12rem);
+  aspect-ratio: 1;
+  place-items: center;
+  margin: .75rem auto 1rem;
+  border-radius: 50%;
+  background-color: #dce8da;
+}
+
+.finance-paycheck-ring-center {
+  display: grid;
+  width: 78%;
+  aspect-ratio: 1;
+  place-content: center;
+  gap: .15rem;
+  padding: .55rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #17392a;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.finance-paycheck-ring-center strong { font-size: clamp(1rem, 3vw, 1.25rem); overflow-wrap: anywhere; }
+.finance-paycheck-ring-center span { font-size: .875rem; }
 .finance-paycheck-distribution ul { list-style: none; padding: 0; margin: .55rem 0 0; }
 .finance-paycheck-distribution li { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
 .finance-paycheck-distribution li > span { width: .65rem; height: .65rem; border-radius: .15rem; }
+
+
+.finance-scenario-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .35rem;
+  padding: .4rem;
+  margin-bottom: 1.15rem;
+  border-radius: .8rem;
+  background: #eaf2e8;
+}
+
+.finance-scenario-tabs button {
+  min-height: 44px;
+  padding: .4rem .55rem;
+  border: 1px solid transparent;
+  border-radius: .55rem;
+  background: transparent;
+  color: #214131;
+  font-size: .9rem;
+  font-weight: 700;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.finance-scenario-tabs button[aria-selected="true"] { border-color: #266343; background: #266343; color: white; }
+.finance-scenario-tabs button:focus-visible { outline: 2px solid #204989; outline-offset: 2px; }
+
+@media (min-width: 75rem) {
+  .finance-scenario-tabs { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}

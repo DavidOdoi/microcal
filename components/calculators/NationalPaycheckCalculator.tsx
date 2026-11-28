@@ -4,29 +4,32 @@ import { calculateNationalPaycheck, validateNationalPaycheck, type NationalPaych
 import { ScenarioCalculator, scenarioMoney, type ScenarioField, type ScenarioValues } from './ScenarioCalculator';
 
 const fields: ScenarioField[] = [
-  { key: 'unit', label: 'Pay type', value: 'annual', options: [['annual', 'Annual salary'], ['monthly', 'Monthly pay'], ['weekly', 'Weekly pay'], ['hourly', 'Hourly wage']], help: 'For hourly and weekly pay, set your paid weeks and any eligible overtime in Advanced settings.' },
-  { key: 'earnings', label: 'Gross pay or hourly rate', prefix: '$', value: '75000' },
-  { key: 'periods', label: 'Pay frequency', value: '26', options: [['52', 'Weekly (52)'], ['26', 'Biweekly (26)'], ['24', 'Semimonthly (24)'], ['12', 'Monthly (12)']] },
-  { key: 'year', label: 'Payroll year', value: '2026', options: [['2026', '2026'], ['2025', '2025']] },
-  { key: 'federalMode', label: 'Federal income tax method', value: 'planning', options: [['planning', 'Annual income-tax estimate'], ['entered', 'Enter paystub withholding']], help: 'The annual estimate uses federal income-tax brackets and the standard deduction. For paycheck withholding based on your W-4, enter the amount in Advanced settings.' },
-  { key: 'status', label: 'Federal filing status for the annual estimate', value: 'single', options: [['single', 'Single'], ['joint', 'Married filing jointly'], ['separate', 'Married filing separately'], ['head', 'Head of household']] },
-  { key: 'state', label: 'State income tax withheld per paycheck', prefix: '$', value: '0', help: 'Enter your amount from payroll. Zero leaves state income-tax withholding out of the estimate.' },
-  { key: 'local', label: 'Local income tax withheld per paycheck', prefix: '$', value: '0', help: 'Enter your amount from payroll if applicable.' },
-  { key: 'hours', label: 'Regular hours per week for hourly pay', unit: 'hours', value: '40', max: 168, advanced: true },
-  { key: 'overtime', label: 'Time-and-a-half hours per week', unit: 'hours', value: '0', max: 168, help: 'Enter qualifying hours separately from regular hours. The calculator does not determine overtime eligibility.', advanced: true },
-  { key: 'doubleTime', label: 'Double-time hours per week', unit: 'hours', value: '0', max: 168, advanced: true },
-  { key: 'weeks', label: 'Paid weeks per year for hourly or weekly pay', unit: 'weeks', value: '52', min: .01, max: 52, advanced: true },
-  { key: 'federal', label: 'Federal withholding from your paystub per paycheck', prefix: '$', value: '0', help: 'Used only with the entered withholding method. Enter the full amount including any extra withholding already deducted.', advanced: true },
-  { key: 'extraFederal', label: 'Additional federal withholding per paycheck', prefix: '$', value: '0', help: 'Enter extra withholding only if it is outside the amount already entered.', advanced: true },
-  { key: 'otherIncome', label: 'Other annual income for the federal estimate', prefix: '$', value: '0', advanced: true },
-  { key: 'adjustments', label: 'Eligible annual income adjustments for the federal estimate', prefix: '$', value: '0', advanced: true },
-  { key: 'credits', label: 'Annual nonrefundable federal credits', prefix: '$', value: '0', advanced: true },
-  { key: 'health', label: 'Eligible Section 125 health premiums per paycheck', prefix: '$', value: '0', advanced: true },
-  { key: 'traditional', label: 'Traditional 401(k) per paycheck', prefix: '$', value: '0', advanced: true },
-  { key: 'roth', label: 'Roth 401(k) per paycheck', prefix: '$', value: '0', advanced: true },
-  { key: 'other', label: 'Other deductions per paycheck', prefix: '$', value: '0', help: 'Enter any state payroll contributions or other after-tax deductions from your paystub. These amounts do not reduce taxable wages in this estimate.', advanced: true },
-  { key: 'ytdSs', label: 'Year-to-date Social Security wages before this paycheck', prefix: '$', value: '0', advanced: true },
-  { key: 'ytdMed', label: 'Year-to-date Medicare wages before this paycheck', prefix: '$', value: '0', advanced: true },
+  { key: 'periods', section: 'Earnings', label: 'Pay frequency', value: '26', options: [['52', 'Weekly (52)'], ['26', 'Biweekly (26)'], ['24', 'Semimonthly (24)'], ['12', 'Monthly (12)']] },
+  { key: 'year', section: 'Earnings', label: 'Payroll year', value: '2026', options: [['2026', '2026'], ['2025', '2025']] },
+  { key: 'unit', section: 'Earnings', label: 'Pay type', value: 'annual', options: [['annual', 'Annual salary'], ['monthly', 'Monthly pay'], ['weekly', 'Weekly pay'], ['hourly', 'Hourly wage']], help: 'For hourly and weekly pay, set your paid weeks and any eligible overtime in Advanced settings.' },
+  { key: 'earnings', section: 'Earnings', label: 'Gross pay or hourly rate', prefix: '$', value: '75000' },
+  { key: 'hours', section: 'Earnings', label: 'Regular hours per week for hourly pay', unit: 'hours', value: '40', max: 168, advanced: true },
+  { key: 'overtime', section: 'Earnings', label: 'Time-and-a-half hours per week', unit: 'hours', value: '0', max: 168, help: 'Enter qualifying hours separately from regular hours. The calculator does not determine overtime eligibility.', advanced: true },
+  { key: 'doubleTime', section: 'Earnings', label: 'Double-time hours per week', unit: 'hours', value: '0', max: 168, advanced: true },
+  { key: 'weeks', section: 'Earnings', label: 'Paid weeks per year for hourly or weekly pay', unit: 'weeks', value: '52', min: .01, max: 52, advanced: true },
+
+  { key: 'federalMode', section: 'Federal Taxes', label: 'Federal income tax method', value: 'planning', options: [['planning', 'Annual income-tax estimate'], ['entered', 'Enter paystub withholding']], help: 'The annual estimate uses federal income-tax brackets and the standard deduction. To match the federal withholding on your paystub, select the entered method and enter the amount below.' },
+  { key: 'status', section: 'Federal Taxes', label: 'Federal filing status for the annual estimate', value: 'single', options: [['single', 'Single'], ['joint', 'Married filing jointly'], ['separate', 'Married filing separately'], ['head', 'Head of household']] },
+  { key: 'federal', section: 'Federal Taxes', label: 'Federal withholding from your paystub per paycheck', prefix: '$', value: '0', help: 'Used only with the entered withholding method. Enter the full amount including any extra withholding already deducted.' },
+  { key: 'extraFederal', section: 'Federal Taxes', label: 'Additional federal withholding per paycheck', prefix: '$', value: '0', help: 'Enter extra withholding only if it is outside the amount already entered.', advanced: true },
+  { key: 'otherIncome', section: 'Federal Taxes', label: 'Other annual income for the federal estimate', prefix: '$', value: '0', advanced: true },
+  { key: 'adjustments', section: 'Federal Taxes', label: 'Eligible annual income adjustments for the federal estimate', prefix: '$', value: '0', advanced: true },
+  { key: 'credits', section: 'Federal Taxes', label: 'Annual nonrefundable federal credits', prefix: '$', value: '0', advanced: true },
+  { key: 'ytdSs', section: 'Federal Taxes', label: 'Year-to-date Social Security wages before this paycheck', prefix: '$', value: '0', advanced: true },
+  { key: 'ytdMed', section: 'Federal Taxes', label: 'Year-to-date Medicare wages before this paycheck', prefix: '$', value: '0', advanced: true },
+
+  { key: 'state', section: 'State and Local Taxes', label: 'State income tax withheld per paycheck', prefix: '$', value: '0', help: 'Enter your amount from payroll. Zero leaves state income-tax withholding out of the estimate.' },
+  { key: 'local', section: 'State and Local Taxes', label: 'Local income tax withheld per paycheck', prefix: '$', value: '0', help: 'Enter your amount from payroll if applicable.' },
+
+  { key: 'health', section: 'Benefits', label: 'Eligible Section 125 health premiums per paycheck', prefix: '$', value: '0', advanced: true },
+  { key: 'traditional', section: 'Benefits', label: 'Traditional 401(k) per paycheck', prefix: '$', value: '0', advanced: true },
+  { key: 'roth', section: 'Benefits', label: 'Roth 401(k) per paycheck', prefix: '$', value: '0', advanced: true },
+  { key: 'other', section: 'Benefits', label: 'Other deductions per paycheck', prefix: '$', value: '0', help: 'Enter any state payroll contributions or other after-tax deductions from your paystub. These amounts do not reduce taxable wages in this estimate.', advanced: true },
 ];
 
 function input(values: ScenarioValues): NationalPaycheckInput {
@@ -61,7 +64,6 @@ function input(values: ScenarioValues): NationalPaycheckInput {
 const money = (cents: number) => scenarioMoney(cents / 100);
 
 function PaycheckDistribution({ pay }: { pay: ReturnType<typeof calculateNationalPaycheck> }) {
-  if (pay.gross <= 0 || pay.net < 0) return null;
   const categories = [
     { label: 'Take-home pay', amount: pay.net, color: '#25643e' },
     { label: 'Federal income tax', amount: pay.federal, color: '#345a93' },
@@ -69,10 +71,20 @@ function PaycheckDistribution({ pay }: { pay: ReturnType<typeof calculateNationa
     { label: 'Social Security and Medicare', amount: pay.socialSecurity + pay.medicare + pay.additionalMedicare, color: '#6d568a' },
     { label: 'Other deductions', amount: pay.health + pay.traditional + pay.roth + pay.other, color: '#596362' },
   ].filter(({ amount }) => amount > 0);
+  let position = 0;
+  const segments = categories.map(({ amount, color }) => {
+    const start = position;
+    position += amount;
+    return `${color} ${start / pay.gross * 100}% ${position / pay.gross * 100}%`;
+  });
   return <figure className="finance-paycheck-distribution">
     <figcaption>Where your gross pay goes</figcaption>
-    <div className="finance-paycheck-bar" aria-hidden="true">
-      {categories.map(({ label, amount, color }) => <span key={label} style={{ flexGrow: amount, backgroundColor: color }} />)}
+    <div className="finance-paycheck-ring" style={{ backgroundImage: `conic-gradient(${segments.join(', ')})` }}>
+      <div className="finance-paycheck-ring-center">
+        <span>Take-home pay</span>
+        <strong>{money(pay.net)}</strong>
+        <span>Per paycheck</span>
+      </div>
     </div>
     <ul>{categories.map(({ label, amount, color }) => <li key={label}>
       <span aria-hidden="true" style={{ backgroundColor: color }} />{label} <strong>{money(amount)}</strong>
@@ -94,7 +106,7 @@ export function NationalPaycheckCalculator() {
       const federalLabel = scenario.federalMode === 'entered' ? 'Federal withholding entered, including any extra' : 'Federal annual-tax estimate, including any extra';
       return {
         summary: { label: 'Estimated take-home pay', amount: money(pay.net), period: 'Per paycheck' },
-        visual: <PaycheckDistribution pay={pay} />,
+        summaryVisual: pay.gross > 0 && pay.net >= 0 ? <PaycheckDistribution pay={pay} /> : undefined,
         metrics: [
           ['Gross pay per paycheck', money(pay.gross)],
           [federalLabel, money(pay.federal)],
