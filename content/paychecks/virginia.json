@@ -1,0 +1,138 @@
+{
+  "title": "Virginia Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Virginia take-home pay after federal income tax, Virginia income tax, Social Security, Medicare and employee deductions.",
+  "heading": "Virginia Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free Virginia paycheck calculator to estimate your take-home pay after federal income tax, Virginia income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nWhether you work in Richmond, Virginia Beach, Arlington, Norfolk or another Virginia community, understanding your net earnings can help you compare employment opportunities, manage household expenses and establish realistic savings goals.\n\n## How to Use the Virginia Paycheck Calculator\n\nChoose annual salary or hourly wages and select the pay schedule shown on your pay stub. Hourly employees can enter their regular hours and qualifying overtime.\n\nEnter the federal and Virginia income tax withheld for that pay period. Use the full withholding amounts, including any additional withholding.\n\n\n\nInclude employee retirement contributions, eligible health premiums and other deductions from the same pay period. Enter each deduction once.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\n\n## Virginia Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Virginia Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "Virginia income tax",
+          "Progressive rates from 2% to 5.75%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "The [Virginia Department of Taxation](https://www.tax.virginia.gov/withholding-tax) publishes official income tax information and employer withholding instructions.\n\n## Virginia Income Tax Brackets\n\nVirginia uses progressive individual income tax rates.\n\nIts employer withholding formula applies the following rates to annualized taxable income after applicable deductions and exemptions."
+    },
+    {
+      "caption": "Virginia Income Tax Brackets",
+      "columns": [
+        "Adjusted annual taxable income",
+        "Tax calculation"
+      ],
+      "rows": [
+        [
+          "Up to $3,000",
+          "2%"
+        ],
+        [
+          "$3,000–$5,000",
+          "$60 plus 3% of the excess over $3,000"
+        ],
+        [
+          "$5,000–$17,000",
+          "$120 plus 5% of the excess over $5,000"
+        ],
+        [
+          "Above $17,000",
+          "$720 plus 5.75% of the excess over $17,000"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your highest marginal income tax rate does not apply to every dollar of gross earnings.\n\nEmployers calculate withholding according to the official Virginia employer withholding instructions.\n\n## Virginia Withholding Deductions and Exemptions\n\nThe official employer withholding formula applicable during 2026 includes the following annual amounts."
+    },
+    {
+      "caption": "Virginia Withholding Deductions and Exemptions",
+      "columns": [
+        "Withholding adjustment",
+        "Annual value"
+      ],
+      "rows": [
+        [
+          "Standard payroll deduction",
+          "$8,750"
+        ],
+        [
+          "Personal or dependent exemption",
+          "$930 each"
+        ],
+        [
+          "Applicable age or blindness exemption",
+          "$800 each"
+        ]
+      ]
+    },
+    {
+      "markdown": "These amounts reduce the earnings used to calculate Virginia withholding.\n\nThe ordinary payroll deduction should not automatically be replaced with the standard deduction available to married couples filing a joint annual income tax return.\n\nVisit the official Virginia income tax deduction guidance for information about annual tax return deductions.\n\n## Understanding Virginia Form VA-4\n\nVirginia employees generally complete Form VA-4 to communicate their withholding information to employers.\n\nThe form records personal exemptions, eligible age or blindness exemptions and additional withholding requests.\n\nFederal Form W-4 is separate from Virginia's withholding certificate.\n\nReview your elections when starting employment, changing your household circumstances or determining that your existing withholding may be insufficient.\n\nCurrent employer and employee withholding forms are available through the Virginia withholding tax resources.\n\n## How to Calculate Virginia Income Tax Withholding\n\nConsider an employee earning $65,000 annually and claiming one ordinary personal exemption.\n\nAnnualized taxable wages: $65,000.\n\nSubtract the payroll deduction and applicable exemption:\n\n$65,000 − $8,750 − $930 = $55,320.\n\nThe adjusted wages exceed the $17,000 threshold.\n\nAnnualized withholding:\n\n$720 + (($55,320 − $17,000) × 5.75%).\n\nAnnualized withholding equals $2,923.40.\n\nFor 26 biweekly payments:\n\n$2,923.40 ÷ 26 = approximately $112.44.\n\nThis example uses the exact employer withholding formula rather than approximate wage-bracket tables.\n\n## Federal Taxes Deducted From Virginia Paychecks\n\nFederal income tax withholding depends on earnings, filing status, payment frequency and Form W-4 information.\n\nEmployers use the calculation procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nEmployees generally contribute 6.2% of covered wages toward Social Security, up to $184,500 in 2026.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nAdditional Medicare withholding of 0.9% generally applies when Medicare-covered wages paid by an employer exceed $200,000 during the calendar year.\n\nReview [IRS Publication 15](https://www.irs.gov/publications/p15) and the Social Security Administration contribution limits for official payroll requirements.\n\n## Virginia Paycheck Example: $65,000 Salary\n\nConsider an employee receiving $2,500 biweekly.\n\nAssume ordinary single federal withholding settings, one Virginia personal exemption, no benefit deductions and no annual contribution thresholds reached."
+    },
+    {
+      "caption": "Virginia Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Gross biweekly earnings",
+          "$2,500.00"
+        ],
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Virginia income tax",
+          "$112.44"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$519.84"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,980.16"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck may differ because of withholding elections, insurance premiums, retirement contributions and employer rounding procedures.\n\n## Virginia Hourly Paycheck Calculator\n\nSuppose you earn $28 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $1,120.\n\nOvertime earnings: $252.\n\nTotal gross earnings: $1,372.\n\nFederal and Virginia income taxes and ordinary payroll contributions are then calculated using their respective taxable wage amounts.\n\nConsult the Virginia Department of Labor and Industry and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## Working Across Virginia State Borders\n\nVirginia has reciprocal income tax arrangements with certain neighboring jurisdictions, including Maryland, Pennsylvania, West Virginia, Kentucky and the District of Columbia, subject to applicable conditions.\n\nThese arrangements are particularly relevant to employees commuting throughout the Washington metropolitan area.\n\nEligible employees may need to provide the appropriate documentation to prevent unnecessary withholding in their employment state.\n\nRead the official Virginia reciprocity guidance before claiming an exemption.\n\nRemote work and employment across multiple jurisdictions may require additional calculations.\n\n## Does Virginia Have Local Employee Income Taxes?\n\nVirginia municipalities generally do not impose separate personal wage income taxes.\n\nEmployees working in Richmond or Virginia Beach therefore generally do not encounter additional municipal wage taxes.\n\nHowever, housing costs, transportation, property taxes and other expenses can influence household purchasing power.\n\nCompare estimated take-home pay and living expenses separately when evaluating employment opportunities.\n\n## Managing Your Virginia Take-Home Income\n\nBuild your monthly budget using estimated net earnings rather than gross salary.\n\nInclude housing, transportation, groceries, utilities, healthcare and required debt payments.\n\nReview the IRS retirement plan resources when considering retirement contributions.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) and [mortgage payment calculator](/calculators/mortgage-calculator/) can help establish realistic savings and housing budgets.\n\nThe Consumer Financial Protection Bureau also offers educational resources for managing household finances.\n\n## Frequently Asked Questions\n\n\n### What is Virginia's income tax rate in 2026?\n\nVirginia uses progressive income tax rates ranging from 2% to 5.75%. Actual paycheck withholding depends on taxable wages, applicable deductions and withholding exemptions.\n\n### How much is a Virginia personal withholding exemption worth?\n\nEach ordinary personal or dependent withholding exemption has an annual value of $930 under the applicable employer formula.\n\n### Does Virginia have local employee income taxes?\n\nVirginia municipalities generally do not impose separate personal wage income taxes. Federal and Virginia state payroll deductions still apply.\n\n## Calculate Your Virginia Take-Home Pay\n\nUse our Virginia paycheck calculator to understand your estimated payroll deductions, compare employment opportunities and establish a realistic household budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
