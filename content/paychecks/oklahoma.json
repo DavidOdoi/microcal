@@ -1,0 +1,194 @@
+{
+  "title": "Oklahoma Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Oklahoma take-home pay after federal income tax, Oklahoma income tax, Social Security, Medicare and employee deductions.",
+  "heading": "Oklahoma Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Oklahoma paycheck calculator** to estimate your take-home pay after federal income tax, Oklahoma income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to see how much money you could receive on payday.\n\nOklahoma introduced lower income tax rates in 2026, potentially increasing take-home pay for employees whose other payroll circumstances remain unchanged.\n\nWhether you work in Oklahoma City, Tulsa, Norman, Edmond or another Oklahoma community, understanding your net earnings can help you compare employment opportunities, manage expenses and plan your savings.\n\n## How to Use the Oklahoma Paycheck Calculator\n\nStart by selecting whether you receive annual salary or hourly wages.\n\nEnter your gross compensation before taxes and deductions. Hourly employees should provide their hourly rate, regular working hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter federal and Oklahoma income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions and health insurance premiums. Enter the full tax amounts, including any extra withholding.\n\nReview the estimated paycheck breakdown to understand your individual deductions and remaining net earnings.\n\nFor greater accuracy, compare your calculator inputs with your latest pay stub.\n\n## Oklahoma Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Oklahoma Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Oklahoma income tax",
+          "Progressive rates up to 4.5%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal wage income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "The [Oklahoma Tax Commission](https://oklahoma.gov/tax.html) publishes official information about state income taxes, employer withholding and annual tax changes.\n\n## How Oklahoma State Income Tax Works\n\nOklahoma uses a progressive income tax system. Different portions of applicable taxable income are subject to different rates.\n\nFor 2026, the state simplified its income tax structure and reduced its highest marginal rate to 4.5%.\n\nThe annual tax brackets for single and married filing separately taxpayers are:"
+    },
+    {
+      "caption": "How Oklahoma State Income Tax Works",
+      "columns": [
+        "Taxable income portion",
+        "Rate"
+      ],
+      "rows": [
+        [
+          "First $3,750",
+          "0%"
+        ],
+        [
+          "$3,750–$4,900",
+          "2.5%"
+        ],
+        [
+          "$4,900–$7,200",
+          "3.5%"
+        ],
+        [
+          "Above $7,200",
+          "4.5%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Joint filers and certain other filing categories use different thresholds.\n\nThese are annual income tax return brackets rather than the wage thresholds employers use for paycheck withholding.\n\nEmployers follow the applicable payroll percentage tables, which incorporate withholding allowances and relevant payroll-period adjustments.\n\nReview the [Oklahoma Tax Commission publications directory](https://oklahoma.gov/tax/reporting-resources/publications.html) for official tax-year documents.\n\n## Understanding Oklahoma Form OK-W-4\n\nOklahoma employees generally complete Form OK-W-4 to provide their state withholding information.\n\nThe certificate communicates the employee's withholding classification, allowances and applicable additional withholding.\n\nEach ordinary withholding allowance has an annual value of $1,000.\n\nThe amount is distributed across the applicable number of payroll periods."
+    },
+    {
+      "caption": "Understanding Oklahoma Form OK-W-4",
+      "columns": [
+        "Payment frequency",
+        "Value per allowance"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$19.23"
+        ],
+        [
+          "Biweekly",
+          "$38.46"
+        ],
+        [
+          "Semimonthly",
+          "$41.67"
+        ],
+        [
+          "Monthly",
+          "$83.33"
+        ]
+      ]
+    },
+    {
+      "markdown": "These allowances reduce the wages used to calculate state withholding. They are not direct cash payments or tax credits.\n\nYour Oklahoma withholding certificate is separate from federal Form W-4. Updating one does not necessarily update the other.\n\nConsult the [official Oklahoma 2026 employer withholding booklet](https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/publications/businesses/withholding-tables/WHTables-2026.pdf) for instructions.\n\n## How to Calculate Oklahoma Income Tax Withholding\n\nThe Oklahoma employer percentage method subtracts applicable withholding allowances from taxable wages before applying the relevant payroll-period table.\n\nFor employees using the single withholding classification and receiving biweekly wages, the 2026 percentage table is:"
+    },
+    {
+      "caption": "How to Calculate Oklahoma Income Tax Withholding",
+      "columns": [
+        "Adjusted biweekly wages",
+        "Withholding calculation"
+      ],
+      "rows": [
+        [
+          "Up to $388",
+          "$0"
+        ],
+        [
+          "$388–$433",
+          "2.5% of the excess over $388"
+        ],
+        [
+          "$433–$521",
+          "$1.11 plus 3.5% of the excess over $433"
+        ],
+        [
+          "Above $521",
+          "$4.20 plus 4.5% of the excess over $521"
+        ]
+      ]
+    },
+    {
+      "markdown": "Suppose you receive $2,500 in biweekly taxable wages and claim one ordinary withholding allowance.\n\nAdjusted taxable wages:\n\n$2,500 − $38.46 = $2,461.54\n\nOklahoma withholding:\n\n$4.20 + (($2,461.54 − $521) × 4.5%)\n\nEstimated state withholding: $91.52.\n\nThis example assumes ordinary taxable employment and no additional withholding requests.\n\n## Federal Taxes Deducted From Oklahoma Paychecks\n\n### Federal income tax\n\nFederal withholding depends on taxable wages, filing status, pay frequency and information entered on Form W-4.\n\nEmployers use the procedures described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nEmployees with multiple jobs, additional income or qualifying credits may have different withholding amounts.\n\nThe [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) can help evaluate whether your federal withholding is appropriate.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe annual taxable wage ceiling is $184,500 in 2026.\n\nYou can review historical contribution limits through the [Social Security Administration](https://www.ssa.gov/oact/cola/cbb.html).\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nEmployers generally withhold an additional 0.9% when covered wages paid by that employer exceed $200,000 during the calendar year.\n\nConsult [IRS Publication 15](https://www.irs.gov/publications/p15) for official federal payroll contribution requirements.\n\n## Oklahoma Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly paychecks."
+    },
+    {
+      "caption": "Oklahoma Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee uses ordinary single federal withholding settings, claims one Oklahoma withholding allowance and has no additional benefit deductions."
+    },
+    {
+      "caption": "Oklahoma Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Oklahoma income tax",
+          "$91.52"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$498.92"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,001.08"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes all earnings are covered by ordinary federal payroll contributions and annual contribution limits have not been reached.\n\nActual paycheck amounts may differ because of withholding elections, benefits and employer rounding methods.\n\n## Oklahoma Hourly Paycheck Calculator\n\nHourly employees can calculate gross earnings by multiplying their hourly wage by regular working hours and adding qualifying overtime compensation.\n\nSuppose an employee earns $25 per hour and works 40 regular hours plus six qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000\n\nOvertime earnings:\n\n$25 × 1.5 × 6 = $225\n\nTotal gross earnings: $1,225.\n\nFederal and Oklahoma taxes are then calculated using the applicable taxable wage amounts.\n\nReview the [Oklahoma Department of Labor](https://oklahoma.gov/labor.html) and [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for information about employee eligibility.\n\n## Does Oklahoma Have Local Income Taxes?\n\nOklahoma municipalities generally do not impose separate personal wage income taxes on ordinary employees.\n\nHowever, local sales taxes, housing costs, insurance premiums and transportation expenses may influence household purchasing power.\n\nWhen comparing employment offers in Tulsa and Oklahoma City, calculate your estimated net salary first and then compare expected living expenses separately.\n\n## Working in Oklahoma and Living in Texas\n\nEmployees living near the Oklahoma–Texas border may work in one state while residing in another.\n\nAlthough Texas does not impose individual state income tax on ordinary wages, qualifying Oklahoma-sourced employment income may still be subject to Oklahoma income tax.\n\nYour residence, employment location and income sourcing determine the applicable tax treatment.\n\nConsult the Oklahoma Tax Commission before claiming a nonresident withholding exemption.\n\n## Managing Your Oklahoma Take-Home Pay\n\nCreate your monthly budget using estimated net earnings rather than your gross annual salary.\n\nAccount for housing, transportation, groceries, utilities, insurance and required debt payments.\n\nThe [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/consumer-tools/) provides educational resources for managing everyday financial decisions.\n\nUse our [emergency fund calculator](/savings/emergency-fund-calculator/) to establish a savings target, and our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is Oklahoma's income tax rate in 2026?\n\nOklahoma uses progressive income tax rates with a maximum ordinary rate of 4.5%. Actual paycheck withholding depends on applicable wage thresholds and allowances.\n\n### How much is one Oklahoma withholding allowance worth?\n\nEach ordinary withholding allowance has an annual value of $1,000, distributed across the applicable payroll periods.\n\n### Does Oklahoma City have a separate employee income tax?\n\nOklahoma City generally does not impose a separate municipal personal wage income tax. Federal and Oklahoma income taxes still apply where appropriate.\n\n## Calculate Your Oklahoma Take-Home Pay\n\nUse our Oklahoma paycheck calculator to estimate net earnings, compare salaries and establish a realistic monthly budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

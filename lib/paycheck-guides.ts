@@ -4,9 +4,11 @@ export type PaycheckGuide = {
   localTax?: string;
   combinedStateAndLocal?: boolean;
   noStateIncomeTax?: boolean;
+  relatedStates?: readonly string[];
 };
 
 export const paycheckGuides: readonly PaycheckGuide[] = [
+  { state: 'Oklahoma', slug: 'oklahoma-paycheck-calculator', relatedStates: ['arkansas-paycheck-calculator', 'kansas-paycheck-calculator'] },
   { state: 'North Carolina', slug: 'north-carolina-paycheck-calculator' },
   { state: 'New Mexico', slug: 'new-mexico-paycheck-calculator' },
   { state: 'New Hampshire', slug: 'new-hampshire-paycheck-calculator', noStateIncomeTax: true },

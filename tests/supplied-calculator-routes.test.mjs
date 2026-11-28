@@ -96,6 +96,13 @@ test('published state paystub guides have both entry points and reciprocal hub l
       const taxLabel = guide.combinedStateAndLocal ? `${guide.state} state and local income tax` : `${guide.state} income tax`;
       assert.equal(html.includes(`${taxLabel} withheld per paycheck`), !guide.noStateIncomeTax, path);
       if (guide.localTax) assert.ok(html.includes(`${guide.localTax} withheld per paycheck`), path);
+      for (const relatedSlug of guide.relatedStates ?? []) {
+        assert.ok(paycheckGuides.some(other => other.slug === relatedSlug), relatedSlug);
+        assert.ok(html.includes(`href="/calculators/${relatedSlug}/"`), path);
+      }
+      for (const other of paycheckGuides.filter(item => item.relatedStates?.includes(guide.slug))) {
+        assert.ok(html.includes(`href="/calculators/${other.slug}/"`), path);
+      }
     }
   }
 });
