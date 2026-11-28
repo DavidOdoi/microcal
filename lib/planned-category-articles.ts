@@ -8,6 +8,8 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
     { title: 'Best CD rates in Alabama', keywords: ['best cd rates in alabama'] },
     { title: 'Best CD rates in Pennsylvania', keywords: ['best cd rates in pa'] },
     { title: 'Credit unions with the best savings rates', keywords: ['credit unions with the best savings rates'] },
+    { title: 'SoFi vs. Wealthfront', keywords: ['sofi vs wealthfront'] },
+    { title: 'SoFi High-Yield Savings Review', keywords: ['sofi high yield savings review'] },
   ],
   debt: [
     { title: 'Best credit cards for building credit', keywords: ['best credit card to build credit'] },
@@ -21,9 +23,29 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
   ],
   investments: [
     { title: 'Best robo-advisors', keywords: ['best robo advisor'] },
+    { title: 'Moomoo vs. Robinhood', keywords: ['moomoo vs robinhood'] },
+    { title: 'Stock Rover vs. Finviz', keywords: ['stock rover vs finviz'] },
+    { title: 'TradingView vs. thinkorswim', keywords: ['tradingview vs thinkorswim'] },
+    { title: 'The Motley Fool vs. Seeking Alpha', keywords: ['motley fool vs seeking alpha'] },
+    { title: 'Moomoo Review', keywords: ['moomoo review'] },
   ],
   business: [
     { title: 'Best banks for business accounts', keywords: ['best business account bank'] },
+    { title: 'Dubsado vs. HoneyBook', keywords: ['dubsado vs honeybook'] },
+    { title: 'QuickBooks Online vs. Enterprise', keywords: ['quickbooks online vs enterprise'] },
+    { title: 'Gusto vs. QuickBooks Payroll', keywords: ['gusto vs quickbooks payroll'] },
+    { title: 'HoneyBook vs. QuickBooks', keywords: ['honeybook vs quickbooks'] },
+    { title: 'Wave vs. FreshBooks', keywords: ['wave vs freshbooks'] },
+    { title: 'Wave vs. Xero', keywords: ['wave vs xero'] },
+    { title: 'Zoho Books vs. Xero', keywords: ['zoho books vs xero'] },
+    { title: 'Gusto vs. Rippling vs. Deel Payroll', keywords: ['gusto vs rippling vs deel payroll comparison'] },
+    { title: 'Intuit Enterprise Suite vs. QuickBooks Online', keywords: ['intuit enterprise suite vs quickbooks online'] },
+    { title: 'Odoo vs. QuickBooks', keywords: ['odoo vs quickbooks'] },
+    { title: 'Payoneer Alternatives', keywords: ['payoneer alternatives'] },
+    { title: 'Dubsado Alternatives', keywords: ['dubsado alternatives'] },
+    { title: 'Airwallex Alternatives', keywords: ['airwallex alternatives'] },
+    { title: 'QuickBooks Alternatives', keywords: ['quick book alternatives', 'quickbooks alternatives'] },
+    { title: 'Bluevine Review', keywords: ['bluevine review'] },
   ],
   loans: [
     { title: 'Best personal loan lenders', keywords: ['best lenders for personal loans'] },
@@ -37,6 +59,7 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
   ],
   taxes: [
     { title: 'Best professional tax preparation software', keywords: ['best professional tax preparation software'] },
+    { title: 'H&R Block vs. TurboTax', keywords: ['hrblock vs turbotax'] },
   ],
   retirement: [
     { title: 'Traditional IRA vs. Roth IRA', keywords: ['traditional ira vs roth ira', 'ira account vs roth', 'trad ira vs roth'] },
@@ -44,5 +67,11 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
   ],
   budgeting: [
     { title: 'Venmo vs. Zelle', keywords: ['venmo vs zelle'] },
+    { title: 'Monarch Money vs. Rocket Money', keywords: ['monarch money vs rocket money'] },
+    { title: 'Monarch Money vs. Copilot', keywords: ['monarch money vs copilot'] },
+    { title: 'Quicken Simplifi vs. Monarch', keywords: ['quicken simplifi vs monarch'] },
+    { title: 'Moneydance vs. Quicken', keywords: ['moneydance vs quicken'] },
+    { title: 'Copilot vs. Rocket Money', keywords: ['copilot vs rocket money'] },
+    { title: 'Quicken Alternatives', keywords: ['quicken alternatives', 'free quicken alternative'] },
   ],
 };
