@@ -1,0 +1,126 @@
+{
+  "title": "Kansas Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Calculate your Kansas take-home pay after federal taxes, Kansas income tax, Social Security, Medicare and other employee payroll deductions.",
+  "heading": "Kansas Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Kansas paycheck calculator** to estimate your take-home pay after federal income tax, Kansas income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to see how much money you could receive on payday.\n\nKansas uses a progressive state income tax structure with withholding allowances that can significantly affect your paycheck. Understanding these rules can help you compare employment opportunities, assess salary increases and establish a realistic household budget.\n\nWhether you work in Wichita, Topeka, Overland Park, Lawrence or another Kansas community, this calculator provides a practical starting point for understanding your earnings.\n\n## How to Use the Kansas Paycheck Calculator\n\nSelect annual salary if you receive fixed compensation or hourly wages if your earnings depend on working hours.\n\nEnter your gross compensation before taxes and choose your payment frequency.\n\nEnter federal and Kansas income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions and healthcare premiums. Enter the full withholding amounts, including any additional withholding.\n\nIf your earnings are approaching an annual federal payroll contribution limit, enter your year-to-date taxable wages.\n\nReview your estimated paycheck breakdown to understand how each deduction affects your net earnings.\n\nFor greater accuracy, use the information shown on your latest pay stub and withholding certificates.\n\n## Kansas Payroll Taxes in 2026\n\nKansas employees generally face federal and state income taxes alongside ordinary federal payroll contributions."
+    },
+    {
+      "caption": "Kansas Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Kansas income tax",
+          "Applicable withholding rates of 5.2% and 5.58%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the applicable employer threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Kansas municipalities generally do not impose separate personal wage income taxes. However, employees working across state borders may encounter different local tax requirements.\n\nYour actual paycheck depends on taxable earnings, withholding allowances, payment frequency and employee benefit deductions.\n\n## How Kansas State Income Tax Works\n\nKansas applies progressive income tax rates, meaning higher portions of taxable income may be subject to higher rates.\n\nThe state's current employer withholding framework uses rates of 5.2% and 5.58%, with a zero-withholding range below applicable thresholds.\n\nEmployees should not multiply their entire annual salary by 5.58% when estimating state withholding.\n\nKansas employers must first account for qualifying withholding allowances and then apply the appropriate payroll-period calculation.\n\nThe [Kansas Department of Revenue withholding guide](https://www.ksrevenue.gov/kw100.html) provides the official methodology and withholding tables.\n\n## Kansas Withholding Allowances\n\nKansas recognizes different annual withholding allowances based on the employee's applicable withholding classification."
+    },
+    {
+      "caption": "Kansas Withholding Allowances",
+      "columns": [
+        "Allowance",
+        "Annual amount"
+      ],
+      "rows": [
+        [
+          "Single or married filing separately",
+          "$9,160"
+        ],
+        [
+          "Married filing jointly, where applicable",
+          "$18,320"
+        ],
+        [
+          "Additional qualifying dependent",
+          "$2,320"
+        ],
+        [
+          "Additional head-of-household allowance",
+          "$2,320"
+        ]
+      ]
+    },
+    {
+      "markdown": "The allowance amount is divided by the number of annual pay periods before being applied to the current paycheck.\n\nFor example, an employee entitled to a $9,160 annual allowance and paid biweekly receives an allowance adjustment of approximately $352.31 per paycheck.\n\nThese allowances help determine payroll withholding rather than necessarily representing every deduction or exemption available on an annual income tax return.\n\nEmployees should confirm their applicable allowances when completing Kansas Form K-4.\n\n## Understanding Kansas Form K-4\n\nKansas employees generally use Form K-4 to provide state withholding information to their employers.\n\nYour selections help determine the applicable withholding classification, allowances and additional withholding amounts.\n\nFederal Form W-4 and Kansas Form K-4 are separate documents. Updating your federal withholding elections does not automatically update your Kansas withholding information.\n\nMarried employees with working spouses should review the form's instructions rather than assuming both employers can apply the full joint allowance.\n\nEmployees who qualify for exemption from withholding must satisfy the applicable requirements.\n\nVisit the [Kansas Department of Revenue](https://www.ksrevenue.gov/) for current withholding forms and instructions.\n\n## Kansas Income Tax Withholding Example\n\nConsider an employee receiving $2,500 in biweekly Kansas taxable wages.\n\nAssume the employee uses the single withholding classification, qualifies for a $9,160 annual allowance and has no additional dependent allowances or withholding.\n\nFirst, calculate the biweekly allowance:\n\n$9,160 ÷ 26 = approximately $352.31\n\nNext, subtract this allowance from taxable wages:\n\n$2,500 − $352.31 = $2,147.69\n\nUnder the Kansas biweekly single withholding percentage table, adjusted earnings exceeding $1,023 are calculated using a base amount of $46 plus 5.58% of the excess.\n\nEstimated withholding:\n\n$46 + (($2,147.69 − $1,023) × 0.0558)\n\nKansas withholding is approximately $108.76.\n\nYour employer may use an authorized rounding method or wage bracket table that produces a slightly different result.\n\n## Federal Taxes Deducted From Kansas Paychecks\n\n### Federal income tax\n\nFederal income tax withholding depends on taxable wages, filing status, payroll frequency and information supplied on Form W-4.\n\nEmployees with multiple jobs, eligible tax credits or other sources of income may need additional withholding adjustments.\n\nThe official calculation procedures are available in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered earnings toward Social Security.\n\nFor 2026, the annual taxable wage ceiling is $184,500.\n\nAn employee receiving $2,500 in covered wages who has not reached the annual limit would contribute $155.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nUnlike Social Security, Medicare does not have a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nThe [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) explains these payroll contribution requirements.\n\n## Kansas Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross payments."
+    },
+    {
+      "caption": "Kansas Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Using the single withholding assumptions from the earlier example:"
+    },
+    {
+      "caption": "Kansas Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Kansas income tax",
+          "$108.76"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$300.01"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,199.99 remains before federal income tax withholding and other employee deductions.\n\nThis example demonstrates selected payroll deductions rather than a complete take-home pay estimate.\n\nEnter your actual federal withholding information and benefits into the calculator to estimate your final net paycheck.\n\n## Kansas Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by multiplying their hourly wage by regular hours and adding qualifying overtime compensation.\n\nSuppose an employee earns $26 per hour and works 40 regular hours plus five qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$26 × 40 = $1,040\n\nOvertime earnings:\n\n$26 × 1.5 × 5 = $195\n\nTotal gross earnings:\n\n$1,235\n\nFederal taxes, Kansas withholding and payroll deductions are then calculated using the relevant taxable wage amounts.\n\nOvertime eligibility depends on employment classification and applicable federal and state labor laws.\n\nConsult the [Kansas Department of Labor](https://www.dol.ks.gov/) and [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for additional information.\n\n## Working in Kansas and Missouri\n\nThe Kansas City metropolitan area extends across Kansas and Missouri, making interstate employment relatively common.\n\nAn employee may live in Kansas while working for a Missouri employer or perform employment duties in both states.\n\nKansas and Missouri do not have a general reciprocal wage income tax agreement.\n\nEmployees may therefore have withholding or filing responsibilities in both states, with applicable resident tax credits potentially reducing double taxation.\n\nKansas City, Missouri, also has an earnings tax that may affect qualifying employees working there. Do not confuse Kansas City, Kansas, with Kansas City, Missouri, when entering employment information.\n\nConsult the relevant state tax agencies and the [Kansas City, Missouri, government](https://www.kcmo.gov/) for applicable local tax requirements.\n\n## How Employee Benefits Affect Kansas Take-Home Pay\n\nRetirement contributions, healthcare premiums and other employee benefits can influence your net paycheck.\n\nTraditional retirement contributions generally reduce current federal income-taxable wages. Roth contributions generally do not provide the same immediate income tax reduction.\n\nQualifying health benefits may reduce certain taxable wage amounts.\n\nHowever, these deductions may affect income tax and federal payroll contribution bases differently.\n\nReview your pay stub to confirm how each benefit is classified.\n\nWhen comparing job offers, consider the employer's retirement match, healthcare coverage, paid leave and insurance costs alongside your estimated take-home salary.\n\n## Planning Your Kansas Monthly Budget\n\nUse your estimated net income to establish spending limits for housing, transportation, groceries, utilities, insurance and required debt payments.\n\nIf you receive biweekly paychecks, remember that the standard 26 annual payments do not translate into exactly two paychecks every month.\n\nUse our [emergency fund calculator](/savings/emergency-fund-calculator/) to evaluate your savings target and our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare different compensation arrangements.\n\n## Frequently Asked Questions\n\n### What is the Kansas income tax rate in 2026?\n\nThe applicable Kansas employer withholding framework uses rates of 5.2% and 5.58%, with thresholds and allowances that determine the actual amount deducted.\n\n### Does Kansas have local employee income taxes?\n\nKansas municipalities generally do not impose ordinary personal wage income taxes. However, Kansas residents working in another state may encounter local taxes in their employment jurisdiction.\n\n### Why do married employees sometimes have different Kansas withholding amounts?\n\nDifferent withholding classifications and allowances can affect the taxable amount used in the payroll calculation. Working spouses may also need to adjust withholding to account for combined household income.\n\n## Calculate Your Kansas Take-Home Pay\n\nUse our Kansas paycheck calculator to understand how taxes and deductions affect your earnings, compare employment opportunities and build a realistic budget.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}
