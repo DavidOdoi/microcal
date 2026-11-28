@@ -1,0 +1,114 @@
+{
+  "title": "New Hampshire Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your New Hampshire take-home pay after federal income tax, Social Security, Medicare and deductions. New Hampshire has no state wage income tax.",
+  "heading": "New Hampshire Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free New Hampshire paycheck calculator to estimate your take-home pay after federal income tax, Social Security, Medicare and employee benefit deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your deductions to understand how much money you could receive on payday.\n\nNew Hampshire does not impose personal income tax on ordinary employment wages. However, federal payroll taxes and employee benefits still affect the amount deposited into your bank account.\n\nWhether you work in Manchester, Nashua, Concord, Portsmouth or another New Hampshire community, understanding your net earnings can help you compare employment opportunities and manage household expenses.\n\n## How to Use the New Hampshire Paycheck Calculator\n\nBegin by choosing whether you receive a fixed salary or hourly wages.\n\nEnter your gross income before taxes and select your payment frequency. Hourly employees should include regular working hours and qualifying overtime hours.\n\nEnter the federal income tax withheld for the pay period from your pay stub.\n\nAdd retirement contributions, health insurance premiums and other employee deductions. Include any additional federal withholding in the federal total.\n\nIf you are approaching the annual Social Security wage ceiling or Additional Medicare withholding threshold, include your year-to-date taxable earnings.\n\nReview your estimated gross income, individual payroll deductions and net paycheck.\n\nNew Hampshire employees generally do not need to complete a separate state income tax withholding certificate for ordinary employment within the state.\n\n## New Hampshire Payroll Taxes in 2026\n\nAlthough New Hampshire does not impose individual wage income tax, employees may still face federal payroll deductions."
+    },
+    {
+      "caption": "New Hampshire Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "New Hampshire individual wage income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Employee benefits",
+          "Depend on employer arrangements"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual take-home earnings depend on federal withholding elections, taxable wages, employment classification and employee benefits.\n\nEmployees working across state borders may have additional withholding obligations.\n\n## Does New Hampshire Have State Income Tax?\n\nNew Hampshire does not impose individual income tax on ordinary W-2 wages.\n\nEmployees working and residing in New Hampshire generally do not have a New Hampshire personal income tax deduction on their regular paychecks.\n\nThis differs from neighboring states such as Massachusetts, Maine and Vermont, which impose individual income taxes.\n\nHowever, the absence of a state wage income tax does not mean your entire gross salary becomes take-home pay.\n\nFederal income tax, Social Security, Medicare, health insurance and retirement contributions may still reduce your paycheck considerably.\n\nRead the official [New Hampshire Department of Revenue Administration tax guidance](https://www.revenue.nh.gov/) for information about the state's individual income tax treatment.\n\n## New Hampshire Interest and Dividends Tax Repeal\n\nNew Hampshire previously imposed a separate tax on qualifying interest and dividend income.\n\nThis was different from a wage income tax and generally did not apply to ordinary employee salaries.\n\nThe Interest and Dividends Tax was repealed for taxable periods beginning on or after January 1, 2025.\n\nConsequently, a 2026 New Hampshire paycheck calculator should not deduct this former tax from employment earnings.\n\nThe repeal does not eliminate federal income tax obligations on qualifying investment income or liabilities from earlier applicable tax periods.\n\nThe official [New Hampshire tax repeal announcement](https://www.revenue.nh.gov/taxes-glance/interest-dividends-tax) explains the transition.\n\n## Federal Income Tax on New Hampshire Paychecks\n\nYour employer generally calculates federal income tax withholding using your taxable earnings and the information provided on Form W-4.\n\nThe calculation considers your filing status, payment frequency, multiple jobs, eligible tax credits, other income and requested additional withholding.\n\nFederal income tax is progressive. Different portions of taxable income may be subject to different rates.\n\nMultiplying your entire gross salary by your highest marginal federal tax rate will generally produce an inaccurate estimate.\n\nEmployers follow the withholding procedures described in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nThe amount withheld is an advance payment toward your annual federal income tax liability. Your final return may result in a refund or additional tax due.\n\n## Social Security and Medicare Contributions\n\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe 2026 annual taxable wage ceiling is $184,500.\n\nFor example, an employee earning $2,500 in covered wages who has not reached the annual limit would contribute $155.\n\nEmployees earning above the annual wage ceiling may notice an increase in take-home pay once their employer stops collecting ordinary Social Security contributions for the remainder of the year.\n\n### Medicare\n\nOrdinary Medicare withholding is 1.45% of covered earnings.\n\nA paycheck containing $2,500 in Medicare-covered wages would produce a $36.25 deduction.\n\nUnlike Social Security, ordinary Medicare withholding does not have a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% when covered Medicare wages paid by that employer exceed $200,000 during the calendar year.\n\nConsult the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for additional payroll tax information.\n\n## New Hampshire Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving 26 biweekly paychecks."
+    },
+    {
+      "caption": "New Hampshire Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Payment frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ],
+        [
+          "Annually",
+          "$65,000.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee is single for federal withholding purposes, uses a modern Form W-4, has no additional credits or withholding adjustments and has not reached annual payroll contribution limits."
+    },
+    {
+      "caption": "New Hampshire Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "New Hampshire income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$407.40"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,092.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes no retirement contributions, healthcare premiums or other employee deductions.\n\nAn employee with different withholding elections or benefit arrangements may receive a different net paycheck despite earning the same annual salary.\n\n## New Hampshire Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings by multiplying their hourly wage by regular working hours and adding qualifying overtime compensation.\n\nSuppose an employee earns $28 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$28 × 40 = $1,120\n\nOvertime earnings:\n\n$28 × 1.5 × 6 = $252\n\nTotal gross earnings:\n\n$1,372\n\nAssuming all wages are subject to ordinary federal payroll contributions, Social Security would be approximately $85.06 and Medicare would be approximately $19.89.\n\nFederal income tax and other employee deductions would also apply.\n\nReview the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) to understand overtime eligibility and exemptions.\n\n## Working in Massachusetts While Living in New Hampshire\n\nMany residents of southern New Hampshire commute to Massachusetts for employment.\n\nAlthough New Hampshire does not tax ordinary wages, Massachusetts may impose income tax on employment earnings sourced to Massachusetts.\n\nLiving in Nashua while working in Boston, for example, does not automatically eliminate Massachusetts withholding.\n\nRemote employees and workers performing duties in multiple states may need to allocate earnings according to applicable income sourcing rules.\n\nConsult the [Massachusetts Department of Revenue](https://www.mass.gov/orgs/massachusetts-department-of-revenue) before treating interstate employment income as exempt from state withholding.\n\nA standard New Hampshire paycheck estimate is most appropriate for ordinary employment without additional out-of-state tax obligations.\n\n## Employee Benefits and Your New Hampshire Paycheck\n\nYour employer may deduct contributions toward retirement savings, healthcare coverage, insurance and other benefits.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages, while Roth contributions generally do not provide the same immediate income tax reduction.\n\nQualifying health insurance arrangements may reduce certain taxable wage amounts.\n\nNew Hampshire also has a voluntary paid family and medical leave insurance program. Employees participating in coverage may have insurance-related payroll deductions depending on their arrangements.\n\nVisit the official [New Hampshire Paid Family and Medical Leave website](https://www.paidfamilymedicalleave.nh.gov/) for program information.\n\nDo not assume every employee pays the same insurance premium or participates in the program.\n\n## Comparing New Hampshire Salaries With Other States\n\nWhen comparing employment opportunities, consider the complete financial picture.\n\nA position in New Hampshire may provide higher take-home income than an identical salary in a state that imposes wage income tax.\n\nHowever, differences in housing costs, property taxes, commuting expenses and employee benefits may reduce or outweigh that advantage.\n\nUse our [US paycheck calculator](/calculators/paycheck-calculator/) to compare estimated salaries across state borders.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish an appropriate savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help evaluate different compensation arrangements.\n\n## Frequently Asked Questions\n\n\n### Does New Hampshire deduct state income tax from paychecks?\n\nNo. New Hampshire does not impose individual income tax on ordinary W-2 wages. Federal taxes and other employee deductions may still apply.\n\n### Do New Hampshire residents working in Massachusetts pay Massachusetts income tax?\n\nThey may owe Massachusetts income tax on qualifying employment earnings sourced to Massachusetts, despite living in a state without wage income tax.\n\n### Does New Hampshire still have an interest and dividends tax?\n\nThe former Interest and Dividends Tax was repealed for taxable periods beginning on or after January 1, 2025.\n\n## Calculate Your New Hampshire Take-Home Pay\n\nUse our New Hampshire paycheck calculator to estimate your earnings after federal taxes and employee deductions, compare salaries and establish a realistic household budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
