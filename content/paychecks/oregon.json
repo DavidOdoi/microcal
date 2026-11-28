@@ -1,0 +1,126 @@
+{
+  "title": "Oregon Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Oregon take-home pay after federal taxes, Oregon income tax, Paid Leave Oregon, statewide transit tax and applicable local deductions.",
+  "heading": "Oregon Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Oregon paycheck calculator** to estimate your take-home pay after federal income tax, Oregon income tax, Social Security, Medicare, Paid Leave Oregon contributions, statewide transit tax and applicable local deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nOregon has several distinctive payroll deductions that can affect take-home income, particularly for employees living or working in the Portland metropolitan area.\n\nWhether you work in Portland, Salem, Eugene, Bend or another Oregon community, understanding your net earnings can help you compare employment opportunities and establish realistic financial goals.\n\n## How to Use the Oregon Paycheck Calculator\n\nChoose annual salary or hourly wages and enter your earnings before taxes.\n\nSelect your payment frequency. Enter the federal and Oregon income tax withheld for the pay period from your pay stub.\n\nEnter applicable Oregon local income tax in the local withholding field. Under Benefits, open Advanced settings and enter the total of your employee Paid Leave Oregon, statewide transit tax and Workers' Benefit Fund deductions under Other deductions. Enter each deduction once.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\nReview your estimated gross earnings, individual deductions and remaining take-home pay.\n\nUse your latest pay stub to confirm which local taxes and insurance contributions apply.\n\n## Oregon Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Oregon Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Oregon income tax",
+          "Progressive withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Statewide transit tax",
+          "0.1%"
+        ],
+        [
+          "Paid Leave Oregon",
+          "Standard employee contribution of 0.6%"
+        ],
+        [
+          "Workers' Benefit Fund",
+          "Applicable hourly employee assessment"
+        ],
+        [
+          "Local income taxes",
+          "Depend on jurisdiction and eligibility"
+        ]
+      ]
+    },
+    {
+      "markdown": "The [Oregon Department of Revenue payroll information page](https://www.oregon.gov/dor/programs/businesses/pages/payroll-updates.aspx) provides official formulas, withholding tables and annual updates.\n\n## How Oregon State Income Tax Works\n\nOregon uses progressive individual income tax rates of 4.75%, 6.75%, 8.75% and 9.9%.\n\nHowever, employers do not simply apply these percentages to gross wages.\n\nOregon's payroll calculation accounts for applicable standard deductions, withholding allowances and a deduction for eligible federal income tax withholding.\n\nThe applicable federal tax deduction is subject to limits and income-related adjustments.\n\nFor 2026, the standard amounts used in the employer withholding formulas are $2,910 for the applicable single classification and $5,820 for the applicable married or higher-allowance classification.\n\nThe official calculation also incorporates an annual allowance credit of $263 where applicable.\n\nReview the [2026 Oregon Withholding Tax Formulas](https://www.oregon.gov/dor/forms/FormsPubs/withholding-tax-formulas_206-436_2026.pdf) for the complete methodology.\n\n## Understanding Oregon Form OR-W-4\n\nOregon employees generally complete Form OR-W-4 to communicate their withholding information.\n\nThis form is separate from federal Form W-4.\n\nThe number of allowances, marital classification and additional withholding requested by an employee can affect state income tax deductions.\n\nEmployees with multiple jobs, working spouses or additional income should review their withholding elections carefully.\n\nThe official [2026 OR-W-4 instructions](https://www.oregon.gov/dor/forms/FormsPubs/form-or-w-4-instr_101-402-1_2026.pdf) explain how to determine appropriate allowances.\n\n## Oregon Statewide Transit Tax\n\nOregon imposes a statewide transit tax on applicable employee wages.\n\nThe rate remains 0.1% in 2026. A proposed increase was rejected by voters in May 2026.\n\nThe tax generally applies to wages earned by Oregon residents and wages earned by nonresidents performing services within Oregon, subject to applicable exclusions."
+    },
+    {
+      "caption": "Oregon Statewide Transit Tax",
+      "columns": [
+        "Covered wages",
+        "Transit tax"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$0.50"
+        ],
+        [
+          "$1,000",
+          "$1.00"
+        ],
+        [
+          "$2,500",
+          "$2.50"
+        ],
+        [
+          "$5,000",
+          "$5.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employees may owe statewide transit tax even if their ordinary Oregon income tax withholding is zero.\n\nDo not confuse this employee deduction with TriMet or Lane Transit District employer payroll taxes.\n\nVisit the official [Oregon statewide transit tax guidance](https://www.oregon.gov/dor/programs/businesses/Pages/statewide-transit-tax.aspx) for details.\n\n## Paid Leave Oregon Contributions\n\nPaid Leave Oregon provides qualifying workers with partial income replacement during eligible periods of family, medical or safe leave.\n\nFor 2026, the total standard contribution rate is 1% of covered wages.\n\nEmployees generally pay 60% of that amount, equivalent to 0.6% of covered earnings. Employers may choose to cover the employee's contribution.\n\nThe annual covered wage ceiling is $184,500 per employer.\n\nThe maximum standard annual employee contribution is therefore:\n\n$184,500 × 0.006 = $1,107.\n\nFor an employee receiving $2,500 in covered wages before reaching the annual limit, the ordinary employee contribution is $15.\n\nRead the official [Paid Leave Oregon employee guidance](https://paidleave.oregon.gov/employees/overview.html) for information about contributions, eligibility and benefits.\n\n## Oregon Workers' Benefit Fund Assessment\n\nOregon also collects an hourly assessment to support programs for injured workers and their families.\n\nThe total assessment rate is 1.8 cents per hour worked in 2026.\n\nUnder ordinary equal cost-sharing arrangements, the employee share is 0.9 cents per applicable hour.\n\nFor an employee working 80 covered hours during a biweekly pay period:\n\n80 × $0.009 = $0.72.\n\nThis contribution is based on applicable working hours rather than a percentage of salary.\n\nConsult the [Oregon Workers' Benefit Fund](https://www.oregon.gov/dcbs/wbf/pages/index.aspx) for official assessment information.\n\n## Portland and Other Oregon Local Income Taxes\n\nEmployees living or working in the Portland metropolitan area may encounter additional local income taxes.\n\nThese can include the Metro Supportive Housing Services income tax and Multnomah County's Preschool for All income tax.\n\nEach program has separate jurisdiction, income threshold and withholding requirements.\n\nPortland also administers an Arts Tax, which should not automatically be treated as an ordinary payroll withholding deduction.\n\nEmployees working in Eugene may encounter its Community Safety Payroll Tax.\n\nDo not apply Portland-area taxes to every Oregon employee.\n\nReview the [Portland Revenue Division](https://www.portland.gov/revenue) and [City of Eugene tax resources](https://www.eugene-or.gov/) for applicable local requirements.\n\n## Oregon Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving $2,500 biweekly.\n\nAssume the employee uses ordinary single federal withholding settings, has no employee benefit deductions and is subject to ordinary statewide payroll contributions."
+    },
+    {
+      "caption": "Oregon Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Paid Leave Oregon",
+          "$15.00"
+        ],
+        [
+          "Statewide transit tax",
+          "$2.50"
+        ],
+        [
+          "Workers' Benefit Fund, assuming 80 covered hours",
+          "$0.72"
+        ],
+        [
+          "Total illustrated deductions",
+          "$425.62"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,074.38 remains before Oregon income tax, applicable local taxes and other employee deductions.\n\nEnter your state and applicable local withholding amounts to estimate your complete take-home pay.\n\n## Oregon Hourly Paycheck Calculator\n\nSuppose you earn $28 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $28 × 40 = $1,120.\n\nOvertime earnings: $28 × 1.5 × 6 = $252.\n\nTotal gross earnings: $1,372.\n\nPaid Leave Oregon would ordinarily deduct $8.23, while statewide transit tax would deduct approximately $1.37, assuming all wages are covered and the applicable annual contribution ceiling has not been reached.\n\nOther federal, state and local deductions may also apply.\n\nReview the [Oregon Bureau of Labor and Industries](https://www.oregon.gov/boli/workers/pages/default.aspx) for wage and overtime requirements.\n\n## Federal Taxes on Oregon Paychecks\n\nFederal income tax withholding follows the procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nSocial Security generally applies at 6.2% of covered wages up to $184,500 in 2026, while ordinary Medicare applies at 1.45%.\n\nAdditional Medicare withholding may apply above the employer's $200,000 annual wage threshold.\n\nReview the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) and [Social Security contribution limits](https://www.ssa.gov/oact/cola/cbb.html) for further information.\n\n## Working in Oregon and Living in Washington\n\nWashington does not impose individual income tax on ordinary wages. However, Washington residents working in Oregon may still owe Oregon income tax on qualifying Oregon-sourced earnings.\n\nLiving across the Columbia River does not automatically eliminate Oregon payroll withholding.\n\nRemote work and employment across state lines may require additional income allocation calculations.\n\n## Frequently Asked Questions\n\n### What is Oregon's statewide transit tax rate in 2026?\n\nThe statewide transit tax remains 0.1% of applicable employee wages following the rejection of the proposed increase in May 2026.\n\n### How much does Paid Leave Oregon deduct from employee paychecks?\n\nThe standard employee contribution is 0.6% of covered wages up to $184,500 per employer in 2026.\n\n### Do all Oregon employees pay Portland-area income taxes?\n\nNo. Metro, Multnomah County and other local taxes depend on applicable residence, employment, income thresholds and withholding requirements.\n\n## Calculate Your Oregon Take-Home Pay\n\nUse our Oregon paycheck calculator to understand how taxes and payroll contributions affect your earnings.\n\nCombine your estimated net income with our [emergency fund calculator](/savings/emergency-fund-calculator/) and [loan payment calculator](/calculators/loan-calculator/) to create a realistic financial plan.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
