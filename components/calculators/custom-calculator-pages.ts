@@ -1,3 +1,4 @@
+import { PaycheckCalculatorPage, paycheckMetadata } from './PaycheckCalculatorPage';
 import { MortgageExtraCalculatorPage, mortgageExtraMetadata } from './MortgageExtraCalculatorPage';
 import { GrossMarginCalculatorPage, grossMarginMetadata } from './GrossMarginCalculatorPage';
 import { SelfEmploymentCalculatorPage, selfEmploymentMetadata } from './SelfEmploymentCalculatorPage';
@@ -29,6 +30,7 @@ const pages = {
   'farm-loan-calculator': { category: 'business', metadata: farmLoanMetadata, Component: FarmLoanCalculatorPage },
   'idaho-paycheck-calculator': { category: 'taxes', metadata: idahoPaycheckMetadata, Component: IdahoPaycheckCalculatorPage },
   'salary-to-hourly-calculator': { category: 'taxes', metadata: salaryToHourlyMetadata, Component: SalaryToHourlyCalculatorPage },
+  'paycheck-calculator': { category: 'taxes', metadata: paycheckMetadata, Component: PaycheckCalculatorPage },
   'new-york-paycheck-calculator': { category: 'taxes', metadata: newYorkPaycheckMetadata, Component: NewYorkPaycheckCalculatorPage },
   'income-tax-calculator': { category: 'taxes', metadata: federalIncomeTaxMetadata, Component: FederalIncomeTaxCalculatorPage },
   'federal-income-tax-calculator': { category: 'taxes', metadata: federalIncomeTaxMetadata, Component: FederalIncomeTaxAliasPage },

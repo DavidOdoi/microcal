@@ -3,6 +3,7 @@ import Link from 'next/link';
 export function NewYorkPaycheckSupportingContent() {
   return <>
     <h2>{"What Is a New York Paycheck Calculator?"}</h2>
+    <p>For a different state, use the <Link href="/calculators/paycheck-calculator/">US Paycheck Calculator</Link>.</p>
     <p>{"A "}<strong>{"New York Paycheck Calculator"}</strong>{" helps you estimate how much money you'll take home after taxes and payroll deductions."}</p>
     <p>{"Your gross salary isn't the same as the amount deposited into your bank account."}</p>
     <p>{"Employers generally withhold "}<Link href="/calculators/income-tax-calculator/">{"federal income tax"}</Link>{", New York State income tax, Social Security, and Medicare taxes. Other deductions may apply depending on where you live and your employment benefits."}</p>

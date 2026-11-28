@@ -1557,3 +1557,11 @@ body > main :is(p, li) { font-size: 1.125rem; line-height: 1.8; }
 
   .header-search input::placeholder { color: var(--ink-muted); }
 }
+
+.finance-paycheck-distribution { margin: 1rem 0; }
+.finance-paycheck-distribution figcaption { margin-bottom: .45rem; font-weight: 700; }
+.finance-paycheck-bar { display: flex; overflow: hidden; height: .85rem; border-radius: .5rem; }
+.finance-paycheck-bar > span { flex-basis: 0; }
+.finance-paycheck-distribution ul { list-style: none; padding: 0; margin: .55rem 0 0; }
+.finance-paycheck-distribution li { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
+.finance-paycheck-distribution li > span { width: .65rem; height: .65rem; border-radius: .15rem; }

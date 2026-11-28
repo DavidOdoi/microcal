@@ -14,6 +14,7 @@ test('federal income tax aliases preserve the established URL and intro', async 
   assert.doesNotMatch(html, /Put the numbers into context|What tax year does this calculator use\?/);
 });
 const cases = [
+  { slug: 'paycheck-calculator', category: 'taxes', name: 'Paycheck Calculator', result: 'Your Paycheck Estimate', sample: '$2,268.94', heading: 'Paycheck Calculators by State' },
   { slug: 'farm-loan-calculator', category: 'business', name: 'Farm Loan Calculator', result: 'Your Farm Loan Estimate', sample: '$1,013.82', heading: 'What Is a Farm Loan Calculator?' },
   { slug: 'idaho-paycheck-calculator', category: 'taxes', name: 'Idaho Paycheck Calculator', result: 'Your Idaho Paycheck Estimate', sample: '$1,841.15', heading: 'What Is an Idaho Paycheck Calculator?' },
   { slug: 'salary-to-hourly-calculator', category: 'taxes', name: 'Salary to Hourly Calculator', result: 'Your Salary Conversion', sample: '$31.25', heading: 'What Is a Salary to Hourly Calculator?' },
@@ -23,6 +24,17 @@ const cases = [
   { slug: 'social-security-benefits-calculator', category: 'retirement', name: 'Social Security Benefits Calculator', result: 'Your Social Security Estimate', sample: '$2,000.00', heading: 'What Is a Social Security Benefits Calculator?' },
   { slug: 'dscr-loan-calculator', category: 'business', name: 'DSCR Loan Calculator', result: 'Your DSCR Results', sample: '1.20', heading: 'What Is a DSCR Loan Calculator?' },
 ];
+
+test('the national paycheck calculator and published state guides link to one another', async () => {
+  const national = '/calculators/paycheck-calculator/';
+  const hub = await (await fetch(new URL(national, baseUrl))).text();
+  for (const state of ['idaho', 'new-york']) {
+    const path = `/calculators/${state}-paycheck-calculator/`;
+    assert.ok(hub.includes(`href="${path}"`));
+    const guide = await (await fetch(new URL(path, baseUrl))).text();
+    assert.ok(guide.includes(`href="${national}">US Paycheck Calculator</a>`));
+  }
+});
 for (const entry of cases) {
   for (const path of [`/calculators/${entry.slug}/`, `/${entry.category}/${entry.slug}/`]) {
     test(`${path}: calculator, supplied guide, metadata, schema, and links`, async () => {

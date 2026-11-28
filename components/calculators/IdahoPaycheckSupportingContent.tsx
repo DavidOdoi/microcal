@@ -3,6 +3,7 @@ import Link from 'next/link';
 export function IdahoPaycheckSupportingContent() {
   return <>
     <h2>{"What Is an Idaho Paycheck Calculator?"}</h2>
+    <p>For a different state, use the <Link href="/calculators/paycheck-calculator/">US Paycheck Calculator</Link>.</p>
     <p>{"An "}<strong>{"Idaho Paycheck Calculator"}</strong>{" helps you estimate your take-home pay after "}<Link href="/calculators/income-tax-calculator/">{"federal taxes"}</Link>{", Idaho state income tax, and payroll deductions."}</p>
     <p>{"Your "}<Link href="/calculators/salary-to-hourly-calculator/">{"gross salary"}</Link>{" is the amount you earn before deductions. Your net pay is the money you actually receive."}</p>
     <p>{"For example, earning $60,000 annually doesn't mean you'll take home $5,000 every month."}</p>

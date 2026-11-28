@@ -41,19 +41,6 @@ function calculate401k(currentBalance: number, monthlyContribution: number, annu
   };
 }
 
-function calculatePaycheck(grossPay: number, annualRate: number, stateRate: number, deductions: number) {
-  const federal = grossPay * (annualRate / 100);
-  const state = grossPay * (stateRate / 100);
-  const net = grossPay - federal - state - deductions;
-
-  return {
-    federal,
-    state,
-    deductions,
-    net,
-  };
-}
-
 function calculateCreditCard(balance: number, apr: number, monthlyPayment: number) {
   const monthlyRate = apr / 100 / 12;
   let remaining = balance;
@@ -107,8 +94,6 @@ export function CalculatorRenderer({ slug }: { slug: string }) {
       return <MortgageCalculator />;
     case '401k-calculator':
       return <RetirementCalculator />;
-    case 'paycheck-calculator':
-      return <PaycheckCalculator />;
     case 'credit-card-payoff-calculator':
       return <CreditCardCalculator />;
     case 'compound-interest-calculator':
@@ -173,44 +158,6 @@ function RetirementCalculator() {
         <div>
           <small>Employer match</small>
           <strong>{formatMoney(result.employerContribution * toNumber(years) * 12)}</strong>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function PaycheckCalculator() {
-  const [grossPay, setGrossPay] = useState('6500');
-  const [federalRate, setFederalRate] = useState('22');
-  const [stateRate, setStateRate] = useState('5');
-  const [deductions, setDeductions] = useState('400');
-
-  const result = useMemo(
-    () => calculatePaycheck(toNumber(grossPay), toNumber(federalRate), toNumber(stateRate), toNumber(deductions)),
-    [grossPay, federalRate, stateRate, deductions],
-  );
-
-  return (
-    <div className="calculator-panel">
-      <div className="form-grid">
-        <Field label="Gross pay" value={grossPay} onChange={setGrossPay} />
-        <Field label="Federal tax (%)" value={federalRate} onChange={setFederalRate} />
-        <Field label="State tax (%)" value={stateRate} onChange={setStateRate} />
-        <Field label="Other deductions" value={deductions} onChange={setDeductions} />
-      </div>
-
-      <div className="result-list" aria-live="polite"><h2>Your results</h2>
-        <div>
-          <small>Net pay</small>
-          <strong>{formatMoney(result.net)}</strong>
-        </div>
-        <div>
-          <small>Federal tax</small>
-          <strong>{formatMoney(result.federal)}</strong>
-        </div>
-        <div>
-          <small>State tax</small>
-          <strong>{formatMoney(result.state)}</strong>
         </div>
       </div>
     </div>
