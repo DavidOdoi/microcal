@@ -28,6 +28,8 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
     { title: 'TradingView vs. thinkorswim', keywords: ['tradingview vs thinkorswim'] },
     { title: 'The Motley Fool vs. Seeking Alpha', keywords: ['motley fool vs seeking alpha'] },
     { title: 'Moomoo Review', keywords: ['moomoo review'] },
+    { title: 'Portfolio Accounting and Business Intelligence Software for RIAs', keywords: ['what software combines portfolio accounting and business intelligence for rias'] },
+    { title: 'Investment Management Software for Mac', keywords: ['investment management software for mac'] },
   ],
   business: [
     { title: 'Best banks for business accounts', keywords: ['best business account bank'] },
@@ -46,6 +48,13 @@ export const plannedCategoryArticles: Partial<Record<string, PlannedArticle[]>> 
     { title: 'Airwallex Alternatives', keywords: ['airwallex alternatives'] },
     { title: 'QuickBooks Alternatives', keywords: ['quick book alternatives', 'quickbooks alternatives'] },
     { title: 'Bluevine Review', keywords: ['bluevine review'] },
+    { title: 'Cloud Bookkeeping Software', keywords: ['cloud bookkeeping software'] },
+    { title: 'Business Expense Software', keywords: ['business expense software'] },
+    { title: 'Free Online Bookkeeping Software', keywords: ['free online bookkeeping software'] },
+    { title: 'Restaurant Accounting Software', keywords: ['restaurant accounting software'] },
+    { title: 'Payroll Management Software', keywords: ['payroll management software'] },
+    { title: 'Best Construction Accounting Software', keywords: ['best construction accounting software'] },
+    { title: 'Financial Modeling Software', keywords: ['financial modeling software'] },
   ],
   loans: [
     { title: 'Best personal loan lenders', keywords: ['best lenders for personal loans'] },
