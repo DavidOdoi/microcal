@@ -33,6 +33,23 @@ const fields: ScenarioField[] = [
   { key: 'other', section: 'Benefits', label: 'Other deductions per paycheck', prefix: '$', value: '0', help: 'Enter any state payroll contributions or other after-tax deductions from your paystub. These amounts do not reduce taxable wages in this estimate.', advanced: true },
 ];
 
+const californiaExcludedFields = new Set(['federalMode', 'status', 'extraFederal', 'otherIncome', 'adjustments', 'credits', 'local']);
+const californiaFields: ScenarioField[] = fields.flatMap((field): ScenarioField[] => {
+  if (californiaExcludedFields.has(field.key)) return [];
+  if (field.key === 'year') return [{ ...field, options: [['2026', '2026']] }];
+  if (field.key === 'earnings') return [{ ...field, value: '' }];
+  if (field.key === 'federal') return [{
+    ...field, value: '', help: 'Enter the full federal withholding shown on the paystub, including any extra withholding. Enter 0 if none was withheld.',
+  }];
+  if (field.key === 'state') return [
+    { ...field, label: 'California income tax withheld per paycheck', value: '', help: 'Enter the California income tax shown on this paystub. Enter 0 if none was withheld.' },
+    { key: 'stateDisability', section: 'State and Local Taxes', label: 'California SDI withheld per paycheck', prefix: '$', value: '',
+      help: 'Enter CA SDI or CASDI from your paystub. If a separate voluntary disability plan deduction applies, enter it under Benefits and enter 0 for SDI.' },
+  ];
+  if (field.key === 'other') return [{ ...field, help: 'Enter after-tax deductions that you have not listed in any other field.' }];
+  return [field];
+});
+
 function input(values: ScenarioValues): NationalPaycheckInput {
   return {
     year: Number(values.year) as NationalPaycheckInput['year'],
@@ -43,20 +60,21 @@ function input(values: ScenarioValues): NationalPaycheckInput {
     weeks: Number(values.weeks),
     overtimeHours: Number(values.overtime),
     doubleTimeHours: Number(values.doubleTime),
-    federalMode: values.federalMode as NationalPaycheckInput['federalMode'],
-    filingStatus: values.status as NationalPaycheckInput['filingStatus'],
+    federalMode: (values.federalMode ?? 'entered') as NationalPaycheckInput['federalMode'],
+    filingStatus: (values.status ?? 'single') as NationalPaycheckInput['filingStatus'],
     federalWithholding: Number(values.federal),
-    extraFederal: Number(values.extraFederal),
+    extraFederal: Number(values.extraFederal ?? 0),
     stateWithholding: Number(values.state),
-    localWithholding: Number(values.local),
+    localWithholding: Number(values.local ?? 0),
     extraState: 0,
-    otherAnnualIncome: Number(values.otherIncome),
-    annualDeductions: Number(values.adjustments),
-    annualCredits: Number(values.credits),
+    otherAnnualIncome: Number(values.otherIncome ?? 0),
+    annualDeductions: Number(values.adjustments ?? 0),
+    annualCredits: Number(values.credits ?? 0),
     health: Number(values.health),
     traditional: Number(values.traditional),
     roth: Number(values.roth),
     otherDeductions: Number(values.other),
+    stateDisabilityWithholding: Number(values.stateDisability ?? 0),
     ytdSocialSecurity: Number(values.ytdSs),
     ytdMedicare: Number(values.ytdMed),
   };
@@ -64,12 +82,13 @@ function input(values: ScenarioValues): NationalPaycheckInput {
 
 const money = (cents: number) => scenarioMoney(cents / 100);
 
-export function NationalPaycheckCalculator() {
+export function NationalPaycheckCalculator({ californiaPaystub = false }: { californiaPaystub?: boolean } = {}) {
   return <ScenarioCalculator
-    id="paycheck-calculator"
-    title="Your Paycheck Estimate"
+    id={californiaPaystub ? 'california-paycheck-calculator' : 'paycheck-calculator'}
+    title={californiaPaystub ? 'Your California Paycheck Estimate' : 'Your Paycheck Estimate'}
     action="Calculate Paycheck"
-    fields={fields}
+    fields={californiaPaystub ? californiaFields : fields}
+    emptyMessage={californiaPaystub ? 'Enter gross pay, federal withholding, California withholding, and SDI to see your estimated take-home pay.' : undefined}
     validate={values => validateNationalPaycheck(input(values))}
     copyResults
     compute={values => {
@@ -79,12 +98,17 @@ export function NationalPaycheckCalculator() {
       return {
         summary: { label: 'Estimated take-home pay', amount: money(pay.net), period: 'Per paycheck' },
         summaryVisual: pay.gross > 0 && pay.net >= 0 ? <PaycheckDistribution gross={pay.gross} net={pay.net} federal={pay.federal} stateAndLocal={pay.state + pay.local}
-          fica={pay.socialSecurity + pay.medicare + pay.additionalMedicare} other={pay.health + pay.traditional + pay.roth + pay.other} /> : undefined,
+          fica={pay.socialSecurity + pay.medicare + pay.additionalMedicare} other={pay.health + pay.traditional + pay.roth + pay.other + pay.stateDisability} /> : undefined,
         metrics: [
           ['Gross pay per paycheck', money(pay.gross)],
           [federalLabel, money(pay.federal)],
-          ['State income-tax withholding entered', money(pay.state)],
-          ['Local income-tax withholding entered', money(pay.local)],
+          ...(californiaPaystub ? [
+            ['California income-tax withholding entered', money(pay.state)],
+            ['California SDI entered', money(pay.stateDisability)],
+          ] as [string, string][] : [
+            ['State income-tax withholding entered', money(pay.state)],
+            ['Local income-tax withholding entered', money(pay.local)],
+          ] as [string, string][]),
           ['Social Security', money(pay.socialSecurity)],
           ['Medicare', money(pay.medicare)],
           ['Additional Medicare withholding', money(pay.additionalMedicare)],
@@ -100,8 +124,13 @@ export function NationalPaycheckCalculator() {
           ['Annual net at this paycheck amount', money(pay.net * scenario.periods)],
         ],
         notes: [
-          'State and local income taxes and any state payroll contributions are based on the amounts you enter. A zero entry excludes that deduction.',
-          'The optional annual federal calculation spreads estimated income tax across your paychecks. Use actual paystub withholding for a payroll comparison.',
+          ...(californiaPaystub ? [
+            'Federal income tax, California income tax and California SDI use the amounts you enter. Social Security and Medicare are calculated from the wages and year-to-date amounts you provide.',
+            'If your paystub shows different Social Security or Medicare taxable wages, payroll adjustments, or nonstandard deductions, the estimate can differ from your actual net pay.',
+          ] : [
+            'State and local income taxes and any state payroll contributions are based on the amounts you enter. A zero entry excludes that deduction.',
+            'The optional annual federal calculation spreads estimated income tax across your paychecks. Use actual paystub withholding for a payroll comparison.',
+          ]),
           'Monthly and annual figures repeat this paycheck. Actual amounts can change during the year as payroll taxes reach their limits or withholding changes.',
           ...(pay.net < 0 ? ['Entered taxes and deductions exceed gross pay. Review your amounts before using this result.'] : []),
         ],

@@ -62,17 +62,26 @@ export function calculateStatePaycheck(v: StatePaycheckInput) {
   return { annualGross, gross, ...wageBases, ...fica, federal, state, local, pfl, taxes, deductions, net: gross - taxes - deductions };
 }
 
-export type NationalPaycheckInput = Omit<StatePaycheckInput, 'state' | 'pflCovered' | 'ytdPfl' | 'residence' | 'work'>;
+export type NationalPaycheckInput = Omit<StatePaycheckInput, 'state' | 'pflCovered' | 'ytdPfl' | 'residence' | 'work'> & {
+  stateDisabilityWithholding?: number;
+};
 
 function nationalPayroll(input: NationalPaycheckInput): StatePaycheckInput {
   return { ...input, state: 'us', pflCovered: false, ytdPfl: 0, residence: 'other', work: 'other' };
 }
 
 export function validateNationalPaycheck(input: NationalPaycheckInput) {
-  return validateStatePaycheck(nationalPayroll(input));
+  return [...validateStatePaycheck(nationalPayroll(input)), ...validateStateDisability(input)];
+}
+
+function validateStateDisability(input: NationalPaycheckInput) {
+  const amount = input.stateDisabilityWithholding ?? 0;
+  return Number.isFinite(amount) && amount >= 0 && amount <= 1e9 ? [] : ['Enter a nonnegative state disability deduction up to $1 billion.'];
 }
 
 export function calculateNationalPaycheck(input: NationalPaycheckInput) {
+  const disabilityErrors = validateStateDisability(input);
+  if (disabilityErrors.length) throw new RangeError(disabilityErrors[0]);
   const result = calculateStatePaycheck(nationalPayroll(input));
   const toCents = (amount: number) => Math.round(amount * 100);
   const gross = toCents(result.gross);
@@ -86,7 +95,8 @@ export function calculateNationalPaycheck(input: NationalPaycheckInput) {
   const traditional = toCents(input.traditional);
   const roth = toCents(input.roth);
   const other = toCents(input.otherDeductions);
-  const deductions = federal + state + local + socialSecurity + medicare + additionalMedicare + health + traditional + roth + other;
-  return { gross, federal, state, local, socialSecurity, medicare, additionalMedicare, health, traditional, roth, other, deductions, net: gross - deductions,
+  const stateDisability = toCents(input.stateDisabilityWithholding ?? 0);
+  const deductions = federal + state + local + socialSecurity + medicare + additionalMedicare + health + traditional + roth + other + stateDisability;
+  return { gross, federal, state, local, socialSecurity, medicare, additionalMedicare, health, traditional, roth, other, stateDisability, deductions, net: gross - deductions,
     incomeTaxWages: toCents(result.incomeTaxWages), ficaWages: toCents(result.ficaWages) };
 }

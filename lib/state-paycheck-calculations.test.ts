@@ -15,6 +15,19 @@ test('national biweekly worked example reconciles to the displayed cent', () => 
   assert.equal(pay.net + pay.deductions, pay.gross);
 });
 
+test('California paystub example subtracts entered disability and income withholding once', () => {
+  const scenario: NationalPaycheckInput = {
+    ...nationalExample, earnings: 80_000, federalMode: 'entered', federalWithholding: 300,
+    stateWithholding: 125, stateDisabilityWithholding: 40,
+  };
+  const pay = calculateNationalPaycheck(scenario);
+  assert.deepEqual([pay.gross, pay.federal, pay.state, pay.stateDisability], [307692, 30000, 12500, 4000]);
+  assert.deepEqual([pay.socialSecurity, pay.medicare, pay.deductions, pay.net], [19077, 4462, 70039, 237653]);
+  assert.equal(calculateNationalPaycheck({ ...scenario, stateDisabilityWithholding: 0 }).net, pay.net + 4000);
+  assert.ok(validateNationalPaycheck({ ...scenario, stateDisabilityWithholding: -1 }).length);
+  assert.throws(() => calculateNationalPaycheck({ ...scenario, stateDisabilityWithholding: -1 }), RangeError);
+});
+
 test('national hourly pay applies only the entered overtime and double-time hours', () => {
   const hourly: NationalPaycheckInput = { ...nationalExample, earnings: 25, earningsUnit: 'hourly', overtimeHours: 5, periods: 52 };
   assert.equal(calculateNationalPaycheck(hourly).gross, 118750);

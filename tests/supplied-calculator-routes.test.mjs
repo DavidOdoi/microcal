@@ -14,6 +14,7 @@ test('federal income tax aliases preserve the established URL and intro', async 
   assert.doesNotMatch(html, /Put the numbers into context|What tax year does this calculator use\?/);
 });
 const cases = [
+  { slug: 'california-paycheck-calculator', category: 'taxes', name: 'California Paycheck Calculator', result: 'Your California Paycheck Estimate', sample: '$2,376.53', heading: 'California Paycheck Example: $80,000 Salary' },
   { slug: 'paycheck-calculator', category: 'taxes', name: 'Paycheck Calculator', result: 'Your Paycheck Estimate', sample: '$2,268.94', heading: 'Paycheck Calculators by State' },
   { slug: 'farm-loan-calculator', category: 'business', name: 'Farm Loan Calculator', result: 'Your Farm Loan Estimate', sample: '$1,013.82', heading: 'What Is a Farm Loan Calculator?' },
   { slug: 'idaho-paycheck-calculator', category: 'taxes', name: 'Idaho Paycheck Calculator', result: 'Your Idaho Paycheck Estimate', sample: '$1,841.15', heading: 'What Is an Idaho Paycheck Calculator?' },
@@ -28,11 +29,11 @@ const cases = [
 test('the national paycheck calculator and published state guides link to one another', async () => {
   const national = '/calculators/paycheck-calculator/';
   const hub = await (await fetch(new URL(national, baseUrl))).text();
-  for (const state of ['idaho', 'new-york']) {
+  for (const state of ['california', 'idaho', 'new-york']) {
     const path = `/calculators/${state}-paycheck-calculator/`;
     assert.ok(hub.includes(`href="${path}"`));
     const guide = await (await fetch(new URL(path, baseUrl))).text();
-    assert.ok(guide.includes(`href="${national}">US Paycheck Calculator</a>`));
+    assert.ok(guide.includes(`href="${national}">US Paycheck Calculator`));
   }
 });
 for (const entry of cases) {

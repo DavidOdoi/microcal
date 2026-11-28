@@ -6,6 +6,7 @@ const slug = 'paycheck-calculator';
 const description = 'Estimate your US take-home pay for salary or hourly work. See Social Security, Medicare, income-tax withholding, and payroll deductions by pay frequency.';
 
 const stateCalculators = [
+  { name: 'California Paycheck Calculator', href: '/calculators/california-paycheck-calculator/' },
   { name: 'Idaho Paycheck Calculator', href: '/calculators/idaho-paycheck-calculator/' },
   { name: 'New York Paycheck Calculator', href: '/calculators/new-york-paycheck-calculator/' },
 ];

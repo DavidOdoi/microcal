@@ -10,23 +10,24 @@ export type ScenarioResult = { summary: { label: string; amount: string; period:
 export const scenarioMoney = (value: number) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
 
 /** Shared explicit-submit form for planning calculators; math stays in lib. */
-export function ScenarioCalculator({ id, title, action = 'Calculate', fields, compute, validate, copyResults = false }: {
+export function ScenarioCalculator({ id, title, action = 'Calculate', fields, compute, validate, copyResults = false, emptyMessage }: {
   id: string; title: string; action?: string; fields: ScenarioField[];
   compute: (values: ScenarioValues) => ScenarioResult;
   validate?: (values: ScenarioValues) => string[];
   copyResults?: boolean;
+  emptyMessage?: string;
 }) {
   const defaults = Object.fromEntries(fields.map((field) => [field.key, field.value]));
   const [values, setValues] = useState(defaults);
-  const [submitted, setSubmitted] = useState(defaults);
+  const [submitted, setSubmitted] = useState<ScenarioValues | null>(emptyMessage ? null : defaults);
   const [errors, setErrors] = useState<string[]>([]);
   const [copyStatus, setCopyStatus] = useState('');
   const [activeSection, setActiveSection] = useState(0);
   const [invalidField, setInvalidField] = useState<string | null>(null);
   const sections = Array.from(new Set(fields.map(field => field.section ?? 'Details')));
   const hasTabs = sections.length > 1;
-  const result = compute(submitted);
-  const changed = JSON.stringify(values) !== JSON.stringify(submitted);
+  const result = submitted ? compute(submitted) : null;
+  const changed = submitted !== null && JSON.stringify(values) !== JSON.stringify(submitted);
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const invalid = fields.flatMap((field) => {
@@ -79,6 +80,7 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
     </div>;
   }
   async function copy() {
+    if (!result) return;
     const { summary, metrics, notes } = result;
     const lines = [title, `${summary.label}: ${summary.amount} ${summary.period.toLowerCase()}`, ...metrics.map(([label, value]) => `${label}: ${value}`), ...(notes ?? [])];
     try {
@@ -103,10 +105,11 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
           {renderFields(fields.filter(field => (field.section ?? 'Details') === section))}
         </div>)}
       </> : <><h2>Enter your details</h2>{renderFields(fields)}</>}
-      <div className="calculator-form-actions"><button className="calculator-calculate" type="submit"><Calculator size={18} aria-hidden="true" />{action}</button><button className="calculator-reset" type="button" onClick={() => { setValues({ ...defaults }); setSubmitted({ ...defaults }); setErrors([]); setCopyStatus(''); setInvalidField(null); setActiveSection(0); }}><RotateCcw size={17} aria-hidden="true" />Reset</button></div>
+      <div className="calculator-form-actions"><button className="calculator-calculate" type="submit"><Calculator size={18} aria-hidden="true" />{action}</button><button className="calculator-reset" type="button" onClick={() => { setValues({ ...defaults }); setSubmitted(emptyMessage ? null : { ...defaults }); setErrors([]); setCopyStatus(''); setInvalidField(null); setActiveSection(0); }}><RotateCcw size={17} aria-hidden="true" />Reset</button></div>
       {errors.length > 0 && <div className="calculator-status error" role="alert"><ul>{errors.map((error) => <li key={error}>{error}</li>)}</ul></div>}
     </form>
     <section className="finance-results-panel" aria-label={title} aria-live="polite"><h2>{title}</h2>
+      {result ? <>
       {result.summaryVisual ?? <PaymentSummary {...result.summary} />}
       {result.secondarySummary && <PaymentSummary {...result.secondarySummary} />}
       <dl className="finance-breakdown">{result.metrics.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
@@ -117,6 +120,7 @@ export function ScenarioCalculator({ id, title, action = 'Calculate', fields, co
         {copyStatus && <p className="finance-note">{copyStatus}</p>}
       </div>}
       {result.schedule && <details className="finance-schedule"><summary>View calculation details</summary><div className="finance-table-wrap"><table><caption>{result.schedule.caption}</caption><thead><tr>{result.schedule.headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr></thead><tbody>{result.schedule.rows.map((row, index) => <tr key={index}>{row.map((cell, column) => <td key={column}>{cell}</td>)}</tr>)}</tbody></table></div></details>}
+      </> : <p>{emptyMessage}</p>}
     </section>
   </CalculatorLayout>;
 }
