@@ -1,0 +1,158 @@
+{
+  "title": "Maryland Paycheck Calculator 2026 – State and County Taxes",
+  "metaDescription": "Estimate your Maryland take-home pay after federal income tax, Maryland state and county taxes, Social Security, Medicare and payroll deductions.",
+  "heading": "Maryland Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Maryland paycheck calculator** to estimate your take-home pay after federal income tax, Maryland state income tax, applicable county income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and enter your combined Maryland state and local withholding to understand how much money you could receive on payday.\n\nMaryland's local income tax system makes location an important part of estimating your salary after taxes. Two employees earning identical salaries may have different withholding because they live in different counties.\n\nWhether you work in Baltimore, Annapolis, Rockville, Frederick or another Maryland community, understanding your net income can help you compare employment opportunities and manage household expenses.\n\n## How to Use the Maryland Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross earnings before taxes and choose your payment frequency. Enter the federal income tax withheld for the pay period from your pay stub.\n\nEnter Maryland state and local income tax as one total. If your pay stub shows separate Maryland state and county amounts, add them before entering the total.\n\nInclude retirement contributions, healthcare premiums and other employee deductions. Use the full withholding amounts, including any extra tax withheld.\n\nReview the results to understand your estimated federal withholding, Maryland state and local withholding, payroll contributions and take-home earnings.\n\nUse your latest pay stub and withholding certificates for greater accuracy.\n\n## Maryland Payroll Taxes in 2026\n\nMaryland employees may encounter the following categories of payroll taxes."
+    },
+    {
+      "caption": "Maryland Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Maryland income tax",
+          "Progressive state income tax"
+        ],
+        [
+          "Maryland county income tax",
+          "Depends on county of residence and applicable rules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual taxable wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Maryland employers generally calculate state and local income tax withholding together.\n\nThe combined amount may appear as a single state tax deduction on your payroll statement.\n\nThe [2026 Maryland Employer Withholding Guide](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/withholding-guide.pdf) explains how employers calculate these deductions.\n\n## How Maryland State Income Tax Works\n\nMaryland uses progressive individual income tax rates ranging from 2% to 6.5% for 2026.\n\nThe applicable annual income tax thresholds depend on your filing status and taxable income.\n\nHowever, Maryland's employer withholding methodology does not simply reproduce the annual income tax return calculation.\n\nThe official payroll schedules approximate income tax on wages using a different structure, beginning with a state withholding component of 4.75% for ordinary taxable wages and applying higher rates where appropriate.\n\nThe employee's applicable local withholding rate is incorporated into the calculation.\n\nThis distinction is important because a calculator that uses annual state tax brackets alone may produce results that differ from your employer's payroll system.\n\n## Maryland County Income Taxes\n\nMaryland's 23 counties and Baltimore City impose local individual income taxes.\n\nThe applicable rate for Maryland residents generally depends on where they live rather than where their employer is located.\n\nFor example, someone living in Montgomery County and commuting to Baltimore may be subject to Montgomery County income tax rather than Baltimore City's rate.\n\nThe following table provides selected actual local tax rates for 2026."
+    },
+    {
+      "caption": "Maryland County Income Taxes",
+      "columns": [
+        "County or jurisdiction",
+        "Local income tax rate"
+      ],
+      "rows": [
+        [
+          "Baltimore City",
+          "3.20%"
+        ],
+        [
+          "Baltimore County",
+          "3.20%"
+        ],
+        [
+          "Montgomery County",
+          "3.20%"
+        ],
+        [
+          "Howard County",
+          "3.20%"
+        ],
+        [
+          "Prince George's County",
+          "3.20%"
+        ],
+        [
+          "Kent County",
+          "3.30%"
+        ],
+        [
+          "Garrett County",
+          "2.65%"
+        ],
+        [
+          "Talbot County",
+          "2.40%"
+        ],
+        [
+          "Worcester County",
+          "2.25%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Some counties use income-dependent rates. Other counties have actual rates that differ slightly from the standard employer withholding table rates.\n\nConsult the official [Maryland 2026 Withholding Tax Facts](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/legal-publications/facts/withholding-tax-facts-2026.pdf) for the full county listing and applicable withholding guidance.\n\n## Understanding Maryland Form MW507\n\nMaryland employees provide state withholding information using Form MW507, the Employee's Maryland Withholding Exemption Certificate.\n\nThe form records applicable withholding exemptions and other information used to determine Maryland payroll withholding.\n\nFor 2026, the standard employer percentage method uses an annual exemption value of $3,200 for each applicable withholding exemption.\n\nIt also includes a $3,400 annual allowance for the standard deduction.\n\nThese figures are used for payroll calculations and should not automatically be treated as the amounts available on your annual tax return.\n\nEmployees whose personal exemptions are subject to income-based limitations should follow the MW507 instructions when determining the appropriate number of exemptions.\n\nCurrent forms are available through the [Maryland Comptroller's website](https://www.marylandcomptroller.gov/).\n\n## Maryland Income Tax Withholding Example\n\nSuppose you receive $2,500 in taxable wages every two weeks and live in Montgomery County.\n\nAssume you claim one applicable Maryland withholding exemption, have no additional withholding and fall within the ordinary first withholding bracket.\n\nThe published biweekly deduction allowance is $130.76, and one biweekly exemption is worth $123.08.\n\nAdjusted wages:\n\n$2,500 − $130.76 − $123.08 = $2,246.16\n\nThe applicable combined withholding rate for this example is 7.95%, consisting of a 4.75% state component and a 3.20% local component.\n\nEstimated combined withholding:\n\n$2,246.16 × 0.0795 = $178.57\n\nYour employer may display this amount as one combined Maryland income tax deduction.\n\nDifferent county rates, exemption elections and higher taxable earnings may change the result.\n\nReview the official [Maryland 3.20% local withholding percentage tables](https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/pm320.pdf) for the applicable calculation.\n\n## Federal Taxes Deducted From Maryland Paychecks\n\nFederal income tax withholding depends on your taxable wages, payment frequency, filing status and Form W-4 information.\n\nSocial Security generally deducts 6.2% of covered wages until the annual taxable wage limit is reached. For 2026, this limit is $184,500.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages without a standard annual wage ceiling.\n\nEmployers also generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nThese federal deductions are calculated separately from Maryland's state and local withholding.\n\nConsult [IRS Publication 15-T](https://www.irs.gov/publications/p15t) and the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official payroll calculation instructions.\n\n## Maryland Paycheck Example: $65,000 Salary\n\nAn employee earning $65,000 annually would generally receive the following gross payments."
+    },
+    {
+      "caption": "Maryland Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee lives in Montgomery County, claims one Maryland withholding exemption and has no benefit deductions.\n\nFor federal withholding, assume the employee is single, has a modern Form W-4, has not checked the multiple-jobs box and has no additional credits, income adjustments or withholding requests."
+    },
+    {
+      "caption": "Maryland Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Combined Maryland state and local tax",
+          "$178.57"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$585.97"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,914.03"
+        ]
+      ]
+    },
+    {
+      "markdown": "This example assumes ordinary covered wages and that annual federal contribution thresholds have not been reached.\n\nActual paycheck amounts depend on your specific withholding elections, benefits and employment circumstances.\n\n## Maryland Hourly Paycheck Calculator\n\nHourly employees can calculate gross earnings using their wage, regular hours and qualifying overtime.\n\nSuppose you earn $30 per hour and work 40 regular hours plus five qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$30 × 40 = $1,200\n\nOvertime earnings:\n\n$30 × 1.5 × 5 = $225\n\nTotal gross earnings:\n\n$1,425\n\nFederal taxes, Maryland withholding and other deductions are then calculated using the relevant taxable wage amounts.\n\nEmployees receiving commissions, shift differentials or bonuses may have additional compensation subject to withholding.\n\nConsult the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) to understand overtime eligibility and exemptions.\n\n## Working in Maryland and Living in Another State\n\nMaryland's proximity to Washington, D.C., Virginia, Pennsylvania, Delaware and West Virginia creates additional considerations for interstate workers.\n\nMaryland has reciprocal arrangements covering qualifying employee compensation with certain neighboring jurisdictions.\n\nEligible nonresidents may qualify for different withholding treatment when they provide the required documentation.\n\nHowever, employees living in a nonreciprocal state may be subject to Maryland's special nonresident tax rather than ordinary resident county withholding.\n\nMaryland's employer withholding guide provides separate schedules for these circumstances.\n\nDo not automatically apply resident county income tax to every person working in Maryland.\n\nA standard single-state paycheck estimate may not fully capture complicated interstate employment or remote work arrangements.\n\n## Managing Your Maryland Take-Home Income\n\nWhen comparing job offers, consider estimated net income alongside housing, transportation, healthcare premiums and employer retirement contributions.\n\nEmployees commuting into Washington, D.C., or between Maryland counties may face substantial differences in commuting expenses.\n\nBuild your monthly budget using the amount you expect to receive after taxes rather than gross annual salary.\n\nUse our [emergency fund calculator](/savings/emergency-fund-calculator/) to establish a savings target and our [debt-to-income ratio calculator](/debt/debt-to-income-ratio-calculator/) to evaluate borrowing commitments.\n\n## Frequently Asked Questions\n\n### How much state income tax is deducted from Maryland paychecks?\n\nMaryland's annual individual income tax rates range from 2% to 6.5%. Payroll withholding uses separate official schedules that account for applicable exemptions, deductions and local taxes.\n\n### Is Maryland county income tax based on where I live or work?\n\nFor Maryland residents, local income tax generally depends on their county of residence. Different rules may apply to nonresidents and interstate workers.\n\n### Why does my Maryland pay stub show only one state tax deduction?\n\nMaryland employers commonly combine state and local income tax withholding into one deduction. The amount can therefore include both Maryland state tax and applicable county income tax.\n\n## Calculate Your Maryland Take-Home Pay\n\nUse our Maryland paycheck calculator to estimate your earnings after federal, state and applicable local taxes.\n\nThe results can help you compare salaries, understand payroll deductions and plan your monthly finances. They are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

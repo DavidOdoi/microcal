@@ -7,6 +7,7 @@ export type PaycheckGuide = {
 };
 
 export const paycheckGuides: readonly PaycheckGuide[] = [
+  { state: 'Maryland', slug: 'maryland-paycheck-calculator', combinedStateAndLocal: true },
   { state: 'Maine', slug: 'maine-paycheck-calculator' },
   { state: 'Louisiana', slug: 'louisiana-paycheck-calculator' },
   { state: 'Hawaii', slug: 'hawaii-paycheck-calculator' },
