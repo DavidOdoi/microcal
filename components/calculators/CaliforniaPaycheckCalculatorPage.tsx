@@ -24,7 +24,7 @@ export function CaliforniaPaycheckCalculatorPage() {
     categoryName="Taxes"
     description={description}
     intro="Use your paystub to estimate your California take-home pay for 2026. Enter federal withholding, California withholding, and state disability insurance. The calculator estimates Social Security and Medicare from the wages you provide."
-    calculator={<NationalPaycheckCalculator californiaPaystub />}
+    calculator={<NationalPaycheckCalculator paystubState="California" />}
     article={<CaliforniaPaycheckSupportingContent />}
   />;
 }

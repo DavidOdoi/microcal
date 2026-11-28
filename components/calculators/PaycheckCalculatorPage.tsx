@@ -7,6 +7,7 @@ const description = 'Estimate your US take-home pay for salary or hourly work. S
 
 const stateCalculators = [
   { name: 'California Paycheck Calculator', href: '/calculators/california-paycheck-calculator/' },
+  { name: 'Illinois Paycheck Calculator', href: '/calculators/illinois-paycheck-calculator/' },
   { name: 'Idaho Paycheck Calculator', href: '/calculators/idaho-paycheck-calculator/' },
   { name: 'New York Paycheck Calculator', href: '/calculators/new-york-paycheck-calculator/' },
 ];

@@ -1,3 +1,4 @@
+import { IllinoisPaycheckCalculatorPage, illinoisPaycheckMetadata } from './IllinoisPaycheckCalculatorPage';
 import { CaliforniaPaycheckCalculatorPage, californiaPaycheckMetadata } from './CaliforniaPaycheckCalculatorPage';
 import { PaycheckCalculatorPage, paycheckMetadata } from './PaycheckCalculatorPage';
 import { MortgageExtraCalculatorPage, mortgageExtraMetadata } from './MortgageExtraCalculatorPage';
@@ -30,6 +31,7 @@ const pages = {
   'us-inflation-calculator': { category: 'savings', metadata: usInflationMetadata, Component: UsInflationCalculatorPage },
   'farm-loan-calculator': { category: 'business', metadata: farmLoanMetadata, Component: FarmLoanCalculatorPage },
   'california-paycheck-calculator': { category: 'taxes', metadata: californiaPaycheckMetadata, Component: CaliforniaPaycheckCalculatorPage },
+  'illinois-paycheck-calculator': { category: 'taxes', metadata: illinoisPaycheckMetadata, Component: IllinoisPaycheckCalculatorPage },
   'idaho-paycheck-calculator': { category: 'taxes', metadata: idahoPaycheckMetadata, Component: IdahoPaycheckCalculatorPage },
   'salary-to-hourly-calculator': { category: 'taxes', metadata: salaryToHourlyMetadata, Component: SalaryToHourlyCalculatorPage },
   'paycheck-calculator': { category: 'taxes', metadata: paycheckMetadata, Component: PaycheckCalculatorPage },

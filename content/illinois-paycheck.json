@@ -1,0 +1,122 @@
+{
+  "title": "Illinois Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Calculate your Illinois take-home pay after federal income tax, Illinois state income tax, Social Security, Medicare and employee deductions.",
+  "heading": "Illinois Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Illinois paycheck calculator** to estimate your take-home pay after federal income tax, Illinois income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your pay frequency and customize your withholding information to see how much money you could receive on payday.\n\nWhether you work in Chicago, Springfield, Rockford, Naperville or another Illinois community, understanding your net earnings can help you compare job offers, plan monthly expenses and establish realistic savings goals.\n\n## How to Use the Illinois Paycheck Calculator\n\nBegin by selecting your income type. Salaried employees should enter their annual compensation before taxes, while hourly employees should provide their hourly wage and working hours.\n\nSelect your pay frequency. Enter the federal and Illinois income tax withheld for that pay period from your pay stub.\n\nInclude retirement contributions, health insurance premiums and any additional tax withholding requested from your employer.\n\nIf your earnings are approaching the annual Social Security wage limit, provide your year-to-date taxable wages.\n\nReview your estimated paycheck breakdown to see the individual taxes, employee deductions and remaining net income.\n\nFor greater accuracy, use your latest pay stub rather than estimating your benefit deductions or withholding amounts.\n\n## Illinois Payroll Taxes in 2026\n\nIllinois employees generally encounter the following payroll taxes."
+    },
+    {
+      "caption": "Illinois Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Illinois income tax",
+          "4.95% after applicable withholding allowances"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on your taxable earnings, withholding elections, payroll frequency and employee benefits.\n\nThe [Illinois Department of Revenue](https://tax.illinois.gov/) provides official information about state income tax and payroll withholding.\n\n## How Illinois State Income Tax Works\n\nIllinois uses a flat individual income tax rate of 4.95%.\n\nUnlike a progressive state tax system, Illinois does not apply increasingly higher statutory income tax rates as individual taxable earnings rise.\n\nHowever, this does not mean every employee pays exactly 4.95% of gross salary.\n\nApplicable withholding allowances reduce the wage amount used in the state payroll calculation.\n\nEmployees can also request additional state income tax withholding from each paycheck.\n\nIllinois employers may use the official wage bracket tables or the authorized mathematical withholding formula.\n\nReview the [2026 Illinois withholding tax tables](https://tax.illinois.gov/forms/withholding/currentyear/il-700-t-withholding-guide-tables.html) for the applicable calculation procedures.\n\n## Understanding Illinois Form IL-W-4\n\nIllinois employees provide state withholding information using Form IL-W-4, the Employee's Illinois Withholding Allowance Certificate.\n\nThe form distinguishes between two categories of allowances.\n\nFor 2026:"
+    },
+    {
+      "caption": "Understanding Illinois Form IL-W-4",
+      "columns": [
+        "Allowance category",
+        "Annual withholding allowance"
+      ],
+      "rows": [
+        [
+          "Line 1 allowance",
+          "$2,925 each"
+        ],
+        [
+          "Line 2 allowance",
+          "$1,000 each"
+        ]
+      ]
+    },
+    {
+      "markdown": "Employees can also request an additional fixed withholding amount through Line 3.\n\nThese allowances are separate from federal Form W-4 adjustments. Entering the same number into both federal and Illinois withholding fields may produce inaccurate results.\n\nReview the official [Illinois withholding forms](https://tax.illinois.gov/forms/withholding/currentyear.html) to find the appropriate certificate.\n\n## How to Calculate Illinois Income Tax Withholding\n\nIllinois allows employers to calculate withholding using a mathematical formula.\n\nFirst, calculate the annual value of the employee's applicable withholding allowances.\n\nDivide this amount by the number of annual pay periods to determine the allowance for the current paycheck.\n\nSubtract the result from applicable taxable wages and multiply the remaining amount by 4.95%.\n\nAny additional withholding requested by the employee is then included.\n\n### Illinois withholding example\n\nSuppose you receive $2,500 in biweekly Illinois taxable wages and claim one Line 1 allowance with no Line 2 allowances.\n\nAnnual allowance: $2,925\n\nBiweekly allowance: $2,925 ÷ 26 = approximately $112.50\n\nAdjusted taxable wages: $2,500 − $112.50 = $2,387.50\n\nIllinois withholding: $2,387.50 × 4.95% = approximately $118.18\n\nThis example assumes no additional state withholding or other special adjustments.\n\nAn employee claiming different allowances may have a different deduction even when receiving the same gross salary.\n\n## Federal Taxes Deducted From Illinois Paychecks\n\nIllinois employees remain subject to applicable federal income tax and payroll contributions.\n\nFederal income tax withholding is based on taxable earnings, pay frequency and information supplied on Form W-4.\n\nSocial Security generally applies at 6.2% of covered employee earnings, subject to an annual taxable wage ceiling of $184,500 in 2026.\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nUnlike ordinary Social Security contributions, Medicare does not have a standard annual wage ceiling.\n\nVisit [IRS Publication 15](https://www.irs.gov/publications/p15) and [Publication 15-T](https://www.irs.gov/publications/p15t) for official federal payroll guidance.\n\n## Illinois Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Illinois Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,500 biweekly, claims one Illinois Line 1 allowance, has no additional state withholding and has not reached the applicable federal payroll tax thresholds."
+    },
+    {
+      "caption": "Illinois Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Illinois income tax",
+          "$118.18"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$309.43"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,190.57 remains before federal income tax withholding and other employee deductions.\n\nThis example illustrates selected payroll deductions rather than a complete take-home pay calculation.\n\nEnter your actual federal withholding information and employee benefits into the calculator to obtain your estimated net paycheck.\n\n## Illinois Hourly Paycheck Calculator\n\nHourly employees may receive different amounts each payday depending on their working hours and overtime.\n\nSuppose you earn $27 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$27 × 40 = $1,080\n\nOvertime earnings:\n\n$27 × 1.5 × 6 = $243\n\nTotal gross earnings:\n\n$1,323\n\nIllinois income tax, federal taxes and payroll contributions are then calculated using their applicable taxable wage amounts.\n\nEmployees receiving tips, bonuses or commissions should include relevant compensation when estimating their earnings.\n\nReview the [Illinois Department of Labor](https://labor.illinois.gov/) for state employment guidance and the [US Department of Labor overtime rules](https://www.dol.gov/agencies/whd/overtime) for federal requirements.\n\n## Does Chicago Have a Local Income Tax?\n\nChicago does not generally impose a separate municipal personal wage income tax on ordinary employee compensation.\n\nThis means an employee working in Chicago generally faces the same Illinois state income tax rate as an employee earning comparable taxable income in Springfield or another Illinois community.\n\nHowever, differences in housing costs, transportation, sales taxes and other expenses can significantly affect disposable income.\n\nThese expenses should be considered separately from paycheck taxes.\n\nOur Illinois salary calculator focuses on employment income and payroll deductions rather than estimating every household tax or living expense.\n\n## Working Across Illinois State Borders\n\nIllinois has reciprocal income tax arrangements with Iowa, Kentucky, Michigan and Wisconsin.\n\nThese arrangements generally affect the state taxation of qualifying employee compensation earned by residents working across state borders.\n\nEligible nonresident employees may need to provide the appropriate Illinois nonresidence certificate to their employer.\n\nEmployees working across the Illinois–Indiana border should not automatically assume the same reciprocity treatment applies.\n\nInterstate tax credits, remote work arrangements and income sourcing may require additional analysis.\n\nConsult the Illinois Department of Revenue before applying a nonresident withholding exemption.\n\n## How Employee Benefits Affect Illinois Take-Home Pay\n\nYour employer may deduct retirement contributions, healthcare premiums, dental insurance and other benefits from your gross earnings.\n\nTraditional 401(k) contributions generally reduce current federal income-taxable wages, while Roth contributions generally do not provide the same immediate income tax reduction.\n\nQualifying health benefits may also reduce applicable taxable earnings.\n\nHowever, not every deduction reduces every payroll tax base.\n\nAn employer offering affordable healthcare coverage or generous retirement matching may provide better overall compensation even when its advertised salary is slightly lower.\n\nCompare both take-home income and the value of employee benefits when evaluating employment opportunities.\n\n## Planning Your Illinois Monthly Budget\n\nUse your estimated net income rather than gross annual salary to establish a realistic [spending plan](/calculators/budget-calculator/).\n\nInclude housing, transportation, utilities, groceries, healthcare and debt payments.\n\nIf you receive biweekly paychecks, remember that your average monthly income differs from the amount deposited during a typical two-paycheck month.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help estimate an appropriate savings cushion. Our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare salaried and hourly employment arrangements.\n\n## Frequently Asked Questions\n\n### What is the Illinois income tax rate in 2026?\n\nIllinois applies a flat income tax withholding rate of 4.95% after applicable allowances. The actual amount deducted depends on taxable wages and Form IL-W-4 information.\n\n### Does Chicago deduct a separate city income tax from paychecks?\n\nChicago generally does not impose a separate personal wage income tax. Employees still pay applicable federal and Illinois income taxes and ordinary payroll contributions.\n\n### Why is my Illinois withholding less than 4.95% of gross pay?\n\nApplicable withholding allowances and eligible deductions may reduce your taxable wages before Illinois income tax withholding is calculated.\n\n## Calculate Your Illinois Take-Home Pay\n\nUse our Illinois paycheck calculator to understand how taxes and employee deductions affect your income, compare employment opportunities and plan monthly expenses.\n\nThe results are educational estimates and do not replace official payroll calculations or personalized tax advice."
+    }
+  ]
+}
