@@ -1,0 +1,146 @@
+{
+  "title": "Colorado Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Calculate your Colorado take-home pay after federal taxes, Colorado income tax, FAMLI contributions and applicable local occupational taxes.",
+  "heading": "Colorado Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Colorado paycheck calculator** to estimate your take-home pay after federal income tax, Colorado income tax, Social Security, Medicare, paid family leave contributions and applicable local occupational taxes.\n\nEnter your annual salary or hourly wage, choose your pay frequency and customize your withholding information to understand how much money you could receive on payday.\n\nWhether you work in Denver, Colorado Springs, Boulder, Fort Collins or another Colorado community, understanding your estimated net income can help you compare job offers, manage housing expenses and establish realistic financial goals.\n\n## How to Use the Colorado Paycheck Calculator\n\nIf your pay stub lists Colorado paid family leave contributions, include the amount under other deductions. Enter each deduction once.\n\nStart by choosing whether you receive an annual salary or hourly wages.\n\nEnter your earnings before taxes and select your payment frequency. Enter federal and Colorado income tax withheld for the pay period from your pay stub.\n\nInclude retirement contributions, healthcare premiums and other employee deductions.\n\nIf occupational privilege tax was withheld, enter the amount from that pay period.\n\nReview your results to see your estimated gross income, federal taxes, Colorado withholding, payroll contributions and take-home pay.\n\nFor more accurate calculations, use your most recent payroll statement and withholding certificates.\n\n## Colorado Payroll Taxes in 2026\n\nColorado employees may encounter the following payroll deductions."
+    },
+    {
+      "caption": "Colorado Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Colorado income tax withholding",
+          "4.4% after applicable withholding allowances"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Employee FAMLI contribution",
+          "Generally up to 0.44% of covered wages"
+        ],
+        [
+          "Occupational privilege tax",
+          "Depends on the municipality"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual deductions depend on your earnings, employment location, withholding elections and employee benefits.\n\nColorado's payroll calculation requires particular attention to its paid family leave program and the occupational taxes imposed by certain municipalities.\n\n## How Colorado Income Tax Withholding Works\n\nColorado uses a flat-rate approach to income taxation. Its 2026 employer withholding worksheet applies a rate of 4.4% to the appropriate annualized taxable wage amount after accounting for the employee's withholding allowance.\n\nEmployers calculate withholding using Form DR 1098, the Colorado Withholding Worksheet for Employers.\n\nWhen an employee has not supplied a custom withholding allowance through Form DR 0004, the standard annual withholding allowances for 2026 are:"
+    },
+    {
+      "caption": "How Colorado Income Tax Withholding Works",
+      "columns": [
+        "Federal filing status",
+        "Annual withholding allowance"
+      ],
+      "rows": [
+        [
+          "Married filing jointly",
+          "$11,000"
+        ],
+        [
+          "Qualifying surviving spouse",
+          "$11,000"
+        ],
+        [
+          "Single",
+          "$5,500"
+        ],
+        [
+          "Married filing separately",
+          "$5,500"
+        ],
+        [
+          "Head of household",
+          "$5,500"
+        ]
+      ]
+    },
+    {
+      "markdown": "These are payroll withholding allowances, not the standard deductions used to calculate your annual federal income tax return.\n\nThe withholding calculation generally involves annualizing taxable wages, subtracting the appropriate allowance, applying the withholding rate and converting the result back to the relevant pay period.\n\nAdditional withholding requested by the employee is then included.\n\nReview the official [Colorado withholding worksheet](https://tax.colorado.gov/DR1098) for the complete methodology.\n\n## Colorado State Income Tax Calculation Example\n\nSuppose an employee earns $65,000 annually and receives 26 biweekly paychecks.\n\nThe employee is single, has no custom Colorado withholding allowance and receives $2,500 in taxable wages each pay period.\n\nAnnualized wages:\n\n$2,500 × 26 = $65,000\n\nSubtract the standard withholding allowance:\n\n$65,000 − $5,500 = $59,500\n\nCalculate the annualized withholding amount:\n\n$59,500 × 4.4% = $2,618\n\nConvert the result into biweekly withholding:\n\n$2,618 ÷ 26 = approximately $100.69\n\nThis example assumes ordinary withholding conditions without additional requested deductions or exemptions.\n\nYour final annual Colorado income tax liability may differ from the amount withheld throughout the year.\n\n## Understanding Colorado Form DR 0004\n\nColorado employees can optionally complete Form DR 0004 to customize state income tax withholding.\n\nThe form allows employees to provide an annual withholding allowance and request an additional fixed amount to be withheld each pay period.\n\nIf you do not submit the form, your employer generally calculates Colorado withholding using the applicable information from your federal Form W-4.\n\nEmployees with multiple jobs, additional income, eligible deductions or expected tax credits may benefit from reviewing their withholding elections.\n\nA lower withholding amount does not necessarily reduce your final income tax liability.\n\nDownload the current [Colorado Employee Withholding Certificate](https://tax.colorado.gov/DR0004) to review your options.\n\n## Colorado Family and Medical Leave Insurance\n\nColorado's Family and Medical Leave Insurance program, commonly called FAMLI, provides qualifying employees with partial wage replacement during eligible periods of leave.\n\nThe program can support workers who need time away from employment for qualifying medical conditions, family caregiving and bonding with a new child.\n\nFor 2026, the total standard FAMLI premium is 0.88% of covered wages. Employees generally contribute up to half of this amount, equivalent to 0.44%.\n\nEmployers may cover part or all of the employee's share.\n\nThe program generally uses the annual Social Security wage ceiling, which is $184,500 in 2026.\n\nAssuming the full employee share applies:"
+    },
+    {
+      "caption": "Colorado Family and Medical Leave Insurance",
+      "columns": [
+        "FAMLI-covered wages",
+        "Employee deduction"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.20"
+        ],
+        [
+          "$1,000",
+          "$4.40"
+        ],
+        [
+          "$2,000",
+          "$8.80"
+        ],
+        [
+          "$3,000",
+          "$13.20"
+        ],
+        [
+          "$5,000",
+          "$22.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "The maximum standard annual employee contribution at the 0.44% rate is $811.80.\n\nApproved private plans and certain public-sector employment arrangements may result in different deductions or coverage requirements.\n\nVisit the official [Colorado FAMLI program website](https://famli.colorado.gov/) to learn more about contributions and benefits.\n\n## Denver Occupational Privilege Tax\n\nSome Colorado municipalities impose occupational privilege taxes on employees working within their boundaries.\n\nDenver's employee occupational privilege tax is a notable example.\n\nEmployees who earn at least $500 in a calendar month from qualifying work performed in Denver are generally subject to an employee tax of $5.75 for that month.\n\nDenver also imposes a separate employer contribution of $4.00. This employer contribution should not be deducted from employee net pay as though it were an employee tax.\n\nThe employee deduction is based on qualifying employment activity rather than simply living in Denver.\n\nBecause the tax applies monthly, employees receiving weekly or biweekly paychecks should not automatically deduct $5.75 from every paycheck.\n\nConsult the [City and County of Denver occupational tax guidance](https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Finance/Our-Divisions/Treasury/Business-Tax-Information/Business-Tax-FAQ) for official requirements.\n\nOther Colorado municipalities may have different occupational tax arrangements.\n\n## Federal Payroll Taxes for Colorado Employees\n\nEmployees in Colorado generally pay federal income tax, Social Security and Medicare alongside applicable state deductions.\n\nFederal income tax withholding depends on earnings, filing status, payroll frequency and Form W-4 information.\n\nSocial Security applies at 6.2% of covered wages, subject to the 2026 annual wage limit of $184,500.\n\nOrdinary Medicare applies at 1.45% of covered wages without a standard annual wage ceiling.\n\nEmployers generally withhold an additional 0.9% when Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nRead the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for additional information about federal payroll contributions.\n\n## Colorado Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually and receiving $2,500 biweekly.\n\nAssume the employee is single, has the standard Colorado withholding allowance, has not reached any annual contribution limits and pays the full standard employee FAMLI contribution."
+    },
+    {
+      "caption": "Colorado Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Colorado income tax",
+          "$100.69"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Colorado FAMLI",
+          "$11.00"
+        ],
+        [
+          "Total",
+          "$302.94"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,197.06 remains before federal income tax withholding, applicable occupational taxes and other employee deductions.\n\nIf a Denver occupational privilege tax deduction is due during that paycheck, an additional $5.75 may be withheld.\n\nUse the calculator with your actual federal withholding information to estimate your complete take-home paycheck.\n\n## Colorado Hourly Paycheck Calculator\n\nHourly employees can calculate gross pay by multiplying their hourly wage by regular hours and adding qualifying overtime compensation.\n\nConsider an employee earning $30 per hour who works 40 regular hours and six overtime hours at time-and-a-half.\n\nRegular pay:\n\n$30 × 40 = $1,200\n\nOvertime pay:\n\n$30 × 1.5 × 6 = $270\n\nTotal gross pay:\n\n$1,470\n\nColorado has state overtime requirements that may apply in addition to federal weekly overtime rules. Certain covered employees can qualify for overtime based on daily or consecutive hours worked.\n\nConsult the [Colorado Department of Labor and Employment](https://cdle.colorado.gov/dlss) for current wage and overtime requirements.\n\n## Comparing Colorado Salaries and Living Expenses\n\nWhen evaluating employment opportunities in Colorado, compare estimated net earnings alongside living expenses.\n\nHousing and commuting costs can vary significantly between metropolitan Denver, mountain communities and smaller cities.\n\nEmployer retirement contributions, healthcare coverage, transportation benefits and remote working arrangements can also influence the overall value of a job offer.\n\nUse our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare compensation arrangements and our [emergency fund calculator](/savings/emergency-fund-calculator/) to establish a financial cushion based on your expected monthly expenses.\n\n## Frequently Asked Questions\n\n### What is Colorado's paycheck withholding rate in 2026?\n\nColorado's official 2026 employer withholding worksheet uses a rate of 4.4% after applicable withholding allowances. Your actual deduction depends on taxable wages, filing information and any custom withholding elections.\n\n### What is the Colorado FAMLI deduction on my paycheck?\n\nFAMLI is Colorado's paid family and medical leave insurance program. The standard employee contribution is generally up to 0.44% of covered wages in 2026, subject to the applicable annual wage ceiling.\n\n### Do employees working in Denver pay an additional local tax?\n\nQualifying employees earning at least $500 in a calendar month from work performed in Denver generally owe an employee occupational privilege tax of $5.75 for that month.\n\n## Calculate Your Colorado Take-Home Pay\n\nUse our Colorado paycheck calculator to understand how state withholding, federal taxes, paid family leave contributions and other deductions affect your earnings.\n\nThe results provide educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
