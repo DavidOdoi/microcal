@@ -1,0 +1,106 @@
+{
+  "title": "New Mexico Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Estimate your New Mexico take-home pay after federal income tax, New Mexico income tax, Social Security, Medicare and employee deductions.",
+  "heading": "New Mexico Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free New Mexico paycheck calculator to estimate your take-home pay after federal income tax, New Mexico income tax, Social Security, Medicare and other payroll deductions.\n\nEnter your annual salary or hourly wage, choose your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nNew Mexico uses progressive income tax withholding schedules, meaning your tax deduction depends on your earnings, payment frequency and applicable withholding classification.\n\nWhether you work in Albuquerque, Santa Fe, Las Cruces, Rio Rancho or another New Mexico community, understanding your net earnings can help you compare salaries, manage household expenses and make informed financial decisions.\n\n## How to Use the New Mexico Paycheck Calculator\n\nBegin by selecting whether you receive annual salary or hourly wages.\n\nEnter your gross income before taxes. Hourly employees should provide their regular working hours and qualifying overtime hours.\n\nSelect your payment frequency. Enter federal and New Mexico income tax withheld for the pay period from your pay stub, including any extra withholding.\n\nInclude retirement contributions, health insurance premiums and other employee deductions.\n\nIf your earnings are approaching an annual payroll contribution ceiling, enter your year-to-date taxable wages.\n\nReview your estimated paycheck breakdown to understand how individual deductions affect your remaining take-home income.\n\nFor greater accuracy, use information from your most recent payroll statement rather than estimating your benefit deductions.\n\n## New Mexico Payroll Taxes in 2026\n\nNew Mexico employees generally encounter the following payroll taxes."
+    },
+    {
+      "caption": "New Mexico Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "New Mexico income tax",
+          "Progressive state withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "New Mexico's state withholding calculation includes different wage thresholds according to payment frequency and withholding classification.\n\nThe [New Mexico Taxation and Revenue Department](https://www.tax.newmexico.gov/) publishes official employer withholding guidance.\n\n## How New Mexico State Income Tax Works\n\nNew Mexico applies progressive individual income tax rates.\n\nInstead of taxing all earnings at one percentage, the system applies different rates to different portions of applicable income.\n\nThe 2026 payroll percentage schedules include rates of 1.5%, 3.2%, 4.3%, 4.7%, 4.9% and 5.9%, alongside applicable zero-withholding ranges.\n\nHowever, these rates cannot be applied accurately without considering the corresponding thresholds and base withholding amounts.\n\nAn employee whose highest applicable marginal withholding rate is 4.7% does not necessarily have 4.7% deducted from their entire gross salary.\n\nEmployers follow the applicable percentage tables or other authorized procedures in the state's wage withholding publication.\n\n## Understanding New Mexico Withholding Tables\n\nNew Mexico publishes its state wage withholding tables in Publication FYI-104.\n\nThe tables are organized according to payroll frequency and applicable withholding classification.\n\nFor example, weekly employees use a different table from employees receiving biweekly or monthly paychecks.\n\nThe tables incorporate wage thresholds and base withholding amounts. These features help employers calculate the appropriate deduction without requiring employees to perform a complete annual income tax calculation every payday.\n\nRead the official [New Mexico withholding tax publication FYI-104](https://www.tax.newmexico.gov/businesses/wage-withholding-tax/) for employer calculation guidance.\n\nAlways confirm that the publication applies to the correct tax year before using its tables.\n\n## Why Filing Status Affects New Mexico Take-Home Pay\n\nAn employee's applicable withholding classification influences the wage thresholds used to calculate New Mexico income tax withholding.\n\nSingle, married and head-of-household classifications generally have different thresholds.\n\nConsequently, two employees receiving the same gross salary may have different state tax deductions.\n\nMarried employees with multiple household income sources should review their withholding selections carefully.\n\nIf both spouses receive wages, their combined withholding may not necessarily cover their final household tax liability.\n\nEmployees should also distinguish federal withholding adjustments from state withholding requirements. A change to federal tax credits does not necessarily produce an identical change in New Mexico withholding.\n\n## Federal Taxes Deducted From New Mexico Paychecks\n\n\n### Federal income tax\n\nYour employer generally calculates federal income tax withholding using your taxable wages, filing status, payment frequency and information supplied on Form W-4.\n\nMultiple jobs, eligible credits, other income and additional withholding requests may affect your deduction.\n\nThe [IRS federal withholding methods](https://www.irs.gov/publications/p15t) provide official calculation instructions.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe annual taxable wage ceiling is $184,500 in 2026.\n\nFor example, an employee receiving $2,000 in covered wages before reaching the annual limit would contribute $124.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered wages.\n\nAn employee receiving $2,000 in Medicare-covered wages would ordinarily contribute $29.\n\nEmployers generally withhold an additional 0.9% on covered Medicare wages exceeding $200,000 paid by that employer during the calendar year.\n\nReview the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for further information.\n\n## New Mexico Paycheck Example: $65,000 Salary\n\nConsider an employee earning $65,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "New Mexico Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ],
+        [
+          "Annually",
+          "$65,000.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $2,500 biweekly, uses ordinary single federal withholding settings and has no additional federal credits, income adjustments or employee benefit deductions."
+    },
+    {
+      "caption": "New Mexico Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated federal deductions",
+          "$407.40"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,092.60 remains before New Mexico income tax and other employee deductions.\n\nTo complete the paycheck calculation, subtract applicable New Mexico withholding and any other deductions.\n\nFor illustration, if your actual New Mexico withholding were $85 and other post-tax deductions totaled $40, your resulting net paycheck would be $1,967.60.\n\nThe $85 figure is hypothetical, not a calculated 2026 New Mexico withholding amount. Use the applicable state tables and your actual withholding information for a personalized estimate.\n\n## New Mexico Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings using their hourly wage, working hours and qualifying overtime.\n\nSuppose an employee earns $26 per hour and works 40 regular hours plus six overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$26 × 40 = $1,040\n\nOvertime earnings:\n\n$26 × 1.5 × 6 = $234\n\nTotal gross earnings:\n\n$1,274\n\nFederal income tax, New Mexico income tax and applicable payroll contributions are then calculated from their respective taxable wage amounts.\n\nEmployees receiving shift differentials, tips, commissions or bonuses may experience different paycheck amounts throughout the year.\n\nConsult the [New Mexico Department of Workforce Solutions](https://www.dws.state.nm.us/) and the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable employment requirements.\n\n## Does Albuquerque Have a Local Income Tax?\n\nAlbuquerque and other New Mexico municipalities generally do not impose separate personal wage income taxes on ordinary employee compensation.\n\nNew Mexico's gross receipts tax is different from personal income tax withholding.\n\nGross receipts tax may affect the price of goods and services, while business owners and independent contractors can have separate tax obligations.\n\nAn ordinary W-2 employee should not automatically have gross receipts tax deducted from wages as though it were an individual payroll income tax.\n\nVisit the New Mexico Taxation and Revenue Department for information about the distinction between personal income tax and business taxation.\n\n## Working Across New Mexico State Borders\n\nNew Mexico shares borders with Texas, Arizona, Colorado, Oklahoma and Utah.\n\nEmployees who live in one state and perform employment duties in another may have different withholding obligations.\n\nFor example, living in Texas, which does not impose individual state wage income tax, does not automatically exempt wages earned through employment in New Mexico.\n\nThe appropriate tax treatment depends on residency, the location where work is performed and applicable state rules.\n\nCertain employment arrangements involving tribal lands or qualifying Native American income tax exemptions may also require specialized treatment.\n\nA standard New Mexico paycheck calculator should not be treated as a complete multi-jurisdiction or tribal tax estimator.\n\n## How Employee Benefits Affect New Mexico Take-Home Pay\n\nYour employer may deduct retirement contributions, healthcare premiums, dental insurance and other employee benefits.\n\nTraditional retirement contributions generally reduce current federal income-taxable wages. Roth contributions generally do not provide the same immediate income tax reduction.\n\nQualifying health insurance arrangements may reduce certain taxable wage amounts.\n\nOther deductions reduce your net paycheck without necessarily reducing applicable payroll taxes.\n\nFor this reason, a reliable calculator must distinguish between deductions that affect income-taxable wages and deductions that are taken after taxes.\n\nCompare your estimated paycheck with your actual payroll statement to identify differences in benefit treatment.\n\n## Managing Your New Mexico Take-Home Income\n\nBuild your monthly budget using estimated net earnings rather than annual gross salary.\n\nAccount for housing, transportation, groceries, utilities, healthcare and required debt payments.\n\nEmployees working in energy, tourism or seasonal industries should also consider periods when overtime or working hours may decline.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish an appropriate savings target, while our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help compare fixed salaries with hourly employment.\n\nWhen comparing job offers, consider employer retirement matching, insurance premiums and commuting costs alongside take-home pay.\n\n## Frequently Asked Questions\n\n\n### What is New Mexico's income tax rate in 2026?\n\nNew Mexico uses progressive income tax rates ranging from 1.5% to 5.9%, with applicable zero-withholding thresholds. Actual paycheck withholding depends on the relevant official payroll schedule.\n\n### Does Albuquerque have a separate employee income tax?\n\nAlbuquerque generally does not impose a separate personal wage income tax. Applicable federal and New Mexico income taxes still affect employee earnings.\n\n### Why is my New Mexico paycheck different from the calculator?\n\nDifferences can arise from withholding classifications, benefit deductions, employer rounding, supplemental compensation or employment circumstances not included in a standard estimate.\n\n## Calculate Your New Mexico Take-Home Pay\n\nUse our New Mexico paycheck calculator to understand how payroll taxes and employee deductions affect your earnings, compare salary offers and establish a realistic budget.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
