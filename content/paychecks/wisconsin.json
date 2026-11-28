@@ -1,0 +1,110 @@
+{
+  "title": "Wisconsin Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Calculate your Wisconsin take-home pay after federal income tax, Wisconsin income tax, Social Security, Medicare and employee deductions.",
+  "heading": "Wisconsin Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free Wisconsin paycheck calculator to estimate your take-home pay after federal income tax, Wisconsin income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nWisconsin's employer withholding calculation uses income-dependent deductions and employee withholding exemptions. Understanding these adjustments is important when estimating your salary after taxes.\n\nWhether you work in Milwaukee, Madison, Green Bay, Kenosha or another Wisconsin community, this calculator can help you compare employment opportunities and manage your monthly expenses.\n\n## How to Use the Wisconsin Paycheck Calculator\n\nChoose annual salary or hourly wages and select the pay schedule shown on your pay stub. Hourly employees can enter their regular hours and qualifying overtime.\n\nEnter the federal and Wisconsin income tax withheld for that pay period. Use the full withholding amounts, including any additional withholding.\n\n\n\nInclude employee retirement contributions, eligible health premiums and other deductions from the same pay period. Enter each deduction once.\n\nEnter prior year-to-date taxable wages if you are approaching a Social Security or Additional Medicare threshold.\n\n\n## Wisconsin Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Wisconsin Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Wisconsin income tax",
+          "Official state withholding formula"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Visit the [Wisconsin Department of Revenue](https://www.revenue.wi.gov/) for official information about income taxation and employer withholding.\n\n## Wisconsin Income Tax Rates in 2026\n\nWisconsin uses progressive individual income tax rates.\n\nThe applicable 2026 annual income tax rates are 3.50%, 4.40%, 5.30% and 7.65%.\n\nHowever, Wisconsin's authorized alternate employer withholding calculation uses a different percentage schedule.\n\nThis distinction matters because payroll withholding represents advance payments toward your annual tax liability rather than a complete annual tax return calculation.\n\nEmployers should use the applicable withholding tables or authorized alternate method from Publication W-166.\n\nRead the official Wisconsin Withholding Tax Guide for complete instructions.\n\n## Wisconsin Employer Withholding Percentage Schedule\n\nThe authorized alternate method applies the following rates after subtracting applicable withholding deductions and exemptions."
+    },
+    {
+      "caption": "Wisconsin Employer Withholding Percentage Schedule",
+      "columns": [
+        "Adjusted annual wages",
+        "Withholding calculation"
+      ],
+      "rows": [
+        [
+          "Up to $12,760",
+          "3.54%"
+        ],
+        [
+          "$12,760–$25,520",
+          "$451.70 plus 4.65% of the excess over $12,760"
+        ],
+        [
+          "$25,520–$280,950",
+          "$1,045.04 plus 5.30% of the excess over $25,520"
+        ],
+        [
+          "Above $280,950",
+          "$14,582.83 plus 7.65% of the excess over $280,950"
+        ]
+      ]
+    },
+    {
+      "markdown": "These thresholds are specific to the alternate employer withholding calculation.\n\nThey should not be confused with Wisconsin's ordinary annual income tax brackets.\n\n## Wisconsin Income-Dependent Withholding Deductions\n\nWisconsin's alternate employer withholding method incorporates deductions that gradually decrease as annualized earnings increase.\n\nFor single employees:\n- The maximum ordinary withholding deduction is $6,702.\n- The deduction decreases by 12% of earnings above $17,780.\n- The deduction becomes zero at $73,630.\nFor married employees:\n- The maximum ordinary withholding deduction is $9,461.\n- The deduction decreases by 20% of earnings above $25,727.\n- The deduction becomes zero at $73,032.\nThese amounts affect payroll withholding rather than directly representing the standard deductions available on an annual Wisconsin tax return.\n\n## Understanding Wisconsin Form WT-4\n\nWisconsin employees use Form WT-4 to communicate state withholding information to their employers.\n\nEach qualifying withholding exemption has an annual value of $400 under the alternate calculation method.\n\nThe modern federal Form W-4 cannot be used as a substitute for Wisconsin's state withholding certificate.\n\nEmployees may also qualify for a separate employee withholding agreement through Form WT-4A.\n\nObtain the applicable certificates from the Wisconsin withholding tax forms directory.\n\nReview your withholding elections when starting a new job or experiencing changes in household income.\n\n## How to Calculate Wisconsin Income Tax Withholding\n\nConsider a single employee earning $65,000 annually and claiming one ordinary withholding exemption.\n\nFirst, calculate the applicable withholding deduction.\n\nAnnual earnings exceeding $17,780:\n\n$65,000 − $17,780 = $47,220.\n\nDeduction reduction:\n\n$47,220 × 12% = $5,666.40.\n\nRemaining deduction:\n\n$6,702 − $5,666.40 = $1,035.60.\n\nSubtract the remaining deduction and one $400 withholding exemption:\n\n$65,000 − $1,035.60 − $400 = $63,564.40.\n\nApply the applicable withholding bracket:\n\n$1,045.04 + (($63,564.40 − $25,520) × 5.30%).\n\nAnnualized withholding equals approximately $3,061.39.\n\nFor 26 biweekly paychecks, estimated Wisconsin withholding is $117.75.\n\nThis example uses the authorized alternate method. The official wage-bracket tables may produce slightly different results.\n\n## Federal Taxes Deducted From Wisconsin Paychecks\n\nFederal income tax withholding depends on taxable earnings, payment frequency, filing status and Form W-4 information.\n\nEmployees with multiple jobs, other income or eligible tax credits may have different deductions.\n\nEmployers follow the procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nSocial Security generally applies at 6.2% of covered wages up to $184,500 in 2026.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings.\n\nAdditional Medicare withholding of 0.9% generally applies to covered earnings exceeding the employer's $200,000 annual withholding threshold.\n\nVisit [IRS Publication 15](https://www.irs.gov/publications/p15) and the Social Security Administration contribution and benefit base for official payroll requirements.\n\n## Wisconsin Paycheck Example: $65,000 Salary\n\nConsider an employee receiving $2,500 biweekly.\n\nAssume ordinary single federal withholding settings, one Wisconsin exemption, the authorized alternate withholding method and no employee benefit deductions."
+    },
+    {
+      "caption": "Wisconsin Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Wisconsin income tax",
+          "$117.75"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total deductions",
+          "$525.15"
+        ],
+        [
+          "Estimated take-home pay",
+          "$1,974.85"
+        ]
+      ]
+    },
+    {
+      "markdown": "Actual paycheck amounts may differ because of withholding elections, employee benefits and authorized employer calculation methods.\n\n## Wisconsin Hourly Paycheck Calculator\n\nSuppose an employee earns $27 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$27 × 40 = $1,080.\n\nOvertime earnings:\n\n$27 × 1.5 × 6 = $243.\n\nTotal gross earnings: $1,323.\n\nFederal and Wisconsin income taxes and ordinary payroll contributions are then calculated using the relevant taxable wage amounts.\n\nReview the Wisconsin Department of Revenue for employer withholding guidance. Use the [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) to compare compensation and the [emergency fund calculator](/savings/emergency-fund-calculator/) to estimate a savings cushion.\n\n\n## Frequently Asked Questions\n\n\n### Which form controls Wisconsin payroll withholding?\n\nEmployers use Form WT-4 and the applicable Wisconsin withholding instructions. Enter the amount actually withheld from your pay stub in this calculator.\n\n### Is Wisconsin withholding my final state income tax?\n\nWithholding is a payment toward your annual tax. Compare your actual withholding and tax liability when you file.\n\n### Why might my Wisconsin paycheck differ from this estimate?\n\nDifferences in taxable wages, allowances, employer rounding and benefit deductions affect take-home pay. Use amounts from the same pay period."
+    }
+  ]
+}
