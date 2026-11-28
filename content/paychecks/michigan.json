@@ -1,0 +1,122 @@
+{
+  "title": "Michigan Paycheck Calculator 2026 – Take-Home Salary",
+  "description": "Estimate your Michigan take-home pay after federal taxes, Michigan's 4.25% state income tax, applicable city income taxes and payroll deductions.",
+  "heading": "Michigan Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Our free **Michigan paycheck calculator** helps you estimate your take-home salary after federal income tax, Michigan state income tax, Social Security, Medicare and applicable city income taxes.\n\nEnter your annual salary or hourly earnings, select your payment frequency and customize your deductions to understand how much money you could receive on payday.\n\nMichigan's relatively straightforward state income tax rate makes salary comparisons easier. However, employees living or working in cities such as Detroit, Grand Rapids or Lansing may also need to consider local income taxes.\n\nUnderstanding these additional deductions can help you compare employment opportunities and build a realistic monthly budget.\n\n## How to Use the Michigan Paycheck Calculator\n\nBegin by choosing whether you receive an annual salary or hourly wages.\n\nEnter your gross income before taxes and select your payment frequency. Enter federal and Michigan income tax withheld for the pay period from your pay stub.\n\nIf you have Michigan municipal income tax withheld, enter the total amount from the pay period.\n\nAdd retirement contributions, health insurance premiums and other applicable deductions.\n\nThe calculator estimates individual payroll deductions and displays your remaining take-home earnings.\n\nFor more accurate results, use your latest pay stub and withholding certificates as references.\n\n## Michigan Payroll Taxes in 2026\n\nMichigan employees are generally subject to the following payroll taxes."
+    },
+    {
+      "caption": "Michigan Payroll Taxes in 2026",
+      "columns": [
+        "Tax",
+        "2026 rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Michigan income tax",
+          "4.25% of applicable taxable wages"
+        ],
+        [
+          "Local income tax",
+          "Depends on municipality and residency"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage limit"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ]
+      ]
+    },
+    {
+      "markdown": "Michigan's annual personal exemption amount for state withholding is $5,900 in 2026.\n\nThese figures are published in the [Michigan Department of Treasury withholding information](https://www.michigan.gov/taxes/business-taxes/withholding/calendar-year-tax-information).\n\n## How Michigan Income Tax Withholding Works\n\nMichigan generally applies a flat individual income tax rate rather than a progressive state tax bracket system.\n\nFor 2026, the state withholding rate is 4.25%.\n\nHowever, employers generally account for applicable withholding exemptions before calculating state income tax.\n\nFor example, an employee with one qualifying annual exemption of $5,900 and 26 biweekly pay periods would receive an approximate exemption adjustment of:\n\n$5,900 ÷ 26 = $226.92\n\nIf the employee has $2,500 in wages subject to Michigan withholding, the illustrative calculation would be:\n\nAdjusted taxable amount:\n\n$2,500 − $226.92 = $2,273.08\n\nEstimated Michigan withholding:\n\n$2,273.08 × 0.0425 = $96.61\n\nThis example assumes one applicable exemption, no additional adjustments and wages subject to ordinary withholding.\n\nYour employer's rounding procedures and withholding elections may produce a slightly different amount.\n\n## Understanding Michigan City Income Taxes\n\nMichigan is one of several states where certain municipalities impose separate income taxes.\n\nWhether you owe city income tax may depend on where you live, where you work and how much of your employment income is earned within city boundaries.\n\nMichigan communities with local income taxes include Detroit, Flint, Lansing, Grand Rapids, Pontiac and several others.\n\nRates, exemptions and administrative requirements vary.\n\nA Michigan paycheck calculator that considers only the 4.25% state income tax may therefore overestimate the take-home pay of employees subject to municipal taxes.\n\nConsult the [Michigan city withholding resources](https://www.michigan.gov/taxes/citytax/forms/withholding) and the relevant municipal tax authority before choosing a local rate.\n\n## Detroit Paycheck Calculator: Resident and Nonresident Taxes\n\nDetroit applies different income tax rates to residents and nonresidents.\n\nFor 2026, the standard rates are:"
+    },
+    {
+      "caption": "Detroit Paycheck Calculator: Resident and Nonresident Taxes",
+      "columns": [
+        "Residency",
+        "Detroit income tax rate"
+      ],
+      "rows": [
+        [
+          "Resident",
+          "2.4%"
+        ],
+        [
+          "Nonresident",
+          "1.2%"
+        ]
+      ]
+    },
+    {
+      "markdown": "Detroit also provides a separate annual local personal exemption amount of $600 per qualifying exemption.\n\nConsider an employee receiving $2,500 biweekly and claiming one applicable Detroit exemption.\n\nThe approximate biweekly local exemption is $23.08.\n\nFor a Detroit resident with the full paycheck subject to local tax:\n\n($2,500 − $23.08) × 2.4% = $59.45\n\nFor a qualifying nonresident employee earning the full paycheck within Detroit:\n\n($2,500 − $23.08) × 1.2% = $29.72\n\nThese calculations assume ordinary withholding conditions. Employees who work partly outside Detroit or live in another taxing municipality may need additional adjustments.\n\nReview the official [Detroit income tax withholding guidance](https://www.michigan.gov/taxes/citytax/forms/withholding/about5469) for details.\n\n## Federal Taxes Deducted From Michigan Paychecks\n\n### Federal income tax\n\nFederal withholding depends on taxable earnings, filing status and the information entered on Form W-4.\n\nYour federal tax treatment is separate from your Michigan withholding elections.\n\nEmployees with multiple jobs or additional income may benefit from reviewing their federal withholding periodically.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security, subject to the annual taxable wage ceiling.\n\nFor 2026, that ceiling is $184,500.\n\n### Medicare\n\nOrdinary Medicare withholding is 1.45% of covered employee wages.\n\nEmployers generally collect an additional 0.9% on Medicare wages exceeding $200,000 paid by that employer during the year.\n\nVisit the [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for further information.\n\n## Michigan Paycheck Example: $65,000 Annual Salary\n\nConsider an employee earning $65,000 annually."
+    },
+    {
+      "caption": "Michigan Paycheck Example: $65,000 Annual Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives a $2,500 biweekly paycheck, claims one Michigan withholding exemption, has no additional deductions and is not subject to local income tax."
+    },
+    {
+      "caption": "Michigan Paycheck Example: $65,000 Annual Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Michigan income tax",
+          "$96.61"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total",
+          "$287.86"
+        ]
+      ]
+    },
+    {
+      "markdown": "The employee would have approximately $2,212.14 remaining before federal income tax withholding.\n\nIf this employee also qualifies for the Detroit resident withholding example above, approximately another $59.45 would be deducted, leaving $2,152.69 before federal income tax.\n\nThese examples demonstrate why location can affect the net value of an identical salary.\n\nUse the calculator to estimate your complete paycheck with your actual withholding information.\n\n## Michigan Hourly Paycheck Calculator\n\nHourly workers may receive different paycheck amounts depending on working hours, overtime and employment schedules.\n\nSuppose you earn $30 per hour and work 40 regular hours plus five qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$30 × 40 = $1,200\n\nOvertime earnings:\n\n$30 × 1.5 × 5 = $225\n\nTotal gross earnings:\n\n$1,425\n\nFederal taxes, Michigan income tax and applicable city taxes are then calculated using the relevant taxable wage amounts.\n\nWorkers in manufacturing, healthcare and other shift-based industries may also receive shift differentials, bonuses or other forms of additional compensation.\n\nReview the [Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) to understand federal overtime requirements and exemptions.\n\n## How Employee Benefits Affect Michigan Take-Home Pay\n\nPayroll deductions may include retirement contributions, insurance premiums and other workplace benefits.\n\nTraditional 401(k) contributions generally reduce current income-taxable wages under applicable rules. Roth 401(k) contributions generally do not reduce current federal income-taxable earnings.\n\nSome employer-sponsored health insurance deductions may receive preferential tax treatment.\n\nNot all deductions reduce Social Security, Medicare, state or municipal taxable wages in the same way.\n\nEmployees receiving benefits through their employer should compare the financial value of those benefits with the amount deducted from their paycheck.\n\nA job with slightly lower take-home pay may still offer better overall compensation through retirement matches or more affordable health insurance.\n\n## Working Across Michigan State Lines\n\nMichigan workers may live in neighboring states while commuting to employment within Michigan, or vice versa.\n\nState income tax reciprocity and nonresident withholding rules can change which state receives income tax payments.\n\nHowever, interstate arrangements may not eliminate Michigan city income taxes.\n\nIf you work remotely or regularly perform employment duties in multiple states or cities, your tax situation may require more detailed calculations than a standard single-state payroll estimate.\n\nConsult the [Michigan Department of Treasury](https://www.michigan.gov/taxes) and your employer's payroll department to confirm the applicable withholding treatment.\n\n## Comparing Michigan Salaries and Living Expenses\n\nA useful salary comparison should consider both take-home income and the cost of maintaining your household.\n\nFor example, an employee considering a position in Detroit should compare the possible municipal tax deductions and commuting expenses with a similar opportunity outside the city.\n\nHousing costs, transportation, childcare and healthcare expenses may influence how much income remains available for savings.\n\nUse our Michigan paycheck calculator to estimate the net income associated with each salary offer.\n\nYou can then use our [emergency fund](/savings/emergency-fund-calculator/) and [loan payment](/calculators/loan-calculator/) calculators to evaluate savings goals and existing financial commitments.\n\n## Frequently Asked Questions\n\n### What is Michigan's income tax rate in 2026?\n\nMichigan's individual income tax withholding rate is 4.25% in 2026. The annual personal exemption amount used for state withholding is $5,900 per applicable exemption.\n\n### Do Detroit residents pay a higher city income tax than nonresidents?\n\nYes. Detroit's standard resident income tax rate is 2.4%, compared with 1.2% for qualifying nonresidents. Applicable exemptions and employment location can affect the amount withheld.\n\n### Does every Michigan city have a local income tax?\n\nNo. Only certain municipalities impose local income taxes. Confirm whether your residence or workplace falls within a taxing city before adding municipal deductions.\n\n## Estimate Your Michigan Take-Home Salary\n\nUse our Michigan paycheck calculator to understand how state, federal and applicable city taxes affect your earnings.\n\nThe results can help you compare employment offers and plan monthly expenses, but they remain educational estimates rather than official payroll calculations."
+    }
+  ]
+}
