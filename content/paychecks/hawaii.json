@@ -1,0 +1,138 @@
+{
+  "title": "Hawaii Paycheck Calculator 2026 – Take-Home Pay",
+  "description": "Estimate your Hawaii take-home pay after federal taxes, Hawaii income tax, temporary disability insurance, healthcare and other payroll deductions.",
+  "heading": "Hawaii Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Hawaii paycheck calculator** to estimate your take-home pay after federal income tax, Hawaii income tax, Social Security, Medicare, applicable temporary disability insurance and employee healthcare deductions.\n\nEnter your annual salary or hourly earnings, select your pay frequency and customize your withholding information to see how much money you could receive on payday.\n\nHawaii has several distinctive payroll requirements, making it important to use a calculator that considers more than ordinary federal and state income taxes.\n\nWhether you work in Honolulu, Hilo, Kailua-Kona, Kahului or another Hawaiian community, understanding your estimated net earnings can help you manage the state's household living expenses.\n\n## How to Use the Hawaii Paycheck Calculator\n\nIf your pay stub lists Hawaii temporary disability and applicable healthcare contributions, include the amount under other deductions. Enter each deduction once.\n\nSelect annual salary or hourly wages based on your employment arrangement.\n\nEnter your gross earnings before taxes and choose your payment frequency. Enter federal and Hawaii income tax withheld for the pay period from your pay stub.\n\nInclude health insurance premiums, retirement contributions and other employee benefits.\n\nReview your estimated net paycheck alongside the individual deduction amounts.\n\nUse your most recent payroll statement to confirm which deductions apply. Some employers pay the full cost of certain insurance programs, while others share the cost with employees.\n\n## Hawaii Payroll Taxes in 2026\n\nHawaii employees may encounter the following taxes and deductions."
+    },
+    {
+      "caption": "Hawaii Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "IRS withholding schedules"
+        ],
+        [
+          "Hawaii income tax",
+          "Progressive state withholding schedules"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "Temporary Disability Insurance",
+          "Applicable premium share subject to statutory limits"
+        ],
+        [
+          "Prepaid Health Care",
+          "Applicable employee premium contribution"
+        ]
+      ]
+    },
+    {
+      "markdown": "Not every employee will have the same disability insurance or healthcare deduction.\n\nYour employment arrangement, employer benefit plan and eligibility determine which contributions apply.\n\n## How Hawaii State Income Tax Works\n\nHawaii uses a progressive individual income tax system.\n\nDifferent portions of taxable income may be subject to different rates, meaning your highest marginal rate should not be applied to your entire gross salary.\n\nHawaii has introduced tax reforms that gradually increase standard deductions and change income tax thresholds.\n\nThese reforms involve updates to payroll withholding schedules through 2031.\n\nConsequently, a paycheck estimate based on an older tax-year configuration may overstate or understate the amount deducted from your wages.\n\nEmployers should use the appropriate version of Booklet A, Hawaii's Employer's Tax Guide.\n\nThe [Hawaii Department of Taxation payroll updates](https://tax.hawaii.gov/payrollupdate/) provide official information about annual withholding changes.\n\n## Understanding Hawaii Form HW-4\n\nHawaii employees generally use Form HW-4 to provide their state withholding information.\n\nThis state certificate is separate from federal Form W-4.\n\nThe number of withholding allowances and any applicable additional withholding can influence the amount deducted from each paycheck.\n\nIf you change jobs, get married or experience a significant change in household income, review your state and federal withholding certificates.\n\nEmployers follow the state's authorized payroll calculation methods rather than simply dividing a general annual tax estimate by the number of pay periods.\n\nVisit the official [Hawaii employer withholding resources](https://tax.hawaii.gov/geninfo/a2_b2_4empl_whhold/) for forms and calculation guidance.\n\n## Hawaii Temporary Disability Insurance\n\nHawaii's Temporary Disability Insurance program, commonly called TDI, provides financial assistance to eligible employees experiencing qualifying disabilities that are not work-related.\n\nEmployers may cover the entire insurance premium or share the cost with eligible employees.\n\nHowever, the employee contribution is subject to important limits.\n\nThe 2026 maximum weekly employee deduction is $7.50. An employee's contribution also cannot exceed half the premium cost or 0.5% of weekly wages.\n\nTherefore, $7.50 is a maximum, not an automatic deduction for every Hawaii employee.\n\n### Hawaii TDI contribution examples\n\nAssuming the insurance premium is sufficient to allow the maximum wage-based employee share:"
+    },
+    {
+      "caption": "Hawaii Temporary Disability Insurance",
+      "columns": [
+        "Weekly wages",
+        "Maximum wage-based TDI deduction"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.50"
+        ],
+        [
+          "$1,000",
+          "$5.00"
+        ],
+        [
+          "$1,200",
+          "$6.00"
+        ],
+        [
+          "$1,500",
+          "$7.50"
+        ],
+        [
+          "$2,000",
+          "$7.50"
+        ]
+      ]
+    },
+    {
+      "markdown": "Suppose your weekly wages are $1,000 but the total weekly insurance premium is only $6.\n\nHalf the premium is $3, which is lower than the $5 wage-based limit. The maximum allowable employee deduction in this example would therefore be $3.\n\nVisit the [Hawaii Temporary Disability Insurance guidance](https://labor.hawaii.gov/dcd/frequently-asked-questions/tdi/) for information about employer coverage and employee contributions.\n\n## Understanding Hawaii Prepaid Health Care Contributions\n\nHawaii's Prepaid Health Care framework requires qualifying employers to provide healthcare coverage to eligible employees.\n\nEmployee premium contributions are subject to statutory limits.\n\nFor ordinary required employee coverage, the employee share generally cannot exceed half the applicable premium or 1.5% of monthly wages, whichever is lower.\n\nFor example, suppose an eligible employee earns $4,000 per month and the applicable monthly health insurance premium is $300.\n\nHalf the premium is $150.\n\nThe wage-based employee contribution limit is:\n\n$4,000 × 0.015 = $60\n\nThe maximum employee share under these assumptions is therefore $60.\n\nAdditional dependent coverage and other voluntary benefit arrangements may require separate treatment.\n\nThe [Hawaii Department of Labor and Industrial Relations](https://labor.hawaii.gov/dcd/) provides official disability insurance and prepaid healthcare resources.\n\nUse the actual deduction shown on your pay stub when it is available rather than automatically assuming the maximum contribution.\n\n## Federal Taxes Deducted From Hawaii Paychecks\n\nHawaii employees remain subject to applicable federal income tax withholding.\n\nThe amount withheld depends on earnings, federal filing status, pay frequency and Form W-4 adjustments.\n\nSocial Security generally applies at 6.2% of covered employee wages up to the annual taxable wage ceiling of $184,500 in 2026.\n\nOrdinary Medicare withholding is 1.45% of covered wages.\n\nAdditional Medicare withholding may apply when covered wages paid by an employer exceed $200,000 during the calendar year.\n\nFederal payroll contributions are separate from Hawaii's income tax, disability insurance and healthcare requirements.\n\nReview the [IRS federal withholding methods](https://www.irs.gov/publications/p15t) and [Employer's Tax Guide](https://www.irs.gov/publications/p15) for further information.\n\n## Hawaii Paycheck Example: $62,400 Salary\n\nConsider a Hawaii employee earning $62,400 annually."
+    },
+    {
+      "caption": "Hawaii Paycheck Example: $62,400 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,200.00"
+        ],
+        [
+          "Biweekly",
+          "$2,400.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,600.00"
+        ],
+        [
+          "Monthly",
+          "$5,200.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee receives $1,200 weekly, all wages are subject to ordinary federal payroll contributions and the employer deducts the maximum applicable wage-based TDI contribution."
+    },
+    {
+      "caption": "Hawaii Paycheck Example: $62,400 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$74.40"
+        ],
+        [
+          "Medicare",
+          "$17.40"
+        ],
+        [
+          "Temporary Disability Insurance",
+          "$6.00"
+        ],
+        [
+          "Total illustrated deductions",
+          "$97.80"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $1,102.20 remains before federal income tax, Hawaii income tax, healthcare deductions and other employee contributions.\n\nThe disability insurance deduction could be lower if the actual premium is insufficient to support the maximum or the employer pays more of the cost.\n\nThis example illustrates selected payroll contributions, not a complete paycheck estimate.\n\n## Hawaii Hourly Paycheck Calculator\n\nHourly employment is common in Hawaii's hospitality, tourism, healthcare and construction industries.\n\nSuppose an employee earns $27 per hour and works 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$27 × 40 = $1,080\n\nOvertime earnings:\n\n$27 × 1.5 × 6 = $243\n\nTotal gross earnings:\n\n$1,323\n\nApplicable state income tax, federal taxes and insurance contributions are calculated using their respective taxable wage amounts.\n\nSome employees also receive tips, commissions or shift differentials. These earnings may affect both withholding and payroll contribution calculations.\n\nConsult the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for information about overtime eligibility.\n\n## Does Hawaii Have Local Employee Income Taxes?\n\nHawaii counties generally do not impose a separate municipal personal wage income tax.\n\nHowever, Hawaii residents may encounter other state and local taxes through their spending and household expenses.\n\nThe state's general excise tax is a business tax and should not automatically be treated as a personal wage tax deducted from ordinary employee paychecks.\n\nIndependent contractors and business owners may have different tax responsibilities from W-2 employees.\n\nOur Hawaii paycheck calculator focuses on ordinary employee earnings rather than self-employment or business tax obligations.\n\n## Comparing Salaries Across the Hawaiian Islands\n\nA salary that provides a comfortable standard of living in one community may offer different purchasing power elsewhere.\n\nHousing costs, groceries, interisland transportation and access to healthcare can influence your household budget.\n\nWhen evaluating employment opportunities, compare estimated net income alongside employer-provided accommodation, transportation benefits, insurance coverage and retirement contributions.\n\nFor example, an employer that covers your full disability insurance and healthcare premium may provide a more valuable compensation package than a similar employer requiring larger employee contributions.\n\nCalculate the estimated take-home pay for each job before assessing the overall financial differences.\n\n## Planning Your Hawaii Monthly Budget\n\nUse your net income to establish spending limits for housing, food, transportation, utilities and other essential expenses.\n\nIf you work in an industry with seasonal demand, avoid assuming that your highest-earning paycheck represents your normal income.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help you establish a savings target based on monthly expenses. Our [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help you compare fixed salaries with hourly employment.\n\nReview your paycheck whenever Hawaii updates its withholding schedules or your employer modifies its insurance arrangements.\n\n## Frequently Asked Questions\n\n### What is the maximum Hawaii TDI deduction in 2026?\n\nThe maximum standard employee deduction is $7.50 per week. It also cannot exceed 0.5% of weekly wages or half the applicable premium cost.\n\n### Does every Hawaii employee pay the same healthcare deduction?\n\nNo. Employee healthcare deductions depend on coverage, eligibility, earnings, premium costs and employer contributions. Ordinary required employee coverage is subject to statutory cost-sharing limits.\n\n### Why did my Hawaii paycheck change even though my salary stayed the same?\n\nChanges to state withholding schedules, federal tax rules, employee benefits, insurance premiums or payroll contribution limits can affect take-home earnings without changing gross salary.\n\n## Calculate Your Hawaii Take-Home Pay\n\nUse our Hawaii paycheck calculator to understand how federal and state taxes, disability insurance and employee benefits affect your estimated net earnings.\n\nThe results are educational estimates and do not replace official payroll calculations or individualized tax advice."
+    }
+  ]
+}
