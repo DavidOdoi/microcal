@@ -8,6 +8,7 @@ export type PaycheckGuide = {
 };
 
 export const paycheckGuides: readonly PaycheckGuide[] = [
+  { state: 'South Carolina', slug: 'south-carolina-paycheck-calculator', relatedStates: ['georgia-paycheck-calculator', 'north-carolina-paycheck-calculator'] },
   { state: 'Rhode Island', slug: 'rhode-island-paycheck-calculator', relatedStates: ['connecticut-paycheck-calculator', 'massachusetts-paycheck-calculator'] },
   { state: 'Pennsylvania', slug: 'pennsylvania-paycheck-calculator', relatedStates: ['new-jersey-paycheck-calculator', 'ohio-paycheck-calculator'], localTax: 'Local earned income or Philadelphia Wage Tax' },
   { state: 'Oregon', slug: 'oregon-paycheck-calculator', relatedStates: ['nevada-paycheck-calculator'], localTax: 'Oregon local income tax' },
