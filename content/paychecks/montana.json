@@ -1,0 +1,126 @@
+{
+  "title": "Montana Paycheck Calculator 2026 – Take-Home Pay",
+  "metaDescription": "Estimate your 2026 Montana take-home pay using federal and Montana withholding from your paystub, Social Security, Medicare and other payroll deductions.",
+  "heading": "Montana Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Montana paycheck calculator** to estimate your take-home pay after federal income tax, Montana income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and provide your withholding information to understand how much money you could receive on payday.\n\nMontana introduced significant income tax and payroll withholding changes in 2026. Using outdated withholding allowances or older state tax rates could result in an inaccurate paycheck estimate.\n\nWhether you work in Billings, Missoula, Bozeman, Great Falls or another Montana community, this calculator can help you compare employment opportunities and manage household expenses.\n\n## How to Use the Montana Paycheck Calculator\n\nBegin by choosing annual salary or hourly wages.\n\nEnter your gross earnings before taxes and select your payment frequency.\n\nEnter the federal and Montana income tax withheld for the pay period from your pay stub, including additional or fixed withholding already reflected in those amounts.\n\nAdd retirement contributions, healthcare premiums and other employee deductions.\n\nReview the results to understand your estimated gross pay, individual taxes and remaining take-home income.\n\nUse your most recent pay stub and current withholding certificate to obtain a more representative estimate.\n\n## Montana Payroll Taxes in 2026\n\nMontana employees generally encounter the following payroll deductions."
+    },
+    {
+      "caption": "Montana Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Montana income tax",
+          "Applicable rates of 4.7% and 5.65%"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the applicable employer threshold"
+        ],
+        [
+          "Municipal employee income tax",
+          "Generally none"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual deductions depend on earnings, filing status, withholding elections and employee benefits.\n\nThe [Montana Department of Revenue](https://revenue.mt.gov/) provides official state income tax and employer withholding information.\n\n## What Changed in Montana Income Tax in 2026?\n\nMontana updated its income tax brackets and reduced its top marginal rate beginning January 1, 2026.\n\nThe previous top rate of 5.9% decreased to 5.65%.\n\nThe lower 4.7% rate also applies to a broader range of taxable income.\n\nThe applicable threshold depends on the taxpayer's filing classification."
+    },
+    {
+      "caption": "What Changed in Montana Income Tax in 2026?",
+      "columns": [
+        "Filing classification",
+        "Upper threshold for the 4.7% rate"
+      ],
+      "rows": [
+        [
+          "Single or married filing separately",
+          "$47,500"
+        ],
+        [
+          "Head of household",
+          "$71,250"
+        ],
+        [
+          "Married filing jointly",
+          "$95,000"
+        ]
+      ]
+    },
+    {
+      "markdown": "The 5.65% rate applies to qualifying taxable income exceeding the applicable threshold.\n\nThese thresholds relate to taxable income after applicable deductions, rather than gross salary.\n\nRead the official [Montana 2026 withholding update](https://revenue.mt.gov/news/recent-news/2026-withholding-updates) for an explanation of the changes.\n\n## Montana's New Withholding Method\n\nMontana changed more than its income tax rates in 2026.\n\nThe ordinary payroll withholding calculation no longer relies on the previous Montana personal allowance system, including separate state personal and dependent exemptions.\n\nInstead, the updated methodology relies on the applicable federal filing classification and federal standard deduction amount.\n\nEmployees can still request additional withholding or elect an applicable fixed withholding amount.\n\nThis distinction matters because a calculator that continues using the old allowance-based methodology may produce incorrect results even if it uses the updated tax rates.\n\nThe [Montana Employer and Information Agent Guide](https://www.revenue.mt.gov/publications/montana-employer-and-information-agent-guide) provides the official employer tables and calculation procedures.\n\n## Understanding Montana Form MW-4\n\nMontana employees generally complete Form MW-4 to provide state withholding information to their employers.\n\nThe updated 2026 certificate accounts for filing status, multiple jobs, additional withholding and qualifying exemption arrangements.\n\nEmployees with multiple jobs or married employees whose spouses also work should review the applicable worksheet when determining additional withholding.\n\nMontana does not accept the federal Form W-4 as a replacement for its current state withholding certificate.\n\nYou can obtain the updated [Montana Employee's Withholding and Exemption Certificate](https://revenue.mt.gov/publications/montana-employees-withholding-allowance-and-exemption-certificate-form-mw-4) from the Department of Revenue.\n\nReview your selections when starting a new job or experiencing a substantial change in household income.\n\n## Montana Income Tax Calculation Example\n\nTo understand the marginal tax structure, consider a single taxpayer with $50,000 in taxable income after applicable deductions.\n\nThe first $47,500 is subject to the lower 4.7% rate.\n\n$47,500 × 4.7% = $2,232.50\n\nThe remaining taxable income is:\n\n$50,000 − $47,500 = $2,500\n\nTax on the remaining portion:\n\n$2,500 × 5.65% = $141.25\n\nTotal illustrated income tax:\n\n$2,232.50 + $141.25 = $2,373.75\n\nThe example explains the marginal tax rates rather than establishing a complete paycheck withholding calculation.\n\nYour employer must apply the official payroll methodology, including applicable withholding adjustments and rounding.\n\n## Federal Taxes Deducted From Montana Paychecks\n\n### Federal income tax\n\nFederal income tax withholding depends on taxable earnings, filing status, payroll frequency and Form W-4 information.\n\nMultiple jobs, other income, eligible credits and additional withholding requests may change the amount deducted.\n\nReview [IRS Publication 15-T](https://www.irs.gov/publications/p15t) for the official calculation procedures.\n\n### Social Security\n\nEmployees generally contribute 6.2% of covered wages toward Social Security.\n\nThe 2026 annual taxable wage ceiling is $184,500.\n\nAn employee receiving $2,500 in covered earnings before reaching the annual limit would contribute $155.\n\n### Medicare\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings.\n\nThere is no standard annual taxable wage ceiling for ordinary Medicare.\n\nEmployers generally withhold an additional 0.9% on Medicare-covered wages exceeding $200,000 paid by that employer during the calendar year.\n\nThe [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) explains these federal payroll contributions.\n\n## Montana Paycheck Example: $65,000 Salary\n\nConsider a Montana employee earning $65,000 annually before taxes and deductions."
+    },
+    {
+      "caption": "Montana Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,250.00"
+        ],
+        [
+          "Biweekly",
+          "$2,500.00"
+        ],
+        [
+          "Semimonthly",
+          "$2,708.33"
+        ],
+        [
+          "Monthly",
+          "$5,416.67"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume all earnings are covered by ordinary Social Security and Medicare contributions.\n\nFor federal withholding, assume the employee is single, uses a modern Form W-4 and has no additional adjustments."
+    },
+    {
+      "caption": "Montana Paycheck Example: $65,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$216.15"
+        ],
+        [
+          "Social Security",
+          "$155.00"
+        ],
+        [
+          "Medicare",
+          "$36.25"
+        ],
+        [
+          "Total illustrated deductions",
+          "$407.40"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,092.60 remains before Montana income tax and other employee deductions.\n\nEnter your Montana withholding amount to obtain a more complete net paycheck estimate.\n\n## Montana Hourly Paycheck Calculator\n\nHourly employees can estimate gross earnings using their hourly rate and working hours.\n\nSuppose you earn $28 per hour and work 40 regular hours plus five qualifying overtime hours paid at time-and-a-half.\n\nRegular earnings:\n\n$28 × 40 = $1,120\n\nOvertime earnings:\n\n$28 × 1.5 × 5 = $210\n\nTotal gross earnings:\n\n$1,330\n\nAssuming ordinary federal payroll contribution coverage, Social Security would be $82.46 and Medicare would be approximately $19.29.\n\nFederal and Montana income tax withholding would also apply.\n\nEmployees working in construction, tourism, agriculture and other seasonal industries may experience variable working hours and earnings.\n\nReview the [US Department of Labor overtime guidance](https://www.dol.gov/agencies/whd/overtime) for applicable eligibility requirements.\n\n## Does Montana Have Local Employee Income Taxes?\n\nMontana municipalities generally do not impose separate personal wage income taxes.\n\nEmployees are still subject to applicable federal and Montana income taxes and payroll contributions.\n\nMontana also does not impose a general statewide sales tax, although certain communities may impose authorized local resort taxes.\n\nThese taxes and household expenses should be considered separately from employment paycheck deductions.\n\n## Working in Montana and Living in Another State\n\nEmployees near Montana's borders may work in one state while residing in another.\n\nMontana and North Dakota have a reciprocal income tax arrangement for qualifying employee compensation.\n\nEmployees may need to provide the applicable withholding certificate before receiving reciprocal treatment.\n\nLiving in a state without wage income tax does not automatically eliminate Montana tax on Montana-sourced employment earnings.\n\nRemote work and interstate employment may require additional income allocation calculations.\n\nConsult the Montana Department of Revenue before claiming exemption from state withholding.\n\n## Managing Seasonal Earnings in Montana\n\nMontana's tourism, agriculture and outdoor recreation industries can create seasonal employment patterns.\n\nIf your working hours fluctuate significantly, avoid using your highest-earning paycheck as the basis for your entire [annual budget](/calculators/budget-calculator/).\n\nEstimate earnings during both busy and quieter periods.\n\nCompare take-home income alongside housing, transportation, insurance and essential household expenses.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) can help establish a financial cushion for periods of reduced employment.\n\n## Frequently Asked Questions\n\n### What is Montana's income tax rate in 2026?\n\nMontana uses rates of 4.7% and 5.65% under its 2026 tax structure. Applicable filing thresholds and withholding adjustments determine the amount deducted from your paycheck.\n\n### Did Montana change its payroll withholding rules in 2026?\n\nYes. Montana updated its rates, thresholds and withholding methodology beginning January 1, 2026. The ordinary calculation no longer uses the previous state personal allowance system.\n\n### Does Montana have municipal employee income taxes?\n\nMontana municipalities generally do not impose separate personal wage income taxes on ordinary employment earnings.\n\n## Calculate Your Montana Take-Home Pay\n\nUse our Montana paycheck calculator to estimate your earnings after applicable taxes and employee deductions.\n\nThe results can help you compare salaries, prepare a realistic budget and understand your payroll statement. They are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

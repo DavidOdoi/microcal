@@ -1,3 +1,4 @@
+import montanaPaycheckContent from '@/content/paychecks/montana.json';
 import missouriPaycheckContent from '@/content/paychecks/missouri.json';
 import mississippiPaycheckContent from '@/content/paychecks/mississippi.json';
 import minnesotaPaycheckContent from '@/content/paychecks/minnesota.json';
@@ -75,6 +76,7 @@ const pages = {
   'rent-vs-buy-calculator': { category: 'mortgages', metadata: rentVsBuyMetadata, Component: RentVsBuyCalculatorPage },
 };
 const stateContent: Record<string, Parameters<typeof createStatePaystubGuidePage>[1]> = {
+  'montana-paycheck-calculator': montanaPaycheckContent,
   'missouri-paycheck-calculator': missouriPaycheckContent,
   'mississippi-paycheck-calculator': mississippiPaycheckContent,
   'minnesota-paycheck-calculator': minnesotaPaycheckContent,
