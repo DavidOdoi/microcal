@@ -15,6 +15,7 @@ function fieldsFor(state: 'ny' | 'idaho'): ScenarioField[] {
       { key: 'residence', label: 'Residence', value: 'other', options: [['other', 'New York State outside NYC / Yonkers'], ['nyc', 'New York City'], ['yonkers', 'Yonkers'], ['nonresident', 'Outside New York State']] },
       { key: 'work', label: 'New York work location', value: 'other', options: [['other', 'Outside Yonkers'], ['yonkers', 'Yonkers']] },
       { key: 'local', label: 'Applicable NYC / Yonkers withholding per paycheck', prefix: '$', value: '0', help: 'Enter applicable resident or nonresident local withholding from payroll. Choosing a location does not calculate this amount.' },
+      { key: 'nyDisability', label: 'NY disability insurance withheld per paycheck', prefix: '$', value: '0', help: 'Enter the amount from your paystub. Use zero if your employer paid the full cost. Enter this amount once.' },
       { key: 'pfl', label: 'Covered by NY Paid Family Leave', value: 'yes', options: [['yes', 'Yes'], ['no', 'No / employer pays contribution']] },
     ] as ScenarioField[] : []),
     { key: 'year', label: 'Payroll year', value: '2026', options: ny ? [['2026', '2026']] : [['2026', '2026'], ['2025', '2025']], advanced: true },
@@ -37,11 +38,11 @@ function fieldsFor(state: 'ny' | 'idaho'): ScenarioField[] {
   ];
 }
 function parse(state: 'ny' | 'idaho', v: ScenarioValues): StatePaycheckInput {
-  return { state, year: +v.year as StatePaycheckInput['year'], earnings: +v.earnings, earningsUnit: v.unit as StatePaycheckInput['earningsUnit'], hours: +v.hours, weeks: +v.weeks, periods: +v.periods as StatePaycheckInput['periods'], federalMode: v.federalMode as StatePaycheckInput['federalMode'], federalWithholding: +v.federal, stateWithholding: +v.state, localWithholding: +(v.local ?? 0), extraFederal: +v.extraFederal, extraState: +v.extraState, filingStatus: v.status as StatePaycheckInput['filingStatus'], otherAnnualIncome: +v.otherIncome, annualDeductions: +v.deductions, annualCredits: +v.credits, health: +v.health, traditional: +v.traditional, roth: +v.roth, otherDeductions: +v.other, ytdSocialSecurity: +v.ytdSs, ytdMedicare: +v.ytdMed, pflCovered: v.pfl === 'yes', ytdPfl: +(v.ytdPfl ?? 0), residence: (v.residence ?? 'other') as StatePaycheckInput['residence'], work: (v.work ?? 'other') as StatePaycheckInput['work'] };
+  return { state, year: +v.year as StatePaycheckInput['year'], earnings: +v.earnings, earningsUnit: v.unit as StatePaycheckInput['earningsUnit'], hours: +v.hours, weeks: +v.weeks, periods: +v.periods as StatePaycheckInput['periods'], federalMode: v.federalMode as StatePaycheckInput['federalMode'], federalWithholding: +v.federal, stateWithholding: +v.state, localWithholding: +(v.local ?? 0), extraFederal: +v.extraFederal, extraState: +v.extraState, filingStatus: v.status as StatePaycheckInput['filingStatus'], otherAnnualIncome: +v.otherIncome, annualDeductions: +v.deductions, annualCredits: +v.credits, health: +v.health, traditional: +v.traditional, roth: +v.roth, otherDeductions: +v.other, ytdSocialSecurity: +v.ytdSs, ytdMedicare: +v.ytdMed, pflCovered: v.pfl === 'yes', nyDisabilityWithholding: +(v.nyDisability ?? 0), ytdPfl: +(v.ytdPfl ?? 0), residence: (v.residence ?? 'other') as StatePaycheckInput['residence'], work: (v.work ?? 'other') as StatePaycheckInput['work'] };
 }
 const earningsInputs = ['earnings', 'unit', 'periods', 'year', 'hours', 'weeks'];
 const federalInputs = ['federal', 'extraFederal', 'ytdSs', 'ytdMed', 'federalMode', 'status', 'otherIncome', 'deductions', 'credits'];
-const stateInputs = ['state', 'residence', 'work', 'local', 'pfl', 'ytdPfl', 'extraState'];
+const stateInputs = ['state', 'residence', 'work', 'local', 'nyDisability', 'pfl', 'ytdPfl', 'extraState'];
 
 function groupFields(fields: ScenarioField[]) {
   return fields.map(field => ({
@@ -66,7 +67,7 @@ export function StatePaycheckCalculator({ state }: { state: 'ny' | 'idaho' }) {
       ['Social Security', cents(r.socialSecurity)], ['Medicare', cents(r.medicare)], ['Additional Medicare withholding', cents(r.additionalMedicare)],
     ];
     const other: [string, number][] = [
-      ...(ny ? [['NY Paid Family Leave', cents(r.pfl)] as [string, number]] : []),
+      ...(ny ? [['NY Paid Family Leave', cents(r.pfl)], ['NY disability insurance (entered)', cents(r.nyDisability)]] as [string, number][] : []),
       ['Benefit and retirement deductions', cents(r.benefitDeductions)], ['Other after-tax deductions', cents(+v.other)],
     ];
     const sum = (rows: [string, number][]) => rows.reduce((total, [, amount]) => total + amount, 0);

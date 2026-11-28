@@ -1,0 +1,150 @@
+{
+  "title": "New York Paycheck Calculator 2026 – NYS and NYC Taxes",
+  "metaDescription": "Calculate your New York take-home pay after federal taxes, NYS income tax, NYC or Yonkers taxes, paid family leave and disability insurance.",
+  "heading": "New York Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free New York paycheck calculator to estimate your take-home pay after federal income tax, New York State income tax, applicable New York City or Yonkers taxes, Social Security, Medicare and employee insurance contributions.\n\nEnter your annual salary or hourly wage, select your payment frequency and provide your residence and employment information to understand how much money you could receive on payday.\n\nNew York has several layers of payroll taxation. An employee living in Manhattan may receive a different net paycheck from someone earning the same salary in Albany, Buffalo or elsewhere in New York State.\n\nUnderstanding these differences can help you evaluate job offers, plan your monthly expenses and make informed financial decisions.\n\n## How to Use the New York Paycheck Calculator\n\nBegin by selecting annual salary or hourly wages.\n\nEnter your gross compensation before taxes and select your payment frequency.\n\nEnter federal and New York State income tax withheld for the pay period from your pay stub. Enter applicable NYC or Yonkers withholding separately. Use the annual federal planning option if you want a federal income-tax estimate.\n\nSelect whether you are a New York City resident, a Yonkers resident or a nonresident working in Yonkers.\n\nIndicate whether you pay for New York Paid Family Leave and enter prior contributions if you are near the annual cap. Enter disability insurance from your pay stub, along with retirement contributions, healthcare premiums and other applicable deductions.\n\nReview your estimated gross pay, individual deductions and remaining take-home income.\n\nFor greater accuracy, use your most recent pay stub and withholding certificates when entering your information.\n\n## New York Payroll Taxes in 2026\n\nNew York employees may encounter several different payroll deductions."
+    },
+    {
+      "caption": "New York Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "New York State income tax",
+          "Progressive state withholding schedules"
+        ],
+        [
+          "New York City income tax",
+          "Applicable resident withholding schedules"
+        ],
+        [
+          "Yonkers income or earnings tax",
+          "Depends on residency and employment"
+        ],
+        [
+          "Social Security",
+          "6.2% up to the annual wage ceiling"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered earnings"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "New York Paid Family Leave",
+          "0.432%, subject to an annual contribution cap"
+        ],
+        [
+          "Disability Benefits Law contribution",
+          "Generally up to $0.60 per week under standard arrangements"
+        ]
+      ]
+    },
+    {
+      "markdown": "Not every New York employee pays every deduction in this table.\n\nThe applicable taxes depend on residency, work location, employee benefits and withholding elections.\n\n## How New York State Income Tax Works\n\nNew York uses a progressive individual income tax system.\n\nDifferent portions of taxable income may be subject to different rates. Higher-income employees may also encounter special calculation methods that account for the state's tax benefit recapture provisions.\n\nNew York revised its 2026 income tax rate schedules and employer withholding tables to reflect enacted tax rate reductions.\n\nEmployers should use [Publication NYS-50-T-NYS](https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_nys.pdf) for the applicable payroll year.\n\nA reliable NYS paycheck calculator must use the authorized withholding methods rather than simply applying annual income tax return brackets to gross salary.\n\nVisit the official [New York withholding tax rate changes page](https://www.tax.ny.gov/bus/wt/rates.htm) for information about the 2026 updates.\n\n## Understanding New York Form IT-2104\n\nNew York employees generally use Form IT-2104 to communicate state and applicable local withholding information to employers.\n\nThe form allows employees to report withholding allowances and request additional amounts for New York State, New York City and Yonkers taxes.\n\nThese state and local withholding elections are separate from the modern federal Form W-4.\n\nEmployees may need to complete Form IT-2104.1 when their employment involves nonresident withholding or income allocation.\n\nReview your withholding information if you move, change jobs or experience a significant change in household income.\n\nThe [New York withholding forms directory](https://www.tax.ny.gov/forms/withholding_cur_forms.htm) provides official certificates and employer calculation publications.\n\n## New York City Paycheck Calculator\n\nNew York City residents generally pay city personal income tax in addition to New York State and federal income taxes.\n\nThe ordinary annual NYC personal income tax rates range from 3.078% to 3.876%, depending on taxable income and filing status.\n\nHowever, actual payroll withholding follows the city's separate employer withholding schedules.\n\nLiving in Brooklyn, Manhattan, Queens, the Bronx or Staten Island may therefore affect your take-home pay compared with living outside New York City.\n\nEmployees who commute into New York City from outside the city generally do not pay ordinary NYC resident income tax solely because they work there. Special arrangements can apply to certain city government employees.\n\nConfirm your residence and applicable employment circumstances before selecting NYC withholding.\n\n## Yonkers Resident and Nonresident Taxes\n\nYonkers has its own local income tax arrangements.\n\nResidents are generally subject to a city income tax surcharge tied to the applicable New York State tax calculation.\n\nNonresidents performing qualifying employment duties in Yonkers may be subject to a separate earnings tax.\n\nThe ordinary Yonkers resident surcharge is 16.75%, while the nonresident earnings tax rate is 0.5%.\n\nThe resident surcharge should not be calculated as 16.75% of gross salary. It is associated with the applicable state income tax calculation and must follow the official Yonkers withholding methodology.\n\nUse [Publication NYS-50-T-Y](https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_y.pdf) from the New York Department of Taxation and Finance to determine the appropriate withholding amount.\n\n## New York Paid Family Leave Contributions\n\nNew York Paid Family Leave provides financial benefits to eligible workers taking leave for qualifying family-related circumstances.\n\nFor 2026, covered employees generally contribute 0.432% of gross covered wages, up to an annual maximum contribution of $411.91.\n\nAssuming the annual maximum has not been reached:"
+    },
+    {
+      "caption": "New York Paid Family Leave Contributions",
+      "columns": [
+        "Covered earnings",
+        "Employee contribution"
+      ],
+      "rows": [
+        [
+          "$500",
+          "$2.16"
+        ],
+        [
+          "$1,000",
+          "$4.32"
+        ],
+        [
+          "$2,000",
+          "$8.64"
+        ],
+        [
+          "$2,500",
+          "$10.80"
+        ],
+        [
+          "$5,000",
+          "$21.60"
+        ]
+      ]
+    },
+    {
+      "markdown": "An employer may cover the cost instead of collecting the contribution from employees.\n\nVisit the official [New York Paid Family Leave website](https://paidfamilyleave.ny.gov/) for current program information.\n\n### Paid Family Leave annual cap example\n\nSuppose you have already contributed $405 toward Paid Family Leave during 2026.\n\nYour next paycheck contains $2,500 in covered wages, ordinarily producing a $10.80 contribution.\n\nHowever, only $6.91 remains before reaching the annual maximum of $411.91.\n\nYour remaining contribution would therefore be limited to $6.91 under ordinary covered employment.\n\n## New York Disability Insurance Contributions\n\nNew York employers may collect employee contributions toward statutory disability benefits coverage.\n\nUnder standard arrangements, the employee contribution is limited to 0.5% of weekly wages, with a maximum of $0.60 per week.\n\nFor example, an employee earning $1,000 weekly would have a wage-based calculation of $5. However, the standard weekly ceiling limits the contribution to $0.60.\n\nEmployers are not required to deduct the contribution from employees and may pay the full cost themselves.\n\nCertain approved enhanced benefit plans can have different contribution arrangements.\n\nRead the official [New York Workers' Compensation Board disability benefits guidance](https://apps.wcb.ny.gov/content/main/DisabilityBenefits/employee-disability-benefits.jsp) for additional information.\n\n## New York Paycheck Example: $78,000 Salary\n\nConsider an employee earning $78,000 annually and receiving 26 biweekly paychecks."
+    },
+    {
+      "caption": "New York Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Pay frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500"
+        ],
+        [
+          "Biweekly",
+          "$3,000"
+        ],
+        [
+          "Semimonthly",
+          "$3,250"
+        ],
+        [
+          "Monthly",
+          "$6,500"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee is covered by ordinary federal payroll contributions, pays the standard Paid Family Leave contribution and pays the maximum standard disability insurance deduction for two covered weeks."
+    },
+    {
+      "caption": "New York Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Paid Family Leave",
+          "$12.96"
+        ],
+        [
+          "Disability insurance",
+          "$1.20"
+        ],
+        [
+          "Total illustrated deductions",
+          "$243.66"
+        ]
+      ]
+    },
+    {
+      "markdown": "Approximately $2,756.34 remains before federal income tax, New York State income tax, applicable local taxes and other employee deductions.\n\nThis example assumes the employee has not reached any annual contribution limits.\n\nEnter your actual withholding information and residence circumstances to calculate your estimated net paycheck.\n\n## New York Hourly Paycheck Calculator\n\nSuppose you earn $30 per hour and work 40 regular hours plus six qualifying overtime hours at time-and-a-half.\n\nRegular earnings: $30 × 40 = $1,200.\n\nOvertime earnings: $30 × 1.5 × 6 = $270.\n\nTotal gross earnings: $1,470.\n\nApplicable income taxes, payroll contributions and employee benefit deductions are then calculated using their respective taxable wage amounts.\n\nConsult the [New York Department of Labor](https://dol.ny.gov/) for state wage and overtime requirements.\n\n## Comparing New York Salaries and Living Expenses\n\nA salary increase does not necessarily produce an equivalent improvement in disposable income.\n\nCompare your estimated take-home pay alongside housing, transportation, healthcare premiums and employer retirement matching.\n\nEmployees considering a move between New York City and another part of New York State should also account for potential differences in local income tax.\n\nOur [US paycheck calculator](/calculators/paycheck-calculator/) can help compare salaries across states. Our [emergency fund calculator](/savings/emergency-fund-calculator/) can help estimate the savings needed to cover unexpected expenses.\n\n## Frequently Asked Questions\n\n\n### Do all New York employees pay NYC income tax?\n\nNo. Ordinary New York City personal income tax generally applies to city residents. Nonresidents working in the city do not automatically become subject to the ordinary resident tax.\n\n### How much is New York Paid Family Leave in 2026?\n\nThe standard employee contribution is 0.432% of covered gross wages, up to a maximum annual contribution of $411.91.\n\n### Why does my New York paycheck differ from another employee earning the same salary?\n\nDifferences in city residency, withholding allowances, healthcare premiums, retirement contributions and year-to-date payroll contributions can affect take-home pay.\n\n## Calculate Your New York Take-Home Pay\n\nUse our New York paycheck calculator to understand how state and federal taxes, applicable city taxes and employee insurance contributions affect your earnings.\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}

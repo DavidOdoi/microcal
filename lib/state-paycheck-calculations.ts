@@ -9,6 +9,7 @@ export type StatePaycheckInput = {
   filingStatus: FilingStatus; otherAnnualIncome: number; annualDeductions: number; annualCredits: number;
   health: number; traditional: number; roth: number; otherDeductions: number;
   ytdSocialSecurity: number; ytdMedicare: number; pflCovered: boolean; ytdPfl: number;
+  nyDisabilityWithholding?: number;
   residence: 'other' | 'nyc' | 'yonkers' | 'nonresident'; work: 'other' | 'yonkers';
 };
 
@@ -33,6 +34,8 @@ export function validateStatePaycheck(v: StatePaycheckInput): string[] {
   if (!Number.isFinite(v.weeks) || v.weeks <= 0 || v.weeks > 52) errors.push('Enter more than 0 and up to 52 paid weeks per year.');
   if (!['entered', 'planning'].includes(v.federalMode) || !['single', 'joint', 'separate', 'head'].includes(v.filingStatus)) errors.push('Choose a federal estimate method and filing status.');
   if (!['other', 'nyc', 'yonkers', 'nonresident'].includes(v.residence) || !['other', 'yonkers'].includes(v.work)) errors.push('Choose valid work and residence locations.');
+  const nyDisability = v.nyDisabilityWithholding ?? 0;
+  if (!Number.isFinite(nyDisability) || nyDisability < 0 || nyDisability > 1e9 || (v.state !== 'ny' && nyDisability !== 0)) errors.push('Enter a valid New York disability withholding amount.');
   if (v.state === 'idaho' && v.localWithholding !== 0) errors.push('This Idaho model does not apply a local income tax.');
   if (errors.length) return errors;
   const annual = annualizeEarnings(v);
@@ -58,11 +61,12 @@ export function calculateStatePaycheck(v: StatePaycheckInput) {
   const local = v.state === 'idaho' ? 0 : v.localWithholding;
   const pfl = v.state === 'ny' ? calculateNyPfl2026(gross, v.ytdPfl, v.pflCovered) : 0;
   const taxes = federal + state + local + fica.socialSecurity + fica.medicare + fica.additionalMedicare;
-  const deductions = wageBases.benefitDeductions + v.otherDeductions + pfl;
-  return { annualGross, gross, ...wageBases, ...fica, federal, state, local, pfl, taxes, deductions, net: gross - taxes - deductions };
+  const nyDisability = v.nyDisabilityWithholding ?? 0;
+  const deductions = wageBases.benefitDeductions + v.otherDeductions + pfl + nyDisability;
+  return { annualGross, gross, ...wageBases, ...fica, federal, state, local, pfl, nyDisability, taxes, deductions, net: gross - taxes - deductions };
 }
 
-export type NationalPaycheckInput = Omit<StatePaycheckInput, 'state' | 'pflCovered' | 'ytdPfl' | 'residence' | 'work'> & {
+export type NationalPaycheckInput = Omit<StatePaycheckInput, 'state' | 'pflCovered' | 'ytdPfl' | 'residence' | 'work' | 'nyDisabilityWithholding'> & {
   stateDisabilityWithholding?: number;
 };
 

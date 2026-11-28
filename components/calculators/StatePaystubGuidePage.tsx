@@ -25,23 +25,27 @@ export function createStatePaystubGuidePage(guide: PaycheckGuide, content: Guide
         description={description}
         intro={description}
         calculator={<NationalPaycheckCalculator paystubState={{ name: guide.state, localTax: guide.localTax, noStateIncomeTax: guide.noStateIncomeTax, combinedStateAndLocal: guide.combinedStateAndLocal }} />}
-        article={<>
-          {content.parts.map((part, index) => 'markdown' in part ? (
-            <Markdown key={index} skipHtml>{part.markdown}</Markdown>
-          ) : (
-            <div key={index} className="finance-table-wrap">
-              <table>
-                <caption>{part.caption}</caption>
-                <thead><tr>{part.columns.map(column => <th key={column} scope="col">{column}</th>)}</tr></thead>
-                <tbody>{part.rows.map(([label, ...values]) => (
-                  <tr key={label}><th scope="row">{label}</th>{values.map((value, cell) => <td key={cell}>{value}</td>)}</tr>
-                ))}</tbody>
-              </table>
-            </div>
-          ))}
-          <p><Link href="/calculators/paycheck-calculator/">US Paycheck Calculator and state directory</Link></p>
-        </>}
+        article={<StatePaystubGuideArticle content={content} />}
       />;
     },
   };
+}
+
+export function StatePaystubGuideArticle({ content }: { content: GuideContent }) {
+  return <>
+    {content.parts.map((part, index) => 'markdown' in part ? (
+      <Markdown key={index} skipHtml>{part.markdown}</Markdown>
+    ) : (
+      <div key={index} className="finance-table-wrap">
+        <table>
+          <caption>{part.caption}</caption>
+          <thead><tr>{part.columns.map(column => <th key={column} scope="col">{column}</th>)}</tr></thead>
+          <tbody>{part.rows.map(([label, ...values]) => (
+            <tr key={label}><th scope="row">{label}</th>{values.map((value, cell) => <td key={cell}>{value}</td>)}</tr>
+          ))}</tbody>
+        </table>
+      </div>
+    ))}
+    <p><Link href="/calculators/paycheck-calculator/">US Paycheck Calculator and state directory</Link></p>
+  </>;
 }

@@ -20,7 +20,7 @@ const cases = [
   { slug: 'farm-loan-calculator', category: 'business', name: 'Farm Loan Calculator', result: 'Your Farm Loan Estimate', sample: '$1,013.82', heading: 'What Is a Farm Loan Calculator?' },
   { slug: 'idaho-paycheck-calculator', category: 'taxes', name: 'Idaho Paycheck Calculator', result: 'Your Idaho Paycheck Estimate', sample: '$1,841.15', heading: 'What Is an Idaho Paycheck Calculator?' },
   { slug: 'salary-to-hourly-calculator', category: 'taxes', name: 'Salary to Hourly Calculator', result: 'Your Salary Conversion', sample: '$31.25', heading: 'What Is a Salary to Hourly Calculator?' },
-  { slug: 'new-york-paycheck-calculator', category: 'taxes', name: 'New York Paycheck Calculator', result: 'Your New York Paycheck Estimate', sample: '$3,945.90', heading: 'What Is a New York Paycheck Calculator?' },
+  { slug: 'new-york-paycheck-calculator', category: 'taxes', name: 'New York Paycheck Calculator', result: 'Your New York Paycheck Estimate', sample: '$3,945.90', heading: 'New York Paycheck Example: $78,000 Salary' },
   { slug: 'income-tax-calculator', category: 'taxes', name: 'Federal Income Tax Calculator', result: 'Your Federal Income Tax Estimate', sample: '$7,670.00', heading: 'What Is a Federal Income Tax Calculator?' },
   { slug: '401k-early-withdrawal-calculator', category: 'retirement', name: '401(k) Early Withdrawal Calculator', result: 'Your Withdrawal Estimate', sample: '$12,600.00', heading: 'What Is a 401(k) Early Withdrawal Calculator?' },
   { slug: 'social-security-benefits-calculator', category: 'retirement', name: 'Social Security Benefits Calculator', result: 'Your Social Security Estimate', sample: '$2,000.00', heading: 'What Is a Social Security Benefits Calculator?' },

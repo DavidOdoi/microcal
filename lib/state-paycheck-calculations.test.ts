@@ -76,3 +76,12 @@ test('invalid deductions, pay periods, and wages are rejected; over-withholding 
   }
   assert.ok(calculateStatePaycheck({ ...example, federalWithholding: 6000 }).net < 0);
 });
+
+test('New York subtracts the entered disability contribution once, alongside calculated paid leave', () => {
+  const paycheck = { ...example, earnings: 78000, periods: 26, federalWithholding: 0, stateWithholding: 0, nyDisabilityWithholding: 1.20 } as const;
+  const result = calculateStatePaycheck(paycheck);
+  assert.equal(result.nyDisability, 1.20);
+  near(result.pfl, 12.96);
+  near(result.net, 2756.34);
+  assert.ok(validateStatePaycheck({ ...paycheck, nyDisabilityWithholding: -1 }).length);
+});
