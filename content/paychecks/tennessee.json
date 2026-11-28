@@ -1,0 +1,110 @@
+{
+  "title": "Tennessee Paycheck Calculator 2026 – Salary After Tax",
+  "metaDescription": "Estimate your Tennessee take-home pay after federal income tax, Social Security, Medicare and employee deductions with our free calculator.",
+  "heading": "Tennessee Paycheck Calculator",
+  "parts": [
+    {
+      "markdown": "Use our free **Tennessee paycheck calculator** to estimate your take-home pay after federal income tax, Social Security, Medicare and other employee deductions.\n\nEnter your annual salary or hourly wage, select your payment frequency and customize your withholding information to understand how much money you could receive on payday.\n\nTennessee does not impose individual income tax on ordinary employment earnings, but federal payroll taxes and employee benefits still affect your net income.\n\nWhether you work in Nashville, Memphis, Knoxville, Chattanooga or another Tennessee community, this calculator can help you compare employment opportunities and manage monthly expenses.\n\n## How to Use the Tennessee Paycheck Calculator\n\nSelect annual salary or hourly wages and enter your gross compensation before taxes.\n\nChoose your payment frequency. Enter the full federal income tax withheld for the pay period from your pay stub.\n\nInclude healthcare premiums, retirement contributions and other employee deductions.\n\nEnter year-to-date taxable wages if you are approaching annual federal payroll contribution thresholds.\n\nReview your estimated paycheck breakdown and remaining take-home income.\n\nTennessee employees generally do not need a separate state personal income tax withholding certificate.\n\n## Tennessee Payroll Taxes in 2026"
+    },
+    {
+      "caption": "Tennessee Payroll Taxes in 2026",
+      "columns": [
+        "Tax or contribution",
+        "Rate or calculation"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "Federal withholding schedules"
+        ],
+        [
+          "Tennessee individual income tax",
+          "None"
+        ],
+        [
+          "Social Security",
+          "6.2% up to $184,500"
+        ],
+        [
+          "Medicare",
+          "1.45% of covered wages"
+        ],
+        [
+          "Additional Medicare",
+          "0.9% above the employer withholding threshold"
+        ],
+        [
+          "State unemployment insurance",
+          "Employer expense"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck depends on taxable earnings, federal withholding elections and employee benefits.\n\nVisit the [Tennessee Department of Revenue](https://www.tn.gov/revenue.html) for official information about state taxation.\n\n## Does Tennessee Have State Income Tax?\n\nTennessee does not impose individual income tax on ordinary wages.\n\nEmployees working and residing in Tennessee therefore generally do not have Tennessee personal income tax deducted from their regular paychecks.\n\nHowever, this does not mean employment earnings are completely tax-free.\n\nFederal income tax, Social Security, Medicare and other applicable deductions continue to reduce gross earnings.\n\nTennessee previously imposed the Hall Income Tax on certain interest and dividend income. This tax was repealed effective January 1, 2021.\n\nThe former Hall Income Tax should not be included in a 2026 paycheck calculation.\n\nRead the official [Tennessee income tax withholding guidance](https://revenue.support.tn.gov/hc/en-us/articles/360057595051-GEN-34-Income-Tax-Withholding) for confirmation.\n\n## Federal Income Tax on Tennessee Paychecks\n\nFederal income tax withholding depends on your taxable earnings, filing status, payment frequency and information supplied on Form W-4.\n\nEmployees with multiple jobs or additional household income may need different withholding adjustments.\n\nFederal income tax uses progressive rates, meaning different portions of taxable income are subject to different percentages.\n\nEmployers calculate withholding using the procedures in [IRS Publication 15-T](https://www.irs.gov/publications/p15t).\n\nThe [IRS Form W-4 instructions](https://www.irs.gov/forms-pubs/about-form-w-4) explain how employees can communicate their withholding elections.\n\nYou can also use the official [IRS Tax Withholding Estimator](https://www.irs.gov/individuals/tax-withholding-estimator) to evaluate whether your current deductions are appropriate.\n\n## Social Security and Medicare Contributions\n\nEmployees generally contribute 6.2% of covered earnings toward Social Security.\n\nThe annual taxable wage ceiling is $184,500 in 2026.\n\nFor example, an employee receiving $3,000 in covered wages before reaching the annual limit would contribute $186.\n\nOrdinary Medicare withholding applies at 1.45% of covered earnings.\n\nA $3,000 Medicare-covered paycheck would produce a $43.50 deduction.\n\nEmployers generally collect an additional 0.9% once Medicare-covered wages paid by that employer exceed $200,000 during the calendar year.\n\nReview the [Social Security Administration wage base information](https://www.ssa.gov/oact/cola/cbb.html) and [IRS Employer's Tax Guide](https://www.irs.gov/publications/p15) for official annual limits and contribution rules.\n\n## Tennessee Paycheck Example: $78,000 Salary\n\nConsider an employee earning $78,000 annually before taxes."
+    },
+    {
+      "caption": "Tennessee Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Payment frequency",
+        "Gross earnings"
+      ],
+      "rows": [
+        [
+          "Weekly",
+          "$1,500.00"
+        ],
+        [
+          "Biweekly",
+          "$3,000.00"
+        ],
+        [
+          "Semimonthly",
+          "$3,250.00"
+        ],
+        [
+          "Monthly",
+          "$6,500.00"
+        ]
+      ]
+    },
+    {
+      "markdown": "Assume the employee is single, uses a modern federal Form W-4, has not selected the multiple-jobs checkbox and has no additional credits or withholding adjustments.\n\nAlso assume there are no employee benefit deductions or reached annual payroll contribution thresholds."
+    },
+    {
+      "caption": "Tennessee Paycheck Example: $78,000 Salary",
+      "columns": [
+        "Deduction",
+        "Estimated amount"
+      ],
+      "rows": [
+        [
+          "Federal income tax",
+          "$320.38"
+        ],
+        [
+          "Tennessee income tax",
+          "$0.00"
+        ],
+        [
+          "Social Security",
+          "$186.00"
+        ],
+        [
+          "Medicare",
+          "$43.50"
+        ],
+        [
+          "Total deductions",
+          "$549.88"
+        ],
+        [
+          "Estimated take-home pay",
+          "$2,450.12"
+        ]
+      ]
+    },
+    {
+      "markdown": "Your actual paycheck may differ depending on retirement contributions, insurance premiums and withholding elections.\n\n## Tennessee Hourly Paycheck Calculator\n\nHourly employees can calculate gross earnings using regular working hours and qualifying overtime compensation.\n\nSuppose you earn $25 per hour and work 40 regular hours plus eight qualifying overtime hours at time-and-a-half.\n\nRegular earnings:\n\n$25 × 40 = $1,000.\n\nOvertime earnings:\n\n$25 × 1.5 × 8 = $300.\n\nTotal gross earnings: $1,300.\n\nAssuming ordinary payroll contribution coverage, Social Security would be $80.60 and Medicare would be $18.85.\n\nFederal income tax and other employee deductions would also apply.\n\nConsult the [Tennessee Department of Labor and Workforce Development](https://www.tn.gov/workforce.html) and [US Department of Labor overtime requirements](https://www.dol.gov/agencies/whd/overtime) for applicable eligibility rules.\n\n## Tennessee Unemployment Insurance\n\nTennessee's unemployment insurance program is funded through applicable employer tax premiums.\n\nOrdinary employer unemployment insurance contributions should not be subtracted from employee take-home pay.\n\nRead the [Tennessee covered employment guidance](https://lwdsupport.tn.gov/hc/en-us/articles/26108109587987-How-do-I-determine-if-my-employment-qualifies-as-covered-employment) for information about insured employment.\n\nIndependent contractors may have different tax and benefit obligations from ordinary W-2 employees.\n\n## Does Nashville Have a Local Income Tax?\n\nNashville and other Tennessee municipalities generally do not impose separate personal wage income taxes.\n\nHowever, state and local sales taxes, property taxes, housing expenses and transportation costs can influence household purchasing power.\n\nWhen evaluating employment opportunities, compare net salary and expected living expenses separately.\n\nVisit the [Tennessee sales and use tax resources](https://www.tn.gov/revenue/taxes/sales-and-use-tax.html) for information about consumption taxes.\n\n## Working Across Tennessee State Borders\n\nTennessee borders several states that impose individual income tax.\n\nEmployees residing in Tennessee while working in Georgia, North Carolina or another income-taxing state may have additional withholding obligations.\n\nLiving in Tennessee does not automatically eliminate another state's income tax on qualifying employment earnings.\n\nRemote work and employment across multiple jurisdictions may require additional income allocation calculations.\n\nConsult your employer and relevant state tax authorities before applying a standard Tennessee-only paycheck estimate.\n\n## Managing Your Tennessee Take-Home Income\n\nBuild your monthly budget around estimated net earnings rather than gross salary.\n\nAccount for housing, transportation, healthcare, groceries and required debt payments.\n\nTraditional retirement contributions may reduce current federal income-taxable wages, while Roth contributions generally do not offer the same immediate reduction.\n\nReview the [IRS retirement plan guidance](https://www.irs.gov/retirement-plans) before changing your contributions.\n\nOur [emergency fund calculator](/savings/emergency-fund-calculator/) and [salary-to-hourly calculator](/calculators/salary-to-hourly-calculator/) can help you establish realistic financial goals.\n\n## Frequently Asked Questions\n\n### Does Tennessee deduct state income tax from wages?\n\nNo. Tennessee does not impose individual state income tax on ordinary employee wages. Federal taxes and other applicable deductions still apply.\n\n### Does Tennessee still have the Hall Income Tax?\n\nNo. The former tax on qualifying interest and dividend income was repealed effective January 1, 2021.\n\n### How much will I take home from a $78,000 salary in Tennessee?\n\nUnder the single-filer assumptions illustrated above, estimated biweekly take-home pay is $2,450.12. Your actual result depends on federal withholding and employee deductions.\n\n## Calculate Your Tennessee Take-Home Pay\n\nUse our Tennessee paycheck calculator to estimate your earnings after taxes, compare job offers and establish a realistic [household budget](/calculators/budget-calculator/).\n\nThe results are educational estimates rather than official payroll calculations or individualized tax advice."
+    }
+  ]
+}
